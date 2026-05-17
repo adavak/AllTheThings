@@ -74,7 +74,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 		["timeline"] = { ADDED_12_0_5 },
 	}, {
 		n(VOID_ASSAULTS, {
-			faction(FACTION_RITUAL_SITES),
 			n(ACHIEVEMENTS, {	-- Achievements do not reward Mounts and Pets. They unlock the ability for you to buy them from the vendor.
 				ach(62574),	-- Accolade to Rest
 				ach(62573),	-- Air Traffic Controller
@@ -737,7 +736,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						i(263929, {	-- Cache of Void-Touched Armaments (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 500 } },
-							["sym"] = { { "select", "itemID", 263928 } },	-- Cache of Void-Touched Armaments (Champion)
+							["sym"] = { { "select", "itemID", 263928 },{"pop"} },	-- Cache of Void-Touched Armaments (Champion)
 						}),
 						i(268996, {	-- Field Accolade (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
 							["cost"] = { { "i", DARK_PARTICLE, 100 } },
@@ -972,6 +971,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 			}),
 		}),
 		n(RITUAL_SITES, {
+			faction(FACTION_RITUAL_SITES),
 			m(BROKEN_THRONE, {
 				["icon"] = 7578705,
 				["cr"] = 260104,	-- Curious Obelisk
@@ -1056,19 +1056,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								{ 55.8, 45.6, DAGGERSPINE_POINT },
 								{ 68.7, 47.7, DAGGERSPINE_POINT },
 								{ 71.6, 50.3, DAGGERSPINE_POINT },
-							},
-						}),
-						i(270063, {	-- Void-Touched Lynx Kitten (PET!)
-							["description"] = "Tier 3 or higher. Found by clicking the Rustling Bushes inside the Ritual Site.\nYou will have to find multiple Bushes across multiple instances as only 1 Bush is available per run.",
-							["coords"] = {
-								{ 66.40, 52.46, DAGGERSPINE_POINT },
-								{ 55.00, 79.30, DAGGERSPINE_POINT },
-								{ 35.10, 44.50, DAGGERSPINE_POINT },
-								{ 68.46, 37.62, DAGGERSPINE_POINT },
-								{ 63.58, 65.58, DAGGERSPINE_POINT },
-								{ 42.03, 80.03, DAGGERSPINE_POINT },
-								{ 41.76, 49.69, DAGGERSPINE_POINT },
-								{ 43.31, 57.99, DAGGERSPINE_POINT },
 							},
 						}),
 					}),
@@ -1547,6 +1534,42 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						{ 58.8, 49.1, DAGGERSPINE_POINT },
 					},
 					["groups"] = { i(271427) },	-- Exquisite Treasure (QS!/QI!)
+				}),
+				header(HEADERS.Item, 270063, {	-- Void-Touched Lynx Kitten
+					["description"] = "Tier 3 or higher. Found by clicking the Rustling Bushes/Ferns inside the Ritual Site.\nYou will have to find multiple Bushes/Ferns across multiple instances as only 1 Bush is available per run.",
+					["providers"] = {
+						{ "o", 649420 },	-- Rustling Bush [Daggerspine Point]
+						{ "o", 649437 },	-- Rustling Fern [Broken Throne]
+					},
+					["coords"] = {
+						-- Copied various coords reported on wowhead, might not be exhaustive
+						-- Daggerspine
+						{ 35.10, 44.50, DAGGERSPINE_POINT },
+						{ 41.76, 49.69, DAGGERSPINE_POINT },
+						{ 42.03, 80.03, DAGGERSPINE_POINT },
+						{ 42.99, 49.68, DAGGERSPINE_POINT },
+						{ 43.31, 57.99, DAGGERSPINE_POINT },
+						{ 55.00, 79.30, DAGGERSPINE_POINT },
+						{ 63.58, 65.58, DAGGERSPINE_POINT },
+						{ 66.40, 52.46, DAGGERSPINE_POINT },
+						{ 66.62, 37.14, DAGGERSPINE_POINT },
+						{ 68.46, 37.62, DAGGERSPINE_POINT },
+						-- Broken Throne
+						{ 39.00, 45.00, BROKEN_THRONE },
+						{ 40.90, 67.40, BROKEN_THRONE },
+						{ 42.00, 45.00, BROKEN_THRONE },
+						{ 48.10, 83.10, BROKEN_THRONE },
+						{ 48.48, 76.90, BROKEN_THRONE },
+						{ 51.50, 44.90, BROKEN_THRONE },
+						{ 51.59, 36.43, BROKEN_THRONE },
+						{ 52.85, 83.40, BROKEN_THRONE },
+						{ 54.30, 45.00, BROKEN_THRONE },
+						{ 54.30, 72.60, BROKEN_THRONE },
+						{ 58.22, 79.36, BROKEN_THRONE },
+						{ 58.46, 49.58, BROKEN_THRONE },
+						{ 60.10, 66.10, BROKEN_THRONE },
+					},
+					["groups"] = { i(270063), },	-- Void-Touched Lynx Kitten (PET!)
 				}),
 				o(645184, {	-- Sculpted Treasure
 					["coords"] = {
