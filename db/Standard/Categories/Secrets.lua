@@ -76,7 +76,26 @@ o(303016,{coords={
 [875]={{45.9,3.7},{47.7,-3},{55.7,-10.2}}},description="|cFFFFFFFFStep 14:|r Head to the very northernmost point in Vol'dun. There will be three waypoints on your map, which you may have to zoom out to the continent map to see — south, central, and north.\n\nStart from the southern waypoint, fly to the central waypoint to reset your fatigue, and then head to the final waypoint to find an underwater cave. Again, Underlight Angler or other swim speed increases are probably necessary.\n\nYou can swim into the cave to reset your fatigue again, but the pebble is right inside the entrance. Swim down to the bottom and it's next to a rock and what looks like a small shard of rock, around |cFFFFFFFF55.8, -10.0|r.\n\nThe stone reads:\n\"<Something is carved into the stone.>\n\nHeckler of the Murkiest Thugs, sheathe \nyour\nBat and remove the Keg Cork, Wot?\"\n",modelScale=0.5,questID=52827,sourceQuests={53634}}),
 n(141909,{coords={
 [525]={{62.3,22.9}}},description="|cFFFFFFFFStep 15:|r Head to Frostfire Ridge. You'll find Baa'l at the coordinates provided, in a volcano, just chilling, like you do.\n\nSummon your empowered Uuna to weaken him, and then attack!  Dragonkin pets are a wise choice, but he's very easy to beat post-Uuna Reckoning regardless.\n\nEnjoy your new pet!  Hail Satan!\n",questID=52828,sourceQuests={52827},g={
-p(2352,{b=1,itemID=162578,npcID=141941,spellID=277461})}})}})}}),
+p(2352,{b=1,itemID=162578,npcID=141941,spellID=277461})}})}}),
+ah(279213,{description="You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.",displayID=86805,modelScale=0.8,type="s",g={
+h(-47,{maps={896},g={
+p(2411,{b=1,cost={{"i",163796,1},{"i",163790,1},{"i",163791,1},{"i",163789,1}},itemID=163497,npcID=143189,spellID=279213})}}),
+o(297879,{coords={
+[896]={{55.6,51.8}}},description="Click the inactive torches.",modelScale=1.5,questID=53472,g={
+i(163790,{b=1,spellID=280310}),
+crit(41703,{achID=12995,id=7})}}),
+o(297881,{coords={
+[896]={{25.5,24.2}}},description="Click the inactive torches.",modelScale=1.5,questID=53474,g={
+i(163796,{b=1,spellID=280310}),
+crit(41705,{achID=12995,id=9})}}),
+o(297880,{coords={
+[896]={{67.7,73.7}}},modelScale=1.5,questID=53473,g={
+i(163791,{b=1,spellID=280310}),
+crit(41704,{achID=12995,id=8})}}),
+o(297878,{coords={
+[896]={{18.5,51.3}}},description="Click the inactive torches.",modelScale=1.5,questID=53471,g={
+i(163789,{b=1,spellID=280310}),
+crit(41702,{achID=12995,id=6})}})}})}}),
 x(9,{
 ah(344577,{awp=90005,cost={{"i",184870,1}},description="Requires |cFF006812Appreciative|r reputation with Ve'nari and a total of 3,500 Stygia.\n\nEnable quest tracking to see all the steps.\n\nPurchase a |cFF0070ddStygia Dowser|r from Ve'nari for 1,500 Stygia.Throughout the secret, harvest every Stygia Nexus you find, as you will eventually need 200 |cFF1eff00Stygia Dust|r and |cFF1eff00Stygia Slivers|r.",displayID=92632,maps={1543},modelScale=1.1,type="s",g={
 prof(2811,{
