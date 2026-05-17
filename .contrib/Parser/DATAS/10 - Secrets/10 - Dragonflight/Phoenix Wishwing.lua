@@ -1,6 +1,7 @@
 -------------------------------------------
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
+
 root(ROOTS.Secrets, header(HEADERS.Item, 193373,	-- Phoenix Wishwing
 	bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
 	["description"] = "Below is a detailed explanation on how to obtain the Phoenix Wishwing pet.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",

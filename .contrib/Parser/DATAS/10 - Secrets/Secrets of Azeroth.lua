@@ -1,6 +1,7 @@
 --------------------------------------------
 --     S E C R E T S  M O D U L E       --
 --------------------------------------------
+
 SECRETS_OF_AZEROTH_HEADER = createHeader({
 	readable = "Secrets of Azeroth",
 	constant = "SECRETS_OF_AZEROTH_HEADER",

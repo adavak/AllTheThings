@@ -1,6 +1,7 @@
 -------------------------------------------
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
+
 root(ROOTS.Secrets, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_2_5 } }, {
 	header(HEADERS.Item, 192485, {	-- Stored Wisdom Device
 		n(162804, {	-- Ve'nari

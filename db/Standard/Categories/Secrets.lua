@@ -163,6 +163,18 @@ n(185083,{coords={
 h(-39,{description="You should receive a letter from Ve'nari with the toy attached 5 days after interacting with her decoy corpse in Zereth Mortis.",sourceQuests={65488},g={
 toy(192485,{b=1})}})}})}),
 x(10,{
+ah(201933,{awp=100002,description="***Debugg Mode enabled is required to see all the steps.***\n\nFollow the steps as ordered in the descriptions.",displayID=110513,modelScale=1.6,type="i",g={
+o(377485,{coords={
+[2022]={{43.7,71.7}}},description="Step 1: Get a Sour Apple.",modelScale=0.1,g={
+i(194122,{spellID=376662})}}),
+n(191851,{coords={
+[2022]={{43.2,67.3}}},cost={{"i",194122,1}},description="Step 2: Use the Sour Apple on the Blacktalon Shadowclaw and then, mount up on it.",modelScale=0.8}),
+o(379168,{coords={
+[2022]={{43.7,69.6}}},description="Step 3: Loot the 'Lost Cache Key'.",modelScale=0.2,g={
+i(198085,{b=1,spellID=331657})}}),
+o(378857,{coords={
+[2022]={{44.6,70.1}}},cost={{"i",198085,1}},description="Step 4: Venture into the cave to locate the 'Lost Obsidian Cache'.",modelScale=1.6,questID=70018,g={
+toy(201933,{b=1})}})}}),
 ah(206040,{awp=100100,type="i",g={
 h(-47,{maps={2022,2023,2024,2025,2151},g={
 p(3581,{b=1,description="You need to collect all 15 motes to receive this pet. Requires Quest Tracking to see the motes' Location.",itemID=206040,npcID=205649,spellID=411800})}}),

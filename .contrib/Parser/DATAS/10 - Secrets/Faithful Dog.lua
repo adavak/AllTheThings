@@ -1,6 +1,7 @@
 -------------------------------------------
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
+
 FAITHFUL_DOG = createHeader({
 	readable = "Faithful Dog",
 	icon = 538568,
