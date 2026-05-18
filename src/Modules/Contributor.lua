@@ -639,6 +639,7 @@ MobileDB.Creature = {
 	[154297] = true,	-- Bladesman Inowari
 	[155482] = true,	-- Sentinel (Shandris Feathermoon)
 	[156179] = true,	-- Gila Crosswires <Tinkmaster's Assistant>
+	[157168] = true,	-- Stubborn Animate
 	[158544] = true,	-- Lord Herne
 	[158635] = true,	-- Xolartios <Eternal Traveler>
 	[161261] = true,	-- Kael'thas Sunstrider

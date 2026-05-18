@@ -1376,7 +1376,7 @@ local AccountWideQuestsDB = {
 	77292,	-- Loose Dirt Mound
 	77293,	-- Loose Dirt Mound
 	77294,	-- Loose Dirt Mound
-	77295.	-- Loose Dirt Mound
+	77295,	-- Loose Dirt Mound
 	77296,	-- Loose Dirt Mound
 	77297,	-- Loose Dirt Mound
 	77298,	-- Loose Dirt Mound
