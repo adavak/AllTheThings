@@ -1536,7 +1536,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["groups"] = { i(271427) },	-- Exquisite Treasure (QS!/QI!)
 				}),
 				header(HEADERS.Item, 270063, {	-- Void-Touched Lynx Kitten
-					["description"] = "Tier 3 or higher. Found by clicking the Rustling Bushes/Ferns inside the Ritual Site.\nYou will have to find multiple Bushes/Ferns across multiple instances as only 1 or 2 are available per run.",
+					["description"] = "Found in Tier 3 or higher.\nClick the Rustling Bushes/Ferns inside the Ritual Site.\n- You will have to find multiple Bushes/Ferns across multiple instances as only 1 or 2 are confirmed available per run.\n- The cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the Bush/Fern anymore.",
 					["providers"] = {
 						{ "o", 649420 },	-- Rustling Bush [Daggerspine Point]
 						{ "o", 649437 },	-- Rustling Fern [Broken Throne]
@@ -1545,29 +1545,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						-- Copied various coords reported on wowhead, might not be exhaustive
 						-- Put confirmed if you confirm them directly
 						-- Daggerspine
-						{ 35.10, 44.50, DAGGERSPINE_POINT },
-						{ 41.76, 49.69, DAGGERSPINE_POINT },
-						{ 42.03, 80.03, DAGGERSPINE_POINT },
-						{ 42.99, 49.68, DAGGERSPINE_POINT },
-						{ 43.31, 57.99, DAGGERSPINE_POINT },
-						{ 55.00, 79.30, DAGGERSPINE_POINT },
-						{ 63.58, 65.58, DAGGERSPINE_POINT },
-						{ 66.40, 52.46, DAGGERSPINE_POINT },
-						{ 66.62, 37.14, DAGGERSPINE_POINT },
-						{ 68.46, 37.62, DAGGERSPINE_POINT },
+						{ 35.1, 44.5, DAGGERSPINE_POINT },
+						{ 41.8, 49.7, DAGGERSPINE_POINT },
+						{ 42.0, 80.0, DAGGERSPINE_POINT },
+						{ 43.0, 49.7, DAGGERSPINE_POINT },
+						{ 43.3, 58.0, DAGGERSPINE_POINT },
+						{ 55.0, 79.3, DAGGERSPINE_POINT },
+						{ 63.6, 65.6, DAGGERSPINE_POINT },
+						{ 66.4, 52.5, DAGGERSPINE_POINT },
+						{ 66.6, 37.1, DAGGERSPINE_POINT },
+						{ 68.5, 37.6, DAGGERSPINE_POINT },
 						-- Broken Throne
-						{ 39.00, 45.00, BROKEN_THRONE },
-						{ 40.90, 67.40, BROKEN_THRONE },
-						{ 42.00, 45.00, BROKEN_THRONE },
-						{ 48.10, 83.10, BROKEN_THRONE },
-						{ 48.48, 76.90, BROKEN_THRONE },
-						{ 51.50, 44.90, BROKEN_THRONE },
-						{ 51.59, 36.43, BROKEN_THRONE },
-						{ 52.85, 83.40, BROKEN_THRONE },
-						{ 54.30, 45.00, BROKEN_THRONE },
-						{ 54.30, 72.60, BROKEN_THRONE },	-- confirmed
-						{ 58.22, 79.36, BROKEN_THRONE },	-- confirmed
-						{ 58.46, 49.58, BROKEN_THRONE },
+						{ 39.0, 45.0, BROKEN_THRONE },
+						{ 40.9, 67.6, BROKEN_THRONE },	-- confirmed
+						{ 42.0, 45.0, BROKEN_THRONE },
+						{ 43.1, 44.9, BROKEN_THRONE },	-- confirmed
+						{ 48.1, 83.1, BROKEN_THRONE },
+						{ 48.5, 77.1, BROKEN_THRONE },	-- confirmed
+						{ 51.5, 44.9, BROKEN_THRONE },
+						{ 51.6, 36.4, BROKEN_THRONE },
+						{ 52.9, 83.4, BROKEN_THRONE },
+						{ 54.3, 45.0, BROKEN_THRONE },
+						{ 54.3, 72.6, BROKEN_THRONE },	-- confirmed
+						{ 58.2, 79.4, BROKEN_THRONE },	-- confirmed
+						{ 58.5, 49.6, BROKEN_THRONE },
 						-- { 60.10, 66.10, BROKEN_THRONE },	-- sus, middle of a path
 					},
 					["groups"] = { i(270063), },	-- Void-Touched Lynx Kitten (PET!)
