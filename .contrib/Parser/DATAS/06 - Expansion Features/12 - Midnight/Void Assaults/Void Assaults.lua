@@ -1540,6 +1540,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["providers"] = {
 						{ "o", 649420 },	-- Rustling Bush [Daggerspine Point]
 						{ "o", 649437 },	-- Rustling Fern [Broken Throne]
+						-- TODO: It spawns an NPC cat but I missed the NPCID... 'Lost Kitten' I couldn't find it on WH...
 					},
 					["coords"] = {
 						-- Copied various coords reported on wowhead, might not be exhaustive
