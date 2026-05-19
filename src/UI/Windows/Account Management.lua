@@ -275,6 +275,38 @@ local function SplitString(separator, text)
 	text:gsub('[^'..sep..']+', function(x) res[#res+1] = x end);
 	return res;
 end
+local function NormalizeLinkedCharacterIdentifier(identifier)
+	if not identifier or identifier == "" then return; end
+	local name, realm = identifier:match("^([^-]+)%-(.+)$");
+	if not name then
+		name = identifier;
+	end
+	name = name:gsub("^%s+", ""):gsub("%s+$", "");
+	if not name or name == "" then return; end
+	if realm and realm ~= "" then
+		realm = realm:gsub("^%s+", ""):gsub("%s+$", "");
+		if realm == "" then return name, name; end
+		return name .. "-" .. realm, name;
+	end
+
+	return name, name;
+end
+local function AddCharacterLookup(characterByInfo, character)
+	local name = character.name;
+	if name then
+		characterByInfo[name] = character;
+		local realm = character.realm;
+		if realm then
+			local compactRealm = realm:gsub("%s+", "");
+			characterByInfo[name .. "-" .. compactRealm] = character;
+		end
+	end
+	characterByInfo[character.guid] = character;
+end
+local function IsLinkedCharacter(identifier)
+	local fullIdentifier, shortIdentifier = NormalizeLinkedCharacterIdentifier(identifier);
+	return (fullIdentifier and LinkedCharacters[fullIdentifier]) or (shortIdentifier and LinkedCharacters[shortIdentifier]) or false;
+end
 local function UpdateBattleTags()
 	-- Attempt to cache each character's battleTag if it is missing.
 	if C_BattleNet then
@@ -353,10 +385,8 @@ local function BroadcastMessage(detail, msg)
 		-- Cache characters by their names.
 		local characterByInfo = {};
 		for guid,character in pairs(CharacterData) do
-			local name = character.name;
-			if name and character.realm == CurrentCharacter.realm then characterByInfo[name] = character; end
+			if character.realm == CurrentCharacter.realm then AddCharacterLookup(characterByInfo, character); end
 			SilentlyLinkedCharacters[guid] = true;
-			characterByInfo[guid] = character;
 		end
 
 		-- Now send to any explicitly linked accounts.
@@ -1457,8 +1487,7 @@ MESSAGE_HANDLERS.check = function(self, sender, content, responses)
 	-- Validate inputs. Sync identity token MUST be supplied and the account must be linked!
 	local token, isResponding = content[2], content[3];
 	if not token then return false; end
-	local senderWithoutServerName = sender and ("-"):split(sender);
-	if not LinkedCharacters[token] and not LinkedCharacters[senderWithoutServerName] then
+	if not LinkedCharacters[token] and not IsLinkedCharacter(sender) then
 		return false;
 	else
 		-- White list any future communications with this sender for the rest of the session.
@@ -1486,14 +1515,12 @@ MESSAGE_HANDLERS.check = function(self, sender, content, responses)
 	return true;
 end
 MESSAGE_HANDLERS.char = function(self, sender, content, responses)
-	local senderWithoutServerName = ("-"):split(sender);
-	if not LinkedCharacters[senderWithoutServerName] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 	local guid, lastPlayed = (":"):split(content[2]);
 	ReceiveCharacterSummary(self, sender, responses, guid, tonumber(lastPlayed) or 0, true);
 end
 MESSAGE_HANDLERS.chars = function(self, sender, content, responses)
-	local senderWithoutServerName = ("-"):split(sender);
-	if not LinkedCharacters[senderWithoutServerName] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 	for i=2,#content,1 do
 		local guid, lastPlayed = (":"):split(content[i]);
 		ReceiveCharacterSummary(self, sender, responses, guid, tonumber(lastPlayed) or 0, false);
@@ -1503,8 +1530,7 @@ MESSAGE_HANDLERS.link = function(self, sender, content, responses)
 	-- Validate inputs. Sync identity token MUST be supplied and the account must be linked!
 	local token = content[2];
 	if not token then return false; end
-	local senderWithoutServerName = sender and ("-"):split(sender);
-	if not LinkedCharacters[token] and not LinkedCharacters[senderWithoutServerName] then
+	if not LinkedCharacters[token] and not IsLinkedCharacter(sender) then
 		return false;
 	else
 		-- White list any future communications with this sender for the rest of the session.
@@ -1516,7 +1542,7 @@ MESSAGE_HANDLERS.link = function(self, sender, content, responses)
 	return true;
 end
 MESSAGE_HANDLERS.linked = function(self, sender, content, responses)
-	if not LinkedCharacters[sender] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 
 	-- Parse the linked string.
 	local guid = content[2];
@@ -1538,8 +1564,7 @@ MESSAGE_HANDLERS.linked = function(self, sender, content, responses)
 	return true;
 end
 MESSAGE_HANDLERS.rawchar = function(self, sender, content, responses)
-	local senderWithoutServerName = ("-"):split(sender);
-	if not LinkedCharacters[senderWithoutServerName] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 	local guid = content[2];
 	if not guid then return false; end
 	tremove(content, 1);
@@ -1591,8 +1616,7 @@ MESSAGE_HANDLERS.rawchar = function(self, sender, content, responses)
 	self:Rebuild();
 end
 MESSAGE_HANDLERS.request = function(self, sender, content, responses)
-	local senderWithoutServerName = ("-"):split(sender);
-	if not LinkedCharacters[senderWithoutServerName] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 	local guid, lastUpdated = content[2], content[3];
 	if lastUpdated then
 		lastUpdated = tonumber(lastUpdated);
@@ -1631,8 +1655,7 @@ MESSAGE_HANDLERS.request = function(self, sender, content, responses)
 	tinsert(responses, { detail = character.text, msg = rawData });
 end
 MESSAGE_HANDLERS.uptodate = function(self, sender, content, responses)
-	local senderWithoutServerName = ("-"):split(sender);
-	if not LinkedCharacters[senderWithoutServerName] then return false; end
+	if not IsLinkedCharacter(sender) then return false; end
 	local guid = content[2];
 	if guid then
 		local character = CharacterData[guid];
@@ -1852,9 +1875,7 @@ local function OnClickForLinkedAccount(row, button)
 		-- Cache characters by their names.
 		local characterByInfo = {};
 		for guid,character in pairs(CharacterData) do
-			local name = character.name;
-			if name then characterByInfo[name] = character; end
-			characterByInfo[guid] = character;
+			AddCharacterLookup(characterByInfo, character);
 		end
 
 		-- Update the last played timestamp. This ensures the sync process does NOT destroy unsaved progress on this character.
@@ -2042,6 +2063,10 @@ end
 local function OnTooltipForLinkedAccount(t, tooltipInfo)
 	if t.unit then
 		tinsert(tooltipInfo, {
+			left = "Linked as",
+			right = t.datalink,
+		});
+		tinsert(tooltipInfo, {
 			left = "This character's account will be synchronized with automatically when they log in. For optimal play, you should whitelist a bank character and probably not your main as to not affect your ability to play your character when syncing account data.",
 			r = 0.8, g = 0.8, b = 1, wrap = true
 		});
@@ -2160,18 +2185,17 @@ app:CreateWindow("Account Management", {
 		local options = {
 			app.CreateRawText("Add Linked Character", {
 				icon = app.asset("Button_Add"),
-				description = "Click here to link a character to your account.\n\nOnce Linked, click on the Linked Character in the list below to initiate a sync with that character.\n\nNOTE: Your character must be on the same faction and server as your current character to sync.",
+				description = "Click here to link a character to your account.\n\nOnce Linked, click on the Linked Character in the list below to initiate a sync with that character.\n\nNOTE: Your character must be on the same faction (and server when not using Battle.net sync) as your current character to sync.",
 				OnUpdate = app.AlwaysShowUpdate,
 				OnClick = function(row, button)
-					app:ShowPopupDialogWithEditBox("Please type the name of the character to link to.", "", function(cmd)
+					app:ShowPopupDialogWithEditBox("Please type the name of the character to link to. You can use Name or Name-Realm as the format. This is case-sensitive!", "", function(cmd)
 						if cmd and cmd ~= "" then
-							-- Prevent server names.
-							-- TODO: Refactor this restriction because people are lazy and have same character name on various servers
-							cmd = ("-"):split(cmd);
-							-- Also title case the name because we can't trust people to type the name correctly
-							cmd = cmd:lower():gsub("^%l", string.upper);
-							LinkedCharacters[cmd] = true;
-							SendAddonMessage(cmd, "Link " .. cmd, "link," .. GetSyncIdentityToken());
+							local fullIdentifier, shortIdentifier = NormalizeLinkedCharacterIdentifier(cmd);
+							cmd = fullIdentifier or shortIdentifier;
+							if cmd then
+								LinkedCharacters[cmd] = true;
+								SendAddonMessage(cmd, "Link " .. cmd, "link," .. GetSyncIdentityToken());
+							end
 							self:Rebuild();
 						end
 					end);
@@ -2198,7 +2222,7 @@ app:CreateWindow("Account Management", {
 			}),
 			app.CreateRawText("Sync All Characters", {
 				icon = app.asset("Button_Sync"),
-				description = "Click here to sync all of your characters.\n\nAlt+Click to toggle automatically syncing characters with your other accounts.\n\nYou must initially have the character stored on this account by Linking a Character and manually initiating a sync with that character. The character on your other account must also assign this character as a Linked Character.\n\nNOTE: Your character must be on the same faction and server as your current character to sync.",
+				description = "Click here to sync all of your characters.\n\nAlt+Click to toggle automatically syncing characters with your other accounts.\n\nYou must initially have the character stored on this account by Linking a Character and manually initiating a sync with that character. The character on your other account must also assign this character as a Linked Character.\n\nNOTE: Your character must be on the same faction faction (and server when not using Battle.net sync) as your current character to sync.",
 				OnUpdate = function(t)
 					t.saved = self.Settings.AutoSync;
 					return app.AlwaysShowUpdate(t);
@@ -2274,20 +2298,39 @@ app:CreateWindow("Account Management", {
 			}),
 			app.CreateRawText("Linked Characters", {	-- Linked Characters
 				icon = 526421,
-				description = "This shows all of the linked characters you have defined so far.\n\nClick on a Linked Character in the list below to initiate a sync with that character. The character on your other account must also assign this character as a Linked Character.\n\nNOTE: Your character must be on the same faction and server as your current character to sync.",
+				description = "This shows all of the linked characters you have defined so far.\n\nClick on a Linked Character in the list below to initiate a sync with that character. The character on your other account must also assign this character as a Linked Character.\n\nNOTE: Your character must be on the same faction (and server when not using Battle.net sync) as your current character to sync.",
 				expanded = true,
 				g = {},
 				OnUpdate = function(data)
 					local g = data.g;
+					local characterByInfo = {};
 					wipe(g);
-					for playerName,allowed in pairs(LinkedCharacters) do
-						tinsert(g, app.CreateUnit(playerName, {
-							datalink = playerName,
-							OnClick = OnClickForLinkedAccount,
-							OnTooltip = OnTooltipForLinkedAccount,
-							OnUpdate = app.AlwaysShowUpdate,
-							parent = data,
-						}));
+					for guid,character in pairs(CharacterData) do
+						AddCharacterLookup(characterByInfo, character);
+					end
+					for identifier,allowed in pairs(LinkedCharacters) do
+						if allowed then
+							local character = characterByInfo[identifier];
+							if character then
+								tinsert(g, app.CreateUnit(character.guid, {
+									datalink = identifier,
+									OnClick = OnClickForLinkedAccount,
+									OnTooltip = OnTooltipForLinkedAccount,
+									OnUpdate = app.AlwaysShowUpdate,
+									parent = data,
+								}));
+							else
+								tinsert(g, app.CreateRawText(identifier, {
+									text = identifier,
+									datalink = identifier,
+									OnClick = OnClickForLinkedAccount,
+									OnTooltip = OnTooltipForLinkedAccount,
+									OnUpdate = app.AlwaysShowUpdate,
+									icon = 526421,
+									parent = data,
+								}));
+							end
+						end
 					end
 
 					if #g < 1 then
