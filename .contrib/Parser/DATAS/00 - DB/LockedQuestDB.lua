@@ -172,6 +172,7 @@ ExportDB.OPAQDB = {
 	86535,	-- Test Run
 	88947,	-- Undermined Delves
 	91780,	-- Ethereal Delves
+	92816,	-- A Letter for Adventure
 	93519,	-- Midnight Delves!
 }
 

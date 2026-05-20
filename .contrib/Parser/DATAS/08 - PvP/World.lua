@@ -63,7 +63,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 				["description"] = "Contains Dread Aspirant Gear if you are Level 10-49 and Sinister Aspirant Gear at Level 50.",
 			}),
 			n(QUESTS, {
-				q(58274, timelineSelf({["timeline"] = { ADDED_8_3_0, REMOVED_9_0_1 } },{	-- Servant of N'Zoth
+				q(58274, bubbleDownSelf({["timeline"] = { ADDED_8_3_0, REMOVED_9_0_1 } },{	-- Servant of N'Zoth
 					["description"] = "Granted upon killing 10 Horde players without dying after you became an Assassin.",
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -72,7 +72,7 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 						i(174020),	-- N'lyeth, Sliver of N'Zoth (Q Item)
 					},
 				})),
-				q(58273, timelineSelf({["timeline"] = { ADDED_8_3_0, REMOVED_9_0_1 } },{	-- Servant of N'Zoth
+				q(58273, bubbleDownSelf({["timeline"] = { ADDED_8_3_0, REMOVED_9_0_1 } },{	-- Servant of N'Zoth
 					["description"] = "Granted upon killing 10 Alliance players without dying after you became an Assassin.",
 					["races"] = HORDE_ONLY,
 					["groups"] = {
