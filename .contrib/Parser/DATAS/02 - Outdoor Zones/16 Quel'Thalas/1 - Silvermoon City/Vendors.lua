@@ -119,7 +119,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(257939, {	-- Enchanter Erodin <Heirloom Vendor>
 				["coord"] = { 41.8, 66.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = bubbleDownFiltered({
-					["timeline"] = { ADDED_12_0_1_LAUNCH },
+					["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_1_SEASONSTART },
 				},FILTERFUNC_itemID,{
 					filter(CLOTH, {
 						-- Base
@@ -339,6 +339,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						}),
 					})),
 				},
+			}),
+			n(251248, {	-- Intrepid Entrepreneur
+				["coord"] = { 57.7, 71.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["groups"] = bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
+					i(273307),	-- Vial of Intrepid Lemonade
+				}),
 			}),
 			n(239676, {	-- Vaskarn
 				["coord"] = { 48.6, 62.0, MAP.MIDNIGHT.SILVERMOON_CITY },

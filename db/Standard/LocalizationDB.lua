@@ -5883,6 +5883,7 @@ local ObjectNames = {
 	[181280] = "Nightmare Vine",
 	[181281] = "Mana Thistle",
 	[181283] = "Emitter Spare Part",
+	[181287] = "Frozen Rune",
 	[181366] = "Four Horsemen Chest",
 	[181372] = "Hellfire Spineleaf",
 	[181385] = "Ravager Egg",
@@ -15270,6 +15271,7 @@ local ObjectModels = {
 	[181280] = 219480,
 	[181281] = 219472,
 	[181283] = 192461,
+	[181287] = 191177,
 	[181366] = 200953,
 	[181372] = 219491,
 	[181385] = 201375,
@@ -88493,16 +88495,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });

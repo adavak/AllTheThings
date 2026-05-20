@@ -696,7 +696,6 @@ root(ROOTS.Unsorted, {
 				i(267323),	-- Troll Scroll of Rainbow Roll (TOY!)
 			}),
 			i(274427),	-- Sha Loot Box
-			i(273307),	-- Vial of Intrepid Lemonade
 			i(274578),	-- Offering of Unalloyed Abundance
 		})),
 		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {

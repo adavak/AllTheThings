@@ -60,7 +60,7 @@ root(ROOTS.Housing, {
 				["sourceQuests"] = { 94379 },	-- This Old Hearth
 				["maps"] = { FOUNDERS_POINT, RAZORWIND_SHORES },
 				-- apparently only obtainable via an Exile's Reach character as first Housing Tutorial on BNet account...
-				["lockCriteria"] = {1, "questID", 91863, "lvl", 60 },	-- My First House / 60
+				["lockCriteria"] = { 1, "questID", 91863, "lvl", 60 },	-- My First House / 60
 				["customCollect"] = { "NPE" },
 				["groups"] = {
 					i(254504),	-- Adventuring Letter (QI!)
