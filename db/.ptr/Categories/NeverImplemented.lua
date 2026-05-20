@@ -15626,7 +15626,6 @@ h(-41,{
 x(10,{
 x(10.0000001,{awp=100000,g={
 mm(196984,{b=1,questID=69184}),
-mm(196993,{b=1,questID=69193}),
 mm(192523,{b=1,questID=69590}),
 mm(197356,{b=1,questID=69557}),
 mm(197354,{b=1,questID=69555}),
@@ -15651,10 +15650,7 @@ mm(203319,{b=1,questID=73807}),
 mm(203301,{questID=73789}),
 mm(203302,{questID=73790})}}),
 x(10.02,{awp=100200,g={
-mm(210478,{b=1,questID=78399}),
-mm(207757,{b=1,questID=77128}),
-mm(211381,{b=1,qis={206156},questID=78878}),
-mm(207777,{b=1,questID=77148})}})}),
+mm(211381,{b=1,qis={206156},questID=78878})}})}),
 x(11,{awp=110100,g={
 x(11.01,{
 i(232980,{b=1,spellID=472612}),
@@ -15866,7 +15862,6 @@ mnt(372995,{displayID=107207}),
 mnt(377849,{displayID=107944,itemID=194722}),
 mnt(374263,{b=1,displayID=101161,itemID=192804,lvl=10}),
 mnt(359408,{b=1,displayID=110505,itemID=198821,lvl=10}),
-mnt(350220,{displayID=108836,itemID=192778}),
 mnt(385253,{displayID=108742,itemID=198823}),
 mnt(351403,{displayID=100957,itemID=192787}),
 mnt(352927,{displayID=101173,itemID=192771}),

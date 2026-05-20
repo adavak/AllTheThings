@@ -1609,7 +1609,6 @@ i(0, 385771);		-- PH Yellow Slyvern
 i(194722, 377849);	-- Carrier Yeti
 i(198821, 359408);	-- Divine Kiss of Ohn'ahra
 i(192804, 374263);	-- Restless Hornstrider
-i(192778, 350220);	-- Liquid Hot Magma Slug
 i(198823, 385253);	-- [PH] Brown Wind Eagle
 i(192787, 351403);	-- [PH] Mammoth V2 Dark
 i(192771, 352927);	-- [PH] Water Salamander Blue
@@ -2418,6 +2417,7 @@ i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 -- PATCH 12.0.7 --
 ------------------
 i(210140, 404018);	-- Black-Furred Bakar
+i(192778, 350220);	-- Liquid Hot Magma Slug
 i(258884, 1264184);	-- Spawn of Vyranoth
 i(274650, 1294663);	-- Starmech Cosmic-Collapser
 i(275664, 1297427);	-- Tortured Gorger

@@ -152,16 +152,6 @@ root(ROOTS.Unsorted, {
 				i(260383),	-- Quel'Danil Shortbow
 				i(266081),	-- Quel'Danil Quiver
 				i(260739),	-- Swamp Dweller's Night Staff
-				i(260914),	-- Arsenal: Lost Plunder Key
-				i(260915),	-- Arsenal: Found Plunder Key
-				i(262720),	-- Lost Plunder Key
-				i(262721),	-- Lost Plunder Key
-				i(262722),	-- Lost Plunder Key
-				i(262723),	-- Lost Plunder Key
-				i(262725),	-- Found Plunder Key
-				i(262726),	-- Found Plunder Key
-				i(262727),	-- Found Plunder Key
-				i(262728),	-- Found Plunder Key
 				i(269751),	-- Artisan Sai
 				i(269752),	-- Nunchuck of the Artisan
 				i(269753),	-- Artisan Katana
@@ -425,75 +415,6 @@ root(ROOTS.Unsorted, {
 				i(275687),	-- Soul Lattice Holoprint
 				i(275689),	-- Sunken Crypt Holoprint
 				i(275699),	-- Veraan's Soul Lattice Report
-			}),
-			n(TIMEWALKING_HEADER, {	-- Timewalking Dragonflight
-				i(260899),	-- Ensemble: Time-Lost Earthwarden's Battlegear
-				i(260906),	-- Earthwarden's Battle Pauldrons
-				i(260909),	-- Earthwarden's Battle Helm
-				i(260917),	-- Infinite Broodkeeper's Greatstaff
-				i(260919),	-- Scavenger's Banner
-				i(260920),	-- Emergency Landing Kit
-				i(260921),	-- Khan's Ceremonial Crossbow
-				i(260923),	-- Infinite Timeslicer
-				i(260926),	-- Ensemble: Shadowflame-Seared Druidic Garb
-				i(260941),	-- Ensemble: Winter's Dreaming Garb
-				i(260944),	-- Ensemble: Pristine Draconic Scholar's Finery
-				i(260945),	-- Ensemble: Razorscale Pauldrons
-				i(260946),	-- Ensemble: Dragonstone Shoulderguards
-				i(262359),	-- Djardin Sparring Spear
-				i(262360),	-- Storyteller's Verses
-				i(262361),	-- Rothide Crusher
-				i(262362),	-- Expeditioner's Spellblade
-				i(262363),	-- Expeditioner's Mallet
-				i(262364),	-- Drakkanid Stabber
-				i(262365),	-- Maruuk Hunting Bow
-				i(262366),	-- Headmaster's Emberstaff
-				i(262367),	-- Slumbering Guardian's Bulwark
-				i(262368),	-- Centaur Battleglaive
-				i(262378),	-- Chronomental Grips
-				i(262379),	-- Chronomental Halfgloves
-				i(262380),	-- Chronomental Gauntlets
-				i(262381),	-- Chronomental Gloves
-				i(262382),	-- Teerai Watcher Breeches
-				i(262383),	-- Ohn'ir Initiate Leggings
-				i(262384),	-- Shikaar Scout Breeches
-				i(262385),	-- Nokhud Reaver Legplates
-				i(262386),	-- Bronze Drake's Promise
-				i(262387),	-- Silver Keeper's Band
-				i(262388),	-- Vaultkeeper's Signet
-				i(262439),	-- Shadowflame Mantle
-				i(262440),	-- Shadowflame Wings
-				i(262441),	-- Shadowflame Talons
-				i(262444),	-- Shadowflame Binding
-				i(262445),	-- Shadowflame Dressings
-				i(262446),	-- Winter's Dreaming Epaulets
-				i(262447),	-- Winter's Dreaming Tabard
-				i(262448),	-- Winter's Dreaming Cloak
-				i(262478),	-- Pristine Draconic Scholar's Cape
-				i(262479),	-- Pristine Draconic Scholar's Spaulders
-				i(262480),	-- Pristine Draconic Scholar's Tabard
-				i(262482),	-- Razorscale Royal Pauldrons
-				i(262485),	-- Razorscale Azure Pauldrons
-				i(262486),	-- Razorscale Bronze Pauldrons
-				i(262488),	-- Razorscale Green Pauldrons
-				i(262489),	-- Razorscale Onyx Pauldrons
-				i(262490),	-- Razorscale Silver Pauldrons
-				i(262491),	-- Razorscale Dusk Pauldrons
-				i(262492),	-- Razorscale Verdant Pauldrons
-				i(262493),	-- Razorscale Mauve Pauldrons
-				i(262494),	-- Razorscale Red Pauldrons
-				i(262568),	-- Royal Dragonstone Shoulderguards
-				i(262569),	-- Purple Dragonstone Shoulderguardsrds
-				i(262571),	-- Wild Dragonstone Shoulderguards
-				i(262570),	-- Gleaming Dragonstone Shouldergua
-				i(262572),	-- Bronze Dragonstone Shoulderguards
-				i(262573),	-- Silver Dragonstone Shoulderguards
-				i(262574),	-- Dusk Dragonstone Shoulderguards
-				i(262575),	-- Verdant Dragonstone Shoulderguards
-				i(262576),	-- Mauve Dragonstone Shoulderguards
-				i(262577),	-- Crimson Dragonstone Shoulderguards
-				i(263262),	-- Shadowflame Vest
-				i(263263),	-- Shadowflame Kilt
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
