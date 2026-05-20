@@ -1536,7 +1536,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["groups"] = { i(271427) },	-- Exquisite Treasure (QS!/QI!)
 				}),
 				header(HEADERS.Item, 270063, {	-- Void-Touched Lynx Kitten
-					["description"] = "Found in Tier 3 or higher.\nClick the Rustling Bushes/Ferns inside the Ritual Site.\n- You will have to find multiple Bushes/Ferns across multiple instances as only 1 or 2 are confirmed available per run.\n- The cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the Bush/Fern anymore.",
+					["description"] = "Found in Tier 3 or higher.\nClick the Rustling Bushes inside the Ritual Site.\n- You will have to click 8-13 rustling bushes before being able to click on the pet.\nOnly 1-2 are available per run.\nThe cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the bushes anymore.",
 					["providers"] = {
 						{ "o", 649420 },	-- Rustling Bush [Daggerspine Point]
 						{ "o", 649437 },	-- Rustling Fern [Broken Throne]
