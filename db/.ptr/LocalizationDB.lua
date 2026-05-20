@@ -1741,7 +1741,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "This section will only show your current character's professions outside of Account and Debug Mode.",
 	[-47] = "Contains Things which are rewarded or are available from other content within the containing section.\nThey are consolidated here in an effort to reduce duplication from many possible Sources.",
 	[-49] = "Contains Things which are rewarded that upon completing that scenario.",
-	[-50] = "Naughty secrets...",
+	[-50] = "The Mind-Seekers are an enigmatic cult of meta-puzzle architects who test Adventurers through obscure clues hidden in forgotten corners of the world.\nThey are neither benevolent nor malevolent; rather, they seem to derive sustenance from the collective effort, frustration, and eventual triumph of those who pursue their riddles. Solving their elaborate challenges proves one's mastery of Azeroth's deepest secrets.\n\nHere you will find records of currently available riddles they have scattered throughout Azeroth, challenging the denizens to solve them and, in time, join their ranks.",
 	[-62] = "World Quests are time-limited Quests available in specific locations with variable rewards.\n\nMake sure to check the ATT World Quests window (/attwq) often to see what time-limited Things you should go collect!",
 	[-64] = "These items can drop from many many sources and are usually not difficult to obtain either.\n\nWhile not every source is possible in every Zone, here is a list of possible Sources:\nEmissary Quest (Legion&later)\nRare NPCs (MoP&later)\nRepeatable Treasure Chests (SL)\nTable missions (Legion&later)\nWish Crickets (SL)\nWorld Quests (Legion&later)\nZone Drops (MoP&later)",
 	[-70] = "Timewalking difficulties needlessly create new Source IDs for items despite having the exact same name, appearance, and display in the Collections Tab.\n\nA plea to the Blizzard Devs: Please clean up the Source ID database and have your Timewalking / Titanforged item variants use the same Source ID as their base assuming the appearances and names are exactly the same. Not only will this make your database much cleaner, but it will also make Completionists excited for rather than dreading the introduction of more Timewalking content.\n\n - Crieve, the Very Bitter Account Completionist that had 99% Ulduar completion and now only has 64% because your team duplicated the Source IDs rather than reuse the existing one.",
@@ -5887,6 +5887,7 @@ local ObjectNames = {
 	[181280] = "Nightmare Vine",
 	[181281] = "Mana Thistle",
 	[181283] = "Emitter Spare Part",
+	[181287] = "Frozen Rune",
 	[181366] = "Four Horsemen Chest",
 	[181372] = "Hellfire Spineleaf",
 	[181385] = "Ravager Egg",
@@ -15274,6 +15275,7 @@ local ObjectModels = {
 	[181280] = 219480,
 	[181281] = 219472,
 	[181283] = 192461,
+	[181287] = 191177,
 	[181366] = 200953,
 	[181372] = 219491,
 	[181385] = 201375,
@@ -34453,7 +34455,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
 	[-47] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
 	[-49] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
-	[-50] = "Vilains secrets...",
 	[-62] = "Les quêtes mondiales sont des quêtes limitées dans le temps, disponibles dans des lieux spécifiques avec des récompenses variables.\n\nN’oublie pas de consulter souvent la fenêtre des quêtes mondiales ATT (/attwq) pour voir quelles sont les objets limités dans le temps que tu dois collecter !",
 	[-64] = "Ces objets peuvent provenir de coffres au trésor répétitifs, Criquet à souhait, de quêtes mondiales ou des missions de la table de commandement.",
 	[-106] = "Gagnez de l’expérience et de la réputation supplémentaires dans vos aventures sur Azeroth et trouvez de mystérieuses bonnes aventures sur les îles aux Dragons et en Khaz Algar !",
@@ -56398,7 +56399,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "Этот раздел будет отображать только профессии вашего текущего персонажа, если не включен Режим Аккаунта или Отладки.",
 	[-47] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
 	[-49] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
-	[-50] = "Секретики...",
 	[-62] = "Локальные задания – это ограниченные по времени задания, доступные в определённых местах с переменными наградами.\n\nЧаще проверяйте окно локальных заданий ATT (/attwq), чтобы увидеть какие ограниченные по времени Штучки можно собрать!",
 	[-64] = "Эти предметы можно получить в награду из:\nЗадания эмиссара (Легион+)\nПовторяемые сокровища (ТЗ+)\nЗадания командирского стола (Легион+)\nЗаветные сверчки (ТЗ)\nЛокальные задания (Легион+)",
 	[-70] = "Путешествия во времени без надобности создают новые ID Источников для предметов, несмотря на то, что они имеют те же имена, облики и отображение в Коллекции.\n\nУбедительная просьба разработчикам Blizzard: Пожалуйста, почистите базу данных ID Источников и сделайте варианты предметов из Путешествий во времени/Кованные титанами с тем же ID Источника, что и оригинал, поскольку названия и облики абсолютно идентичны. Не только сделает вашу базу данных чище, но и позволит Собирателям относиться к новым Путешествиям во времени с воодушевлением, нежели с раздражением.\n\n - Crieve, Очень Огорченный Собиратель, у которого теперь всего лишь 64% выполнение Ульдуара, когда было 99%, потому что ваша команда продублировала ID Источников вместо использования уже имеющихся.",
@@ -71300,7 +71300,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "Esta sección solo mostrará las profesiones de tu personaje actual fuera del modo Cuenta y Depuración.",
 	[-47] = "Contiene cosas que son recompensadas o están disponibles en otro contenido dentro de la sección contenedora.\nSe consolidan aquí en un esfuerzo por reducir la duplicación de muchas fuentes posibles.",
 	[-49] = "Contiene cosas que se obtienen como recompensa al completar ese escenario.",
-	[-50] = "Secretitos traviesos...",
 	[-62] = "Las misiones de mundo son misiones por tiempo limitado disponibles en ubicaciones específicas con recompensas variables.\n\n¡Asegúrate de revisar la ventana de misiones de mundo de ATT (/attwq) con frecuencia para ver qué cosas por tiempo limitado debes recolectar!",
 	[-64] = "Estos objetos pueden obtenerse de muchas fuentes y, por lo general, no son difíciles de conseguir.\n\nAunque no todas las fuentes son posibles en todas las zonas, aquí hay una lista de posibles fuentes:\nMisión de emisario (Legión y posteriores)\nPNJ raros (MoP y posteriores)\nCofres del tesoro repetibles (SL)\nMisiones de mesa (Legión y posteriores)\nGrillos de deseos (SL)\nMisiones del mundo (Legión y posteriores)\nObjetos de zona (MoP y posteriores)",
 	[-70] = "Las dificultades de Paseo en el tiempo crean innecesariamente nuevos ID de Fuente para objetos a pesar de tener exactamente el mismo nombre, apariencia y visualización en la pestaña Colecciones.\n\nUna petición a los desarrolladores de Blizzard: Por favor, limpien la base de datos de ID de Fuente y hagan que sus variantes de Paseo en el tiempo o Forjadas por los titanes usen el mismo ID de Fuente que su base, asumiendo que las apariencias y los nombres sean exactamente los mismos. Esto no solo hará que su base de datos sea mucho más limpia, sino que también hará que los Completistas se entusiasmen con la introducción de más contenido de Paseo en el tiempo, en lugar de temerla.\n\n - Crieve, el Completista de Cuentas Muy Amargado que tenía un 99% de completitud en Ulduar y ahora solo tiene un 64% porque su equipo duplicó los ID de Fuente en lugar de reutilizar el existente.",
@@ -80432,7 +80431,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "此部分只会显示你当前角色的专业技能，除非处于账号模式或调试模式。",
 	[-47] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-49] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
-	[-50] = "淘气的解密……",
 	[-62] = "世界任务是限定时间内在特定地点进行的任务，奖励不固定。\n\n一定要经常查看 ATT 世界任务窗口 (/attwq)，看看有什么限时的东西你应该去收藏！",
 	[-64] = "这些物品可以从可重复的宝箱、祈愿蟋蟀、世界任务或桌面任务中掉落。",
 	[-70] = "时光漫游难度为物品创建新的sourceID，尽管它们的名称、外观和在收藏选项卡中的显示完全相同。\n\n向暴雪开发者提出请求：请清理sourceID数据库，既然时光漫游/泰坦造物物品的外观和名称完全相同，就请使用相同的sourceID。这不仅会让数据库变得更加干净，也会让完美主义者们对更多的时光漫游内容感到兴奋而不是恐惧。\n\n - Crieve，非常苦逼的战网完美主义者，本来有99%的奥杜尔完成度，现在只有64%了，就因为暴雪团队复制了 sourceID，而不是重复使用现有的。",
@@ -88349,16 +88347,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });

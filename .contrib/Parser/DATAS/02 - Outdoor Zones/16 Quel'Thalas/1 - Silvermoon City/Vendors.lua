@@ -342,11 +342,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(251248, {	-- Intrepid Entrepreneur
 				["coord"] = { 57.7, 71.6, MAP.MIDNIGHT.SILVERMOON_CITY },
-				["groups"] = {
-					filter(MISC, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
-						i(273307),	-- Vial of Intrepid Lemonade
-					})),
-				},
+				["groups"] = bubbleDown({ ["timeline"] = { ADDED_12_0_5 } }, {
+					i(273307),	-- Vial of Intrepid Lemonade
+				}),
 			}),
 			n(239676, {	-- Vaskarn
 				["coord"] = { 48.6, 62.0, MAP.MIDNIGHT.SILVERMOON_CITY },
