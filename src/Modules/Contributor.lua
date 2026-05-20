@@ -791,6 +791,7 @@ MobileDB.GameObject = {
 	[131979] = true,	-- Large Darkwood Chest
 	[141869] = true,	-- Temple Door
 	[142142] = true,	-- Sungrass
+	[142143] = true,	-- Blindweed
 	[143981] = true,	-- Brightly Colored Egg
 	[152620] = true,	-- Azsharite Formation (q:14370)
 	[152621] = true,	-- Azsharite Formation (q:14370)
