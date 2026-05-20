@@ -25,7 +25,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(263284),	-- Groovewarden's Staff (COSMETIC!)
 					i(265946, {	-- Haranir Reclined Bed (DECOR!)
 						i(263038, {	-- Haranir Reclined Bed (DECOR!) (Available for Marl after first dust purchase)
-							["cost"] = { { "c", VOIDLIGHT_MARL, 2500 } },
+							["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
 						}),
 					}),
 					i(263580),	-- Vivid Chloroceros (MOUNT!)
