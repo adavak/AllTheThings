@@ -1440,6 +1440,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62896),	-- Power Creep
 			})),
 			n(EVENT_COMPLETION, {
+				i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
+				i(272392),	-- Broken Lynx Leash
+				currency(3429),	-- Ritual Site Reports
+				i(DARK_PARTICLE),
+				i(271787),	-- Field Accolades
+				i(271786),	-- Ritual Site Reports
+				i(271785),	-- Ritual Spoils (Tier 1)
+				i(271973),	-- Ritual Spoils (Tier 2)
+				i(271974),	-- Ritual Spoils (Tier 3)
+				i(271975),	-- Ritual Spoils (Tier 4)
+				i(271976),	-- Ritual Spoils (Tier 5)
+				i(273855),	-- Ritual Tablet (1st Ritual of the Week)
+				i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
 				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
 			}),
 			n(QUESTS, {
@@ -1496,19 +1509,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				}),
 			}),
 			n(REWARDS, {
-				i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
-				i(272392),	-- Broken Lynx Leash
-				currency(3429),	-- Ritual Site Reports
 				i(DARK_PARTICLE),
-				i(271787),	-- Field Accolades
-				i(271786),	-- Ritual Site Reports
-				i(271785),	-- Ritual Spoils (Tier 1)
-				i(271973),	-- Ritual Spoils (Tier 2)
-				i(271974),	-- Ritual Spoils (Tier 3)
-				i(271975),	-- Ritual Spoils (Tier 4)
-				i(271976),	-- Ritual Spoils (Tier 5)
-				i(273855),	-- Ritual Tablet (1st Ritual of the Week)
-				i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
 			}),
 			n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.
 				o(645182, {	-- Crystalline Treasure
