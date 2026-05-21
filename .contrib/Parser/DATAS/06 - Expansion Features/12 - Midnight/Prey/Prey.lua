@@ -176,8 +176,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 			ach(62138),	-- You're Trapped In Here With Me
 		}),
 		n(EVENT_COMPLETION, {
-			-- Currency
-			currency(3392),	-- Remnant of Anguish
 			-- Bonus roll
 			i(269768, {["timeline"] = { ADDED_12_0_5, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Prey
 			-- Gear
@@ -472,6 +470,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 			q(91228),	-- Prey: Zadu, Fist of Nalorakk (Hard)
 			q(91229),	-- Prey: Zadu, Fist of Nalorakk (Nightmare)
 		})),
+		n(REWARDS, {
+			-- Currency
+			currency(3392),	-- Remnant of Anguish
+		}),
 		n(VENDORS, {
 			n(258181, {	-- Construct Ali'a <Decor Specialist>
 				["coord"] = { 55.8, 66.0, MAP.MIDNIGHT.SILVERMOON_CITY },
