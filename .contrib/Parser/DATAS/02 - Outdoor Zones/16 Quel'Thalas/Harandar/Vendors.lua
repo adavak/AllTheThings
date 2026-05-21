@@ -8,13 +8,19 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(251259, {	-- Mothkeeper Wew'tam
 				["coord"] = { 49.3, 54.3, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = sharedData({
-					-- #if BEFORE 12.0.7
-					["cost"] = { { "c", 3385, 10 } },	-- Luminous Dust
+					-- #if AFTER 12.0.7
+					["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
 					-- #else
-					["timeline"] = { ADDED_12_0_1_LAUNCH },	-- Vendor is restructured in 12.0.7. This is here to avoid errors in regards to an empty field.
+					["cost"] = { { "c", 3385, 10 } },	-- Luminous Dust
 					-- #endif
 				}, {
-					-- #if BEFORE 12.0.7
+					-- #if AFTER 12.0.7
+					i(264243),	-- Firm Haranir Pillow (DECOR!)
+					i(263038, {	-- Haranir Reclined Bed (DECOR!)
+						["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
+					}),
+					i(264245),	-- Warm Haranir Blanket (DECOR!)
+					-- #else
 					i(222988),	-- Elder Glowmite (MOUNT!)
 					i(265943, {	-- Firm Haranir Pillow (DECOR!)
 						i(264243, {	-- Firm Haranir Pillow (DECOR!) (Available for Marl after first dust purchase)
@@ -38,16 +44,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						i(264245, {	-- Warm Haranir Blanket (DECOR!) (Available for Marl after first dust purchase)
 							["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
 						}),
-					}),
-					-- #else
-					i(264243, {	-- Firm Haranir Pillow (DECOR!)
-						["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
-					}),
-					i(263038, {	-- Haranir Reclined Bed (DECOR!)
-						["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
-					}),
-					i(264245, {	-- Warm Haranir Blanket (DECOR!)
-						["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
 					}),
 					-- #endif
 				}),

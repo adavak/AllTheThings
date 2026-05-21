@@ -42468,7 +42468,7 @@ ach(62453,{maps={2585,2594}}),
 ach(62454,{maps={2585,2594}})}),
 h(-29,{
 r(1291046,{itemID=272391,requireSkill=165,skillID=2915}),
-i(272392),
+i(272392,{description="Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it."}),
 cu(3429),
 i(267051),
 i(271787,{spellID=1289516}),
