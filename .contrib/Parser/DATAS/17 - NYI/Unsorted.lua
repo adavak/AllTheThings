@@ -589,7 +589,6 @@ root(ROOTS.Unsorted, {
 				i(267352),	-- Pocket Rainbow
 				i(267353),	-- Pocket Sand
 				i(268694),	-- Rainbow Runners
-				i(272119),	-- Residue-Covered Tool
 				i(273013),	-- Void-Permeated Hide Scrap
 				i(267380),	-- Volatile Pink Brightbursts
 				i(260892),	-- "Arcane Ranger" Kit

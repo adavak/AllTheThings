@@ -382,11 +382,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["cost"] = { { "c", VETERAN_DAWNCREST, 30 } },
 						["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_1_0 },
 					}),
-					--i(246752, {	-- Celebratory Pack of Hero Dawncrests (TODO: Blizzard bug - same item ID as vault vendor, speculation)
-					--	["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Normal Crest\nReceive: Hero Crest",
-					--	["cost"] = { { "c", CHAMPION_DAWNCREST, 30 } },
-					--	["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_1_0 },
-					--}),
+					i(246752, {	-- Celebratory Pack of Hero Dawncrests (TODO: Blizzard bug - same item ID as vault vendor)
+						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Normal Crest\nReceive: Hero Crest",
+						["cost"] = { { "c", CHAMPION_DAWNCREST, 30 } },
+						["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_1_0 },
+					}),
 					i(246753, {	-- Glorious Cluster of Myth Dawncrests
 						["description"] = "\n|cff4caf50 -- UPGRADE --|r\n\nCost: Hero Crest\nReceive: Myth Crest",
 						["cost"] = { { "c", HERO_DAWNCREST, 30 } },

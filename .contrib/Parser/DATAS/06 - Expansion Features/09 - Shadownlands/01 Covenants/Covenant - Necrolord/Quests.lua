@@ -702,7 +702,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 					i(183401, {	-- Amethystine Dye (CI!)
 						["description"] = "This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",
 					}),
-					i(183400),	-- Amethystine Powder (QI!)
+					o(358326, {	-- Amethystine Powder
+						i(183400),	-- Amethystine Powder (QI!)
+					}),
 				},
 			}),
 			q(61983, {	-- Replenish the Reservoir
