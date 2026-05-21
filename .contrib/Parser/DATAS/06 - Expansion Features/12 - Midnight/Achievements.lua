@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 		ach(61519, {	-- Midnight Season 1: Catalyst Unbound
 			["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 },
 		}),
-		achraw(61490, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_SEASONSTART }, }, {	-- Midnight Season 1: Champion of the Dawn
+		achraw(61490, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 }, }, {	-- Midnight Season 1: Champion of the Dawn
 			crit(108731),	-- Attained 1600+ Rated PVP rating
 			crit(109029),	-- Attained 2000+ Mythic Plus rating
 			crit(109881),	-- Defeated Dimensius on Heroic or Mythic difficulty
