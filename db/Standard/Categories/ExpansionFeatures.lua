@@ -41858,35 +41858,7 @@ i(268807)}),
 h(-28,{
 q(95391,{repeatable=1,g={
 i(269234)}})}),
-h(-45,{
-q(94380,{coords={
-[2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
-q(96080,{coords={
-[2393]={{48.1,49.7}}},qgs={257411},sourceQuests={94380},g={
-i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
-q(94381,{coords={
-[2393]={{48.1,49.7}}},qgs={257411},sourceQuests={96080}}),
-q(94383,{coords={
-[2393]={{48.1,49.9}}},description="Becomes available after accepting 'Outfitting and Allies' (94381).",qgs={257415},sourceQuests={96080}}),
-q(94385,{coords={
-[2393]={{48.1,49.7}}},isWeekly=1,qgs={257411},sourceQuests={94381},g={
-i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
-q(94386,{coords={
-[2393]={{48.1,49.9}}},isWeekly=1,qgs={257415},sourceQuests={94381},g={
-i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
-ah(62569,{type="a",g={
-q(94920,{providers={{"i",266448}},g={
-crit(113766,{achID=62569,id=2})}}),
-q(95071,{providers={{"i",268809}},g={
-crit(113768,{achID=62569,id=4})}}),
-q(95070,{providers={{"i",268808}},g={
-crit(113767,{achID=62569,id=3})}}),
-q(95069,{providers={{"i",268807}},g={
-crit(113769,{achID=62569,id=5})}})}})}),
-h(-47,{
+h(-29,{
 flt(101,{
 p(5040,{description="This pet can drop only during Void Assault in Eversong Woods.",itemID=270990,npcID=262788,spellID=1288381}),
 p(5038,{description="This pet can drop only during Void Assault in Zul'Aman.",itemID=270988,npcID=262786,spellID=1288378})}),
@@ -42025,6 +41997,34 @@ i(271222,{description="Earned with characters under level 90.",f=55,sym={{"selec
 i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
 i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
+h(-45,{
+q(94380,{coords={
+[2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
+q(96080,{coords={
+[2393]={{48.1,49.7}}},qgs={257411},sourceQuests={94380},g={
+i(264914,{f=55}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+q(94381,{coords={
+[2393]={{48.1,49.7}}},qgs={257411},sourceQuests={96080}}),
+q(94383,{coords={
+[2393]={{48.1,49.9}}},description="Becomes available after accepting 'Outfitting and Allies' (94381).",qgs={257415},sourceQuests={96080}}),
+q(94385,{coords={
+[2393]={{48.1,49.7}}},isWeekly=1,qgs={257411},sourceQuests={94381},g={
+i(264914,{f=55}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+q(94386,{coords={
+[2393]={{48.1,49.9}}},isWeekly=1,qgs={257415},sourceQuests={94381},g={
+i(264914,{f=55}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+ah(62569,{type="a",g={
+q(94920,{providers={{"i",266448}},g={
+crit(113766,{achID=62569,id=2})}}),
+q(95071,{providers={{"i",268809}},g={
+crit(113768,{achID=62569,id=4})}}),
+q(95070,{providers={{"i",268808}},g={
+crit(113767,{achID=62569,id=3})}}),
+q(95069,{providers={{"i",268807}},g={
+crit(113769,{achID=62569,id=5})}})}})}),
 h(-58,{
 n(255473,{coords={
 [2393]={{48,49.2}}},g={
@@ -42467,6 +42467,19 @@ crit(113699,{achID=62562,id=1})}}),
 ach(62453,{maps={2585,2594}}),
 ach(62454,{maps={2585,2594}})}),
 h(-29,{
+r(1291046,{itemID=272391,requireSkill=165,skillID=2915}),
+i(272392),
+cu(3429),
+i(267051),
+i(271787,{spellID=1289516}),
+i(271786,{spellID=1289514}),
+i(271785,{spellID=1289518}),
+i(271973,{spellID=1289829}),
+i(271974,{spellID=1289830}),
+i(271975,{spellID=1289831}),
+i(271976,{spellID=1289832}),
+i(273855,{spellID=1292799}),
+i(273856,{spellID=1292800}),
 i(269817)}),
 h(-45,{
 q(94382,{coords={
@@ -42495,19 +42508,7 @@ crit(113700,{achID=62621,id=1})}}),
 q(95548,{providers={{"i",270562}},g={
 crit(113701,{achID=62621,id=2})}})}),
 h(-47,{
-r(1291046,{itemID=272391,requireSkill=165,skillID=2915}),
-i(272392),
-cu(3429),
-i(267051),
-i(271787,{spellID=1289516}),
-i(271786,{spellID=1289514}),
-i(271785,{spellID=1289518}),
-i(271973,{spellID=1289829}),
-i(271974,{spellID=1289830}),
-i(271975,{spellID=1289831}),
-i(271976,{spellID=1289832}),
-i(273855,{spellID=1292799}),
-i(273856,{spellID=1292800})}),
+i(267051)}),
 h(-56,{
 o(645182,{coords={
 [2594]={{45.5,55.5},{46,58.4},{50.6,53.5},{51.4,73.3},{62.9,38.9}}},g={
@@ -42521,7 +42522,7 @@ o(645181,{coords={
 i(271427)}}),
 ah(270063,{coords={
 [2585]={{39,45},{40.9,67.6},{42,45},{43.1,44.9},{48.1,83.1},{48.5,77.1},{51.5,44.9},{51.6,36.4},{52.9,83.4},{54.3,45},{54.3,72.6},{58.2,79.4},{58.5,49.6}},
-[2594]={{35.1,44.5},{41.8,49.7},{42,80},{43,49.7},{43.3,58},{55,79.3},{63.6,65.6},{66.4,52.5},{66.6,37.1},{68.5,37.6}}},description="Found in Tier 3 or higher.\nClick the Rustling Bushes/Ferns inside the Ritual Site.\n- You will have to find multiple Bushes/Ferns across multiple instances as only 1 or 2 are confirmed available per run.\n- The cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the Bush/Fern anymore.",providers={{"o",649420},{"o",649437}},type="i",g={
+[2594]={{35.1,44.5},{41.8,49.7},{42,80},{43,49.7},{43.3,58},{55,79.3},{63.6,65.6},{66.4,52.5},{66.6,37.1},{68.5,37.6}}},description="Found in Tier 3 or higher.\nClick the Rustling Bushes inside the Ritual Site.\n- You will have to click 8-13 rustling bushes before being able to click on the pet.\nOnly 1-2 are available per run.\nThe cat spawns from the bush and needs to be clicked to obtain the pet. It can only be interacted with by ONE player.\n- Once you have the Pet learned or Pet Item in inventory you CANNOT see/click the bushes anymore.",providers={{"o",649420},{"o",649437}},type="i",g={
 p(5023,{itemID=270063,npcID=262092,spellID=1287380})}}),
 o(645184,{coords={
 [2585]={{47.7,66.5}},

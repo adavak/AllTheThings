@@ -825,6 +825,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 				}),
 				q(5084, {	-- Falling to Corruption
+					-- #if AFTER CATA
+					["description"] = "This quest gets marked as completed when you complete the quest 'Falling to Corruption' (28464).",
+					-- #endif
 					["sourceQuest"] = 5083,	-- Winterfall Firewater
 					["qg"] = 9298,	-- Donova Snowden
 					["coord"] = { 31.2, 45.2, WINTERSPRING },
@@ -1155,6 +1158,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["provider"] = { "o", 207179 },	-- Winterfall Cauldron
 					["coord"] = { 24.4, 47.6, WINTERSPRING },
 					["timeline"] = { ADDED_4_0_3 },
+					["groups"] = { i(12813) },	-- Flask of Mystery Goo (QI!)
 				}),
 				q(28701, {	-- Out of Harm's Way
 					["sourceQuest"] = 28674,	-- Starfall Village
