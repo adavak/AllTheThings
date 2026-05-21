@@ -44,24 +44,24 @@ local DARK_PARTICLE = 267051;
 local LEVELING_BOX_SYM = {
 	{"select","expansionID",EXPANSION.MID},{"pop"},
 	{"where","headerID",VOID_ASSAULTS},{"pop"},
-	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",EVENT_COMPLETION},{"pop"},
 	{"where","headerID",LEVELING_CHARACTERS},{"pop"},
 }
 local COSMETIC_BOX_SYM = {
 	{"select","expansionID",EXPANSION.MID},{"pop"},
 	{"where","headerID",VOID_ASSAULTS},{"pop"},
-	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",EVENT_COMPLETION},{"pop"},
 	{"where","filterID",COSMETIC},{"pop"},
 }
 local COSMETIC_AND_LEVELING_BOX_SYM = {
 	{"select","expansionID",EXPANSION.MID},{"pop"},
 	{"where","headerID",VOID_ASSAULTS},{"pop"},
-	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",EVENT_COMPLETION},{"pop"},
 	{"where","filterID",COSMETIC},{"finalize"},
 
 	{"select","expansionID",EXPANSION.MID},{"pop"},
 	{"where","headerID",VOID_ASSAULTS},{"pop"},
-	{"where","headerID",REWARDS},{"pop"},
+	{"where","headerID",EVENT_COMPLETION},{"pop"},
 	{"where","headerID",LEVELING_CHARACTERS},{"pop"},
 }
 

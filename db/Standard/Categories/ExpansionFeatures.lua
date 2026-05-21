@@ -41989,21 +41989,21 @@ s(306292,270982,{f=20}),
 s(306290,270980,{f=27})})}),
 cu(3405),
 i(267051),
-i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
+i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270244,{f=55}),
-i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"pop"}}}),
+i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
-i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}),
+i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}),
 h(-45,{
 q(94380,{coords={
 [2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
 q(96080,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},sourceQuests={94380},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 q(94381,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},sourceQuests={96080}}),
 q(94383,{coords={
@@ -42011,11 +42011,11 @@ q(94383,{coords={
 q(94385,{coords={
 [2393]={{48.1,49.7}}},isWeekly=1,qgs={257411},sourceQuests={94381},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 q(94386,{coords={
 [2393]={{48.1,49.9}}},isWeekly=1,qgs={257415},sourceQuests={94381},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-47},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 ah(62569,{type="a",g={
 q(94920,{providers={{"i",266448}},g={
 crit(113766,{achID=62569,id=2})}}),
