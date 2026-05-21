@@ -50,8 +50,12 @@ root(ROOTS.PVP, pvp(n(WORLD_PVP, {
 	["groups"] = {
 		expansion(EXPANSION.BFA, timelineSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
 			n(ACHIEVEMENTS, {
-				ach(12567),	-- The Horde Slayer
-				ach(12568),	-- The Alliance Slayer
+				ach(12567, {	-- The Horde Slayer
+					["races"] = ALLIANCE_ONLY,
+				}),
+				ach(12568, {	-- The Alliance Slayer
+					["races"] = HORDE_ONLY,
+				}),
 			}),
 			n(BOUNTY, {
 				i(163825),	-- Plundered Supplies
