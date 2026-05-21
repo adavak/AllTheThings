@@ -1441,7 +1441,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 			})),
 			n(EVENT_COMPLETION, {
 				i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
-				i(272392),	-- Broken Lynx Leash
+				i(272392, {	-- Broken Lynx Leash
+					["description"] = "Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it.",
+				}),
 				currency(3429),	-- Ritual Site Reports
 				i(DARK_PARTICLE),
 				i(271787),	-- Field Accolades
