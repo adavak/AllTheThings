@@ -813,6 +813,8 @@ do
 	-- In Retail, we want to put the Thing being searched into the tooltip. Whether other content should be included
 	-- is based on Fillers and other logic based on that Thing and is not always included based on caching
 	AttachTypicalSearchResults = function(self, field, id)
+		self.ATT_SearchField = field
+		self.ATT_SearchID = id
 		AttachTooltipSearchResults(self, SearchForObject, field, tonumber(id), SearchOptionByField[field])
 	end
 end
@@ -912,7 +914,8 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 	]]--
 
 	local function RerenderCurrency(self, currencyID)
-		if self:IsVisible() then
+		-- only redraw the currency if that's what the tooltip still is
+		if self:IsVisible() and self.ATT_SearchField == "currencyID" and self.ATT_SearchID == currencyID then
 			---@diagnostic disable-next-line: redundant-parameter
 			GameTooltip.SetCurrencyByID(self, currencyID, 1);
 		end
@@ -1012,8 +1015,9 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 		else
 			-- 12.0.5: TooltipUtil.GetDisplayedUnit now errors inside certain instances when used by any addon
 			local instance = IsInInstance()
-			-- name, type, UID
+			-- this was hotfixed at some point during 12.0.5 to not error anymore, still returns useless secret values
 			if not instance then
+				-- name, type, UID
 				target, _, id = TooltipUtil.GetDisplayedUnit(self)
 			else
 				target, _, id = SafelyCheckTooltipForUnitInfo(self)
