@@ -904,6 +904,7 @@ MobileDB.GameObject = {
 	[187985] = true,	-- North Point Station Valve (q:11788)
 	[187986] = true,	-- Mid  Point Station Valve (q:11788)
 	[189292] = true,	-- Scrying Orb
+	[189973] = true,	-- Goldclover
 	[189978] = true,	-- Cobalt Deposit
 	[189979] = true,	-- Rich Cobalt Deposit
 	[189980] = true,	-- Saronite Deposit

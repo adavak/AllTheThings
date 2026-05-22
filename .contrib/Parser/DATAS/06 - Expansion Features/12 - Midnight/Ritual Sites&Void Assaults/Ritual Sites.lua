@@ -75,30 +75,51 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						ach(62528),	-- Ritual Site Extreme: Daggerspine Point
 						ach(62535),	-- Ritual Site Rogue: Daggerspine Point
 					}),
-					filter(BATTLE_PETS, {
-						i(269999, {	-- Overloaded Manaling (PET!)
+					n(RARES, {
+						n(259971, {	-- Mana-Gorged Greatwyrm
 							["minReputation"] = { FACTION_RITUAL_SITES, 8 },
-							["cr"] = 259971,	-- Mana-Gorged Greatwyrm
-							--["coord"] = { X, Y, DAGGERSPINE_POINT },	-- TODO
+							["coords"] = { 55.1, 38.7, DAGGERSPINE_POINT },
+							["groups"] = {
+								i(269999),	-- Overloaded Manaling (PET!)
+							},
 						}),
-						i(270061, {	-- Void-Bathed Snapdragon (PET!)
-							-- TODO: Restructure and move to treasures when "Soggy Nest" ObjectID gets discovered
-							["description"] = "Use |cff1eff00Soggy Lynx Toy|r at the Soggy Nest.",
-							["coord"] = { 30.0, 63.1, DAGGERSPINE_POINT },
-							["cr"] = 263917,	-- Curious Snapdragon
-							["cost"] = { { "i", 272128, 1 } },	-- Soggy Lynx Toy
-						}),
-						i(270062, {	-- Void-Touched Chick (PET!)
+					}),
+					n(TREASURES, {
+						n(263805, {	-- Egg
 							["description"] = "A small, inconspicuous, egg is floating down the river. Catch it.",
-							["cr"] = 263805,	-- Egg
 							["coords"] = {
 								{ 55.8, 45.6, DAGGERSPINE_POINT },
 								{ 68.7, 47.7, DAGGERSPINE_POINT },
 								{ 71.6, 50.3, DAGGERSPINE_POINT },
 							},
+							["groups"] = {
+								i(270062),	-- Void-Touched Chick (PET!)
+							},
 						}),
-					}),
-					n(TREASURES, {
+						n(createHeader({	-- Soggy Nest (no objectID known, hopefully temporary solution...)
+							readable = "Soggy Nest",
+							text = {
+								en = "Soggy Nest",
+								-- de = "",
+								-- es = "",
+								-- mx = "",
+								-- fr = "",
+								-- it = "",
+								-- ko = "",
+								-- pt = "",
+								-- ru = "",
+								-- cn = "",
+								-- tw = "",
+							},
+						}), {
+							["coord"] = { 30.0, 63.1, DAGGERSPINE_POINT },
+							["cost"] = { { "i", 272128, 1 } },	-- Soggy Lynx Toy
+							["groups"] = {
+								i(270061, {	-- Void-Bathed Snapdragon (PET!)
+									["cr"] = 263917,	-- Curious Snapdragon
+								}),
+							},
+						}),
 						o(649380, {	-- Washed Up Kelp
 							["description"] = "Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",
 							["modelScale"] = 3,
@@ -479,22 +500,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62896),	-- Power Creep
 			})),
 			n(EVENT_COMPLETION, {
-				i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
-				i(272392, {	-- Broken Lynx Leash
-					["description"] = "Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it.",
-				}),
-				currency(3429),	-- Ritual Site Reports
-				i(DARK_PARTICLE),
-				i(271787),	-- Field Accolades
-				i(271786),	-- Ritual Site Reports
-				i(271785),	-- Ritual Spoils (Tier 1)
-				i(271973),	-- Ritual Spoils (Tier 2)
-				i(271974),	-- Ritual Spoils (Tier 3)
-				i(271975),	-- Ritual Spoils (Tier 4)
-				i(271976),	-- Ritual Spoils (Tier 5)
-				i(273855),	-- Ritual Tablet (1st Ritual of the Week)
-				i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
-				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
+				["maps"] = {
+					DAGGERSPINE_POINT,
+					BROKEN_THRONE,
+				},
+				["groups"] = {
+					i(272391),	-- Pattern: Rope Lynx Harness (RECIPE!)
+					i(272392, {	-- Broken Lynx Leash
+						["description"] = "Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it.",
+					}),
+					i(271787),	-- Field Accolades
+					i(271786),	-- Ritual Site Reports
+					i(271785),	-- Ritual Spoils (Tier 1)
+					i(271973),	-- Ritual Spoils (Tier 2)
+					i(271974),	-- Ritual Spoils (Tier 3)
+					i(271975),	-- Ritual Spoils (Tier 4)
+					i(271976),	-- Ritual Spoils (Tier 5)
+					i(273855),	-- Ritual Tablet (1st Ritual of the Week)
+					i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
+					i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
+					currency(3429),	-- Ritual Site Reports
+					currency(FIELD_ACCOLADE, {["skipFill"] = 1}),
+				},
 			}),
 			n(QUESTS, {
 				q(94382, {	-- Ritual Problems
