@@ -2218,7 +2218,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(262596),	-- Preyseeker's Satchel of Voidlight Marl
 			i(256136),	-- Professor Instructaur's Brain Pertaining to Midnight
 			i(239611),	-- Pure Loanite
-			i(259996),	-- Quel'Thalas Equipment Chest
 			i(254275),	-- Radiant Echo
 			i(254276),	-- Radiant Echo
 			i(263974),	-- Relaxing Tisane
