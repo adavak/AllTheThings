@@ -26648,7 +26648,8 @@ q(62320,{coords={
 [1536]={{71.7,32.9}}},customCollect={"SL_COV_NEC"},lvl=60,qgs={174120},sourceQuests={61749},g={
 cq(62319,{b=1,customCollect={"SL_COV_NEC"},description="This may drop for any character on your account once the toy 'Acolyte's Guise' has been learned by a Necrolord character.",itemID=183401,spellID=341428,g={
 crit(49934,{achID=14763,awp=90000,id=6,providers={{"i",183401}}})}}),
-i(183400,{customCollect={"SL_COV_NEC"}})}}),
+o(358326,{customCollect={"SL_COV_NEC"},g={
+i(183400,{customCollect={"SL_COV_NEC"}})}})}}),
 q(61983,{coords={
 [1698]={{52.4,38.4}}},customCollect={"SL_COV_NEC"},isWeekly=1,lvl=60,qgs={161909},sourceQuests={59609}}),
 q(62844,{coords={
@@ -34352,7 +34353,7 @@ q(72690,{coords={
 i(198868,{b=1,minReputation={2510,14},rwp=110000,u=2}),
 i(215359,{awp=110000,b=1,minReputation={2510,14}})}}),
 q(70895,{coords={
-[2112]={{46.8,78.8}}},lvl=10,minReputation={2510,15},qgs={185561},g={
+[2112]={{46.8,78.8}}},lc={6,"questID",69174,"questID",69189,"questID",69198,"questID",69204,"questID",69209,"questID",69220},lvl=10,minReputation={2510,15},qgs={185561},g={
 mm(196974,{awp=100007,b=1,minReputation={2510,15},questID=69174,g={
 crit(56533,{achID=16727,awp=100005,id=4,providers={{"i",196974}}})}}),
 mm(196998,{b=1,minReputation={2510,15},questID=69198,g={
@@ -41862,13 +41863,17 @@ ach(62526),
 ach(62527),
 ach(62528),
 ach(62535)}),
-flt(101,{
-p(5020,{crs={259971},itemID=269999,minReputation={2792,8},npcID=262066,spellID=1287339}),
-p(5021,{coords={
-[2594]={{30,63.1}}},cost={{"i",272128,1}},crs={263917},description="Use |cff1eff00Soggy Lynx Toy|r at the Soggy Nest.",itemID=270061,npcID=262089,spellID=1287374}),
-p(5022,{coords={
-[2594]={{55.8,45.6},{68.7,47.7},{71.6,50.3}}},crs={263805},description="A small, inconspicuous, egg is floating down the river. Catch it.",itemID=270062,npcID=262090,spellID=1287376})}),
+h(-46,{
+n(259971,{coords={
+[2594]={{55.1,38.7}}},minReputation={2792,8},g={
+p(5020,{itemID=269999,npcID=262066,spellID=1287339})}})}),
 h(-56,{
+n(263805,{coords={
+[2594]={{55.8,45.6},{68.7,47.7},{71.6,50.3}}},description="A small, inconspicuous, egg is floating down the river. Catch it.",g={
+p(5022,{itemID=270062,npcID=262090,spellID=1287376})}}),
+h(-752,{coords={
+[2594]={{30,63.1}}},cost={{"i",272128,1}},g={
+p(5021,{crs={263917},itemID=270061,npcID=262089,spellID=1287374})}}),
 o(649380,{coords={
 [2594]={{38,63.6},{41,73},{46.6,46},{47.9,72.1},{50.1,55.1},{53.4,55.4},{62,77.1},{66,74}}},crs={263617},description="Search through the Kelp for a chance to attract the Void-Touched Snapdragon.",modelScale=3,g={
 mnt(1287357,{itemID=270041})}})}),
@@ -41913,11 +41918,12 @@ ach(62452,{maps={2585,2594},g={
 crit(113699,{achID=62562,id=1})}}),
 ach(62453,{maps={2585,2594}}),
 ach(62454,{maps={2585,2594}})}),
-h(-29,{
+h(-28,{
+q(95391,{repeatable=1,g={
+i(269234)}})}),
+h(-29,{maps={2585,2594},g={
 r(1291046,{itemID=272391,requireSkill=165,skillID=2915}),
 i(272392,{description="Can only drop if you are Renown 8.\n\nCan drop on any difficulty level, regardless of active affixes.\n\nUnconfirmed: Higher difficulties, additional affixes, and higher performance scores increase your chances of obtaining it."}),
-cu(3429),
-i(267051),
 i(271787,{spellID=1289516}),
 i(271786,{spellID=1289514}),
 i(271785,{spellID=1289518}),
@@ -41927,7 +41933,9 @@ i(271975,{spellID=1289831}),
 i(271976,{spellID=1289832}),
 i(273855,{spellID=1292799}),
 i(273856,{spellID=1292800}),
-i(269817)}),
+i(269817),
+cu(3429),
+cu(3405,{skipFill=1})}}),
 h(-45,{
 q(94382,{coords={
 [2393]={{47.7,49.6}}},qgs={257416},sourceQuests={94383}}),
@@ -41977,11 +41985,8 @@ o(645184,{coords={
 i(271430)}}),
 o(644396,{coords={
 [2594]={{66.6,63.7}}},g={
-i(270562)}})})}}),
-h(-28,{awp=120005,maps={2395,2437},g={
-q(95391,{repeatable=1,g={
-i(269234)}})}}),
-h(-58,{awp=120005,maps={2395,2437},g={
+i(270562)}})}),
+h(-58,{
 n(255473,{coords={
 [2393]={{48,49.2}}},g={
 i(263928,{cost={{"c",3405,75}},g={
@@ -42332,7 +42337,7 @@ s(303206,263956,{f=23}),
 s(303200,263950,{f=29}),
 s(308640,273874,{f=29}),
 s(303202,263952,{f=28}),
-s(303209,263959,{f=1})}})}})}}),
+s(303209,263959,{f=1})}})}})})}}),
 h(-741,{awp=120005,maps={2395,2437},g={
 h(-12,{
 ach(62574),

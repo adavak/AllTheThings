@@ -48645,8 +48645,8 @@ i(165718,{awp=80100,b=1,pvp=1,r=1})}}),
 h(-488,{awp=80001,pvp=1,g={
 x(8,{pvp=1,g={
 h(-12,{pvp=1,g={
-ach(12567,{pvp=1}),
-ach(12568,{pvp=1})}}),
+ach(12567,{pvp=1,r=2}),
+ach(12568,{pvp=1,r=1})}}),
 h(-487,{pvp=1,g={
 i(163825,{b=1,pvp=1}),
 i(170539,{awp=80200,b=1,pvp=1})}}),
@@ -48664,10 +48664,10 @@ i(174020,{pvp=1,spellID=313172,u=2}),
 crit(47766,{achID=14191,id=1,pvp=1,u=2})}}),
 q(52786,{lvl=10,pvp=1,r=1,rwp=100002,u=2,g={
 title(376,{pvp=1,r=1,u=2}),
-crit(40938,{achID=12568,awp=80001,id=1,pvp=1})}}),
+crit(40938,{achID=12568,awp=80001,id=1,pvp=1,r=1})}}),
 q(52784,{lvl=10,pvp=1,r=2,rwp=100002,u=2,g={
 title(375,{pvp=1,r=2,u=2}),
-crit(40937,{achID=12567,awp=80001,id=1,pvp=1})}})}})}}),
+crit(40937,{achID=12567,awp=80001,id=1,pvp=1,r=2})}})}})}}),
 x(9,{pvp=1,g={
 h(-12,{awp=90002,pvp=1,g={
 ach(14516,{pvp=1}),
@@ -48707,10 +48707,10 @@ crit(55993,{achID=16611,id=4,maps={2025},providers={{"s",271400}},pvp=1})}})}}),
 h(-45,{awp=100002,pvp=1,g={
 q(71143,{description="If you die while on the quest, and are resurrected you will continue gaining credit.",lvl=10,pvp=1,r=2,g={
 title(375,{pvp=1}),
-crit(58302,{achID=12567,awp=80001,id=2,pvp=1})}}),
+crit(58302,{achID=12567,awp=80001,id=2,pvp=1,r=2})}}),
 q(71144,{description="If you die while on the quest, and are resurrected you will continue gaining credit.",lvl=10,pvp=1,r=1,g={
 title(376,{pvp=1}),
-crit(58303,{achID=12568,awp=80001,id=2,pvp=1})}})}}),
+crit(58303,{achID=12568,awp=80001,id=2,pvp=1,r=1})}})}}),
 h(-47,{awp=100002,pvp=1,g={
 cu(2123,{pvp=1,rwp=110000,u=2}),
 i(201756,{b=1,pvp=1}),
