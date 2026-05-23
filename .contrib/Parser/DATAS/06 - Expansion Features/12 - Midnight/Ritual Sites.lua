@@ -159,6 +159,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				--},
 				["groups"] = {
 					n(ACHIEVEMENTS, {
+						ach(63385),	-- A Hal'hadar Walks into a Swamp
 						ach(62904),	-- Climate Strange: Naigtal
 						ach(62919),	-- Heroic Climate Strange: Naigtal
 						ach(62883),	-- Showdown Slugger: Naigtal
@@ -166,6 +167,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					}),
 					n(QUESTS, {
 						q(96052, {	-- Through the Mana Rift
+							["sourceQuest"] = 96708,	-- To the Voidstorm and Beyond!
 							["qg"] = 263480,	-- Riftblade Maella
 							["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
 						}),
@@ -174,31 +176,117 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["qg"] = 264024,	-- Riftblade Maella
 							["coord"] = { 48.1, 81.1, NAIGTAL },
 						}),
-						q(96569, {	-- Conductive Crystals
-							["sourceQuest"] = 96052,	-- Through the Mana Rift
-							["provider"] = { "o", 654497 },	-- Energized Crystal Conductor
-							["coord"] = { 70.4, 48.5, NAIGTAL },
-							["groups"] = {
-								o(654422, {	-- Energized Crystal Conductor
-									i(274936),	-- Energized Crystal Conductor (QI!)
-								}),
-							},
-						}),
 						q(97072, {	-- A Swampy Welcome to Naigtal
 							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
 							["qg"] = 264028,	-- Commander Tala'saan
 							["coord"] = { 70.8, 62.2, NAIGTAL },
+							["groups"] = {
+								i(276372),	-- Lightveil Recall Beacon (PQI!)
+								--
+								i(276371),	-- Lightveil Recall Beacon (TOY!)
+							},
 						}),
 						q(96472, {	-- The Nexus-Captain
 							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
 							["qg"] = 264028,	-- Commander Tala'saan
 							["coord"] = { 70.8, 62.2, NAIGTAL },
 						}),
+						q(96534, {	-- Preparing for Threats
+							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
+							["qg"] = 265558,	-- Veraan
+							["coord"] = { 47.9, 81.4, NAIGTAL },
+						}),
+						q(96809, {	-- Exterior Manaforge Translocator
+							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
+							["qg"] = 265559,	-- Kifaan
+							["coord"] = { 47.7, 81.2, NAIGTAL },
+							-- Should Unlock following Manaforge Translocators (Flight Paths) but they are currently not interactable
+							-- Gonna need new header "Manaforge Translocators"
+							-- Umbral Base Camp
+							-- Nexus Port 55.0, 47.0
+							-- Sporeforge 77.3, 42.9
+							-- Extraction Coast
+						}),
+						q(96567, {	-- Data Decryption Disaster
+							["sourceQuest"] = 97072,	-- A Swampy Welcome to Naigtal
+							["qg"] = 266034,	-- Archmage Y'mera
+							["coord"] = { 47.8, 82.0, NAIGTAL },
+							["groups"] = {
+								i(275391),	-- Lightveil Data Decrypter (PQI!)
+								--
+								i(275686),	-- Decrypted Intel Sphere (QI!)
+								i(275135),	-- Firewall Decryption Key (QI!)
+							},
+						}),
+						q(96568, {	-- Hal'hadon't You Dare!
+							["sourceQuest"] = 97072,	-- A Swampy Welcome to Naigtal
+							["qg"] = 265950,	-- Commander Tala'saan
+							["coord"] = { 47.5, 82.1, NAIGTAL },
+						}),
+						q(96569, {	-- Conductive Crystals
+							["sourceQuest"] = 97072,	-- A Swampy Welcome to Naigtal
+							["provider"] = { "o", 654497 },	-- Energized Crystal Conductor
+							["coords"] = {
+								{ 70.4, 48.5, NAIGTAL },
+								{ 72.7, 39.6, NAIGTAL },
+								{ 75.1, 44.3, NAIGTAL },
+							},
+							["groups"] = {
+								o(654422, {	-- Energized Crystal Conductor
+									i(274936),	-- Energized Crystal Conductor (QI!)
+								}),
+							},
+						}),
+						q(96570, {	-- Technological Transference
+							["sourceQuests"] = {
+								96567,	-- Data Decryption Disaster
+								96568,	-- Hal'hadon't You Dare!
+								96569,	-- Conductive Crystals
+							},
+							["qg"] = 266034,	-- Archmage Y'mera
+							["coord"] = { 47.8, 82.0, NAIGTAL },
+						}),
+						q(96571, {	-- The Node Knows
+							["sourceQuests"] = {
+								96567,	-- Data Decryption Disaster
+								96568,	-- Hal'hadon't You Dare!
+								96569,	-- Conductive Crystals
+							},
+							["qg"] = 265950,	-- Commander Tala'saan
+							["coord"] = { 47.5, 82.1, NAIGTAL },
+							["groups"] = {
+								i(274990),	-- Infantry's Data-Node (QI!)
+								o(655738, {	-- Nullframe Holoprint
+									["coord"] = { 65.8, 74.5, NAIGTAL },
+									["groups"] = { i(275477) },	-- Nullframe Holoprint (QI!)
+								}),
+								o(656141, {	-- Soul Lattice Holoprint
+									["coord"] = { 77.1, 77.9, NAIGTAL },
+									["groups"] = { i(275687) },	-- Soul Lattice Holoprint (QI!)
+								}),
+								o(656142, {	-- Glittering Crypt Holoprint
+									["coord"] = { 73.2, 75.4, NAIGTAL },
+									["groups"] = { i(275689) },	-- Glittering Crypt Holoprint
+								}),
+							},
+						}),
+						q(96572, {	-- Malfunctioning Nullframe
+							["sourceQuests"] = {
+								96567,	-- Data Decryption Disaster
+								96568,	-- Hal'hadon't You Dare!
+								96569,	-- Conductive Crystals
+							},
+							["provider"] = { "i", 275520 },	-- Technoseer's Communique (QS!)
+							["coord"] = { 74.2, 73.5, NAIGTAL },
+						}),
 						-- Repeatable
 						q(96717, {	-- Showdown on Naigtal
 							["sourceQuest"] = 96052,	-- Through the Mana Rift
 							["qg"] = 265303,	-- Decimus
-							["coord"] = { 48.2, 81.2, NAIGTAL },
+							["coords"] = {
+								{ 48.2, 81.2, NAIGTAL },
+								{ 48.5, 81.9, NAIGTAL },
+							},
 							["groups"] = { i(275690) },	-- Riftstalker's Cache
 							["isWeekly"] = true,
 						}),
@@ -208,6 +296,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["description"] = "Roams around the area.",
 							["coord"] = { 67.7, 62.9, NAIGTAL },
 							--["questID"] = XXXXX,
+						}),
+						n(263954, {	-- Swalewing Matriarch
+							["description"] = "Roams around the area.",
+							["coord"] = { 77.7, 38.0, NAIGTAL },
+							["questID"] = 96207,
+							["groups"] = { i(275161) },	-- Swamp-Resistant Stompers
 						}),
 						n(264576, {	-- Slaipaan
 							["description"] = "Roams around the area.",
@@ -219,11 +313,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 56.1, 61.4, NAIGTAL },
 							--["questID"] = XXXXX,
 						}),
+						n(264574, {	-- Warp Agent Xi'grivr
+							["coord"] = { 70.3, 76.4, NAIGTAL },
+							["questID"] = 96319,
+							["groups"] = { i(274821) },	-- Drape of the Hal'hadar Assassin
+						}),
 					}),
 					n(REWARDS, {
 						i(276089),	-- Field Accolades (Normal)
+						i(276090),	-- Field Accolades (Heroic)
 						i(276091),	-- Lost Armaments (Normal)
+						i(276092),	-- Lost Armaments (Heroic)
 						i(276093),	-- Nexus-Captain Leth'ir (Normal)
+						i(276094),	-- Nexus-Captain Leth'ir (Heroic)
 					}),
 					n(TREASURES, {
 						o(655271, {	-- Hal'hadar Pocket-Storage
@@ -234,6 +336,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(265559, {	-- Kifaan <The Consortium>
 							["coord"] = { 47.7, 81.2, NAIGTAL },
 							["groups"] = {
+								i(252195, {	-- Fishstick Keith (PET!)
+									["sourceAchievement"] = 62903,	-- Climate Strange: Val
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE, 30 },
+										{ "i", 238365, 250 },	-- 250x Sin'dorei Swarmer
+									},
+								}),
 								i(275662, {	-- Frosticus Maximus (PET!)
 									["sourceAchievement"] = 63349,	-- Ultradon Carnage
 									["sourceQuest"] = 95395,	-- Until it is Done
@@ -250,6 +359,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 									["sourceAchievement"] = 62874,	-- A Trip Through the Stars
 									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
 								}),
+								i(260739, {	-- Swamp Dweller's Night Staff (COSMETIC!)
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE, 60 },
+										{ "i", VOIDLIGHT_MARL, 500 },
+									},
+								}),
 								i(275664, {	-- Tortured Gorger (MOUNT!)
 									["sourceAchievement"] = 63264,	-- Heroic Showdowns
 									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
@@ -258,23 +373,58 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 									["sourceAchievement"] = 62873,	-- A Trip Around the Stars
 									["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
 								}),
+								-- Consumables
+								i(274772, {	-- Ethereal Bandage
+									["cost"] = { { "c", FIELD_ACCOLADE, 1 } },
+								}),
+								i(274774, {	-- Frost-Injected Vapor
+									["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+								}),
+								i(274793, {	-- Mana Barrier Projector
+									["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+								}),
+								i(274794, {	-- Shockwave Amplifier
+									["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+								}),
+								i(274775, {	-- Void Hungerer's Vapor
+									["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+								}),
+								i(276375),	-- Technomancer's Scrying Matrix
+								i(274782, {	-- Tether Severing Vapor
+									["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+								}),
 							},
 						}),
 					}),
-					n(WORLD_QUESTS, bubbleDownFiltered({
+					n(WORLD_QUESTS, bubbleDownFiltered({	-- Bonus Objectives in this case behave like (repeatable) World Quests
 						["isWorldQuest"] = true,
 					},FILTERFUNC_questID,{
+						q(96696, {	-- Base Camp Tendril Sling
+							["coord"] = { 45.6, 78.9, NAIGTAL },
+						}),
+						q(96691, {	-- Command Point Tendril Sling
+							["coord"] = { 72.5, 80.6, NAIGTAL },
+						}),
 						q(96557, {	-- Flying Debris
 							["coord"] = { 54.9, 33.6, NAIGTAL },
 						}),
 						q(96548, {	-- High Spore (Bonus Objective)
 							["coord"] = { 53.1, 67.0, NAIGTAL },
 						}),
+						q(96268, {	-- Marsh Mana Spores
+							["coord"] = { 63.1, 55.0, NAIGTAL },
+						}),
+						q(96272, {	-- Mashing Mushroom Mana Machines
+							["coord"] = { 29.8, 53.2, NAIGTAL },
+						}),
 						q(96293, {	-- Mush-Vroom!
 							["coord"] = { 34.2, 45.9, NAIGTAL },
 						}),
 						q(96698, {	-- Naigtal Tendril Sling
 							["coord"] = { 58.9, 56.6, NAIGTAL },
+						}),
+						q(96522, {	-- Oh Captain, Die Captain!
+							["coord"] = { 77.0, 75.7, NAIGTAL },
 						}),
 						q(96432, {	-- Power Overload
 							["coord"] = { 70.7, 44.2, NAIGTAL },
@@ -286,7 +436,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96651, {	-- Subdue the Spore Storm (Bonus Objective)
 							["coord"] = { 32.2, 45.0, NAIGTAL },
 						}),
+						q(96668, {	-- Subdue the Spore Storm (Bonus Objective)
+							["coord"] = { 78.9, 41.0, NAIGTAL },
+						}),
+						q(96547, {	-- Weaken Their Forces
+							["coord"] = { 76.3, 75.9, NAIGTAL },
+						}),
 					})),
+					n(ZONE_DROPS, {
+						i(275257),	-- Manaforge Essence
+						i(275520, {	-- Technoseer's Communique (QS!)
+							["cr"] = 265537,	-- Hal'hadar Forge Grunt
+							["coord"] = { 74.2, 73.5, NAIGTAL },
+						}),
+						i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
+					}),
 				},
 			}),
 			m(VAL, {
@@ -304,6 +468,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(ACHIEVEMENTS, {
 						ach(62842),	-- A Celestial Pain
 						ach(62903),	-- Climate Strange: Val
+						ach(63386),	-- Frosty Domanaar Politics
 						ach(62917),	-- Heroic Climate Strange: Val
 						ach(62881),	-- Showdown Slugger: Val
 						ach(62880),	-- Showdown Success: Val
@@ -383,6 +548,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276089),	-- Field Accolades (Normal)
 						i(276091),	-- Lost Armaments (Normal)
 						i(276095),	-- Imperator Pertinax (Normal)
+						i(276096),	-- Imperator Pertinax (Heroic)
 					}),
 					n(TREASURES, {
 						o(655270, {	-- Dominaar Storage Vessel
@@ -491,13 +657,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62899),	-- Absolute Power
 				ach(62898),	-- Cradle of Power
 				ach(63264),	-- Heroic Showdowns
+				ach(63348),	-- Heroic Slugger
 				ach(63323),	-- Heroic Tendencies
 				ach(62909),	-- Heroic: Pain of Command
 				ach(62901),	-- Heroic: Power Creep
 				ach(62887),	-- Heroic: Worlds Ahead
+				ach(63383),	-- Into the Stars
 				ach(62905),	-- Pain of Command
 				ach(62900),	-- Power Beyond Measure
 				ach(62896),	-- Power Creep
+				ach(63384),	-- Prepared for a Showdown
 			})),
 			n(EMISSARY_QUESTS, {
 				------ Paragon ------
@@ -664,7 +833,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["groups"] = { i(270562) },	-- Tainted Sample (QS!/QI!)
 				}),
 			}),
-			n(VENDORS, {	-- While these vendor could also fit under Void Assaults, however a max score run on Ritual Site gives 200 currency while a void assault event gives 6-10 currency
+			n(VENDORS, {	-- While these vendor could also fit under Void Assaults, a max score run on Ritual Site gives 200 currency per run while a Void Assault event gives 6-10 currency per completion
 				n(255473, {	-- Maren Silverwing <Quartermaster>
 					["coord"] = { 48.0, 49.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
@@ -871,9 +1040,61 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["cost"] = { { "c", FIELD_ACCOLADE, 500 } },
 							["sym"] = { { "select", "itemID", 263928 },{"pop"} },	-- Cache of Void-Touched Armaments (Champion)
 						}),
+						i(276380, {	-- Cache of Void-Touched Armaments: Belts (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276378, {	-- Cache of Void-Touched Armaments: Boots (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276382, {	-- Cache of Void-Touched Armaments: Bracers (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276383, {	-- Cache of Void-Touched Armaments: Chest (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276384, {	-- Cache of Void-Touched Armaments: Cloak (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276381, {	-- Cache of Void-Touched Armaments: Gloves (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276386, {	-- Cache of Void-Touched Armaments: Head (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276379, {	-- Cache of Void-Touched Armaments: Legs (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(277126, {	-- Cache of Void-Touched Armaments: Necklaces (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(277127, {	-- Cache of Void-Touched Armaments: Rings (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(276385, {	-- Cache of Void-Touched Armaments: Shoulder (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
+						i(277125, {	-- Cache of Void-Touched Armaments: Weapons (Heroic)
+							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
 						i(268996, {	-- Field Accolade (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
 							["cost"] = { { "i", DARK_PARTICLE, 100 } },
 							["groups"] = { currency(FIELD_ACCOLADE), },
+						}),
+						i(277124, {	-- Warbound Cache of Void-Touched Armaments (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
 						}),
 					},
 				}),
@@ -888,6 +1109,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
 						}),
 						i(273142),	-- Runic Parchment (DECOR!)
+						i(276083, {	-- Sunstrider Omnium Simulacrum (DECOR!)
+							["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
+							["timeline"] = { ADDED_12_0_7 },
+						}),
 						i(273135),	-- Void Elf Floating Desk (DECOR!)
 						i(273159, {	-- Void Elf Scribe's Desk (DECOR!)
 							["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
@@ -1205,21 +1430,55 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						{ 63.7, 21.2, VAL },
 					},
 					["timeline"] = { ADDED_12_0_7 },
-					["groups"] = sharedData({
-						["cost"] = {
-							{ "c", FIELD_ACCOLADE,  60 },
-							{ "c", VOIDLIGHT_MARL, 500 },
-						},
-					}, {
-						i(276301),	-- Lightruned Crystal Beacon (COSMETIC!)
-						i(276289),	-- Lightveil Argunite Blade (COSMETIC!)
+					["groups"] = {
+						i(276432, {	-- De-Powered Lightforged Siegebreaker (DECOR!)
+							["sourceAchievement"] = 63384,	-- Prepared for a Showdown
+							["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
+						}),
+						i(276429, {	-- Grand Artificer's Lightforged Console (DECOR!)
+							["sourceAchievement"] = 63384,	-- Prepared for a Showdown
+							["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
+						}),
+						i(276301, {	-- Lightruned Crystal Beacon (COSMETIC!)
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  60 },
+								{ "c", VOIDLIGHT_MARL, 500 },
+							},
+						}),
+						i(276316, {	-- Lightveil's Transport Pad (DECOR!)
+							["sourceAchievement"] = 63384,	-- Prepared for a Showdown
+							["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
+						}),
+						i(276289, {	-- Lightveil Argunite Blade (COSMETIC!)
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  60 },
+								{ "c", VOIDLIGHT_MARL, 500 },
+							},
+						}),
+						i(276321, {	-- Luminant Defender's Golden Barricade (DECOR!)
+							["sourceAchievement"] = 62905,	-- Pain of Command
+							["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
+						}),
+						i(267211, {	-- Luminant Scout's Golden Fence (DECOR!)
+							["sourceAchievement"] = 62905,	-- Pain of Command
+							["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
+						}),
+						i(276318, {	-- Luminant Soldier's War Banner (DECOR!)
+							["sourceAchievement"] = 62905,	-- Pain of Command
+							["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
+						}),
+						i(276375),	-- Technomancer's Scrying Matrix
 						iensemble(276364, {	-- Arsenal: Lightforged Armaments (COSMETIC!)
 							["sourceAchievements"] = {
 								62883,	-- Showdown Slugger: Naigtal
 								62881,	-- Showdown Slugger: Val
 							},
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE,  60 },
+								{ "c", VOIDLIGHT_MARL, 500 },
+							},
 						}),
-					}),
+					},
 				}),
 			}),
 		}),

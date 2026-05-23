@@ -7,24 +7,13 @@ root(ROOTS.Unsorted, {
 		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
 			n(ARMOR, {	-- New Void Assault Things (Probably)
 				-- Misc
-				i(274772),	-- Ethereal Bandage
-				i(274774),	-- Frost-Injected Vapor
-				i(274775),	-- Void Hungerer's Vapor
-				i(274780),	-- Fungal Spore Vapor
-				i(274782),	-- Tether Severing Vapor
-				i(274793),	-- Mana Barrier Projector
-				i(274794),	-- Shockwave
-				i(276090),	-- Field Accolades
-				i(276092),	-- Lost Armaments
-				i(276094),	-- Nexus-Captain Leth'ir
-				i(276096),	-- Imperator Pertinax
+				i(274780),	-- Fungal Spore Vapor [NYI]
 				i(276097),	-- Lost Armaments
 				i(276098),	-- Raided Items
 
 				-- Rares??
 				i(274818),	-- Drape of Intense Darkness
 				i(274819),	-- Fungle Fold Frock
-				i(274821),	-- Drape of the Hal'hadar Assassin
 				i(274822),	-- Band of the Beast Reaper
 				i(274823),	-- Spongy Gill Loop
 				i(274824),	-- Worldeater's Bone Ring
@@ -105,7 +94,6 @@ root(ROOTS.Unsorted, {
 				i(275158),	-- Voidwarped Scale Girdle
 				i(275159),	-- Construct Manipulator Bracers
 				i(275160),	-- Slaipaan's Carapace
-				i(275161),	-- Swamp-Resistant Stompers
 				i(275162),	-- Spore-Shined Gloves
 				i(275163),	-- Uarn's Reinforced Headplate
 				i(275164),	-- Indomitable Mechanized Legplates
@@ -151,7 +139,6 @@ root(ROOTS.Unsorted, {
 			filter(COSMETIC, {
 				i(260383),	-- Quel'Danil Shortbow
 				i(266081),	-- Quel'Danil Quiver
-				i(260739),	-- Swamp Dweller's Night Staff
 				i(269751),	-- Artisan Sai
 				i(269752),	-- Nunchuck of the Artisan
 				i(269753),	-- Artisan Katana
@@ -395,7 +382,6 @@ root(ROOTS.Unsorted, {
 				i(274580),	-- Primessence of Disorder
 				i(274913),	-- Brazier Pieces
 				i(274924),	-- Spore Infused Lungs
-				i(274990),	-- Infantry's Data-Node
 				i(274581),	-- Primessence of Shadow
 				i(274582),	-- Primessence of Life
 				i(274583),	-- Primessence of Arcane
@@ -406,14 +392,7 @@ root(ROOTS.Unsorted, {
 				i(274783),	-- Fel Embers
 				i(274798),	-- Remote Detonator
 				i(275134),	-- Otherworldly Spark of War
-				i(275135),	-- Firewall Decryption Key
-				i(275391),	-- Lightveil Data Decrypter
-				i(275477),	-- Nullframe Holoprint
-				i(275520),	-- Technoseer's Communique
 				i(275667),	-- Domanaar Disguise
-				i(275686),	-- Decrypted Intel Sphere
-				i(275687),	-- Soul Lattice Holoprint
-				i(275689),	-- Sunken Crypt Holoprint
 				i(275699),	-- Veraan's Soul Lattice Report
 			}),
 		})),
