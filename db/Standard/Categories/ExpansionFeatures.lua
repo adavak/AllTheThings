@@ -19142,8 +19142,8 @@ q(51904,{altQuests={51994},lvl=40,maps={1022},r=2,sourceQuests={51903}}),
 q(51870,{altQuests={51994},coords={
 [862]={{58.4,62.6}}},lvl=40,qgs={135691},r=1,sourceQuests={53062}}),
 q(51888,{altQuests={51994},lvl=40,maps={1022},r=1,sourceQuests={51870}}),
-q(53061,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53062},lvl=35,nextQuests={51903},r=2}),
-q(53062,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53061},lvl=35,nextQuests={51870},r=1}),
+q(53061,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",51994,"questID",53062},lvl=35,nextQuests={51903},r=2}),
+q(53062,{altQuests={51994},DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",51994,"questID",53061},lvl=35,nextQuests={51870},r=1}),
 q(53436,{coords={
 [1161]={{66.6,35.5}}},isWeekly=1,qgs={131290},r=2,g={
 i(168615,{b=1,f=55,lvl=50,spellID=298606}),
@@ -20253,7 +20253,7 @@ follower(1068)}}),
 q(51968,{coords={
 [862]={{40.7,70.6}}},lvl=35,qgs={135620},r=2,sourceQuests={52003},g={
 crit(40203,{achID=12510,id=3,r=2})}}),
-q(53063,{DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53064},lvl=50,qgs={135612},r=2,sourceQuests={51967,51968,51969}}),
+q(53063,{DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",51722,"questID",53064},lvl=50,qgs={135612},r=2,sourceQuests={51967,51968,51969}}),
 q(51918,{altQuests={52450},coords={
 [1161]={{69.4,27}}},lvl=50,qgs={135612},r=2,sourceQuests={52654},g={
 sp(273746),
@@ -20768,7 +20768,7 @@ follower(1072)}}),
 q(51984,{coords={
 [895]={{87.3,50}}},lvl=35,qgs={137742},r=1,sourceQuests={51975},g={
 crit(40453,{achID=12509,id=2,r=1})}})}}),
-q(53064,{DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",53063},lvl=50,nextQuests={51916},qgs={135691},r=1,sourceQuests={51984,51985,51986}}),
+q(53064,{DisablePartySync=1,isBreadcrumb=1,lc={1,"questID",51722,"questID",53063},lvl=50,nextQuests={51916},qgs={135691},r=1,sourceQuests={51984,51985,51986}}),
 q(51916,{coords={
 [862]={{58.4,62.6}}},description="This version of the quest is offered to the first character on your account to reach Friendly with Zandalari Empire, Talanji's Expedition, and Voldunai. Your alts will get a different quest with the same name when they reach level 120, but all characters get credit for both quests.",lvl=50,qgs={135691},r=1,sourceQuests={51984,51985,51986,53064},g={
 toy(141605,{b=1})}}),

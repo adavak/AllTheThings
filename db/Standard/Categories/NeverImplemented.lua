@@ -8455,7 +8455,6 @@ p(4824,{displayID=124240}),
 p(4837,{displayID=128503})}}),
 x(11.0205,{awp=110205,g={
 p(4899,{displayID=137218,itemID=252199,spellID=1254212}),
-p(4898,{displayID=137215,itemID=252195,spellID=1254208}),
 p(4895,{displayID=137193,itemID=252137,spellID=1254162}),
 p(4896,{displayID=137201,itemID=252193,spellID=1254201})}})}),
 x(12,{awp=120000,g={

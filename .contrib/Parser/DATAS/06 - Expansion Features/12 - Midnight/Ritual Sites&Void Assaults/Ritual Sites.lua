@@ -1,3 +1,7 @@
+-------------------------------------------------------------------
+--      E X P A N S I O N   F E A T U R E S    M O D U L E       --
+-------------------------------------------------------------------
+
 local FIELD_ACCOLADE = 3405;
 local DARK_PARTICLE = 267051;
 
@@ -444,7 +448,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 					})),
 					n(ZONE_DROPS, {
-						i(275257),	-- Manaforge Essence
 						i(275520, {	-- Technoseer's Communique (QS!)
 							["cr"] = 265537,	-- Hal'hadar Forge Grunt
 							["coord"] = { 74.2, 73.5, NAIGTAL },
