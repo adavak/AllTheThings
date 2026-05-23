@@ -133,7 +133,6 @@ root(ROOTS.Unsorted, {
 				i(275227),	-- Leth'ir's Dress Sabatons
 			}),
 			filter(BATTLE_PETS, {
-				i(271185),	-- Emberlyn
 				i(275818),	-- Pinky
 			}),
 			filter(COSMETIC, {
@@ -375,10 +374,7 @@ root(ROOTS.Unsorted, {
 				i(274681),	-- Badlands Buzzard
 			}),
 			filter(QUEST_ITEMS, {
-				i(269612),	-- Pungent Crab Tomalley
-				i(269666),	-- Feather of Jan'alai
 				i(272975),	-- Hal'Hadar Keeper Keycode
-				i(273844),	-- Shaja's Cleansing Vial
 				i(274580),	-- Primessence of Disorder
 				i(274913),	-- Brazier Pieces
 				i(274924),	-- Spore Infused Lungs

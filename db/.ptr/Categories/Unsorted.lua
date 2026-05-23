@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local de,flt,h,i,mnt,p,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local de,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Unsorted={
 x(12,{
 x(12.0007,{awp=120007,g={
@@ -127,7 +127,6 @@ s(309229,275225,{f=5}),
 s(309237,275226,{f=6}),
 s(309245,275227,{f=7})}),
 flt(101,{
-p(5041,{itemID=271185,npcID=262985,spellID=1288774}),
 i(275818)}),
 flt(2,{
 s(302143,260383,{f=32}),
@@ -360,10 +359,7 @@ mnt(1292344,{itemID=273651}),
 mnt(1292345,{itemID=273652}),
 mnt(1294767,{itemID=274681})}),
 flt(104,{
-i(269612),
-i(269666),
 i(272975),
-i(273844,{spellID=1293937}),
 i(274580),
 i(274913),
 i(274924),
@@ -2826,10 +2822,5 @@ q(94010),
 q(94580),
 q(94582),
 q(94831,{description="Area: |cFFf09f26Valdrakken|r"}),
-q(94868),
-q(94869),
-q(94870),
-q(94882),
-q(94883),
 q(95215,{description="Category: |cFFf09f26Demon Hunter|r"})})};
 end);

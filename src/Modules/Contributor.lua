@@ -3232,6 +3232,7 @@ MobileDB.GameObject = {
 	[628956] = true,	-- Shadowmoon Lumber (Shadowmoon Valley)
 	[630870] = true,	-- Portal to Astalor's Sanctum
 	[638873] = true,	-- Orb of Translocation
+	[639875] = true,	-- Feather of Jan'alai (q:94870)
 	[641533] = true,	-- Corrupted Lantern (q:92320)
 	[650051] = true,	-- Faithbreaker Ger'lok's Ritual Chest [Broken Throne, Ritual Site]
 	[653416] = true,	-- Cynosure of Twilight (q:96051)

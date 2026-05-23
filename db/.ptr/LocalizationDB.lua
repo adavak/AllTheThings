@@ -1732,6 +1732,7 @@ localize(L.HEADER_NAMES, {
 	[-749] = "Decor Duel",
 	[-750] = "Phase Conduits",
 	[-752] = "Soggy Nest",
+	[-753] = "A Fiery Blast from the Past",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -2458,6 +2459,7 @@ localize(L.HEADER_ICONS, {
 	[-748] = 4672182,
 	[-749] = 1392559,
 	[-750] = 6654410,
+	[-753] = 6119038,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,

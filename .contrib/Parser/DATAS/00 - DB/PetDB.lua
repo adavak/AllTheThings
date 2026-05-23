@@ -4629,9 +4629,8 @@ i(270988, 5038);	-- Wriggling Capybara
 -- PATCH 12.0.7 --
 ------------------
 i(268557, 5007);	-- Akiki
+i(271185, 5041);	-- Emberlyn
 i(252195, 4898);	-- Fishstick Keith
 i(275662, 5073);	-- Frosticus Maximus
 i(260885, 4949);	-- Shadowflame Remnant
 i(275663, 5074);	-- Silento
---- Unsorted ---
-i(271185, 5041);	-- Emberlyn
