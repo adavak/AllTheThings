@@ -437,6 +437,16 @@ local AccountWideQuestsDB = {
 	78973,	-- Community Rumor Mill (Achievement 18644) (account-wide completion)
 	-- #ENDIF
 
+	-- Thunderspine mount questline
+	-- #IF AFTER DF
+	71195,	-- To Tame A Thunderspine
+	71196,	-- To Tame A Thunderspine
+	71197,	-- To Tame A Thunderspine
+	71198,	-- To Tame A Thunderspine
+	71199,	-- To Tame A Thunderspine
+	71209,	-- Beast of the Plains
+	-- #ENDIF
+
 	-- Delver's Dirigible Schematics
 	-- #IF AFTER TWW
 	82167,	-- Delver's Dirigible Schematic: Front-Mounted Propeller
