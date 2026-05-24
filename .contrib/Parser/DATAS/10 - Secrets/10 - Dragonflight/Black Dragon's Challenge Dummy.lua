@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
-	header(HEADERS.Item, 201933, {	-- Black Dragon's Challenge Dummy
+root(ROOTS.Secrets, expansion(EXPANSION.DF, {
+	header(HEADERS.Item, 201933, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {	-- Black Dragon's Challenge Dummy
 		["description"] = "***Debugg Mode enabled is required to see all the steps.***\n\nFollow the steps as ordered in the descriptions.",
 		["modelScale"] = 1.6,
 		["displayID"] = 110513,
@@ -35,5 +35,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_
 				["groups"] = { i(201933) },	-- Black Dragon's Challenge Dummy (TOY!)
 			}),
 		},
-	}),
-})));
+	})),
+}));

@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_9_1_5 } }, {
-	header(HEADERS.Item, 186553, {	-- Gurgl
+root(ROOTS.Secrets, expansion(EXPANSION.SL, {
+	header(HEADERS.Item, 186553, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Gurgl
 		["displayID"] = 100676,
 		["modelScale"] = 1.1,
 		["groups"] = {
@@ -47,5 +47,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDED_
 				},
 			}),
 		},
-	}),
-})));
+	})),
+}));

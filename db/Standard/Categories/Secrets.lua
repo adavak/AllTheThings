@@ -353,7 +353,7 @@ i(202069,{coords={
 [2022]={{20,40}}},description="Head back to where you originally picked up the empty barrel, and place the Overflowing Fish Barrel on the ground.",spellID=396703}),
 q(72738,{coords={
 [2022]={{20,40}}},lvl=10,qgs={199563},sourceQuests={72808},g={
-mnt(376873,{b=1,itemID=198870,lvl=10})}})}})}),
+mnt(376873,{b=1,itemID=198870,lvl=10})}})}}),
 ah(193373,{awp=100007,description="Below is a detailed explanation on how to obtain the Phoenix Wishwing pet.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",type="i",g={
 o(13000040,{description="|cFFFFFFFFStep 1:|r Obtain the Phoenix Ash Talisman from Zektar in Spires of Arak.",providers={{"i",199203}},g={
 o(13000041,{description="|cFFFFFFFFStep 1A:|r Obtain the Glittering Phoenix Ember from Alysrazor in Firelands Timewalking.",providers={{"i",199099}}}),
@@ -363,7 +363,7 @@ o(13000044,{description="|cFFFFFFFFStep 2:|r Obtain 20 Ash Feathers spawned by G
 o(13000045,{description="|cFFFFFFFFStep 3:|r Obtain 15 Smoldering Phoenix Ash from phoenixes around the Dragon Isles.",providers={{"i",199080}}}),
 q(72798,{coords={
 [2022]={{16.1,62.6}}},cost={{"i",199203,1},{"i",199080,15},{"i",202062,20}},lvl=10,qgs={196214},repeatable=1,sourceQuests={70779},g={
-p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}}),
+p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}})}),
 h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",g={
 q(30526,{coords={
 [376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={

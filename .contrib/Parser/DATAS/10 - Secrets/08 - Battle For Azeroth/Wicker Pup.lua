@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
-	header(HEADERS.Spell, 279213, {	-- Wicker Pup
+root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
+	header(HEADERS.Spell, 279213, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {	-- Wicker Pup
 		["description"] = "You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.",
 		["modelScale"] = .8,
 		["displayID"] = 86805,
@@ -51,5 +51,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED
 				["groups"] = { i(163789) },	-- Bundle of Wicker Stick
 			}),
 		},
-	}),
-})));
+	})),
+}));

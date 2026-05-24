@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }, {
-	header(HEADERS.Item, 206040, {	-- Mote of Nasz'uro
+root(ROOTS.Secrets, expansion(EXPANSION.DF, {
+	header(HEADERS.Item, 206040, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_0 } }, {	-- Mote of Nasz'uro
 		n(REWARDS, {
 			["maps"] = { 
 				OHNAHRAN_PLAINS,
@@ -38,5 +38,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_
 			n(205876, { ["questID"] = 76186, ["coord"] = { 58.5, 67.7, THE_WAKING_SHORES }, }),
 			n(205876, { ["questID"] = 76187, ["coord"] = { 63.9, 44.8, THE_WAKING_SHORES }, }),
 		})),
-	}),
-})));
+	})),
+}));

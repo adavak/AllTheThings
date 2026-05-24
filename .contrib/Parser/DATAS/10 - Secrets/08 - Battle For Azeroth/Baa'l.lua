@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {
-	header(HEADERS.Spell, 277461, {	-- Baa'l
+root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
+	header(HEADERS.Spell, 277461, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1_LAUNCH } }, {	-- Baa'l
 		["description"] = "***Quest tracking enabled is required to see all the steps.*** \n\n***Before you can complete the last step of Baa'l, an upgraded Uuna is required, so it is recommended that you complete that secret first.***\n\nOther things you may want to have on hand for this secret:\n-Goblin Gliders (if you don't have flying)\n-Invisibility potions\n-Underlight Angler or potions to increase your swim speed\n",
 		["modelScale"] = 1.1,
 		["displayID"] = 80456,
@@ -133,5 +133,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED
 				},
 			}),
 		},
-	}),
-})));
+	})),
+}));

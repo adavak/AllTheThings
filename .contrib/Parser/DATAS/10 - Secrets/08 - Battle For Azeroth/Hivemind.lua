@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
-	header(HEADERS.Item, 156798, {	-- The Hivemind
+root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
+	header(HEADERS.Item, 156798, bubbleDownSelf({ ["timeline"] = { ADDED_8_0_1 } }, {	-- The Hivemind
 		["description"] = "Below is a detailed explanation on how to obtain The Hivemind mount.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",
 		["modelScale"] = 1.1,
 		["displayID"] = 88835,
@@ -313,5 +313,5 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADDED
 				},
 			}),
 		},
-	}),
-})));
+	})),
+}));
