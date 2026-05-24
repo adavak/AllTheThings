@@ -2,9 +2,10 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, {
-	n(111573, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {	-- Kosumoth the Hungering
+root(ROOTS.Secrets, expansion(EXPANSION.LEGION, {
+	header(HEADERS.NPC, 111573, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {	-- Kosumoth the Hungering
 		["description"] = "***Quest tracking enabled is required to see all the steps.***\n\nThis will show you how to unlock |cFFFFD700Kosumoth the Hungering|r, which has a world quest that awards the |cFFFFD700Hungering Claw|r pet or the |cFFFFD700Fathom Dweller|r mount.",
+		["displayID"] = 71850,
 		["groups"] = {
 			n(102695, {	-- Drak'thul
 				["questID"] = 43715,	-- Step 1: Drak'thul
@@ -104,8 +105,7 @@ root(ROOTS.Secrets, {
 			}),
 		},
 	})),
-});
-
+}));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(BROKEN_ISLES, {
