@@ -2,19 +2,20 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, {
-	n(159783, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5 } }, {	-- Jenafur
+root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
+	header(HEADERS.Spell, 311289, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_5 } }, {	-- Jenafur
 		["description"] = "***Debug Mode is required to see all the steps.***\n",
+		["displayID"] = 81387,
 		["groups"] = {
 			hqt(58076, {	-- Step 1: Speak to Amara
 				["name"] = "|cFFFFFFFFStep 1:|r Speak to Amara",
-				["description"] = "|cFFFFFFFFStep 1:|r Go to |cFFFFFFFF17.4, 49.3|r in Ashenvale. Speak with |cFFFFD700Amara Lunastar|r and follow her dialogue about her cat.\n",
+				["description"] = "|cFFFFFFFFStep 1:|r Speak with |cFFFFD700Amara Lunastar|r and follow her dialogue about her cat.\n",
 				["provider"] = { "n", 159799 },	-- Amara Lunastar
 				["coord"] = { 17.4, 49.3, ASHENVALE },
 			}),
 			hqt(58098, {	-- Step 2: Empty Dish
 				["name"] = "|cFFFFFFFFStep 2:|r Empty Dish",
-				["description"] = "|cFFFFFFFFStep 2:|r Go inside the house at |cFFFFFFFF44.2, 53.0|r in Elwynn Forest to find the |cFFFFD700Empty Dish|r.\n",
+				["description"] = "|cFFFFFFFFStep 2:|r Go inside the house in Elwynn Forest to find the |cFFFFD700Empty Dish|r.\n",
 				["provider"] = { "o", 339211 },	-- Empty Dish
 				["sourceQuest"] = 58076,	-- Step 1: Speak to Amara
 				["coord"] = { 44.2, 53.0, ELWYNN_FOREST },
@@ -62,4 +63,4 @@ root(ROOTS.Secrets, {
 			}),
 		},
 	})),
-});
+}));

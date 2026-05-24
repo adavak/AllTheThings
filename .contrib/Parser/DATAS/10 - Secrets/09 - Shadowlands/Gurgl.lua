@@ -5,7 +5,7 @@
 root(ROOTS.Secrets, expansion(EXPANSION.SL, {
 	header(HEADERS.Item, 186553, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Gurgl
 		["displayID"] = 100676,
-		["modelScale"] = 1.1,
+		["modelScale"] = 1.5,
 		["groups"] = {
 			q(64167,{	-- Pets Detective
 				["provider"] = { "n", 96479 },	-- Breanni

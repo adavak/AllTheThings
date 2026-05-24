@@ -43,8 +43,8 @@ q(50146,{coords={
 [36]={{21.1,38.4}}},icon=134506,sourceQuests={50145}}),
 q(50147,{coords={
 [539]={{70.7,46.7}}},icon=134506,sourceQuests={50146}})})}})}}),
-x(8,{awp=80001,g={
-ah(277461,{description="***Quest tracking enabled is required to see all the steps.*** \n\n***Before you can complete the last step of Baa'l, an upgraded Uuna is required, so it is recommended that you complete that secret first.***\n\nOther things you may want to have on hand for this secret:\n-Goblin Gliders (if you don't have flying)\n-Invisibility potions\n-Underlight Angler or potions to increase your swim speed\n",displayID=80456,modelScale=1.1,type="s",g={
+x(8,{
+ah(277461,{awp=80001,description="***Quest tracking enabled is required to see all the steps.*** \n\n***Before you can complete the last step of Baa'l, an upgraded Uuna is required, so it is recommended that you complete that secret first.***\n\nOther things you may want to have on hand for this secret:\n-Goblin Gliders (if you don't have flying)\n-Invisibility potions\n-Underlight Angler or potions to increase your swim speed\n",displayID=80456,modelScale=1.1,type="s",g={
 q(52819,{coords={
 [863]={{51.8,59}}},description="|cFFFFFFFFStep 1:|r Head to Nazmir. The note is high up on the side of the temple in the middle of the zone. If you don't have flying, you can access the top of the temple via a bridge that starts at |cFFFFFFFF46.3, 53.9|r.\n\nThe note reads: \"Begin at the beginning\"\n",providers={{"o",293849}}}),
 o(293837,{coords={
@@ -77,7 +77,7 @@ o(303016,{coords={
 n(141909,{coords={
 [525]={{62.3,22.9}}},description="|cFFFFFFFFStep 15:|r Head to Frostfire Ridge. You'll find Baa'l at the coordinates provided, in a volcano, just chilling, like you do.\n\nSummon your empowered Uuna to weaken him, and then attack!  Dragonkin pets are a wise choice, but he's very easy to beat post-Uuna Reckoning regardless.\n\nEnjoy your new pet!  Hail Satan!\n",questID=52828,sourceQuests={52827},g={
 p(2352,{b=1,itemID=162578,npcID=141941,spellID=277461})}})}}),
-ah(156798,{description="Below is a detailed explanation on how to obtain The Hivemind mount.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",displayID=88835,modelScale=1.1,type="i",g={
+ah(156798,{awp=80001,description="Below is a detailed explanation on how to obtain The Hivemind mount.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",displayID=88835,modelScale=1.1,type="i",g={
 o(13000000,{coords={
 [594]={{65.6,69.3}}},description="|cFFFFFFFFSTEP 1:|r Purchase |cFFFFD700Talisman of True Treasure Tracking|r. This can be bought from |cFFFFD700Griftah|r in |cFFFFD700Shattrath City|r at |cFFFFFFFF65.6, 69.3|r for 35g\n",g={
 i(27944,{f=51,spellID=260928})}}),
@@ -180,7 +180,21 @@ o(13000035,{description="There multiple solutions to this puzzle. One of them is
 o(13000036,{description="First identify the 5 people in your group who can cross with whom;\nPerson A = can make it across with any duo or make it across with 1 specific trio\nPerson B = can make it across with person A in a duo or the specific trio\nSo the specific trio will be Person A, B, and either (C, D, or E) and you'll have to do some trial and error to identify who the last person is.Person C, D, E = can all can make it across with person A in a duo BUT like I said, 1 of these people will also be the last person in the specific trio (once you've identified them, just call them person C, from there person D and E don't matter)\n1. Person A, B, and C get on and go across.\n2. Person C gets off on other side, A and B go back across.\n3. Person B gets off at the start and A and D go back.\n4. Person D gets off on other side and person A and C come back to start.\n5. Person B gets on with person A and C and they travel back to the finish.\n6. Person C gets off at finish, person A and B go back to start.\n7. Person B gets off, person E gets on with person A.\n8. Person E gets off at finish, person A and C go back to the start.\n9. Person B gets on with A and C and go to finish."}),
 o(13000037,{description="Each player needs to take one position each around the circle.",g={
 mnt(261395,{b=1,itemID=156798,lvl=10})}})}}),
-ah(279213,{description="You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.",displayID=86805,modelScale=0.8,type="s",g={
+ah(311289,{awp=80205,description="***Debug Mode is required to see all the steps.***\n",displayID=81387,type="s",g={
+hqt(58076,{coords={
+[63]={{17.4,49.3}}},description="|cFFFFFFFFStep 1:|r Go to |cFFFFFFFF17.4, 49.3|r in Ashenvale. Speak with |cFFFFD700Amara Lunastar|r and follow her dialogue about her cat.\n",providers={{"n",159799}}}),
+hqt(58098,{coords={
+[37]={{44.2,53}}},description="|cFFFFFFFFStep 2:|r Go inside the house at |cFFFFFFFF44.2, 53.0|r in Elwynn Forest to find the |cFFFFD700Empty Dish|r.\n",DisablePartySync=1,lc={1,"questID",58099},providers={{"o",339211}},sourceQuests={58076}}),
+hqt(58099,{coords={
+[42]={{46.7,70.1}}},description="|cFFFFFFFFStep 3:|r This step requires collecting various meats throughout |cffffd200Return to Karazhan|r and placing them in the Opera Hall to mimic a section of the Amara's Wish sheet music.\n\n|cffde1c1cOnce the items are picked up, you have 5 minutes to place them into the puzzle. Once placed, they despawn after 5 minutes and 20 seconds. Because of these time limits, it may be wise to ensure you have cleared the trash in the dungeon and have acquainted yourself with the locations of all the meats you need to pick up.\n\nTurn on Debug Mode to see descriptions for the locations of each meat and how to place them in the correct order!|r\n\nYou will need to collect items from Moroes' room as well as the hallways near Maiden of Virtue, and then take the items back to the audience area of the Opera Hall to place them.\n",providers={{"n",160370},{"n",160371},{"n",160372},{"n",160373},{"n",160374}},sourceQuests={58098},g={
+i(173787,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r The first Fishy Bits can be found in the hallway prior to Maiden of Virtue. Near the middle of hall on the left side, there is a doorway flanked by two lion statues. The Fishy Bits are just past the lion statues and before the left-hand bust directly after them, against the wall.\n\n|cFFFFFFFF2.|r The second Fishy Bits can be found in Moroes' room, very close to the boss's platform. It's between the bottom right corner of the platform and the upper left corner of the small right-hand table.\n",npcID=160374,spellID=312285}),
+i(173780,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r Progress through the dungeon, killing the Opera boss, and head towards Maiden of Virtue. When you exit the Opera Hall, in the area before you turn towards Maiden, there is a wide hallway with two rugs, one red and one purple. The first Marbled Steak can be found on the right-hand edge of the purple rug.\n\n|cFFFFFFFF2.|r The second Marbled Steak is just before Maiden of Virtue in the last little room off to the left of the hallway. The Marbled Steak is in the upper-left corner of the antechamber, behind what looks like a very large, high-backed chair.\n",npcID=160370,spellID=312278}),
+i(173783,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r The first Juicy Drumstick can be found close to the second Marbled Steak, in the last room before Maiden of Virtue. Head all the way into the room, and you will see the Juicy Drumstick on an ottoman in front of another high-backed chair. It's next to a tall candelabra and a portrait of a woman.\n\n|cFFFFFFFF2.|r The second Juicy Drumstick can be found in Moroes' room, in front of the boss's platform. It's closer to the small left-hand table, near the bottom edge of the big black and gold carpet.\n",npcID=160371,spellID=312281}),
+i(173779,{b=1,description="Can be found about halfway down the hallway prior to Maiden of Vigilance. There is a section on the right-hand side with a rectangular table and three chairs between two bookshelves, all covered in cobwebs. The Meaty Morsel is on a tiny round table between the first bookshelf and chair.\n",npcID=160373,spellID=312277}),
+i(173777,{b=1,description="Can be found in Moroes' room, on the right side of the long table. There are a couple on the table, but the easiest one to spot is on a gold platter sitting between a large roast pig and fish.\n",npcID=160372,spellID=312275}),
+o(9999921,{description="After you have all the meats collected, head back to the audience area of the Opera Hall. To orient yourself in the room, you want to have your back to the stage.\n\nYou will be placing each meat relative to two very tiny piles of kibble on the left side of the room (again, while faced away from the stage). You will probably need to zoom in to see them. Each tile on the floor represents a box in a 12-by-12 grid.\n\n|cff413f43 00|r = Empty cell\n|cff4db62c 00|r = Pile of Kibble\n|cffeea016 00|r = Fishy Bits\n|cffeee116 00|r = Juicy Drumstick\n|cff16ceee 00|r = Meaty Morsel\n|cffce16ee 00|r = Marbled Steak\n|cff9e5ced 00|r = Slathered Rib\n\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00|r|cffeee116 00|r|cff413f43 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00|r|cff9e5ced 00|r|cff413f43 00|r|cffeea016 00|r|cff413f43 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00|r|cff16ceee 00|r|cff413f43 00 00 00 00 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00|r|cffeea016 00|r|cff413f43 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00|r|cffeee116 00|r|cff413f43 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n\nIf you have placed all the meats properly, Jenafur will spawn as soon as you finish. You can use |cFFFFFFFF/tar Jenafur|r to find her in the room, and then all you have to do is walk over and pet her for her to be added to your collection.\n"}),
+p(2795,{npcID=159783})}})}}),
+ah(279213,{awp=80001,description="You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.",displayID=86805,modelScale=0.8,type="s",g={
 h(-47,{maps={896},g={
 p(2411,{b=1,cost={{"i",163796,1},{"i",163790,1},{"i",163791,1},{"i",163789,1}},itemID=163497,npcID=143189,spellID=279213})}}),
 o(297879,{coords={
@@ -198,7 +212,7 @@ crit(41704,{achID=12995,id=8})}}),
 o(297878,{coords={
 [896]={{18.5,51.3}}},description="Click the inactive torches.",modelScale=1.5,questID=53471,g={
 i(163789,{b=1,spellID=280310}),
-crit(41702,{achID=12995,id=6})}})}})}}),
+crit(41702,{achID=12995,id=6})}})}})}),
 x(9,{
 ah(344577,{awp=90005,cost={{"i",184870,1}},description="Requires |cFF006812Appreciative|r reputation with Ve'nari and a total of 3,500 Stygia.\n\nEnable quest tracking to see all the steps.\n\nPurchase a |cFF0070ddStygia Dowser|r from Ve'nari for 1,500 Stygia.Throughout the secret, harvest every Stygia Nexus you find, as you will eventually need 200 |cFF1eff00Stygia Dust|r and |cFF1eff00Stygia Slivers|r.",displayID=92632,maps={1543},modelScale=1.1,type="s",g={
 prof(2811,{
@@ -228,7 +242,7 @@ i(185475,{cost={{"i",185471,1},{"i",185474,1}},f=55,sourceQuests={63666}}),
 q(63684,{description="Once you have the |cFFa335eeArmored Husk|r and the |cFFa335eeWilling Wolf Soul|r, click on the Binding Altar at |cFFFFFFFF45.2, 48.3|r.\n\n|cffde1c1cAs soon as you summon the mount, it will start running, so make sure you're facing towards the interior of the zone and that you won't run off the edge and into the void!|r\n\nOnce you're mounted, your hotkeys will be replaced with runes. Use them in the order provided by your |cFFa335eeCrumbling Stele|r, and you will receive the mount!",lvl=60,providers={{"i",185475}},g={
 mnt(344577,{b=1,itemID=184168}),
 i(185616,{spellID=350274})}})}}),
-ah(329900,{awp=90001,displayID=96259,modelScale=1.1,type="s",g={
+ah(329900,{awp=90001,displayID=96259,modelScale=0.8,type="s",g={
 q(60605,{coords={
 [116]={{18.4,88.2}}},providers={{"o",352909}},g={
 i(5996,{f=55,lvl=4,spellID=7178})}}),
@@ -261,7 +275,7 @@ i(180032)}})}}),
 q(60620,{coords={
 [116]={{17.1,93.8}}},qgs={169415},sourceQuests={60619},g={
 p(2888,{b=1,itemID=180034,npcID=169514,spellID=329900})}})}}),
-ah(186553,{awp=90105,displayID=100676,modelScale=1.1,type="i",g={
+ah(186553,{awp=90105,displayID=100676,modelScale=1.5,type="i",g={
 q(64167,{coords={
 [627]={{58.5,39.1}}},qgs={96479},g={
 i(187128,{spellID=356054})}}),
@@ -297,9 +311,9 @@ i(198085,{b=1,spellID=331657})}}),
 o(378857,{coords={
 [2022]={{44.6,70.1}}},cost={{"i",198085,1}},description="Step 4: Venture into the cave to locate the 'Lost Obsidian Cache'.",modelScale=1.6,questID=70018,g={
 toy(201933,{b=1})}})}}),
-ah(206040,{awp=100100,type="i",g={
+ah(206040,{awp=100100,description="You need to collect all 15 motes to receive this pet. Requires Quest Tracking to see the motes' Location.",displayID=112636,type="i",g={
 h(-47,{maps={2022,2023,2024,2025,2151},g={
-p(3581,{b=1,description="You need to collect all 15 motes to receive this pet. Requires Quest Tracking to see the motes' Location.",itemID=206040,npcID=205649,spellID=411800})}}),
+p(3581,{b=1,itemID=206040,npcID=205649,spellID=411800})}}),
 h(-56,{
 n(205876,{coords={
 [2023]={{61.2,64.4}}},nomerge=1,questID=76182}),
@@ -354,7 +368,7 @@ i(202069,{coords={
 q(72738,{coords={
 [2022]={{20,40}}},lvl=10,qgs={199563},sourceQuests={72808},g={
 mnt(376873,{b=1,itemID=198870,lvl=10})}})}}),
-ah(193373,{awp=100007,description="Below is a detailed explanation on how to obtain the Phoenix Wishwing pet.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",type="i",g={
+ah(193373,{awp=100007,description="Below is a detailed explanation on how to obtain the Phoenix Wishwing pet.\n\n***This secret requires you to have debug mode enabled to see the steps. To enable debug mode right click the ATT icon on the minimap, navigate to the general tab and check the \"|Cff15abffDebug Mode|r |cFFFFFFFF(Show Everything)|r\" box.***",displayID=106643,type="i",g={
 o(13000040,{description="|cFFFFFFFFStep 1:|r Obtain the Phoenix Ash Talisman from Zektar in Spires of Arak.",providers={{"i",199203}},g={
 o(13000041,{description="|cFFFFFFFFStep 1A:|r Obtain the Glittering Phoenix Ember from Alysrazor in Firelands Timewalking.",providers={{"i",199099}}}),
 o(13000042,{description="|cFFFFFFFFStep 1B:|r Obtain 20 Inert Phoenix Ash from fire elementals in Un'Goro Crater.",providers={{"i",199092}}}),
@@ -364,7 +378,7 @@ o(13000045,{description="|cFFFFFFFFStep 3:|r Obtain 15 Smoldering Phoenix Ash fr
 q(72798,{coords={
 [2022]={{16.1,62.6}}},cost={{"i",199203,1},{"i",199080,15},{"i",202062,20}},lvl=10,qgs={196214},repeatable=1,sourceQuests={70779},g={
 p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}})}),
-h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",g={
+h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",displayID=1100,g={
 q(30526,{coords={
 [376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={
 i(80144),
@@ -377,20 +391,6 @@ q(83093,{awp=110002,coords={
 q(83094,{awp=110002,coords={
 [2248]={{31.4,51.3}}},description="Interact with Dog and <Pet his head> to get him as a pet.",qgs={225486},sourceQuests={83093},g={
 p(4596,{b=1,itemID=224766,npcID=225537,spellID=453741})}})}}),
-n(159783,{awp=80205,description="***Debug Mode is required to see all the steps.***\n",g={
-hqt(58076,{coords={
-[63]={{17.4,49.3}}},description="|cFFFFFFFFStep 1:|r Go to |cFFFFFFFF17.4, 49.3|r in Ashenvale. Speak with |cFFFFD700Amara Lunastar|r and follow her dialogue about her cat.\n",providers={{"n",159799}}}),
-hqt(58098,{coords={
-[37]={{44.2,53}}},description="|cFFFFFFFFStep 2:|r Go inside the house at |cFFFFFFFF44.2, 53.0|r in Elwynn Forest to find the |cFFFFD700Empty Dish|r.\n",DisablePartySync=1,lc={1,"questID",58099},providers={{"o",339211}},sourceQuests={58076}}),
-hqt(58099,{coords={
-[42]={{46.7,70.1}}},description="|cFFFFFFFFStep 3:|r This step requires collecting various meats throughout |cffffd200Return to Karazhan|r and placing them in the Opera Hall to mimic a section of the Amara's Wish sheet music.\n\n|cffde1c1cOnce the items are picked up, you have 5 minutes to place them into the puzzle. Once placed, they despawn after 5 minutes and 20 seconds. Because of these time limits, it may be wise to ensure you have cleared the trash in the dungeon and have acquainted yourself with the locations of all the meats you need to pick up.\n\nTurn on Debug Mode to see descriptions for the locations of each meat and how to place them in the correct order!|r\n\nYou will need to collect items from Moroes' room as well as the hallways near Maiden of Virtue, and then take the items back to the audience area of the Opera Hall to place them.\n",providers={{"n",160370},{"n",160371},{"n",160372},{"n",160373},{"n",160374}},sourceQuests={58098},g={
-i(173787,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r The first Fishy Bits can be found in the hallway prior to Maiden of Virtue. Near the middle of hall on the left side, there is a doorway flanked by two lion statues. The Fishy Bits are just past the lion statues and before the left-hand bust directly after them, against the wall.\n\n|cFFFFFFFF2.|r The second Fishy Bits can be found in Moroes' room, very close to the boss's platform. It's between the bottom right corner of the platform and the upper left corner of the small right-hand table.\n",npcID=160374,spellID=312285}),
-i(173780,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r Progress through the dungeon, killing the Opera boss, and head towards Maiden of Virtue. When you exit the Opera Hall, in the area before you turn towards Maiden, there is a wide hallway with two rugs, one red and one purple. The first Marbled Steak can be found on the right-hand edge of the purple rug.\n\n|cFFFFFFFF2.|r The second Marbled Steak is just before Maiden of Virtue in the last little room off to the left of the hallway. The Marbled Steak is in the upper-left corner of the antechamber, behind what looks like a very large, high-backed chair.\n",npcID=160370,spellID=312278}),
-i(173783,{b=1,description="Two are required.\n\n|cFFFFFFFF1.|r The first Juicy Drumstick can be found close to the second Marbled Steak, in the last room before Maiden of Virtue. Head all the way into the room, and you will see the Juicy Drumstick on an ottoman in front of another high-backed chair. It's next to a tall candelabra and a portrait of a woman.\n\n|cFFFFFFFF2.|r The second Juicy Drumstick can be found in Moroes' room, in front of the boss's platform. It's closer to the small left-hand table, near the bottom edge of the big black and gold carpet.\n",npcID=160371,spellID=312281}),
-i(173779,{b=1,description="Can be found about halfway down the hallway prior to Maiden of Vigilance. There is a section on the right-hand side with a rectangular table and three chairs between two bookshelves, all covered in cobwebs. The Meaty Morsel is on a tiny round table between the first bookshelf and chair.\n",npcID=160373,spellID=312277}),
-i(173777,{b=1,description="Can be found in Moroes' room, on the right side of the long table. There are a couple on the table, but the easiest one to spot is on a gold platter sitting between a large roast pig and fish.\n",npcID=160372,spellID=312275}),
-o(9999921,{description="After you have all the meats collected, head back to the audience area of the Opera Hall. To orient yourself in the room, you want to have your back to the stage.\n\nYou will be placing each meat relative to two very tiny piles of kibble on the left side of the room (again, while faced away from the stage). You will probably need to zoom in to see them. Each tile on the floor represents a box in a 12-by-12 grid.\n\n|cff413f43 00|r = Empty cell\n|cff4db62c 00|r = Pile of Kibble\n|cffeea016 00|r = Fishy Bits\n|cffeee116 00|r = Juicy Drumstick\n|cff16ceee 00|r = Meaty Morsel\n|cffce16ee 00|r = Marbled Steak\n|cff9e5ced 00|r = Slathered Rib\n\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00|r|cffeee116 00|r|cff413f43 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00|r|cff9e5ced 00|r|cff413f43 00|r|cffeea016 00|r|cff413f43 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00|r|cff16ceee 00|r|cff413f43 00 00 00 00 00 00|r\n|cff413f43 00|r|cff4db62c 00|r|cff413f43 00 00|r|cffeea016 00|r|cff413f43 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00|r|cffce16ee 00|r|cff413f43 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00|r|cffeee116 00|r|cff413f43 00 00 00 00 00 00 00 00 00|r\n|cff413f43 00 00 00 00 00 00 00 00 00 00 00 00|r\n\nIf you have placed all the meats properly, Jenafur will spawn as soon as you finish. You can use |cFFFFFFFF/tar Jenafur|r to find her in the room, and then all you have to do is walk over and pet her for her to be added to your collection.\n"}),
-p(2795,{npcID=159783})}})}}),
 n(111573,{awp=70003,description="***Quest tracking enabled is required to see all the steps.***\n\nThis will show you how to unlock |cFFFFD700Kosumoth the Hungering|r, which has a world quest that awards the |cFFFFD700Hungering Claw|r pet or the |cFFFFD700Fathom Dweller|r mount.",g={
 n(102695,{coords={
 [646]={{37.2,71.8}}},description="|cFFFFFFFFStep 1:|r Head to |cFFFFFFFF37.2, 71.8|r. Speak with |cFFFFD700Drak'thul|r and choose option 1. \n\n|cffcc33ffThe demons are taking over this island, you may want to leave.|r \n\nChoose option 1 again. \n\n|cffcc33ffYou must know much. Will you help us defeat them?|r \n\nHe tells you to go away.",questID=43715}),

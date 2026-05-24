@@ -128,9 +128,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 				["sourceQuests"] = { 52827 },	-- Step 14: Thirteenth Ordinary Pebble
 				["coord"] = { 62.3, 22.9, FROSTFIRE_RIDGE },
 				["questID"] = 52828,
-				["groups"] = {
-					i(162578),	-- Baa'l (PET!)
-				},
+				["groups"] = { i(162578) },	-- Baa'l (PET!)
 			}),
 		},
 	})),

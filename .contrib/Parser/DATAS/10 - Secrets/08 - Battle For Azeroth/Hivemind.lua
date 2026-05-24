@@ -11,9 +11,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 			o(13000000, {	-- Step 1: Purchase Talisman of True Treasure Tracking
 				["description"] = "|cFFFFFFFFSTEP 1:|r Purchase |cFFFFD700Talisman of True Treasure Tracking|r. This can be bought from |cFFFFD700Griftah|r in |cFFFFD700Shattrath City|r at |cFFFFFFFF65.6, 69.3|r for 35g\n",
 				["coord"] = { 65.6, 69.3, 594 },	-- Shattrath City
-				["groups"] = {
-					i(27944),	-- Talisman of True Treasure Tracking
-				},
+				["groups"] = { i(27944) },	-- Talisman of True Treasure Tracking
 			}),
 			o(13000001, {	-- Step 2: Equip Talisman
 				["description"] = "|cFFFFFFFFSTEP 2:|r You must wear the talisman to see/interact with many objects in this secret.",
@@ -98,9 +96,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 								["coord"] = { 27.6, 27.1, BOREAN_TUNDRA },
 								["sourceQuest"] = 50187,	-- Letter 7: Niuzao Temple, Townlong Steppes
 								["description"] = "|cFFFFFFFFThe Gift:|r Go to |cFFFFFFFF27.6, 27.1|r in |cFFFFD700Coldarra, Borean Tundra|r. The |cFFFFFFFFBlue Crystal Monocle|r is in a container on the highest Nexus ring.\n",
-								["groups"] = {
-									i(156724),	-- Blue Crystal Monocle
-								},
+								["groups"] = { i(156724) },	-- Blue Crystal Monocle
 							}),
 						},
 					}),
@@ -112,9 +108,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = {
 							o(280883, {	-- Sun-Worn Chest
 								["questID"] = 50185,
-								["groups"] = {
-									i(156727),	-- Green Crystal Monocle
-								},
+								["groups"] = { i(156727) },	-- Green Crystal Monocle
 							}),
 						},
 					}),
@@ -242,9 +236,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 							o(13000030, {	-- Buy the Red Crystal Monocle
 								["coord"] = { 44.6, 20.2, VASHJIR_SHIMMERING_EXPANSE },	-- Shimmering Expanse, Vashj'ir
 								["description"] = "Exchange the 3 items with |cFFFFD700Sir Finley Mrrgglton|r at |cFFFFFFFF44.6, 20.2|r in |cFFFFD700Shimmering Expanse|r, Vashj'ir for the |cFFFFD700Red Crystal Monocle|r.\n\nThe NPC is at surface level on one of the islets, atop a watchtower.\n",
-								["groups"] = {
-									i(156725),	-- Red Crystal Monocle
-								},
+								["groups"] = { i(156725) },	-- Red Crystal Monocle
 							}),
 						},
 					}),
@@ -256,9 +248,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 						["groups"] = {
 							o(280886, {	-- Star-Touched Chest
 								["questID"] = 50183,
-								["groups"] = {
-									i(156726),	-- Yellow Crystal Monocle
-								},
+								["groups"] = { i(156726) },	-- Yellow Crystal Monocle
 							}),
 						};
 					});
@@ -308,9 +298,7 @@ root(ROOTS.Secrets, expansion(EXPANSION.BFA, {
 			}),
 			o(13000037, {	-- Step 8: Hivemind
 				["description"] = "Each player needs to take one position each around the circle.",
-				["groups"] = {
-					i(156798),	-- The Hivemind (MOUNT!)
-				},
+				["groups"] = { i(156798) },	-- The Hivemind (MOUNT!)
 			}),
 		},
 	})),

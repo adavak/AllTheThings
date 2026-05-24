@@ -22,6 +22,7 @@ FAITHFUL_DOG = createHeader({
 
 root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 	["description"] = "Multi-expansion secret to obtaining Dog as a companion pet.",
+	["displayID"] = 1100,
 	["timeline"] = { ADDED_5_0_4 },
 	["groups"] = {
 		q(30526, {	-- Step 1: Lost and Lonely
@@ -45,7 +46,7 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 				34193,	-- Clearing the Garden [H]
 			},
 			["providers"] = {
-				{ "n", 87553 },		-- Dog
+				{ "n",  87553 },	-- Dog
 				{ "i", 147420 },	-- Pebble
 			},
 			["coords"] = {
@@ -67,7 +68,6 @@ root(ROOTS.Secrets, n(FAITHFUL_DOG, {
 			["sourceQuests"] = { 83093 },
 			["provider"] = { "n", 225486 },	-- Dog
 			["coord"] = { 31.4, 51.3, ISLE_OF_DORN },
-			["timeline"] = { ADDED_11_0_2 },
 			["groups"] = { i(224766) },	-- Faithful Dog (PET!)
 		})),
 	},
