@@ -456,6 +456,7 @@ local whiteListedFields = {
 	Artifacts = true,
 	AzeriteEssenceRanks = true,
 	BattlePets = true,
+	Conduits = true,
 	Exploration = true,
 	Factions = true,
 	FirstCrafts = true,
