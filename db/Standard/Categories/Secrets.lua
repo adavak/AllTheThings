@@ -6,6 +6,7 @@ categories.Secrets=
 h(-50,{SortPriority=65,g={
 x(7,{
 ah(111573,{awp=70003,description="***Quest tracking enabled is required to see all the steps.***\n\nThis will show you how to unlock |cFFFFD700Kosumoth the Hungering|r, which has a world quest that awards the |cFFFFD700Hungering Claw|r pet or the |cFFFFD700Fathom Dweller|r mount.",displayID=71850,type="n",g={
+h(-56,{
 n(102695,{coords={
 [646]={{37.2,71.8}}},description="|cFFFFFFFFStep 1:|r Head to |cFFFFFFFF37.2, 71.8|r. Speak with |cFFFFD700Drak'thul|r and choose option 1. \n\n|cffcc33ffThe demons are taking over this island, you may want to leave.|r \n\nChoose option 1 again. \n\n|cffcc33ffYou must know much. Will you help us defeat them?|r \n\nHe tells you to go away.",questID=43715}),
 o(252412,{coords={
@@ -29,7 +30,13 @@ o(252564,{coords={
 o(252565,{coords={
 [790]={{79.5,89.3}}},description="|cFFFFFFFFStep 11:|r This step will send you to |cFFFFD700Eye of Azshara|r, the zone. Head to |cFFFFFFFF79.52, 89.31|r. Swim down to find a wrecked ship, you can swim into the ship between the anchor and the rock throught the seaweed. Swim up and to the platform above and through the hole on right side. Now swim through the seaweed hole on left and down. Turn around and swim under the beam then through the seaweed to the left. Click the  |cFFFFD700Hungering Orb|r that is on the right side in the water.",model=249664,modelScale=2,questID=43760,sourceQuests={43737}}),
 o(252434,{coords={
-[646]={{37.1,71.8}}},description="|cFFFFFFFFStep 12:|r This step will send you to |cFFFFD700Broken Shore|r. Head to |cFFFFFFFF37.17, 71.82|r. Click the |cFFFFD700Hungering Orb|r that is on the stone table near |cFFFFD700Drak'Thul|r",model=249664,modelScale=2,questID=43761,sourceQuests={43760}})}}),
+[646]={{37.1,71.8}}},description="|cFFFFFFFFStep 12:|r This step will send you to |cFFFFD700Broken Shore|r. Head to |cFFFFFFFF37.17, 71.82|r. Click the |cFFFFD700Hungering Orb|r that is on the stone table near |cFFFFD700Drak'Thul|r",model=249664,modelScale=2,questID=43761,sourceQuests={43760}})}),
+h(-46,{
+n(111573,{maps={790},questID=45479,g={
+q(43798,{repeatable=1,sourceQuests={43761},g={
+p(1926,{b=1,itemID=140261,npcID=111984,spellID=223027}),
+mnt(223018,{b=1,itemID=138201,lvl=10}),
+crit(33774,{achID=11189,id=132})}})}})})}}),
 ah(254763,{awp=70300,description="This secret is a prerequisite for Baa'l. It requires having collected |cff0070d0Uuna's Doll|r, which drops from |cff883325The Many-Faced Devourer|r, a Rare Elite in Antoran Wastes.",displayID=76829,lore="Uuna was found bound to an Ur'zul, and was released into the Shadowlands, where she wandered in the utter darkness.",modelScale=1.1,type="s",g={
 q(50098,{description="1. Summon Uuna and wait for her to say one of the following lines:\n'|cffffffffMama? Mama! Why is it so dark? It's scary here...|r'\n'|cffffffffCan anybody hear me?|r'\n'|cffffffffC-c-cold...|r'\n",icon=134506,g={
 q(50099,{description="2. |cffffffff/whistle|r at Uuna.\n",sourceQuests={50098}}),
