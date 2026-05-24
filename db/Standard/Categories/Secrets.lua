@@ -454,6 +454,20 @@ o(13000045,{description="|cFFFFFFFFStep 3:|r Obtain 15 Smoldering Phoenix Ash fr
 q(72798,{coords={
 [2022]={{16.1,62.6}}},cost={{"i",199203,1},{"i",199080,15},{"i",202062,20}},lvl=10,qgs={196214},repeatable=1,sourceQuests={70779},g={
 p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}})}),
+x(12,{awp=120000,g={
+ah(62189,{coords={
+[204]={{15,90}}},description="Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",type="a",g={
+n(256536,{description="Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",g={
+hqt(94828),
+ach(62189,{sourceQuests={94828},g={
+title(671)}})}}),
+n(256667,{
+i(166545,{b=1,f=55,spellID=11629}),
+i(232005,{f=55,spellID=433}),
+i(232006,{f=55,spellID=104235}),
+i(232009,{f=55,spellID=433}),
+i(232007,{f=55,spellID=431}),
+i(262880,{f=55,spellID=11629})})}})}}),
 h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",displayID=1100,g={
 q(30526,{coords={
 [376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={
@@ -467,19 +481,6 @@ q(83093,{awp=110002,coords={
 q(83094,{awp=110002,coords={
 [2248]={{31.4,51.3}}},description="Interact with Dog and <Pet his head> to get him as a pet.",qgs={225486},sourceQuests={83093},g={
 p(4596,{b=1,itemID=224766,npcID=225537,spellID=453741})}})}}),
-ah(62189,{awp=120000,coords={
-[204]={{15,90}}},description="Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",type="a",g={
-n(256536,{description="Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",g={
-hqt(94828),
-ach(62189,{sourceQuests={94828},g={
-title(671)}})}}),
-n(256667,{
-i(166545,{b=1,f=55,spellID=11629}),
-i(232005,{f=55,spellID=433}),
-i(232006,{f=55,spellID=104235}),
-i(232009,{f=55,spellID=433}),
-i(232007,{f=55,spellID=431}),
-i(262880,{f=55,spellID=11629})})}}),
 ah(40967,{awp=110005,description="***Using Debug Mode is recommended.***\n",type="a",g={
 o(182030,{coords={
 [78]={{44.5,8}}},description="Inside a rotten tree trunk in the far north of Un'Goro Crater. Use your Torch of Pyrreth to reveal it.",providers={{"i",208092}},g={
