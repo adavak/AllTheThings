@@ -86,12 +86,8 @@ root(ROOTS.Secrets, expansion(EXPANSION.LEGION, {
 	})),
 }));
 
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {
-	m(BROKEN_ISLES, {
-		m(VALSHARAH, {
-			n(TREASURES, {
-				q(47866),	-- Triggers after Step 8 of Lucid Nightmare secret hunt
-			}),
-		}),
-	}),
-})));
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, {
+	header(HEADERS.Spell, 247402, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Lucid Nightmare
+		q(47866),	-- Triggers after Step 8 of Lucid Nightmare secret hunt
+	})),
+}));

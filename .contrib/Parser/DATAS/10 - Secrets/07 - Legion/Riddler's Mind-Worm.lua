@@ -2,8 +2,8 @@
 --     S E C R E T S     M O D U L E     --
 -------------------------------------------
 
-root(ROOTS.Secrets, {
-	header(HEADERS.Item, 147835, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Riddler's Mind-Worm
+root(ROOTS.Secrets, expansion(EXPANSION.LEGION, {
+	header(HEADERS.Spell, 243025, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Riddler's Mind-Worm
 		["description"] = "***'Show All Trackable Things' is required to see all the steps.***\n\nBelow is a detailed explanation on how to obtain the Riddler's Mind-Worm mount.\r\rNote: Progress on this will be reset each week, so do make sure to complete it in one reset.",
 		["modelScale"] = .7,
 		["displayID"] = 74314,
@@ -84,13 +84,10 @@ root(ROOTS.Secrets, {
 			}),
 		},
 	})),
-});
+}));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, {
-	header(HEADERS.Item, 147835, {
-		["timeline"] = { ADDED_7_2_0 },
-		["groups"] = {
-			q(47215),	-- Tracking Quest (Looted Riddler's Mind Worm)
-		},
-	}),
+	header(HEADERS.Spell, 243025, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_0 } }, {	-- Riddler's Mind-Worm
+		q(47215),	-- Tracking Quest (Looted Riddler's Mind Worm)
+	})),
 }));
