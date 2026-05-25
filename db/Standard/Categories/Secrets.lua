@@ -453,192 +453,7 @@ o(13000044,{description="|cFFFFFFFFStep 2:|r Obtain 20 Ash Feathers spawned by G
 o(13000045,{description="|cFFFFFFFFStep 3:|r Obtain 15 Smoldering Phoenix Ash from phoenixes around the Dragon Isles.",providers={{"i",199080}}}),
 q(72798,{coords={
 [2022]={{16.1,62.6}}},cost={{"i",199203,1},{"i",199080,15},{"i",202062,20}},lvl=10,qgs={196214},repeatable=1,sourceQuests={70779},g={
-p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}})}),
-x(12,{awp=120000,g={
-ah(62189,{coords={
-[204]={{15,90}}},description="Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",type="a",g={
-n(256536,{description="Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",g={
-hqt(94828),
-ach(62189,{sourceQuests={94828},g={
-title(671)}})}}),
-n(256667,{
-i(166545,{b=1,f=55,spellID=11629}),
-i(232005,{f=55,spellID=433}),
-i(232006,{f=55,spellID=104235}),
-i(232009,{f=55,spellID=433}),
-i(232007,{f=55,spellID=431}),
-i(262880,{f=55,spellID=11629})})}})}}),
-h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",displayID=1100,g={
-q(30526,{coords={
-[376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={
-i(80144),
-de(4488,{awp=110207,itemID=248663,sourceQuests={30526},spellID=1247392})}}),
-q(46952,{awp=70200,coords={
-[582]={{58.8,53.8}},
-[590]={{44.6,84.8}}},description="Find a Loose Pebble on the streets of (Legion) Dalaran. Build an Herb Garden in your garrison.\nSpeak with Dog and show him the Pebble. Do not throw the Pebble at Dog.",qgs={87553},qis={147420},sourceQuests={30526,34193,36404}}),
-q(83093,{awp=110002,coords={
-[2248]={{31.4,51.3}}},description="Interact with the bowl near Dalaran's crash site to bring Dog out of hiding.",providers={{"o",452438}},sourceQuests={46952}}),
-q(83094,{awp=110002,coords={
-[2248]={{31.4,51.3}}},description="Interact with Dog and <Pet his head> to get him as a pet.",qgs={225486},sourceQuests={83093},g={
-p(4596,{b=1,itemID=224766,npcID=225537,spellID=453741})}})}}),
-ah(40967,{awp=110005,description="***Using Debug Mode is recommended.***\n",type="a",g={
-o(182030,{coords={
-[78]={{44.5,8}}},description="Inside a rotten tree trunk in the far north of Un'Goro Crater. Use your Torch of Pyrreth to reveal it.",providers={{"i",208092}},g={
-i(228941,{b=1,spellID=463482})}}),
-hqt(84685,{coords={
-[2339]={{54.9,28.9}}},sourceAchievements={40870}}),
-q(84684,{coords={
-[2339]={{54.9,28.9}}},description="Find 3 notes scattered around Azj-Kahet then confront Ratts in Pillar-nest Vosh.",lvl=10,qgs={230042},sourceQuests={84685},g={
-i(228934,{spellID=462610}),
-o(466118,{coords={
-[2255]={{69.3,93.3}}},description="#1. In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",g={
-i(228935,{spellID=462610})}}),
-o(466119,{coords={
-[2213]={{31.5,20.8}}},description="#2. High up on a ridge overlooking the City of Threads.",g={
-i(228936,{spellID=462610})}}),
-o(466120,{coords={
-[2215]={{50.7,86.6}}},description="#3. Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",g={
-i(228937,{spellID=462610})}}),
-o(466128,{coords={
-[2255]={{55.1,19},{56.4,17.5}}},description="#4. To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall."}),
-i(228938,{b=1})}}),
-i(44124,{b=1,cost={{"i",228938,1},{"i",228941,1}},description="Once reformed, go to the entrance of the Karazhan Catacombs in Deadwind Pass and use your Torch of Pyrreth by the gate to teleport into a secret scenario."}),
-m(46,{coords={
-[42]={{46.3,69.1}}},description="Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",providers={{"i",44124},{"i",208092}},g={
-hqt(84676,{coords={
-[10]={{55,40.2}},
-[550]={{49.2,48},{74.2,37.5}},
-[1536]={{27.3,61.3}}},crs={82688,175815},description="Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Olgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Northern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\n\nFully lights up the 1 O'clock basin.",providers={{"i",208092}},sourceQuests={84684}}),
-hqt(84677,{description="Requires the 1 O'clock basin to have been completed to see the obelisk personally.\n1. Acquire the Twitching Eyaball or All-Seeing Eyes toys\n2. Acquire a Perky Pug with either the Dogg-Saron costume from Vashti the Wandering Merchant in Azsuna or the Yipp-Saron costume from Hallow's End (or the AH.)\n3. Bring these items OR find a friend who has them and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\n4. Have someone summon a perky pug and use the toys, then /pray in front of the obelisk to be granted the Key of Shadows.\n\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\n\nFully lights up the 2 O'clock basin",providers={{"n",37865},{"n",153297}},g={
-n(153297,{coords={
-[1530]={{83.7,27.6}}},cost={{"i",116812,1},{"i",229413,1}},providers={{"i",168123},{"i",175140}},g={
-i(53156,{b=1,description="Opens both doors in the room with the Red Button.",spellID=3366})}})}}),
-ah(228967,{description="1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin, fully lighting with 9 orbs.",providers={{"i",53156}},sourceQuests={84677},type="i",g={
-i(228965,{b=1,sourceQuests={84677},spellID=3366}),
-o(466393,{coords={
-[46]={{48.4,79.5}}},providers={{"i",228965}},sourceQuests={84677},g={
-toy(228966,{b=1,sourceQuests={84677}})}}),
-o(466400,{coords={
-[46]={{48.9,80.3}}},description="Code to open at the adjacent decryption console: 88224646",questID=84757,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466413,{coords={
-[46]={{42.9,70.6}}},description="Code to open at the adjacent decryption console: 17112317",questID=84758,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466479,{coords={
-[46]={{49.5,65.1}}},description="Code to open at the adjacent decryption console: 1533, 3457, 8265, or 10638",providers={{"i",228966}},questID=84768,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466495,{coords={
-[46]={{67.4,84.3}}},description="Code to open at the adjacent decryption console: 19019",providers={{"i",228966}},questID=84771,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466484,{coords={
-[46]={{56.3,62.6}}},description="Code to open at the adjacent decryption console: 5661",providers={{"i",228966}},questID=84769,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466420,{coords={
-[46]={{64.9,48.3}}},description="Code to open at the adjacent decryption console: 52233",providers={{"i",228966}},questID=84766,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466497,{coords={
-[46]={{70.3,55.4}}},description="Code to open at the adjacent decryption console: 51567",providers={{"i",228966}},questID=84772,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-o(466489,{coords={
-[46]={{66.3,15.2}}},description="Code to open at the adjacent decryption console: 115",providers={{"i",228966}},questID=84770,sourceQuests={84677},g={
-i(228967,{b=1,sourceQuests={84677}})}}),
-ah(84786,{description="In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 888 and 168 are correct answers but the machines only pay out a coin if you are deemed lucky.\nYour luck can be increased by obtaining at least 5 unique lucky things. It's not clear what counts but Blizzard states there are 13 possible lucky sources, some have been listed as a provider for this step. If you see the 'You feel lucky' emote in chat, you should be good, but try at least once anyway, the machine will pay out on first attempt if you're lucky enough, it is not random.\nNo chest will spawn, you will be given the Piece of Hate directly.",providers={{"i",5373},{"i",138382},{"i",138385},{"i",198400},{"i",198857},{"i",200265},{"i",202046}},sourceQuests={84677},type="q",g={
-i(228967,{b=1,sourceQuests={84677}}),
-hqt(84786,{sourceQuests={84677}})}})}}),
-hqt(84780,{coords={
-[22]={{52.1,85.1}}},cost={{"i",228987,1}},description="1. Use the Scroll of Fel Binding sold by Vashti the Wandering Merchant in Azsuna (Broken Isles) right outside Uther's Tomb in the Western Plaugelands.\n2. You will die, return to your corpse and fight the Doomguard while inspecting the four writings on the floor of the tomb. Anyone can summon the demon and writings will stay visible as long as it lives.\n\nFully lights up the 4 O'clock basin."}),
-q(84781,{coords={
-[554]={{43.1,41.4}},
-[555]={{39.6,38.4},{53.3,56.8}}},crs={71876},description="1. Visit the Timeless isle and find Zarhym in the Cavern of Lost Spirits. Talk to Zarhym, a rare ghostly skull inside the entrance to enter the spirit realm.\n2. Within 5 minutes, Navigate to the back of the cave while avoiding ghosts to find Jeremy Feasel. Stay nearby to him, and you will not exit the spirit realm even if your 5 minutes buff expires.\n3. Defeat Jeremy in a pet battle using only 'secret' pets from the list. If someone in your group beats him in a battle, that also counts and he will grant you the quest too on talking to him. The pets MUST be level 25.\n\nFully lights up the 5 O'clock basin.\n\nValid pets:\nBaa'l, Bumbles, Filthy Slime, Francois, Gizmo the Pure, Glimr, Hungering Claw, Jenafur, Lil' Abom, Nelthara, Phoenix Wishwing, Renny, Snowclaw Cub, Spyragos, Sun Darter Hatchling, Taptaf, Terky, Tobias, Wicker Pup",lvl=10,qgs={16445,61087,111984,134406,139770,141941,143189,143730,159783,160704,163897,169514,179008,189117,191381,192343,204367,208643,229779,232048},sourceQuests={84780},g={
-i(228995,{b=1})}}),
-hqt(84811,{description="Use your Torch of Pyrreth at various alters to summon a Spirit of Collections. Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",providers={{"i",208092}},g={
-hqt(84809,{coords={
-[50]={{77.1,46.3}}},crs={230430},description="Confirmed actions to appease:\nMounts: Any with 'blood' in their name\n\nPets: Any with 'blood' in their name\n\nToys: Throbbing Blood Orb"}),
-hqt(84807,{coords={
-[50]={{77.5,43.9}}},crs={230424},description="Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearance)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises, Accursed Tome of the Sargerei"}),
-hqt(84810,{coords={
-[50]={{78.1,46.3}}},crs={230440},description="Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearance)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller, Sir Shady Mrrgglton Junior, Voidwiggler\n\nToys: Shadowy Disguise, Void Totem"}),
-hqt(84806,{coords={
-[50]={{78.3,44}}},crs={230423},description="Confirmed actions to appease:\nOutfit: Any sinstone back cosmetic\n\nPets: Sinheart\n\nToys: Bondable Sinstone"}),
-hqt(84808,{coords={
-[50]={{77.1,44.9}}},crs={230425},description="Confirmed actions to appease:\nOutfit: Be naked\n\nEmotes: /flirt with the spirit targeted\n\nPets: Sister of Temptation\n\nToys: Moroes' Famous Polish, Steamy Romance Novel Kit"}),
-o(466808,{coords={
-[50]={{78.2,47.7}}},description="Appears by the wall nearby the Shadow alter once each spirit has been appeased. Use your goggles to see it.",providers={{"i",228966}},sourceQuests={84781,84806,84807,84808,84809,84810},g={
-i(229007,{b=1,spellID=444913})}})}}),
-hqt(84823,{description="Empower your owl pet with the Owl statues in Azsuna then enter the Vault of the Wardens to find a Sentry Statue. Use it to solve a puzzle to receive the mirror.\n\nEmpowering your owl will add 4 orbs to the 7 O'clock basin, and solving the sentry puzzle will light it fully.",maps={630,710,711,712},g={
-ah(254262,{coords={
-[630]={{37.1,82.16},{40.52,75.19},{40.54,73.15},{43.24,85.3},{43.66,87.51},{44.18,72.41},{45.97,84.06},{47.48,84.74},{50.45,91.67}}},description="On the Isle of the Watchers in Azsuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",providers={{"n",97128}},type="o",g={
-hqt(39353,{description="Unlocks an orb at the 7 O'clock basin."}),
-hqt(26741,{description="Unlocks an orb at the 7 O'clock basin."}),
-hqt(40721,{description="Unlocks an orb at the 7 O'clock basin."}),
-hqt(26704,{description="Unlocks an orb at the 7 O'clock basin."})}}),
-o(466943,{description="You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",maps={710,711,712},providers={{"n",97128}},g={
-i(229046,{b=1,description="Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",spellID=464277})}}),
-hqt(84916,{description="Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",maps={710,711,712}}),
-o(466960,{crs={109300},description="Once you place the Sentry Statue in the Vault of Mirrors, a 5x5 grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You may solve this secret in a group.\n\nFully lights up the 7 O'clock basin.",maps={710,711,712},providers={{"i",208092},{"n",97128}},g={
-i(229054,{b=1})}})}}),
-o(466975,{coords={
-[46]={{59.9,42.6}}},description="On the left side of the hallway after the second stairwell.",g={
-hqt(84829,{cost={{"i",229007,1}},sourceQuests={84811}}),
-hqt(84830,{cost={{"i",229054,1}},sourceQuests={84823}}),
-hqt(84837,{description="1. Hit begin on the console, then hit submit. A randomized number of rats will spawn in the catacombs.\n2. Count the number of Rats in the whole catacombs, use a targeting macro to make sure you don't miss one. There will also be Catacombs Rats, those DO NOT COUNT. Kill both types of rats once you are sure of your count so they cannot interfere with pressure plates.\n3. Depending on the number of rats, you need to drag a certain number of statues to a specific pressure plate and stack them, the beacon color will shift from Blue->Green->Yellow->Orange->Purple as a plate has 1->2->3->4->5 entities stack on it.\n4. Head back to the Enigma Machine and submit, you will be electrocuted if you get it wrong, leave and reset the instance if you do, restarting at lock 1. Otherwise, continue counting the next set of rats and submitting results using info from the next column until you've completed all 7 locks.\n\nPlate 1 is at 71.6, 20.1 at the top of the map in the felcycle room\nPlate 2 is at 68.5, 34.2 right at the entrance to the felcycle room\nPlate 3 is at 73.6, 43.0 behind the locked gate on the right of the map, use your Relic of Crystal Connections to teleport to the humming crystal in the room by targeting it\nPlate 4 is at 68.8, 50.9 in the center of the hallway opposite the felcycle room\nPlate 5 is at 73.6, 65.3 in the flooded dead end hallway right as you enter the catacombs\nPlate 6 is at 60.2, 71.6 on the left side of the hallway before the cat room\nPlate 7 is at 47.8, 78.9 in the corner of the room with the Astral chest\n\n[# Rats | Lock 1| Lock 2| Lock 3|\n[1 Rats | 1 > P1 | 1 > P2 | 1 > P3 |\n[2 Rats | 1 > P2 | 1 > P4 | 1 > P6 |\n[3 Rats | 1 > P3 | 1 > P6 | 2 > P2 |\n[4 Rats | 1 > P4 | 2 > P1 | 2 > P5 |\n[5 Rats | 1 > P5 | 2 > P3 | 3 > P1 |\n[6 Rats | 1 > P6 | 2 > P3 | 3 > P4 |\n[7 Rats | 1 > P7 | 2 > P7 | 1 > P1 |\n[8 Rats | 2 > P1 | 3 > P2 | 1 > P4 |\n[9 Rats | 2 > P2 | 3 > P4 | 1 > P7 |\n[10Rats| 2 > P3 | 3 > P6 | 2 > P3 |\nExample: Counting 2 rats during Lock 2, stack 1 statue on pressure plate 4.\n\nFully lights up the 8 O'clock basin.",providers={{"i",228996}},sourceQuests={84829,84830},g={
-n(230653,{coords={
-[46]={{70.6,34.5}}},description="Right of the entrance of the felcycle room."}),
-n(230654,{coords={
-[46]={{61.2,47.9}}},description="Opposite the Enigma Machine."}),
-n(230655,{coords={
-[46]={{43.4,64.9}}},description="On the right inside the room ahead of the Red Button."}),
-n(230652,{coords={
-[46]={{49.3,75.9}}},description="In the room with the Astral Chest, left of the Red Button."}),
-n(230657,{coords={
-[46]={{70.3,79.1}}},description="At the bottom of the entrance stairwell."}),
-n(230596,{description="This is a |cff4caf50VALID|r rat, it counts!"}),
-n(230599,{description="This is an |cffff0000INVALID|r rat, it DOESN'T count!"})}})}}),
-o(467191,{coords={
-[2255]={{55.1,19},{56.1,17.9},{56.4,17.5}}},description="Return to Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.\n\nUse your Starry-Eyed goggles to reveal a translucent platform, use your Relic of Crystal Connections on the humming crystal to get up to it.\n\nCode to open at the adjacent decryption console: 84847078.\n\nFully lights the 9 O'clock Basin.",providers={{"i",228966},{"i",228996}},questID=84854,sourceQuests={84837},g={
-mnt(428013,{b=1,itemID=229348,lvl=10}),
-ach(40967)}}),
-n(230070,{coords={
-[46]={{47.4,68.3}}},description="Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",g={
-hqt(84702,{description="Unlocks an orb at the 10 O'clock basin."}),
-hqt(84703,{description="Unlocks an orb at the 10 O'clock basin."})}}),
-n(182086,{coords={
-[2022]={{66.2,70.2}}},cost={{"i",200638,1}},description="Feed Hek a Bubblefilled Flounder to be vomited a Duck Egg.",g={
-o(616048,{awp=120001,coords={
-[2022]={{66.3,70.2}}},g={
-i(260522,{b=1})}})}}),
-n(197973,{coords={
-[2112]={{40,78.3}}},description="If Papa and the shiny gift are missing, click the nearby Papa's Feather to call him home.",g={
-o(616053,{awp=120001,coords={
-[2112]={{40,78.3}}},providers={{"i",260522}},g={
-i(260532,{b=1})}})}}),
-n(184166,{coords={
-[2151]={{29.8,47.5},{35.3,40.7},{37.4,23.2},{41.3,38},{54.4,46.4},{54.6,55.4},{62.7,61.4},{63.9,50.7},{73.9,37.6}}},description="Hiding on the Forbidden Reach in one of several locations, To'No and Ko will be stealthed until you're right on top of them. May not be up in any locations, you might have to loop around until a spawn. Disappears a few minutes after being found. \nThe second dialogue interaction awards the Oddsight Focus while the first gives you some random loot.",g={
-i(260533,{awp=120001,b=1,cost={{"i",260532,1}},spellID=1266536})}}),
-hqt(93688,{awp=120001,description="Obtaining the focus fully lights up the 10 O'Clock Basin and removes the void from 11 and 12 O'Clock.",providers={{"i",260533}}}),
-n(255888,{awp=120001,coords={
-[2215]={{33.2,54.6}}},providers={{"i",260533}}}),
-hqt(93764,{awp=120001,description="This step is pretty complicated and requires a 40 man raid, you're also gonna probably need an addon like BeledarOrchestra.\n\nFully lights up the 11 O'Clock Basin.",providers={{"n",255888}},g={
-ach(61516)}}),
-hqt(93765,{awp=120001,coords={
-[630]={{57.8,42.8}},
-[680]={{82.5,67.4}}},description="Head to the southeast of Suramar near the coordinates. Use your Torch of Pyrreth to find a wandering invisible ghost, once found, an extra action button will spawn an Orb of Shadows.\n\nYou must take this orb to Golk the Rumble in the center of Azsuna at the second coordinates and talk to them. The player carrying the orb cannot take damage, jump, or swim, and enemies will spark periodically to attack them, a group of players and water walking of some kind will make this easier. Don't be over water for too long though or your buff will drop. The Starry-Eyed Goggles will stop the Darkness debuff.\n\nFully lights up the 12 O'Clock Basin.",g={
-i(262432,{b=1,g={
-en(246973,{questID=91636,spellID=1244440,tmogSetID=5152,g={
-s(293225,246968,{f=2}),
-s(293223,246966,{f=2}),
-s(293228,246971,{f=2}),
-s(293226,246969,{f=2}),
-s(293224,246967,{f=2}),
-s(293227,246970,{f=2}),
-s(293229,246972,{f=2})}})}}),
-i(262559,{b=1,spellID=1268983})}}),
-o(616681,{awp=120001,coords={
-[46]={{68.5,20.9}}},cost={{"i",262559,1}},description="In the center of the Karazhan Catacombs clock room, can only be seen with buffs from the Oddsight Focus, Starry-Eyed Goggles, and having posession of the Spare Key.",providers={{"i",228966},{"i",260533}},g={
-i(262561)}}),
-o(475116,{coords={
-[46]={{47,78.1},{56.3,73.3},{70.1,90.3},{70.3,81},{70.5,61.7},{70.9,53.9}}},description="These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.\n6. On a shelf in the back in the Nature statue room."}),
-i(228953)}})}}),
+p(3292,{b=1,itemID=193373,npcID=189117,spellID=375084})}})}}),
 h(-505,{awp=100105,description="***Using Debug Mode is recommended.***\n",g={
 h(-12,{
 ach(18644,{sym={{"select","questID",77289,77288,77291,77292,77290,77293,77296,77294,77297,77298,77299,78208,78207,77300,77302,77301,77295}},g={
@@ -650,10 +465,10 @@ ach(18642,{coords={
 title(512),
 crit(60752,{achID=18646,id=2})}}),
 ach(18645,{
-s(189591,208149,{f=2}),
 crit(60754,{achID=18645,providers={{"i",206696}}}),
 crit(60755,{achID=18645,providers={{"i",208092}}}),
-crit(60756,{achID=18645,providers={{"i",207730}}})}),
+crit(60756,{achID=18645,providers={{"i",207730}}}),
+s(189591,208149,{f=2})}),
 ach(18646,{
 mnt(418078,{b=1,itemID=208152}),
 title(519)}),
@@ -718,13 +533,13 @@ h(-45,{
 q(77202,{coords={
 [2112]={{55,37}}},DisablePartySync=1,isBreadcrumb=1,nextQuests={77203},qgs={199261},repeatable=1}),
 q(77203,{coords={
-[2112]={{47.4,48.1},{58.88,54.09}}},description="Talk to Kathos again to get a Mystery box & open it to receive a Golden Chalice.\nDeliver the Chalice in the Bank in Valdrakken (58.88 54.09).\nYou can rightclick the quest to place all coordinates.",qgs={206864},sourceQuests={77202},g={
+[2112]={{47.4,48.1},{58.9,54.1}}},description="Talk to Kathos again to get a Mystery box & open it to receive a Golden Chalice.\nDeliver the Chalice in the Bank in Valdrakken (58.88 54.09).\nYou can rightclick the quest to place all coordinates.",qgs={206864},sourceQuests={77202},g={
 i(208054,{
 i(208056),
 i(208055)}),
 crit(60849,{achID=18646,id=1})}}),
 q(76735,{coords={
-[114]={{33.63,58.45}},
+[114]={{33.6,58.5}},
 [115]={{48,74.8}},
 [2024]={{12.4,49.2}},
 [2112]={{47.4,48.1}}},description="Deliver the Tuskarr Spear to Eldor Poa in Azure Span (12.4 49.2).\nDeliver the newly received Shomko Spear to Elder Ko'nani in Dragonblight (48.0 74.8).\nFinally deliver the spear to the Statue in Borean Tundra (33.63 58.45).\nYou can rightclick the quest to place all coordinates.",lvl=10,qgs={206864},repeatable=1,sourceQuests={77203},g={
@@ -1019,7 +834,192 @@ mnt(424082,{b=1,cost={{"i",209055,1},{"i",209781,1},{"i",208984,1}},description=
 h(-58,{
 n(206864,{coords={
 [2112]={{47.3,48.2}}},g={
-i(229375,{awp=110005,b=1,f=55,spellID=464886})}})})}}),
+i(229375,{awp=110005,b=1,f=55,spellID=464886})}})})}})}),
+x(12,{awp=120000,g={
+ah(62189,{coords={
+[204]={{15,90}}},description="Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",type="a",g={
+n(256536,{description="Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",g={
+hqt(94828),
+ach(62189,{sourceQuests={94828},g={
+title(671)}})}}),
+n(256667,{
+i(166545,{b=1,f=55,spellID=11629}),
+i(232005,{f=55,spellID=433}),
+i(232006,{f=55,spellID=104235}),
+i(232009,{f=55,spellID=433}),
+i(232007,{f=55,spellID=431}),
+i(262880,{f=55,spellID=11629})})}})}}),
+h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",displayID=1100,g={
+q(30526,{coords={
+[376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={
+i(80144),
+de(4488,{awp=110207,itemID=248663,sourceQuests={30526},spellID=1247392})}}),
+q(46952,{awp=70200,coords={
+[582]={{58.8,53.8}},
+[590]={{44.6,84.8}}},description="Find a Loose Pebble on the streets of (Legion) Dalaran. Build an Herb Garden in your garrison.\nSpeak with Dog and show him the Pebble. Do not throw the Pebble at Dog.",qgs={87553},qis={147420},sourceQuests={30526,34193,36404}}),
+q(83093,{awp=110002,coords={
+[2248]={{31.4,51.3}}},description="Interact with the bowl near Dalaran's crash site to bring Dog out of hiding.",providers={{"o",452438}},sourceQuests={46952}}),
+q(83094,{awp=110002,coords={
+[2248]={{31.4,51.3}}},description="Interact with Dog and <Pet his head> to get him as a pet.",qgs={225486},sourceQuests={83093},g={
+p(4596,{b=1,itemID=224766,npcID=225537,spellID=453741})}})}}),
+ah(40967,{awp=110005,description="***Using Debug Mode is recommended.***\n",type="a",g={
+o(182030,{coords={
+[78]={{44.5,8}}},description="Inside a rotten tree trunk in the far north of Un'Goro Crater. Use your Torch of Pyrreth to reveal it.",providers={{"i",208092}},g={
+i(228941,{b=1,spellID=463482})}}),
+hqt(84685,{coords={
+[2339]={{54.9,28.9}}},sourceAchievements={40870}}),
+q(84684,{coords={
+[2339]={{54.9,28.9}}},description="Find 3 notes scattered around Azj-Kahet then confront Ratts in Pillar-nest Vosh.",lvl=10,qgs={230042},sourceQuests={84685},g={
+i(228934,{spellID=462610}),
+o(466118,{coords={
+[2255]={{69.3,93.3}}},description="#1. In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",g={
+i(228935,{spellID=462610})}}),
+o(466119,{coords={
+[2213]={{31.5,20.8}}},description="#2. High up on a ridge overlooking the City of Threads.",g={
+i(228936,{spellID=462610})}}),
+o(466120,{coords={
+[2215]={{50.7,86.6}}},description="#3. Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",g={
+i(228937,{spellID=462610})}}),
+o(466128,{coords={
+[2255]={{55.1,19},{56.4,17.5}}},description="#4. To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall."}),
+i(228938,{b=1})}}),
+i(44124,{b=1,cost={{"i",228938,1},{"i",228941,1}},description="Once reformed, go to the entrance of the Karazhan Catacombs in Deadwind Pass and use your Torch of Pyrreth by the gate to teleport into a secret scenario."}),
+m(46,{coords={
+[42]={{46.3,69.1}}},description="Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",providers={{"i",44124},{"i",208092}},g={
+hqt(84676,{coords={
+[10]={{55,40.2}},
+[550]={{49.2,48},{74.2,37.5}},
+[1536]={{27.3,61.3}}},crs={82688,175815},description="Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Olgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Northern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\n\nFully lights up the 1 O'clock basin.",providers={{"i",208092}},sourceQuests={84684}}),
+hqt(84677,{description="Requires the 1 O'clock basin to have been completed to see the obelisk personally.\n1. Acquire the Twitching Eyaball or All-Seeing Eyes toys\n2. Acquire a Perky Pug with either the Dogg-Saron costume from Vashti the Wandering Merchant in Azsuna or the Yipp-Saron costume from Hallow's End (or the AH.)\n3. Bring these items OR find a friend who has them and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\n4. Have someone summon a perky pug and use the toys, then /pray in front of the obelisk to be granted the Key of Shadows.\n\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\n\nFully lights up the 2 O'clock basin",providers={{"n",37865},{"n",153297}},g={
+n(153297,{coords={
+[1530]={{83.7,27.6}}},cost={{"i",116812,1},{"i",229413,1}},providers={{"i",168123},{"i",175140}},g={
+i(53156,{b=1,description="Opens both doors in the room with the Red Button.",spellID=3366})}})}}),
+ah(228967,{description="1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin, fully lighting with 9 orbs.",providers={{"i",53156}},sourceQuests={84677},type="i",g={
+i(228965,{b=1,sourceQuests={84677},spellID=3366}),
+o(466393,{coords={
+[46]={{48.4,79.5}}},providers={{"i",228965}},sourceQuests={84677},g={
+toy(228966,{b=1,sourceQuests={84677}})}}),
+o(466400,{coords={
+[46]={{48.9,80.3}}},description="Code to open at the adjacent decryption console: 88224646",questID=84757,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466413,{coords={
+[46]={{42.9,70.6}}},description="Code to open at the adjacent decryption console: 17112317",questID=84758,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466479,{coords={
+[46]={{49.5,65.1}}},description="Code to open at the adjacent decryption console: 1533, 3457, 8265, or 10638",providers={{"i",228966}},questID=84768,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466495,{coords={
+[46]={{67.4,84.3}}},description="Code to open at the adjacent decryption console: 19019",providers={{"i",228966}},questID=84771,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466484,{coords={
+[46]={{56.3,62.6}}},description="Code to open at the adjacent decryption console: 5661",providers={{"i",228966}},questID=84769,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466420,{coords={
+[46]={{64.9,48.3}}},description="Code to open at the adjacent decryption console: 52233",providers={{"i",228966}},questID=84766,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466497,{coords={
+[46]={{70.3,55.4}}},description="Code to open at the adjacent decryption console: 51567",providers={{"i",228966}},questID=84772,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+o(466489,{coords={
+[46]={{66.3,15.2}}},description="Code to open at the adjacent decryption console: 115",providers={{"i",228966}},questID=84770,sourceQuests={84677},g={
+i(228967,{b=1,sourceQuests={84677}})}}),
+ah(84786,{description="In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 888 and 168 are correct answers but the machines only pay out a coin if you are deemed lucky.\nYour luck can be increased by obtaining at least 5 unique lucky things. It's not clear what counts but Blizzard states there are 13 possible lucky sources, some have been listed as a provider for this step. If you see the 'You feel lucky' emote in chat, you should be good, but try at least once anyway, the machine will pay out on first attempt if you're lucky enough, it is not random.\nNo chest will spawn, you will be given the Piece of Hate directly.",providers={{"i",5373},{"i",138382},{"i",138385},{"i",198400},{"i",198857},{"i",200265},{"i",202046}},sourceQuests={84677},type="q",g={
+i(228967,{b=1,sourceQuests={84677}}),
+hqt(84786,{sourceQuests={84677}})}})}}),
+hqt(84780,{coords={
+[22]={{52.1,85.1}}},cost={{"i",228987,1}},description="1. Use the Scroll of Fel Binding sold by Vashti the Wandering Merchant in Azsuna (Broken Isles) right outside Uther's Tomb in the Western Plaugelands.\n2. You will die, return to your corpse and fight the Doomguard while inspecting the four writings on the floor of the tomb. Anyone can summon the demon and writings will stay visible as long as it lives.\n\nFully lights up the 4 O'clock basin."}),
+q(84781,{coords={
+[554]={{43.1,41.4}},
+[555]={{39.6,38.4},{53.3,56.8}}},crs={71876},description="1. Visit the Timeless isle and find Zarhym in the Cavern of Lost Spirits. Talk to Zarhym, a rare ghostly skull inside the entrance to enter the spirit realm.\n2. Within 5 minutes, Navigate to the back of the cave while avoiding ghosts to find Jeremy Feasel. Stay nearby to him, and you will not exit the spirit realm even if your 5 minutes buff expires.\n3. Defeat Jeremy in a pet battle using only 'secret' pets from the list. If someone in your group beats him in a battle, that also counts and he will grant you the quest too on talking to him. The pets MUST be level 25.\n\nFully lights up the 5 O'clock basin.\n\nValid pets:\nBaa'l, Bumbles, Filthy Slime, Francois, Gizmo the Pure, Glimr, Hungering Claw, Jenafur, Lil' Abom, Nelthara, Phoenix Wishwing, Renny, Snowclaw Cub, Spyragos, Sun Darter Hatchling, Taptaf, Terky, Tobias, Wicker Pup",lvl=10,qgs={16445,61087,111984,134406,139770,141941,143189,143730,159783,160704,163897,169514,179008,189117,191381,192343,204367,208643,229779,232048},sourceQuests={84780},g={
+i(228995,{b=1})}}),
+hqt(84811,{description="Use your Torch of Pyrreth at various alters to summon a Spirit of Collections. Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",providers={{"i",208092}},g={
+hqt(84809,{coords={
+[50]={{77.1,46.3}}},crs={230430},description="Confirmed actions to appease:\nMounts: Any with 'blood' in their name\n\nPets: Any with 'blood' in their name\n\nToys: Throbbing Blood Orb"}),
+hqt(84807,{coords={
+[50]={{77.5,43.9}}},crs={230424},description="Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearance)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises, Accursed Tome of the Sargerei"}),
+hqt(84810,{coords={
+[50]={{78.1,46.3}}},crs={230440},description="Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearance)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller, Sir Shady Mrrgglton Junior, Voidwiggler\n\nToys: Shadowy Disguise, Void Totem"}),
+hqt(84806,{coords={
+[50]={{78.3,44}}},crs={230423},description="Confirmed actions to appease:\nOutfit: Any sinstone back cosmetic\n\nPets: Sinheart\n\nToys: Bondable Sinstone"}),
+hqt(84808,{coords={
+[50]={{77.1,44.9}}},crs={230425},description="Confirmed actions to appease:\nOutfit: Be naked\n\nEmotes: /flirt with the spirit targeted\n\nPets: Sister of Temptation\n\nToys: Moroes' Famous Polish, Steamy Romance Novel Kit"}),
+o(466808,{coords={
+[50]={{78.2,47.7}}},description="Appears by the wall nearby the Shadow alter once each spirit has been appeased. Use your goggles to see it.",providers={{"i",228966}},sourceQuests={84781,84806,84807,84808,84809,84810},g={
+i(229007,{b=1,spellID=444913})}})}}),
+hqt(84823,{description="Empower your owl pet with the Owl statues in Azsuna then enter the Vault of the Wardens to find a Sentry Statue. Use it to solve a puzzle to receive the mirror.\n\nEmpowering your owl will add 4 orbs to the 7 O'clock basin, and solving the sentry puzzle will light it fully.",maps={630,710,711,712},g={
+ah(254262,{coords={
+[630]={{37.1,82.16},{40.52,75.19},{40.54,73.15},{43.24,85.3},{43.66,87.51},{44.18,72.41},{45.97,84.06},{47.48,84.74},{50.45,91.67}}},description="On the Isle of the Watchers in Azsuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",providers={{"n",97128}},type="o",g={
+hqt(39353,{description="Unlocks an orb at the 7 O'clock basin."}),
+hqt(26741,{description="Unlocks an orb at the 7 O'clock basin."}),
+hqt(40721,{description="Unlocks an orb at the 7 O'clock basin."}),
+hqt(26704,{description="Unlocks an orb at the 7 O'clock basin."})}}),
+o(466943,{description="You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",maps={710,711,712},providers={{"n",97128}},g={
+i(229046,{b=1,description="Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",spellID=464277})}}),
+hqt(84916,{description="Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",maps={710,711,712}}),
+o(466960,{crs={109300},description="Once you place the Sentry Statue in the Vault of Mirrors, a 5x5 grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You may solve this secret in a group.\n\nFully lights up the 7 O'clock basin.",maps={710,711,712},providers={{"i",208092},{"n",97128}},g={
+i(229054,{b=1})}})}}),
+o(466975,{coords={
+[46]={{59.9,42.6}}},description="On the left side of the hallway after the second stairwell.",g={
+hqt(84829,{cost={{"i",229007,1}},sourceQuests={84811}}),
+hqt(84830,{cost={{"i",229054,1}},sourceQuests={84823}}),
+hqt(84837,{description="1. Hit begin on the console, then hit submit. A randomized number of rats will spawn in the catacombs.\n2. Count the number of Rats in the whole catacombs, use a targeting macro to make sure you don't miss one. There will also be Catacombs Rats, those DO NOT COUNT. Kill both types of rats once you are sure of your count so they cannot interfere with pressure plates.\n3. Depending on the number of rats, you need to drag a certain number of statues to a specific pressure plate and stack them, the beacon color will shift from Blue->Green->Yellow->Orange->Purple as a plate has 1->2->3->4->5 entities stack on it.\n4. Head back to the Enigma Machine and submit, you will be electrocuted if you get it wrong, leave and reset the instance if you do, restarting at lock 1. Otherwise, continue counting the next set of rats and submitting results using info from the next column until you've completed all 7 locks.\n\nPlate 1 is at 71.6, 20.1 at the top of the map in the felcycle room\nPlate 2 is at 68.5, 34.2 right at the entrance to the felcycle room\nPlate 3 is at 73.6, 43.0 behind the locked gate on the right of the map, use your Relic of Crystal Connections to teleport to the humming crystal in the room by targeting it\nPlate 4 is at 68.8, 50.9 in the center of the hallway opposite the felcycle room\nPlate 5 is at 73.6, 65.3 in the flooded dead end hallway right as you enter the catacombs\nPlate 6 is at 60.2, 71.6 on the left side of the hallway before the cat room\nPlate 7 is at 47.8, 78.9 in the corner of the room with the Astral chest\n\n[# Rats | Lock 1| Lock 2| Lock 3|\n[1 Rats | 1 > P1 | 1 > P2 | 1 > P3 |\n[2 Rats | 1 > P2 | 1 > P4 | 1 > P6 |\n[3 Rats | 1 > P3 | 1 > P6 | 2 > P2 |\n[4 Rats | 1 > P4 | 2 > P1 | 2 > P5 |\n[5 Rats | 1 > P5 | 2 > P3 | 3 > P1 |\n[6 Rats | 1 > P6 | 2 > P3 | 3 > P4 |\n[7 Rats | 1 > P7 | 2 > P7 | 1 > P1 |\n[8 Rats | 2 > P1 | 3 > P2 | 1 > P4 |\n[9 Rats | 2 > P2 | 3 > P4 | 1 > P7 |\n[10Rats| 2 > P3 | 3 > P6 | 2 > P3 |\nExample: Counting 2 rats during Lock 2, stack 1 statue on pressure plate 4.\n\nFully lights up the 8 O'clock basin.",providers={{"i",228996}},sourceQuests={84829,84830},g={
+n(230653,{coords={
+[46]={{70.6,34.5}}},description="Right of the entrance of the felcycle room."}),
+n(230654,{coords={
+[46]={{61.2,47.9}}},description="Opposite the Enigma Machine."}),
+n(230655,{coords={
+[46]={{43.4,64.9}}},description="On the right inside the room ahead of the Red Button."}),
+n(230652,{coords={
+[46]={{49.3,75.9}}},description="In the room with the Astral Chest, left of the Red Button."}),
+n(230657,{coords={
+[46]={{70.3,79.1}}},description="At the bottom of the entrance stairwell."}),
+n(230596,{description="This is a |cff4caf50VALID|r rat, it counts!"}),
+n(230599,{description="This is an |cffff0000INVALID|r rat, it DOESN'T count!"})}})}}),
+o(467191,{coords={
+[2255]={{55.1,19},{56.1,17.9},{56.4,17.5}}},description="Return to Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.\n\nUse your Starry-Eyed goggles to reveal a translucent platform, use your Relic of Crystal Connections on the humming crystal to get up to it.\n\nCode to open at the adjacent decryption console: 84847078.\n\nFully lights the 9 O'clock Basin.",providers={{"i",228966},{"i",228996}},questID=84854,sourceQuests={84837},g={
+mnt(428013,{b=1,itemID=229348,lvl=10}),
+ach(40967)}}),
+n(230070,{coords={
+[46]={{47.4,68.3}}},description="Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",g={
+hqt(84702,{description="Unlocks an orb at the 10 O'clock basin."}),
+hqt(84703,{description="Unlocks an orb at the 10 O'clock basin."})}}),
+n(182086,{coords={
+[2022]={{66.2,70.2}}},cost={{"i",200638,1}},description="Feed Hek a Bubblefilled Flounder to be vomited a Duck Egg.",g={
+o(616048,{awp=120001,coords={
+[2022]={{66.3,70.2}}},g={
+i(260522,{b=1})}})}}),
+n(197973,{coords={
+[2112]={{40,78.3}}},description="If Papa and the shiny gift are missing, click the nearby Papa's Feather to call him home.",g={
+o(616053,{awp=120001,coords={
+[2112]={{40,78.3}}},providers={{"i",260522}},g={
+i(260532,{b=1})}})}}),
+n(184166,{coords={
+[2151]={{29.8,47.5},{35.3,40.7},{37.4,23.2},{41.3,38},{54.4,46.4},{54.6,55.4},{62.7,61.4},{63.9,50.7},{73.9,37.6}}},description="Hiding on the Forbidden Reach in one of several locations, To'No and Ko will be stealthed until you're right on top of them. May not be up in any locations, you might have to loop around until a spawn. Disappears a few minutes after being found. \nThe second dialogue interaction awards the Oddsight Focus while the first gives you some random loot.",g={
+i(260533,{awp=120001,b=1,cost={{"i",260532,1}},spellID=1266536})}}),
+hqt(93688,{awp=120001,description="Obtaining the focus fully lights up the 10 O'Clock Basin and removes the void from 11 and 12 O'Clock.",providers={{"i",260533}}}),
+n(255888,{awp=120001,coords={
+[2215]={{33.2,54.6}}},providers={{"i",260533}}}),
+hqt(93764,{awp=120001,description="This step is pretty complicated and requires a 40 man raid, you're also gonna probably need an addon like BeledarOrchestra.\n\nFully lights up the 11 O'Clock Basin.",providers={{"n",255888}},g={
+ach(61516)}}),
+hqt(93765,{awp=120001,coords={
+[630]={{57.8,42.8}},
+[680]={{82.5,67.4}}},description="Head to the southeast of Suramar near the coordinates. Use your Torch of Pyrreth to find a wandering invisible ghost, once found, an extra action button will spawn an Orb of Shadows.\n\nYou must take this orb to Golk the Rumble in the center of Azsuna at the second coordinates and talk to them. The player carrying the orb cannot take damage, jump, or swim, and enemies will spark periodically to attack them, a group of players and water walking of some kind will make this easier. Don't be over water for too long though or your buff will drop. The Starry-Eyed Goggles will stop the Darkness debuff.\n\nFully lights up the 12 O'Clock Basin.",g={
+i(262432,{b=1,g={
+en(246973,{questID=91636,spellID=1244440,tmogSetID=5152,g={
+s(293225,246968,{f=2}),
+s(293223,246966,{f=2}),
+s(293228,246971,{f=2}),
+s(293226,246969,{f=2}),
+s(293224,246967,{f=2}),
+s(293227,246970,{f=2}),
+s(293229,246972,{f=2})}})}}),
+i(262559,{b=1,spellID=1268983})}}),
+o(616681,{awp=120001,coords={
+[46]={{68.5,20.9}}},cost={{"i",262559,1}},description="In the center of the Karazhan Catacombs clock room, can only be seen with buffs from the Oddsight Focus, Starry-Eyed Goggles, and having posession of the Spare Key.",providers={{"i",228966},{"i",260533}},g={
+i(262561)}}),
+o(475116,{coords={
+[46]={{47,78.1},{56.3,73.3},{70.1,90.3},{70.3,81},{70.5,61.7},{70.9,53.9}}},description="These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.\n6. On a shelf in the back in the Nature statue room."}),
+i(228953)}})}}),
 h(-507,{awp=70305,g={
 cq(49762,{an="s:258803",cost={{"i",122674,1}},crs={124828},maps={909,910,911,912,913,914,915,916,917,918,919,920},OnTooltip=_.OnTooltipDB.SelfieFilter,spellID=258803}),
 cq(49761,{an="s:258749",cost={{"i",122674,1}},crs={52409},maps={367,368,369},OnTooltip=_.OnTooltipDB.SelfieFilter,spellID=258749}),
