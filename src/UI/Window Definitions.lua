@@ -2940,7 +2940,7 @@ function app:CreateMiniListFromSource(key, id, sourcePath)
 end
 app.CreatePopoutForSearch = function(search)
 	if search:match("^expansion:?") and not app.Debugging then	-- Keep expansion search only when debugging
-		app.print("Expansion command is deprecated. Please use the AWP command instead. Example: \"/att awp tww\"")
+		app.print("Expansion command is deprecated. Please use the Added With Patch command instead. Example: \"/att awp tww\"")
 		return
 	end
 	-- Performs a search for ATT content, then opens the single result in a new popout window
