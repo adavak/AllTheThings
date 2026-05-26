@@ -2176,24 +2176,17 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		n(FIRST_CRAFTS_HEADER, sharedData({
 			["requireSkill"] = TAILORING,
 		},{
-			FirstCraft(90027, 1228950);	-- Adherent's Silken Shroud
-			FirstCraft(90061, 1228984);	-- Arcanoweave Bracers
+			-- Woven Cloth
 			FirstCraft(90082, 1227926);	-- Arcanoweave Bolt
-			FirstCraft(90062, 1228985);	-- Arcanoweave Cloak
-			FirstCraft(90065, 1228988);	-- Arcanoweave Cord
-			FirstCraft(90038, 1228961);	-- Arcanoweave Lining
-			FirstCraft(90056, 1228979);	-- Arcanoweave Reagent Rucksack
-			FirstCraft(90052, 1228975);	-- Arcanoweave Spellthread
-			FirstCraft(90063, 1228986);	-- Arcanoweave Treads
-			FirstCraft(90045, 1228968);	-- Bright Linen Alchemy Apron
 			FirstCraft(90018, 1228941);	-- Bright Linen Bandage
 			FirstCraft(90016, 1228939);	-- Bright Linen Bolt
-			FirstCraft(90047, 1228970);	-- Bright Linen Enchanting Hat
-			FirstCraft(90048, 1228971);	-- Bright Linen Fishing Hat
-			FirstCraft(90049, 1228972);	-- Bright Linen Herbalism Hat
-			FirstCraft(90055, 1228978);	-- Bright Linen Reagent Satchel
-			FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
-			FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
+			FirstCraft(90017, 1228940);	-- Imbued Bright Linen Bolt
+			FirstCraft(90083, 1228060);	-- Sunfire Silk Bolt
+			-- Optional Reagents
+			FirstCraft(90038, 1228961);	-- Arcanoweave Lining
+			FirstCraft(90037, 1228960);	-- Sunfire Silk Lining
+			-- Garments
+			FirstCraft(90027, 1228950);	-- Adherent's Silken Shroud
 			FirstCraft(90030, 1228953);	-- Courtly Belt
 			FirstCraft(90035, 1228958);	-- Courtly Cloak
 			FirstCraft(90029, 1228952);	-- Courtly Gloves
@@ -2203,15 +2196,6 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90036, 1228959);	-- Courtly Shoulders
 			FirstCraft(90034, 1228957);	-- Courtly Slippers
 			FirstCraft(90031, 1228954);	-- Courtly Wrists
-			FirstCraft(90039, 1228962);	-- Elegant Artisan's Alchemy Coveralls
-			FirstCraft(90040, 1228963);	-- Elegant Artisan's Cooking Hat
-			FirstCraft(90041, 1228964);	-- Elegant Artisan's Enchanting Hat
-			FirstCraft(90042, 1228965);	-- Elegant Artisan's Fishing Hat
-			FirstCraft(90043, 1228966);	-- Elegant Artisan's Herbalism Hat
-			FirstCraft(90044, 1228967);	-- Elegant Artisan's Tailoring Robe
-			FirstCraft(90046, 1228969);	-- Chef's Bright Linen Cooking Chapeau
-			FirstCraft(90054, 1228977);	-- Imbued Bright Linen Backpack
-			FirstCraft(90017, 1228940);	-- Imbued Bright Linen Bolt
 			FirstCraft(90022, 1228945);	-- Martyr's Bindings
 			FirstCraft(90019, 1228942);	-- Martyr's Crown
 			FirstCraft(90020, 1228943);	-- Martyr's Gloves
@@ -2220,14 +2204,44 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90025, 1228948);	-- Martyr's Slippers
 			FirstCraft(90023, 1228946);	-- Martyr's Vestments
 			FirstCraft(90021, 1228944);	-- Martyr's Waistwrap
+			-- Arcanoweave Garments
+			FirstCraft(90061, 1228984);	-- Arcanoweave Bracers
+			FirstCraft(90062, 1228985);	-- Arcanoweave Cloak
+			FirstCraft(90065, 1228988);	-- Arcanoweave Cord
+			FirstCraft(90063, 1228986);	-- Arcanoweave Treads
+			-- Sunfire Silk Garments
 			FirstCraft(90058, 1228981);	-- Sunfire Bracers
 			FirstCraft(90059, 1228982);	-- Sunfire Cloak
 			FirstCraft(90064, 1228987);	-- Sunfire Sash
-			FirstCraft(90057, 1228980);	-- Sunfire Silk Backpack
-			FirstCraft(90083, 1228060);	-- Sunfire Silk Bolt
-			FirstCraft(90037, 1228960);	-- Sunfire Silk Lining
-			FirstCraft(90051, 1228974);	-- Sunfire Silk Spellthread
 			FirstCraft(90060, 1228983);	-- Sunfire Treads
+			-- Profession Accessories
+			FirstCraft(90045, 1228968);	-- Bright Linen Alchemy Apron
+			FirstCraft(90047, 1228970);	-- Bright Linen Enchanting Hat
+			FirstCraft(90048, 1228971);	-- Bright Linen Fishing Hat
+			FirstCraft(90049, 1228972);	-- Bright Linen Herbalism Hat
+			FirstCraft(90050, 1228973);	-- Bright Linen Tailoring Robe
+			FirstCraft(90046, 1228969);	-- Chef's Bright Linen Cooking Chapeau
+			FirstCraft(90039, 1228962);	-- Elegant Artisan's Alchemy Coveralls
+			FirstCraft(90040, 1228963);	-- Elegant Artisan's Cooking Hat
+			FirstCraft(90041, 1228964);	-- Elegant Artisan's Enchanting Hat
+			FirstCraft(90042, 1228965);	-- Elegant Artisan's Fishing Hat
+			FirstCraft(90043, 1228966);	-- Elegant Artisan's Herbalism Hat
+			FirstCraft(90044, 1228967);	-- Elegant Artisan's Tailoring Robe
+			--FirstCraft(TODO, 1279123);	-- Thalassian Alchemy Coveralls
+			--FirstCraft(TODO, 1279124);	-- Thalassian Chef's Chapeau
+			--FirstCraft(TODO, 1279125);	-- Thalassian Enchanter's Bonnet
+			--FirstCraft(TODO, 1279128);	-- Thalassian Herbalist's Cowl
+			--FirstCraft(TODO, 1279129);	-- Thalassian Tailor's Threads
+			-- Spellthread
+			FirstCraft(90052, 1228975);	-- Arcanoweave Spellthread
+			FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
+			FirstCraft(90051, 1228974);	-- Sunfire Silk Spellthread
+			-- Embroidered Bags
+			FirstCraft(90056, 1228979);	-- Arcanoweave Reagent Rucksack
+			FirstCraft(90055, 1228978);	-- Bright Linen Reagent Satchel
+			FirstCraft(90054, 1228977);	-- Imbued Bright Linen Backpack
+			FirstCraft(90057, 1228980);	-- Sunfire Silk Backpack
+			-- Competitor's Crafts
 			FirstCraft(90066, 1228989);	-- Thalassian Competitor's Cloth Bands
 			FirstCraft(90067, 1228990);	-- Thalassian Competitor's Cloth Cloak
 			FirstCraft(90068, 1228991);	-- Thalassian Competitor's Cloth Gloves
@@ -2237,6 +2251,13 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90072, 1228995);	-- Thalassian Competitor's Cloth Shoulderpads
 			FirstCraft(90073, 1228996);	-- Thalassian Competitor's Cloth Treads
 			FirstCraft(90074, 1228997);	-- Thalassian Competitor's Cloth Tunic
+			-- Wardrobe Enchancements
+			--FirstCraft(TODO, 1280545);	-- Blood-Tempered Cape
+			--FirstCraft(TODO, 1280544);	-- Farstrider's Embroidered Cover
+			--FirstCraft(TODO, 1280543);	-- Scout's Cape
+			--FirstCraft(TODO, 1280542);	-- Silvermoon Agent's Drape
+			--FirstCraft(TODO, 1280541);	-- Smuggler's Cloak
+			--FirstCraft(TODO, 1280546);	-- Spellbreaker's Shroud
 		})),
 		filter(MISC, {
 			i(239711),	-- Bright Linen Bandage+
