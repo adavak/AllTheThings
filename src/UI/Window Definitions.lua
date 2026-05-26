@@ -2939,6 +2939,10 @@ function app:CreateMiniListFromSource(key, id, sourcePath)
 	end
 end
 app.CreatePopoutForSearch = function(search)
+	if search:match("^expansion:?") and not app.Debugging then	-- Keep expansion search only when debugging
+		app.print("Expansion command is deprecated. Please use the AWP command instead. Example: \"/att awp tww\"")
+		return
+	end
 	-- Performs a search for ATT content, then opens the single result in a new popout window
 	app.SetSkipLevel(2)
 	local group = app.GetCachedSearchResults(app.SearchForLink, search, nil, {SkipFill=true,IgnoreCache=true})
