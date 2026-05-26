@@ -1016,7 +1016,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					q(91875, {	-- Natural Remedy
 						["sourceQuests"] = { 91873 },	-- Buffer Zone
 						["provider"] = { "n", 252497 },	-- Hagar
-						["coord"] = { 42.4, 34.4, MAP.MIDNIGHT.HARANDAR },
+						["coord"] = { 42.3, 34.1, MAP.MIDNIGHT.HARANDAR },
 						["groups"] = { i(252649) },	-- Verdant Stalker Sludge (QI!)
 					}),
 					q(91874, {	-- Flare Up

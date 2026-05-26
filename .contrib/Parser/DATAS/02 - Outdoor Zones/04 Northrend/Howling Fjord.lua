@@ -591,6 +591,7 @@ root(ROOTS.Zones, {
 						["qg"] = 24130,	-- Winterhoof Brave
 						["coord"] = { 44.7, 29.9, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33343) },	-- Brave's Torch (QI!)
 					}),
 					q(11411, {	-- Camp Winterhoof
 						["sourceQuest"] = 11309,	-- Parts for the Job
@@ -987,6 +988,7 @@ root(ROOTS.Zones, {
 						["qg"] = 24130,	-- Winterhoof Brave
 						["coord"] = { 44.7, 29.9, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33342) },	-- The Brave's Machete (QI!)
 					}),
 					q(11232, {	-- Guide Our Sights
 						["sourceQuest"] = 11230,	-- Ambushed!
@@ -1996,6 +1998,7 @@ root(ROOTS.Zones, {
 							objective(1, {	-- 0/1 Halfdan the Ice-Hearted slain
 								["provider"] = { "n", 23671 },	-- Halfdan the Ice-Hearted
 							}),
+							i(33346),	-- Vrykul Scroll of Ascension (QI!)
 							i(35900),	-- Supple Doeskin Moccasins
 							i(35902),	-- Shock-Bound Spaulders
 							i(35903),	-- Onyx Grips
@@ -2648,6 +2651,7 @@ root(ROOTS.Zones, {
 						["qg"] = 24130,	-- Winterhoof Brave
 						["coord"] = { 44.7, 29.9, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33344) },	-- Brave's Flare (QI!)
 					}),
 					q(11241, {	-- Trail of Fire
 						["sourceQuest"] = 11232,	-- Guide Our Sights

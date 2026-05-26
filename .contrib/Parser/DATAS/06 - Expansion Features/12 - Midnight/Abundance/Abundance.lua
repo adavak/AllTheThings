@@ -271,10 +271,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 	n(ABUNDANCE, {
 		n(QUESTS, {
-			q(91302),	-- Abundance: Abundant Grove
-			q(91475),	-- Abundance: Abundant Voidburrow
-			q(87350),	-- Abundance: Loaknit Den
-			q(91457),	-- Abundance: Watha'nan Crypts
+			q(91302, { ["isRepeatable"] = true }),	-- Abundance: Abundant Grove
+			q(91475, { ["isRepeatable"] = true }),	-- Abundance: Abundant Voidburrow
+			q(87350, { ["isRepeatable"] = true }),	-- Abundance: Loaknit Den
+			q(91457, { ["isRepeatable"] = true }),	-- Abundance: Watha'nan Crypts
 			q(88770),	-- Popped after entering Loaknit Den
 			q(94426),	-- Popped after Loaknit Den
 			q(91432),	-- Popped after entering Wath'nan Crypts
