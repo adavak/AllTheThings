@@ -311,6 +311,9 @@ local function UpdateBattleTags()
 	-- Attempt to cache each character's battleTag if it is missing.
 	if C_BattleNet then
 		for guid,character in pairs(CharacterData) do
+			if character.battleTag == "TAG" then
+				character.battleTag = nil
+			end
 			if not character.battleTag then
 				-- We haven't updated this character since the patch, look it up!
 				local accountInfo = C_BattleNet.GetAccountInfoByGUID(guid);
