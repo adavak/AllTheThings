@@ -856,7 +856,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90302, 1229926);	-- W-47CH D0G
 			-- Guns
 			--FirstCraft(TODO, 1282455);	-- Evercore Dome Dinger
-			--FirstCraft(TODO, 1282456);	-- P.O.W. x3
+			fc(1282456),	-- P.O.W. x3
 			--FirstCraft(TODO, 1282457);	-- Thalassian Competitor's Rifle
 			-- Cloth Equipment
 			FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
@@ -870,8 +870,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
-			FirstCraft(90279, 1261490, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
-			FirstCraft(95582, 1261490, ADDED_12_0_5);	-- Thalassian Competitor's Cloth Tip-Toes
+			FirstCraft(90279, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
 			-- Leather Equipment
 			FirstCraft(90264, 1229875);	-- Aetherlume Bands
 			FirstCraft(90260, 1229871);	-- Aetherlume Optics
@@ -882,9 +881,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90272, 1229887);	-- Quel'dorei Bands
 			FirstCraft(90276, 1229883);	-- Quel'dorei Leather Optics
 			FirstCraft(90284, 1229891);	-- Quel'dorei Runners
-			FirstCraft(90256, 1229913);	-- Thalassian Competitor's Leather Bands
-			FirstCraft(90280, 1261491, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Leather Sliders
-			FirstCraft(95579, 1261491, ADDED_12_0_5);	-- Thalassian Competitor's Leather Sliders
+			--FirstCraft(90256, 1229913, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Leather Bands
+			FirstCraft(95579, 1229913, ADDED_12_0_5);	-- Thalassian Competitor's Leather Bands
+			FirstCraft(90280, 1261491);	-- Thalassian Competitor's Leather Sliders
 			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
 			-- Mail Equipment
 			FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
@@ -896,7 +895,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
 			FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
 			FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
-			FirstCraft(90281, 1261492, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
+			--FirstCraft(90281, 1261492, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
 			FirstCraft(95581, 1261492, ADDED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
 			FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
 			FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
@@ -910,9 +909,10 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90274, 1229889);	-- Quel'dorei Guards
 			FirstCraft(90286, 1229893);	-- Quel'dorei Stompers
 			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
-			FirstCraft(90258, 1229915);	-- Thalassian Competitor's Plate Bindings
-			FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
-			FirstCraft(95578, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
+			--FirstCraft(90258, 1229915, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Bindings
+			FirstCraft(95578, 1229915, ADDED_12_0_5);	-- Thalassian Competitor's Plate Bindings
+			--FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
+			FirstCraft(95582, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
 			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
 			-- Tools and Accessories
 			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
