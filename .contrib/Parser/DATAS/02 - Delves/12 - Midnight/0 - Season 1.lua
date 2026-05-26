@@ -126,7 +126,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 				-- Currently unaware of objectIDs so treated just as reward
 				i(254675),	-- Ancient Curio (Combat) (QI!/QS!)
 				i(254674),	-- Ancient Curio (Utility) (QI!/QS!)
-				i(253245),	-- Cracked Keystone (QI!/QS!)
+				i(253245),	-- Cracked Keystone (QI!/QS!/CI!)
 				i(268297),	-- Rattling Bag o' Gold
 				i(252415),	-- Trovehunter's Bounty
 				-- Blessings
@@ -273,7 +273,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 							["cost"] = { { "c", UNDERCOIN, 5000 } },
 							--["questID"] = ???,
 						}),
-						i(263178, {	-- Delver's Starter Kit
+						i(263178, {	-- Delver's Starter Kit (CI!)
 							--["cost"] = { { "c", UNDERCOIN, 0 } },
 						}),
 						i(263188, {	-- Restored Coffer Key
@@ -319,10 +319,9 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 							}),
 						}),
 						filter(MISC, {
-							i(263179, {	-- Delver's Cosmetic Surprise Bag
+							i(263179, {	-- Delver's Cosmetic Surprise Bag (CI!) [cointains any unlearned cosmetic from delves]
 								-- ["cost"] = { { "c", VOIDLIGHT_MARL, 0 } },
 								-- Renown 0?
-								-- Just sym the cosmetic header
 							}),
 							i(262951, {	-- Sin'dorei Gravestone (CI!)
 								["cost"] = { { "c", VOIDLIGHT_MARL, 10 } },
@@ -358,14 +357,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		["groups"] = {
 			n(DELVES_MID_S1, {
 				-- Seasonal Delver's Journey Rewards
-				--q(92601),	-- pop after looting Cracked Keystone
 				--automated stuff
-				--q(93880),	-- Delver's Starter Kit (itemID 263178)
-				--q(93881),	-- Delver's Cosmetic Surprise Bag (itemID 263179)
 				--q(93882),	-- Restored Coffer Key (itemID 263188)
 				--q(93883),	-- Restored Coffer Key (itemID 263191)
-				--q(93859),	-- Sin'dorei Gravestone (itemID 262951)
-
 
 				--q(93686),	-- tiggered after a delve
 			}),
