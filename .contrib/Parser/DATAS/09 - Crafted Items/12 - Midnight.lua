@@ -855,9 +855,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90300, 1229917);	-- M3DDY, Travel-Sized
 			FirstCraft(90302, 1229926);	-- W-47CH D0G
 			-- Guns
-			--FirstCraft(TODO, 1282455);	-- Evercore Dome Dinger
+			fc(1282455),	-- Evercore Dome Dinger
 			fc(1282456),	-- P.O.W. x3
-			--FirstCraft(TODO, 1282457);	-- Thalassian Competitor's Rifle
+			fc(1282457),	-- Thalassian Competitor's Rifle
 			-- Cloth Equipment
 			FirstCraft(90259, 1229870);	-- Aetherlume Eye Wrap
 			FirstCraft(90263, 1229874);	-- Aetherlume Silken Cuffs
@@ -920,22 +920,22 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90243, 1229898);	-- Farstrider Clampers
 			FirstCraft(90245, 1229904);	-- Farstrider Hardhat
 			FirstCraft(90249, 1229899);	-- Farstrider Rock Satchel
-			--FirstCraft(TODO, 1264528);	-- Giga-Gem Grippers
-			--FirstCraft(TODO, 1264523);	-- Head-Mounted Beam Bummer
-			--FirstCraft(TODO, 1264525);	-- Heavy-Duty Rock Assister
+			fc(1264528),	-- Giga-Gem Grippers
+			fc(1264523),	-- Head-Mounted Beam Bummer
+			fc(1264525),	-- Heavy-Duty Rock Assister
 			FirstCraft(90239, 1229901);	-- Junker's Junk Visor
 			FirstCraft(90247, 1229896);	-- Junker's Multitool
 			FirstCraft(90250, 1229906);	-- Junker's Big Ol' Bag
-			--FirstCraft(TODO, 1264524);	-- Rock Bonkin' Hardhat
-			--FirstCraft(TODO, 1264526);	-- Self-Sharpening Sin'dorei Snippers
+			fc(1264524),	-- Rock Bonkin' Hardhat
+			fc(1264526),	-- Self-Sharpening Sin'dorei Snippers
 			FirstCraft(90238, 1229907);	-- Sin'dorei Snippers
 			FirstCraft(90240, 1229894);	-- Sin'dorei Headlamp
 			FirstCraft(90242, 1229902);	-- Sin'dorei Angler's Rod
 			FirstCraft(90244, 1229905);	-- Sin'dorei Clampers
 			FirstCraft(90246, 1229897);	-- Sin'dorei Gilded Hardhat
-			--FirstCraft(TODO, 1264527);	-- Sin'dorei Reeler's Rod
+			fc(1264527),	-- Sin'dorei Reeler's Rod
 			FirstCraft(90248, 1229903);	-- Turbo-Junker's Multitool v1
-			--FirstCraft(TODO, 1264529);	-- Turbo-Junker's Multitool v9
+			fc(1264529),	-- Turbo-Junker's Multitool v9
 		})),
 		filter(MISC, {
 			i(248138),	-- Curious Red Button
@@ -1302,9 +1302,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90417, 1230044);	-- Thalassian Missive of Perception
 			FirstCraft(90421, 1230048);	-- Thalassian Missive of Resourcefulness
 			-- Profession Equipment
-			--FirstCraft(TODO, 1264550);	-- Gilded Alchemist's Mixing Rod
-			--FirstCraft(TODO, 1264552);	-- Gilded Sin'dorei Quill
-			--FirstCraft(TODO, 1264551);	-- Gilded Sin'dorei Rolling Pin
+			fc(1264550),	-- Gilded Alchemist's Mixing Rod
+			fc(1264552),	-- Gilded Sin'dorei Quill
+			fc(1264551),	-- Gilded Sin'dorei Rolling Pin
 			FirstCraft(90394, 1230021);	-- Hobbyist Alchemist's Mixing Rod
 			FirstCraft(90393, 1230020);	-- Hobbyist Rolling Pin
 			FirstCraft(90395, 1230022);	-- Hobbyist Scribe's Quill
@@ -2227,11 +2227,11 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90042, 1228965);	-- Elegant Artisan's Fishing Hat
 			FirstCraft(90043, 1228966);	-- Elegant Artisan's Herbalism Hat
 			FirstCraft(90044, 1228967);	-- Elegant Artisan's Tailoring Robe
-			--FirstCraft(TODO, 1279123);	-- Thalassian Alchemy Coveralls
-			--FirstCraft(TODO, 1279124);	-- Thalassian Chef's Chapeau
-			--FirstCraft(TODO, 1279125);	-- Thalassian Enchanter's Bonnet
-			--FirstCraft(TODO, 1279128);	-- Thalassian Herbalist's Cowl
-			--FirstCraft(TODO, 1279129);	-- Thalassian Tailor's Threads
+			fc(1279123),	-- Thalassian Alchemy Coveralls
+			fc(1279124),	-- Thalassian Chef's Chapeau
+			fc(1279125),	-- Thalassian Enchanter's Bonnet
+			fc(1279128),	-- Thalassian Herbalist's Cowl
+			fc(1279129),	-- Thalassian Tailor's Threads
 			-- Spellthread
 			FirstCraft(90052, 1228975);	-- Arcanoweave Spellthread
 			FirstCraft(90053, 1228976);	-- Bright Linen Spellthread
@@ -2252,12 +2252,12 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90073, 1228996);	-- Thalassian Competitor's Cloth Treads
 			FirstCraft(90074, 1228997);	-- Thalassian Competitor's Cloth Tunic
 			-- Wardrobe Enchancements
-			--FirstCraft(TODO, 1280545);	-- Blood-Tempered Cape
-			--FirstCraft(TODO, 1280544);	-- Farstrider's Embroidered Cover
-			--FirstCraft(TODO, 1280543);	-- Scout's Cape
-			--FirstCraft(TODO, 1280542);	-- Silvermoon Agent's Drape
-			--FirstCraft(TODO, 1280541);	-- Smuggler's Cloak
-			--FirstCraft(TODO, 1280546);	-- Spellbreaker's Shroud
+			fc(1280545),	-- Blood-Tempered Cape
+			fc(1280544),	-- Farstrider's Embroidered Cover
+			fc(1280543),	-- Scout's Cape
+			fc(1280542),	-- Silvermoon Agent's Drape
+			fc(1280541),	-- Smuggler's Cloak
+			fc(1280546),	-- Spellbreaker's Shroud
 		})),
 		filter(MISC, {
 			i(239711),	-- Bright Linen Bandage+
