@@ -214,14 +214,16 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["isWeekly"] = true,
 					["cost"] = {{"i",253342,1}},	-- Beacon of Hope
 					["sym"] = {{"select","itemID",
-						264971,	-- Annihilation Rod (COSMETIC!)
-						264970,	-- Oblivion's Edge (COSMETIC!)
+					--	264971,	-- Annihilation Rod (COSMETIC!)
+					--	264970,	-- Oblivion's Edge (COSMETIC!)
 						265368,	-- Twilight Destroyer (COSMETIC!)
 						265366,	-- Twilight Executioner (COSMETIC!)
 						265367,	-- Twilight Fang (COSMETIC!)
 					}},
 					["groups"] = {
 						i(262391),	-- Ominous Domanus (PET!)
+						i(264971),	-- Annihilation Rod (COSMETIC!)
+						i(264970),	-- Oblivion's Edge (COSMETIC!)
 					},
 				}),
 				--TODO Should these really be in the seasonal file vs the midnight delves file? Since when to objects change per season

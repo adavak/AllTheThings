@@ -310,8 +310,8 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 					{20.85, 62.86, TWILIGHT_CRYPTS},
 				},
 				["groups"] = {
-					i(264971),	-- Annihilation Rod (COSMETIC!)
-					i(264970),	-- Oblivion's Edge (COSMETIC!)
+				--	i(264971),	-- Annihilation Rod (COSMETIC!)
+				--	i(264970),	-- Oblivion's Edge (COSMETIC!)
 					i(265368),	-- Twilight Destroyer (COSMETIC!)
 					i(265366),	-- Twilight Executioner (COSMETIC!)
 					i(265367),	-- Twilight Fang (COSMETIC!)
