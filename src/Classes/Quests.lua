@@ -1021,6 +1021,7 @@ if C_QuestLog_GetAllCompletedQuestIDs then
 					and not ref.repeatable
 					and not ref.achievementID	-- don't report quests linked to achievements/criteria
 					and not IgnoredUnflagTypes[ref.__type]	-- don't report types of quests we don't care about
+					and (not app.AccountWideQuestsDB or not app.AccountWideQuestsDB[questID])	-- don't report Account wide Quests which leave the character cache
 					and not GetRelativeValue(ref, "_hqt") then
 					inaccurateQuests[questID] = true
 				end
