@@ -3068,7 +3068,8 @@ q(28401,{awp=40003,c={7},coords={
 s(33096,65640,{b=1,f=6,r=2}),
 s(33078,65622,{b=1,f=6,r=2})}}),
 q(28465,{awp=40003,c={7},coords={
-[85]={{73.6,43.3}}},lvl=20,qgs={72939},r=1,sourceQuests={28301},g={
+[85]={{73.6,43.3}}},lvl=20,qgs={168628},r=1,sourceQuests={28301},g={
+i(64312,{spellID=90292}),
 s(33099,65643,{b=1,f=6,r=1}),
 s(33086,65630,{b=1,f=6,r=1})}}),
 q(28399,{awp=40003,c={9},coords={
@@ -64359,13 +64360,7 @@ i(268467),
 i(268468),
 i(268469),
 i(268470),
-i(268471)}}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-flt(110,{awp=120001,g={(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(756)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(757)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(758)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(759)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(760))}}))}),
+i(268471)}})}),
 h(-21,{
 r(1230473,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256714,requireSkill=755,skillID=2914}),
 r(1230470,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256704,requireSkill=755,skillID=2914}),
@@ -64769,29 +64764,36 @@ crit(110322,{achID=61568,id=8})}),
 gach(61621),
 mnt(1263635,{b=1,itemID=262914,lvl=10})}})})}}),
 h(-19,{awp=120001,g={
-i(258839,{b=1,description="Drops from the last boss of Mythic Dungeons. It contains various dungeon dropped profession recipes."})}}),
-h(-58,{awp=120005,g={
+i(258839,{b=1,description="Drops from the last boss of Mythic Dungeons. It contains various dungeon dropped profession recipes."})}})}),
+h(-68,{awp=120001,g={(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+flt(110,{(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(756)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(757)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(758)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(759)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(760))})),
+h(-58,{
 n(197711,{coords={
 [2393]={{42.1,58.8}}},g={
 flt(100,{
-mnt(316637,{b=1,cost={{"i",275436,1}},itemID=174836}),
-mnt(340068,{b=1,cost={{"i",275436,1}},itemID=182717}),
-mnt(358319,{b=1,cost={{"i",275436,1}},itemID=187525}),
-mnt(359407,{b=1,cost={{"i",275436,1}},itemID=187682}),
-mnt(334482,{b=1,cost={{"i",275436,1}},itemID=192557}),
-mnt(387231,{b=1,cost={{"i",275436,1}},itemID=199412}),
-mnt(406637,{b=1,cost={{"i",275436,1}},itemID=204798}),
-mnt(422486,{b=1,cost={{"i",275436,1}},itemID=209060}),
-mnt(434462,{b=1,cost={{"i",275436,1}},itemID=213438}),
-mnt(458335,{b=1,cost={{"i",275436,1}},itemID=226357,lvl=10}),
-mnt(1221694,{b=1,cost={{"i",275436,1}},itemID=237141,lvl=10}),
-mnt(1217235,{b=1,cost={{"i",275436,1}},itemID=235549,lvl=10}),
-mnt(1245517,{b=1,cost={{"i",275436,1}},itemID=247822,lvl=10}),
-mnt(1246781,{b=1,cost={{"i",275436,1}},itemID=248248,lvl=10}),
-mnt(1296734,{cost={{"i",275436,1}},itemID=275442}),
-mnt(1296756,{cost={{"i",275436,1}},itemID=275444}),
-mnt(1296731,{cost={{"i",275436,1}},itemID=275440}),
-mnt(1296759,{cost={{"i",275436,1}},itemID=275446}),
-mnt(1296758,{cost={{"i",275436,1}},itemID=275445}),
-mnt(1296760,{cost={{"i",275436,1}},itemID=275447})})}})}})})}});
+mnt(316637,{awp=120005,b=1,cost={{"i",275436,1}},itemID=174836}),
+mnt(340068,{awp=120005,b=1,cost={{"i",275436,1}},itemID=182717}),
+mnt(358319,{awp=120005,b=1,cost={{"i",275436,1}},itemID=187525}),
+mnt(359407,{awp=120005,b=1,cost={{"i",275436,1}},itemID=187682}),
+mnt(334482,{awp=120005,b=1,cost={{"i",275436,1}},itemID=192557}),
+mnt(387231,{awp=120005,b=1,cost={{"i",275436,1}},itemID=199412}),
+mnt(406637,{awp=120005,b=1,cost={{"i",275436,1}},itemID=204798}),
+mnt(422486,{awp=120005,b=1,cost={{"i",275436,1}},itemID=209060}),
+mnt(434462,{awp=120005,b=1,cost={{"i",275436,1}},itemID=213438}),
+mnt(458335,{awp=120005,b=1,cost={{"i",275436,1}},itemID=226357,lvl=10}),
+mnt(1221694,{awp=120005,b=1,cost={{"i",275436,1}},itemID=237141,lvl=10}),
+mnt(1217235,{awp=120005,b=1,cost={{"i",275436,1}},itemID=235549,lvl=10}),
+mnt(1245517,{awp=120005,b=1,cost={{"i",275436,1}},itemID=247822,lvl=10}),
+mnt(1246781,{awp=120005,b=1,cost={{"i",275436,1}},itemID=248248,lvl=10}),
+mnt(1296734,{awp=120005,cost={{"i",275436,1}},itemID=275442}),
+mnt(1296756,{awp=120005,cost={{"i",275436,1}},itemID=275444}),
+mnt(1296731,{awp=120005,cost={{"i",275436,1}},itemID=275440}),
+mnt(1296759,{awp=120005,cost={{"i",275436,1}},itemID=275446}),
+mnt(1296758,{awp=120005,cost={{"i",275436,1}},itemID=275445}),
+mnt(1296760,{awp=120005,cost={{"i",275436,1}},itemID=275447})})}})})}})}});
 end);

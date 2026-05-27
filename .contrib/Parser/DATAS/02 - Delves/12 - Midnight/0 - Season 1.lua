@@ -74,6 +74,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 							ach(61797, {	-- My Shady Nemesis
 								i(263413),	-- Nullaeus Domaneye
 							}),
+							i(262391),	-- Ominous Domanus (PET!)
 						},
 					}),
 					n(252892, {	-- Nullaeus ??
@@ -91,6 +92,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 							ach(61798, {	-- Lighting the Dark
 								title(688),	-- <Name> the Ominous
 							}),
+							i(262391),	-- Ominous Domanus (PET!)
 						},
 					}),
 				},
@@ -211,13 +213,15 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["questID"] = 92887,
 					["isWeekly"] = true,
 					["cost"] = {{"i",253342,1}},	-- Beacon of Hope
+					["sym"] = {{"select","itemID",
+						264971,	-- Annihilation Rod (COSMETIC!)
+						264970,	-- Oblivion's Edge (COSMETIC!)
+						265368,	-- Twilight Destroyer (COSMETIC!)
+						265366,	-- Twilight Executioner (COSMETIC!)
+						265367,	-- Twilight Fang (COSMETIC!)
+					}},
 					["groups"] = {
-						i(264971),	-- Annihilation Rod (COSMETIC!)
-						i(264970),	-- Oblivion's Edge (COSMETIC!)
 						i(262391),	-- Ominous Domanus (PET!)
-						i(265368),	-- Twilight Destroyer (COSMETIC!)
-						i(265366),	-- Twilight Executioner (COSMETIC!)
-						i(265367),	-- Twilight Fang (COSMETIC!)
 					},
 				}),
 				--TODO Should these really be in the seasonal file vs the midnight delves file? Since when to objects change per season

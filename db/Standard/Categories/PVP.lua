@@ -44301,7 +44301,8 @@ s(300583,255629,{b=1,cost={{"c",1602,875}},f=34,lvl=90,pvp=1}),
 s(300576,255622,{b=1,cost={{"c",1602,1750}},f=28,lvl=90,pvp=1}),
 s(300589,255635,{b=1,cost={{"c",1602,875}},f=25,lvl=90,pvp=1}),
 s(300579,255625,{b=1,cost={{"c",1602,525}},f=1,lvl=90,pvp=1}),
-s(300574,255620,{b=1,cost={{"c",1602,875}},f=35,lvl=90,pvp=1})}})}}),
+s(300574,255620,{b=1,cost={{"c",1602,875}},f=35,lvl=90,pvp=1})}}),
+i(256553,{awp=120005,f=55,lvl=90,pvp=1,spellID=1260504})}}),
 o(532226,{catalystID=12,coords={
 [2393]={{40.3,65.5}}},description="Help us gather information of what is/isn't available via doing reports in ATT Discord. Especially the alternative sets and if the PvP transmog is available somewhere else.",modelScale=4,pvp=1})}}),
 h(-295,{pvp=1,rwp=120100,g={
