@@ -276,7 +276,7 @@ local function SplitString(separator, text)
 	return res;
 end
 local function NormalizeLinkedCharacterIdentifier(identifier)
-	if not identifier or identifier == "" then return; end
+	if not identifier or type(identifier) ~= "string" or identifier == "" then return; end
 	local name, realm = identifier:match("^([^-]+)%-(.+)$");
 	if not name then
 		name = identifier;
