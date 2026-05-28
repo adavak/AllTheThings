@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local ach,ah,campsite,cl,crit,cs,d,de,en,exp,faction,flt,follower,fp,gb,h,heir,i,ill,inst,m,mm,mnt,n,p,prof,q,r,s,sp,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterClass,_.CreateAchievementCriteria,_.CreateCharacterUnlockSpell,_.CreateDifficulty,_.CreateDecor,_.CreateEnsemble,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFollower,_.CreateFlightPath,_.CreateGarrisonBuilding,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateIllusion,_.CreateInstance,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateSpell,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local ach,ah,campsite,cl,crit,cs,d,de,exp,faction,flt,follower,fp,gb,h,heir,i,ill,inst,m,mm,mnt,n,p,prof,q,r,s,sp,title,toy,x=_.CreateAchievement,_.CreateHeader,_.CreateWarbandScene,_.CreateCharacterClass,_.CreateAchievementCriteria,_.CreateCharacterUnlockSpell,_.CreateDifficulty,_.CreateDecor,_.CreateExploration,_.CreateFaction,_.CreateFilter,_.CreateFollower,_.CreateFlightPath,_.CreateGarrisonBuilding,_.CreateCustomHeader,_.CreateHeirloom,_.CreateItem,_.CreateIllusion,_.CreateInstance,_.CreateMap,_.CreateMountMod,_.CreateMount,_.CreateNPC,_.CreateSpecies,_.CreateProfession,_.CreateQuest,_.CreateRecipe,_.CreateItemSource,_.CreateSpell,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.NeverImplemented={
 h(-12,{
 x(1,{
@@ -9419,11 +9419,7 @@ s(291850,243285,{f=2}),
 i(242458,{f=55,spellID=1232371}),
 q(90642),
 s(290254,242439,{f=2}),
-s(290231,242410,{f=2}),
-en(242492,{spellID=1232449}),
-q(90657),
-s(290268,242453,{f=2}),
-s(290245,242424,{f=2})}),
+s(290231,242410,{f=2})}),
 h(-101,{
 s(290273,242521,{f=3}),
 s(291523,242627,{f=25}),
@@ -9714,9 +9710,6 @@ s(301320,257772,{f=2}),
 i(258020,{f=55,spellID=1262730}),
 s(301342,257795,{f=3}),
 s(301324,257776,{f=2}),
-en(258021,{spellID=1262732}),
-s(301343,257796,{f=3}),
-s(301325,257778,{f=2}),
 i(258186,{f=55,spellID=1262915}),
 s(301421,258178,{f=2}),
 s(301423,258180,{f=2}),
@@ -20525,17 +20518,11 @@ i(184358),
 i(184169)}}),
 x(9.01,{awp=90100,g={
 i(185732),
-i(187004),
 i(185736,{lvl=60}),
-i(187002),
 i(185727,{spellID=329690}),
-i(186733),
 i(185766),
-i(187003),
-i(187001),
 i(187505,{b=1,lvl=10}),
-i(185743),
-i(187005)}}),
+i(185743)}}),
 x(9.02,{awp=90200,g={
 i(187688),
 i(187686),
@@ -29502,7 +29489,6 @@ q(93333),
 q(93334),
 q(93336),
 q(93337),
-q(93338),
 q(93398),
 q(93400,{isDaily=1}),
 q(93401,{isDaily=1}),

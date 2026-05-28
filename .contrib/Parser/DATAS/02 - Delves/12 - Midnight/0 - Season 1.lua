@@ -325,7 +325,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 							}),
 						}),
 						filter(MISC, {
-							i(263179, {	-- Delver's Cosmetic Surprise Bag (CI!) [cointains any unlearned cosmetic from delves]
+							i(263179, {	-- Delver's Cosmetic Surprise Bag (CI!) [Contains any unlearned cosmetic from delves]
 								-- ["cost"] = { { "c", VOIDLIGHT_MARL, 0 } },
 								-- Renown 0?
 							}),

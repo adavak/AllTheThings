@@ -351,22 +351,6 @@ i(180032)}})}}),
 q(60620,{coords={
 [116]={{17.1,93.8}}},qgs={169415},sourceQuests={60619},g={
 p(2888,{b=1,itemID=180034,npcID=169514,spellID=329900})}})}}),
-ah(186553,{awp=90105,displayID=100676,modelScale=1.5,type="i",g={
-q(64167,{coords={
-[627]={{58.5,39.1}}},qgs={96479},g={
-i(187128,{spellID=356054})}}),
-q(64196,{coords={
-[627]={{58.5,39.1}}},qgs={96479},sourceQuests={64167},g={
-i(186695,{spellID=354656})}}),
-q(64203,{coords={
-[790]={{73.2,74.9}}},qgs={179566},sourceQuests={64196},g={
-i(186730)}}),
-q(64215,{coords={
-[790]={{73.2,74.9}}},qgs={179566},sourceQuests={64203},g={
-i(186772,{spellID=354851})}}),
-q(64237,{coords={
-[790]={{73.2,74.9}}},qgs={179566},sourceQuests={64215},g={
-p(3107,{b=1,itemID=186553,npcID=179140,spellID=353460})}})}}),
 ah(192485,{awp=90205,type="i",g={
 n(162804,{coords={
 [1543]={{46.9,41.7}}},description="If you talk to Ve'nari at her usual location in her hideout in the Maw, you'll see that she is an echo and no longer physically present. Talking to her reveals an extra dialogue option, where she will mention that she has finally found Zereth Mortis.",questID=65470}),
@@ -1108,6 +1092,7 @@ o(9999946,{description="Souls fEast on the enDless shrieKing, in darKNess they w
 o(294096,{coords={
 [542]={{35.5,32}}},description="Your journey continues in Spires of Arak. You must have summoned Baa'l at least once before you can continue. \n\nInside the small basket \n\nThe Orb Reads: \n\n\"<Something is written here.>\n\nPassive Ice Veins\"",model=1046021,questID=52830,sourceQuests={52829}}),
 o(294097,{coords={
+[13]={{43.3,77.9}},
 [37]={{17.5,56.5}}},description="Stormwind City\n\nThe Strange Seed reads: \n\n\"<Something is written here.>\n\nSadness, Keynoted\"",model=940623,modelScale=2,questID=52831,sourceQuests={52830}}),
 o(294098,{coords={
 [542]={{53.5,10.8}}},description="Spires of Arak\n\nUnderwater on top of the large rock. \n\nThe Tiny Frog says:\n\n\"<Something is written here.>\n\nDog wig moss?\"",model=367326,modelScale=0.5,questID=52898,sourceQuests={52831}}),

@@ -1418,6 +1418,52 @@ root(ROOTS.Zones, {
 					["coord"] = { 23.0, 40.6, LEGION_DALARAN },
 					["timeline"] = { ADDED_7_2_0, REMOVED_8_0_1 },
 				}),
+				header(HEADERS.Quest, 64237, bubbleDownSelf({ ["timeline"] = { ADDED_9_1_5 } }, {	-- Gurgl and the Bandit
+					["displayID"] = 100676,
+					["modelScale"] = 1.5,
+					["groups"] = {
+						q(64167,{	-- Pets Detective
+							["provider"] = { "n", 96479 },	-- Breanni
+							["coord"] = { 58.5, 39.2, LEGION_DALARAN },
+							["groups"] = { i(187128) },	-- Find-A-Spy (PQI!)
+						}),
+						q(64196,{	-- Pet Up
+							["sourceQuests"] = { 64167 },	-- Pets Detective
+							["provider"] = { "n", 96479 },	-- Breanni
+							["coord"] = { 58.5, 39.2, LEGION_DALARAN },
+							["groups"] = { i(186695) },	-- Lovely Pet Bandage (PQI!)
+						}),
+						q(64203,{	-- The Coast is Clear
+							["sourceQuests"] = { 64196 },	-- Pet Up
+							["provider"] = { "n", 179566 },	-- Zantini
+							["coord"] = { 73.2, 75.0, EYE_OF_AZSHARA },
+							["groups"] = {
+								o(369137, {	-- Pet Supplies
+									i(186730),	-- Pet Supplies (QI!)
+									-- Following items count as 'Pet Supplies' for the quest
+									i(187004),	-- Bone Chew (QI!)
+									i(187002),	-- Delicious Pet Cookie (QI!)
+									i(186733),	-- Lovely Pet Caller (QI!)
+									i(187003),	-- Pet Plushy (QI!)
+									i(187001),	-- Stylish Pet Collar (QI!)
+									i(187005),	-- Wizard Pet Hat (QI!)
+								}),
+							},
+						}),
+						q(64215,{	-- Paw Patrol
+							["sourceQuests"] = { 64203 },	-- The Coast is Clear
+							["provider"] = { "n", 179566 },	-- Zantini
+							["coord"] = { 73.2, 75.0, EYE_OF_AZSHARA },
+							["groups"] = { i(186772) },	-- Violetsail Pet Cage Key (QI!)
+						}),
+						q(64237,{	-- Gurgl and the Bandit
+							["sourceQuests"] = { 64215 },	-- Paw Patrol
+							["provider"] = { "n", 179566 },	-- Zantini
+							["coord"] = { 73.2, 75.0, EYE_OF_AZSHARA },
+							["groups"] = { i(186553) },	-- Gurgl (PET!)
+						}),
+					},
+				})),
 			}),
 		}),
 	}),

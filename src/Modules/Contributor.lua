@@ -2308,6 +2308,7 @@ MobileDB.GameObject = {
 	[368631] = true,	-- Observation Device (q:63961)
 	[368638] = true,	-- Shipping Documents (q:63979)
 	[368677] = true,	-- Memorial to Archivist Roh-Kiel
+	[369137] = true,	-- Pet Supplies (q:64203)
 	[369306] = true,	-- Bundle of Writings (q:64224)
 	[369308] = true,	-- Undelivered Mail (q:64224)
 	[369309] = true,	-- Unattended Books (q:64224)
