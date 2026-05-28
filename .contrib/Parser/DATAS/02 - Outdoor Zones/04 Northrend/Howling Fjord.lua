@@ -1548,12 +1548,14 @@ root(ROOTS.Zones, {
 						["qg"] = 24038,	-- Father Levariol
 						["coord"] = { 28.8, 43.9, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = { i(33284) },	-- Gjalerbron Cage Key (QI!)
 					}),
 					q(11265, {	-- Of Keys and Cages (H)
 						["sourceQuest"] = 11261,	-- The Conqueror of Skorn!
 						["qg"] = 24135,	-- Greatmother Ankha
 						["coord"] = { 48.1, 10.6, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33284) },	-- Gjalerbron Cage Key (QI!)
 					}),
 					q(12297, {	-- Of Traitors and Treason
 						["sourceQuest"] = 11250,	-- All Hail the Conqueror of Skorn!
@@ -1856,6 +1858,7 @@ root(ROOTS.Zones, {
 							objective(1, {	-- 0/5 Dormant Vrykul slain
 								["provider"] = { "n", 24669 },	-- Dormant Vrykul
 							}),
+							i(34083),	-- Awakening Rod (QI!)
 						},
 					}),
 					q(11433, {	-- Sleeping Giants (H)
@@ -1867,6 +1870,7 @@ root(ROOTS.Zones, {
 							objective(1, {	-- 0/5 Dormant Vrykul slain
 								["provider"] = { "n", 24669 },	-- Dormant Vrykul
 							}),
+							i(34083),	-- Awakening Rod (QI!)
 						},
 					}),
 					q(11253, {	-- Sniff Out the Enemy
@@ -2524,7 +2528,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					q(11453, {	-- The Slumbering King (H)
-						["provider"] = { "i", 34083 },	-- Awakening Rod
+						["provider"] = { "i", 34091 },	-- Mezhen's Writings
 						["races"] = HORDE_ONLY,
 						["crs"] = { 24018 },	-- Necro Overlord Mezhen
 						["groups"] = {
