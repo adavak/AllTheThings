@@ -882,12 +882,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				q(90642),	-- Ensemble: Grassy Sweatsuit
 				i(242439),	-- Grassy Sweatpants
 				i(242410),	-- Grassy Sweatshirt
-
-				------ Sunny Sweatsuit Set ------
-				i(242492),	-- Ensemble: Sunny Sweatsuit
-				q(90657),	-- Ensemble: Sunny Sweatsuit
-				i(242453),	-- Sunny Sweatpants
-				i(242424),	-- Sunny Sweatshirt
 			}),
 			n(WEAPONS, {
 				i(242521),	-- Chiling Forsaken Cauldron
@@ -1175,7 +1169,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(248737),	-- Well-Used Great Steak Knife
 			}),
 		})),
-		
+
 		-- 11.2.7
 		expansion(EXPANSION.TWW, patch(2,7), bubbleDownSelf({ ["timeline"] = { CREATED_11_2_7 } }, {
 			n(ARMOR, {
@@ -1242,11 +1236,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(257795),	-- Sorcerer's Snowy Cape
 				i(257776),	-- Sorcerer's Snowy Cowl
 
-				------ Sorcerer's Sunny Garb Set ------
-				i(258021),	-- Ensemble: Sorcerer's Sunny Garb
-				i(257796),	-- Sorcerer's Sunny Cape
-				i(257778),	-- Sorcerer's Sunny Cowl
-				
 				------ Corrupted Regalia of the Crusader Set ------
 				i(258186),	-- Ensemble: Corrupted Regalia of the Crusader
 				i(258178),	-- Corrupted Belt of the Crusader
@@ -1258,7 +1247,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(258179),	-- Corrupted Legguards of the Crusader
 				i(258176),	-- Corrupted Mantle of the Crusader
 				i(258177),	-- Corrupted Robe of the Crusader
-				
+
 
 				------ Twilight Regalia of the Crusader Set ------
 				i(258251),	-- Ensemble: Twilight Regalia of the Crusader
