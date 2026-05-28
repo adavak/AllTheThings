@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local de,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local de,en,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateEnsemble,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Unsorted={
 x(12,{
 x(12.0005,{awp=120005,g={
@@ -58,7 +58,7 @@ s(304613,268600,{f=2}),
 s(304614,268601,{f=2}),
 s(304615,268602,{f=2}),
 s(304616,268603,{f=10}),
-i(268693,{f=55,spellID=1283382}),
+en(268693,{spellID=1283382}),
 s(304627,268681,{f=2}),
 s(304628,268682,{f=3}),
 s(304629,268683,{f=2}),
@@ -71,7 +71,7 @@ s(304635,268689,{f=2}),
 s(304636,268690,{f=2}),
 s(304637,268691,{f=2}),
 s(304638,268692,{f=10}),
-i(268743,{f=55,spellID=1283515}),
+en(268743,{spellID=1283515}),
 s(304639,268731,{f=2}),
 s(304640,268732,{f=3}),
 s(304641,268733,{f=2}),
@@ -100,10 +100,10 @@ s(304669,268792,{f=10}),
 i(268892,{f=55,spellID=1283969}),
 s(304708,268884,{f=3}),
 s(304709,268885,{f=3}),
-i(268893,{f=55,spellID=1283980}),
+en(268893,{spellID=1283980}),
 s(304710,268886,{f=3}),
 s(304711,268887,{f=3}),
-i(268894,{f=55,spellID=1283985}),
+en(268894,{spellID=1283985}),
 s(304712,268888,{f=3}),
 s(304713,268889,{f=3}),
 i(268895,{f=55,spellID=1283986}),

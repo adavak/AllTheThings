@@ -410,7 +410,6 @@ root(ROOTS.Unsorted, {
 					i(270291),	-- Crown of Rosy Springflowers
 					i(270281),	-- Crown of Sepia Springflowers
 					i(270296),	-- Crown of Snowy Springflowers
-					i(270297),	-- Crown of Sunny Springflowers
 					i(270294),	-- Crown of Violet Springflowers
 				}),
 				filter(TABARDS, {
@@ -455,36 +454,6 @@ root(ROOTS.Unsorted, {
 					i(268602),	-- Blue Sunwalker Helmet
 					i(268603),	-- Blue Sunwalker Tunic
 
-					------ Duskrunner's Painted Battle Garb Set ------
-					i(268693),	-- Ensemble: Duskrunner's Painted Battle Garb
-					i(268681),	-- Duskrunner's Painted Hauberk
-					i(268682),	-- Duskrunner's Painted Wrap
-					i(268683),	-- Duskrunner's Painted Gauntlets
-					i(268684),	-- Duskrunner's Painted Striders
-					i(268685),	-- Duskrunner's Painted Greaves
-					i(268686),	-- Duskrunner's Painted Leggings
-					i(268687),	-- Duskrunner's Painted Sash
-					i(268688),	-- Duskrunner's Painted Girdle
-					i(268689),	-- Duskrunner's Painted Mantle
-					i(268690),	-- Duskrunner's Painted Wings
-					i(268691),	-- Duskrunner's Painted Mask
-					i(268692),	-- Duskrunner's Painted Tunic
-
-					------ Sunbringer's Painted Battle Garb Set ------
-					i(268743),	-- Ensemble: Sunbringer's Painted Battle Garb
-					i(268731),	-- Sunbringer's Painted Hauberk
-					i(268732),	-- Sunbringer's Painted Wrap
-					i(268733),	-- Sunbringer's Painted Gauntlets
-					i(268734),	-- Sunbringer's Painted Striders
-					i(268735),	-- Sunbringer's Painted Greaves
-					i(268736),	-- Sunbringer's Painted Leggings
-					i(268737),	-- Sunbringer's Painted Sash
-					i(268738),	-- Sunbringer's Painted Girdle
-					i(268739),	-- Sunbringer's Painted Mantle
-					i(268740),	-- Sunbringer's Painted Wings
-					i(268741),	-- Sunbringer's Painted Mask
-					i(268742),	-- Sunbringer's Painted Tunic
-
 					------ Dawnchaser's Painted Battle Garb Set ------
 					i(268793),	-- Ensemble: Dawnchaser's Painted Battle Garb
 					i(268781),	-- Dawnchaser's Painted Hauberk
@@ -505,16 +474,6 @@ root(ROOTS.Unsorted, {
 					i(268884),	-- Blue Sunwalker Totem
 					i(268885),	-- Blue Sunwalker Sun Totem
 
-					------ Duskrunner's Guiding Totems Set ------
-					i(268893),	-- Ensemble: Duskrunner's Guiding Totems
-					i(268886),	-- Duskrunner's Painted Sun-Totem
-					i(268887),	-- Duskrunner's Painted Sun-Beacon
-
-					------ Sunbringer's Guiding Totems Set ------
-					i(268894),	-- Ensemble: Sunbringer's Guiding Totems
-					i(268888),	-- Sunbringer's Painted Sun-Totem
-					i(268889),	-- Sunbringer's Painted Sun-Beacon
-
 					------ White Sunwalker Totem Set ------
 					i(268895),	-- Ensemble: White Sunwalker Totem
 					i(268890),	-- White Sunwalker Totem
@@ -532,18 +491,10 @@ root(ROOTS.Unsorted, {
 					i(268907),	-- Dawnchaser Totemic Greataxe
 					i(268899),	-- Dawnchaser's Flamebrand
 					i(268903),	-- Dawnchaser's Torchblade
-					i(268897),	-- Duskrunner's Flamebrand
-					i(268901),	-- Duskrunner's Torchblade
-					i(268909),	-- Duskrunner's Totemic Edge
-					i(268905),	-- Duskrunner's Totemic Greataxe
 					i(268513),	-- Emberstone Loyalist Boltshot
 					i(268493),	-- Emberstone Loyalist Bonecracker
 					i(268497),	-- Emberstone Loyalist Knuckleblades
 					i(271814),	-- Spring Dagger-Tined Rake
-					i(268898),	-- Sunbringer's Flamebrand
-					i(268902),	-- Sunbringer's Torchblade
-					i(268910),	-- Sunbringer's Totemic Edge
-					i(268906),	-- Sunbringer's Totemic Greataxe
 				}),
 			}),
 			n(DECOR, {
@@ -572,7 +523,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(268878),	-- [PH] Giant Eagle Sunwalker Mount Blue (MOUNT!)
 				i(268875),	-- [PH] Giant Eagle Sunwalker Mount White (MOUNT!)
-				i(268877),	-- Dusk-Painted Sun Roc (MOUNT!)
 				i(268876),	-- Flame-Painted Sun Roc (MOUNT!)
 				i(268362),	-- Gilnean Copper Charger (MOUNT!)
 				i(268360),	-- Gilnean Iron Charger (MOUNT!)
