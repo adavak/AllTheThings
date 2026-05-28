@@ -756,9 +756,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["provider"] = { "i", 270562 },	-- Tainted Sample (QS!/QI!)
 					}),
 				}),
-				n(REWARDS, {
-					i(DARK_PARTICLE),
-				}),
 				n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.
 					o(645182, {	-- Crystalline Treasure
 						["coords"] = {
@@ -836,6 +833,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						},
 						["groups"] = { i(270562) },	-- Tainted Sample (QS!/QI!)
 					}),
+				}),
+				n(ZONE_DROPS, {
+					i(DARK_PARTICLE),
 				}),
 			}),
 		}),

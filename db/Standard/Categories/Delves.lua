@@ -2404,14 +2404,16 @@ m(2507,{coords={
 n(252101,{isDaily=1,questID=92888,g={
 ach(61797,{
 s(302720,263413,{f=2}),
-crit(111292,{achID=61906,id=4})})}}),
+crit(111292,{achID=61906,id=4})}),
+p(4958,{b=1,itemID=262391,npcID=256265,spellID=1268687})}}),
 n(252892,{questID=95154,g={
 ach(61808,{rwp=120001,u=2,g={
 title(689,{u=2})}}),
 ach(61799,{
 mnt(1268949,{itemID=263222,lvl=10})}),
 ach(61798,{
-title(688)})}})}}),
+title(688)}),
+p(4958,{b=1,itemID=262391,npcID=256265,spellID=1268687})}})}}),
 h(-12,{
 ach(61800,{maps={2502,2503,2505,2506,2510,2525,2528,2535,2545,2547}}),
 ach(61801,{maps={2502,2503,2505,2506,2510,2525,2528,2535,2545,2547}}),
@@ -2478,8 +2480,10 @@ i(267237,{f=55,spellID=1279740}),
 i(267647,{f=55,spellID=1280925}),
 i(267649,{f=55,spellID=1280924}),
 i(267648,{f=55,spellID=1280923})}),
-o(618495,{cost={{"i",253342,1}},isWeekly=1,questID=92887,sym={{"select","itemID",264971,264970,265368,265366,265367}},g={
-p(4958,{b=1,itemID=262391,npcID=256265,spellID=1268687})}}),
+o(618495,{cost={{"i",253342,1}},isWeekly=1,questID=92887,sym={{"select","itemID",265368,265366,265367}},g={
+p(4958,{b=1,itemID=262391,npcID=256265,spellID=1268687}),
+s(303636,264971,{f=28}),
+s(303635,264970,{f=22})}}),
 o(584514),
 o(584515),
 o(584518),
@@ -2726,8 +2730,6 @@ o(584503,{coords={
 [2535]={{40.57,57.84},{43.12,65.28},{44.41,46.27},{57.38,83.09}},
 [2545]={{23.03,15.09},{24.13,88.14},{64.7,63.5}},
 [2547]={{30,22},{46.6,84.29},{81.36,39.86}}},description="Requires Delver's Journey Rank 3 to spawn. When you zone in to a Delve, you may get a message that 'A Sanctified Banner has spawned'. You then need to find the banner (It looks like a Light-themed flagpole, a little taller than your character and slightly glowing), click it and then finish the Delve for an extra chest/goodies.\n\nWhen activating the banner, an elite mob can spawn. If it does, then you will get a Grand Sanctified Spoil instead of a regular one.",g={
-s(303636,264971,{f=28}),
-s(303635,264970,{f=22}),
 s(303846,265368,{f=25}),
 s(303844,265366,{f=21}),
 s(303845,265367,{f=20})}})})}}),
