@@ -45,10 +45,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					ach(62518),	-- Cosmic Exterminator
 					ach(62570, {	-- Cosmic Slayer
 						["crs"] = {
+							252609,	-- Void-Corrupted Dart Frog
 							263912,	-- Void-Corrupted Springclaw Patriarch
 						},
 					}),
-					ach(62571),	-- Everybody Gets One
+					ach(62571, {	-- Everybody Gets One
+						["crs"] = {
+							264269,	-- Brilliant Hawkstrider
+							264270,	-- Gloombelly Toad
+						},
+					}),
 					ach(63325, {	-- Omnium Folio Studies
 						["timeline"] = { ADDED_12_0_7 },
 						["maps"] = {

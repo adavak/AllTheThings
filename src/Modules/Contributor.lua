@@ -1075,6 +1075,7 @@ MobileDB.GameObject = {
 	[203286] = true,	-- Swiftgear Gizmo (q:25855)
 	[203287] = true,	-- Swiftgear Gizmo (q:25855)
 	[203288] = true,	-- Swiftgear Gizmo (q:25855)
+	[203289] = true,	-- Azsh'ir Idol
 	[203384] = true,	-- Seldarria's Egg (q:25931)
 	[203385] = true,	-- Frozen Artifact (q:25937)
 	[203443] = true,	-- Spare Part (q:26045)
