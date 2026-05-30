@@ -152,6 +152,14 @@ ExportDB.OPAQDB = {
 	-- Druid forms
 	65047,	-- Mark of the Nightwing Raven
 
+	-- Thunderspine mount questline (DF)
+	71195,	-- To Tame A Thunderspine
+	71196,	-- To Tame A Thunderspine
+	71197,	-- To Tame A Thunderspine
+	71198,	-- To Tame A Thunderspine
+	71199,	-- To Tame A Thunderspine
+	71209,	-- Beast of the Plains
+
 	-- Heritage
 	51483,	-- Heritage o' the Dark Iron
 	49783,	-- Heritage of Highmountain
