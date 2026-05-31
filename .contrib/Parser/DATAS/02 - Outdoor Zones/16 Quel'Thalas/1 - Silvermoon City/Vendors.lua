@@ -13,23 +13,51 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(259996, {	-- Quel'Thalas Equipment Chest
 					 	["timeline"] = { "added 12.0.5.67602" },
 					 	["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
-					-- 	["sym"] = {
-					-- 		-- All MID Season 1 dungeons (Normal+ difficulty)
-					-- 		{"select", "instanceID"
-					-- 			,1201	-- Algeth'ar Academy
-					-- 			,945	-- TODO: Seat of the Triumvirate (does not work currently)
-					-- 			,476	-- TODO: Skyreach (does not work currently)
-					-- 			,278	-- TODO: Pit of Saron (does not work currently)
-					-- 			,1300	-- Magister's Terrace
-					-- 			,1315	-- Maisara Caverns
-					-- 			,1316	-- Nexus-Point Xenas
-					-- 			,1299	-- Windrunner Spire
-					-- 		},
-					-- 		{"pop"},
-					-- 		{"where","difficultyID",DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS},
-					-- 		{"extract", "itemID"},
-					-- 		{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
-					-- 	},
+						["sym"] = {
+							-- MID Season 1 dungeons (Normal+ difficulty)
+							{"select", "instanceID"
+								,1201	-- Algeth'ar Academy
+								,1300	-- Magister's Terrace
+								,1315	-- Maisara Caverns
+								,1316	-- Nexus-Point Xenas
+								,1299	-- Windrunner Spire
+							},
+							{"pop"},
+							{"where","difficultyID",DIFFICULTY.DUNGEON.MULTI.NORMAL_PLUS},
+							{"extract", "itemID"},
+							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
+							{"finalize"},
+
+							-- MID Season 1 dungeons (Heroic difficulty)
+							{"select", "instanceID"
+								,278	-- Pit of Saron
+							},
+							{"pop"},
+							{"where","difficultyID",DIFFICULTY.DUNGEON.HEROIC},
+							{"extract", "itemID"},
+							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
+							{"finalize"},
+
+							-- MID Season 1 dungeons (Heroic+ difficulty)
+							{"select", "instanceID"
+								,945	-- Seat of the Triumvirate
+								,476	-- Skyreach
+							},
+							{"pop"},
+							{"where","difficultyID",DIFFICULTY.DUNGEON.MULTI.HEROIC_PLUS},
+							{"extract", "itemID"},
+							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
+							{"finalize"},
+
+							-- MID Season 1 dungeons (Mythic difficulty)
+							{"select", "instanceID"
+								,945	-- Seat of the Triumvirate
+							},
+							{"pop"},
+							{"where","difficultyID",DIFFICULTY.DUNGEON.MYTHIC},
+							{"extract", "itemID"},
+							{"invtype", "INVTYPE_HEAD", "INVTYPE_NECK", "INVTYPE_SHOULDER", "INVTYPE_CLOAK", "INVTYPE_CHEST", "INVTYPE_ROBE", "INVTYPE_WRIST", "INVTYPE_HAND", "INVTYPE_WAIST", "INVTYPE_LEGS", "INVTYPE_FEET", "INVTYPE_FINGER", "INVTYPE_TRINKET", "INVTYPE_WEAPON", "INVTYPE_SHIELD", "INVTYPE_RANGED", "INVTYPE_2HWEAPON", "INVTYPE_WEAPONMAINHAND", "INVTYPE_WEAPONOFFHAND", "INVTYPE_HOLDABLE", },
+						},
 					}),
 				},
 			}),
