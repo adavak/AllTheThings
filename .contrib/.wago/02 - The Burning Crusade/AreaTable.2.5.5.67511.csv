@@ -1639,6 +1639,6 @@ ID,ZoneName,AreaName_lang,ContinentID,ParentAreaID,AreaBit,SoundProviderPref,Sou
 4093,TheSunForge,"The Sun Forge",530,4080,1719,0,0,0,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,256,0,0,0,0
 4094,SunwellPlateau,"Sunwell Plateau",530,4080,1720,0,0,351,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,256,0,0,0,0
 4095,Magisters'Terrace,"Magisters' Terrace",530,4080,1721,0,0,351,2172,0,0,0,0,0,0,0,0,-1,0,0,0,1073741888,256,0,0,0,0
-4131,Magisters'Terrace,"Magisters' Terrace",585,0,1757,0,0,0,2172,0,0,0,0,0,0,0.69999998808,0,-1,0,0,0,0,256,0,0,0,0
+4131,MagistersTerrace,"Magisters' Terrace",585,0,1757,0,0,0,2172,0,0,0,0,0,0,0.69999998808,0,-1,0,0,0,0,256,0,0,0,0
 4139,ParhelionPlaza,"Parhelion Plaza",580,4075,1765,0,0,351,2172,407,0,0,0,0,0,0,0,-1,0,0,0,1073741824,256,0,0,0,0
 4140,TheDeadScar,"The Dead Scar",580,4075,1768,0,0,363,2172,407,0,0,0,0,0,0,0,-1,0,0,0,1073741824,256,0,0,0,0
