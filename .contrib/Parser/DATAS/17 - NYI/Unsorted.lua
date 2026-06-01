@@ -523,7 +523,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				i(268878),	-- [PH] Giant Eagle Sunwalker Mount Blue (MOUNT!)
 				i(268875),	-- [PH] Giant Eagle Sunwalker Mount White (MOUNT!)
-				i(268876),	-- Flame-Painted Sun Roc (MOUNT!)
 				i(268362),	-- Gilnean Copper Charger (MOUNT!)
 				i(268360),	-- Gilnean Iron Charger (MOUNT!)
 			}),

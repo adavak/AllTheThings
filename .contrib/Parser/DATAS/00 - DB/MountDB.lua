@@ -2393,6 +2393,7 @@ i(275444, 1296756);	-- Blue-Chip Shreddertank
 i(268481, 1282471);	-- Breaker Bee
 i(275440, 1296731);	-- Cerulean Deathwalker
 i(268877, 1283908);	-- Dusk-Painted Sun Roc
+i(268876, 1283910);	-- Flame-Painted Sun Roc
 i(268364, 1282276);	-- Gilneas Loyalist's Rouncey
 i(275446, 1296759);	-- High-Yield Shreddertank
 i(275445, 1296758);	-- Profit-Green Shreddertank
@@ -2407,7 +2408,6 @@ i(257225, 1261362);	-- Witherbark Warbear Harness
 --- Unsorted ---
 i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
 i(268875, 1283911);	-- [PH] Giant Eagle Sunwalker Mount White
-i(268876, 1283910);	-- Flame-Painted Sun Roc
 i(268362, 1282274);	-- Gilnean Copper Charger
 i(268360, 1282268);	-- Gilnean Iron Charger
 --- NYI ---
