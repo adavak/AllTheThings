@@ -1463,7 +1463,6 @@ _.Modules.Events.SetEventInformation(13, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=7,["year"]=2027},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=6,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(1, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=18,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=25,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=1,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=8,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=15,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=22,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=29,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=6,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
@@ -1489,7 +1488,8 @@ _.Modules.Events.SetEventInformation(1, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=5,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=12,["weekday"]=2,["year"]=2027},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=19,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=26,["weekday"]=2,["year"]=2027},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=3,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=10,["weekday"]=2,["year"]=2027},{["remappedID"]=374}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=17,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=24,["weekday"]=2,["year"]=2027},{["remappedID"]=375})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=17,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=24,["weekday"]=2,["year"]=2027},{["remappedID"]=375}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=31,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=7,["weekday"]=2,["year"]=2027},{["remappedID"]=374})
 });
 -- Filter Database Module
 _.FilterConstants = {
@@ -36540,16 +36540,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
