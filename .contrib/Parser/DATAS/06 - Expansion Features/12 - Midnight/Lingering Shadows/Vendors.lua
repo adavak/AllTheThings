@@ -18,90 +18,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				n(255473, {	-- Maren Silverwing <Quartermaster>
 					["coord"] = { 48.0, 49.2, MAP.MIDNIGHT.SILVERMOON_CITY },
 					["groups"] = {
-						i(278022, {	-- Bulging Amani Field Pouch
-							["cost"] = { { "i", DARK_PARTICLE, 150 } },
-							["timeline"] = { ADDED_12_0_7 },
-							["groups"] = {
-								i(271028),	-- Amani War Spear
-								i(271037),	-- Battle Shaman's Ritual Staff
-								i(270997),	-- Blood Oath Tome
-								i(271039),	-- Curved Blade of the Drained Loa
-								i(270998),	-- Fetish of the Vanquished Foe
-								i(270999),	-- Forest Berserker's Hatchet
-								i(271036),	-- Forest Shaman's Voodoo Staff
-								i(271006),	-- Forest Stalker's Bow
-								i(271012),	-- Forest Tiki Twinblade
-								i(271011),	-- Frostdeep Spider's Fang
-								i(271001),	-- Greataxe of the Forest Tribe
-								i(270992),	-- Amani Hex Crest
-								i(270996),	-- Hex-Horn Buckler
-								i(271021),	-- Loa Battle Font
-								i(271033),	-- Skull-Bearer's Ritual Stave
-								i(271032),	-- Tiki-Bearer's Ritual Staff
-								i(271046),	-- Voodoo Hex Stick
-							},
-						}),
-						i(278021, {	-- Bulging Elven Field Pouch
-							["cost"] = { { "i", DARK_PARTICLE, 150 } },
-							["timeline"] = { ADDED_12_0_7 },
-							["groups"] = {
-								i(271045),	-- Crystal Focus Spellslinger
-								i(271010),	-- Glistening Sin'dorei Twinblade
-								i(271016),	-- Golden Phoenix's Beak
-								i(272144),	-- Onyx Bloodknight Bladestaff
-								i(271031),	-- Onyx Bloodknight Stave
-								i(271038),	-- Ornate Blade of the Royal Guard
-								i(271020),	-- Phoenix Wing Basher
-								i(270995),	-- Sin'dorei Crystal Focus
-								i(271019),	-- Sin'dorei Magister's Gavel
-								i(270991),	-- Sunfury Great Bulwark
-								i(271003),	-- Sunfury Phoenix Bow
-								i(271005),	-- Violet Thalassian Greatbow
-							},
-						}),
-						i(278024, {	-- Bulging Naga Field Pouch
-							["cost"] = { { "i", DARK_PARTICLE, 150 } },
-							["timeline"] = { ADDED_12_0_7 },
-							["groups"] = {
-								i(271041),	-- Blade of the Deeplurk Honorguard
-								i(271009),	-- Daggerspine Trident Tine
-								i(271015),	-- Deep Fathom Claw
-								i(271004),	-- Deepcrawler Recurve Bow
-								i(271018),	-- Deepcrawler Pincher
-								i(271027),	-- Deeplurk Battle Trident
-								i(271044),	-- Deeplurk Shock Wand
-								i(271035),	-- Deeplurk Sorceress' Stave
-								i(271026),	-- Deeplurk Myrmidon's Trident
-								i(270994),	-- Deepsea Behemoth Scale
-								i(271024),	-- Diseased Piranha Fetish
-								i(271029),	-- Fathom-Coral Lightstaff
-								i(271030),	-- Living Stave of the Deepdweller
-								i(271042),	-- Myrmidon's Cutlass
-								i(271023),	-- Swingable Piranha
-							},
-						}),
-						i(271222, {	-- Bulging Recruit's Field Pouch
-							["cost"] = { { "i", DARK_PARTICLE, 150 } },
-							["timeline"] = { ADDED_12_0_7 },
-							["groups"] = {
-								i(271013),	-- Adherent's Wriggling Backstabber
-								i(271008),	-- Cultist's Sacrificial Kris
-								i(271034),	-- Ritual Overseer's Polestaff
-								i(271022),	-- Ritual Overseer's Mace
-								i(271049),	-- Ritual Weaver's Spellstick
-								i(271047),	-- Spell-Infused Wriggling Tentacles
-								i(270993),	-- Twilight Blade Barrier
-								i(271002),	-- Twilight Berserker's Cleaver
-								i(271040),	-- Twilight Captain's Short Sword
-								i(271025),	-- Twilight Guardian's Maul
-								i(271000),	-- Twilight Gut Ripper
-								i(271007),	-- Twilight Ritualist's Stiletto
-								i(271014),	-- Twilight Scout's Sticher
-								i(271017),	-- Twilight Slug Belcher
-								i(271043),	-- Twilight Assassin's Glaive
-								i(271048),	-- Wriggling Tentacle Fetish
-							},
-						}),
 						i(263928, {	-- Cache of Void-Touched Armaments (Champion)
 							["cost"] = { { "c", FIELD_ACCOLADE, 75 } },
 							["groups"] = {
@@ -421,7 +337,92 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							{ "c", FIELD_ACCOLADE, 5 },
 							{ "c", VOIDLIGHT_MARL, 150 },
 						},
-					}, {	-- All of these are (COSMETIC!) and are sorted in the alphabetic order of the class: DK, DH, Druid, Evoker, Hunter, Mage, Monk, Paladin, Priest, Rogue, Shaman, Warlock, Warrior
+					}, {
+						i(278022, {	-- Bulging Amani Field Pouch
+							["cost"] = { { "i", DARK_PARTICLE, 150 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["groups"] = {
+								i(271028),	-- Amani War Spear
+								i(271037),	-- Battle Shaman's Ritual Staff
+								i(270997),	-- Blood Oath Tome
+								i(271039),	-- Curved Blade of the Drained Loa
+								i(270998),	-- Fetish of the Vanquished Foe
+								i(270999),	-- Forest Berserker's Hatchet
+								i(271036),	-- Forest Shaman's Voodoo Staff
+								i(271006),	-- Forest Stalker's Bow
+								i(271012),	-- Forest Tiki Twinblade
+								i(271011),	-- Frostdeep Spider's Fang
+								i(271001),	-- Greataxe of the Forest Tribe
+								i(270992),	-- Amani Hex Crest
+								i(270996),	-- Hex-Horn Buckler
+								i(271021),	-- Loa Battle Font
+								i(271033),	-- Skull-Bearer's Ritual Stave
+								i(271032),	-- Tiki-Bearer's Ritual Staff
+								i(271046),	-- Voodoo Hex Stick
+							},
+						}),
+						i(278021, {	-- Bulging Elven Field Pouch
+							["cost"] = { { "i", DARK_PARTICLE, 150 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["groups"] = {
+								i(271045),	-- Crystal Focus Spellslinger
+								i(271010),	-- Glistening Sin'dorei Twinblade
+								i(271016),	-- Golden Phoenix's Beak
+								i(272144),	-- Onyx Bloodknight Bladestaff
+								i(271031),	-- Onyx Bloodknight Stave
+								i(271038),	-- Ornate Blade of the Royal Guard
+								i(271020),	-- Phoenix Wing Basher
+								i(270995),	-- Sin'dorei Crystal Focus
+								i(271019),	-- Sin'dorei Magister's Gavel
+								i(270991),	-- Sunfury Great Bulwark
+								i(271003),	-- Sunfury Phoenix Bow
+								i(271005),	-- Violet Thalassian Greatbow
+							},
+						}),
+						i(278024, {	-- Bulging Naga Field Pouch
+							["cost"] = { { "i", DARK_PARTICLE, 150 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["groups"] = {
+								i(271041),	-- Blade of the Deeplurk Honorguard
+								i(271009),	-- Daggerspine Trident Tine
+								i(271015),	-- Deep Fathom Claw
+								i(271004),	-- Deepcrawler Recurve Bow
+								i(271018),	-- Deepcrawler Pincher
+								i(271027),	-- Deeplurk Battle Trident
+								i(271044),	-- Deeplurk Shock Wand
+								i(271035),	-- Deeplurk Sorceress' Stave
+								i(271026),	-- Deeplurk Myrmidon's Trident
+								i(270994),	-- Deepsea Behemoth Scale
+								i(271024),	-- Diseased Piranha Fetish
+								i(271029),	-- Fathom-Coral Lightstaff
+								i(271030),	-- Living Stave of the Deepdweller
+								i(271042),	-- Myrmidon's Cutlass
+								i(271023),	-- Swingable Piranha
+							},
+						}),
+						i(278025, {	-- Bulging Twilight Field Pouch
+							["cost"] = { { "i", DARK_PARTICLE, 150 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["groups"] = {
+								i(271013),	-- Adherent's Wriggling Backstabber
+								i(271008),	-- Cultist's Sacrificial Kris
+								i(271034),	-- Ritual Overseer's Polestaff
+								i(271022),	-- Ritual Overseer's Mace
+								i(271049),	-- Ritual Weaver's Spellstick
+								i(271047),	-- Spell-Infused Wriggling Tentacles
+								i(270993),	-- Twilight Blade Barrier
+								i(271002),	-- Twilight Berserker's Cleaver
+								i(271040),	-- Twilight Captain's Short Sword
+								i(271025),	-- Twilight Guardian's Maul
+								i(271000),	-- Twilight Gut Ripper
+								i(271007),	-- Twilight Ritualist's Stiletto
+								i(271014),	-- Twilight Scout's Sticher
+								i(271017),	-- Twilight Slug Belcher
+								i(271043),	-- Twilight Assassin's Glaive
+								i(271048),	-- Wriggling Tentacle Fetish
+							},
+						}),
+						-- All of these are (COSMETIC!) and are sorted in the alphabetic order of the class: DK, DH, Druid, Evoker, Hunter, Mage, Monk, Paladin, Priest, Rogue, Shaman, Warlock, Warrior
 						i(264320, {	-- Cache of Void-Touched Belts
 							i(263591),	-- Void Rider's Girdle
 							i(263600),	-- Voidwalker's Cord
