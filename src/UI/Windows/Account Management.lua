@@ -275,33 +275,36 @@ local function SplitString(separator, text)
 	text:gsub('[^'..sep..']+', function(x) res[#res+1] = x end);
 	return res;
 end
-local function NormalizeLinkedCharacterIdentifier(identifier)
+local function TrimString(str)
+    return str and str:gsub("^%s*(.-)%s*$", "%1");
+end
+local function CamelCaseName(str)
+    if not str or str == "" then return str; end
+    str = TrimString(str):lower();
+    return str:gsub("(%a)([%w]*)", function(first, rest)
+        return first:upper() .. rest;
+    end);
+end
+local function NormalizeLinkedCharacterIdentifier(identifier,identifierRealm)
 	if not identifier or type(identifier) ~= "string" or identifier == "" then return; end
-	local name, realm = identifier:match("^([^-]+)%-(.+)$");
-	if not name then
+	local name, realm = identifier:match("^%s*([%w]+)%s*-?%s*([%w ]-)%s*$");
+	if not name or name == "" then
 		name = identifier;
 	end
-	name = name:gsub("^%s+", ""):gsub("%s+$", "");
-	if not name or name == "" then return; end
-	if realm and realm ~= "" then
-		realm = realm:gsub("^%s+", ""):gsub("%s+$", "");
-		if realm == "" then return name, name; end
-		return name .. "-" .. realm, name;
+	if not realm or realm == "" then
+		realm = identifierRealm or CurrentCharacter.realm
 	end
-
-	return name, name;
+    name = CamelCaseName(name);
+	if not name or name == "" then return; end
+	realm = CamelCaseName(realm)
+	return name .. "-" .. realm:gsub("%s+", ""), name;
 end
 local function AddCharacterLookup(characterByInfo, character)
-	local name = character.name;
-	if name then
-		characterByInfo[name] = character;
-		local realm = character.realm;
-		if realm then
-			local compactRealm = realm:gsub("%s+", "");
-			characterByInfo[name .. "-" .. compactRealm] = character;
-		end
+	local identifier = NormalizeLinkedCharacterIdentifier(character.name, character.realm)
+	if identifier then
+		characterByInfo[identifier] = character
 	end
-	characterByInfo[character.guid] = character;
+	characterByInfo[character.guid] = character
 end
 local function IsLinkedCharacter(identifier)
 	local fullIdentifier, shortIdentifier = NormalizeLinkedCharacterIdentifier(identifier);
@@ -1492,6 +1495,7 @@ MESSAGE_HANDLERS.check = function(self, sender, content, responses)
 	local token, isResponding = content[2], content[3];
 	if not token then return false; end
 	if not LinkedCharacters[token] and not IsLinkedCharacter(sender) then
+		app.print("Character not checked properly",token,sender)
 		return false;
 	else
 		-- White list any future communications with this sender for the rest of the session.
@@ -1546,7 +1550,10 @@ MESSAGE_HANDLERS.link = function(self, sender, content, responses)
 	return true;
 end
 MESSAGE_HANDLERS.linked = function(self, sender, content, responses)
-	if not IsLinkedCharacter(sender) then return false; end
+	if not IsLinkedCharacter(sender) then
+		app.print("Character not linked properly",sender)
+		return false
+	end
 
 	-- Parse the linked string.
 	local guid = content[2];
@@ -1865,7 +1872,10 @@ local function OnClickForCharacter(row, button)
 end
 local function OnClickForLinkedAccount(row, button)
 	local identifier = row.ref.datalink;
-	if not identifier then return true; end
+	if not identifier then
+		app.print("This linked character is missing a datalink. Please delete and re-create properly!", row.ref.name)
+		return true
+	end
 
 	if button == "RightButton" then
 		app:ShowPopupDialog("LINKED ACCOUNT: " .. (row.ref.text or RETRIEVING_DATA) .. "\n \nAre you sure you want to delete this?",
