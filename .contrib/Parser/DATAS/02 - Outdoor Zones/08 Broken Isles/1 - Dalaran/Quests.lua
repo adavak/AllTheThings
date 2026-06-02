@@ -190,7 +190,10 @@ root(ROOTS.Zones, {
 				q(44421, {	-- Anomalous Anomalies
 					["sourceQuests"] = { 44182 },	-- City Under Siege
 					["provider"] = { "n", 113986 },	-- Archmage Khadgar
-					["coord"] = { 47.6, 74.6, DEADWIND_PASS },
+					["coords"] = {
+						{ 47.6, 74.6, DEADWIND_PASS },
+						{ 49.9, 48.6, 41 },	-- Dalaran
+					},
 					["groups"] = { i(141411) },	-- Translocation Anomaly Neutralization Crystal (QI!)
 				}),
 				q(45482, {	-- Arcane: Fate of the Tideskorn
@@ -1180,7 +1183,7 @@ root(ROOTS.Zones, {
 					["sourceQuests"] = { 40717, 40718 },	-- Calling of the Council [A/H]
 					["provider"] = { "n", 113655 },	-- Brann Bronzebeard
 					["coords"] = {
-						{ 30.7, 49.0, LEGION_DALARAN },
+						{ 30.7, 49.0, 41 },	-- Dalaran
 						{ 41.2, 74.8, DEADWIND_PASS },
 					},
 				}),

@@ -511,8 +511,14 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					62159,	-- Aiding the Shadowlands
 					62704,	-- The Threads of Fate
 				},
-				["provider"] = { "n", 163427 },	-- Kalisthene
-				["coord"] = { 51.0, 46.8, BASTION },
+				["qgs"] = {
+					163427,	-- Kalisthene
+					168517,	-- Kalisthene
+				},
+				["coords"] = {
+					{ 37.4, 61.4, ARCHONS_RISE },
+					{ 51.0, 46.8, BASTION },
+				},
 				["groups"] = {
 					i(181635),	-- Honortoll Gavel
 					i(181630),	-- Honortoll Spear

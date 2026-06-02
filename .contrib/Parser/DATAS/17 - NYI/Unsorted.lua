@@ -496,7 +496,6 @@ root(ROOTS.Unsorted, {
 			filter(MISC, {
 				i(267278),	-- Angler Pearls
 				i(271353),	-- Collection of Valuables
-				i(272111),	-- Decaying Necromancer Cloak
 				i(268122),	-- Dispelled Coins
 				i(264162),	-- Enchanted Snowflake [PH]
 				i(272400),	-- Fine Lynx Fur
@@ -1245,8 +1244,6 @@ root(ROOTS.Unsorted, {
 				i(154132),	-- Wikket Weaksauce
 				i(154133),	-- Lorkin' Ikkin' Ooked Tik-Flipper
 				i(155592),	-- Stolen Candy
-				i(156872),	-- Loa Sweat
-				i(156873),	-- Boozy Boot
 				i(158466),	-- Fort Victory Sausage
 				i(158926),	-- Fried Turtle Bits
 				i(159867),	-- Rockskip Mineral Water
@@ -1357,13 +1354,11 @@ root(ROOTS.Unsorted, {
 				i(163207),	-- Gral's Growler
 				i(163208),	-- Uncle Sezahjin's Fried Chicken
 				i(163387),	-- Toil and Trouble
-				i(163391),	-- Anchormaker
 				i(163395),	-- Sunken Pylon
 				i(163399),	-- Sludge Fizz
 				i(163407),	-- Drustvine
 				i(163411),	-- Briartini
 				i(163417),	-- Journey's End
-				i(163637),	-- Old Ironforge
 				i(163640),	-- Huangtze Pure Malt
 				i(163641),	-- Brunnhildar Rime
 				i(163642),	-- The Aerie 8 Year, Hinterlands Malt
@@ -2244,7 +2239,6 @@ root(ROOTS.Unsorted, {
 			i(166397),	-- Set Keystone Map: Tol Dagor
 			i(166398),	-- Set Keystone Map: Waycrest Manor
 			i(166399),	-- Add Keystone Affix: Infested
-			i(166419),	-- Kelp'thar Bubble Tea
 			i(166421),	-- PH Alliance Warfront Skullcleaver
 			i(166423),	-- PH Horde Warfront Claymore
 			i(166424),	-- PH Horde Warfront Warhammer

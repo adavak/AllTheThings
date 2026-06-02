@@ -457,7 +457,6 @@ i(166872);	-- Sterling Truesilver Flatware
 i(166796);	-- Sunset Amber (Opulence Crown Consumable)
 i(170038);	-- Torn Mesh
 i(166288);	-- Waterlogged Junk
-i(166420);	-- Xibala Kombucha
 i(166859);	-- Zinj'alor Blue Diamond
 
 -----------------
@@ -2873,6 +2872,7 @@ i(260287);	-- World Roots Banquet
 i(272049);	-- Bloodied Propaganda Leaflet
 i(272109);	-- Crumpled Propaganda Page
 i(272047);	-- Deeplurk Scrying Stone
+i(272111);	-- Decaying Necromancer Cloak
 i(272114);	-- Discarded Excavation Tool
 i(272112);	-- Golden Rune-Etched Circlet
 i(273014);	-- Howling Glass Shard
