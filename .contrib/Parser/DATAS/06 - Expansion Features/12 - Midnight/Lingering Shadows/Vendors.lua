@@ -591,6 +591,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 					}),
 				}),
+				-- Naigtal & Val Vendors
 				n(267315, {	-- Fieldsmith Ventem <Field Gear and Repairs>
 					["coords"] = {
 						{ 48.6, 81.6, NAIGTAL },
@@ -689,6 +690,97 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						})),
 					},
 				}),
+				n(265559, {	-- Kifaan <The Consortium>
+					["coord"] = { 47.7, 81.2, NAIGTAL },
+					["groups"] = {
+						i(278026, {	-- Bulging Ethereal Pack
+							["cost"] = { { "c", FIELD_ACCOLADE, 250 } },
+							["groups"] = {
+								i(274880),	-- Hal'hadar Adjutant's Gavel (COSMETIC!)
+								i(274889),	-- Hal'hadar Darkblade's Edge (COSMETIC!)
+								i(274888),	-- Hal'hadar Legion Glaives (COSMETIC!)
+								i(274882),	-- Hal'hadar Pulse Rifle (COSMETIC!)
+								i(274878),	-- Hal'hadar Shadowripper's Blade (COSMETIC!)
+								i(274883),	-- Hal'hadar Warpguard's Poleaxe (COSMETIC!)
+							},
+						}),
+						i(278027, {	-- Bulging Winter Pack
+							["cost"] = { { "c", FIELD_ACCOLADE, 250 } },
+							["groups"] = {
+								i(249758),	-- Void-Touched Winter Belt (COSMETIC!)
+								i(249760),	-- Void-Touched Winter Boots (COSMETIC!)
+								i(249762),	-- Void-Touched Winter Cloak (COSMETIC!)
+								i(249761),	-- Void-Touched Winter Gloves (COSMETIC!)
+								i(249755),	-- Void-Touched Winter Hood (COSMETIC!)
+								i(249759),	-- Void-Touched Winter Leggings (COSMETIC!)
+								i(249756),	-- Void-Touched Winter Pauldrons (COSMETIC!)
+								i(249864),	-- Void-Touched Winter Spaulders (COSMETIC!)
+								i(249757),	-- Void-Touched Winter Tunic (COSMETIC!)
+							},
+						}),
+						i(252195, {	-- Fishstick Keith (PET!)
+							["sourceAchievement"] = 62903,	-- Climate Strange: Val
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE, 30 },
+								{ "i", 238365, 250 },	-- 250x Sin'dorei Swarmer
+							},
+						}),
+						i(275662, {	-- Frosticus Maximus (PET!)
+							["sourceAchievement"] = 63349,	-- Ultradon Carnage
+							["sourceQuest"] = 95395,	-- Until it is Done
+							["cost"] = { { "g", 1000000 } },	-- 100g
+						}),
+						i(275663, {	-- Silento (PET!)
+							["sourceAchievements"] = {
+								62882,	-- Showdown Success: Naigtal
+								62880,	-- Showdown Success: Val
+							},
+							["cost"] = { { "c", VOIDLIGHT_MARL, 1800 } },
+						}),
+						i(274650, {	-- Starmech Cosmic-Collapser (MOUNT!)
+							["sourceAchievement"] = 62874,	-- A Trip Through the Stars
+							["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+						}),
+						i(260739, {	-- Swamp Dweller's Night Staff (COSMETIC!)
+							["cost"] = {
+								{ "c", FIELD_ACCOLADE, 60 },
+								{ "i", VOIDLIGHT_MARL, 500 },
+							},
+						}),
+						i(275664, {	-- Tortured Gorger (MOUNT!)
+							["sourceAchievement"] = 63264,	-- Heroic Showdowns
+							["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+						}),
+						i(274649, {	-- Voidmancer's Starcarver (MOUNT!)
+							["sourceAchievement"] = 62873,	-- A Trip Around the Stars
+							["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
+						}),
+						-- Consumables
+						i(274772, {	-- Ethereal Bandage
+							["cost"] = { { "c", FIELD_ACCOLADE, 1 } },
+						}),
+						i(274774, {	-- Frost-Injected Vapor
+							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+						}),
+						i(274793, {	-- Mana Barrier Projector
+							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+						}),
+						i(274794, {	-- Shockwave Amplifier
+							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+						}),
+						i(274775, {	-- Void Hungerer's Vapor
+							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+						}),
+						i(276375),	-- Technomancer's Scrying Matrix
+						i(274782, {	-- Tether Severing Vapor
+							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
+						}),
+					},
+				}),
+				--n(266234, {	-- Kifaan <The Consortium>
+				--	["coord"] = { 59.8, 19.6, VAL },
+				--	@DARKAL I need a symlinik here to mirror NPC 265559
+				--}),
 				n(265581, {	-- Zuronar <Lightveil Artificer>
 					["coords"] = {
 						{ 48.1, 83.3, NAIGTAL },

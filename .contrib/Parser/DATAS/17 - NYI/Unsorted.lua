@@ -54,7 +54,6 @@ root(ROOTS.Unsorted, {
 				i(274859),	-- Klaxid Plate Vambraces
 				i(274860),	-- Ancient Spore-Coated Axe
 				i(274861),	-- Frosty Broodmother's Fang
-				i(274862),	-- Corrupted Draenei Priest's Kris
 				i(274863),	-- Cudgel of the Twisted Reaper
 				i(274864),	-- Sporebloom Gavel
 				i(274865),	-- Destroyer's Drop Hammer
@@ -63,7 +62,6 @@ root(ROOTS.Unsorted, {
 				i(274868),	-- Portal Master's Shortblade
 				i(274869),	-- Void-Iced Warglaives
 				i(274870),	-- Assassin's Void-String Bow
-				i(274871),	-- Giant Worm Piercer
 				i(274872),	-- Darkness's Horrific Barb
 				i(274873),	-- Funeral Attendant's Spire
 				i(274874),	-- Flickering Wing Seperator
@@ -107,18 +105,12 @@ root(ROOTS.Unsorted, {
 				i(274893),	-- Frosty Klaxid Stinger
 				-- Cosmetic
 				i(274877),	-- Phaseblade Headsplitter
-				i(274878),	-- Hal'hadar Shadowripper's Blade
 				i(274879),	-- Mana-Amplified Crusher
-				i(274880),	-- Hal'hadar Adjutant's Gavel
 				i(274881),	-- Phase Igniter
-				i(274882),	-- Hal'hadar Pulse Rifle
-				i(274883),	-- Hal'hadar Warpguard's Poleaxe
 				i(274884),	-- Arcanografter's Beacon
 				i(274885),	-- Phase-Edged Falchion
 				i(274886),	-- Eradicator's Censer
 				i(274887),	-- Mana-Overloaded Bulwark
-				i(274888),	-- Hal'hadar Legion Glaives
-				i(274889),	-- Hal'hadar Darkblade's Edge
 				i(275216),	-- Phaseblade's Edges
 				i(275217),	-- Nexus-Captain's Phaseblade
 				i(275218),	-- Mertei's Command Baton

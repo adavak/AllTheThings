@@ -170,6 +170,57 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							ach(62883),	-- Showdown Slugger: Naigtal
 							ach(62882),	-- Showdown Success: Naigtal
 						}),
+						n(createHeader({
+							readable = "Manaforge Translocators",
+							icon = 6654410,
+							text = {
+								en = "Manaforge Translocators",
+								--de = "Manaforge Translocators",
+								--es = "Manaforge Translocators",
+								--mx = "Manaforge Translocators",
+								--fr = "Manaforge Translocators",
+								--it = "Manaforge Translocators",
+								--ko = "Manaforge Translocators",
+								--pt = "Manaforge Translocators",
+								--ru = "Manaforge Translocators",
+								--cn = "Manaforge Translocators",
+								--tw = "Manaforge Translocators",
+							},
+							description = {
+								en = "Manaforge Translocators are teleporters used to instantly move around Naigtal.",
+								-- TODO: de = "",
+								-- TODO: es = "",
+								-- TODO: mx = "",
+								-- TODO: fr = "",
+								-- TODO: it = "",
+								-- TODO: ko = "",
+								-- TODO: pt = "",
+								-- TODO: ru = "",
+								-- TODO: cn = "",
+								-- TODO: tw = "",
+							},
+						}), {
+							["groups"] = sharedData({
+								["sourceQuest"] = 96809,	-- Exterior Manaforge Translocator
+							}, {
+								fp(3280, {	-- Extraction Coast
+									["coord"] = { 32.3, 46.1, NAIGTAL },
+									["cr"] = 266519,	-- Manaforge Translocator
+								}),
+								fp(3279, {	-- Nexus Port
+									["coord"] = { 55.0, 47.0, NAIGTAL },
+									["cr"] = 266518,	-- Manaforge Translocator
+								}),
+								fp(3278, {	-- Sporeforge
+									["coord"] = { 77.3, 42.9, NAIGTAL },
+									["cr"] = 266517,	-- Manaforge Translocator
+								}),
+								fp(3277, {	-- Umbral Base Camp
+									["coord"] = { 46.7, 82.9, NAIGTAL },
+									["cr"] = 266515,	-- Manaforge Translocator
+								}),
+							}),
+						}),
 						n(QUESTS, {
 							q(96052, {	-- Through the Mana Rift
 								["sourceQuest"] = 96708,	-- To the Voidstorm and Beyond!
@@ -205,12 +256,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
 								["qg"] = 265559,	-- Kifaan
 								["coord"] = { 47.7, 81.2, NAIGTAL },
-								-- Should Unlock following Manaforge Translocators (Flight Paths) but they are currently not interactable
-								-- Gonna need new header "Manaforge Translocators"
-								-- Umbral Base Camp
-								-- Nexus Port 55.0, 47.0
-								-- Sporeforge 77.3, 42.9
-								-- Extraction Coast
 							}),
 							q(96567, {	-- Data Decryption Disaster
 								["sourceQuest"] = 97072,	-- A Swampy Welcome to Naigtal
@@ -297,6 +342,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							}),
 						}),
 						n(RARES, {
+							-- Rare at Vennorax Wreckage. It was gone by the time I got there. Coord 29.7, 19.2,	-- Exo
+							n(263947, {	-- Interminable Uarn
+								["coord"] = { 37.6, 61.8, NAIGTAL },
+								["questID"] = 96205,
+								["groups"] = { i(274862) },	-- Corrupted Draenei Priest's Kris
+							}),
 							n(263955, {	-- Lomelith
 								["description"] = "Roams around the area.",
 								["coord"] = { 67.7, 62.9, NAIGTAL },
@@ -311,7 +362,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(264576, {	-- Slaipaan
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
-								--["questID"] = XXXXX,
+								["questID"] = 96320,
+								["groups"] = { i(274871) },	-- Giant Worm Piercer
 							}),
 							n(267422, {	-- Warbringer Thal'kuur
 								["description"] = "Roams around the area.",
@@ -335,70 +387,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(TREASURES, {
 							o(655271, {	-- Hal'hadar Pocket-Storage
 								["description"] = "Spawns randomly throughout the zone.",
-							}),
-						}),
-						n(VENDORS, {
-							n(265559, {	-- Kifaan <The Consortium>
-								["coord"] = { 47.7, 81.2, NAIGTAL },
-								["groups"] = {
-									i(252195, {	-- Fishstick Keith (PET!)
-										["sourceAchievement"] = 62903,	-- Climate Strange: Val
-										["cost"] = {
-											{ "c", FIELD_ACCOLADE, 30 },
-											{ "i", 238365, 250 },	-- 250x Sin'dorei Swarmer
-										},
-									}),
-									i(275662, {	-- Frosticus Maximus (PET!)
-										["sourceAchievement"] = 63349,	-- Ultradon Carnage
-										["sourceQuest"] = 95395,	-- Until it is Done
-										["cost"] = { { "g", 1000000 } },	-- 100g
-									}),
-									i(275663, {	-- Silento (PET!)
-										["sourceAchievements"] = {
-											62882,	-- Showdown Success: Naigtal
-											62880,	-- Showdown Success: Val
-										},
-										["cost"] = { { "c", VOIDLIGHT_MARL, 1800 } },
-									}),
-									i(274650, {	-- Starmech Cosmic-Collapser (MOUNT!)
-										["sourceAchievement"] = 62874,	-- A Trip Through the Stars
-										["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
-									}),
-									i(260739, {	-- Swamp Dweller's Night Staff (COSMETIC!)
-										["cost"] = {
-											{ "c", FIELD_ACCOLADE, 60 },
-											{ "i", VOIDLIGHT_MARL, 500 },
-										},
-									}),
-									i(275664, {	-- Tortured Gorger (MOUNT!)
-										["sourceAchievement"] = 63264,	-- Heroic Showdowns
-										["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
-									}),
-									i(274649, {	-- Voidmancer's Starcarver (MOUNT!)
-										["sourceAchievement"] = 62873,	-- A Trip Around the Stars
-										["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
-									}),
-									-- Consumables
-									i(274772, {	-- Ethereal Bandage
-										["cost"] = { { "c", FIELD_ACCOLADE, 1 } },
-									}),
-									i(274774, {	-- Frost-Injected Vapor
-										["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
-									}),
-									i(274793, {	-- Mana Barrier Projector
-										["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
-									}),
-									i(274794, {	-- Shockwave Amplifier
-										["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
-									}),
-									i(274775, {	-- Void Hungerer's Vapor
-										["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
-									}),
-									i(276375),	-- Technomancer's Scrying Matrix
-									i(274782, {	-- Tether Severing Vapor
-										["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
-									}),
-								},
 							}),
 						}),
 						n(WORLD_QUESTS, bubbleDownFiltered({	-- Bonus Objectives in this case behave like (repeatable) World Quests
@@ -437,6 +425,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							}),
 							q(96000, {	-- Skiff Joyride
 								["coord"] = { 62.1, 58.5, NAIGTAL },
+							}),
+							q(96650, {	-- Subdue the Spore Storm (Bonus Objective)
+								["coord"] = { 51.6, 58.1, NAIGTAL },
 							}),
 							q(96651, {	-- Subdue the Spore Storm (Bonus Objective)
 								["coord"] = { 32.2, 45.0, NAIGTAL },
@@ -550,7 +541,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(REWARDS, {
 							i(276089),	-- Field Accolades (Normal)
+							i(276090),	-- Field Accolades (Heroic)
 							i(276091),	-- Lost Armaments (Normal)
+							i(276092),	-- Lost Armaments (Heroic)
 							i(276095),	-- Imperator Pertinax (Normal)
 							i(276096),	-- Imperator Pertinax (Heroic)
 						}),

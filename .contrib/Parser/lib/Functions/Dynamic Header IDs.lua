@@ -370,6 +370,7 @@ HeaderAssignments = {
 	["Main Gate"] = -365,
 	["Main Hand"] = -677,
 	["Malevolent Gladiator: Season 12"] = -259,
+	["Manaforge Translocators"] = -754,
 	["Maps"] = -40,
 	["Maraudon Portal"] = -358,
 	["March"] = -326,
@@ -733,4 +734,4 @@ HeaderAssignments = {
 	["Zskera Vaults"] = -403,
 	["Zul'Gurub Hakkar Hardmode"] = -697,
 };
-NextHeaderID = -754;
+NextHeaderID = -755;

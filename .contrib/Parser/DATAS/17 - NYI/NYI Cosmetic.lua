@@ -1054,15 +1054,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				------ Void-Touched Winter Set ------
 				i(249763),	-- Ensemble: Void-Touched Winter Collection
 				q(92098),	-- Ensemble: Void-Touched Winter Collection
-				i(249758),	-- Void-Touched Winter Belt
-				i(249760),	-- Void-Touched Winter Boots
-				i(249762),	-- Void-Touched Winter Cloak
-				i(249761),	-- Void-Touched Winter Gloves
-				i(249755),	-- Void-Touched Winter Hood
-				i(249759),	-- Void-Touched Winter Leggings
-				i(249756),	-- Void-Touched Winter Pauldrons
-				i(249864),	-- Void-Touched Winter Spaulders
-				i(249757),	-- Void-Touched Winter Tunic
 
 				------ The Seafarer's Winter Set ------
 				i(249745),	-- Ensemble: The Seafarer's Winter Collection
