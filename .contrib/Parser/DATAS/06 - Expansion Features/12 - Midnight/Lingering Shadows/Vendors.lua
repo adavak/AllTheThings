@@ -693,6 +693,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				}),
 				n(265559, {	-- Kifaan <The Consortium>
 					["coord"] = { 47.7, 81.2, NAIGTAL },
+					["timeline"] = { ADDED_12_0_7 },
 					["groups"] = {
 						i(278026, {	-- Bulging Ethereal Pack
 							["cost"] = { { "c", FIELD_ACCOLADE, 250 } },
@@ -780,6 +781,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				}),
 				--n(266234, {	-- Kifaan <The Consortium>
 				--	["coord"] = { 59.8, 19.6, VAL },
+				--	["timeline"] = { ADDED_12_0_7 },
 				--	@DARKAL I need a symlinik here to mirror NPC 265559
 				--}),
 				n(265581, {	-- Zuronar <Lightveil Artificer>

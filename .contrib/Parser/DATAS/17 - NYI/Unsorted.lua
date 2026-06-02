@@ -497,7 +497,6 @@ root(ROOTS.Unsorted, {
 				i(267278),	-- Angler Pearls
 				i(271353),	-- Collection of Valuables
 				i(272111),	-- Decaying Necromancer Cloak
-				i(272114),	-- Discarded Excavation Tool
 				i(268122),	-- Dispelled Coins
 				i(264162),	-- Enchanted Snowflake [PH]
 				i(272400),	-- Fine Lynx Fur
