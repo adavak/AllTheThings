@@ -188,15 +188,11 @@ app.CreateCharacterClass = app.CreateClassWithInfo("CharacterClass", "classID", 
 	["ignoreSourceLookup"] = app.ReturnTrue,
 });
 local function CacheCharacterDataFromATTCache(_t, unit)
-	local realm = GetRealmName()
 	for guid,character in pairs(CharacterData) do
 		if guid == unit or character.name == unit then
 			_t.guid = character.guid;
-			if character.realm ~= realm then
-				_t.name = ("%s - %s"):format(character.name or UNKNOWN, character.realm or UNKNOWN)
-			else
-				_t.name = character.name or UNKNOWN;
-			end
+			_t.name = character.name
+			_t.realm = character.realm
 			if character.classID then
 				_t.classID = character.classID;
 				_t.icon = ClassInfoByID[character.classID].icon
@@ -216,7 +212,7 @@ local function CacheCharacterDataFromATTCache(_t, unit)
 	end
 end
 local function CacheCharacterDataFromAPIs(_t, unit)
-	local name, guid, className, classFile, classID, raceName, raceFile, raceID;
+	local name, realm, guid, className, classFile, classID, raceName, raceFile, raceID;
 	local _,_,s3 = ("-"):split(unit)
 	if s3 then
 		-- It's a GUID.
@@ -224,7 +220,7 @@ local function CacheCharacterDataFromAPIs(_t, unit)
 		className, classFile, raceName, raceFile, raceID, name = GetPlayerInfoByGUID(guid);
 		if classFile then classID = ClassInfoByClassFile[classFile].classID; end
 	else
-		name = UnitName(unit);
+		name, realm = UnitFullName(unit)
 		if name then
 			guid = UnitGUID(unit);
 			if guid and app.WOWAPI.issecretvalue(guid) then guid = nil; end
@@ -236,6 +232,7 @@ local function CacheCharacterDataFromAPIs(_t, unit)
 	end
 	if name then
 		_t.name = name;
+		_t.realm = realm
 		_t.guid = guid;
 		if raceID then
 			_t.raceID = raceID;
@@ -271,8 +268,9 @@ local UnitFields = {
 	end,
 	["classText"] = function(t)
 		local classFile = t.classFile;
-		if classFile then return "|c" .. RAID_CLASS_COLORS[classFile].colorStr .. t.name .. "|r"; end
-		return t.name or RETRIEVING_DATA;
+		local fullName = (t.name or UNKNOWN) .. " - " .. (t.realm or UNKNOWN)
+		if classFile then return "|c" .. RAID_CLASS_COLORS[classFile].colorStr .. fullName .. "|r"; end
+		return fullName
 	end,
 	["tooltipText"] = function(t)
 		local text = t.text;
@@ -285,7 +283,7 @@ local UnitFields = {
 	isMinilistHeader = app.ReturnTrue,
 }
 -- Assign Cache-Info Fields
-for _,field in ipairs({ "name", "icon", "guid", "race", "raceID", "className", "classFile", "classID" }) do
+for _,field in ipairs({ "name", "realm", "icon", "guid", "race", "raceID", "className", "classFile", "classID" }) do
 	UnitFields[field] =	function(t)
 		return cache.GetCachedField(t, field, CacheInfo)
 	end
