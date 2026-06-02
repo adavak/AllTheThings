@@ -1284,7 +1284,8 @@ local AWQuestLockers = setmetatable({
 		if ach and ach.accountWide then return true end
 	end,
 	questID = function(id)
-		return app.AccountWideQuestsDB[id]
+		-- quest itself is AccountWide, or Once per Account, so anything it locks will be locked account-wide
+		return app.AccountWideQuestsDB[id] or OneTimeQuests[id]
 	end,
 }, { __index = function(t,key) return app.ReturnFalse end})
 local function IsGroupLocked(t)
