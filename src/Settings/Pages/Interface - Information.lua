@@ -29,7 +29,7 @@ local DefaultConversionMethod = function(value)
 end
 -- Handles checking the 'text' and assigning 'reference.working' if the text is in a 'retrieving' state
 local function IsRetrievingConversionMethod(text, reference)
-	if IsRetrieving(text) then
+	if IsRetrieving(text, true) then
 		reference.working = true
 		text = RETRIEVING_DATA
 	end
