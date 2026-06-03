@@ -1417,8 +1417,13 @@ app.ProcessInformationTypes = function(tooltipInfo, reference)
 end
 app.ProcessInformationTypesForExternalTooltips = function(tooltipInfo, reference)
 	-- app.PrintDebug("PITFET",#tooltipInfo,app.ActiveRowReference and true)
+	-- local workingChanged
 	for _,informationType in ipairs(app.ActiveRowReference and ActiveInformationTypes or ActiveInformationTypesForExternalTooltips) do
 		informationType:Process(reference, tooltipInfo);
+		-- if not workingChanged and reference.working then
+		-- 	app.PrintDebug("PITFET.working.set",informationType.textLower)
+		-- 	workingChanged = true
+		-- end
 	end
 	-- app.PrintDebug("PITFET.Done",#tooltipInfo)
 end
