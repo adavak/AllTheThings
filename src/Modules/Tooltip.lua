@@ -729,17 +729,18 @@ local function ClearTooltip(tooltip)
 	tooltip.AllTheThingsProcessing = nil;
 	tooltip.ATT_AttachComplete = nil;
 end
-local function ReshowGametooltip()
-	if GameTooltip and GameTooltip:IsVisible() then
-		-- app.PrintDebug("Auto-refresh tooltip",GameTooltip.AllTheThingsProcessing)
+local function ReshowGametooltip(tt)
+	tt = tt or GameTooltip
+	-- app.PrintDebug("Auto-refresh tooltip",SafeGetName(tt),tt.AllTheThingsProcessing,tt:IsVisible())
+	if tt and tt:IsVisible() then
 		-- Make sure the tooltip will try to re-attach the data if it's from an ATT row
 		---@diagnostic disable-next-line: inject-field
-		GameTooltip.ATT_AttachComplete = nil
-		GameTooltip:Show()
+		tt.ATT_AttachComplete = nil
+		tt:Show()
 	end
 end
-app.ReshowGametooltip = function()
-	Callback(ReshowGametooltip)
+app.ReshowGametooltip = function(tt)
+	Callback(ReshowGametooltip, tt)
 end
 app.AddEventHandler("OnRefreshComplete", function()
 	Callback(ReshowGametooltip)
@@ -1137,7 +1138,7 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 					if knownSearchField == "currencyID" then
 						app.CallbackHandlers.DelayedCallback(RerenderCurrency, 0.05, self, ttId)
 					else
-						app.ReshowGametooltip()
+						app.ReshowGametooltip(self)
 					end
 				end
 				return true;
