@@ -732,7 +732,7 @@ end
 local function ReshowGametooltip(tt)
 	tt = tt or GameTooltip
 	-- app.PrintDebug("Auto-refresh tooltip",SafeGetName(tt),tt.AllTheThingsProcessing,tt:IsVisible())
-	if tt and tt:IsVisible() then
+	if tt and tt.AllTheThingsProcessing and tt:IsVisible() then
 		-- Make sure the tooltip will try to re-attach the data if it's from an ATT row
 		---@diagnostic disable-next-line: inject-field
 		tt.ATT_AttachComplete = nil
@@ -808,7 +808,7 @@ local function AttachTooltipSearchResults(tooltip, method, ...)
 		app.PrintDebug("pcall tooltip failed",group)
 	end
 	tooltip.ATT_AttachComplete = not (working or (group and group.working));
-	-- app.PrintDebug("ATT_AttachComplete",group.hash,tooltip.ATT_AttachComplete,working,group.working)
+	-- app.PrintDebug("AttachTooltipSearchResults.Complete",app:SearchLink(group),tooltip.ATT_AttachComplete,working,group.working)
 end
 
 local AttachTypicalSearchResults
@@ -946,7 +946,7 @@ if TooltipDataProcessor and app.GameBuildVersion > 60000 then
 			end
 			ttId = ttdata.id;
 			-- Debugging without ATT exclusions
-			-- app.PrintDebug("TT",SafeGetName(self),ttType,ttId,ok,res)
+			-- app.PrintDebug("TT",SafeGetName(self),ttType,ttId)
 			-- app.PrintTable(ttdata)
 			if IgnoredTypes[ttType] then
 				return true
