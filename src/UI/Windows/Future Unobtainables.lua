@@ -1,20 +1,13 @@
 -- App locals
 local _, app = ...;
 local L = app.L;
-local tinsert, math_floor
-	= tinsert, math.floor;
+local math_floor
+	= math.floor;
 local Colorize = app.Modules.Color.Colorize;
 
 -- Local functions
 local DefaultRWP = ((math.ceil(app.GameBuildVersion / 10000) + 1) * 10000) - 1;
 local ExcludeNonCollectibles, MaximumRWP;
--- local function FutureUnobtainablePatchFilter(group)
--- 	local rwp = group.rwp
--- 	if not rwp then return end
--- 	if rwp < MaximumRWP and rwp > MinRWP and (not ExcludeNonCollectibles or group.collectible) then
--- 		return true;
--- 	end
--- end
 local function GetPatchString(patch)
 	patch = tonumber(patch)
 	return patch and (math_floor(patch / 10000) .. "." .. (math_floor(patch / 100) % 100) .. "." .. (patch % 10))
@@ -87,9 +80,16 @@ local SearchInfo = {
 				if not rwp then return end
 				return rwp >= value and rwp <= MaximumRWP
 			end
-		}
+		},
+		__RecursiveFilterCriteria = {
+			-- Exclusion of 'Things' which are non-collectible
+			function(o) return o.g or o.collectible end
+		},
 	},
 }
+local function UpdateRecursiveFilterCriteria()
+	SearchInfo.searchcriteria.RecursiveFilterCriteria = ExcludeNonCollectibles and SearchInfo.searchcriteria.__RecursiveFilterCriteria or nil
+end
 
 -- Implementation
 app:CreateWindow("Future Unobtainables", {
@@ -106,6 +106,7 @@ app:CreateWindow("Future Unobtainables", {
 	OnLoad = function(self, settings)
 		ExcludeNonCollectibles = settings.ExcludeNonCollectibles;
 		if ExcludeNonCollectibles == nil then ExcludeNonCollectibles = true; end
+		UpdateRecursiveFilterCriteria()
 		MaximumRWP = settings.MaximumRWP;
 		if not MaximumRWP or DefaultRWP > MaximumRWP then
 			MaximumRWP = DefaultRWP;
@@ -125,6 +126,7 @@ app:CreateWindow("Future Unobtainables", {
 				SortPriority = -1.1,
 				OnClick = function(row, button)
 					ExcludeNonCollectibles = not ExcludeNonCollectibles;
+					UpdateRecursiveFilterCriteria()
 					wipe(self.data.g);
 					self:Rebuild();
 					return true;
