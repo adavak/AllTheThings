@@ -135,6 +135,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
 													o(357238, {	-- Forgotten Chest
+														["coord"] = { 31.8, 48.4, REVENDRETH },
 														["questID"] = 61838,
 														["isDaily"] = true,
 													}),
@@ -266,7 +267,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
 													o(357234, {	-- Forgotten Chest
-														["questID"] = 61828,
+														["coord"] = { 31.8, 47.1, REVENDRETH },
+														["questID"] = 61828,	-- 61834 on 02-June-2026
 														["isDaily"] = true,
 													}),
 												},

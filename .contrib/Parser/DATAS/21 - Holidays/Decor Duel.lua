@@ -227,9 +227,9 @@ root(ROOTS.Holidays,
 );
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
-		n(DECOR_DUEL, {
+	expansion(EXPANSION.MID, {
+		n(DECOR_DUEL, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
 			q(93914),	-- Triggered after interracting with Gamesmaster Fleurian during 'Edification of the Worthy' (93907)
-		}),
-	})),
+		})),
+	}),
 });
