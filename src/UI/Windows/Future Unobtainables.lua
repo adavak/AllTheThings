@@ -8,11 +8,13 @@ local Colorize = app.Modules.Color.Colorize;
 -- Local functions
 local DefaultRWP = ((math.ceil(app.GameBuildVersion / 10000) + 1) * 10000) - 1;
 local ExcludeNonCollectibles, MaximumRWP;
-function RemovedWithPatchFilter(group)
-	if group.rwp and group.rwp < MaximumRWP and (not ExcludeNonCollectibles or group.collectible) then
-		return true;
-	end
-end
+-- local function FutureUnobtainablePatchFilter(group)
+-- 	local rwp = group.rwp
+-- 	if not rwp then return end
+-- 	if rwp < MaximumRWP and rwp > MinRWP and (not ExcludeNonCollectibles or group.collectible) then
+-- 		return true;
+-- 	end
+-- end
 local function GetPatchString(patch)
 	patch = tonumber(patch)
 	return patch and (math_floor(patch / 10000) .. "." .. (math_floor(patch / 100) % 100) .. "." .. (patch % 10))
@@ -72,6 +74,22 @@ local function ParseCommand(self, cmd)
 	end
 end
 
+-- Search Info
+local SearchInfo = {
+	field = "rwp",
+	value = app.GameBuildVersion,
+	drops = {},
+	searchcriteria = {
+		SearchValueCriteria = {
+			-- only include 'rwp' search results where the value is >= the current game version
+			function(o,field,value)
+				local rwp = o[field]
+				if not rwp then return end
+				return rwp >= value and rwp <= MaximumRWP
+			end
+		}
+	},
+}
 
 -- Implementation
 app:CreateWindow("Future Unobtainables", {
@@ -104,6 +122,7 @@ app:CreateWindow("Future Unobtainables", {
 				description = "Press this button to toggle excluding non-collectible items such as Thrown weapons and Relic items.",
 				visible = true,
 				priority = 6,
+				SortPriority = -1.1,
 				OnClick = function(row, button)
 					ExcludeNonCollectibles = not ExcludeNonCollectibles;
 					wipe(self.data.g);
@@ -120,6 +139,7 @@ app:CreateWindow("Future Unobtainables", {
 				description = "Press this button to change the maximum removed with patch value.\n\nChanging this value will filter out items that get removed after the given patch.",
 				visible = true,
 				priority = 6,
+				SortPriority = -1,
 				OnClick = function(row, button)
 					app:ShowPopupDialogWithEditBox("Please enter a new maximum RWP", MaximumRWP, function(cmd)
 						ParseCommand(self, cmd);
@@ -143,18 +163,21 @@ app:CreateWindow("Future Unobtainables", {
 			OnUpdate = function(t)
 				local g = t.g;
 				if #g < 1 then
-					for i,option in ipairs(options) do
-						option.parent = data;
-						tinsert(g, option);
-					end
-					local results = app:BuildSearchFilteredResponse(app:GetDatabaseRoot().g, RemovedWithPatchFilter);
-					if results and #results > 0 then
-						for i,result in ipairs(results) do
-							tinsert(g, result);
+					app.NestObjects(t, options);
+					local results = app:BuildSearchResponseRetailStyle(SearchInfo.field, SearchInfo.value, SearchInfo.drops, SearchInfo.searchcriteria)
+					app.NestObjects(t, results);
+					t.SortType = "Global";
+					-- sort children of top level groups
+					for i = 1, #g do
+						local child = g[i]
+						if child.g then
+							child.SortType = "expansion"
 						end
-						tinsert(g, self.SearchAPI.BuildDynamicCategorySummaryForSearchResults(results));
-						self:AssignChildren();
 					end
+					-- don't fill into groups if they are popped out
+					t.skipFull = true
+					app.NestObject(t, self.SearchAPI.BuildDynamicCategorySummaryForSearchResults(results));
+					self:AssignChildren();
 				end
 			end,
 		}));

@@ -3407,6 +3407,7 @@ api.BuildDynamicCategorySummaryForSearchResults = function(searchResults)
 		OnUpdate = OnUpdateForDynamicCategoryHeader,
 		sourceIgnored = true,
 		SortType = "text",
+		SortPriority = 99,	-- always appear at the end of a group if sorted
 		g = g
 	});
 
