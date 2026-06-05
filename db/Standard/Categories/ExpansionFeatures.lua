@@ -16020,7 +16020,8 @@ q(44370,{c={2},coords={
 [24]={{49.8,72.4}}},lvl=10,qgs={90259},sourceQuests={42120}}),
 cl(2.065,{
 q(42231,{c={2},coords={
-[24]={{49.8,72.4}}},lvl=10,qgs={90259},sourceQuests={40408,44063,44370},sqreq=1}),
+[24]={{49.8,72.4}},
+[627]={{74.8,47.4}}},lvl=10,qgs={90259,90369},sourceQuests={40408,44063,44370},sqreq=1}),
 q(42120,{c={2},coords={
 [627]={{72,49.3}}},lvl=10,qgs={106337},sourceQuests={42377},g={
 o(249824,{c={2},coords={
@@ -24643,11 +24644,11 @@ i(159847,{coords={
 [942]={{44.59,55.49},{50.82,33.46},{58.58,70.31}},
 [1161]={{72.61,68.41},{75.37,14.48}}},crs={123639,126600,129159,133214,134968,135525,136465,136468,136479,137040,137455,138221,138905},f=55,lvl=25,spellID=11008}),
 i(162560,{coords={
-[1161]={{52.78,17.27},{53.09,16.67},{53.18,16.48},{54.41,16.43},{54.55,16.81},{54.71,16.29},{54.99,43.63},{55.44,15.44},{69.26,29.82}}},crs={134729,140640,142189,142759,142760,142764,142767,142770,142775},f=55,lvl=25,spellID=11008}),
+[1161]={{52.78,17.27},{53.09,16.67},{53.18,16.48},{54.41,16.43},{54.55,16.81},{54.71,16.29},{54.99,43.63},{55.44,15.44},{69.26,29.82}}},crs={134729,140640,142189,142759,142760,142764,142767,142770,142775,148048},f=55,lvl=25,spellID=11008}),
 i(163018,{coords={
 [895]={{49.77,25.13}},
 [1161]={{52.78,17.27},{53.09,16.67},{53.18,16.48},{53.99,75.22},{54.41,16.43},{54.55,16.81},{54.71,16.29},{55.44,15.44},{73.27,16.02},{75.37,14.48}},
-[1165]={{35.42,16.66}}},crs={123639,126601,131781,139113,140640,142759,142760,142764,142767,142770,142775,143244},f=55,lvl=25,spellID=11008}),
+[1165]={{35.42,16.66}}},crs={123639,126601,131781,139113,140640,142759,142760,142764,142767,142770,142775,143244,148048},f=55,lvl=25,spellID=11008}),
 i(163651,{coords={
 [896]={{21.04,66.14}}},crs={139638},f=55,lvl=35,spellID=11008}),
 i(163094,{coords={
@@ -24655,7 +24656,7 @@ i(163094,{coords={
 [1161]={{52.78,17.27},{53.09,16.67},{53.18,16.48},{54.41,16.43},{54.55,16.81},{54.71,16.29},{54.99,43.63},{55.44,15.44},{69.26,29.82}}},crs={134729,139638,140640,142189,142759,142760,142764,142767,142770,142775},f=55,lvl=25,spellID=11008}),
 i(163549,{coords={
 [896]={{21.51,43.59}},
-[1161]={{47.61,47.36},{74.25,17.76}}},crs={137040,137411,142188},f=55,lvl=35,spellID=11009}),
+[1161]={{47.61,47.36},{74.25,17.76}}},crs={137040,137411,142188,148048},f=55,lvl=35,spellID=11009}),
 i(163098,{coords={
 [895]={{49.77,25.13}},
 [896]={{21.04,66.14}},
@@ -41607,21 +41608,21 @@ s(306292,270982,{f=20}),
 s(306290,270980,{f=27})})}),
 cu(3405),
 i(267051),
-i(270933,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
+i(270933,{f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270244,{f=55}),
-i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
+i(270247,{f=55,spellID=1289083,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"pop"}}}),
 i(270932,{f=55,sym={{"select","itemID",270990,270988}}}),
-i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
-i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}),
+i(271222,{description="Earned with characters under level 90.",f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","filterID",2},{"finalize"},{"select","headerID",-741},{"pop"},{"select","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270934,{description="Earned with characters under level 90.",f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(270987,{description="Earned with characters under level 90.",f=55,spellID=1289083,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}}),
+i(271221,{description="Earned with characters under level 90.",f=55,sym={{"select","itemID",270990},{"finalize"},{"select","itemID",270988},{"finalize"},{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}),
 h(-45,{
 q(94380,{coords={
 [2393]={{49.4,65.5}}},isBreadcrumb=1,nextQuests={96080},qgs={257459}}),
 q(96080,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},sourceQuests={94380},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 q(94381,{coords={
 [2393]={{48.1,49.7}}},qgs={257411},sourceQuests={96080}}),
 q(94383,{coords={
@@ -41629,11 +41630,11 @@ q(94383,{coords={
 q(94385,{coords={
 [2393]={{48.1,49.7}}},isWeekly=1,qgs={257411},sourceQuests={94381},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 q(94386,{coords={
 [2393]={{48.1,49.9}}},isWeekly=1,qgs={257415},sourceQuests={94381},g={
 i(264914,{f=55}),
-i(272125,{f=55,sym={{"select","expansionID",12},{"pop"},{"where","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
+i(272125,{f=55,sym={{"select","headerID",-741},{"pop"},{"where","headerID",-29},{"pop"},{"where","headerID",-712},{"pop"}}})}}),
 ah(62569,{type="a",g={
 q(94920,{providers={{"i",266448}},g={
 crit(113766,{achID=62569,id=2})}}),
