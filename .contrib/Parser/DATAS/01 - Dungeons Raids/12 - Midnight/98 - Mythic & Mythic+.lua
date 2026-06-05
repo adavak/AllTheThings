@@ -64,28 +64,44 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				spell(159898),	-- Path of the Skies
 			}),
 			ach(61591, {	-- Keystone Victor: Algeth'ar Academy
-				title(682),	-- <Name>, Top Student
+				title(682, {	-- <Name>, Top Student
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61587, {	-- Keystone Victor: Magisters' Terrace (Midnight)
-				title(687),	-- Terrace Terror <Name>
+				title(687, {	-- Terrace Terror <Name>
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61588, {	-- Keystone Victor: Maisara Caverns
-				title(686),	-- Maisaran Soultender <Name>
+				title(686, {	-- Maisaran Soultender <Name>
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61589, {	-- Keystone Victor: Nexus-Point Xenas
-				title(685),	-- <Name>, Nexus Navigator
+				title(685, {	-- <Name>, Nexus Navigator
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61592, {	-- Keystone Victor: Pit of Saron
-				title(681),	-- Scourgebane <Name>
+				title(681, {	-- Scourgebane <Name>
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61593, {	-- Keystone Victor: Seat of the Triumvirate
-				title(683),	-- Despair Defier <Name>
+				title(683, {	-- Despair Defier <Name>
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61594, {	-- Keystone Victor: Skyreach
-				title(294),	-- <Name>, Scion of Rukhmar
+				title(294, {	-- <Name>, Scion of Rukhmar
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			ach(61590, {	-- Keystone Victor: Windrunner Spire
-				title(684),	-- Windrunner Mediator <Name>
+				title(684, {	-- Windrunner Mediator <Name>
+					["collectible"] = false,	-- Only for 1 week
+				}),
 			}),
 			-- Using ["_noautomation"] for all to reduce numbers a bit.
 			-- Have to see what Blizzard does with those kind of achievements	-- Goldenshacal October 2025
