@@ -71,7 +71,7 @@ end
 local SearchInfo = {
 	field = "rwp",
 	value = app.GameBuildVersion,
-	drops = {},
+	-- drops = {},
 	searchcriteria = {
 		SearchValueCriteria = {
 			-- only include 'rwp' search results where the value is >= the current game version
