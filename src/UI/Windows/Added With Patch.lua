@@ -28,12 +28,12 @@ local ExpansionKeywords = {
 	mid = { 12, 13 },
 	tlt = { 13, 14 },
 };
-function AddedWithPatchFilter(group)
+local function AddedWithPatchFilter(group)
 	if group.awp and group.awp == MinPatch then
 		return true;
 	end
 end
-function AddedWithPatchFilterMinMax(group)
+local function AddedWithPatchFilterMinMax(group)
 	if group.awp and group.awp >= MinPatch and group.awp < MaxPatch then
 		FilteredPatches[group.awp] = 1;
 		return true;
@@ -57,7 +57,7 @@ local function ParsePatch(cmd)
 			patch = patch + (tonumber(minor) * 100);
 			patch = patch + (tonumber(major) * 10000);
 		else
-			patch = tonumber(major);
+			patch = tonumber(major) * 10000;
 		end
 		if patch and patch > 0 then
 			while patch < 10000 do patch = patch * 10; end
@@ -165,10 +165,7 @@ app:CreateWindow("Added With Patch", {
 			OnUpdate = function(t)
 				local g = t.g;
 				if #g < 1 then
-					for i,option in ipairs(options) do
-						option.parent = data;
-						tinsert(g, option);
-					end
+					app.NestObjects(t, options)
 					wipe(FilteredPatches);
 					local results = app:BuildSearchFilteredResponse(app:GetDatabaseRoot().g, MaxPatch and AddedWithPatchFilterMinMax or AddedWithPatchFilter);
 					if results and #results > 0 then
@@ -196,8 +193,8 @@ app:CreateWindow("Added With Patch", {
 							end
 						end
 						tinsert(g, self.SearchAPI.BuildDynamicCategorySummaryForSearchResults(results));
-						self:AssignChildren();
 					end
+					self:AssignChildren();
 				end
 			end,
 		}));

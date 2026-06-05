@@ -4,10 +4,9 @@ local tinsert = tinsert;
 local L = app.L;
 
 -- Search Info
-local NewPatch = app.GameBuildVersion
 local SearchInfo = {
 	field = "awp",
-	value = NewPatch,
+	value = app.GameBuildVersion,
 	-- drops = {},
 	-- searchcriteria = {},
 }
