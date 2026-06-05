@@ -480,7 +480,7 @@ local function RunRecursiveFilterCriteria(groups)
 	for i=#groups,1,-1 do
 		group = groups[i]
 		if not Eval_RecursiveFilterCriteria(group) then
-			app.PrintDebug("RFC.--",app:SearchLink(group))
+			-- app.PrintDebug("RFC.--",app:SearchLink(group))
 			tremove(groups, i)
 		else
 			RunRecursiveFilterCriteria(group.g)
