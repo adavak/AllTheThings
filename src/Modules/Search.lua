@@ -10,8 +10,8 @@ local _, app = ...;
 -- Miscellaneous
 
 -- Global locals
-local floor, 	  type, tonumber,pairs,wipe
-	= math.floor, type, tonumber,pairs,wipe
+local floor, 	  type, tonumber,pairs,wipe,tremove
+	= math.floor, type, tonumber,pairs,wipe,tremove
 
 -- App locals
 local SearchForObject, GetRelativeRawWithField
@@ -321,7 +321,10 @@ local __ParentInclusionCriteria = {
 	end
 }
 local ParentInclusionCriteria = {}
-local Eval_SearchCriteria,Eval_SearchValueCriteria,Eval_ParentInclusionCriteria
+-- A set of Filter functions which are evaluated against the final result hierarchy to determine any final individual group exclusions
+local __RecursiveFilterCriteria = {}
+local RecursiveFilterCriteria = {}
+local Eval_SearchCriteria,Eval_SearchValueCriteria,Eval_ParentInclusionCriteria,Eval_RecursiveFilterCriteria
 local function __Eval_SearchCriteria(o)
 	for i=1,#SearchCriteria do
 		if not SearchCriteria[i](o) then return end
@@ -340,10 +343,17 @@ local function __Eval_ParentInclusionCriteria(o)
 	end
 	return true
 end
+local function __Eval_RecursiveFilterCriteria(o)
+	for i=1,#RecursiveFilterCriteria do
+		if not RecursiveFilterCriteria[i](o) then return end
+	end
+	return true
+end
 local function ResetCriterias(criteria)
 	wipe(SearchCriteria)
 	wipe(SearchValueCriteria)
 	wipe(ParentInclusionCriteria)
+	wipe(RecursiveFilterCriteria)
 	local sc = criteria and criteria.SearchCriteria or __SearchCriteria
 	for i=1,#sc do
 		SearchCriteria[#SearchCriteria + 1] = sc[i]
@@ -356,9 +366,14 @@ local function ResetCriterias(criteria)
 	for i=1,#pic do
 		ParentInclusionCriteria[#ParentInclusionCriteria + 1] = pic[i]
 	end
+	local rfc = criteria and criteria.RecursiveFilterCriteria or __RecursiveFilterCriteria
+	for i=1,#rfc do
+		RecursiveFilterCriteria[#RecursiveFilterCriteria + 1] = rfc[i]
+	end
 	Eval_SearchCriteria = #SearchCriteria > 0 and __Eval_SearchCriteria or app.ReturnTrue
 	Eval_SearchValueCriteria = #SearchValueCriteria > 0 and __Eval_SearchValueCriteria or app.ReturnTrue
 	Eval_ParentInclusionCriteria = #ParentInclusionCriteria > 0 and __Eval_ParentInclusionCriteria or app.ReturnTrue
+	Eval_RecursiveFilterCriteria = #RecursiveFilterCriteria > 0 and __Eval_RecursiveFilterCriteria or app.ReturnTrue
 end
 -- Wraps a given object such that it can act as an unfiltered Header of the base group
 local function CloneGroupIntoHeirarchy(group)
@@ -458,6 +473,20 @@ local function AddSearchGroupsByFieldValue(groups, field, value)
 		end
 	end
 end
+-- Recursively filter through all groups in the ClonedHierarchyGroups using the current RecursiveFilterCriteria
+local function RunRecursiveFilterCriteria(groups)
+	if not groups or #groups == 0 then return end
+	local group
+	for i=#groups,1,-1 do
+		group = groups[i]
+		if not Eval_RecursiveFilterCriteria(group) then
+			app.PrintDebug("RFC.--",app:SearchLink(group))
+			tremove(groups, i)
+		else
+			RunRecursiveFilterCriteria(group.g)
+		end
+	end
+end
 -- Builds ClonedHierarchyGroups from the cached container using groups which match a particular key and value
 local function BuildSearchResponseViaCacheContainer(cacheContainer, value)
 	-- app.PrintDebug("BSR:Cached",value)
@@ -525,6 +554,10 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 		-- TODO: potentially do a first pass ignore of top-level groups to exclude entire categories
 		AddSearchGroupsByField(groups, field);
 		BuildClonedHierarchy(SearchGroups);
+	end
+	-- Perform a final filtering pass if necessary
+	if Eval_RecursiveFilterCriteria ~= app.ReturnTrue then
+		RunRecursiveFilterCriteria(ClonedHierarchyGroups)
 	end
 	return ClonedHierarchyGroups;
 end
