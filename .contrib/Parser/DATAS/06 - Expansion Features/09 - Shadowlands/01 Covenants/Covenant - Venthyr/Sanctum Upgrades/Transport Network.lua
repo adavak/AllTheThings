@@ -154,6 +154,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["groups"] = {
 													o(357230, {	-- Forgotten Chest
 														["questID"] = 61830,
+														["coord"] = { 30.9, 47.0, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
@@ -166,6 +167,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["groups"] = {
 													o(357231, {	-- Forgotten Chest
 														["questID"] = 61831,
+														["coord"] = { 31.8, 46.9, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
@@ -179,6 +181,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["groups"] = {
 													o(357232, {	-- Forgotten Chest
 														["questID"] = 61832,
+														["coord"] = { 31.8, 48.3, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
