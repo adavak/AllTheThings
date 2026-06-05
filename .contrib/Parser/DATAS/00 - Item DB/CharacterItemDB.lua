@@ -1023,7 +1023,6 @@ iq(264895, 87421, HUNTER);			-- Trials of the Florafaun Hunter
 ihqt(250922, 92371);				-- Whisper of the Loa: Leatherworking
 ihqt(250924, 92372);				-- Whisper of the Loa: Mining
 ihqt(250923, 92373);				-- Whisper of the Loa: Skinning
-is(262796, 1269474);				-- Midnight Angler's Grand Line
 
 ------------------
 -- PATCH 12.0.5 --
