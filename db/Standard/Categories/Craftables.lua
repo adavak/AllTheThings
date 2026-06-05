@@ -18018,7 +18018,7 @@ r(1225279,{questID=88616,requireSkill=356,skillID=2911}),
 r(1225282,{questID=88608,requireSkill=356,skillID=2911}),
 r(1225335,{learnedAt=75,requireSkill=356,skillID=2911})}),
 ah(262796,{type="i",g={
-cs(1269474,{cost={{"i",262800,1},{"i",262795,1}},itemID=262796}),
+i(262796,{cost={{"i",262800,1},{"i",262795,1}},f=55,spellID=1269474}),
 i(262795,{cost={{"i",262794,5}},f=55,spellID=1269472}),
 i(262800,{cost={{"i",262799,20}},f=55,spellID=1269472}),
 i(262794,{cost={{"i",262793,20}},f=55,spellID=1269455}),

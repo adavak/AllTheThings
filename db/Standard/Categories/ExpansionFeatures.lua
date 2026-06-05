@@ -30523,13 +30523,16 @@ o(357238,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61838})}})}}),
 h(-179,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 3|r",g={
 h(-450,{coords={
 [1525]={{73.1,44.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the right.",isDaily=1,questID=61817,g={
-o(357230,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61830})}}),
+o(357230,{coords={
+[1525]={{30.9,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61830})}}),
 h(-451,{coords={
 [1525]={{40.3,77.1}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61821,g={
-o(357231,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61831})}}),
+o(357231,{coords={
+[1525]={{31.8,46.9}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61831})}}),
 h(-452,{coords={
 [1525]={{77.2,65.4}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Inside a house near the top of the elevator. There are elite mobs in the area.",isDaily=1,questID=61825,g={
-o(357232,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61832})}})}}),
+o(357232,{coords={
+[1525]={{31.8,48.3}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61832})}})}}),
 h(-180,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 1|r",g={
 h(-453,{coords={
 [1525]={{27.1,21.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Not up on the ramparts, but at the bottom level inside a crumbled wall. There is an elite spider in the room.",isDaily=1,questID=61826,g={
