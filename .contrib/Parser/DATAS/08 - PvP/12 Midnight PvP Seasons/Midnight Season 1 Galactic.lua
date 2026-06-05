@@ -28,14 +28,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 					["races"] = HORDE_ONLY,
 				}),
 			}),
-			ach(61197, {	-- Elite: Midnight Season 1
-				i(264164, {	-- Galactic Gladiator's Tabard
-					["races"] = ALLIANCE_ONLY,
-				}),
-				i(260441, {	-- Galactic Gladiator's Tabard
-					["races"] = HORDE_ONLY,
-				}),
-			}),
+			ach(61197),	-- Elite: Midnight Season 1
 			ach(61180, {	-- Galactic Gladiator: Midnight Season 1
 				title(654),	-- Galactic Gladiator <Name>
 			}),
@@ -920,8 +913,13 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { A
 			n(255844, {	-- Soryn <Elite Conquest Quartermaster>
 				["coord"] = { 34.0, 80.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
-				honor(100, i(260441, {	-- Galactic Gladiator's Tabard
-						["sourceAchievements"] = { 41027 },	-- Elite: Midnight Season 1
+					honor(100, i(260441, {	-- Galactic Gladiator's Tabard
+						["races"] = HORDE_ONLY,
+						["sourceAchievements"] = { 61197 },	-- Elite: Midnight Season 1
+					})),
+					honor(100, i(264164, {	-- Galactic Gladiator's Tabard
+						["races"] = ALLIANCE_ONLY,
+						["sourceAchievements"] = { 61197 },	-- Elite: Midnight Season 1
 					})),
 					moh(10, i(265630)),	-- Galactic Gladiator's Battlestaff
 					moh(10, i(265625)),	-- Galactic Gladiator's Blaster
