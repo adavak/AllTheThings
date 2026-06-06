@@ -97,7 +97,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			}),
 			n(201557,	-- Graniteclaw
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {
-				["coord"] = { 57.9, 65.5, THE_AZURE_SPAN },
+				["coord"] = { 57.9, 68.5, THE_AZURE_SPAN },
 				["questID"] = 74532,
 				["groups"] = {
 					bo(74459, true),
