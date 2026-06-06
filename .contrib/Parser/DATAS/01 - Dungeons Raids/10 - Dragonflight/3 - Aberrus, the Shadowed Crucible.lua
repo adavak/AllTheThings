@@ -809,7 +809,7 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 						i(204465),	-- Voice of the Silent Star
 					}),
 				}),
-			}),-
+			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(KAZZARA, {
 					ach(18229, {	-- Cosplate
