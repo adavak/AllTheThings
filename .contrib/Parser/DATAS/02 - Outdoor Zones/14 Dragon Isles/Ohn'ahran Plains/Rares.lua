@@ -27,8 +27,9 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 			n(201535,	-- Bloodbeak the Ravenous
 			bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {
 				["coord"] = { 37.3, 38.5, OHNAHRAN_PLAINS },
-				["questID"] = 74467,
+				["questID"] = 74552,
 				["groups"] = {
+					bo(74467, true),
 					i(203673),	-- Bloodbeak's Ravenor
 				},
 			})),

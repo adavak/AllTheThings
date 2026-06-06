@@ -235,7 +235,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timel
 		m(THALDRASZUS, {
 			m(THE_PRIMALIST_FUTURE, {
 				q(73162),	-- Killing Nimbulatus/Seismodor
-				q(74552),	-- flagged when 74378 "The Storm's Fury" unflagged first time
 			}),
 		}),
 	}),
