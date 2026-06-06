@@ -806,10 +806,10 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, {
 							["sym"] = {{"sub","instance_tier",1208,DIFFICULTY.RAID.LFR}},
 							["up"] = IGNORED_VALUE,
 						}),
-						i(204465, {ItemAppearanceModifierID=0}),	-- Voice of the Silent Star
+						i(204465),	-- Voice of the Silent Star
 					}),
 				}),
-			}),
+			}),-
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({
 				BossOnly(KAZZARA, {
 					ach(18229, {	-- Cosplate

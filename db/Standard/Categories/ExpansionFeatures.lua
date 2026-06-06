@@ -30519,7 +30519,8 @@ h(-448,{coords={
 o(357237,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61837})}}),
 h(-449,{coords={
 [1525]={{70.9,43.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61827,g={
-o(357238,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61838})}})}}),
+o(357238,{coords={
+[1525]={{31.8,48.4}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61838})}})}}),
 h(-179,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 3|r",g={
 h(-450,{coords={
 [1525]={{73.1,44.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the right.",isDaily=1,questID=61817,g={
@@ -30552,7 +30553,8 @@ h(-457,{coords={
 o(357235,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61829})}}),
 h(-458,{coords={
 [1525]={{55.1,34.7}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the left.",isDaily=1,questID=61820,g={
-o(357234,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61828})}})}})}}),
+o(357234,{coords={
+[1525]={{31.8,47.1}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61828})}})}})}}),
 h(-45,{customCollect={"SL_COV_VEN"},g={
 q(60164,{coords={
 [1699]={{47.3,57.5}}},customCollect={"SL_COV_VEN"},lvl=10,qgs={167160},sourceQuests={57536}}),

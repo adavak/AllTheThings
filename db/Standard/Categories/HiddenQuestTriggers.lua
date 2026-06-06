@@ -5383,8 +5383,7 @@ hqt(77614,{awp=100107,repeatable=1})}),
 h(-46,{
 hqt(72050)}),
 m(2085,{awp=100005,g={
-hqt(73162),
-hqt(74552)}}),
+hqt(73162)}}),
 h(-402,{awp=100105,g={
 hqt(76983,{repeatable=1}),
 hqt(76984,{repeatable=1}),

@@ -35333,7 +35333,6 @@ s(186662)/i(204428),	-- Sanctum Guard's Forgewalkers \\ 10.1 Raid - Black Dragon
 s(186664)/i(204428),	-- Sanctum Guard's Forgewalkers \\ 10.1 Raid - Black Dragon Labs - BoE, MYTHIC BoP - Armor - Plate - FEET 2
 s(186695)/i(204427),	-- Devoted Warden's Gaze \\ 10.1 Raid - Black Dragon Labs - BoE, MYTHIC BoP - Armor - Plate - HEAD 2
 s(186697)/i(204427),	-- Devoted Warden's Gaze \\ 10.1 Raid - Black Dragon Labs - BoE, MYTHIC BoP - Armor - Plate - HEAD 2
-s(186700)/i(204465),	-- Voice of the Silent Star
 10.1.0.48776
 s(187719)/i(205924),	-- Obsidian Gladiator's Axe
 s(187720)/i(205915),	-- Obsidian Gladiator's Dagger
