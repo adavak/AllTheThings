@@ -2257,7 +2257,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(100, i(210856)), -- Trader's Faded Sarong
 			}),
 		})),
-		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 12.0.5.67823", "removed 12.0.5.99999" } }, {	-- TODO: Timeline out correctly
+		n(JUNE, bubbleDownSelf({ ["timeline"] = { "added 12.0.5.67823", "removed 12.0.7.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				i(268876),	-- Flame-Painted Sun Roc (MOUNT!)
 			}),

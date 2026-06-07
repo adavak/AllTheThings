@@ -684,9 +684,9 @@ CREATED_12_0_5 = "created 12.0.5.67088";				-- Midnight 12.0.5 launch on April 2
 ADDED_12_0_5 = "added 12.0.5.67088";					-- Midnight 12.0.5 launch on April 21st, 2026
 REMOVED_12_0_5 = "removed 12.0.5.67088";				-- Midnight 12.0.5 launch on April 21st, 2026
 
-CREATED_12_0_7 = "created 12.0.7";						-- Midnight 12.0.7 launch in spring 2026
-ADDED_12_0_7 = "added 12.0.7";							-- Midnight 12.0.7 launch in spring 2026
-REMOVED_12_0_7 = "removed 12.0.7";						-- Midnight 12.0.7 launch in spring 2026
+CREATED_12_0_7 = "created 12.0.7";						-- Midnight 12.0.7 launch on June 16th, 2026
+ADDED_12_0_7 = "added 12.0.7";							-- Midnight 12.0.7 launch on June 16th, 2026
+REMOVED_12_0_7 = "removed 12.0.7";						-- Midnight 12.0.7 launch on June 16th, 2026
 CREATED_12_1_0 = "created 12.1.0";						-- Midnight 12.1.0 launch in summer 2026
 ADDED_12_1_0 = "added 12.1.0";							-- Midnight 12.1.0 launch in summer 2026
 REMOVED_12_1_0 = "removed 12.1.0";						-- Midnight 12.1.0 launch in summer 2026
