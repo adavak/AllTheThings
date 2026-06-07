@@ -519,7 +519,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					}),
 					o(381512, {	-- Wooden Pole
 						["description"] = "Used to craft Iskaaran Harpoon.",
-						["coord"] = { 15.6, 44.5, THE_AZURE_SPAN },
+						["coords"] = {
+							{ 12.1, 41.2, THE_AZURE_SPAN },
+							{ 15.6, 44.6, THE_AZURE_SPAN },
+							{ 17.2, 47.9, THE_AZURE_SPAN },
+							{ 20.8, 36.2, THE_AZURE_SPAN },
+						},
 						["groups"] = {
 							i(200077),	-- Wooden Pole
 						},
