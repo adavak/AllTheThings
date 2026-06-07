@@ -235,6 +235,7 @@ local QUANTUM_GROUP = sharedData({
 
 			ig(20655),	-- Abyssal Cloth Handwraps			(Removed)
 			ig(134786),	-- Entrenched Handwraps				(Removed)
+			ig(37687),	-- Gloves of Distorted Time			(Removed)
 			ig(134723),	-- Icyweave Gloves					(Removed)
 		}),
 		filter(LEATHER, {

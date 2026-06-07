@@ -198,9 +198,8 @@ root(ROOTS.Professions, prof(SKINNING, bubbleDownSelf({ ["requireSkill"] = SKINN
 			q(40142, {	-- The Core of the Stormscale
 				["sourceQuest"] = 40141,	-- Stormscale Sample
 				["qg"] = 93541,	-- Kondal Huntsworn <Skinning Trainer>
-				["groups"] = {
-					r(194164),	-- Stormscale [Rank 1]
-				},
+				["coord"] = { 35.8, 28.6, LEGION_DALARAN },
+				["groups"] = { r(194164) },	-- Stormscale [Rank 1]
 			}),
 		}),
 		header(HEADERS.Spell, 194165, {	-- Stormscale [Rank 2]

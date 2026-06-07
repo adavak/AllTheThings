@@ -100,6 +100,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["questID"] = 60022,
 				["groups"] = {
 					i(180705),	-- Gargon Training Manual (CI!)
+					i(180704),	-- Infused Pet Biscuit
 				},
 			}),
 			n(160640, {	-- Innervus

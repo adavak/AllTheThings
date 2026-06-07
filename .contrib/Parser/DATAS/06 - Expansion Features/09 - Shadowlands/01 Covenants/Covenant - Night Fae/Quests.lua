@@ -448,10 +448,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["description"] = "Requires Renown 8.",
 				["sourceQuests"] = { 59242 },	-- Their New Home
 				["provider"] = { "n", 166265 },	-- Mask of Bwonsamdi
+				["coord"] = { 44.6, 37.6, THE_TRUNK },
 				["maps"] = { 1917 },	-- De Other Side (scenario)
-				["groups"] = {
-					i(177904),	-- Deathstone (QI!)
-				},
+				["groups"] = { i(177904) },	-- Deathstone (QI!)
 			}),
 			q(59811, {	-- Taking Inventory
 				["sourceQuests"] = { 59809 },	-- On De Other Side
@@ -580,7 +579,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 160262 },	-- Ysera
 				["coord"] = { 44.7, 39.0, THE_TRUNK },
 				["groups"] = {
-					i(175149),	-- A Small Carving of Ysera (QI!)
+					o(344603, {	-- Keepsake Chest
+						["coord"] = { 27.1, 21.1, TWILIGHT_HIGHLANDS },
+						["groups"] = { i(175149) },	-- A Small Carving of Ysera (QI!)
+					}),
 				},
 			}),
 			q(59071, {	-- Mending a Broken Hart
@@ -766,7 +768,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 165841 },	-- Huln Highmountain
 				["coord"] = { 35.3, 51.2, ARDENWEALD },
 				["groups"] = {
-					i(174467),	-- Bulging Digestive Sac (QI!)
+					o(357417, {	-- Gorm Giblet
+						i(174467),	-- Bulging Digestive Sac (QI!)
+					}),
 					i(174645),	-- Gormherd Branch (QI!)
 				},
 			}),
@@ -775,7 +779,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 165841 },	-- Huln Highmountain
 				["coord"] = { 35.3, 51.2, ARDENWEALD },
 				["groups"] = {
-					i(175753),	-- Life-Hardened Anima (QI!)
+					o(340664, {	-- Expended Wildseed
+						["coords"] = {
+							{ 50.7, 78.4, ARDENWEALD },
+							{ 50.7, 78.5, ARDENWEALD },
+							{ 51.2, 79.6, ARDENWEALD },
+							{ 51.4, 76.7, ARDENWEALD },
+							{ 52.0, 77.4, ARDENWEALD },
+							{ 52.0, 80.0, ARDENWEALD },
+							{ 52.1, 78.2, ARDENWEALD },
+							{ 52.2, 76.3, ARDENWEALD },
+							{ 52.3, 79.0, ARDENWEALD },
+							{ 52.6, 77.0, ARDENWEALD },
+							{ 53.0, 77.7, ARDENWEALD },
+							{ 53.3, 76.2, ARDENWEALD },
+						},
+						["groups"] = { i(175753) },	-- Life-Hardened Anima (QI!)
+					}),
 				},
 			}),
 			q(59721, {	-- Becoming the Hunt
@@ -853,25 +873,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59749 },	-- One Little Whisper
 				["provider"] = { "n", 122688 },	-- Bwonsamdi
 				["coord"] = { 39.6, 24.7, NAZMIR },
-				["groups"] = {
-					i(177817),	-- Voodoo Powder (QI!)
-				},
+				["groups"] = { i(177817) },	-- Voodoo Powder (QI!)
 			}),
 			q(59822, {	-- Tracking a Wild God
 				["sourceQuests"] = { 59805 },	-- Maw Manifested
 				["provider"] = { "n", 171655 },	-- Spirit of Vol'jin
 				["coord"] = { 44.8, 40.9, THE_MAW },
-				["groups"] = {
-					i(177817),	-- Voodoo Powder (QI!)
-				},
+				["groups"] = { i(177817) },	-- Voodoo Powder (QI!)
 			}),
 			q(59824, {	-- Loa Rescue
 				["sourceQuests"] = { 59822 },	-- Tracking a Wild God
 				["provider"] = { "n", 171806 },	-- Spirit of Vol'jin
 				["coord"] = { 41.0, 64.2, THE_MAW },
-				["groups"] = {
-					i(177817),	-- Voodoo Powder (QI!)
-				},
+				["groups"] = { i(177817) },	-- Voodoo Powder (QI!)
 			}),
 			q(59856, {	-- Rezan, Loa of Kings
 				["sourceQuests"] = { 59824 },	-- Loa Rescue

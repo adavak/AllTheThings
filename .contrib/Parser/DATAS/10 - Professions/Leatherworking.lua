@@ -395,8 +395,24 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
 				["groups"] = {
+					o(245199, {	-- Drogbar Stash
+						["coords"] = {
+							{ 36.6, 56.8, HIGHMOUNTAIN },
+							{ 43.4, 23.1, HIGHMOUNTAIN },
+							{ 44.3, 18.4, HIGHMOUNTAIN },
+							{ 44.3, 21.6, HIGHMOUNTAIN },
+							{ 44.4, 22.6, HIGHMOUNTAIN },
+							{ 44.4, 23.7, HIGHMOUNTAIN },
+							{ 44.5, 22.7, HIGHMOUNTAIN },
+							{ 44.7, 21.7, HIGHMOUNTAIN },
+							{ 45.0, 23.6, HIGHMOUNTAIN },
+							{ 45.5, 20.3, HIGHMOUNTAIN },
+							{ 45.6, 22.7, HIGHMOUNTAIN },
+							{ 45.7, 21.8, HIGHMOUNTAIN },
+						},
+						["groups"] = { i(129976) },	-- Lohrumn's Shoulderguard (QI!)
+					}),
 					r(194697),	-- Warhide Shoulderguard [Rank 1] (RECIPE!)
-					i(129976),	-- Lohrumn's Shoulderguard (QI!)
 				},
 			}),
 			q(40190, {	-- Hardening the Hide
@@ -447,7 +463,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			q(40193, {	-- Getting the Kinks Out
 				["sourceQuests"] = { 40189 },	-- Naga Know-How
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
-				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
+				["coord"] = { 34.6, 28.6, LEGION_DALARAN },
 				["isBreadcrumb"] = true,
 			}),
 			q(40194, {	-- Reclaimed Cargo
@@ -455,9 +471,11 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
 				["groups"] = {
+					o(245221, {	-- Crate of Mail Armor
+						i(130072),	-- Mail Armor Shipment (QI!)
+					}),
 					r(194743),	-- Battlebound Armbands [Rank 2] (RECIPE!)
 					r(194744),	-- Battlebound Girdle [Rank 2] (RECIPE!)
-					i(130072),	-- Mail Armor Shipment (QI!)
 				},
 			}),
 			q(40195, {	-- A Daring Rescue
@@ -471,10 +489,11 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 			q(40327, {	-- Testing the Metal
 				["sourceQuests"] = { 40195 },	-- A Daring Rescue
 				["provider"] = { "n", 99689 },	-- Taldranis
-				["coord"] = { 51.6, 58.0, AZSUNA },
-				["groups"] = {
-					r(194750),	-- Battlebound Hauberk [Rank 2] (RECIPE!)
+				["coords"] = {
+					{ 51.6, 58.0, AZSUNA },
+					{ 82.3, 84.7, 632 },	-- Oceanus Cove
 				},
+				["groups"] = { r(194750) },	-- Battlebound Hauberk [Rank 2] (RECIPE!)
 			}),
 			q(40198, {	-- Rats!
 				["sourceQuests"] = {

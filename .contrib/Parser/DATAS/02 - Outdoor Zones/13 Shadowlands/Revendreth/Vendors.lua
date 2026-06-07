@@ -16,23 +16,26 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			n(156218, {	-- Deadfoot <General Goods, Repairs, & Boots>
 				["coord"] = { 48.6, 68.6, REVENDRETH },
 				["groups"] = {
+					i(182746, {	-- All-In-One Belt Repair Kit
+						["cost"] = { { "c", 1820, 5 } },
+					}),
 					i(181298, {	-- Banewood Survival Kit
+						["cost"] = { { "c", 1820, 20 } },
+					}),
+					i(183419, {	-- Hopebreaker's Left Boot
+						["cost"] = { { "c", 1820, 10 } },
+					}),
+					i(180704, {	-- Infused Pet Biscuit
 						["cost"] = { { "c", 1820, 20 } },
 					}),
 					i(183416, {	-- Mail Courier's Left Runner
 						["cost"] = { { "c", 1820, 10 } },
 					}),
-					i(183419, {	-- Hopebreaker's Left Boot
+					i(183427, {	-- Researcher's Left Slipper
 						["cost"] = { { "c", 1820, 10 } },
 					}),
 					i(183422, {	-- Stone Legion Left Sabaton
 						["cost"] = { { "c", 1820, 10 } },
-					}),
-					i(183427, {	-- Researcher's Left Slipper
-						["cost"] = { { "c", 1820, 10 } },
-					}),
-					i(182746, {	-- All-In-One Belt Repair Kit
-						["cost"] = { { "c", 1820, 5 } },
 					}),
 				},
 			}),

@@ -371,7 +371,18 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_1_0 } }, 
 					["provider"] = { "n", 177451 },	-- Tal-Galan
 					["coord"] = { 34.9, 35.3, KORTHIA },
 					["groups"] = {
-						i(185716),	-- Cracked Record (QI!)
+						o(367972, {	-- Cracked Record
+							["coords"] = {
+								{ 36.9, 34.2, KORTHIA },
+								{ 36.9, 34.5, KORTHIA },
+								{ 37.8, 37.1, KORTHIA },
+								{ 38.4, 40.4, KORTHIA },
+								{ 38.4, 40.6, KORTHIA },
+								{ 38.6, 40.4, KORTHIA },
+								{ 38.6, 40.5, KORTHIA },
+							},
+							["groups"] = { i(185716) },	-- Cracked Record (QI!)
+						}),
 						i(185921),	-- Matrix Beacon (QI!)
 					},
 				}),

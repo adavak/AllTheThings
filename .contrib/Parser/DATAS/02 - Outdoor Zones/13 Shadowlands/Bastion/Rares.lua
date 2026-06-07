@@ -79,7 +79,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 				["coord"] = { 48.4, 50.4, BASTION },
 				["questID"] = 60897,	-- TODO: 62158 triggered as well
 				["groups"] = {
-					i(180704),	-- Infused Pet Biscuit (consumable, maybe ignore)
+					i(180704),	-- Infused Pet Biscuit
 				},
 			}),
 			n(171189, {	-- Bookkeeper Mnemis

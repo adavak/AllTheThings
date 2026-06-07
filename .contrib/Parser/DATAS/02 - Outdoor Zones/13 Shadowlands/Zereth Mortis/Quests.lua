@@ -416,7 +416,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					["provider"] = { "n", 184323 },	-- Feroz
 					["coord"] = { 47.7, 79.9, ZERETH_MORTIS },
 					["groups"] = {
-						i(187835),	-- Replicating Essence (QI!)
+						o(370492, {	-- Overloaded Protector
+							i(187835),	-- Replicating Essence (QI!)
+						}),
 					},
 				}),
 				q(64841, {	-- Take Charge
