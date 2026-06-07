@@ -33686,7 +33686,7 @@ o(381514,{coords={
 [2022]={{80,27}}},description="Near landing points for Alliance/Horde in The Waking Shores. Rough coordinates.",minReputation={2511,4},g={
 i(200079,{b=1,minReputation={2511,4}})}}),
 o(381512,{coords={
-[2024]={{15.6,44.5}}},description="Used to craft Iskaaran Harpoon.",minReputation={2511,4},g={
+[2024]={{12.1,41.2},{15.6,44.6},{17.2,47.9},{20.8,36.2}}},description="Used to craft Iskaaran Harpoon.",minReputation={2511,4},g={
 i(200077,{b=1,minReputation={2511,4}})}})}}),
 h(-55,{minReputation={2511,4},sharedDescription="Chance to spawn after using 5 |cffffffffOminous Conches|r at specific |cffffffffLarge Lunker Sighting|r Locations.\nWhich Lunker Sighting is up changes every week & if there is no fish icon, the pool is not up and you cannot spawn a Thresher at that location.",g={
 n(192919,{coords={
