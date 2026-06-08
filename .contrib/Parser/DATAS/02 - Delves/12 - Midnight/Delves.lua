@@ -929,6 +929,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 		q(93820, name(HEADERS.Faction, FACTION_THE_SINGULARITY, {isWeekly=true})),	-- The Singularity Rep
 		q(93821, name(HEADERS.Faction, FACTION_SILVERMOON_COURT, {isWeekly=true})),	-- Silvermoon Court Rep
 		q(93822, name(HEADERS.Faction, FACTION_HARATI, {isWeekly=true})),	-- Hara'ti Rep
-		q(93935, {isWeekly=true}),	-- Bonus Hero item from Bountiful chest
+		q(93935, {isWeekly=true}),	-- 1st weekly bonus Hero item from Bountiful chest
+		q(93936, {isWeekly=true}),	-- 2nd weekly bonus Hero item from Bountiful chest
+		q(93937, {isWeekly=true}),	-- 3rd weekly bonus Hero item from Bountiful chest
 	})),
 }));
