@@ -91,7 +91,9 @@ local Presets = {
 	["ROGUE"] = {
 		[LEATHER] = true,
 		[DAGGERS] = true,
+		-- #if AFTER 3.2.0
 		[ONE_HANDED_AXES] = true,
+		-- #endif
 		[ONE_HANDED_MACES] = true,
 		[ONE_HANDED_SWORDS] = true,
 		[GUNS] = true,
