@@ -3005,11 +3005,13 @@ root(ROOTS.Zones, {
 				n(TREASURES, {
 					o(244447, {	-- White Murloc Egg
 						["description"] = "Found beneath Riplash Ruins. There is an obscured underwater cave outside the northeastern end of the ruins. Two white murloc eggs can be found in the end of the cave, but only the one on the ground can be looted.",
-						["coord"] = { 56.0, 88.0, BOREAN_TUNDRA },
-						["timeline"] = { ADDED_6_2_2 },
-						["groups"] = {
-							i(22780),	-- White Murloc Egg (Terky)
+						["coords"] = {
+							{ 55.8, 88.1, BOREAN_TUNDRA },	-- Cave Entrance
+							{ 54.6, 89.4, BOREAN_TUNDRA },	-- White Murloc Egg
 						},
+						["questID"] = 39783,
+						["timeline"] = { ADDED_6_2_2 },
+						["groups"] = { i(22780) },	-- White Murloc Egg (Terky) (PET!)
 					}),
 				}),
 				-- #endif
@@ -3234,13 +3236,3 @@ root(ROOTS.Zones, {
 		}),
 	})),
 });
-
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { ADDED_6_2_2 } }, {
-	m(NORTHREND, {
-		m(BOREAN_TUNDRA, {
-			n(TREASURES, {
-				q(39783),	-- Battle Pet - Terky
-			}),
-		}),
-	}),
-})));
