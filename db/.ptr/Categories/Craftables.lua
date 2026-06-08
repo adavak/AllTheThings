@@ -9284,7 +9284,7 @@ i(130183,{spellID=195693}),
 i(130176,{spellID=195693})}}),
 h(-26,{
 r(225902,{requireSkill=755,skillID=2518}),
-r(225904,{requireSkill=755,skillID=2518})}),
+r(225904,{b=1,itemID=141312,lvl=10,requireSkill=755,skillID=2518})}),
 h(-88,{
 s(89473,151587,{awp=70300,f=4,lvl=45}),
 s(89474,151588,{awp=70300,f=5,lvl=45}),
@@ -18018,7 +18018,7 @@ r(1225279,{questID=88616,requireSkill=356,skillID=2911}),
 r(1225282,{questID=88608,requireSkill=356,skillID=2911}),
 r(1225335,{learnedAt=75,requireSkill=356,skillID=2911})}),
 ah(262796,{type="i",g={
-cs(1269474,{cost={{"i",262800,1},{"i",262795,1}},itemID=262796}),
+i(262796,{cost={{"i",262800,1},{"i",262795,1}},f=55,spellID=1269474}),
 i(262795,{cost={{"i",262794,5}},f=55,spellID=1269472}),
 i(262800,{cost={{"i",262799,20}},f=55,spellID=1269472}),
 i(262794,{cost={{"i",262793,20}},f=55,spellID=1269455}),

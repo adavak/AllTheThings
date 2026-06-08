@@ -779,11 +779,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 					},
 				}),
-				--n(266234, {	-- Kifaan <The Consortium>
-				--	["coord"] = { 59.8, 19.6, VAL },
-				--	["timeline"] = { ADDED_12_0_7 },
-				--	@DARKAL I need a symlinik here to mirror NPC 265559
-				--}),
+				n(266234, {	-- Kifaan <The Consortium>
+					["coord"] = { 59.8, 19.6, VAL },
+					["timeline"] = { ADDED_12_0_7 },
+					["sym"] = { { "sub", "common_vendor", 265559 } },	-- Kifaan <The Consortium>
+				}),
 				n(265581, {	-- Zuronar <Lightveil Artificer>
 					["coords"] = {
 						{ 48.1, 83.3, NAIGTAL },

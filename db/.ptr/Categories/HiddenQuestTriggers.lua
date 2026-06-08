@@ -887,10 +887,6 @@ m(13,{awp=60202,g={
 m(26,{petBattleLvl=11,lvl=10,g={
 h(-45,{
 hqt(38931)})}})}}),
-m(113,{awp=60202,lvl=10,g={
-m(114,{petBattleLvl=20,lvl=10,g={
-h(-56,{
-hqt(39783)})}})}}),
 m(572,{awp=60002,petBattleLvl=25,lvl=10,g={
 h(-391,{
 h(-45,{
@@ -5383,8 +5379,7 @@ hqt(77614,{awp=100107,repeatable=1})}),
 h(-46,{
 hqt(72050)}),
 m(2085,{awp=100005,g={
-hqt(73162),
-hqt(74552)}}),
+hqt(73162)}}),
 h(-402,{awp=100105,g={
 hqt(76983,{repeatable=1}),
 hqt(76984,{repeatable=1}),
@@ -7406,7 +7401,9 @@ hqt(93819,{an="fa:2696",isWeekly=1}),
 hqt(93820,{an="fa:2699",isWeekly=1}),
 hqt(93821,{an="fa:2710",isWeekly=1}),
 hqt(93822,{an="fa:2704",isWeekly=1}),
-hqt(93935,{isWeekly=1})}}),
+hqt(93935,{isWeekly=1}),
+hqt(93936,{isWeekly=1}),
+hqt(93937,{isWeekly=1})}}),
 m(2537,{lvl=80,g={
 m(2405,{maps={2444,2526,2527},lvl=88,g={
 h(-45,{
