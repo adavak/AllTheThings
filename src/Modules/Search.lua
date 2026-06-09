@@ -639,7 +639,7 @@ do
 	local function SearchForMissingItemsRecursively(group, listing)
 		-- app.PrintDebug("SearchForMissingItemsRecursively",app:SearchLink(group))
 		if group.visible then
-			if group.itemID and (group.collectible or (group.total and group.total > 0)) and not FilterBind(group) then
+			if group.itemID and not FilterBind(group) then
 				listing[#listing + 1] = group
 			end
 			local g = group.g
