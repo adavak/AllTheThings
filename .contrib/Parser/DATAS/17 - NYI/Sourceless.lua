@@ -522,6 +522,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(56127),	--
 				q(56607),	-- Killed Sandcastle?
 				q(56618),	-- killed Tidelord Aquatus (153898)?
+				q(56666, {["repeatable"]=true}),	-- Unflagged at some point for L:80 R:10 (BloodElf) C:9 (WARLOCK)
 				q(56667),	--
 				q(56742),	--
 				q(56744),	--
