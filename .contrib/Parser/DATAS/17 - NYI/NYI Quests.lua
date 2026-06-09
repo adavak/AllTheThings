@@ -5277,7 +5277,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(56639),	--
 			q(56651),	--
 			-- 8.2.0.30329
-			q(56666),	--
+			q(56666, {["repeatable"]=true}),	-- Unflagged at some point for L:80 R:10 (BloodElf) C:9 (WARLOCK)
 			q(56691),	--
 			q(56717),	--
 			q(56718),	--

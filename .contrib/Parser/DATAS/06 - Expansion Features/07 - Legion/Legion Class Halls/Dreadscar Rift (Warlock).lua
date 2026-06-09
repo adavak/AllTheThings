@@ -887,6 +887,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					gt(366, {	-- Demonic Offering
 						["description"] = "This class hall ability allows you and two other members to summon a demon that you must kill. As part of the ritual, one of your party members (or you) will be sacrificed, so make sure to Soulstone yourself prior to summoning. Upon killing them they have a chance of dropping these items.",
 						["questID"] = 42481,	-- Daily Quest
+						["isDaily"] = true,
 						["crs"] = {
 							112385,	-- Argothel
 							112380,	-- Balzorok
