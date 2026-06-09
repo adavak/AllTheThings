@@ -2558,7 +2558,7 @@ local function BuildSourceQuestChain(group)
 		local questChainHeader = app.CreateRawText(useNested and L.NESTED_QUEST_REQUIREMENTS or L.QUEST_CHAIN_REQ, {
 			description = L.QUEST_CHAIN_REQ_DESC,
 			icon = 135932,
-			OnUpdate = app.AlwaysShowUpdate,
+			OnSetVisibility = app.ReturnTrue,
 			OnClick = app.UI.OnClick.IgnoreRightClick,
 			-- sourceIgnored = true,
 			skipFull = true,
