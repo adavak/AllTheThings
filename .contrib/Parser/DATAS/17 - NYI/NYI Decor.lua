@@ -254,7 +254,6 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 			i(265395),	-- Cuddly Charcoal Grrgle (DECOR!)
 			i(264690),	-- Cuddly Clover Grrgle (DECOR!)
 			i(265551),	-- Cuddly Cobalt Grrgle (DECOR!)
-			i(265389),	-- Cuddly Cotton Candy Grrgle (DECOR!)
 			i(265548),	-- Cuddly Emerald Grrgle (DECOR!)
 			i(265546),	-- Cuddly Fel Grrgle (DECOR!)
 			i(264682),	-- Cuddly Flaxen Grrgle (DECOR!)

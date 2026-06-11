@@ -218,6 +218,10 @@ root(ROOTS.Promotions, {
 				-- ["description"] = "",	-- TODO
 				["timeline"] = { ADDED_12_0_5, REMOVED_12_0_5 },
 			}),
+			i(265389, {	-- Cuddly Cotton Candy Grrgle (DECOR!)
+				["description"] = "Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between June 16th, 10:00 a.m. & July 14th, 10:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",
+				["timeline"] = { ADDED_12_0_7, "removed 12.0.7.99999" },
+			}),
 			-- Season 2
 
 			-- Season 3
