@@ -4624,6 +4624,9 @@ i(270062, 5022);	-- Void-Touched Chick
 i(270330, 5036);	-- Void-Touched Dragonhawk Egg
 i(270063, 5023);	-- Void-Touched Lynx Kitten
 i(270988, 5038);	-- Wriggling Capybara
+--- UNSORTED ---
+i(273021, 5060);	-- Sha-Warped Hippogryph Hatchling
+i(271652, 5042);	-- The Sire's Ghastly Screecher
 
 ------------------
 -- PATCH 12.0.7 --

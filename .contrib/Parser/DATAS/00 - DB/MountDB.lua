@@ -1615,7 +1615,9 @@ i(192771, 352927);	-- [PH] Water Salamander Blue
 i(192773, 374093);	-- [PH] Water Salamander Orange
 i(192748, 373913);	-- PH Moose Bull Brown
 i(192781, 374140);	-- PH Lava Slug Blue
+-- #if BEFORE 12.0.7
 i(192780, 350220);	-- PH Lava Slug Orange [Item: [PH] Lava Snail Orange]
+-- #endif
 i(192782, 374142);	-- PH Lava Slug Yellow
 i(192802, 374258);	-- PH Primal Tallstrider Black
 i(192803, 374259);	-- PH Primal Tallstrider Red
@@ -2410,6 +2412,10 @@ i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
 i(268875, 1283911);	-- [PH] Giant Eagle Sunwalker Mount White
 i(268362, 1282274);	-- Gilnean Copper Charger
 i(268360, 1282268);	-- Gilnean Iron Charger
+i(262344, 1267077);	-- Scarlet Lady
+i(269640, 1285897);	-- Sha-Warped Owl
+i(269012, 1284679);	-- Sha-Warped Riding Wolf
+i(269659, 1266982);	-- The Sire's Palanquin
 --- NYI ---
 i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 
@@ -2422,7 +2428,7 @@ i(258884, 1264184);	-- Spawn of Vyranoth
 i(274650, 1294663);	-- Starmech Cosmic-Collapser
 i(275664, 1297427);	-- Tortured Gorger
 i(274649, 1294648);	-- Voidmancer's Starcarver
---- Unsorted ---
+--- UNSORTED ---
 i(0, 1294677);	-- [PH] Horse with Hat
 i(0, 1261369);	-- Amani Hex Bear
 i(274681, 1294767);	-- Badlands Buzzard
