@@ -2333,6 +2333,7 @@ local AccountWideQuestsDB = {
 	91530,	-- Seeing Eye to Eye
 	91539,	-- A Radiant Echo
 	91613,	-- Infinite Research Promotion: Timely Assistant
+	91626,	-- Arsenal: Ethereal Weaponry
 	91640,	-- A Dog-eared Book
 	91642,	-- Mysterious Notebook
 	91643,	-- Multiversal Energy Dynamics and the Murmuration Paradox
@@ -2358,6 +2359,7 @@ local AccountWideQuestsDB = {
 	91894,	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
 	91894,	-- Has rolled for Coren Special Loot (Daily Accountwide)(TWW Version)
 	91895,	-- Ensemble: Void-Scarred Captain's Plate
+	91896,	-- Ensemble: Void-Scarred Striker's Battlegear
 	91897,	-- Ensemble: Void-Scarred Blade's Attire
 	91898,	-- Ensemble: Void-Scarred Seer's Wrappings
 	91914,	-- Ensemble: Bundle of Ethereal Cloaks
@@ -2650,6 +2652,7 @@ local AccountWideQuestsDB = {
 	93822,	-- Hara'ti Rep
 	93859,	-- Sin'dorei Gravestone
 	93866,	-- Quest #93866*
+	93867,	-- Delver's Delight
 	93868,	-- Death's Hope
 	93872,	-- Prey Complete - Normal #1
 	93873,	-- ??
@@ -2775,6 +2778,7 @@ local AccountWideQuestsDB = {
 	94721,	-- Dracaena weekly reputation
 	94722,	-- Treetop weekly reputation obtained.
 	94723,	-- Oro'ohna weekly reputation obtained.
+	94724,	-- Pterrock weekly reputation obtained.
 	94725,	-- Ahl'ua'huhi weekly reputation obtained.
 	94726,	-- Annulus the Worldshaker weekly reputation obtained.
 	94728,	-- Sundereth the Caller weekly reputation obtained.
@@ -2821,6 +2825,7 @@ local AccountWideQuestsDB = {
 	95537,	-- Quest #95537*
 	95538,	-- Quest #95538*
 	95539,	-- Quest #95539*
+	95540,	-- Mythic L'ura
 	95541,	-- Quest #95541*
 	95542,	-- Quest #95542*
 	95543,	-- Quest #95543*
@@ -2832,13 +2837,19 @@ local AccountWideQuestsDB = {
 	95552,	-- Dark Obelisk Investigation
 	95553,	-- Manifested Destiny
 	95554,	-- Questionable Power
+	96114,	-- A Small Pouch of Crystals
+	96115,	-- A Small Pouch of Crystals
+	96116,	-- A Cache of Crystals
+	96117,	-- A Cache of Crystals
+	96118,	-- A Cache of Crystals
 	96121,	-- A Small Bundle of Goods
 	96122,	-- A Small Bundle of Goods
 	96123,	-- A Small Bundle of Goods
 	96124,	-- A Small Bundle of Goods
 	96214,	-- Tracking Quest
 	96215,	-- Tracking Quest
-	97115,	-- Quest #97115*
+	96936,	-- Accolades for the Umbral Contender
+	97115,	-- First Preference Killing of the week
 
 	-- Weird partial cases... ??
 	-- 45237,	-- Ensemble: Funerary Plate of the Chosen Dead (Only flags complete for Plate characters)
