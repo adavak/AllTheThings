@@ -102,41 +102,43 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										}),
 									}),
 									n(SET_A, {
-										["description"] = "Wowhead: |cffffffffGroup 2|r",
+										["description"] = "Wowhead: |cffffffffGroup 1|r",
 										["groups"] = {
 											n(BROKEN_MIRROR_A1, {
-												["questID"] = 61819,
+												["questID"] = 61818,
 												["isDaily"] = true,
-												["coord"] = { 39.1, 52.2, REVENDRETH },
+												["coord"] = { 29.5, 37.3, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357236, {	-- Forgotten Chest
-														["questID"] = 61836,
+													o(357233, {	-- Forgotten Chest
+														["coord"] = { 30.9, 47.0, REVENDRETH },
+														["questID"] = 61833,
 														["isDaily"] = true,
 													}),
 												},
 											}),
 											n(BROKEN_MIRROR_A2, {
-												["questID"] = 61823,
+												["questID"] = 61822,
 												["isDaily"] = true,
-												["coord"] = { 58.8, 67.8, REVENDRETH },
+												["coord"] = { 40.4, 73.3, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357237, {	-- Forgotten Chest
-														["questID"] = 61837,
+													o(357234, {	-- Forgotten Chest
+														["coord"] = { 31.8, 47.0, REVENDRETH },
+														["questID"] = 61834,
 														["isDaily"] = true,
 													}),
 												},
 											}),
 											n(BROKEN_MIRROR_A3, {
-												["questID"] = 61827,
+												["questID"] = 61826,
 												["isDaily"] = true,
-												["coord"] = { 70.9, 43.6, REVENDRETH },
+												["coord"] = { 27.2, 21.6, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357238, {	-- Forgotten Chest
+													o(357235, {	-- Forgotten Chest
 														["coord"] = { 31.8, 48.4, REVENDRETH },
-														["questID"] = 61838,
+														["questID"] = 61835,
 														["isDaily"] = true,
 													}),
 												},
@@ -144,13 +146,56 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										},
 									}),
 									n(SET_B, {
-										["description"] = "Wowhead: |cffffffffGroup 3|r",
+										["description"] = "Wowhead: |cffffffffGroup 2|r",
 										["groups"] = {
 											n(BROKEN_MIRROR_B1, {
-												["description"] = "Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the right.",
+												["questID"] = 61819,
+												["isDaily"] = true,
+												["coord"] = { 39.1, 52.2, REVENDRETH },
+												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
+												["groups"] = {
+													o(357236, {	-- Forgotten Chest
+														["questID"] = 61836,
+														["coord"] = { 30.9, 47.0, REVENDRETH },
+														["isDaily"] = true,
+													}),
+												},
+											}),
+											n(BROKEN_MIRROR_B2, {
+												["questID"] = 61823,
+												["isDaily"] = true,
+												["coord"] = { 58.8, 67.8, REVENDRETH },
+												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
+												["groups"] = {
+													o(357237, {	-- Forgotten Chest
+														["questID"] = 61837,
+														["coord"] = { 31.8, 47.0, REVENDRETH },
+														["isDaily"] = true,
+													}),
+												},
+											}),
+											n(BROKEN_MIRROR_B3, {
+												["questID"] = 61827,
+												["isDaily"] = true,
+												["coord"] = { 70.9, 43.6, REVENDRETH },
+												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
+												["groups"] = {
+													o(357238, {	-- Forgotten Chest
+														["questID"] = 61838,
+														["coord"] = { 31.8, 48.4, REVENDRETH },
+														["isDaily"] = true,
+													}),
+												},
+											}),
+										},
+									}),
+									n(SET_C, {
+										["description"] = "Wowhead: |cffffffffGroup 3|r",
+										["groups"] = {
+											n(BROKEN_MIRROR_C1, {
 												["questID"] = 61817,
 												["isDaily"] = true,
-												["coord"] = { 73.1, 44.8, REVENDRETH },
+												["coord"] = { 72.6, 43.6, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
 													o(357230, {	-- Forgotten Chest
@@ -160,21 +205,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 													}),
 												},
 											}),
-											n(BROKEN_MIRROR_B2, {
+											n(BROKEN_MIRROR_C2, {
 												["questID"] = 61821,
 												["isDaily"] = true,
-												["coord"] = { 40.3, 77.1, REVENDRETH },
+												["coord"] = { 40.3, 77.2, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
 													o(357231, {	-- Forgotten Chest
 														["questID"] = 61831,
-														["coord"] = { 31.8, 46.9, REVENDRETH },
+														["coord"] = { 31.8, 47.0, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
 											}),
-											n(BROKEN_MIRROR_B3, {
-												["description"] = "Inside a house near the top of the elevator. There are elite mobs in the area.",
+											n(BROKEN_MIRROR_C3, {
 												["questID"] = 61825,
 												["isDaily"] = true,
 												["coord"] = { 77.2, 65.4, REVENDRETH },
@@ -182,50 +226,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 												["groups"] = {
 													o(357232, {	-- Forgotten Chest
 														["questID"] = 61832,
-														["coord"] = { 31.8, 48.3, REVENDRETH },
-														["isDaily"] = true,
-													}),
-												},
-											}),
-										},
-									}),
-									n(SET_C, {
-										["description"] = "Wowhead: |cffffffffGroup 1|r",
-										["groups"] = {
-											n(BROKEN_MIRROR_C1, {
-												["description"] = "Not up on the ramparts, but at the bottom level inside a crumbled wall. There is an elite spider in the room.",
-												["questID"] = 61826,
-												["isDaily"] = true,
-												["coord"] = { 27.1, 21.6, REVENDRETH },
-												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
-												["groups"] = {
-													o(357229, {	-- Forgotten Chest
-														["questID"] = 61835,
-														["isDaily"] = true,
-													}),
-												},
-											}),
-											n(BROKEN_MIRROR_C2, {
-												["description"] = "On the middle level of the crumbled edifice.",
-												["questID"] = 61818,
-												["isDaily"] = true,
-												["coord"] = { 29.4, 37.3, REVENDRETH },
-												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
-												["groups"] = {
-													o(351948, {	-- Forgotten Chest
-														["questID"] = 61833,
-														["isDaily"] = true,
-													}),
-												},
-											}),
-											n(BROKEN_MIRROR_C3, {
-												["questID"] = 61822,
-												["isDaily"] = true,
-												["coord"] = { 40.4, 73.3, REVENDRETH },
-												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
-												["groups"] = {
-													o(357228, {	-- Forgotten Chest
-														["questID"] = 61834,
+														["coord"] = { 31.8, 48.4, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
@@ -238,37 +239,38 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											n(BROKEN_MIRROR_D1, {
 												["questID"] = 59236,
 												["isDaily"] = true,
-												["coord"] = { 20.7, 54.2, REVENDRETH },
+												["coord"] = { 20.8, 54.2, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357233, {	-- Forgotten Chest
+													o(351948, {	-- Forgotten Chest
 														["questID"] = 60297,
+														["coord"] = { 30.9, 47.0, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
 											}),
 											n(BROKEN_MIRROR_D2, {
-												["questID"] = 61824,
+												["questID"] = 61820,
 												["isDaily"] = true,
-												["coord"] = { 29.6, 25.8, REVENDRETH },
+												["coord"] = { 55.1, 35.7, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357235, {	-- Forgotten Chest
-														["questID"] = 61829,
+													o(357228, {	-- Forgotten Chest
+														["questID"] = 61828,
+														["coord"] = { 31.8, 47.0, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
 											}),
 											n(BROKEN_MIRROR_D3, {
-												["description"] = "Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the left.",
-												["questID"] = 61820,
+												["questID"] = 61824,
 												["isDaily"] = true,
-												["coord"] = { 55.1, 34.7, REVENDRETH },
+												["coord"] = { 29.6, 25.9, REVENDRETH },
 												["cost"] = { { "i", 181363, 1 } },	-- Handcrafted Mirror Repair Kit
 												["groups"] = {
-													o(357234, {	-- Forgotten Chest
-														["coord"] = { 31.8, 47.1, REVENDRETH },
-														["questID"] = 61828,	-- 61834 on 02-June-2026
+													o(357229, {	-- Forgotten Chest
+														["questID"] = 61829,
+														["coord"] = { 31.8, 48.4, REVENDRETH },
 														["isDaily"] = true,
 													}),
 												},
