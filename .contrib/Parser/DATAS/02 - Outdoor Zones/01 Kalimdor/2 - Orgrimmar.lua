@@ -1065,6 +1065,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["isDaily"] = true,
 					["groups"] = {
 						COOKING_AWARD,
+						o(203969, {	-- Prickly Pear Fruit
+							i(57766),	-- Prickly Pear Fruit
+						}),
 					},
 				}),
 				q(26543, {	-- Clammy Hands

@@ -470,7 +470,10 @@ root(ROOTS.Zones, {
 						q(48273, {	-- The Speaker Listens
 							["sourceQuests"] = { 48560 },	-- An Offering of Shadow
 							["provider"] = { "n", 124312 },	-- High Exarch Turalyon
-							["coord"] = { 46.7, 25.0, THE_VINDICAAR_EREDATH_UPPER },
+							["coords"] = {
+								{ 40.9, 24.3, THE_VINDICAAR_KROKUUN_UPPER },
+								{ 46.7, 25.0, THE_VINDICAAR_EREDATH_UPPER },
+							},
 						}),
 						q(48277, {	-- The Speaker Seeks
 							["sourceQuests"] = { 48272 },	-- Visions of Fear

@@ -169,7 +169,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 		q(38499, {	-- Strange New Ores
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(195097, {	-- Blacksmithing (Legion Master)
 					["timeline"] = { ADDED_7_0_3_LAUNCH, REMOVED_8_0_1 },
@@ -186,7 +186,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(39681, {	-- The Properties of Leystone
 			["sourceQuest"] = 38499,	-- Strange New Ores
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(182928),	-- Leystone Armguards [Rank 1] (RECIPE!)
 				r(182929),	-- Leystone Waistguard [Rank 1] (RECIPE!)
@@ -195,15 +195,13 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38502, {	-- The Methods of the Nightfallen
 			["sourceQuest"] = 39681,	-- The Properties of Leystone
 			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["groups"] = {
-				i(123976),	-- Ancient Sentry Construct Memory Core (QI!)
-			},
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
+			["groups"] = { i(123977) },	-- Ancient Sentry Construct Memory Core (QI!)
 		}),
 		q(38501, {	-- Hatecoil Hammerwork
 			["sourceQuest"] = 39681,	-- The Properties of Leystone
 			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(182935),	-- Leystone Breastplate [Rank 1] (RECIPE!)
 				r(182930),	-- Leystone Pauldrons [Rank 1] (RECIPE!)
@@ -214,16 +212,17 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				38501,	-- Hatecoil Hammerwork
 				38502,	-- The Methods of the Nightfallen
 			},
-			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
-			["groups"] = {
-				i(123977),	-- Ancient Sentry Construct Memory Core (QI!)
+			["qgs"] = {
+				97261,	-- Alard Schmied
+				97261,	-- Alard Schmied
 			},
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
+			["groups"] = { i(123977) },	-- Ancient Sentry Construct Memory Core (QI!)
 		}),
 		q(38506, {	-- Chicken Scratch
 			["sourceQuest"] = 38505,	-- Engineers: Not COMPLETELY Useless
 			["provider"] = { "n", 92194 },	-- Timofey Oshenko
-			["coord"] = { 38.4, 27.4, LEGION_DALARAN },
+			["coord"] = { 38.3, 26.2, LEGION_DALARAN },
 			["groups"] = {
 				i(123978),	-- Ancient Highborne Data Printout (QI!)
 			},
@@ -235,14 +234,17 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		}),
 		q(38515, {	-- Nature Provides
 			["sourceQuest"] = 38507,	-- Secrets of Leysmithing
-			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["qgs"] = {
+				97261,	-- Alard Schmied
+				92183,	-- Alard Schmied
+			},
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["cost"] = { { "i", 124103,	10 } },	-- 10x Foxflower
 		}),
 		q(38500, {	-- Leysmithing Mastery
 			["sourceQuest"] = 38515,	-- Nature Provides
 			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(182934),	-- Leystone Boots [Rank 1] (RECIPE!)
 				r(182933),	-- Leystone Gauntlets [Rank 1] (RECIPE!)
@@ -264,13 +266,16 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		}),
 		q(38563, {	-- Flower-Pickers and Potion-Quaffers
 			["sourceQuest"] = 38500,	-- Leysmithing Mastery
-			["provider"] = { "n", 97261 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["qgs"] = {
+				97261,	-- Alard Schmied
+				92183,	-- Alard Schmied
+			},
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 		}),
 		q(38513, {	-- The Highmountain Smiths
 			["sourceQuest"] = 38563,	-- Flower-Pickers and Potion-Quaffers
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["isBreadcrumb"] = true,
 		}),
 		q(38514, {	-- You Are Not Worthy
@@ -284,6 +289,24 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			["provider"] = { "n", 92242 },	-- Barm Stonebreaker
 			["coord"] = { 55.2, 84.2, HIGHMOUNTAIN },
 			["groups"] = {
+				o(241633, {	-- Small Metal Scrap
+					["coord"] = { 55.1, 84.6, HIGHMOUNTAIN },
+					["groups"] = { i(124402) },	-- Small Metal Scrap (QI!)
+				}),
+				o(241634, {	-- Medium Metal Scrap
+					["coord"] = { 55.1, 84.5, HIGHMOUNTAIN },
+					["groups"] = { i(124403) },	-- Medium Metal Scrap (QI!)
+				}),
+				o(241635, {	-- Large Metal Scrap
+					["coord"] = { 55.1, 84.4, HIGHMOUNTAIN },
+					["groups"] = { i(124404) },	-- Large Metal Scrap (QI!)
+				}),
+				i(124411),	-- Scrapmetal Cuffplate (QI!)
+				i(124408),	-- Scrapmetal Fingerplates (QI!)
+				i(124410),	-- Scrapmetal Handguard (QI!)
+				i(124409),	-- Scrapmetal Palmplate (QI!)
+				i(124405),	-- Small Heated Metal Scrap (QI!)
+				--
 				r(184216, {["u"]=TRAINING}),	-- Large Heated Scrap Metal
 				r(184215, {["u"]=TRAINING}),	-- Medium Heated Scrap Metal
 				r(184214, {["u"]=TRAINING}),	-- Small Heated Scrap Metal
@@ -311,7 +334,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38522, {	-- Not Just Weapons and Armor
 			["sourceQuest"] = 38518,	-- From One Master to Another
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(184309, {["u"]=TRAINING}),	-- Hard Leystone Bar
 				r(184313, {["u"]=TRAINING}),	-- Hard Leystone Ingots
@@ -325,7 +348,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38523, {	-- Leystone Hoofplates
 			["sourceQuest"] = 38522,	-- Not Just Weapons and Armor
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(182999),	-- Leystone Hoofplates (RECIPE!)
 			},
@@ -333,7 +356,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(39702, {	-- Legend of Black Rook Hold
 			["sourceQuest"] = 38523,	-- Leystone Hoofplates
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["isBreadcrumb"] = true,
 		}),
 		q(39680, {	-- Between the Hammer...
@@ -361,12 +384,12 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38564, {	-- A Sweet Bargain
 			["sourceQuest"] = 39729,	-- The Knowledge of Black Rock
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 		}),
 		q(44449, {	-- Advanced Quenching
 			["sourceQuest"] = 38564,	-- A Sweet Bargain
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = {
 				r(182969),	-- Leystone Breastplate [Rank 2] (RECIPE!)
 				r(184184, {["u"]=TRAINING}),	-- Dull Hard Leystone Armguards
@@ -379,7 +402,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(38524, {	-- Felsmith Nal'ryssa
 			["sourceQuest"] = 44449,	-- Advanced Quenching
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["isBreadcrumb"] = true,
 		}),
 		q(38525, {	-- Part of the Team
@@ -664,7 +687,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 		q(48053, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_0 } }, {	-- Weigh Anchor [A]
 			["sourceQuests"] = { 38499 },	-- Strange New Ores
 			["provider"] = { "n", 92183 },	-- Alard Schmied
-			["coord"] = { 45.0, 29.6, LEGION_DALARAN },
+			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
 				r(247700),	-- Felslate Anchor (RECIPE!)

@@ -42,6 +42,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					ach(62570, {	-- Cosmic Slayer
 						["crs"] = {
 							252609,	-- Void-Corrupted Dart Frog
+							256589,	-- Void-Corrupted Matriarch
 							263912,	-- Void-Corrupted Springclaw Patriarch
 						},
 					}),

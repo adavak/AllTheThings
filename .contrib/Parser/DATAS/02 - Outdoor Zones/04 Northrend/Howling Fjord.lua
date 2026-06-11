@@ -1129,12 +1129,14 @@ root(ROOTS.Zones, {
 						["qg"] = 24273,	-- Watcher Moonleaf
 						["coord"] = { 30.0, 28.5, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = { i(33618) },	-- Worg Disguise (QI!)
 					}),
 					q(11323, {	-- In Worg's Clothing (H)
 						["sourceQuest"] = 11317,	-- The Cleansing
 						["qg"] = 24186,	-- Sage Mistwalker
 						["coord"] = { 31.1, 24.5, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33618) },	-- Worg Disguise (QI!)
 					}),
 					q(11333, {	-- Into the World of Spirits
 						["sourceQuest"] = 11244,	-- Rescuing the Rescuers
@@ -2114,12 +2116,24 @@ root(ROOTS.Zones, {
 						["qg"] = 24328,	-- Prospector Belvar
 						["coord"] = { 62.2, 17.2, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = {
+							i(33778),	-- Book of Runes - Chapter 1 (QI!)
+							i(33779),	-- Book of Runes - Chapter 2 (QI!)
+							i(33780),	-- Book of Runes - Chapter 3 (QI!)
+							i(33781),	-- The Book of Runes (QI!)
+						},
 					}),
 					q(11350, {	-- The Book of Runes (H)
 						["sourceQuest"] = 11275,	-- Making the Horn
 						["qg"] = 24362,	-- Longrunner Pembe
 						["coord"] = { 49.2, 12.2, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = {
+							i(33778),	-- Book of Runes - Chapter 1 (QI!)
+							i(33779),	-- Book of Runes - Chapter 2 (QI!)
+							i(33780),	-- Book of Runes - Chapter 3 (QI!)
+							i(33781),	-- The Book of Runes (QI!)
+						},
 					}),
 					q(11322, {	-- The Cleansing (A)
 						["qg"] = 24273,	-- Watcher Moonleaf
@@ -2383,12 +2397,14 @@ root(ROOTS.Zones, {
 						["qg"] = 24376,	-- Researcher Aderan
 						["coord"] = { 62.5, 16.5, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = { i(33819) },	-- Rune Sample (QI!)
 					}),
 					q(11366, {	-- The Lodestone (H)
 						["sourceQuest"] = 11365,	-- March of the Giants
 						["qg"] = 24390,	-- Sage Edan
 						["coord"] = { 48.0, 10.4, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33819) },	-- Rune Sample (QI!)
 					}),
 					q(11519, {	-- The Lost Shield of the Aesirites
 						["sourceQuest"] = 11510,	-- "Scoodles"
@@ -2467,12 +2483,14 @@ root(ROOTS.Zones, {
 						["qg"] = 24328,	-- Prospector Belvar
 						["coord"] = { 62.2, 17.2, HOWLING_FJORD },
 						["races"] = ALLIANCE_ONLY,
+						["groups"] = { i(33796) },	-- Rune of Command (QI!)
 					}),
 					q(11352, {	-- The Rune of Command (H)
 						["sourceQuest"] = 11351,	-- Mastering the Runes
 						["qg"] = 24362,	-- Longrunner Pembe
 						["coord"] = { 49.2, 12.2, HOWLING_FJORD },
 						["races"] = HORDE_ONLY,
+						["groups"] = { i(33796) },	-- Rune of Command (QI!)
 					}),
 					q(11530, {	-- The Shield of the Aesirites
 						["sourceQuest"] = 11529,	-- Sorlof's Booty

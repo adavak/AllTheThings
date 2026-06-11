@@ -330,6 +330,7 @@ root(ROOTS.Zones, {
 						},
 						["coords"] = {
 							{ 32.9, 59.0, THE_VINDICAAR_ANTORAN_WASTES_UPPER },
+							{ 33.4, 59.2, THE_VINDICAAR_ANTORAN_WASTES_LOWER },
 							{ 40.2, 24.1, THE_VINDICAAR_KROKUUN_UPPER },
 						},
 						["groups"] = {
