@@ -924,6 +924,7 @@ MobileDB.GameObject = {
 	[190543] = true,	-- Dead Thornwood (q:12599)
 	[190584] = true,	-- Battle-worn Sword (q:12619)
 	[190586] = true,	-- Tribunal Chest (Tribunal of Ages)
+	[191303] = true,	-- Firethorn
 	[191349] = true,	-- Cache of Eregos (Ley-Guardian Eregos)
 	[191609] = true,	-- Eye of Acherus Control Mechanism (q:12641)
 	[191814] = true,	-- Granite Boulder (q:12915)

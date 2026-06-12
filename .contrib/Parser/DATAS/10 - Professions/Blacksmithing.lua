@@ -214,7 +214,7 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 			},
 			["qgs"] = {
 				97261,	-- Alard Schmied
-				97261,	-- Alard Schmied
+				92183,	-- Alard Schmied
 			},
 			["coord"] = { 44.6, 28.6, LEGION_DALARAN },
 			["groups"] = { i(123977) },	-- Ancient Sentry Construct Memory Core (QI!)

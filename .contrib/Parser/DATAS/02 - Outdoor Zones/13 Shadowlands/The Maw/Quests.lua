@@ -393,7 +393,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			q(63072, {	-- Acquisition: Stygic Ore
 				["provider"] = { "o", 364994 },	-- Spectral Pick
-				["coord"] = { 48.2, 81.9, THE_MAW },
+				["coord"] = { 47.2, 82.7, THE_MAW },
 				["groups"] = {
 					i(184585),	-- Stygic Ore (QI!)
 				},

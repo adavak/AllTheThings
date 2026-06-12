@@ -2830,7 +2830,7 @@ root(ROOTS.Zones, {
 					}),
 					o(192865, {	-- The Schools of Arcane Magic - Illusion
 						["description"] = "On a box in the corner of the Violet Hold near Archmage Timear.",
-						["coord"] = { 64.4, 52.4, NORTHREND_DALARAN },
+						["coord"] = { 64.4, 52.3, NORTHREND_DALARAN },
 					}),
 					o(192708, {	-- The Schools of Arcane Magic - Introduction
 						["description"] = "First floor of the teleportation room of the Violet Gate near a bookcase.",
