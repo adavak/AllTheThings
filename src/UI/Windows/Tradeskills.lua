@@ -368,7 +368,6 @@ app:CreateWindow("Tradeskills", {
 				-- If something new was "learned", then refresh the data.
 				if learned > 0 then
 					app.print("Cached " .. learned .. " known recipes!");
-					app.HandleEvent("OnUpdateWindows", true)
 				end
 			end
 		end

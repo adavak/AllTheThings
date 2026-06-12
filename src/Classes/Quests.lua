@@ -151,7 +151,7 @@ if C_QuestLog_RequestLoadQuestByID and pcall(app.RegisterEvent, app, "QUEST_DATA
 			if rawget(QuestNameFromServer, questID) == false then
 				QuestNameFromServer[questID] = nil
 				app.PrintDebug("Fresh Quest Name!",questID,QuestNameFromServer[questID])
-				app.CallbackEvent("OnRedrawWindows")
+				app.UpdateRawID("questID", questID, app.DirectGroupRedraw)
 			end
 			ValidQuestDataLoads[questID] = true
 		else
