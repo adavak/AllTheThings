@@ -142,3 +142,22 @@ app.CreateCostCurrency = function(t, total)
 	c.OnUpdate = app.AlwaysShowUpdate;
 	return c;
 end
+
+do
+	local function CurrencyRedraw(id)
+		-- app.PrintDebug("CURRENCY.REDRAW",id)
+		app.UpdateRawID("currencyID", id, app.DirectGroupRedraw)
+	end
+	local currencyIDUpdateCallbacks = setmetatable({}, {
+		__index = function(t, currencyID)
+			local callback = function(id) CurrencyRedraw(id) end
+			t[currencyID] = callback
+			return callback
+		end,
+	});
+	app:RegisterFuncEvent("CURRENCY_DISPLAY_UPDATE", function(currencyID,...)
+		if not currencyID then return end
+		-- app.PrintDebug("CURRENCY_DISPLAY_UPDATE", currencyID, ...)
+		app.CallbackHandlers.DelayedCallback(currencyIDUpdateCallbacks[currencyID], 2, currencyID)
+	end)
+end
