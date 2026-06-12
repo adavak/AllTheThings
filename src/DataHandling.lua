@@ -617,8 +617,8 @@ local function DirectGroupRedraw(group, immediate)
 end
 app.DirectGroupRedraw = DirectGroupRedraw
 local LIMIT_UPDATE_SEARCH_RESULTS = 10
--- Dynamically increments the progress for the parent heirarchy of each collectible search result
-local function UpdateSearchResults(searchResults)
+-- Performs an individual Update pass (either by the provided updateFunc or DirectGroupUpdate) against all search results (e.g. Main list) as well as any hash-matching groups within any other visible ATT windows
+local function UpdateSearchResults(searchResults, updateFunc)
 	-- app.PrintDebug("UpdateSearchResults",searchResults and #searchResults)
 	if not searchResults or #searchResults == 0 then return end
 	-- in extreme cases of tons of search results to update all at once, we will split up the updates to remove the apparent stutter
@@ -627,11 +627,11 @@ local function UpdateSearchResults(searchResults)
 		for i=1,#searchResults do
 			subresults[#subresults + 1] = searchResults[i]
 			if i % LIMIT_UPDATE_SEARCH_RESULTS == 0 then
-				Runner.Run(UpdateSearchResults, subresults)
+				Runner.Run(UpdateSearchResults, subresults, updateFunc)
 				subresults = {}
 			end
 		end
-		Runner.Run(UpdateSearchResults, subresults)
+		Runner.Run(UpdateSearchResults, subresults, updateFunc)
 		return
 	end
 	-- Update all the results within visible windows
@@ -661,26 +661,27 @@ local function UpdateSearchResults(searchResults)
 
 	-- apply direct updates to all found groups
 	-- app.PrintDebug("Updating",#found,"groups")
+	updateFunc = updateFunc or DirectGroupUpdate
 	for i=1,#found do
-		DirectGroupUpdate(found[i], true)
+		updateFunc(found[i])
 	end
 	-- TODO: use event
 	app.WipeSearchCache()
 	-- app.PrintDebug("UpdateSearchResults Done",#searchResults,"=>",#found)
 end
 -- Pulls all cached fields for the field/id and passes the results into UpdateSearchResults
-local function UpdateRawID(field, id)
+local function UpdateRawID(field, id, updateFunc)
 	-- app.PrintDebug("UpdateRawID",field,id)
 	if field and id then
-		UpdateSearchResults(app.SearchForFieldInAllCaches(field, id))
+		UpdateSearchResults(app.SearchForFieldInAllCaches(field, id), updateFunc)
 	end
 end
 app.UpdateRawID = UpdateRawID
 -- Pulls all cached fields for the field/ids and passes the results into UpdateSearchResults
-local function UpdateRawIDs(field, ids)
+local function UpdateRawIDs(field, ids, updateFunc)
 	-- app.PrintDebug("UpdateRawIDs",field,ids and #ids)
 	if field and ids and #ids > 0 then
-		UpdateSearchResults(app.SearchForManyInAllCaches(field, ids))
+		UpdateSearchResults(app.SearchForManyInAllCaches(field, ids), updateFunc)
 	end
 end
 app.UpdateRawIDs = UpdateRawIDs
