@@ -1941,10 +1941,7 @@ local function ProcessGroup(data, object)
 		ProcessGroup(data, g[i]);
 	end
 end
--- TODO: instead of requiring 'trigger' parameter to indicate something was collected
--- to trigger the complete sound for a 100% window, let's have the window check a field for externally-assigned new collection
--- and clear on update
-local function UpdateWindow(self, force, trigger)
+local function UpdateWindow(self, force)
 	local data = self.data;
 	if not data then return; end
 	local visible = self:IsShown();
@@ -1952,7 +1949,6 @@ local function UpdateWindow(self, force, trigger)
 	-- app.PrintDebug(app.Modules.Color.Colorize("Update:", app.DefaultColors.ATT),self.Suffix,
 	-- 	force and "FORCE" or "SOFT",
 	-- 	visible and "VISIBLE" or "HIDDEN",
-	-- 	trigger and "COLLECTED" or "PASSIVE",
 	-- 	self.HasPendingUpdate and "PENDING" or "")
 	if force or visible then
 		local rowData = self.rowData
@@ -1995,7 +1991,8 @@ local function UpdateWindow(self, force, trigger)
 					rowData[#rowData + 1] = data;
 				end
 				if self.missingData then
-					if trigger and visible and self.AllowCompleteSound then
+					-- an update on the same settings which moves the window to completion can play the sound
+					if visible and self.AllowCompleteSound and self._SettingsRefresh == app._SettingsRefresh then
 						app.Audio:PlayCompleteSound();
 					end
 					self.missingData = nil;
@@ -2011,6 +2008,7 @@ local function UpdateWindow(self, force, trigger)
 					});
 				end
 			else
+				self._SettingsRefresh = app._SettingsRefresh
 				self.missingData = true;
 			end
 		else
