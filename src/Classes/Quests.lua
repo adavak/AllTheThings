@@ -2137,15 +2137,13 @@ app.AddEventRegistration("QUEST_ACCEPTED", function(questLogIndex, questID)
 	ResetQuestName(questID)
 	PrintQuestInfoViaCallback(questID, true);
 	CheckFollowupQuests(questID);
-	-- TODO: could figure a way to basically do UpdateRawID but simply DirectGroupRefresh the results instead
-	app.CallbackEvent("OnRefreshWindows")
+	app.UpdateRawID("questID", questID, app.DirectGroupRedraw)
 end)
 app.AddEventRegistration("QUEST_REMOVED", function(questID)
 	if not questID then return end
 	softRefresh();
 	-- app.PrintDebug("QUEST_REMOVED",questID)
-	-- TODO: could figure a way to basically do UpdateRawID but simply DirectGroupRefresh the results instead
-	app.CallbackEvent("OnRefreshWindows")
+	app.UpdateRawID("questID", questID, app.DirectGroupRedraw)
 end)
 app.AddEventRegistration("QUEST_TURNED_IN", function(questID)
 	if not questID then return end
