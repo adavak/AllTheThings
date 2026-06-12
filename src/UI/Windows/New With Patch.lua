@@ -20,6 +20,7 @@ app:CreateWindow("New With Patch", {
 			description = L.NEW_WITH_PATCH_TOOLTIP,
 			visible = true,
 			expanded = true,
+			SortType = "Global",
 			back = 1,
 			indent = 0,
 			g = { },

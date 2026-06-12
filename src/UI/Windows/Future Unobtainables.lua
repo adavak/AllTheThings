@@ -159,6 +159,7 @@ app:CreateWindow("Future Unobtainables", {
 			description = L.FUTURE_UNOBTAINABLE_TOOLTIP,
 			visible = true,
 			expanded = true,
+			SortType = "Global",
 			back = 1,
 			indent = 0,
 			g = { },
