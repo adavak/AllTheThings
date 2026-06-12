@@ -441,7 +441,9 @@ local function BuildClonedHierarchy(sources)
 				-- need to map the cloned Thing also since it may end up being a parent of another Thing
 				ClonedHierarachyMapping[source] = thing;
 				NestObject(parent, thing);
-			-- else app.PrintDebug("CloneHierarchy-Fail",source.parent,app:SearchLink(source))
+			else
+				-- app.PrintDebug("CloneHierarchy-Fail",source.parent,app:SearchLink(source))
+				app.PrintDebug("Search results are missing expected hierarchy (parent). Ensure searches are performed against hierarchical datasets.")
 			end
 		-- else app.PrintDebug("Criteria-Fail:",app:SearchLink(source))
 		end
@@ -479,11 +481,11 @@ local function RunRecursiveFilterCriteria(groups)
 	local group
 	for i=#groups,1,-1 do
 		group = groups[i]
+		-- depth-first
+		RunRecursiveFilterCriteria(group.g)
 		if not Eval_RecursiveFilterCriteria(group) then
 			-- app.PrintDebug("RFC.--",app:SearchLink(group))
 			tremove(groups, i)
-		else
-			RunRecursiveFilterCriteria(group.g)
 		end
 	end
 end
@@ -555,6 +557,7 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 		AddSearchGroupsByField(groups, field);
 		BuildClonedHierarchy(SearchGroups);
 	end
+	-- app.PrintDebug("BSR:PreFilter",#ClonedHierarchyGroups)
 	-- Perform a final filtering pass if necessary
 	if Eval_RecursiveFilterCriteria ~= app.ReturnTrue then
 		RunRecursiveFilterCriteria(ClonedHierarchyGroups)
