@@ -377,7 +377,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					}),
 					e(1589, {	-- The Illidari Council
 						["creatureID"] = 23426,
-						["qgs"] = {
+						["crs"] = {
 							22949,	-- Gathios the Shatterer
 							22950,	-- High Nethermancer Zerevor
 							22951,	-- Lady Malande

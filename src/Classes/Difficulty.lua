@@ -115,7 +115,11 @@ app.CreateDifficulty = app.CreateClass("Difficulty", "difficultyID", {
 	["icon"] = function(t)
 		return DifficultyIcons[t.difficultyID] or app.asset("Difficulty_Multi");
 	end,
-	["trackable"] = app.ReturnTrue,
+	["trackable"] = function(t)
+		local validDifficulty = not not app.GetRelativeValue(t, "instanceID")
+		t.trackable = validDifficulty
+		return validDifficulty
+	end,
 	["saved"] = function(t)
 		return t.locks;
 	end,
@@ -340,7 +344,7 @@ local function GetCurrentDifficulties()
 		return CurrentDifficulties;
 	end
 	CacheCooldownCurrentDifficulties = now + 1;
-	
+
 	-- Compare and Cache the Current Difficulties
 	local difficulties = BuildCurrentDifficulties()
 	if not CurrentDifficulties or app.TableKeyDiff(CurrentDifficulties, difficulties) then
