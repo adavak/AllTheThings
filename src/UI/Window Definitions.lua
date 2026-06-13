@@ -2764,58 +2764,61 @@ local function BuildWindow(suffix)
 end
 function app:CreateWindow(suffix, definition)
 	app.WindowDefinitions[suffix] = definition;
-	if definition then
-		-- Dynamic Categories are neat, but currently only a Classic Feature (for now?)
-		if definition.IsDynamicCategory and app.IsClassic then
-			if definition.DynamicCategoryHeader then
-				app.AddEventHandler("OnDataCached", function(categories)
-					local category = categories.Professions;
-					if category then
-						for i,group in ipairs(category.g) do
-							if group.requireSkill == definition.DynamicProfessionID then
-								local recipesList = app.CreateDynamicCategory(suffix);
-								recipesList.requireSkill = group.requireSkill;
-								recipesList.IgnoreBuildRequests = true;
-								recipesList.name = L.ALL_RECIPES;
-								recipesList.icon = 134939;
-								recipesList.parent = group;
-								local g = group.g;
-								if not g then
-									g = {};
-									group.g = g;
-								end
-								tinsert(g, 1, recipesList);
+	if not definition then
+		app.print("Cannot create a Window without a definition",suffix)
+		return
+	end
+
+	-- Dynamic Categories are neat, but currently only a Classic Feature (for now?)
+	if definition.IsDynamicCategory and app.IsClassic then
+		if definition.DynamicCategoryHeader then
+			app.AddEventHandler("OnDataCached", function(categories)
+				local category = categories.Professions;
+				if category then
+					for i,group in ipairs(category.g) do
+						if group.requireSkill == definition.DynamicProfessionID then
+							local recipesList = app.CreateDynamicCategory(suffix);
+							recipesList.requireSkill = group.requireSkill;
+							recipesList.IgnoreBuildRequests = true;
+							recipesList.name = L.ALL_RECIPES;
+							recipesList.icon = 134939;
+							recipesList.parent = group;
+							local g = group.g;
+							if not g then
+								g = {};
+								group.g = g;
 							end
+							tinsert(g, 1, recipesList);
 						end
 					end
-				end);
-			else
-				app.AddEventHandler("OnBuildDataCache", function(categories)
-					categories["Dynamic" .. suffix] = app.CreateDynamicCategory(suffix, {
-						SortPriority = 100,
-						sourceIgnored = 1
-					});
-				end);
-			end
-		end
-
-		if definition.Preload then
-			-- This window still needs to be loaded right away
-			return app:GetWindow(suffix);
-		elseif definition.Commands then
-			app.AddSlashCommands(definition.Commands, function(cmd)
-				if not cmd or cmd:len() == 0 then
-					app:GetWindow(suffix):Toggle();
-				else
-					app:GetWindow(suffix):ProcessCommand(ParseCommandArgsAndParams(cmd));
 				end
 			end);
-			local primaryCommand = "/" .. definition.Commands[1];
-			app.ChatCommands.Help[primaryCommand:lower()] = {
-				definition.UsageText or ("Usage: " .. primaryCommand),
-				definition.HelpText or ("Toggles the " .. (definition.SettingsName or suffix) .. " Window.")
-			};
+		else
+			app.AddEventHandler("OnBuildDataCache", function(categories)
+				categories["Dynamic" .. suffix] = app.CreateDynamicCategory(suffix, {
+					SortPriority = 100,
+					sourceIgnored = 1
+				});
+			end);
 		end
+	end
+
+	if definition.Preload then
+		-- This window still needs to be loaded right away
+		return app:GetWindow(suffix);
+	elseif definition.Commands then
+		app.AddSlashCommands(definition.Commands, function(cmd)
+			if not cmd or cmd:len() == 0 then
+				app:GetWindow(suffix):Toggle();
+			else
+				app:GetWindow(suffix):ProcessCommand(ParseCommandArgsAndParams(cmd));
+			end
+		end);
+		local primaryCommand = "/" .. definition.Commands[1];
+		app.ChatCommands.Help[primaryCommand:lower()] = {
+			definition.UsageText or ("Usage: " .. primaryCommand),
+			definition.HelpText or ("Toggles the " .. (definition.SettingsName or suffix) .. " Window.")
+		};
 	end
 end
 function app:CreateWindowForAddon(addonName, definition)
@@ -2860,7 +2863,15 @@ function app:CreateMiniListForGroup(group)
 	end
 
 	-- Pop Out Functionality! :O
-	local popout = app:CreateWindow(app.GenerateSourceHash(group), {
+	local suffix = app.GenerateSourceHash(group)
+	local popout = app:GetWindow(suffix, true)
+	-- we've already got this specific window, so toggle it instead of trying to create again
+	if popout then
+		popout:Toggle()
+		return
+	end
+
+	popout = app:CreateWindow(suffix, {
 		AllowCompleteSound = true,
 		--Debugging = true,
 		Preload = true,
