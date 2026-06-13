@@ -199,6 +199,9 @@ local RetailMapDataStyleMetatable = {
 			local groupMaps
 			for i=1,#rootGroups do
 				group = rootGroups[i]
+				if group.mapID then
+					currentMaps[group.mapID] = true
+				end
 				groupMaps = group.maps
 				if groupMaps then
 					for i=1,#groupMaps do
@@ -401,6 +404,7 @@ local function TrySwapFromCache(self)
 	if mapID == 0 then return end
 
 	local header = CachedMapData[mapID]
+	local newData = header ~= self.data
 	if header._firstshow then
 		header._firstshow = nil
 		-- never built, allow rebuild
@@ -423,8 +427,10 @@ local function TrySwapFromCache(self)
 		app.FillGroups(header);
 		app.SetSkipLevel(0);
 	end
-	-- If the minilist is meant to be expanded, cache the expand info.
-	self:TryAddAutoExpand()
+	-- If the new minilist is meant to be expanded, cache the expand info.
+	if newData then
+		self:TryAddAutoExpand()
+	end
 	app.CallbackHandlers.Callback(self.Update, self)
 	return true
 end
