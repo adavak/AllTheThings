@@ -10,6 +10,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["crs"] = {
 					250101,	-- Kapara
 					250100,	-- Kapara Pup
+					255136,	-- Kapara
 				},
 			}),
 			ach(62269),	-- Altar of Blessings: Amani Curious

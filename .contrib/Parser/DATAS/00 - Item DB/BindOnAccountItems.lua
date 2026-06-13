@@ -1281,4 +1281,9 @@ i(207472)	-- Venerated Blazing Dreamheart
 i(207473)	-- Zenith Blazing Dreamheart
 i(210947)	-- Flame-Warped Curio
 
+-- BoP on Midnight launch, converted BoW 12.0.5
+i(265554)	-- Reinforced Amani Haft
+i(265543)	-- Tempered Amani Spearhead
+i(265560)	-- Toughened Amani Leather Wrap
+
 -- #ENDIF

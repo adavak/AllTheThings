@@ -522,8 +522,10 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 	},{
 		-- LFR
 		q(93980, name(HEADERS.NPC, 252066)),	-- Gladius Slauros
-		--q(93984),	-- ??
+		-- q(??, name(HEADERS.NPC, 240864)),	-- Blinky
 		q(95342, name(HEADERS.NPC, 240831)),	-- Voidlight Everdawn
+		-- q(??, name(HEADERS.NPC, 252067)),	-- Terrace Watcher
+		q(93984, name(HEADERS.NPC, 252070)),	-- Celestial Behemoth
 		-- Normal
 		q(93981, name(HEADERS.NPC, 252066)),	-- Gladius Slauros
 		q(93993, name(HEADERS.NPC, 240864)),	-- Blinky
