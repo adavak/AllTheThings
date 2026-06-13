@@ -71,7 +71,7 @@ app:CreateWindow("Prime", {
 			elseif cmd == "ran" or cmd == "rand" or cmd == "random" then
 				app:GetWindow("Random"):ProcessCommand(args, params);
 				return true;
-			elseif cmd == "list" then
+			elseif cmd == "rawlist" then
 				app:GetWindow("List"):ProcessCommand(args, params);
 				return true;
 			elseif cmd == "nwp" then

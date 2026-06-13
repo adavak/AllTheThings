@@ -1,6 +1,5 @@
 -- App locals
 local _, app = ...;
-local L = app.L;
 
 -- Global locals
 local coroutine, getmetatable, setmetatable, ipairs, pairs, rawget, rawset, tremove, tonumber, tostring, math_floor
@@ -78,7 +77,7 @@ local function BuildDataFromCache()
 	MaximumID = #cache;
 end
 app:CreateWindow("List", {
-	Commands = { "attlist" },
+	Commands = { "attrawlist" },
 	OnCommand = function(self, args, params)
 		if params.reset then
 			-- If rest was specified, then clear all settings to default.
