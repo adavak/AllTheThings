@@ -8272,7 +8272,6 @@ r(39716,{awp=20100,b=1,itemID=32288,minReputation={990,3000},requireSkill=755,rw
 r(39716,{b=1,itemID=32287,minReputation={990,3000},requireSkill=755,skillID=2523}),
 r(39713,{awp=20100,b=1,itemID=32294,minReputation={990,3000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
 r(39713,{b=1,itemID=32284,minReputation={990,3000},requireSkill=755,skillID=2523}),
-r(39738,{b=1,itemID=32308,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(47053,{awp=20400,b=1,itemID=35765,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39736,{awp=20100,b=1,itemID=32300,minReputation={990,9000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
 r(39736,{b=1,itemID=32306,minReputation={990,9000},requireSkill=755,skillID=2523}),
@@ -8287,6 +8286,7 @@ r(39728,{awp=20100,b=1,itemID=32299,minReputation={990,9000},requireSkill=755,rw
 r(47054,{awp=20400,b=1,itemID=35764,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39731,{b=1,itemID=32301,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39741,{awp=20100,b=1,itemID=32302,minReputation={990,21000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
+r(39738,{b=1,itemID=32308,minReputation={990,21000},requireSkill=755,skillID=2523}),
 r(39739,{b=1,itemID=32309,minReputation={990,21000},requireSkill=755,skillID=2523}),
 r(39721,{b=1,itemID=32292,minReputation={990,21000},requireSkill=755,skillID=2523})}),
 n(23381,{
@@ -8675,7 +8675,7 @@ i(32370,{b=1,f=51,lvl=27}),
 s(14936,32365,{b=1,f=7,lvl=27}),
 s(14938,32367,{b=1,f=4,lvl=27}),
 s(14937,32366,{b=1,f=5,lvl=27})}}),
-e(1589,{npcID=23426,qgs={22949,22950,22951,22952},g={
+e(1589,{crs={22949,22950,22951,22952,23426},g={
 i(31098,{b=2,c={2,5,9},lvl=27,spellID=238164}),
 i(31100,{b=2,c={1,3,7},lvl=27,spellID=238164}),
 i(31099,{b=2,c={4,8,11},lvl=27,spellID=238164}),
@@ -57531,6 +57531,7 @@ s(168083,189904,{b=1,f=4,lvl=60}),
 s(62170,113218,{b=1,f=4,lvl=35,modID=4}),
 s(8147,20655,{f=4,lvl=23}),
 s(78296,134786,{b=1,f=4}),
+s(17950,37687,{b=1,f=4,lvl=30}),
 s(77868,134723,{b=1,f=4})}),
 flt(5,{
 hqt(77632),

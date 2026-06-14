@@ -3570,49 +3570,28 @@ n(64978,{coords={
 i(232491,{awp=110005,b=1,c={10},f=111,lvl=10,spellID=470696})}})})}}),
 h(-419,{awp=50004,maps={480},g={
 h(-12,{
-ach(9572),
-ach(9573),
-ach(9574),
-ach(9575),
-ach(9576),
-ach(9577,{
-title(215)}),
-ach(9584),
-ach(9585),
-ach(9586),
-ach(9587),
-ach(9588),
-ach(9589,{
-title(219)}),
-ach(9578),
-ach(9579),
-ach(9580),
-ach(9581),
-ach(9582),
-ach(9583,{
-title(216)}),
-ach(8507,{awp=50400,rwp=60002,u=2}),
+ach(8507,{awp=50400,rwp=60002,u=2,g={
+title(215)}}),
 ach(8504,{awp=50400,rwp=60002,u=2}),
 ach(8501,{awp=50400,rwp=60002,u=2}),
 ach(8496,{awp=50400,rwp=60002,u=2}),
 ach(8491,{awp=50400,rwp=60002,u=2}),
 ach(8486,{awp=50400,rwp=60002,u=2}),
-ach(8509,{awp=50400,rwp=60002,u=2}),
+ach(8509,{awp=50400,rwp=60002,u=2,g={
+title(219)}}),
 ach(8506,{awp=50400,rwp=60002,u=2}),
 ach(8503,{awp=50400,rwp=60002,u=2}),
 ach(8498,{awp=50400,rwp=60002,u=2}),
 ach(8493,{awp=50400,rwp=60002,u=2}),
 ach(8488,{awp=50400,rwp=60002,u=2}),
-ach(8508,{awp=50400,rwp=60002,u=2}),
+ach(8508,{awp=50400,rwp=60002,u=2,g={
+title(216)}}),
 ach(8505,{awp=50400,rwp=60002,u=2}),
 ach(8502,{awp=50400,rwp=60002,u=2}),
 ach(8497,{awp=50400,rwp=60002,u=2}),
 ach(8492,{awp=50400,rwp=60002,u=2}),
 ach(8487,{awp=50400,rwp=60002,u=2}),
-ach(8697,{awp=50400,rwp=60002,u=2}),
-ach(8812,{awp=50400,rwp=60002,u=2}),
-ach(9590),
-ach(9597)})}}),
+ach(8697,{awp=50400,rwp=60002,u=2})})}}),
 h(-420,{awp=50004,crs={78709},g={
 h(-12,{
 ach(7385,{
@@ -5998,6 +5977,31 @@ n(69769,{coords={
 mnt(138425,{b=1,itemID=94229,lvl=10}),
 crit(22732,{achID=8078})}})}})}),
 x(6,{
+h(-419,{awp=60002,maps={480},g={
+h(-12,{
+ach(9572),
+ach(9573),
+ach(9574),
+ach(9575),
+ach(9576),
+ach(9577,{
+title(215)}),
+ach(9584),
+ach(9585),
+ach(9586),
+ach(9587),
+ach(9588),
+ach(9589,{
+title(219)}),
+ach(9578),
+ach(9579),
+ach(9580),
+ach(9581),
+ach(9582),
+ach(9583,{
+title(216)}),
+ach(9590),
+ach(9597)})}}),
 h(-130,{awp=60003,g={
 h(-12,{maps={582,590},g={
 ach(9130),
@@ -14322,7 +14326,7 @@ q(46150,{awp=70105,c={9},coords={
 q(46784,{awp=70200,c={9},coords={
 [717]={{67,46.6}}},lvl=45,qgs={106199},sourceQuests={46047}})}}),
 h(-55,{c={9},g={
-gt(366,{c={9},crs={112374,112375,112376,112377,112378,112379,112380,112381,112384,112385,112387,112388,112389,112391,112394,112395,112396,112397,112398,112399},description="This class hall ability allows you and two other members to summon a demon that you must kill. As part of the ritual, one of your party members (or you) will be sacrificed, so make sure to Soulstone yourself prior to summoning. Upon killing them they have a chance of dropping these items.",questID=42481,g={
+gt(366,{c={9},crs={112374,112375,112376,112377,112378,112379,112380,112381,112384,112385,112387,112388,112389,112391,112394,112395,112396,112397,112398,112399},description="This class hall ability allows you and two other members to summon a demon that you must kill. As part of the ritual, one of your party members (or you) will be sacrificed, so make sure to Soulstone yourself prior to summoning. Upon killing them they have a chance of dropping these items.",isDaily=1,questID=42481,g={
 q(42517,{c={9},coords={
 [717]={{57,41}}},lvl=10,qgs={111740},sourceQuests={42601}}),
 i(139577,{b=1,c={9},f=55,spellID=220729,g={
@@ -18551,7 +18555,7 @@ s(165911,188621,{b=1,c={1},f=7,lvl=60}),
 s(165914,188624,{b=1,c={1},f=7,lvl=60}),
 s(165910,188627,{b=1,c={1},f=7,lvl=60}),
 s(165916,188625,{b=1,c={1},f=7,lvl=60})})}}),
-m(897,{description="The Chromie Scenario sends you through multiple timeways to defeat Chromie's attackers. As you gain reputation with Chromie by killing mobs in the scenario, you will unlock more powerful abilities for Chromie to help speed up your run. Unlike past solo scenarios like Withered Army Training, you do not need to worry about gearing up--your gear is scaled up to 1000 and your player level is increased as well to 112. You can also fly inside this scenario--unusual for instanced content.\n\nEach scenario attempt lasts 15 minutes and the ultimate goal is to defeat 8 timeways in one attempt. Progress can be speed up through obtaining items that grant extra time, buffs from Chromie, and items which auto-complete a timeway threat.",icon=236699,maps={115,898,899,900,901,902},g={
+ah(897,{awp=70205,description="The Chromie Scenario sends you through multiple timeways to defeat Chromie's attackers. As you gain reputation with Chromie by killing mobs in the scenario, you will unlock more powerful abilities for Chromie to help speed up your run. Unlike past solo scenarios like Withered Army Training, you do not need to worry about gearing up--your gear is scaled up to 1000 and your player level is increased as well to 112. You can also fly inside this scenario--unusual for instanced content.\n\nEach scenario attempt lasts 15 minutes and the ultimate goal is to defeat 8 timeways in one attempt. Progress can be speed up through obtaining items that grant extra time, buffs from Chromie, and items which auto-complete a timeway threat.",icon=236699,maps={115,897,898,899,900,901,902},type="m",g={
 n(124764,{
 h(-45,{
 q(47557,{crs={122553},lvl=45,providers={{"i",150943}},sourceQuests={47645}}),
@@ -18661,8 +18665,8 @@ q(47807,{coords={
 [897]={{60,54.5}}},lvl=45,qgs={122510},repeatable=1,g={
 i(151493,{b=1,f=55,spellID=246822})}})}),
 n(27856,{
-ach(11941,{awp=70000,g={
-title(361)}}),
+ach(11941,{
+title(361)}),
 faction(2135),
 q(47906,{coords={
 [115]={{60,54.5}}},lvl=45,qgs={27856},g={
@@ -27971,7 +27975,8 @@ s(112666,179888,{b=1,customCollect={"SL_COV_NFA"},f=7,lvl=60}),
 s(113805,181909,{b=1,customCollect={"SL_COV_NFA"},f=6,lvl=60}),
 s(113841,181979,{b=1,customCollect={"SL_COV_NFA"},f=6,lvl=60}),
 crit(48524,{achID=14835,id=4})}}),
-q(59809,{customCollect={"SL_COV_NFA"},description="Requires Renown 8.",lvl=60,maps={1917},qgs={166265},sourceQuests={59242},g={
+q(59809,{coords={
+[1701]={{44.6,37.6}}},customCollect={"SL_COV_NFA"},description="Requires Renown 8.",lvl=60,maps={1917},qgs={166265},sourceQuests={59242},g={
 i(177904,{customCollect={"SL_COV_NFA"},spellID=324346})}}),
 q(59811,{coords={
 [1917]={{50.4,25.3}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={166281},sourceQuests={59809}}),
@@ -28021,7 +28026,9 @@ q(59070,{coords={
 i(175139,{customCollect={"SL_COV_NFA"}})}}),
 q(59069,{coords={
 [1701]={{44.7,39}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={160262},sourceQuests={59063},g={
-i(175149,{customCollect={"SL_COV_NFA"}})}}),
+o(344603,{coords={
+[241]={{27.1,21.1}}},customCollect={"SL_COV_NFA"},g={
+i(175149,{customCollect={"SL_COV_NFA"}})}})}}),
 q(59071,{coords={
 [1701]={{44,37.1}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={161509},sourceQuests={59068,59069,59070},g={
 s(113556,181301,{customCollect={"SL_COV_NFA"},f=3,lvl=60}),
@@ -28095,11 +28102,14 @@ q(58447,{coords={
 [1565]={{30,44.9}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={161353},sourceQuests={58706}}),
 q(58449,{coords={
 [1565]={{35.3,51.2}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={165841},sourceQuests={58447},g={
-i(174467,{customCollect={"SL_COV_NFA"},lvl=45}),
+o(357417,{customCollect={"SL_COV_NFA"},g={
+i(174467,{customCollect={"SL_COV_NFA"},lvl=45})}}),
 i(174645,{customCollect={"SL_COV_NFA"}})}}),
 q(58450,{coords={
 [1565]={{35.3,51.2}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={165841},sourceQuests={58447},g={
-i(175753,{customCollect={"SL_COV_NFA"},lvl=45})}}),
+o(340664,{coords={
+[1565]={{50.7,78.4},{50.7,78.5},{51.2,79.6},{51.4,76.7},{52,77.4},{52,80},{52.1,78.2},{52.2,76.3},{52.3,79},{52.6,77},{53,77.7},{53.3,76.2}}},customCollect={"SL_COV_NFA"},g={
+i(175753,{customCollect={"SL_COV_NFA"},lvl=45})}})}}),
 q(59721,{coords={
 [1565]={{35.3,51.5}}},customCollect={"SL_COV_NFA"},lvl=60,qgs={164627},sourceQuests={58449,58450}}),
 q(58451,{coords={
@@ -30510,51 +30520,58 @@ h(-321,{customCollect={"SL_COV_VEN"},description="Each day, a set of 3 Broken Mi
 h(-177,{customCollect={"SL_COV_VEN"},g={
 n(166133,{customCollect={"SL_COV_VEN"},g={
 i(181363,{b=1,cost={{"c",1820,20}},customCollect={"SL_COV_VEN"},f=55,sourceQuests={59740}})}}),
-h(-178,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 2|r",g={
+h(-178,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 1|r",g={
 h(-447,{coords={
-[1525]={{39.1,52.2}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61819,g={
-o(357236,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61836})}}),
+[1525]={{29.5,37.3}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61818,g={
+o(357233,{coords={
+[1525]={{30.9,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61833})}}),
 h(-448,{coords={
-[1525]={{58.8,67.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61823,g={
-o(357237,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61837})}}),
+[1525]={{40.4,73.3}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61822,g={
+o(357234,{coords={
+[1525]={{31.8,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61834})}}),
 h(-449,{coords={
+[1525]={{27.2,21.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61826,g={
+o(357235,{coords={
+[1525]={{31.8,48.4}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61835})}})}}),
+h(-179,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 2|r",g={
+h(-450,{coords={
+[1525]={{39.1,52.2}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61819,g={
+o(357236,{coords={
+[1525]={{30.9,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61836})}}),
+h(-451,{coords={
+[1525]={{58.8,67.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61823,g={
+o(357237,{coords={
+[1525]={{31.8,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61837})}}),
+h(-452,{coords={
 [1525]={{70.9,43.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61827,g={
 o(357238,{coords={
 [1525]={{31.8,48.4}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61838})}})}}),
-h(-179,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 3|r",g={
-h(-450,{coords={
-[1525]={{73.1,44.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the right.",isDaily=1,questID=61817,g={
+h(-180,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 3|r",g={
+h(-453,{coords={
+[1525]={{72.6,43.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61817,g={
 o(357230,{coords={
 [1525]={{30.9,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61830})}}),
-h(-451,{coords={
-[1525]={{40.3,77.1}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61821,g={
-o(357231,{coords={
-[1525]={{31.8,46.9}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61831})}}),
-h(-452,{coords={
-[1525]={{77.2,65.4}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Inside a house near the top of the elevator. There are elite mobs in the area.",isDaily=1,questID=61825,g={
-o(357232,{coords={
-[1525]={{31.8,48.3}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61832})}})}}),
-h(-180,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 1|r",g={
-h(-453,{coords={
-[1525]={{27.1,21.6}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Not up on the ramparts, but at the bottom level inside a crumbled wall. There is an elite spider in the room.",isDaily=1,questID=61826,g={
-o(357229,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61835})}}),
 h(-454,{coords={
-[1525]={{29.4,37.3}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="On the middle level of the crumbled edifice.",isDaily=1,questID=61818,g={
-o(351948,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61833})}}),
+[1525]={{40.3,77.2}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61821,g={
+o(357231,{coords={
+[1525]={{31.8,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61831})}}),
 h(-455,{coords={
-[1525]={{40.4,73.3}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61822,g={
-o(357228,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61834})}})}}),
+[1525]={{77.2,65.4}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61825,g={
+o(357232,{coords={
+[1525]={{31.8,48.4}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61832})}})}}),
 h(-181,{customCollect={"SL_COV_VEN"},description="Wowhead: |cffffffffGroup 4|r",g={
 h(-456,{coords={
-[1525]={{20.7,54.2}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=59236,g={
-o(357233,{customCollect={"SL_COV_VEN"},isDaily=1,questID=60297})}}),
+[1525]={{20.8,54.2}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=59236,g={
+o(351948,{coords={
+[1525]={{30.9,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=60297})}}),
 h(-457,{coords={
-[1525]={{29.6,25.8}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61824,g={
-o(357235,{customCollect={"SL_COV_VEN"},isDaily=1,questID=61829})}}),
+[1525]={{55.1,35.7}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61820,g={
+o(357228,{coords={
+[1525]={{31.8,47}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61828})}}),
 h(-458,{coords={
-[1525]={{55.1,34.7}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},description="Coordinates are for a crypt entrance. The mirror is at the bottom of the crypt in the room on the left.",isDaily=1,questID=61820,g={
-o(357234,{coords={
-[1525]={{31.8,47.1}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61828})}})}})}}),
+[1525]={{29.6,25.9}}},cost={{"i",181363,1}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61824,g={
+o(357229,{coords={
+[1525]={{31.8,48.4}}},customCollect={"SL_COV_VEN"},isDaily=1,questID=61829})}})}})}}),
 h(-45,{customCollect={"SL_COV_VEN"},g={
 q(60164,{coords={
 [1699]={{47.3,57.5}}},customCollect={"SL_COV_VEN"},lvl=10,qgs={167160},sourceQuests={57536}}),
@@ -41457,7 +41474,7 @@ ach(62573),
 ach(62572),
 ach(62518,{
 crit(113609,{achID=62563,id=6})}),
-ach(62570,{crs={252609,263912}}),
+ach(62570,{crs={252609,256589,263912}}),
 ach(62571,{crs={264269,264270}}),
 ach(62513,{
 crit(113608,{achID=62563,id=5})}),
