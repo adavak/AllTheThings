@@ -870,7 +870,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
-			fc(1261490),	-- Thalassian Competitor's Cloth Tip-Toes (12.0.1 questID 90258 & 90279 | 12.0.5 questID 90258)
+			FirstCraft(90258, 1261490),	-- Thalassian Competitor's Cloth Tip-Toes (12.0.1 questID 90258 & 90279 | 12.0.5 questID 90258) (confirmed 90258 in #errors 15.06.2026)
 			-- Leather Equipment
 			FirstCraft(90264, 1229875);	-- Aetherlume Bands
 			FirstCraft(90260, 1229871);	-- Aetherlume Optics
