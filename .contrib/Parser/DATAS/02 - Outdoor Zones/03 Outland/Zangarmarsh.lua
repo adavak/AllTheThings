@@ -1851,7 +1851,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(VENDORS, {
-					n(18581, {	-- Alliance Field Scout
+					pvp(n(18581, {	-- Alliance Field Scout
 						["coord"] = { 64.6, 46.4, ZANGARMARSH },
 						["races"] = ALLIANCE_ONLY,
 						["groups"] = {
@@ -1891,7 +1891,7 @@ root(ROOTS.Zones, {
 							}),
 							-- #endif
 						},
-					}),
+					})),
 					n(19383, {	-- Captured Gnome
 						["coord"] = { 32.4, 48.0, ZANGARMARSH },
 						["races"] = HORDE_ONLY,
@@ -2027,7 +2027,7 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(18564, {	-- Horde Field Scout
+					pvp(n(18564, {	-- Horde Field Scout
 						["coord"] = { 33.0, 49.0, ZANGARMARSH },
 						["races"] = HORDE_ONLY,
 						["groups"] = {
@@ -2067,7 +2067,7 @@ root(ROOTS.Zones, {
 							}),
 							-- #endif
 						},
-					}),
+					})),
 					n(18911, {	-- Juno Dufrain <Fishing Trainer>
 						["coord"] = { 78.0, 66.0, ZANGARMARSH },
 						["groups"] = {

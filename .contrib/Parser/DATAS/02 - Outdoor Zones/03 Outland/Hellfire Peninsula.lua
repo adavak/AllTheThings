@@ -1403,7 +1403,7 @@ root(ROOTS.Zones, {
 							i(29292),	-- Helboar Bacon
 						},
 					}),
-					q(10106, {	-- Hellfire Fortifications [Alliance]
+					pvp(q(10106, {	-- Hellfire Fortifications [Alliance]
 						-- #if AFTER WRATH
 						["sourceQuests"] = {
 							13408,	-- Hellfire Fortifications [Alliance, Non-Death Knights]
@@ -1431,8 +1431,8 @@ root(ROOTS.Zones, {
 							}),
 							i(24579),	-- Mark of Honor Hold x3
 						},
-					}),
-					q(13408, {	-- Hellfire Fortifications [Alliance, Non-Death Knights]
+					})),
+					pvp(q(13408, {	-- Hellfire Fortifications [Alliance, Non-Death Knights]
 						["sourceQuest"] = 10143,	-- Expedition Point
 						["qg"] = 18266,	-- Warrant Officer Tracy Proudwell
 						["coord"] = { 56.3, 62.8, HELLFIRE_PENINSULA },
@@ -1453,8 +1453,8 @@ root(ROOTS.Zones, {
 							i(40476),	-- Insignia of the Alliance
 							i(24579),	-- Mark of Honor Hold x3
 						},
-					}),
-					q(13410, {	-- Hellfire Fortifications [Alliance, Death Knight Only]
+					})),
+					pvp(q(13410, {	-- Hellfire Fortifications [Alliance, Death Knight Only]
 						["sourceQuest"] = 10143,	-- Expedition Point
 						["qg"] = 18266,	-- Warrant Officer Tracy Proudwell
 						["coord"] = { 56.3, 62.8, HELLFIRE_PENINSULA },
@@ -1475,8 +1475,8 @@ root(ROOTS.Zones, {
 							}),
 							i(24579),	-- Mark of Honor Hold x3
 						},
-					}),
-					q(10110, {	-- Hellfire Fortifications [Horde]
+					})),
+					pvp(q(10110, {	-- Hellfire Fortifications [Horde]
 						-- #if AFTER WRATH
 						["sourceQuests"] = {
 							13409,	-- Hellfire Fortifications [Horde, Non-Death Knights]
@@ -1504,8 +1504,8 @@ root(ROOTS.Zones, {
 							}),
 							i(24581),	-- Mark of Thrallmar x3
 						},
-					}),
-					q(13409, {	-- Hellfire Fortifications [Horde, Non-Death Knights]
+					})),
+					pvp(q(13409, {	-- Hellfire Fortifications [Horde, Non-Death Knights]
 						-- ["sourceQuest"] = 10124,	-- Forward Base: Reaver's Fall [Not required, Discord 2023-07-29]
 						["qg"] = 18267,	-- Battlecryer Blackeye
 						["coord"] = { 55.9, 39.2, HELLFIRE_PENINSULA },
@@ -1526,8 +1526,8 @@ root(ROOTS.Zones, {
 							i(40477),	-- Insignia of the Horde
 							i(24581),	-- Mark of Thrallmar x3
 						},
-					}),
-					q(13411, {	-- Hellfire Fortifications [Horde, Death Knight Only]
+					})),
+					pvp(q(13411, {	-- Hellfire Fortifications [Horde, Death Knight Only]
 						["qg"] = 18267,	-- Battlecryer Blackeye
 						["coord"] = { 55.9, 39.2, HELLFIRE_PENINSULA },
 						["timeline"] = { ADDED_3_3_0 },
@@ -1546,7 +1546,7 @@ root(ROOTS.Zones, {
 							}),
 							i(24581),	-- Mark of Thrallmar x3
 						},
-					}),
+					})),
 					q(10443, {	-- Helping the Cenarion Post [Alliance]
 						["qg"] = 16796,	-- Amaan the Wise
 						["coord"] = { 23.4, 36.5, HELLFIRE_PENINSULA },
