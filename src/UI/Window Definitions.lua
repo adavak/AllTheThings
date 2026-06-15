@@ -2062,6 +2062,7 @@ local FieldDefaults = {
 			-- app.PrintDebug("Window:SetData",self.Suffix,data.text)
 			data.window = self;
 			self.data = data;
+			self.missingData = nil
 		end
 	end,
 	ExpandData = function(self, expanded)
