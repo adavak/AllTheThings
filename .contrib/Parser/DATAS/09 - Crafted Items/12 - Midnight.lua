@@ -870,7 +870,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90283, 1229890);	-- Quel'dorei Softsteppers
 			FirstCraft(90255, 1229912);	-- Thalassian Competitor's Cloth Cuffs
 			FirstCraft(90251, 1229908);	-- Thalassian Competitor's Cloth Goggles
-			FirstCraft(90279, 1261490);	-- Thalassian Competitor's Cloth Tip-Toes
+			fc(1261490),	-- Thalassian Competitor's Cloth Tip-Toes (12.0.1 questID 90258 & 90279 | 12.0.5 questID 90258)
 			-- Leather Equipment
 			FirstCraft(90264, 1229875);	-- Aetherlume Bands
 			FirstCraft(90260, 1229871);	-- Aetherlume Optics
@@ -883,7 +883,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90284, 1229891);	-- Quel'dorei Runners
 			--FirstCraft(90256, 1229913, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Leather Bands
 			FirstCraft(95579, 1229913, ADDED_12_0_5);	-- Thalassian Competitor's Leather Bands
-			FirstCraft(90280, 1261491);	-- Thalassian Competitor's Leather Sliders
+			fc(1261491),	-- Thalassian Competitor's Leather Sliders (12.0.1 questID 90258 & 90280 | 12.0.5 questID 90258)
 			FirstCraft(90252, 1229909);	-- Thalassian Competitor's Leather Optics
 			-- Mail Equipment
 			FirstCraft(90265, 1229876);	-- Aetherlume Bracelets
@@ -895,8 +895,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90273, 1229888);	-- Quel'dorei Bracelets
 			FirstCraft(90285, 1229892);	-- Quel'dorei Clonkers
 			FirstCraft(90277, 1229884);	-- Quel'dorei Mail Shroud
-			--FirstCraft(90281, 1261492, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
-			FirstCraft(95581, 1261492, ADDED_12_0_5);	-- Thalassian Competitor's Mail Footlinks
+			fc(1261492),	-- Thalassian Competitor's Mail Footlinks (12.0.1 questID 90258 & 90281 | 12.0.5 questID 95581)
 			FirstCraft(90257, 1229914);	-- Thalassian Competitor's Mail Links
 			FirstCraft(90253, 1229910);	-- Thalassian Competitor's Mail Visor
 			-- Plate Equipment
@@ -911,8 +910,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 			FirstCraft(90278, 1229885);	-- Quel'dorei Visor
 			--FirstCraft(90258, 1229915, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Bindings
 			FirstCraft(95578, 1229915, ADDED_12_0_5);	-- Thalassian Competitor's Plate Bindings
-			--FirstCraft(90282, 1261493, ADDED_12_0_1_LAUNCH, REMOVED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
-			FirstCraft(95582, 1261493, ADDED_12_0_5);	-- Thalassian Competitor's Plate Dunkers
+			fc(1261493),	-- Thalassian Competitor's Plate Dunkers (12.0.1 questID 90258 & 90282 | 12.0.5 questID 95582)
 			FirstCraft(90254, 1229911);	-- Thalassian Competitor's Plate Guard
 			-- Tools and Accessories
 			FirstCraft(90237, 1229900);	-- Farstrider Fabric Cutters
