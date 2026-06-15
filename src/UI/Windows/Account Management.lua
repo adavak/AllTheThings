@@ -2190,6 +2190,7 @@ end
 -- Implementation
 app:CreateWindow("Account Management", {
 	Commands = { "attsync", "attaccount" },
+	RootCommands = { "sync", "account" },
 	IgnoreQuestUpdates = true,
 	Defaults = {
 		AutoSync = true,

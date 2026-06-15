@@ -164,17 +164,17 @@ app.ChatCommands.PrintHelp = function(cmd)
 	end
 
 	-- TODO: revise this to actually combine commands which are identical in the chat output & move base /att help here
-	local allCommands = app.ChatCommands.List
-	table.sort(allCommands);
-	local allSlash = app.ChatCommands.Slash
-	table.sort(allSlash);
-	app.print("Full Command List:");
-	for _,slash in ipairs(allSlash) do
-		print(slash);
-	end
-	for _,command in ipairs(allCommands) do
-		print("/att " .. command);
-	end
+	-- local allCommands = app.ChatCommands.List
+	-- table.sort(allCommands);
+	-- local allSlash = app.ChatCommands.Slash
+	-- table.sort(allSlash);
+	-- app.print("Full Command List:");
+	-- for _,slash in ipairs(allSlash) do
+	-- 	print(slash);
+	-- end
+	-- for _,command in ipairs(allCommands) do
+	-- 	print("/att " .. command);
+	-- end
 	return true
 end
 
