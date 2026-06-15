@@ -337,6 +337,50 @@ end)
 
 local SourceSearcher = app.SourceSearcher
 
+do
+	local abbrevs = L.ABBREVIATIONS
+	local abbrevArray = {}
+	for k,v in pairs(abbrevs) do
+		abbrevArray[#abbrevArray + 1] = k
+	end
+	-- do abbreviations from shortest to longest
+	app.Sort(abbrevArray, function(a,b) return a:len() > b:len() end)
+	-- Performs string replacements from the ABBREVIATIONS table until no more replacements are made
+	app.AbbreviateString = function(s, onceOnly)
+		local f,r,n,m
+		repeat
+			-- app.PrintDebug("ABB.!",s)
+			m = nil
+			for i=1,#abbrevArray do
+				f = abbrevArray[i]
+				r = abbrevs[f]
+				n = s:gsub(f, r)
+				if s ~= n then
+					-- app.print(s,"(",f,")",r,"=",n)
+					m = f
+					s = n
+				end
+			end
+			-- app.PrintDebugPrior("ABB.=",s)
+		until not m or onceOnly
+		return s
+	end
+	-- quick check that no abbreviation also results in a recursive replacement
+	local full
+	local rep = app.TableConcat(abbrevArray, nil, nil, " ")
+	local count = 0
+	repeat
+		full = rep
+		-- app.PrintDebug("abbrevs",count,full)
+		rep = app.AbbreviateString(full, true)
+		count = count + 1
+		-- app.PrintDebug("abbrevs",count,rep)
+	until full == rep or count > 4
+	if count > 4 then
+		app.report("Recursive Abbreviations detected! Check locale: "..GetLocale())
+	end
+end
+
 local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 	-- Create a list of sources
 	-- app.PrintDebug("SourceLocations",paramA,paramB,SourceLocationSettingsKey[paramA])
@@ -351,7 +395,6 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 	local issecretvalue = app.WOWAPI.issecretvalue
 	local FilterSettings, FilterInGame, FilterCharacter, FirstParent
 		= app.RecursiveGroupRequirementsFilter, app.Modules.Filter.Filters.InGame, app.RecursiveCharacterRequirementsFilter, app.GetRelativeGroup
-	local abbrevs = L.ABBREVIATIONS;
 	local sourcesToShow
 	-- paramB is the modItemID for itemID searches, so we may have to fallback to the base itemID if nothing sourced for the modItemID
 	-- TODO: Rings from raid showing all difficulties, need fallback matching for items... modItemID, modID, itemID
@@ -435,9 +478,7 @@ local function AddSourceLinesForTooltip(tooltipInfo, paramA, paramB)
 			local wrap = settings:GetTooltipSetting("SourceLocations:Wrapping");
 			local working
 			for _,text in ipairs(listing) do
-				for source,replacement in pairs(abbrevs) do
-					text = text:gsub(source, replacement);
-				end
+				text = app.AbbreviateString(text)
 				if not working and IsRetrieving(text) then working = true; end
 				local left, right = DESCRIPTION_SEPARATOR:split(text);
 				tooltipInfo[#tooltipInfo + 1] = { left = left, right = right, wrap = wrap }

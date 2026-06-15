@@ -162,6 +162,11 @@ local ABBREVIATIONS = {
 	["25 Player"] = "25M",
 	["25 Player (Heroic)"] = "25M (H)",
 	[BATTLEGROUNDS] = "BGs",
+	-- Random Season names where Blizzard used a word instead of number
+	["Season One"] = "Season 1",
+	["Season Two"] = "Season 2",
+	["Season Three"] = "Season 3",
+	["Season Four"] = "Season 4",
 	-- Dungeon & Raid Names
 	-- Classic
 	["Scarlet Monastery of Old"] = "SM: Old",
@@ -189,9 +194,6 @@ local ABBREVIATIONS = {
 	["Tazavesh, the Veiled Market"] = "Tazavesh",
 	-- TWW
 	["Ara-Kara, City of Echoes"] = "Ara-Kara",
-	["Enterprising Hero: The War Within Season Two"] = "Enterprising Hero: TWW S2",
-	["The War Within Keystone Legend: SeasonTwo"] = "TWW Keystone Legend: S2",
-	["Unbound Hero: The War Within Season Three"] = "Unbound Hero: TWW S3",
 	["Mug'Zee, Heads of Security"] = "Mug'Zee",
 	["Sikran, Captain of the Sureki"] = "Sikran",
 	["Vexie and the Geargrinders"] = "Vexie & the Geargrinders",
@@ -209,6 +211,7 @@ local ABBREVIATIONS = {
 	["WoW Anniversary"] = "Anniversary",
 	["Dragonriding Challenge: Dragon Isles: Gold > "] = "",
 	["Dragon Racing Completionist: Gold > "] = "",
+	["Reverse Racer: Gold > "] = "",
 	["Emerald Dream Challenge Racing Completionist: Gold > "] = "",
 	["Emerald Dream Racing Completionist: Gold > "] = "",
 	["Forbidden Reach Challenge Racing Completionist: Gold > "] = "",
