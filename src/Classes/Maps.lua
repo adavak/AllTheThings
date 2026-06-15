@@ -409,7 +409,7 @@ end
 -- Allows a user to use /att collect-exploration [robust]
 -- to force a full scan of all known ATT exploration or maps to cache visited exploration data
 app.ChatCommands.Add("collect-exploration", function(args)
-	app:StartATTCoroutine("FullMapExploration", args[2] and CacheExplorationForAllMaps or CacheExplorationForAllKnownExploration)
+	app:StartATTCoroutine("FullMapExploration", args[1] and CacheExplorationForAllMaps or CacheExplorationForAllKnownExploration)
 	return true
 end, {
 	"Usage : /att collect-exploration [robust]",
@@ -972,10 +972,10 @@ app.ChatCommands.Add("harvest-exploration", app.HarvestExploration, {
 })
 
 app.ChatCommands.Add("harvest-map", function(args)
-	local mapID = tonumber(args[2])
+	local mapID = tonumber(args[1])
 	if not mapID then return end
-	local granularity = tonumber(args[3] or 200)
-	local simplify = args[4]
+	local granularity = tonumber(args[2] or 200)
+	local simplify = args[3]
 	-- setup our DB captures
 	local harvest = app.LocalizeGlobal("AllTheThingsHarvestItems", true)
 	harvest.ExplorationAreaPositionDB = ExplorationAreaPositionDB

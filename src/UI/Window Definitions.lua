@@ -393,40 +393,6 @@ app.AddEventHandler("OnRefreshComplete", function()
 	app.HandleEvent("OnUpdateWindows", true)
 end, true)
 
--- Command Processing
-local __ItemLinkCache = {}
-local function StoreLinks(link)
-	__ItemLinkCache[#__ItemLinkCache + 1] = link
-	return "\x1F" .. #__ItemLinkCache
-end
-local function ParseCommandArgsAndParams(msg)
-	wipe(__ItemLinkCache);
-
-	-- Step 1: Replace links with tokens
-	msg = msg:gsub("|c[%xnIQ:]+|H[a-z]+:%d+:.-|h%[.-%]|h|r", StoreLinks)
-	-- app.PrintDebug("tokenized",msg)
-	-- Step 2: Split by spaces
-	local args = { (" "):split(msg) }
-
-	-- Step 3: Replace tokens with original item links
-	local customArg, customValue;
-	for i, v in ipairs(args) do
-		customArg = tonumber(v:match("\x1F(%d+)"))
-		if customArg then
-			args[i] = __ItemLinkCache[customArg];
-		end
-	end
-
-	-- Step 4: Parse the Params
-	-- The first arg is always the command
-	local params = {};
-	for i=1,#args do
-		customArg, customValue = ("="):split(args[i]);
-		params[customArg] = customValue or true;
-	end
-	return args, params;
-end
-
 -- Expand / Collapse Functions
 local HeaderSkipKeys = {
 	[app.HeaderConstants.ZONE_DROPS] = true,
@@ -2223,7 +2189,6 @@ local ReservedFields = {
 	OnUpdate = true,
 	OnShow = true,
 	OnHide = true,
-	ParseCommandArgsAndParams = true,
 	IgnoreQuestUpdates = true,
 	IgnorePetBattleEvents = true,
 	GetShouldAutomaticallyOpen = true,
@@ -2240,6 +2205,37 @@ local function ShowPrecallShowWindows()
 	app.FunctionRunner.Run(app.RemoveEventHandler, ShowPrecallShowWindows)
 end
 app.AddEventHandler("OnRefreshCollectionsDone", ShowPrecallShowWindows)
+local function SetupCommandsForDefinition(definition)
+	if not definition or definition.BuiltCommands then return end
+	definition.BuiltCommands = true
+
+	local suffix = definition.Suffix
+	-- direct /[command] accessbility
+	if definition.Commands then
+		app.AddSlashCommands(definition.Commands, function(cmd, params)
+			local window = app:GetWindow(suffix)
+			if not cmd or cmd == "" then
+				window:Toggle()
+			else
+				window:ProcessCommand(app.ParseCommandArgsAndParams(cmd))
+			end
+		end)
+	end
+	-- /att [cmd] accessibility
+	if definition.RootCommands then
+		local windowCmdHandler = function(args, params)
+			app:GetWindow(suffix):ProcessCommand(args, params)
+		end
+		local commands = definition.RootCommands
+		local help = {
+			definition.UsageText or ("Usage: /att [ " .. app.TableConcat(commands, nil, nil, " | ").." ]"),
+			definition.HelpText or ("Toggles the " .. (definition.SettingsName or suffix) .. " Window"),
+		}
+		for i=1,#commands do
+			app.ChatCommands.Add(commands[i], windowCmdHandler, help)
+		end
+	end
+end
 local function BuildWindow(suffix)
 	local definition = app.WindowDefinitions[suffix];
 	if not definition then
@@ -2734,23 +2730,10 @@ local function BuildWindow(suffix)
 	if definition.OnInit then
 		definition.OnInit(window, handlers);
 	end
-	if definition.Commands then
-		if not window.SettingsName then
-			window.SettingsName = window.Suffix
-		end
-		app.AddSlashCommands(definition.Commands, function(cmd)
-			if not cmd or cmd:len() == 0 then
-				window:Toggle();
-			else
-				window:ProcessCommand(ParseCommandArgsAndParams(cmd));
-			end
-		end)
-		local primaryCommand = "/" .. definition.Commands[1];
-		app.ChatCommands.Help[primaryCommand:lower()] = {
-			definition.UsageText or ("Usage: " .. primaryCommand),
-			definition.HelpText or ("Toggles the " .. window.SettingsName .. " Window.")
-		};
+	if not window.SettingsName then
+		window.SettingsName = definition.SettingsName
 	end
+	SetupCommandsForDefinition(definition)
 
 	-- If window settings were already loaded, then load this window's definition now
 	-- Windows created after startup would otherwise fail to load their definition.
@@ -2769,6 +2752,10 @@ function app:CreateWindow(suffix, definition)
 		return
 	end
 
+	if definition.Suffix and definition.Suffix ~= suffix then
+		app.print("WARN: Window re-using Definition from another Window:",suffix,"==>",definition.Suffix)
+	end
+	definition.Suffix = suffix
 	-- Dynamic Categories are neat, but currently only a Classic Feature (for now?)
 	if definition.IsDynamicCategory and app.IsClassic then
 		if definition.DynamicCategoryHeader then
@@ -2803,23 +2790,13 @@ function app:CreateWindow(suffix, definition)
 		end
 	end
 
+	definition.SettingsName = definition.SettingsName or suffix
 	if definition.Preload then
 		-- This window still needs to be loaded right away
 		return app:GetWindow(suffix);
-	elseif definition.Commands then
-		app.AddSlashCommands(definition.Commands, function(cmd)
-			if not cmd or cmd:len() == 0 then
-				app:GetWindow(suffix):Toggle();
-			else
-				app:GetWindow(suffix):ProcessCommand(ParseCommandArgsAndParams(cmd));
-			end
-		end);
-		local primaryCommand = "/" .. definition.Commands[1];
-		app.ChatCommands.Help[primaryCommand:lower()] = {
-			definition.UsageText or ("Usage: " .. primaryCommand),
-			definition.HelpText or ("Toggles the " .. (definition.SettingsName or suffix) .. " Window.")
-		};
 	end
+
+	SetupCommandsForDefinition(definition)
 end
 function app:CreateWindowForAddon(addonName, definition)
 	local title = C_AddOns_GetAddOnMetadata(addonName, "Title");

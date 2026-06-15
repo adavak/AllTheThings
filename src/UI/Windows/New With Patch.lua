@@ -14,6 +14,7 @@ local SearchInfo = {
 -- Implementation
 app:CreateWindow("New With Patch", {
 	Commands = { "attnwp" },
+	RootCommands = { "nwp" },
 	OnLoad = function(self, settings)
 		self:SetData(app.CreateRawText(L.NEW_WITH_PATCH, {
 			icon = app.asset("Interface_Newly_Added"),

@@ -94,6 +94,7 @@ end
 -- Implementation
 app:CreateWindow("Future Unobtainables", {
 	Commands = { "attrwp" },
+	RootCommands = { "rwp" },
 	OnCommand = function(self, args, params)
 		local cmd = args[1];
 		if cmd and cmd ~= "" then

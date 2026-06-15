@@ -16,6 +16,7 @@ local ipairs, pairs, tinsert, type, wipe
 app:CreateWindow("WorldQuests", {
 	AllowCompleteSound = true,
 	Commands = { "attwq" },
+	RootCommands = { "wq" },
 	OnInit = function(self, handlers)
 		-- localize some APIs
 		local MergeObject, NestObject, NestObjects = app.MergeObject, app.NestObject, app.NestObjects;

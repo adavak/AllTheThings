@@ -353,7 +353,7 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 			accountWideData.IGNORE_QUEST_PRINT = userignored
 		end
 		local questID
-		for i=2,#args do
+		for i=1,#args do
 			questID = tonumber(args[i])
 			if not questID then
 				app.print("Unable to add a questID to ignore",args[i])
@@ -377,7 +377,7 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 			accountWideData.IGNORE_QUEST_PRINT = userignored
 		end
 		local questID
-		for i=2,#args do
+		for i=1,#args do
 			questID = tonumber(args[i])
 			if not questID then
 				app.print("Unable to add a questID to allow",args[i])

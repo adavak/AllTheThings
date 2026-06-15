@@ -110,6 +110,7 @@ end
 -- Implementation
 app:CreateWindow("Added With Patch", {
 	Commands = { "attawp" },
+	RootCommands = { "awp" },
 	OnCommand = function(self, args, params)
 		local cmd = args[1];
 		if cmd and cmd ~= "" then

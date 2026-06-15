@@ -183,6 +183,7 @@ end
 app:CreateWindow("RaidAssistant", {
 	IgnoreQuestUpdates = true,
 	Commands = { "attra" },
+	RootCommands = { "ra" },
 	OnEvent = function(self, e, ...)
 		-- this is so spammy for TLUG even on a tiny window, 1 sec delay will help a lot
 		DelayedCallback(self.Update, 1, self, true);

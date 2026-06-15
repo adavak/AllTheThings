@@ -618,7 +618,7 @@ end
 -- Allows a user to use /att search|? [link]
 -- to enable Debug Printing of Event messages
 app.ChatCommands.Add({"search","?"}, function(args)
-	local search = args[2]
+	local search = args[1]
 	if not search then
 		local guid = UnitGUID("target");
 		if guid and not app.WOWAPI.issecretvalue(guid) then

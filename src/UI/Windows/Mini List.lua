@@ -462,10 +462,8 @@ app:CreateWindow("MiniList", {
 		["point"] = "BOTTOMRIGHT",
 		["relativePoint"] = "BOTTOMRIGHT",
 	},
-	Commands = {
-		"attmini",
-		"attminilist",
-	},
+	Commands = { "attmini", "attminilist" },
+	RootCommands = { "mini", "minilist" },
 	-- Called when the minilist should be shown with the specified mapID
 	SetMapID = function(self, mapID, force)
 		if self.mapID and self.data then

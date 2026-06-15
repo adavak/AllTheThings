@@ -11,6 +11,7 @@ local ipairs, setmetatable, tonumber, tinsert, wipe
 
 -- Implementation
 app:CreateWindow("Import", {
+	RootCommands = { "import" },
 	OnInit = function(self, handlers)
 		local SearchForObject = app.SearchForObject
 

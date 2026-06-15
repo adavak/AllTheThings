@@ -78,6 +78,7 @@ local function BuildDataFromCache()
 end
 app:CreateWindow("List", {
 	Commands = { "attrawlist" },
+	RootCommands = { "rawlist", "finder" },
 	OnCommand = function(self, args, params)
 		if params.reset then
 			-- If rest was specified, then clear all settings to default.

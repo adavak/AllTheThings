@@ -531,6 +531,7 @@ app:RegisterDataStyleExporter("Readable", {
 app:CreateWindow("Debugger", {
 	HideFromSettings = true,
 	Commands = { "attdebugger" },
+	RootCommands = { "debugger" },
 	AddObject = function(self, info)
 		MergeObject(self.data.g, CloneObject(info));
 		self:AssignChildren();
