@@ -1732,6 +1732,8 @@ localize(L.HEADER_NAMES, {
 	[-749] = "Decor Duel",
 	[-750] = "Phase Conduits",
 	[-752] = "Soggy Nest",
+	[-753] = "A Fiery Blast from the Past",
+	[-754] = "Manaforge Translocators",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contains things that are rewarded upon completing that event.",
@@ -1851,6 +1853,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-748] = "Go to https://www.coca-cola.com/us/en/offerings/fanta/wanta-fanta/come-get-it, play a short game and get 1 reward per week. Sweepstakes starts on April 1, 2026 and ends at 11:59 pm ET on July 30, 2026 or once all rewards have been claimed, whichever occurs first. 2392 of each reward available per week. Resets at 12:00 am ET weekly. No purchase necessary.",
 	[-749] = "Decor Duel is a team-based prop hunt event in Silvermoon City, offering a fun activity to escape the madness of the Void invasion with a friendly magical game of hide and seek.\n\nPlayers can access the Decor Duel queue through the Quick Match section in the PvP tab of the Group Finder. Teams of up to 5 can queue up together for this casual PvP activity. Groups of 1 to 4 players will be matched with other random queuers.",
 	[-750] = "Phase Conduits are teleporters used to enter, exit, and instantly move around the Untethered Space (Phase Diving). All but two locations (on Vanquisher's Wake) are connected with each other.",
+	[-754] = "Manaforge Translocators are teleporters used to instantly move around Naigtal.",
 });
 localize(L.HEADER_LORE, {
 	[-74] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -2458,6 +2461,8 @@ localize(L.HEADER_ICONS, {
 	[-748] = 4672182,
 	[-749] = 1392559,
 	[-750] = 6654410,
+	[-753] = 6119038,
+	[-754] = 6654410,
 });
 localize(L.HEADER_EVENTS, {
 	[-37] = 1,
@@ -2619,6 +2624,10 @@ localize(L.EVENT_REMAPPING, {
 	[1708] = 239,
 	[1709] = 239,
 	[1710] = 239,
+	[1719] = 239,
+	[1720] = 239,
+	[1721] = 239,
+	[1722] = 239,
 	[1807] = 447,
 });
 localize(L.EVENT_TIMERUNNING_SEASONS, {
@@ -4345,6 +4354,10 @@ _.FlightPathNames = {
 	[3239] = "Quest Path 11403: 12.0 Z1 - Eversong - Teleporters - Upper Rookery - Going Down - Force Taxi - SJC",
 	[3240] = "Quest Path 11404: 12.0 Z1 - Eversong - Teleporters - Brightwing Estates - Going Up - Force Taxi - SJC",
 	[3241] = "Quest Path 11405: 12.0 Z1 - Eversong - Teleporters - Brightwing Estates - Going Down - Force Taxi - SJC",
+	[3277] = "Umbral Base Camp",
+	[3278] = "Sporeforge",
+	[3279] = "Nexus Port",
+	[3280] = "Extraction Coast",
 }
 -- Glyphs Database Module
 _.GlyphDB = {
@@ -25972,6 +25985,7 @@ L.QUEST_NAMES = {
 	[92757] = "Stay awhile and listen: Grand Magister Rommath",
 	[92802] = "Stay awhile and listen: Arator",
 	[92810] = "Stay awhile and listen: Faerin Lothar",
+	[92898] = "Stay awhile and listen: Zul'jara",
 	[93399] = "We are all frustrated, Danath.",
 	[93466] = "Increased Spring Butterfly Droprate (Daily Accountwide)",
 	[93528] = "MID Weekly Alchemy Treasure #2",
@@ -26086,6 +26100,7 @@ L.QUEST_NAMES = {
 	[95136] = "MID Inscription Order: Skinning",
 	[95137] = "MID Inscription Order: Tailoring",
 	[95138] = "MID Inscription Order: Engineering",
+	[97139] = "Stay awhile and listen: Grand Magister Rommath",
 }
 L.SOURCE_NAMES = {
 	[90628] = "Monel-Hardened Breastplate",
