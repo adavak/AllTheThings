@@ -1501,60 +1501,44 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 		}),
 		n(TREASURES, {
 			o(525908, {	-- Amani Expert's Chisel
-				["coord"] = { 33.2, 66.4, 2536 },	-- Atal'Aman Outdoor
+				["coord"] = { 33.6, 65.4, 2536 },	-- Atal'Aman Outdoor
 				["questID"] = 89149,
-				["groups"] = {
-					i(238601),	-- Amani Expert's Chisel
-				},
+				["groups"] = { i(238601) },	-- Amani Expert's Chisel
 			}),
 			o(525909, {	-- Glimmering Void Pearl
 				["coord"] = { 28.8, 38.5, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89148,
-				["groups"] = {
-					i(238600),	-- Glimmering Void Pearl
-				},
+				["groups"] = { i(238600) },	-- Glimmering Void Pearl
 			}),
 			o(525911, {	-- Lost Voidstorm Satchel
 				["coord"] = { 54.2, 51.6, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89146,
-				["groups"] = {
-					i(238598),	-- Lost Voidstorm Satchel
-				},
+				["groups"] = { i(238598) },	-- Lost Voidstorm Satchel
 			}),
 			o(525913, {	-- Miner's Guide to Voidstorm
 				["coord"] = { 30.5, 69.1, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89144,
-				["groups"] = {
-					i(238596),	-- Miner's Guide to Voidstorm
-				},
+				["groups"] = { i(238596) },	-- Miner's Guide to Voidstorm
 			}),
 			o(525910, {	-- Solid Ore Punchers
 				["coord"] = { 38.0, 45.4, MAP.MIDNIGHT.EVERSONG_WOODS },
 				["questID"] = 89147,
-				["groups"] = {
-					i(238599),	-- Solid Ore Punchers
-				},
+				["groups"] = { i(238599) },	-- Solid Ore Punchers
 			}),
 			o(525906, {	-- Spare Expedition Torch
 				["coord"] = { 38.8, 65.9, MAP.MIDNIGHT.HARANDAR },
 				["questID"] = 89151,
-				["groups"] = {
-					i(238603),	-- Spare Expedition Torch
-				},
+				["groups"] = { i(238603) },	-- Spare Expedition Torch
 			}),
 			o(525912, {	-- Spelunker's Lucky Charm
 				["coord"] = { 42.0, 46.5, MAP.MIDNIGHT.ZULAMAN },
 				["questID"] = 89145,
-				["groups"] = {
-					i(238597),	-- Spelunker's Lucky Charm
-				},
+				["groups"] = { i(238597) },	-- Spelunker's Lucky Charm
 			}),
 			o(525907, {	-- Star Metal Deposit
 				["coord"] = { 34.2, 76.0, MAP.MIDNIGHT.SLAYERS_RISE_OUTDOOR },
 				["questID"] = 89150,
-				["groups"] = {
-					i(238602),	-- Star Metal Deposit
-				},
+				["groups"] = { i(238602) },	-- Star Metal Deposit
 			}),
 		}),
 		n(WEEKLY_PROFESSION_KNOWLEDGE, sharedData({

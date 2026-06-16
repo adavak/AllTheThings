@@ -80,7 +80,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(58472, {	-- A Farewell to Arms
 				["sourceQuests"] = { 58523 },	-- You're Dead To Me
-				["provider"] = { "n", 161461 },	-- The Accuser
+				["provider"] = { "n", 161694 },	-- The Accuser
 				["coord"] = { 73.8, 57.4, REVENDRETH },
 			}),
 			q(62297, {	-- A Fatal Failure
@@ -160,7 +160,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(59709, {	-- Afterlife Goes On
 				["sourceQuests"] = { 59700 },	-- The Last Labor
-				["provider"] = { "n", 165412 },	-- Xandria <Paragon of Courage>
+				["qgs"] = {
+					165412,	-- Xandria <Paragon of Courage>
+					165752,	-- Xandria <Paragon of Courage>
+				},
 				["coord"] = { 29.7, 53.1, BASTION },
 			}),
 			q(59921, {	-- All I Ever Will Be
@@ -331,11 +334,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(61396, {	-- Dark Developments
 				["sourceQuests"] = { 59910 },	-- Fight and Flight
-				["provider"] = { "o", 357246 },	-- Tattered Scroll
-				["coord"] = { 33.5, 24.1, MALDRAXXUS },
-				["groups"] = {
-					i(181285),	-- Abhorrent Design (QI!)
+				["providers"] = {
+					{ "o", 357246 },	-- Tattered Scroll
+					{ "o", 355825 },	-- Tattered Scroll
 				},
+				["coord"] = { 33.5, 24.1, MALDRAXXUS },
+				["groups"] = { i(181285) },	-- Abhorrent Design (QI!)
 			}),
 			q(59645, {	-- Death Rains
 				["sourceQuests"] = { 59625 },	-- The Only Cure
@@ -425,7 +429,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(59910, {	-- Fight and Flight
 				["sourceQuests"] = { 61145 },	-- Take The Fight To Them
-				["provider"] = { "n", 161907 },	-- Baroness Draka
+				["qgs"] = {
+					161907,	-- Baroness Draka
+					171483,	-- Baroness Draka
+				},
 				["coord"] = { 36.3, 36.6, MALDRAXXUS },
 			}),
 			q(61518, {	-- Follow Me
@@ -487,7 +494,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 161474 },	-- Baroness Draka
 				["groups"] = {
-					i(182386),	-- Pauldrons of Imperium (QI!)
+					o(357345, {	-- Empowered Chest
+						["coord"] = { 78.0, 62.3, REVENDRETH },
+						["groups"] = { i(182386) },	-- Pauldrons of Imperium (QI!)
+					}),
 				},
 			}),
 			q(60043, {	-- Justice from Above
@@ -531,7 +541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			q(61749, {	-- Necessary Ingredients
 				["sourceQuests"] = { 61748 },	-- The Hall of Tomes
 				["provider"] = { "n", 172923 },	-- Kel'Thuzad
-				["coord"] = { 43.9, 27.1, 1652 },	-- Vault of Souls
+				["coord"] = { 44.3, 28.3, 1652 },	-- Vault of Souls
 			}),
 			q(63343, {	-- Necrolord Tactician
 				["description"] = "Requires Renown 22.",
@@ -836,10 +846,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["provider"] = { "n", 172924 },	-- Baroness Ninadar
 				["coord"] = { 66.3, 26.3, MALDRAXXUS },
 				["groups"] = {
-					i(182645),	-- Binding of the Banished One (QI!)
-					i(182644),	-- Greater Wards and Barriers, Volume IV (QI!)
-					i(182643),	-- Paths of the First Ones (QI!)
-					i(182642),	-- Winged Arcanum (QI!)
+					o(357569, {	-- Binding of the Banished One
+						["coord"] = { 68.1, 23.0, MALDRAXXUS },
+						["groups"] = { i(182645) },	-- Binding of the Banished One (QI!)
+					}),
+					o(357568, {	-- Greater Wards and Barriers, Volume IV
+						["coord"] = { 67.9, 23.2, MALDRAXXUS },
+						["groups"] = { i(182644) },	-- Greater Wards and Barriers, Volume IV (QI!)
+					}),
+					o(357567, {	-- Paths of the First Ones
+						["coord"] = { 68.2, 23.3, MALDRAXXUS },
+						["groups"] = { i(182643) },	-- Paths of the First Ones (QI!)
+					}),
+					o(357566, {	-- Winged Arcanum
+						["coord"] = { 68.0, 23.5, MALDRAXXUS },
+						["groups"] = { i(182642) },	-- Winged Arcanum (QI!)
+					}),
 				},
 			}),
 			q(63032, {	-- The Highlord Calls
@@ -854,7 +876,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			}),
 			q(59700, {	-- The Last Labor
 				["sourceQuests"] = { 59698 },	-- Wipe the Slate Clean
-				["provider"] = { "n", 165716 },	-- Xandria <Paragon of Courage>
+				["qgs"] = {
+					165412,	-- Xandria <Paragon of Courage>
+					165716,	-- Xandria <Paragon of Courage>
+				},
 				["coord"] = { 30.0, 55.2, BASTION },
 				["groups"] = {
 					i(182271),	-- Bladesworn Conjurer's Gloves

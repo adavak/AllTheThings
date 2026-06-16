@@ -253,6 +253,10 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(161254),	-- Rastari Pants
 				}),
 			})),
+			-- 8.2.0
+			expansion(EXPANSION.BFA, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
+				q(56717),	--
+			})),
 		}),
 	}),
 	f(MISC, {

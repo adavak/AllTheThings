@@ -211,6 +211,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					{ 51.6, 75.1, MAP.MIDNIGHT.ZULAMAN },
 					{ 52.3, 69.9, MAP.MIDNIGHT.ZULAMAN },
 					{ 56.2, 74.9, MAP.MIDNIGHT.ZULAMAN },
+					{ 56.4, 75.2, MAP.MIDNIGHT.ZULAMAN },
 				},
 			}),
 			o(583965, {	-- Maisara Vilevessel

@@ -491,9 +491,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					{ 63.9, 72.3, ZERETH_MORTIS },
 					{ 67.5, 40.3, ZERETH_MORTIS },
 					{ 70.0, 34.2, ZERETH_MORTIS },
-					-- Locrian Esper
-					{ 50.2, 76.4, 2028 },
-					{ 79.2, 74.8, 2028 },
+					{ 50.2, 76.4, 2028 },	-- Locrian Esper
+					{ 50.4, 73.6, 2028 },	-- Locrian Esper
+					{ 79.2, 74.8, 2028 },	-- Locrian Esper
 				},
 				["groups"] = {
 					i(189717, {	-- Pocopoc's Shielded Core

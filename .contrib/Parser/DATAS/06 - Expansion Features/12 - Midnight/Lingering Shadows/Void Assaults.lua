@@ -380,7 +380,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					header(HEADERS.Achievement, 62606, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Sunstrider Omnium
 						q(96223, {	-- The Magister's Call
 							["qg"] = 265903,	-- Magister's Missive
-							["coord"] = { 47.9, 62.8, MAP.MIDNIGHT.SILVERMOON_CITY },
+							["coords"] = { 47.9, 51.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(96224, {	-- The Magister's Conundrum
 							["sourceQuest"] = 96223,	-- The Magister's Call
