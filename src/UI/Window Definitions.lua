@@ -1532,6 +1532,8 @@ local function CreateRow(container, rows, i)
 	row.Label:SetPoint("TOP");
 	row:SetHeight(select(2, row.Label:GetFont()) + 4);
 	local rowHeight = row:GetHeight();
+	local lineHeight = row.Label:GetLineHeight()
+	local pad = (rowHeight - lineHeight) / 2
 
 	-- Summary is the completion summary information. (percentage text)
 	row.Summary = row:CreateFontString(nil, "ARTWORK", "GameFontNormal");
@@ -1550,9 +1552,9 @@ local function CreateRow(container, rows, i)
 	---@class ATTRowTextureClass: Texture
 	row.Texture = row:CreateTexture(nil, "ARTWORK");
 	row.Texture:SetPoint("LEFT", row, "LEFT");
-	row.Texture:SetPoint("BOTTOM");
-	row.Texture:SetPoint("TOP");
-	row.Texture:SetWidth(rowHeight);
+	row.Texture:SetPoint("BOTTOM", row, "BOTTOM", 0, pad);
+	row.Texture:SetPoint("TOP", row, "TOP", 0, -pad);
+	row.Texture:SetWidth(lineHeight);
 	row.Texture.Background = row:CreateTexture(nil, "BACKGROUND");
 	row.Texture.Background:SetPoint("LEFT", row.Texture);
 	row.Texture.Background:SetPoint("BOTTOM");
@@ -1566,10 +1568,10 @@ local function CreateRow(container, rows, i)
 
 	-- Indicator is used by the Instance Saves functionality.
 	row.Indicator = row:CreateTexture(nil, "ARTWORK");
-	row.Indicator:SetPoint("RIGHT", row.Texture, "LEFT", -1, 0);
-	row.Indicator:SetPoint("BOTTOM");
-	row.Indicator:SetPoint("TOP");
-	row.Indicator:SetWidth(rowHeight);
+	row.Indicator:SetPoint("RIGHT", row.Texture, "LEFT", -pad, 0);
+	row.Indicator:SetPoint("BOTTOM", row, "BOTTOM", 0, pad);
+	row.Indicator:SetPoint("TOP", row, "TOP", 0, -pad);
+	row.Indicator:SetWidth(lineHeight);
 
 	-- The Label should be sandwiched between the summary and the texture
 	row.Label:SetPoint("RIGHT", row.Summary, "LEFT", 0, 0);
