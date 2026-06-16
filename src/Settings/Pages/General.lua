@@ -666,6 +666,7 @@ end,
 function(self)
 	settings:SetAccountMode(self:GetChecked())
 end)
+checkboxAccountMode:SetCheckedTexture(app.asset("TrackAccountWide"))
 checkboxAccountMode:SetATTTooltip(L.ACCOUNT_MODE_TOOLTIP)
 checkboxAccountMode:AlignBelow(checkboxDebugMode)
 
