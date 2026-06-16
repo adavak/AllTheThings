@@ -935,218 +935,268 @@ local function GenerateSourcePathForTSM(group, l)
 	end
 	return L.TITLE
 end
-local function RowOnClick(self, button)
-	local reference = self.ref;
-	if reference then
-		-- If the row data itself has an OnClick handler... execute that first.
-		if reference.OnClick and reference.OnClick(self, button) then
-			return true;
+
+-- Row ClickHandlers
+local ClickHandlers
+do
+local function HandleRightClickShift(self, reference, window)
+	if app.Settings:GetTooltipSetting("Sort:Progress") then
+		app.print("Sorting selection by total progress...");
+		app:StartATTCoroutine("Sorting", function()
+			app.SortGroup(reference, "progress");
+			window:Update();
+			app.print("Finished Sorting.");
+		end);
+	else
+		app.print("Sorting selection alphabetically...");
+		app:StartATTCoroutine("Sorting", function()
+			app.SortGroup(reference, "name");
+			window:Update();
+			app.print("Finished Sorting.");
+		end);
+	end
+	return true;
+end
+
+local function HandleRightClickDefault(self, reference, window)
+	if self.index > 0 then
+		if not reference.IgnorePopout then
+			app:CreateMiniListForGroup(reference.__o or reference)
+		end
+	else
+		app.Settings:Open()
+	end
+end
+
+local function HandleLeftClickDefault(self, reference, window)
+	if self.index > 0 then
+		reference.expanded = not reference.expanded;
+		window:Update();
+	else
+		if not reference.expanded then
+			reference.expanded = true;
+			window:Update();
+		end
+		if window:IsMovable() then
+			self:SetScript("OnMouseUp", function(self)
+				self:SetScript("OnMouseUp", nil);
+				StopMovingOrSizing(window);
+			end);
+			StartMovingOrSizing(window);
+		end
+	end
+end
+
+local function HandleLeftClickShift(self, reference, window)
+	-- If we're at the Auction House
+	local isTSMOpen = TSM_API and TSM_API.IsUIVisible("AUCTION");
+	if isTSMOpen or (AuctionFrame and AuctionFrame:IsShown()) or (AuctionHouseFrame and AuctionHouseFrame:IsShown()) then
+		local missingItems = {};
+		app.Modules.Search.SearchForMissingItemsRecursively(reference, missingItems);
+		local count = #missingItems;
+		if count > 0 then
+			if isTSMOpen then
+				-- This is the new, unusable POS API that I don't understand. lol
+				local dict, path, itemString, group = {}, nil, nil, nil;
+				for i=1,#missingItems do
+					group = missingItems[i]
+					path = GenerateSourcePathForTSM(group, 0);
+					if path then
+						itemString = dict[path];
+						if itemString then
+							dict[path] = itemString .. ",i:" .. group.itemID;
+						else
+							dict[path] = "i:" .. group.itemID;
+						end
+					end
+				end
+				local search,first = "",true;
+				for path,itemString in pairs(dict) do
+					if first then
+						first = false;
+					else
+						search = search .. ",";
+					end
+					search = search .. "group:" .. path .. "," .. itemString;
+				end
+				app:ShowPopupDialogWithMultiLineEditBox(search, nil, "Copy this to your TSM Import Group Popup");
+				return true;
+			elseif Auctionator and Auctionator.API and (AuctionatorShoppingFrame and (AuctionatorShoppingFrame:IsVisible() or count > 1)) then
+				-- Auctionator needs unique Item Names. Nothing else.
+				local uniqueNames = {}
+				for i=1,#missingItems do
+					local name = missingItems[i].name;
+					if name then uniqueNames[name] = 1; end
+				end
+
+				-- Build the array of names.
+				local arr = {};
+				for key,value in pairs(uniqueNames) do
+					arr[#arr + 1] = key
+				end
+				Auctionator.API.v1.MultiSearch(L.TITLE, arr);
+				return;
+			elseif TSMAPI and TSMAPI.Auction then
+				-- This was the old, better, TSM API that made sense.
+				local itemList, search, group = {}, nil, nil
+				for i=1,#missingItems do
+					group = missingItems[i]
+					search = group.tsm or TSMAPI.Item:ToItemString(group.link or group.itemID);
+					if search then itemList[search] = GenerateSourcePathForTSM(group, 0); end
+				end
+				app:ShowPopupDialog(L.TSM_WARNING_1 .. L.TITLE .. L.TSM_WARNING_2,
+				function()
+					TSMAPI.Groups:CreatePreset(itemList);
+					app.print(L.PRESET_UPDATE_SUCCESS);
+					if not TSMAPI.Operations:GetFirstByItem(search, "Shopping") then
+						print(L.SHOPPING_OP_MISSING_1);
+						print(L.SHOPPING_OP_MISSING_2);
+					end
+				end);
+				return true;
+			elseif reference.g and #reference.g > 0 and not reference.link then
+				app.print(L.AUCTIONATOR_GROUPS);
+				return true;
+			end
 		end
 
-		-- All non-Shift Right Clicks open a mini list or the settings.
-		local window = self:GetParent():GetParent();
-		if button == "RightButton" then
-			if IsAltKeyDown() then
-				app.AddTomTomWaypoint(reference);
-			elseif IsShiftKeyDown() then
-				if app.Settings:GetTooltipSetting("Sort:Progress") then
-					app.print("Sorting selection by total progress...");
-					app:StartATTCoroutine("Sorting", function()
-						app.SortGroup(reference, "progress");
-						window:Update();
-						app.print("Finished Sorting.");
-					end);
-				else
-					app.print("Sorting selection alphabetically...");
-					app:StartATTCoroutine("Sorting", function()
-						app.SortGroup(reference, "name");
-						window:Update();
-						app.print("Finished Sorting.");
-					end);
+		-- Attempt to search manually with the link.
+		local name, link = reference.name, reference.link or reference.silentLink;
+		if name and link and app.HandleModifiedItemClick(link) then
+			if C_AuctionHouse and C_AuctionHouse.SendBrowseQuery then
+				local query = app.AuctionHouseQuery;
+				if not query then
+					query = {
+						sorts = {
+							-- {sortOrder = Enum.AuctionHouseSortOrder.Name, reverseSort = false},
+							{sortOrder = Enum.AuctionHouseSortOrder.Price, reverseSort = false},
+							-- {sortOrder = Enum.AuctionHouseSortOrder.Buyout, reverseSort = false},
+						},
+						filters = {},
+					};
+					app.AuctionHouseQuery = query
 				end
+				query.searchString = name
+				C_AuctionHouse.SendBrowseQuery(query)
+			elseif AuctionHouseFrame and AuctionHouseFrame.SearchBar then
+				AuctionHouseFrame.SearchBar:StartSearch();
+			else
+				AuctionFrameBrowse_Search();
+			end
+			return true;
+		end
+	else
+		-- Not at the Auction House
+		-- If this reference has a link, then attempt to preview the appearance or write to the chat window.
+		local link = reference.link or reference.silentLink;
+		if link then
+			if app.HandleModifiedItemClick(link) or ChatEdit_InsertLink(link) then return true; end
+			local _, dialog = StaticPopup_Visible("ALL_THE_THINGS_EDITBOX");
+			if dialog then
+				local editBox = dialog.editBox or dialog.EditBox or (dialog.GetEditBox and dialog:GetEditBox())
+				editBox:SetText(link);
 				return true;
-			elseif self.index > 0 then
-				if not reference.IgnorePopout then
-					app:CreateMiniListForGroup(reference.__o or reference);
-				end
-			else
-				app.Settings:Open();
 			end
-		else
-			if IsShiftKeyDown() then
-				-- If we're at the Auction House
-				local isTSMOpen = TSM_API and TSM_API.IsUIVisible("AUCTION");
-				if isTSMOpen or (AuctionFrame and AuctionFrame:IsShown()) or (AuctionHouseFrame and AuctionHouseFrame:IsShown()) then
-					local missingItems = {};
-					app.Modules.Search.SearchForMissingItemsRecursively(reference, missingItems);
-					local count = #missingItems;
-					if count > 0 then
-						if isTSMOpen then
-							-- This is the new, unusable POS API that I don't understand. lol
-							local dict, path, itemString, group = {}, nil, nil, nil;
-							for i=1,#missingItems do
-								group = missingItems[i]
-								path = GenerateSourcePathForTSM(group, 0);
-								if path then
-									itemString = dict[path];
-									if itemString then
-										dict[path] = itemString .. ",i:" .. group.itemID;
-									else
-										dict[path] = "i:" .. group.itemID;
-									end
-								end
-							end
-							local search,first = "",true;
-							for path,itemString in pairs(dict) do
-								if first then
-									first = false;
-								else
-									search = search .. ",";
-								end
-								search = search .. "group:" .. path .. "," .. itemString;
-							end
-							app:ShowPopupDialogWithMultiLineEditBox(search, nil, "Copy this to your TSM Import Group Popup");
-							return true;
-						elseif Auctionator and Auctionator.API and (AuctionatorShoppingFrame and (AuctionatorShoppingFrame:IsVisible() or count > 1)) then
-							-- Auctionator needs unique Item Names. Nothing else.
-							local uniqueNames = {}
-							for i=1,#missingItems do
-								local name = missingItems[i].name;
-								if name then uniqueNames[name] = 1; end
-							end
+		end
+		app.RefreshCollections();
+		return true;
+	end
+end
 
-							-- Build the array of names.
-							local arr = {};
-							for key,value in pairs(uniqueNames) do
-								arr[#arr + 1] = key
-							end
-							Auctionator.API.v1.MultiSearch(L.TITLE, arr);
-							return;
-						elseif TSMAPI and TSMAPI.Auction then
-							-- This was the old, better, TSM API that made sense.
-							local itemList, search, group = {}, nil, nil
-							for i=1,#missingItems do
-								group = missingItems[i]
-								search = group.tsm or TSMAPI.Item:ToItemString(group.link or group.itemID);
-								if search then itemList[search] = GenerateSourcePathForTSM(group, 0); end
-							end
-							app:ShowPopupDialog(L.TSM_WARNING_1 .. L.TITLE .. L.TSM_WARNING_2,
-							function()
-								TSMAPI.Groups:CreatePreset(itemList);
-								app.print(L.PRESET_UPDATE_SUCCESS);
-								if not TSMAPI.Operations:GetFirstByItem(search, "Shopping") then
-									print(L.SHOPPING_OP_MISSING_1);
-									print(L.SHOPPING_OP_MISSING_2);
-								end
-							end);
-							return true;
-						elseif reference.g and #reference.g > 0 and not reference.link then
-							app.print(L.AUCTIONATOR_GROUPS);
-							return true;
-						end
-					end
+local function HandleLeftClickControl(self, reference, window)
+	if reference.illusionID then
+		-- Illusions are a nasty animal that need to be displayed a special way.
+		DressUpVisual(reference.illusionLink);
+		return true;
+	else
+		local link = reference.link or reference.silentLink;
+		if link and app.HandleModifiedItemClick(link) then
+			return true;
+		end
+	end
 
-					-- Attempt to search manually with the link.
-					local name, link = reference.name, reference.link or reference.silentLink;
-					if name and link and app.HandleModifiedItemClick(link) then
-						if C_AuctionHouse and C_AuctionHouse.SendBrowseQuery then
-							local query = app.AuctionHouseQuery;
-							if not query then
-								query = {
-									sorts = {
-										-- {sortOrder = Enum.AuctionHouseSortOrder.Name, reverseSort = false},
-										{sortOrder = Enum.AuctionHouseSortOrder.Price, reverseSort = false},
-										-- {sortOrder = Enum.AuctionHouseSortOrder.Buyout, reverseSort = false},
-									},
-									filters = {},
-								};
-								app.AuctionHouseQuery = query
-							end
-							query.searchString = name
-							C_AuctionHouse.SendBrowseQuery(query)
-						elseif AuctionHouseFrame and AuctionHouseFrame.SearchBar then
-							AuctionHouseFrame.SearchBar:StartSearch();
-						else
-							AuctionFrameBrowse_Search();
-						end
-						return true;
-					end
-				else
-					-- Not at the Auction House
-					-- If this reference has a link, then attempt to preview the appearance or write to the chat window.
-					local link = reference.link or reference.silentLink;
-					if link then
-						if app.HandleModifiedItemClick(link) or ChatEdit_InsertLink(link) then return true; end
-						local _, dialog = StaticPopup_Visible("ALL_THE_THINGS_EDITBOX");
-						if dialog then
-							local editBox = dialog.editBox or dialog.EditBox or (dialog.GetEditBox and dialog:GetEditBox())
-							editBox:SetText(link);
-							return true;
-						end
-					end
-					if button == "LeftButton" then app.RefreshCollections(); end
-					return true;
+	-- If this reference is anything else, expand the groups.
+	if reference.g then
+		-- mark the window if it is being fully-collapsed
+		if self.index < 1 then
+			window.fullCollapsed = HasExpandedSubgroup(reference);
+		end
+		-- always expand if collapsed or if clicked the header and all immediate subgroups are collapsed, otherwise collapse
+		ExpandGroupsRecursively(reference, not reference.expanded or (self.index < 1 and not window.fullCollapsed), true);
+		window:Update();
+		return true;
+	end
+end
+
+local function HandleLeftClickAlt(self, reference, window)
+	-- Alt Click on a data row attempts to (un)track the group/nested groups, not from window header unless a popout window
+	if self.index > 0 or window.ExpireTime then
+		if app.AddContentTracking(reference) then
+			return true;
+		end
+	end
+	-- Toggle lock/unlock by holding Alt when clicking the header of a Window if it is movable
+	if self.index <= 0 and window:IsMovable() then
+		window.isLocked = not window.isLocked;
+		window:RecordSettings();
+
+		-- force tooltip to refresh since locked state drives tooltip content
+		RedrawRowTooltip()
+		return true
+	end
+end
+local function HandleRightClickAlt(self, reference, window)
+	app.AddTomTomWaypoint(reference)
+end
+
+ClickHandlers = {
+	RightButton = {
+		{handler = HandleRightClickDefault},
+		-- {ctrl = 1, handler = nil},
+		-- {shift = 1, ctrl = 1, handler = nil},
+		{shift = 1, handler = HandleRightClickShift},
+		{alt = 1, handler = HandleRightClickAlt},
+		-- {alt = 1, ctrl = 1, handler = nil},
+		-- {alt = 1, shift = 1, handler = nil},
+		-- {alt = 1, shift = 1, ctrl = 1, handler = nil},
+	},
+	LeftButton = {
+		{handler = HandleLeftClickDefault},
+		{ctrl = 1, handler = HandleLeftClickControl},
+		-- {shift = 1, ctrl = 1, handler = nil},
+		{shift = 1, handler = HandleLeftClickShift},
+		{alt = 1, handler = HandleLeftClickAlt},
+		-- {alt = 1, ctrl = 1, handler = nil},
+		-- {alt = 1, shift = 1, handler = nil},
+		-- {alt = 1, shift = 1, ctrl = 1, handler = nil},
+	}
+}
+end
+
+local function RowOnClick(self, button)
+	local reference = self.ref;
+	if not reference then return end
+
+	-- If the row data itself has an OnClick handler... execute that first.
+	if reference.OnClick and reference.OnClick(self, button) then
+		return true
+	end
+
+	local window = self:GetParent():GetParent();
+	local alt = IsAltKeyDown() and 1 or nil
+	local shift = IsShiftKeyDown() and 1 or nil
+	local ctrl = IsControlKeyDown() and 1 or nil
+
+	local combos = ClickHandlers[button]
+	local combo
+	if combos then
+		for i=1,#combos do
+			combo = combos[i]
+			if combo.alt == alt and combo.shift == shift and combo.ctrl == ctrl then
+				if combo.handler then
+					if combo.handler(self, reference, window) then return true end
 				end
-			end
-
-			-- Alt Click on a data row attempts to (un)track the group/nested groups, not from window header unless a popout window
-			if IsAltKeyDown() and (self.index > 0 or window.ExpireTime) then
-				if app.AddContentTracking(reference) then
-					return true
-				end
-			end
-
-			-- Control Click Expands the Groups
-			if IsControlKeyDown() then
-				-- If this reference has a link, then attempt to preview the appearance.
-				if reference.illusionID then
-					-- Illusions are a nasty animal that need to be displayed a special way.
-					DressUpVisual(reference.illusionLink);
-					return true;
-				else
-					local link = reference.link or reference.silentLink;
-					if link and app.HandleModifiedItemClick(link) then
-						return true;
-					end
-				end
-
-				-- If this reference is anything else, expand the groups.
-				if reference.g then
-					-- mark the window if it is being fully-collapsed
-					if self.index < 1 then
-						window.fullCollapsed = HasExpandedSubgroup(reference);
-					end
-					-- always expand if collapsed or if clicked the header and all immediate subgroups are collapsed, otherwise collapse
-					ExpandGroupsRecursively(reference, not reference.expanded or (self.index < 1 and not window.fullCollapsed), true);
-					window:Update();
-					return true;
-				end
-			end
-
-			if self.index > 0 then
-				reference.expanded = not reference.expanded;
-				window:Update();
-			else
-				if not reference.expanded then
-					reference.expanded = true;
-					window:Update();
-				end
-				if window:IsMovable() then
-					if IsAltKeyDown() then
-						-- Toggle lock/unlock by holding Alt when clicking the header of a Window if it is movable
-						window.isLocked = not window.isLocked;
-						window:RecordSettings();
-
-						-- force tooltip to refresh since locked state drives tooltip content
-						RedrawRowTooltip()
-					else
-						self:SetScript("OnMouseUp", function(self)
-							self:SetScript("OnMouseUp", nil);
-							StopMovingOrSizing(window);
-						end);
-						StartMovingOrSizing(window);
-					end
-				end
+				return
 			end
 		end
 	end
