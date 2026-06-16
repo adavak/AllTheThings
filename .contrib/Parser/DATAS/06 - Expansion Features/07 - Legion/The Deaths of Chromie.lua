@@ -8,225 +8,24 @@ root(ROOTS.ExpansionFeatures,
 			["lvl"] = 110,
 			["description"] = "The Chromie Scenario sends you through multiple timeways to defeat Chromie's attackers. As you gain reputation with Chromie by killing mobs in the scenario, you will unlock more powerful abilities for Chromie to help speed up your run. Unlike past solo scenarios like Withered Army Training, you do not need to worry about gearing up--your gear is scaled up to 1000 and your player level is increased as well to 112. You can also fly inside this scenario--unusual for instanced content.\n\nEach scenario attempt lasts 15 minutes and the ultimate goal is to defeat 8 timeways in one attempt. Progress can be speed up through obtaining items that grant extra time, buffs from Chromie, and items which auto-complete a timeway threat.",
 			["icon"] = 236699,
-			["maps"] = { DRAGONBLIGHT, 897, 898, 899, 900, 901, 902 },	-- Dragonblight / Scenario
+			["cr"] = 27856,	-- Chromie
+			["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
+			["maps"] = {	-- Scenario Maps
+				897,	-- Dragonblight
+				898,	-- The Well of Eternity
+				899,	-- The War for Andorhal
+				900,	-- The Burning of Mount Hyjal
+				901,	-- Well of Eternity
+				902,	-- The Culling of Stratholme
+			},
 			["groups"] = {
-				n(124764, {	-- Azure Dragonshrine Area
-					n(QUESTS, {
-						q(47557, {	-- Smoldering Chronoshard
-							["sourceQuest"] = 47645,	-- Voidcaller's Scroll
-							["provider"] = { "i", 150943 },	-- Smoldering Chronoshard
-							["crs"] = { 122553 },	-- Void Gargantuan
-						}),
-						q(47645, {	-- Voidcallers' Scroll
-							["provider"] = { "i", 150941 },	-- Voidcallers' Scroll
-							["crs"] = { 122552 },	-- Leyline Elemental
-						}),
-					}),
-					n(122552, {	-- Leyline Elemental
-						["groups"] = {
-							i(151141),	-- Darkened Scrap of Vellum
-						},
+				n(ACHIEVEMENTS, {
+					ach(11941, {	-- Chromie Homie
+						title(361),		-- Title: Timelord
 					}),
 				}),
-				n(124765, {	-- Emerald Dragonshrine Area
-					n(QUESTS, {
-						q(47643, {	-- The Ancients' Wisdom
-							["description"] = "Kill the |cFFFFD700Dream Tormentors|r around each ancient.",
-						}),
-						q(47559, {	-- Gleaming Chronoshard
-							["sourceQuest"] = 47643,	-- The Ancients' Wisdom
-							["provider"] = { "i", 150945 },	-- Gleaming Chronoshard
-							["crs"] = { 122875 },	-- Thalas Vylethorn
-						}),
-					}),
-					n(122548, {	-- Emerald Skytalon
-						["groups"] = {
-							i(151168, {	-- Emeraldine Plume
-								i(151166),	-- Nightmare-Catcher
-							}),
-						},
-					}),
-					n(122549, {	-- Emerald Lasher
-						["groups"] = {
-							i(151167, {	-- Twisted Fiber
-								i(151166),	-- Nightmare-Catcher
-							}),
-						},
-					}),
-				}),
-				n(124762, {	-- Obsidian Dragonshrine Area
-					n(QUESTS, {
-						q(47644, {	-- Demonic Corestone
-							["provider"] = { "i", 150938 },	-- Demonic Corestone
-							["crs"] = { 122528 },	-- Charredbone Goliath
-						}),
-						q(47558, {	-- Fel-Touched Chronoshard
-							["sourceQuest"] = 47644,	-- Demonic Corestone
-							["provider"] = { "i", 150944 },	-- Fel-Touched Chronoshard
-							["crs"] = { 122871 },	-- Zorathides
-						}),
-					}),
-				}),
-				n(124763, {	-- Ruby Dragonshrine Area
-					n(QUESTS, {
-						q(47560, {	-- Frozen Chronoshard
-							["sourceQuest"] = 47642,	-- Soul Crystal
-							["provider"] = { "i", 150946 },	-- Frozen Chronoshard
-							["crs"] = { 122874 },	-- Talar Icechill
-						}),
-						q(47642, {	-- Soul Crystal
-							["provider"] = { "i", 150940 },	-- Soul Crystal
-							["crs"] = {
-								122542,	-- Alyndriel Graveborn
-								122541,	-- Earlis the Deathrider
-								122540,	-- Festerbloat
-							},
-						}),
-					}),
-					n(122542, {	-- -Alyndriel Graveborn
-						["groups"] = {
-							i(150939),	-- Soul Crystal Fragment
-						},
-					}),
-					n(122541, {	-- Earlis the Deathrider
-						["groups"] = {
-							i(150939),	-- Soul Crystal Fragment
-						},
-					}),
-					n(122540, {	-- Festerbloat
-						["groups"] = {
-							i(150939),	-- Soul Crystal Fragment
-						},
-					}),
-				}),
-				n(122345, {	-- Battle for the Well of Eternity
-				}),
-				n(122340, {	-- The Burning of Mount Hyjal
-				}),
-				n(122344, {	-- The Culling of Stratholme
-					n(QUESTS, {
-						q(47747, {	-- Fight Plague with Fire
-							["sourceQuest"] = 47750,	-- For Emery
-							["provider"] = { "n", 123781 },	-- Emery Neill
-							["coord"] = { 56.3, 68.3, 902 },
-							["repeatable"] = true,
-							["groups"] = {
-								i(151347),	-- Town Hall Door Key
-							},
-						}),
-						q(47750, {	-- For Emery
-							["sourceQuest"] = 47746,	-- Holing Up
-							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
-							["coord"] = { 49.3, 71.7, 902 },
-							["repeatable"] = true,
-						}),
-						q(47746, {	-- Holing Up
-							["sourceQuest"] = 47745,	-- Yeah, Definitely for the Kids
-							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
-							["coord"] = { 49.3, 71.7, 902 },
-							["repeatable"] = true,
-							["groups"] = {
-								i(151493),	-- Sands of Time
-							},
-						}),
-						q(47744, {	-- Smoke, Meat, and Pretty Flowers
-							["provider"] = { "n", 123781 },	-- Emery Neill
-							["coord"] = { 56.3, 68.3, 902 },
-							["repeatable"] = true,
-							["groups"] = {
-								i(151493),	-- Sands of Time
-							},
-						}),
-						q(47745, {	-- Yeah, Definitely for the Kids
-							["sourceQuest"] = 47744,	-- Smoke, Meat, and Pretty Flowers
-							["provider"] = { "n", 123781 },	-- Emery Neill
-							["coord"] = { 56.3, 68.3, 902 },
-							["repeatable"] = true,
-						}),
-					}),
-					n(VENDORS, {
-						n(123781, {	-- Emery Neill <Barkeep>
-							["groups"] = {
-								i(151285),	-- Keg of Booty Bay Rum
-							},
-						}),
-						n(123782, {	-- Ezra Grimm
-							["groups"] = {
-								i(151284),	-- Flinty Firestarter
-								i(151280),	-- Grimm's Special Pipe Blend
-							},
-						}),
-						n(123778, {	-- George Goodman <General Goods>
-							["groups"] = {
-								i(151286),	-- Heavy Straw Rope
-								i(151281),	-- Salted Venison Jerky
-							},
-						}),
-						n(123780, {	-- Olivia Zenith
-							["groups"] = {
-								i(151283),	-- Basic Cloth Bandages
-							},
-						}),
-						n(123783, {	-- Robert Pierce
-							["groups"] = {
-								i(151282),	-- Refurbished Military Rifle
-							},
-						}),
-						n(123779, {	-- Sophie Aaren <Florist>
-							["groups"] = {
-								i(151287),	-- Marigold Bouquet
-							},
-						}),
-					}),
-				}),
-				n(122339, {	-- The War for Andorhal
-					n(QUESTS, {
-						q(47773, {	-- Sky Ablaze With Cannonfire
-							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
-							["provider"] = { "n", 124154 },	-- Chromie
-							["coord"] = { 43.9, 69.2, 899 },
-							["races"] = HORDE_ONLY,
-							["repeatable"] = true,
-							["groups"] = {
-								i(151493),	-- Sands of Time
-							},
-						}),
-						q(47772, {	-- Sky Ablaze With Cannonfire
-							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
-							["provider"] = { "n", 124154 },	-- Chromie
-							["coord"] = { 43.9, 69.2, 899 },
-							["races"] = ALLIANCE_ONLY,
-							["repeatable"] = true,
-							["groups"] = {
-								i(151493),	-- Sands of Time
-							},
-						}),
-					}),
-					n(124100, {	-- Apothecary Tillings
-						["groups"] = {
-							i(151368),	-- Experimental Alchemy Reagent
-						},
-					}),
-					n(QUALITY_ELITE, {
-						["groups"] = {
-							i(151370),	-- Military Explosives
-						},
-					}),
-					n(124095, {	-- Gatzin Zapwrench
-						["groups"] = {
-							i(151369),	-- Lightning Absorption Capsule
-						},
-					}),
-					n(124094, {	-- Potionmaster Donovan
-						["groups"] = {
-							i(151368),	-- Experimental Alchemy Reagent
-						},
-					}),
-					n(124101, {	-- Roobi Skizzelvolt
-						["groups"] = {
-							i(151369),	-- Lightning Absorption Capsule
-						},
-					}),
+				n(FACTIONS, {
+					faction(FACTION_CHROMIE),	-- Chromie
 				}),
 				n(QUESTS, {
 					q(48021, {	-- Chromie
@@ -235,80 +34,29 @@ root(ROOTS.ExpansionFeatures,
 							122926,	-- Image of Chromie
 						},
 						["coord"] = { 26.4, 44.6, LEGION_DALARAN },
-						["groups"] = {
-							i(151700),	-- Wayfinder's Sundial
-						},
+						["groups"] = { i(151700) },	-- Wayfinder's Sundial
 					}),
-					q(47810, {	-- Darkened Dreams
-						["provider"] = { "n", 122513 },	-- Lord Itharius
-						["coord"] = { 59.6, 54.6, 897 },
-						["repeatable"] = true,
-						["groups"] = {
-							i(151493),	-- Sands of Time
-						},
-					}),
-					q(47809, {	-- Darkness in the Ley
-						["provider"] = { "n", 122514 },	-- Kalecgos
-						["coord"] = { 59.5, 54.3, 897 },
-						["repeatable"] = true,
-						["groups"] = {
-							i(151493),	-- Sands of Time
-						},
-					}),
-					q(47904, {	-- Preserve the True Future
-						["sourceQuest"] = 47550,	-- The Many Advantages of Being a Time Dragon
+					q(47543, {	-- The Day That Chromie Dies
 						["provider"] = { "n", 27856 },	-- Chromie
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
-						["groups"] = {
-							currency(TIMEWARPED_BADGE),
-						},
 					}),
 					q(47545, {	-- Rewind
 						["sourceQuest"] = 47543,	-- The Day That Chromie Dies
 						["provider"] = { "n", 27856 },	-- Chromie
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
-						["groups"] = {
-							currency(TIMEWARPED_BADGE),
-						},
-					}),
-					q(47543, {	-- The Day That Chromie Dies
-						["provider"] = { "n", 27856 },	-- Chromie
-						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
-						["groups"] = {
-							currency(TIMEWARPED_BADGE),
-						},
-					}),
-					q(47808, {	-- The Dead Walk
-						["provider"] = { "n", 122511 },	-- Alexstrasza the Life-Binder
-						["coord"] = { 59.8, 54.7, 897 },
-						["repeatable"] = true,
-						["groups"] = {
-							i(151493),	-- Sands of Time
-						},
 					}),
 					q(47550, {	-- The Many Advantages of Being a Time Dragon
 						["sourceQuest"] = 47545,	-- Rewind
 						["provider"] = { "n", 27856 },	-- Chromie
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
-						["groups"] = {
-							currency(TIMEWARPED_BADGE),
-						},
 					}),
-					q(47807, {	-- Worried About My Friends
-						["provider"] = { "n", 122510 },	-- Chromie
-						["coord"] = { 60.0, 54.5, 897 },
-						["repeatable"] = true,
-						["groups"] = {
-							i(151493),	-- Sands of Time
-						},
+					q(47904, {	-- Preserve the True Future
+						["sourceQuest"] = 47550,	-- The Many Advantages of Being a Time Dragon
+						["provider"] = { "n", 27856 },	-- Chromie
+						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 					}),
-				}),
-				n(27856, {	-- Chromie (Faction)
-					ach(11941, {	-- Chromie Homie
-						title(361),		-- Title: Timelord
-					}),
-					faction(FACTION_CHROMIE),	-- Chromie
 					q(47906, {	-- The Deaths of Chromie
+						["sourceQuest"] = 47904,	-- Preserve the True Future
 						["provider"] = { "n", 27856 },	-- Chromie
 						["coord"] = { 60.0, 54.5, DRAGONBLIGHT },
 						["groups"] = {
@@ -318,8 +66,33 @@ root(ROOTS.ExpansionFeatures,
 							iensemble(151695),	-- Ensemble: Timewarden's Plate
 						},
 					}),
+					-- Repeatables
+					q(47810, {	-- Darkened Dreams
+						["provider"] = { "n", 122513 },	-- Lord Itharius
+						["coord"] = { 59.6, 54.6, 897 },
+						["repeatable"] = true,
+					}),
+					q(47809, {	-- Darkness in the Ley
+						["provider"] = { "n", 122514 },	-- Kalecgos
+						["coord"] = { 59.5, 54.3, 897 },
+						["repeatable"] = true,
+					}),
+					q(47808, {	-- The Dead Walk
+						["provider"] = { "n", 122511 },	-- Alexstrasza the Life-Binder
+						["coord"] = { 59.8, 54.7, 897 },
+						["repeatable"] = true,
+					}),
+					q(47807, {	-- Worried About My Friends
+						["provider"] = { "n", 122510 },	-- Chromie
+						["coord"] = { 60.0, 54.5, 897 },
+						["repeatable"] = true,
+					}),
 				}),
-				n(ZONE_DROPS, {	--
+				n(REWARDS, {
+					currency(TIMEWARPED_BADGE),
+					i(151493),	-- Sands of Time
+				}),
+				n(ZONE_DROPS, {
 					["groups"] = {
 						i(151493, {	-- Sands of Time
 							i(151482, {	-- Time-Lost Wallet
@@ -341,14 +114,219 @@ root(ROOTS.ExpansionFeatures,
 						}),
 					},
 				}),
+				n(124764, {	-- Azure Dragonshrine
+					n(QUESTS, {
+						q(47645, {	-- Voidcallers' Scroll
+							["provider"] = { "i", 150941 },	-- Voidcallers' Scroll (QS!)
+						}),
+						q(47557, {	-- Smoldering Chronoshard
+							["sourceQuest"] = 47645,	-- Voidcaller's Scroll
+							["provider"] = { "i", 150943 },	-- Smoldering Chronoshard (QS!)
+							["coord"] = { 56.6, 66.1, 897 },	-- Dragonblight
+						}),
+					}),
+					n(ZONE_DROPS, {
+						i(151141, {	-- Darkened Scrap of Vellum
+							["cr"] = 122552,	-- Leyline Elemental
+						}),
+						i(150943, {	-- Smoldering Chronoshard (QS!)
+							["cr"] = 122553,	-- Void Gargantuan
+						}),
+						i(150941, {	-- Voidcallers' Scroll (QS!)
+							["cost"] = { { "i", 151141, 50 } },	-- 50x Darkened Scrap of Vellum
+						}),
+					}),
+				}),
+				n(124765, {	-- Emerald Dragonshrine
+					n(QUESTS, {
+						q(47643, {	-- The Ancients' Wisdom
+							["description"] = "Use 'Nightmare-Catcher' to enter The Emerald Nightmare and kill the |cFFFFD700Dream Tormentors|r around each ancient.",
+							["cost"] = { { "i", 151166, 3 } },	-- 3x Nightmare-Catcher
+						}),
+						q(47559, {	-- Gleaming Chronoshard
+							["sourceQuest"] = 47643,	-- The Ancients' Wisdom
+							["provider"] = { "i", 150945 },	-- Gleaming Chronoshard (QS!)
+							["coord"] = { 63.9, 72.6, 897 },	-- Dragonblight
+						}),
+					}),
+					n(ZONE_DROPS, {
+						i(151168, {	-- Emeraldine Plume
+							["cr"] = 122548,	-- Emerald Skytalon
+						}),
+						i(150945, {	-- Gleaming Chronoshard (QS!)
+							["cr"] = 122875,	-- Thalas Vylethorn
+						}),
+						i(151167, {	-- Twisted Fiber
+							["cr"] = 122549,	-- Emerald Lasher
+						}),
+						i(151166, {	-- Nightmare-Catcher
+							["cost"] = {
+								{ "i", 151168,  8 },	--  8x Emeraldine Plume
+								{ "i", 151167, 10 },	-- 10x Twisted Fiber
+							},
+						}),
+					}),
+				}),
+				n(124762, {	-- Obsidian Dragonshrine
+					n(QUESTS, {
+						q(47644, {	-- Demonic Corestone
+							["provider"] = { "i", 150938 },	-- Demonic Corestone (QS!)
+						}),
+						q(47558, {	-- Fel-Touched Chronoshard
+							["sourceQuest"] = 47644,	-- Demonic Corestone
+							["provider"] = { "i", 150944 },	-- Fel-Touched Chronoshard (QS!)
+							["coord"] = { 37.9, 31.1, 897 },	-- Dragonblight
+						}),
+					}),
+					n(ZONE_REWARDS, {
+						i(150938, {	-- Demonic Corestone (QS!)
+							["cr"] = 122528,	-- Charredbone Goliath
+						}),
+						i(150944, {	-- Fel-Touched Chronoshard (QS!)
+							["cr"] = 122871,	-- Zorathides
+						}),
+					}),
+				}),
+				n(124763, {	-- Ruby Dragonshrine
+					n(QUESTS, {
+						q(47642, {	-- Soul Crystal
+							["provider"] = { "i", 150940 },	-- Soul Crystal (QS!)
+						}),
+						q(47560, {	-- Frozen Chronoshard
+							["sourceQuest"] = 47642,	-- Soul Crystal
+							["provider"] = { "i", 150946 },	-- Frozen Chronoshard (QS!)
+							["coord"] = { 47.6, 48.8, 897 },	-- Dragonblight
+						}),
+					}),
+					n(ZONE_REWARDS, {
+						i(150946, {	-- Frozen Chronoshard (QS!)
+							["cr"] = 122874,	-- Talar Icechill
+						}),
+						i(150939, {	-- Soul Crystal Fragment
+							["crs"] = {
+								122542,	-- Alyndriel Graveborn
+								122541,	-- Earlis the Deathrider
+								122540,	-- Festerbloat
+							},
+						}),
+						i(150940, {	-- Soul Crystal (QS!)
+							["cost"] = { { "i", 150939, 3 } },	-- 3x Soul Crystal Fragment
+						}),
+					}),
+				}),
+				n(122345, {	-- Battle for the Well of Eternity
+				}),
+				n(122340, {	-- The Burning of Mount Hyjal
+				}),
+				n(122344, {	-- The Culling of Stratholme
+					n(QUESTS, {
+						q(47744, {	-- Smoke, Meat, and Pretty Flowers
+							["provider"] = { "n", 123781 },	-- Emery Neill
+							["coord"] = { 56.3, 68.3, 902 },
+							["repeatable"] = true,
+						}),
+						q(47745, {	-- Yeah, Definitely for the Kids
+							["sourceQuest"] = 47744,	-- Smoke, Meat, and Pretty Flowers
+							["provider"] = { "n", 123781 },	-- Emery Neill
+							["coord"] = { 56.3, 68.3, 902 },
+							["repeatable"] = true,
+						}),
+						q(47746, {	-- Holing Up
+							["sourceQuest"] = 47745,	-- Yeah, Definitely for the Kids
+							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
+							["coord"] = { 49.3, 71.7, 902 },
+							["repeatable"] = true,
+						}),
+						q(47750, {	-- For Emery
+							["sourceQuest"] = 47746,	-- Holing Up
+							["provider"] = { "n", 123790 },	-- Orphan Matron Meliana
+							["coord"] = { 49.3, 71.7, 902 },
+							["repeatable"] = true,
+						}),
+						q(47747, {	-- Fight Plague with Fire
+							["sourceQuest"] = 47750,	-- For Emery
+							["provider"] = { "n", 123781 },	-- Emery Neill
+							["coord"] = { 56.3, 68.3, 902 },
+							["repeatable"] = true,
+							["groups"] = { i(151347) },	-- Town Hall Door Key
+						}),
+					}),
+					n(VENDORS, {
+						n(123781, {	-- Emery Neill <Barkeep>
+							["coord"] = { 56.3, 68.4, 902 },	-- The Culling of Stratholme
+							["groups"] = { i(151285) },	-- Keg of Booty Bay Rum (QI!)
+						}),
+						n(123782, {	-- Ezra Grimm
+							["coord"] = { 41.5, 70.7, 902 },	-- The Culling of Stratholme
+							["groups"] = {
+								i(151284),	-- Flinty Firestarter (QI!)
+								i(151280),	-- Grimm's Special Pipe Blend (QI!)
+							},
+						}),
+						n(123778, {	-- George Goodman <General Goods>
+							["coord"] = { 61.8, 35.3, 902 },	-- The Culling of Stratholme
+							["groups"] = {
+								i(151286),	-- Heavy Straw Rope (QI!)
+								i(151281),	-- Salted Venison Jerky (QI!)
+							},
+						}),
+						n(123780, {	-- Olivia Zenith
+							["coord"] = { 62.9, 43.2, 902 },	-- The Culling of Stratholme
+							["groups"] = { i(151283) },	-- Basic Cloth Bandages (QI!)
+						}),
+						n(123783, {	-- Robert Pierce
+							["coord"] = { 58.1, 46.1, 902 },	-- The Culling of Stratholme
+							["groups"] = { i(151282) },	-- Refurbished Military Rifle (QI!)
+						}),
+						n(123779, {	-- Sophie Aaren <Florist>
+							["coord"] = { 63.9, 55.6, 902 },	-- The Culling of Stratholme
+							["groups"] = { i(151287) },	-- Marigold Bouquet (QI!)
+						}),
+					}),
+				}),
+				n(122339, {	-- The War for Andorhal
+					n(QUESTS, {
+						q(47773, {	-- Sky Ablaze With Cannonfire
+							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
+							["provider"] = { "n", 124154 },	-- Chromie
+							["coord"] = { 43.9, 69.2, 899 },	-- The War for Andorhal
+							["races"] = HORDE_ONLY,
+							["repeatable"] = true,
+						}),
+						q(47772, {	-- Sky Ablaze With Cannonfire
+							["sourceQuest"] = 47559,	-- Gleaming Chronoshard
+							["provider"] = { "n", 124154 },	-- Chromie
+							["coord"] = { 43.9, 69.2, 899 },	-- The War for Andorhal
+							["races"] = ALLIANCE_ONLY,
+							["repeatable"] = true,
+						}),
+					}),
+					n(ZONE_DROPS, {
+						i(151368, {	-- Experimental Alchemy Reagent
+							["crs"] = {
+								124100,	-- Apothecary Tillings
+								124094,	-- Potionmaster Donovan
+							},
+						}),
+						i(151369, {	-- Lightning Absorption Capsule
+							["crs"] = {
+								124095,	-- Gatzin Zapwrench
+								124101,	-- Roobi Skizzelvolt
+							},
+						}),
+						n(QUALITY_ELITE, {
+							i(151370),	-- Military Explosives
+						}),
+					}),
+				}),
 			},
 		})),
 	})
 );
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 } }, {
-		m(897, {
+	expansion(EXPANSION.LEGION, {
+		m(897, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 } }, {
 			q(48032),	-- FLAG - Hyjal Scene Seen - immediately upon entering Hyjal
 			q(47829),	-- FLAG - Hyjal Complete - kill the fiery behemoth
 			q(47830),	-- FLAG - Andorhal Complete
@@ -366,11 +344,16 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(47934),	-- Tracking Quest - kill Dregmar Runebrand
 			q(47937),	-- Tracking Quest - kill Iceshatter
 			q(47935),	-- Tracking Quest - kill Icefist
-		}),
-	})),
-	expansion(EXPANSION.SL, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2 } }, {
-		m(897, {
-			q(64652),	-- unknown reason in Chromie Scenario
-		}),
-	})),
+		})),
+	}),
+	expansion(EXPANSION.SL, {
+		m(897, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2 } }, {
+			q(64652),	-- unknown reason in 'The Deaths of Chromie' scenario
+		})),
+	}),
+	expansion(EXPANSION.TWW, {
+		m(897, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			q(84587),	-- Triggered on first zoning into 'The Deaths of Chromie' scenario
+		})),
+	}),
 });
