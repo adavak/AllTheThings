@@ -38,6 +38,7 @@ app:CreateWindow("Commands", {
 				rows[#rows + 1] = app.CreateRawText("/att " .. command, {
 					visible = true,
 					description = GetCommandDescription(command:lower()),
+					OnUpdate = app.AlwaysShowUpdate,
 					OnClick = function(row)
 						local cmd = command:lower()
 						local handler = app.ChatCommands[cmd]
