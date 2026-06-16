@@ -870,21 +870,11 @@ local function UpdateVisibleRowData(self)
 
 			local shift = math.floor(rowHeight / 2 + 0.1)
 			local row
-			-- TODO: testing moving this switch to a cached function assigned via settings OnSet event
-			if AdjustRowIndents then
-				local adjustBy = minIndent - 2
-				for i=2,rowCount do
-					row = rows[i];
-					if row.indent then
-						row.Texture:SetPoint("LEFT", row, "LEFT", (row.indent - adjustBy) * shift, 0);
-					end
-				end
-			else
-				for i=2,rowCount do
-					row = rows[i];
-					if row.indent then
-						row.Texture:SetPoint("LEFT", row, "LEFT", row.indent * shift, 0);
-					end
+			local indentOffset = AdjustRowIndents and (minIndent - 2) or 0
+			for i=2,rowCount do
+				row = rows[i];
+				if row.indent then
+					row.Texture:SetPoint("LEFT", row, "LEFT", (row.indent - indentOffset) * shift, 0);
 				end
 			end
 		end
