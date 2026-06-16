@@ -309,9 +309,13 @@ root(ROOTS.Zones, {
 						["cost"] = {
 							{ "i", 23784, 1 },	-- Adamantite Frame
 							{ "i", 23793, 4 },	-- Heavy Knothide Leather
-							{ "i", 30823, 1 },	-- Demon Warding Totem
 						},
 						["lvl"] = lvlsquish(67, 67, 25),
+						["groups"] = {
+							objective(3, {	-- Demon Warding Totem
+								["providers"] = { "i", 30823 },	-- Demon Warding Totem
+							}),
+						},
 					}),
 					q(10628, {	-- Akama
 						["sourceQuest"] = 10622,	-- Proof of Allegiance

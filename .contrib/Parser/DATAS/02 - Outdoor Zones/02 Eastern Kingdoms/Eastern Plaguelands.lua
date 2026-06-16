@@ -3429,9 +3429,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/1 The Grand Crusader's Command
 							["provider"] = { "i", 13852 },	-- The Grand Crusader's Command
-							["cost"] = {
-								{ "i", 15876, 1 },	-- Nathanos' Chest
-								{ "i", 15875, 1 },	-- Rotten Apple
+						}),
+						i(15876, {	-- Nathanos' Chest
+							["groups"] = {
+								i(15875),	-- Rotten Apple
+								i(13852),	-- The Grand Crusader's Command
 							},
 						}),
 					},

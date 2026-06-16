@@ -716,6 +716,11 @@ root(ROOTS.Zones, {
 						["sourceQuest"] = 10853,	-- Spirit Calling
 						["qg"] = 22312,	-- Spiritcaller Dohgar
 						["coord"] = { 74.9, 60.5, BLADES_EDGE_MOUNTAINS },
+						["groups"] = {
+							objective(1, {	-- 0/15 Razaani Light Orb collected
+								["provider"] = { "i", 31668 },	-- Orb Collecting Totem
+							}),
+						},
 						["races"] = HORDE_ONLY,
 						["lvl"] = lvlsquish(65, 65, 20),
 					}),
@@ -1168,6 +1173,10 @@ root(ROOTS.Zones, {
 						["coord"] = { 76.1, 60.3, BLADES_EDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
 						["lvl"] = lvlsquish(65, 65, 20),
+						["cost"] = {
+							{ "i", 31670, 3 },	-- Raptor Ribs
+							{ "i", 31671, 3 },	-- Serpent Flesh
+						},
 						["groups"] = {
 							i(31674),	-- Recipe: Crunchy Serpent (RECIPE!)
 							i(31675),	-- Recipe: Mok'Nathal Shortribs (RECIPE!)
@@ -2003,12 +2012,14 @@ root(ROOTS.Zones, {
 					q(10867, {	-- There Can Be Only One Response
 						["sourceQuest"] = 10865,	-- Inform Leoroxx!
 						["qg"] = 22004,	-- Leoroxx
+						["description"] = "Nexus-Prince Razaan spawns after killing etereals in the area.",
 						["coord"] = { 75.3, 60.9, BLADES_EDGE_MOUNTAINS },
 						["races"] = HORDE_ONLY,
 						["lvl"] = lvlsquish(65, 65, 20),
 						["groups"] = {
 							objective(1, {	-- 0/1 Collection of Souls
 								["providers"] = {
+									{ "n", 21057 },	-- Nexus-Prince Razaan
 									{ "i", 30890 },	-- Collection of Souls
 									{ "o", 185033 },	-- Collection of Souls
 								},
