@@ -253,10 +253,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 					i(161254),	-- Rastari Pants
 				}),
 			})),
-			-- 8.2.0
-			expansion(EXPANSION.BFA, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } }, {
-				q(56717),	--
-			})),
 		}),
 	}),
 	f(MISC, {
@@ -528,6 +524,7 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 				q(56618),	-- killed Tidelord Aquatus (153898)?
 				q(56666, {["repeatable"]=true}),	-- Unflagged at some point for L:80 R:10 (BloodElf) C:9 (WARLOCK)
 				q(56667),	--
+				q(56717),	--
 				q(56742),	--
 				q(56744),	--
 				q(56844),	--
