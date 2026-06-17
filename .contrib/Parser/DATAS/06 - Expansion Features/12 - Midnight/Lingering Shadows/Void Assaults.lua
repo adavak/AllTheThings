@@ -123,6 +123,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["description"] = "This pet can drop only during Void Assault in Zul'Aman.",
 						}),
 					}),
+					-- Nearly all cosmetics are added to vendor with 12.0.7.
+					-- Only Forest Hunter's Quiver did not make it to vendor bags it seems.
+					-- #if AFTER 12.0.7
+					filter(COSMETIC, {
+						i(271050),	-- Forest Hunter's Quiver (COSMETIC!)
+					}),
+					-- #else
 					filter(COSMETIC, {
 						i(271013),	-- Adherent's Wriggling Backstabber (COSMETIC!)
 						i(270992),	-- Amani Hex Crest (COSMETIC!)
@@ -186,6 +193,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(271046),	-- Voodoo Hex Stick (COSMETIC!)
 						i(271048),	-- Wriggling Tentacle Fetish (COSMETIC!)
 					}),
+					-- #endif
 					n(LEVELING_CHARACTERS, {
 						n(ARMOR, {
 							n(BACK, {
