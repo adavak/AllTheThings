@@ -357,7 +357,6 @@ root(ROOTS.Unsorted, {
 			filter(MOUNTS, {
 				-- From raid??
 				i(269240),	-- Luminous Sporeglider
-				i(269245),	-- Delicious Sporesnack
 
 				i(273317),	-- Blackwater X-TREME Firework Rocket
 				i(273650),	-- Green Rocket Mount [PH]

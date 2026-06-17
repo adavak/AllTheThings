@@ -42,13 +42,14 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
 
-root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
+root(ROOTS.Instances, expansion(EXPANSION.MID, {
 	inst(1305, {	-- Sporefall
 		["coord"] = { 73.5, 66.4, MAP.MIDNIGHT.HARANDAR },
 		["maps"] = {
 			2427, -- Sporefall
 		},
 		["isRaid"] = true,
+		["timeline"] = { ADDED_12_0_7 },
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 			}),
@@ -72,6 +73,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
                     i(264367),	-- Mycomancer's Hearthspore (TOY!)
 					i(268280),	-- Sporelord's Shroom Cap (COSMETIC!)
 					-- mount thingy drops once per week, needs 4 in total
+					i(269245),	-- Delicious Sporesnack
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.LFR).AddGroupsWithUpgrades({
@@ -109,7 +111,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				--ZoneDrops({}),
 				Boss(ROTMIRE),
 			}),
-			Difficulty(DIFFICULTY.RAID.MYTHIC).AddGroups({
+			Difficulty(DIFFICULTY.RAID.MYTHIC, {
+				["difficulties"] = { DIFFICULTY.RAID.MYTHIC_FLEX },	-- technically the only difficulty, but Blizzard gave it a long name
+			}).AddGroups({
 				CommonBossDrops({
 					currency(MYTH_DAWNCREST, {
 						["timeline"] = { ADDED_12_0_7, REMOVED_12_1_0 },
@@ -123,4 +127,13 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 			}),
 		},
 	}),
-})));
+}))
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	inst(1305, {	-- Sporefall
+		["timeline"] = { ADDED_12_0_7 },
+		["groups"] = {
+			q(95405),	-- Mythic Rotmire
+		},
+	}),
+}))
