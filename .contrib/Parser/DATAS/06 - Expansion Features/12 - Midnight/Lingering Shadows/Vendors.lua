@@ -219,6 +219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						i(263929, {	-- Cache of Void-Touched Armaments (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 500 } },
+							["skipFill"] = true,
 							["sym"] = { { "select", "itemID", 263928 },{"pop"} },	-- Cache of Void-Touched Armaments (Champion)
 						}),
 						i(276380, {	-- Cache of Void-Touched Armaments: Belts (Heroic)
