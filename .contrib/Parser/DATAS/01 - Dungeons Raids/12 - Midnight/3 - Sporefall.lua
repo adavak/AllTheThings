@@ -55,7 +55,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
             n(QUESTS, {
                 q(96746, {  -- Sporefall: Rotmire
                     ["qg"] = 266165,    -- Sporomir
-                    ["coord"] = { 36.5, 68.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+                    ["coord"] = { 36.8, 68.7, MAP.MIDNIGHT.SILVERMOON_CITY },
                     ["groups"] = {
                         i(269258),	-- Void-Twisted Sporbit
                     },
