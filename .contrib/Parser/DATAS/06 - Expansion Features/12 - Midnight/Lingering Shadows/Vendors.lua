@@ -272,7 +272,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						i(268996, {	-- Field Accolade (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
 							["cost"] = { { "i", DARK_PARTICLE, 100 } },
-							["groups"] = { currency(FIELD_ACCOLADE), },
+						-- Removing Display of Field Accolades. Creates insane 200+ Items bloat. 
+						-- You can farm 300-400 Particles/hour, so 30-40 accolades. Or you can directly farm 1000+ Accolades/hour
+						--	["groups"] = { currency(FIELD_ACCOLADE), },
 						}),
 						i(277124, {	-- Warbound Cache of Void-Touched Armaments (Champion)
 							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
