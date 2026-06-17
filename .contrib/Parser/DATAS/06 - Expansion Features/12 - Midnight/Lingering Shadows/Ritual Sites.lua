@@ -346,7 +346,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["provider"] = { "i", 275520 },	-- Technoseer's Communique (QS!)
 								["coord"] = { 74.2, 73.5, NAIGTAL },
 							}),
-							q(97293, {	-- TODO Stay A While???
+							hqt(97293, {	-- Stay awhile and listen: Riftblade Maella
+								["sourceQuest"] = 96052,	-- Through the Mana Rift
+								["name"] = "Stay awhile and listen: Riftblade Maella",
+								["qg"] = 264024,	-- Riftblade Maella
 								["coord"] = { 48.5, 82.1, NAIGTAL },
 							}),
 							-- Repeatable
@@ -456,16 +459,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(WORLD_QUESTS, bubbleDownFiltered({	-- Bonus Objectives in this case behave like (repeatable) World Quests
 							["isWorldQuest"] = true,
 						},FILTERFUNC_questID,{
-							q(96696, {	-- Base Camp Tendril Sling
+							q(96696, {	-- Base Camp Tendril Sling (Bonus Objective)
 								["coord"] = { 45.6, 78.9, NAIGTAL },
 							}),
 							q(96623, {	-- Capsized Compost
 								["coord"] = { 63.5, 60.9, NAIGTAL },
 							}),
-							q(96691, {	-- Command Point Tendril Sling
+							q(96691, {	-- Command Point Tendril Sling (Bonus Objective)
 								["coord"] = { 72.5, 80.6, NAIGTAL },
 							}),
-							q(96697, {	-- Extraction Coast Tendril Sling
+							q(96697, {	-- Extraction Coast Tendril Sling (Bonus Objective)
 								["coord"] = { 29.0, 60.6, NAIGTAL },
 							}),
 							q(96557, {	-- Flying Debris
@@ -492,6 +495,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							}),
 							q(96522, {	-- Oh Captain, Die Captain!
 								["coord"] = { 77.0, 75.7, NAIGTAL },
+								["crs"] = {
+									260875,	-- Nexus-Captain Leth'ir
+									260833,	-- Adjutant Mertei
+								},
+							}),
+							q(96942, {	-- Oh Captain, Die Captain! (Heroic)
+								["coord"] = { 77.0, 75.7, NAIGTAL },
+								["crs"] = {
+									260875,	-- Nexus-Captain Leth'ir
+									260833,	-- Adjutant Mertei
+								},
 							}),
 							q(96432, {	-- Power Overload
 								["coord"] = { 70.7, 44.2, NAIGTAL },
@@ -834,7 +848,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					q(95548, {	-- Tainted Sample
 						["provider"] = { "i", 270562 },	-- Tainted Sample (QS!/QI!)
 					}),
-					q(97256, {	-- Knocking Off the Top
+					q(97256, {	-- Knocking Off the Top (Heroic!)
 						["sourceQuest"] = 96052,	-- Through the Mana Rift
 						["qg"] = 265303,	-- Decimus
 						["coords"] = {
