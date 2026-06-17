@@ -579,7 +579,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			header(HEADERS.Achievement, 61263, {	-- Treasures of Harandar
 				o(572998, {	-- Burning Branch of the World Tree
-					["coord"] = { 47.1, 50.2, MAP.MIDNIGHT.HARANDAR },
+					["coord"] = { 47.0, 50.4, MAP.MIDNIGHT.HARANDAR },
 					["questID"] = 92426,
 					["groups"] = {
 						i(258900),	-- Charred World Tree Branch (gray item)

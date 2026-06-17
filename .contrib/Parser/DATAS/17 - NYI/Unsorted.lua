@@ -61,8 +61,6 @@ root(ROOTS.Unsorted, {
 				i(274867),	-- Inscribed Domanaar's Sword
 				i(274868),	-- Portal Master's Shortblade
 				i(274869),	-- Void-Iced Warglaives
-				i(274870),	-- Assassin's Void-String Bow
-				i(274872),	-- Darkness's Horrific Barb
 				i(274873),	-- Funeral Attendant's Spire
 				i(274874),	-- Flickering Wing Seperator
 				i(274875),	-- Rift Walker's Lantern
@@ -87,7 +85,6 @@ root(ROOTS.Unsorted, {
 				i(275153),	-- Flickering Scale Sabatons
 				i(275154),	-- Swamp Trekker's Grips
 				i(275155),	-- Interminable Fungal Helmet
-				i(275156),	-- Gear-Linked Leggings
 				i(275157),	-- Swampwalker's Spaulders
 				i(275158),	-- Voidwarped Scale Girdle
 				i(275159),	-- Construct Manipulator Bracers
@@ -108,21 +105,14 @@ root(ROOTS.Unsorted, {
 				i(274879),	-- Mana-Amplified Crusher
 				i(274881),	-- Phase Igniter
 				i(274884),	-- Arcanografter's Beacon
-				i(274885),	-- Phase-Edged Falchion
 				i(274886),	-- Eradicator's Censer
 				i(274887),	-- Mana-Overloaded Bulwark
-				i(275216),	-- Phaseblade's Edges
-				i(275217),	-- Nexus-Captain's Phaseblade
-				i(275218),	-- Mertei's Command Baton
 				i(275219),	-- Pertinax's Beast Prod
 				i(275220),	-- Imperator's Voidedged Cutlass
 				i(275221),	-- Beast Collector's Cudgel
 				i(275222),	-- Base Commander's Decapitator
-				i(275223),	-- Phasebolt Thrower
-				i(275224),	-- Mertei's Adjutant Leggings
 				i(275225),	-- Toxic Voidscythe Spaulders
 				i(275226),	-- Shredclaw Handler's Grips
-				i(275227),	-- Leth'ir's Dress Sabatons
 			}),
 			filter(BATTLE_PETS, {
 				i(275818),	-- Pinky
@@ -352,12 +342,10 @@ root(ROOTS.Unsorted, {
 				-- Delve
 				i(275910),	-- Beacon of Hope
 				-- Cache
-				i(275691),	-- Riftstalker's Overflowing Cache
 			}),
 			filter(MOUNTS, {
 				-- From raid??
 				i(269240),	-- Luminous Sporeglider
-
 				i(273317),	-- Blackwater X-TREME Firework Rocket
 				i(273650),	-- Green Rocket Mount [PH]
 				i(273651),	-- Bligewater X-TREME Firework Rocket
@@ -365,7 +353,6 @@ root(ROOTS.Unsorted, {
 				i(274681),	-- Badlands Buzzard
 			}),
 			filter(QUEST_ITEMS, {
-				i(272975),	-- Hal'Hadar Keeper Keycode
 				i(274580),	-- Primessence of Disorder
 				i(274913),	-- Brazier Pieces
 				i(274924),	-- Spore Infused Lungs
@@ -522,7 +509,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(TITLES, {
 				title(749),	-- Darkspear Dasher <Name>
-				title(772),	-- Void Breacher <Name>
 			}),
 			filter(TOYS, {
 				i(267472),	-- Gnomatic Projector (TOY!)

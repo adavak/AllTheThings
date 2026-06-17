@@ -108,7 +108,9 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 				mapped(ach(61807, {	-- Midnight Delves: Tier 11 (Season 1)
 					title(550),	-- High Explorer <Name>
 				})),
-				ach(61796),	-- Midnight: Journey's End (Season 1)
+				ach(61796, {	-- Midnight: Journey's End (Season 1)
+					title(772, { ["timeline"] = { ADDED_12_0_5 } }),	-- Void Breacher <Name>
+				}),
 			}),
 			n(CURIO, {
 				--Combat

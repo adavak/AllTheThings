@@ -11,8 +11,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 42.1, 58.7, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["groups"] = {
 					i(259996, {	-- Quel'Thalas Equipment Chest
-					 	["timeline"] = { "added 12.0.5.67602" },
-					 	["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
+						["timeline"] = { "added 12.0.5.67602" },
+						["cost"] = { { "c", VOIDLIGHT_MARL, 750 } },
 						["sym"] = {
 							-- MID Season 1 dungeons (Normal+ difficulty)
 							{"select", "instanceID"
@@ -373,6 +373,29 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["groups"] = bubbleDown({ ["timeline"] = { ADDED_12_0_5 } }, {
 					i(273307),	-- Vial of Intrepid Lemonade
 				}),
+			}),
+			n(267859, {	-- Richmond <Sporting Goods>
+				["coord"] = { 39.4, 59.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["timeline"] = { ADDED_12_0_7 },
+				["groups"] = {
+					i(274450),	-- Alliance Tabard of Participation (COSMETIC!)
+					i(274451),	-- Horde Tabard of Participation (COSMETIC!)
+					i(274736),	-- Framed Alliance Pride (DECOR!)
+					i(274734),	-- Framed Horde Pride (DECOR!)
+					i(276281, {	-- Kickable Practice Ball
+						ach(63343, {	-- Goal!
+							["description"] = "Kick three balls from the center of the field into either nearby goal.",
+							["coord"] = { 39.4, 59.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+							["groups"] = {
+								i(274736),	-- Framed Alliance Pride (DECOR!)
+								i(274734),	-- Framed Horde Pride (DECOR!)
+								i(274731),	-- Prized Orb of Azeroth (DECOR!)
+							},
+						}),
+					}),
+					-- No achievement file for silvermoon, not sure if one is needed
+					i(274731),	-- Prized Orb of Azeroth (DECOR!)
+				},
 			}),
 			n(239676, {	-- Vaskarn
 				["coord"] = { 48.6, 62.0, MAP.MIDNIGHT.SILVERMOON_CITY },

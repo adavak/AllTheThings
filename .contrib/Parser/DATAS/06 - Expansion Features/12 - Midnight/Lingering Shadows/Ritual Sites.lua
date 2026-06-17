@@ -160,8 +160,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					["timeline"] = { ADDED_12_0_7 },
 					["cr"] = 264322,	-- Greater Void Portal
 					["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
-					--["maps"] = {
-					--},
+					["maps"] = {
+						2646,	-- Vilaldoun
+					},
 					["groups"] = {
 						n(ACHIEVEMENTS, {
 							ach(63385),	-- A Hal'hadar Walks into a Swamp
@@ -241,6 +242,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 									--
 									i(276371),	-- Lightveil Recall Beacon (TOY!)
 								},
+							}),
+							q(96744, {	-- Bouncy Mushrooms
+								["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
+								["qg"] = 265559,	-- Kifaan
+								["coord"] = { 47.7, 81.2, NAIGTAL },
+								["groups"] = { i(275256) },	-- Canopy Specimen (QI!)
+							}),
+							q(96745, {	-- Aerospores
+								["sourceQuest"] = 96744,	-- Bouncy Mushrooms
+								["qg"] = 265559,	-- Kifaan
+								["coord"] = { 47.7, 81.2, NAIGTAL },
+							}),
+							q(96845, {	-- The Grappler
+								["sourceQuest"] = 96745,	-- Aerospores
+								["qg"] = 265581,	-- Zuronar <Lightveil Artificer>
+								["coord"] = { 48.1, 83.2, NAIGTAL },
 							}),
 							q(96472, {	-- The Nexus-Captain
 								["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
@@ -329,6 +346,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["provider"] = { "i", 275520 },	-- Technoseer's Communique (QS!)
 								["coord"] = { 74.2, 73.5, NAIGTAL },
 							}),
+							q(97293, {	-- TODO Stay A While???
+								["coord"] = { 48.5, 82.1, NAIGTAL },
+							}),
 							-- Repeatable
 							q(96717, {	-- Showdown on Naigtal
 								["sourceQuest"] = 96052,	-- Through the Mana Rift
@@ -339,6 +359,46 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								},
 								["groups"] = { i(275690) },	-- Riftstalker's Cache
 								["isWeekly"] = true,
+							}),
+							q(96718, {	-- Showdown on Naigtal (Heroic)
+								["sourceQuest"] = 96052,	-- Through the Mana Rift
+								["qg"] = 265303,	-- Decimus
+								["coords"] = {
+									{ 48.2, 81.2, NAIGTAL },
+									{ 48.5, 81.9, NAIGTAL },
+								},
+								["groups"] = { i(275691) },	-- Riftstalker's Overflowing Cache
+								["isWeekly"] = true,
+							}),
+							q(97084, {	-- More Disruption: Naigtal
+								["sourceQuest"] = 96717,	-- Showdown on Naigtal
+								["qg"] = 265303,	-- Decimus
+								["coords"] = {
+									{ 48.2, 81.2, NAIGTAL },
+									{ 48.5, 81.9, NAIGTAL },
+								},
+								["isWeekly"] = true,
+								["groups"] = { i(276387) },	-- Riftstalker's Favor
+							}),
+							q(97087, {	-- More Disruption: Naigtal (Heroic)
+								["sourceQuest"] = 96718,	-- Showdown on Naigtal (Heroic)
+								["qg"] = 265303,	-- Decimus
+								["coords"] = {
+									{ 48.2, 81.2, NAIGTAL },
+									{ 48.5, 81.9, NAIGTAL },
+								},
+								["isWeekly"] = true,
+								["groups"] = { i(276388) },	-- Riftstalker's Overflowing Favor
+							}),
+							q(97085, {	-- Dangerous Enemies: Naigtal
+								--["sourceQuest"] = ??
+								["isWeekly"] = true,
+								["groups"] = { i(276389) },	-- Riftstalker's Prize
+							}),
+							q(97086, {	-- Dangerous Enemies: Naigtal (Heroic)
+								--["sourceQuest"] = ??
+								["isWeekly"] = true,
+								["groups"] = { i(276390) },	-- Riftstalker's Overflowing Prize
 							}),
 						}),
 						n(RARES, {
@@ -369,11 +429,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
 								--["questID"] = XXXXX,
+								["groups"] = { i(276298) },	-- Forgotten Fel-Shard Talon
 							}),
 							n(264574, {	-- Warp Agent Xi'grivr
 								["coord"] = { 70.3, 76.4, NAIGTAL },
 								["questID"] = 96319,
-								["groups"] = { i(274821) },	-- Drape of the Hal'hadar Assassin
+								["groups"] = {
+									i(274870),	-- Assassin's Void-String Bow
+									i(274821),	-- Drape of the Hal'hadar Assassin
+								},
 							}),
 						}),
 						n(REWARDS, {
@@ -395,11 +459,21 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							q(96696, {	-- Base Camp Tendril Sling
 								["coord"] = { 45.6, 78.9, NAIGTAL },
 							}),
+							q(96623, {	-- Capsized Compost
+								["coord"] = { 63.5, 60.9, NAIGTAL },
+							}),
 							q(96691, {	-- Command Point Tendril Sling
 								["coord"] = { 72.5, 80.6, NAIGTAL },
 							}),
+							q(96697, {	-- Extraction Coast Tendril Sling
+								["coord"] = { 29.0, 60.6, NAIGTAL },
+							}),
 							q(96557, {	-- Flying Debris
 								["coord"] = { 54.9, 33.6, NAIGTAL },
+							}),
+							q(95575, {	-- Forest Mana Spores
+								--TODO["coord"] = { 54.9, 33.6, NAIGTAL },
+								["groups"] = { i(269934) },	-- Mana Spore (QI!)
 							}),
 							q(96548, {	-- High Spore (Bonus Objective)
 								["coord"] = { 53.1, 67.0, NAIGTAL },
@@ -426,6 +500,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							q(96000, {	-- Skiff Joyride
 								["coord"] = { 62.1, 58.5, NAIGTAL },
 							}),
+							q(96217, {	-- Sporadic Power Drain
+								["coord"] = { 84.1, 36.8, NAIGTAL },
+								["groups"] = { i(272975) },	-- Hal'hadar Keeper Keycode (QI!)
+							}),
+							q(96688, {	-- Sporeforge Tendril Sling
+								["coord"] = { 85.9, 42.9, NAIGTAL },
+							}),
 							q(96650, {	-- Subdue the Spore Storm (Bonus Objective)
 								["coord"] = { 51.6, 58.1, NAIGTAL },
 							}),
@@ -438,8 +519,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							q(96547, {	-- Weaken Their Forces
 								["coord"] = { 76.3, 75.9, NAIGTAL },
 							}),
+							q(96660, {	-- Wreckage Tendril Sling
+								["coord"] = { 34.8, 31.6, NAIGTAL },
+							}),
 						})),
 						n(ZONE_DROPS, {
+							i(276288),	-- Forgotten Sword of Vilaldoun (COSMETIC!)
 							i(275520, {	-- Technoseer's Communique (QS!)
 								["cr"] = 265537,	-- Hal'hadar Forge Grunt
 								["coord"] = { 74.2, 73.5, NAIGTAL },
@@ -689,6 +774,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(271974),	-- Ritual Spoils (Tier 3)
 						i(271975),	-- Ritual Spoils (Tier 4)
 						i(271976),	-- Ritual Spoils (Tier 5)
+						i(271977, { ["timeline"] = { ADDED_12_0_7 } }),	-- Ritual Spoils (Tier 6)
 						i(273855),	-- Ritual Tablet (1st Ritual of the Week)
 						i(273856),	-- Ritual Tablet Fragment (2nd Ritual of the Week)
 						i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
@@ -747,6 +833,28 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					}),
 					q(95548, {	-- Tainted Sample
 						["provider"] = { "i", 270562 },	-- Tainted Sample (QS!/QI!)
+					}),
+					q(97256, {	-- Knocking Off the Top
+						["sourceQuest"] = 96052,	-- Through the Mana Rift
+						["qg"] = 265303,	-- Decimus
+						["coords"] = {
+							{ 48.2, 81.2, NAIGTAL },
+							{ 48.5, 81.9, NAIGTAL },
+							--val coords too
+						},
+						["timeline"] = { ADDED_12_0_7 },
+						["groups"] = {
+							i(277554),	-- Void Commander's Emblem (QI!)
+							--
+							i(276789),	-- Lightveil Watcher's Vambraces
+							i(276799),	-- Riftstalker's Shade Cloak
+							i(276791),	-- Tala'saan's Training Belt
+						},
+					}),
+					q(96728, {	-- Ritual Site Studies: Week 1 of 3
+						["qg"] = 267813,	-- Image of Lady Darkglen
+						["timeline"] = { ADDED_12_0_7 },
+						["coord"] = { 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
 				}),
 				n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.

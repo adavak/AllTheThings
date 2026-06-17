@@ -401,15 +401,20 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["qg"] = 264063,	-- Magister Umbric
 							["coord"] = { 38.9, 48.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
+						q(96225, {	-- The Magisters' Conundrum
+							["sourceQuest"] = 96223,	-- The Magister's Call
+							["qg"] = 264064,	-- Grand Magister Rommath
+							["coord"] = { 38.9, 48.5, MAP.MIDNIGHT.SILVERMOON_CITY },
+						}),
 						q(96227, {	-- Lycaneum Chaos
 							["sourceQuest"] = 96224,	-- The Magister's Conundrum
 							["qg"] = 264066,	-- Grand Magister Rommath
-							["coord"] = { 63.6, 14.0, 2649 },	-- The Lycaneum, Magister's Terrace
+							["coord"] = { 63.2, 16.5, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
 						q(96226, {	-- Omnium Anomalies
 							["sourceQuest"] = 96224,	-- The Magister's Conundrum
 							["qg"] = 264065,	-- Magister Umbric
-							["coord"] = { 61.7, 13.4, 2649 },	-- The Lycaneum, Magister's Terrace
+							["coord"] = { 61.8, 15.0, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
 						q(96228, {	-- The Shadowed Spire
 							["sourceQuests"] = {
@@ -417,7 +422,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								96226,	-- Omnium Anomalies
 							},
 							["qg"] = 264065,	-- Magister Umbric
-							["coord"] = { 61.7, 13.4, 2649 },	-- The Lycaneum, Magister's Terrace
+							["coord"] = { 61.6, 14.9, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
 						q(96230, {	-- Unravelling the Wards
 							["sourceQuests"] = {
@@ -452,8 +457,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								96229,	-- The Void Reveals
 								96231,	-- Unravelling the Wards
 							},
-							["qg"] = 264945,	-- Grand Magister Rommath
-							["coord"] = { 58.9, 57.3, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
+							["qg"] = 264944,	-- Grand Magister Rommath
+							["coord"] = { 59.0, 59.3, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
 						}),
 						q(96233, {	-- The Omnium Reawakens
 							["sourceQuests"] = {
@@ -461,7 +466,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								96226,	-- Omnium Anomalies
 							},
 							["qg"] = 264066,	-- Grand Magister Rommath
-							["coord"] = { 63.6, 13.8, 2649 },	-- The Lycaneum, Magister's Terrace
+							["coord"] = { 63.4, 16.4, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
 					})),
 					header(HEADERS.Achievement, 63325, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- Omnium Folio Studies

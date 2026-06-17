@@ -22,6 +22,7 @@ local EncounterToCRS = {
 	[THORMBELAN] = {
 		249776
 	},
+	--TODO Nexus-Captain Leth'ir Adjutant Mertei
 }
 
 ------ EncounterToLoot ------
@@ -47,6 +48,14 @@ local EncounterToLoot = {
 		i(250452),	-- Blooming Thornblade
 		i(250449),	-- Skulking Nettledirk
 	},
+	--TODO Nexus-Captain Leth'ir Adjutant Mertei
+	--i(275218),	-- Mertei's Command Baton
+	--i(275223),	-- Phasebolt Thrower
+	--i(275224),	-- Mertei's Adjutant Leggings
+	--i(275227),	-- Leth'ir's Dress Sabatons
+	--i(275216),	-- Phaseblade's Edges
+	--i(275217),	-- Nexus-Captain's Phaseblade
+	--i(275156),	-- Gear-Linked Leggings
 }
 
 ------ EncounterCoords ------
@@ -55,6 +64,7 @@ local EncounterCoords = {
 	[LUASHAL] = { { 45.2, 60.0, MAP.MIDNIGHT.EVERSONG_WOODS } },
 	[PREDAXUS] = { { 49.0, 86.8, MAP.MIDNIGHT.VOIDSTORM } },
 	[THORMBELAN] = { { 38.8, 66.6, MAP.MIDNIGHT.HARANDAR } },
+	--TODO Nexus-Captain Leth'ir Adjutant Mertei
 }
 
 ------ Boss Functions ------
@@ -102,6 +112,8 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				["questID"] = 92129,
 			}),
 			BossWorldQuest(THORMBELAN, 92034),	-- Thormbelan WQ
+
+			-- TODO BossWorldQuest(, 96942) Nexus-Captain Leth'ir Adjutant Mertei
 		}),
 	}),
 }))

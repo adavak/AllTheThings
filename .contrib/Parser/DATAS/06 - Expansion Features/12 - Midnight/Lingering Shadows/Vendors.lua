@@ -272,7 +272,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						i(268996, {	-- Field Accolade (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
 							["cost"] = { { "i", DARK_PARTICLE, 100 } },
-						-- Removing Display of Field Accolades. Creates insane 200+ Items bloat. 
+						-- Removing Display of Field Accolades. Creates insane 200+ Items bloat.
 						-- You can farm 300-400 Particles/hour, so 30-40 accolades. Or you can directly farm 1000+ Accolades/hour
 						--	["groups"] = { currency(FIELD_ACCOLADE), },
 						}),
@@ -707,6 +707,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(274882),	-- Hal'hadar Pulse Rifle (COSMETIC!)
 								i(274878),	-- Hal'hadar Shadowripper's Blade (COSMETIC!)
 								i(274883),	-- Hal'hadar Warpguard's Poleaxe (COSMETIC!)
+								i(274885),	-- Phase-Edged Falchion (COSMETIC!)
 							},
 						}),
 						i(278027, {	-- Bulging Winter Pack
