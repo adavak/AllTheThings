@@ -1294,6 +1294,11 @@ local AWQuestLockers = setmetatable({
 		-- app.PrintDebug("Locked due to AW Ach?",ach.accountWide,app:SearchLink(ach))
 		if ach and ach.accountWide then return true end
 	end,
+	-- spellID is always account-wide when it's a mount, so any mount lock will lock account-wide
+	spellID = function(spellID)
+		local o = app.SearchForObject("mountID", spellID)
+		return o and true or nil
+	end,
 	questID = function(id)
 		-- quest itself is AccountWide, or Once per Account, so anything it locks will be locked account-wide
 		return app.AccountWideQuestsDB[id] or OneTimeQuests[id]
