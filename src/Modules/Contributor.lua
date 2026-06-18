@@ -2370,6 +2370,7 @@ MobileDB.GameObject = {
 	[376426] = true,	-- Magic-Bound Chest
 	[376519] = true,	-- Vine Wrapped Chest
 	[376530] = true,	-- Report: Infestation (q:66324)
+	[376570] = true,	-- Crystal Pylon (q:65689)
 	[376584] = true,	-- Dracthyr Supply Chest
 	[376585] = true,	-- Icemaw Storage Cache
 	[376587] = true,	-- Expedition Scout's Pack

@@ -101,7 +101,6 @@ root(ROOTS.Unsorted, {
 				i(274892),	-- Resilient Felblood Vial
 				i(274893),	-- Frosty Klaxid Stinger
 				-- Cosmetic
-				i(274877),	-- Phaseblade Headsplitter
 				i(274879),	-- Mana-Amplified Crusher
 				i(274881),	-- Phase Igniter
 				i(274884),	-- Arcanografter's Beacon
@@ -365,7 +364,6 @@ root(ROOTS.Unsorted, {
 				i(274640),	-- Arcfluxion Hydrospore
 				i(274783),	-- Fel Embers
 				i(274798),	-- Remote Detonator
-				i(275134),	-- Otherworldly Spark of War
 				i(275667),	-- Domanaar Disguise
 				i(275699),	-- Veraan's Soul Lattice Report
 			}),

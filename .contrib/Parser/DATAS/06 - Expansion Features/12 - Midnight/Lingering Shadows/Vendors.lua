@@ -708,6 +708,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(274878),	-- Hal'hadar Shadowripper's Blade (COSMETIC!)
 								i(274883),	-- Hal'hadar Warpguard's Poleaxe (COSMETIC!)
 								i(274885),	-- Phase-Edged Falchion (COSMETIC!)
+								i(274877),	-- Phaseblade Headsplitter (COSMETIC!)
 							},
 						}),
 						i(278027, {	-- Bulging Winter Pack
