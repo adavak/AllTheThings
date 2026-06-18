@@ -445,6 +445,7 @@ L.LINKED_ACCOUNTS_TOOLTIP = "This shows all of the linked accounts you have defi
 L.LIST = "Mini List";
 L.LOADING_FORMAT = "%s " .. LFG_LIST_LOADING;
 L.LOCATIONS_SLIDER_TOOLTIP = "Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show \"X\" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5";
+L.LOCK_CRITERIA_DECOR_LABEL = "Known Decor";
 L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
@@ -1463,7 +1464,6 @@ _.Modules.Events.SetEventInformation(13, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=7,["year"]=2027},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=6,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(1, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=1,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=8,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=15,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=22,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=29,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=6,["weekday"]=2,["year"]=2026},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=13,["weekday"]=2,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=7,["monthDay"]=20,["weekday"]=2,["year"]=2026},{["remappedID"]=375}),
@@ -1489,7 +1489,8 @@ _.Modules.Events.SetEventInformation(1, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=19,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=26,["weekday"]=2,["year"]=2027},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=3,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=10,["weekday"]=2,["year"]=2027},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=17,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=24,["weekday"]=2,["year"]=2027},{["remappedID"]=375}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=31,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=7,["weekday"]=2,["year"]=2027},{["remappedID"]=374})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=31,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=7,["weekday"]=2,["year"]=2027},{["remappedID"]=374}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=14,["weekday"]=2,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=2,["year"]=2027},{["remappedID"]=375})
 });
 -- Filter Database Module
 _.FilterConstants = {

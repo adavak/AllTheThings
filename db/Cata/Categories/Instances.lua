@@ -2634,7 +2634,6 @@ s(201216,22702,{b=1,f=6,q=4,u=2}),
 s(133100,22701,{b=1,f=5,q=4,u=2})}})}}),
 h(-63,{u=2,g={
 i(22708,{q=1,u=2}),
-i(22682,{cost={{"i",23055,1}},lvl=60,q=3,u=2}),
 i(22374,{q=3,u=2}),
 i(22376,{q=3,u=2}),
 i(22373,{q=3,u=2}),
@@ -2652,6 +2651,9 @@ s(134052,23663,{b=1,f=6,lvl=60,q=4,u=2}),
 s(134054,23665,{b=1,c={7},f=6,lvl=60,q=4,u=2}),
 s(134057,23668,{b=1,c={2},f=7,lvl=60,q=4,u=2}),
 i(23237,{b=1,f=52,lvl=60,q=4,u=2})}}),
+h(-56,{u=2,g={
+o(181287,{cost={{"i",23055,1}},description="Use a Word of Thawing on this to collect 3-6 Frozen Runes.",u=2,g={
+i(22682,{lvl=60,q=3,u=2})}})}}),
 h(-19,{u=2,g={
 i(22354,{b=1,c={1,4},crs={15931,15932,16028},lvl=60,q=4,u=2}),
 i(22368,{b=1,c={5,8,9},crs={15931,15932,16028},lvl=60,q=4,u=2}),
@@ -3131,6 +3133,7 @@ s(209936,65640,{b=1,f=6,q=3}),
 s(209918,65622,{b=1,f=6,q=3})}}),
 q(28465,{awp=40003,c={7},coords={
 [1454]={{39,47.4}}},qgs={72939},r=1,sourceQuests={28301},g={
+i(64312,{q=1}),
 s(209939,65643,{b=1,f=6,q=3}),
 s(209926,65630,{b=1,f=6,q=3})}}),
 q(28399,{awp=40003,c={9},coords={
@@ -8081,7 +8084,6 @@ r(39716,{awp=20100,b=1,itemID=32288,learnedAt=375,minReputation={990,3000},q=4,r
 r(39716,{b=1,itemID=32287,learnedAt=375,minReputation={990,3000},q=4,requireSkill=755,u=19}),
 r(39713,{awp=20100,b=1,itemID=32294,learnedAt=375,minReputation={990,3000},q=4,requireSkill=755,rwp=40003,u=2}),
 r(39713,{b=1,itemID=32284,learnedAt=375,minReputation={990,3000},q=4,requireSkill=755,u=19}),
-r(39738,{b=1,itemID=32308,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,u=19}),
 r(47053,{awp=20400,b=1,itemID=35765,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,u=21}),
 r(39736,{awp=20100,b=1,itemID=32300,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,rwp=40003,u=2}),
 r(39736,{b=1,itemID=32306,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,u=19}),
@@ -8096,6 +8098,7 @@ r(39728,{awp=20100,b=1,itemID=32299,learnedAt=375,minReputation={990,9000},q=4,r
 r(47054,{awp=20400,b=1,itemID=35764,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,u=21}),
 r(39731,{b=1,itemID=32301,learnedAt=375,minReputation={990,9000},q=4,requireSkill=755,u=19}),
 r(39741,{awp=20100,b=1,itemID=32302,learnedAt=375,minReputation={990,21000},q=4,requireSkill=755,rwp=40003,u=2}),
+r(39738,{b=1,itemID=32308,learnedAt=375,minReputation={990,21000},q=4,requireSkill=755,u=19}),
 r(39739,{b=1,itemID=32309,learnedAt=375,minReputation={990,21000},q=4,requireSkill=755,u=19}),
 r(39721,{b=1,itemID=32292,learnedAt=375,minReputation={990,21000},q=4,requireSkill=755,u=19})}}),
 n(23381,{u=19,g={
@@ -8469,7 +8472,7 @@ s(142711,32365,{b=1,f=7,lvl=70,q=4,u=19}),
 s(201454,32367,{b=1,f=4,lvl=70,q=4,u=19}),
 s(142712,32366,{b=1,f=5,lvl=70,q=4,u=19}),
 i(32368,{b=1,c={2,6},lvl=70,q=4,rwp=50004,u=19})}}),
-e(1589,{npcID=23426,qgs={22949,22950,22951,22952},u=19,g={
+e(1589,{crs={22949,22950,22951,22952,23426},u=19,g={
 i(31098,{b=1,c={2,5,9},lvl=70,q=4,u=19}),
 i(31100,{b=1,c={1,3,7},lvl=70,q=4,u=19}),
 i(31099,{b=1,c={4,8,11},lvl=70,q=4,u=19}),
@@ -11786,8 +11789,7 @@ e(1605,{lore="The mastermind behind the plague cauldrons that turned the wildern
 ach(1996,{u=30,g={
 crit(7531,{achID=2137,id=5,u=30})}}),
 crit(5112,{achID=566,u=30}),
-crit(7154,{achID=578,OnUpdate=_.OnUpdateDB.DEDICATED_10M,u=30}),
-s(172363,39248,{b=1,description="This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",f=6,isBounty=1,lvl=80,q=4,rwp=30401,u=2})}}),
+crit(7154,{achID=578,OnUpdate=_.OnUpdateDB.DEDICATED_10M,u=30})}}),
 e(1606,{lore="The hideous result of fusing the living plague of the Plaguelands with the bog beasts of Azeroth, Loatheb is said to control the power of healing itself.",npcID=16011,u=30,g={
 ach(2182,{u=30}),
 crit(5113,{achID=566,u=30}),
@@ -16249,6 +16251,7 @@ e(582,{npcID=29310,u=31,g={
 i(39246,{b=1,f=51,lvl=80,q=4,u=31}),
 i(39250,{b=1,f=52,lvl=80,q=4,u=31}),
 s(172370,39258,{b=1,f=7,lvl=80,q=4,u=31}),
+s(172363,39248,{b=1,f=6,lvl=80,q=4,u=31}),
 crit(57732,{achID=17291,id=3,u=31})}}),
 e(584,{npcID=29311,u=31,g={
 s(172477,39417,{b=1,f=22,lvl=80,q=4,u=31}),

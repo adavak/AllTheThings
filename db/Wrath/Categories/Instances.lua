@@ -2655,7 +2655,6 @@ s(133101,22702,{b=1,f=6,q=4,u=2}),
 s(133100,22701,{b=1,f=5,q=4,u=2})}})}}),
 h(-63,{u=2,g={
 i(22708,{q=1,u=2}),
-i(22682,{cost={{"i",23055,1}},lvl=60,q=3,u=2}),
 i(22374,{q=3,u=2}),
 i(22376,{q=3,u=2}),
 i(22373,{q=3,u=2}),
@@ -2673,6 +2672,9 @@ s(134052,23663,{b=1,f=6,lvl=60,q=4,u=2}),
 s(134054,23665,{b=1,c={7},f=6,lvl=60,q=4,u=2}),
 s(134057,23668,{b=1,c={2},f=7,lvl=60,q=4,u=2}),
 i(23237,{b=1,f=52,lvl=60,q=4,u=2})}}),
+h(-56,{u=2,g={
+o(181287,{cost={{"i",23055,1}},description="Use a Word of Thawing on this to collect 3-6 Frozen Runes.",u=2,g={
+i(22682,{lvl=60,q=3,u=2})}})}}),
 h(-19,{u=2,g={
 i(22354,{b=1,c={1,4},crs={15931,15932,16028},lvl=60,q=4,u=2}),
 i(22368,{b=1,c={5,8,9},crs={15931,15932,16028},lvl=60,q=4,u=2}),
@@ -7412,7 +7414,7 @@ s(142711,32365,{b=1,f=7,lvl=70,q=4,u=19}),
 s(142713,32367,{b=1,f=4,lvl=70,q=4,u=19}),
 s(142712,32366,{b=1,f=5,lvl=70,q=4,u=19}),
 i(32368,{b=1,f=54,lvl=70,q=4,rwp=50004,u=19})}}),
-e(1589,{npcID=23426,qgs={22949,22950,22951,22952},u=19,g={
+e(1589,{crs={22949,22950,22951,22952,23426},u=19,g={
 i(31098,{b=1,c={2,5,9},lvl=70,q=4,u=19}),
 i(31100,{b=1,c={1,3,7},lvl=70,q=4,u=19}),
 i(31099,{b=1,c={4,8,11},lvl=70,q=4,u=19}),
@@ -10472,8 +10474,7 @@ crit(7153,{achID=578,OnUpdate=_.OnUpdateDB.DEDICATED_10M,u=30})}}),
 e(1605,{lore="The mastermind behind the plague cauldrons that turned the wilderness of Azeroth into the Plaguelands. It is said that Heigan has rigged the very walls and floors of Naxxramas itself with a vast array of traps, which he can trigger at will.",npcID=15936,u=30,g={
 ach(1996,{u=30}),
 crit(5112,{achID=566,u=30}),
-crit(7154,{achID=578,OnUpdate=_.OnUpdateDB.DEDICATED_10M,u=30}),
-s(172363,39248,{b=1,description="This item was originally available in Naxxramas 10, but after H+ was introduced to Wrath Classic, it was removed.",f=6,isBounty=1,lvl=80,q=4,rwp=30401,u=2})}}),
+crit(7154,{achID=578,OnUpdate=_.OnUpdateDB.DEDICATED_10M,u=30})}}),
 e(1606,{lore="The hideous result of fusing the living plague of the Plaguelands with the bog beasts of Azeroth, Loatheb is said to control the power of healing itself.",npcID=16011,u=30,g={
 ach(2182,{u=30}),
 crit(5113,{achID=566,u=30}),
@@ -14810,6 +14811,7 @@ e(582,{npcID=29310,u=31,g={
 i(39246,{b=1,f=51,lvl=80,q=4,u=31}),
 i(39250,{b=1,f=52,lvl=80,q=4,u=31}),
 s(172370,39258,{b=1,f=7,lvl=80,q=4,u=31}),
+s(172363,39248,{b=1,f=6,lvl=80,q=4,u=31}),
 crit(57732,{achID=17291,id=3,u=31})}}),
 e(584,{npcID=29311,u=31,g={
 s(172477,39417,{b=1,f=22,lvl=80,q=4,u=31}),

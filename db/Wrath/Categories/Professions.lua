@@ -23,20 +23,20 @@ x(1,{requireSkill=171,g={
 h(-45,{requireSkill=171})}}),
 x(2,{awp=20005,requireSkill=171,g={
 q(10906,{altQuests={10905,10907},coords={
-[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,lvl=68,nextQuests={10902},qgs={16588,18802},requireSkill=171,rwp=40300}),
+[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,learnedAt=325,lvl=68,nextQuests={10902},qgs={16588,18802},requireSkill=171,rwp=40300}),
 q(10902,{altQuests={10897,10899},coords={
-[1955]={{45.8,20.4}}},cost={{"i",22831,5},{"i",28104,5},{"i",22834,5},{"i",31753,10}},description="Upon finishing this quest, you will become a Elixir Master and be locked out of becoming a Transmutation or Potion Master.",lvl=68,maps={273},qgs={19052},requireSkill=171,rwp=40300,sourceQuests={10906},g={
+[1955]={{45.8,20.4}}},cost={{"i",22831,5},{"i",28104,5},{"i",22834,5},{"i",31753,10}},description="Upon finishing this quest, you will become a Elixir Master and be locked out of becoming a Transmutation or Potion Master.",learnedAt=325,lvl=68,maps={273},qgs={19052},requireSkill=171,rwp=40300,sourceQuests={10906},g={
 r(28677,{requireSkill=28677})}}),
 q(10905,{altQuests={10906,10907},coords={
-[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,lvl=68,nextQuests={10897},qgs={16588,18802},requireSkill=171,rwp=40300}),
+[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,learnedAt=325,lvl=68,nextQuests={10897},qgs={16588,18802},requireSkill=171,rwp=40300}),
 q(10897,{altQuests={10899,10902},coords={
-[1946]={{44.1,36.6}}},cost={{"i",22836,5},{"i",22832,5},{"i",22829,5}},description="Upon finishing this quest, you will become a Potion Master and be locked out of becoming a Transmutation or Elixir Master.",lvl=68,maps={266},qgs={17909},requireSkill=171,rwp=40300,sourceQuests={10905},g={
+[1946]={{44.1,36.6}}},cost={{"i",22836,5},{"i",22832,5},{"i",22829,5}},description="Upon finishing this quest, you will become a Potion Master and be locked out of becoming a Transmutation or Elixir Master.",learnedAt=325,lvl=68,maps={266},qgs={17909},requireSkill=171,rwp=40300,sourceQuests={10905},g={
 qo(1,{crs={17975},providers={{"i",31744}},requireSkill=171}),
 r(28675,{requireSkill=28675})}}),
 q(10907,{altQuests={10905,10906},coords={
-[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,lvl=68,nextQuests={10899},qgs={16588,18802},requireSkill=171,rwp=40300}),
+[1944]={{52.2,36.4},{53.8,65.8}}},isBreadcrumb=1,learnedAt=325,lvl=68,nextQuests={10899},qgs={16588,18802},requireSkill=171,rwp=40300}),
 q(10899,{altQuests={10897,10902},coords={
-[1953]={{44.1,36.6}}},cost={{"i",23571,4}},description="Upon finishing this quest, you will become a Transmutation Master and be locked out of becoming a Potion or Elixir Master.",lvl=68,qgs={22427},requireSkill=171,rwp=40300,sourceQuests={10907},g={
+[1953]={{44.1,36.6}}},cost={{"i",23571,4}},description="Upon finishing this quest, you will become a Transmutation Master and be locked out of becoming a Potion or Elixir Master.",learnedAt=325,lvl=68,qgs={22427},requireSkill=171,rwp=40300,sourceQuests={10907},g={
 r(28672,{requireSkill=28672})}})}}),
 x(3,{awp=30200,requireSkill=171,g={
 q(14151,{coords={

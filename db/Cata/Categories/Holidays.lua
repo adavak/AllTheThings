@@ -897,7 +897,7 @@ q(7890,{coords={
 [407]={{48.2,67.6}}},e=1,qgs={14832},repeatable=1,rwp=40300,u=2,g={
 i(19182,{b=1,e=1,f=55,q=1,u=2})}}),
 q(29514,{awp=40300,coords={
-[407]={{55,71.6}}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14833},requireSkill=182,g={
+[407]={{55,70.6}}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14833},requireSkill=182,g={
 qo(1,{e=1,providers={{"i",72046},{"o",209284}}}),
 i(71083,{b=1,e=1,f=55,q=2}),
 crit(18308,{achID=6032,e=1,id=1})}}),
@@ -986,7 +986,7 @@ qo(1,{e=1,providers={{"i",72110},{"n",54504}}}),
 i(71083,{b=1,e=1,f=55,q=2}),
 crit(18305,{achID=6032,e=1,id=1})}}),
 q(29519,{awp=40300,coords={
-[407]={{55,71.6}}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14833},requireSkill=393,g={
+[407]={{55,70.6}}},e=1,isMonthly=1,maxReputation={909,42000},qgs={14833},requireSkill=393,g={
 qo(1,{e=1,providers={{"o",209276}}}),
 i(71083,{b=1,e=1,f=55,q=2}),
 crit(18313,{achID=6032,e=1,id=1})}}),

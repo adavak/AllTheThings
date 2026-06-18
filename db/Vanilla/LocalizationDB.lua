@@ -445,6 +445,7 @@ L.LINKED_ACCOUNTS_TOOLTIP = "This shows all of the linked accounts you have defi
 L.LIST = "Mini List";
 L.LOADING_FORMAT = "%s " .. LFG_LIST_LOADING;
 L.LOCATIONS_SLIDER_TOOLTIP = "Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show \"X\" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5";
+L.LOCK_CRITERIA_DECOR_LABEL = "Known Decor";
 L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";

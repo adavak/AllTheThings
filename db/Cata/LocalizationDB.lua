@@ -444,6 +444,7 @@ L.LINKED_ACCOUNTS_TOOLTIP = "This shows all of the linked accounts you have defi
 L.LIST = "Mini List";
 L.LOADING_FORMAT = "%s " .. LFG_LIST_LOADING;
 L.LOCATIONS_SLIDER_TOOLTIP = "Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show \"X\" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5";
+L.LOCK_CRITERIA_DECOR_LABEL = "Known Decor";
 L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
@@ -3530,6 +3531,7 @@ local ObjectNames = {
 	[181280] = "Nightmare Vine",
 	[181281] = "Mana Thistle",
 	[181283] = "Emitter Spare Part",
+	[181287] = "Frozen Rune",
 	[181366] = "Four Horsemen Chest",
 	[181372] = "Hellfire Spineleaf",
 	[181385] = "Ravager Egg",
@@ -4488,6 +4490,7 @@ local ObjectNames = {
 	[203966] = "Spare Part",
 	[203967] = "Spare Part",
 	[203968] = "Spare Part",
+	[203969] = "Prickly Pear Fruit",
 	[203972] = "Fresh Dirt",
 	[203982] = "Okra",
 	[203989] = "Ooze-coated Supply Crate",
@@ -4732,6 +4735,7 @@ local ObjectNames = {
 	[207105] = "Irontree Explosive",
 	[207124] = "Pillaged Loot Sack",
 	[207125] = "Crate of Left Over Supplies",
+	[207126] = "Deadwood Weapon Pile",
 	[207127] = "Schnottz Powder Keg",
 	[207158] = "Pristine Owl Feather",
 	[207162] = "Crate of Fine Cloth",
@@ -6311,6 +6315,7 @@ local ObjectModels = {
 	[181280] = 219480,
 	[181281] = 219472,
 	[181283] = 192461,
+	[181287] = 191177,
 	[181366] = 200953,
 	[181372] = 219491,
 	[181385] = 201375,
@@ -7244,6 +7249,7 @@ local ObjectModels = {
 	[203966] = 203234,
 	[203967] = 197730,
 	[203968] = 197759,
+	[203969] = 201766,
 	[203972] = 189528,
 	[203982] = 219494,
 	[203989] = 199102,
@@ -7479,6 +7485,7 @@ local ObjectModels = {
 	[207105] = 254422,
 	[207124] = 428634,
 	[207125] = 198168,
+	[207126] = 192686,
 	[207127] = 197463,
 	[207158] = 199704,
 	[207162] = 307333,
@@ -10631,6 +10638,7 @@ localize(ObjectNames, {
 	[203966] = "Ersatzteil",
 	[203967] = "Ersatzteil",
 	[203968] = "Ersatzteil",
+	[203969] = "Kaktusfeige",
 	[203972] = "Frischer Matsch",
 	[203989] = "Schlammbedeckte Vorratskiste",
 	[204000] = "Rationskiste von Grom'gol",
@@ -10865,6 +10873,7 @@ localize(ObjectNames, {
 	[207105] = "Eisenwaldsprengstoff",
 	[207124] = "Geplünderter Beutesack",
 	[207125] = "Kiste mit übriggebliebenen Vorräten",
+	[207126] = "Waffenstapel der Totenwaldfelle",
 	[207127] = "Schnottz' Pulverfass",
 	[207158] = "Makellose Eulenfeder",
 	[207162] = "Kiste mit feinen Stoffen",
@@ -13156,6 +13165,7 @@ localize(ObjectNames, {
 	[203966] = "Pièce détachée",
 	[203967] = "Pièce détachée",
 	[203968] = "Pièce détachée",
+	[203969] = "Figue de Barbarie",
 	[203972] = "Gravillons du jour",
 	[203989] = "Caisse de ravitaillement couverte de vase",
 	[204000] = "Caisse de rations de Grom'gol",
@@ -13390,6 +13400,7 @@ localize(ObjectNames, {
 	[207105] = "Explosif d'Arbrefer",
 	[207124] = "Sac de butin pillé",
 	[207125] = "Caisse de fournitures abandonnées",
+	[207126] = "Pile d'armes des Mort-bois",
 	[207127] = "Baril de poudre de Schnottz",
 	[207158] = "Plume de hibou en parfait état",
 	[207162] = "Caisse de tissu raffiné",
@@ -14929,6 +14940,7 @@ localize(ObjectNames, {
 	[203966] = "Pezzo di Ricambio",
 	[203967] = "Pezzo di Ricambio",
 	[203968] = "Pezzo di Ricambio",
+	[203969] = "Fico Spinoso",
 	[203972] = "Fango Fresco",
 	[203989] = "Cassa di Provviste Ricoperta di Melma",
 	[204000] = "Cassa di Razioni di Grom'gol",
@@ -15161,6 +15173,7 @@ localize(ObjectNames, {
 	[207105] = "Esplosivo di Troncoferro",
 	[207124] = "Sacco del Bottino Rubato",
 	[207125] = "Cassa di Provviste Avanzate",
+	[207126] = "Mucchio d'Armi dei Legnomorto",
 	[207127] = "Barilotto di Polvere di Schnottz",
 	[207158] = "Piuma di Gufo Integra",
 	[207162] = "Cassa di Tessuto Pregiato",
@@ -17088,6 +17101,7 @@ localize(ObjectNames, {
 	[203966] = "Peça Sobressalente",
 	[203967] = "Peça Sobressalente",
 	[203968] = "Peça Sobressalente",
+	[203969] = "Pera Espinhosa",
 	[203972] = "Terra de Formigueiro",
 	[203982] = "Quiabo",
 	[203989] = "Caixa de Suprimentos Coberta de Gosma",
@@ -17323,6 +17337,7 @@ localize(ObjectNames, {
 	[207105] = "Explosivo Ferrárbol",
 	[207124] = "Saco de Tesouro Pilhado",
 	[207125] = "Caixote de Suprimentos Restantes",
+	[207126] = "Pilha de Armas de Lenha Morta",
 	[207127] = "Barril de Pólvora do Schnottz",
 	[207158] = "Pena Imaculada de Coruja",
 	[207162] = "Caixote de Tecidos Finos",
@@ -19990,6 +20005,7 @@ localize(ObjectNames, {
 	[203966] = "Запчасть",
 	[203967] = "Запчасть",
 	[203968] = "Запчасть",
+	[203969] = "Колючая груша",
 	[203972] = "Свежая грязь",
 	[203982] = "Окра",
 	[203989] = "Покрытый слизью ящик с припасами",
@@ -20225,6 +20241,7 @@ localize(ObjectNames, {
 	[207105] = "Взрывчатка Железнолесья",
 	[207124] = "Мешок с награбленным",
 	[207125] = "Ящик с остатками припасов",
+	[207126] = "Оружие племени Мертвого Леса",
 	[207127] = "Бочонок с порохом Шнотца",
 	[207158] = "Безупречные перья совы",
 	[207162] = "Ящик с тонкими тканями",
@@ -22134,6 +22151,7 @@ localize(ObjectNames, {
 	[203966] = "예비 부품",
 	[203967] = "예비 부품",
 	[203968] = "예비 부품",
+	[203969] = "가시투성이 배",
 	[203972] = "신선한 흙",
 	[203982] = "오크라",
 	[203989] = "수액으로 뒤덮인 보급품 상자",
@@ -22369,6 +22387,7 @@ localize(ObjectNames, {
 	[207105] = "강철나무 폭발물",
 	[207124] = "약탈한 물품 주머니",
 	[207125] = "남은 보급품 상자",
+	[207126] = "마른가지 무기 더미",
 	[207127] = "슈노츠 화약통",
 	[207158] = "온전한 올빼미 깃털",
 	[207162] = "고급 옷감 상자",
@@ -25202,6 +25221,7 @@ localize(ObjectNames, {
 	[203966] = "Pieza de repuesto",
 	[203967] = "Pieza de repuesto",
 	[203968] = "Pieza de repuesto",
+	[203969] = "Fruto pera espinosa",
 	[203972] = "Tierra fresca",
 	[203989] = "Cajón de suministros cubierto de moco",
 	[204000] = "Cajón de raciones Grom'gol",
@@ -25436,6 +25456,7 @@ localize(ObjectNames, {
 	[207105] = "Explosivo Troncoferro",
 	[207124] = "Saco de botín saqueado",
 	[207125] = "Cajón de suministros abandonados",
+	[207126] = "Montón de armas de Muertobosque",
 	[207127] = "Tonel de pólvora de Schnottz",
 	[207158] = "Pluma de búho prístina",
 	[207162] = "Cajón de paño refinado",
@@ -28510,6 +28531,7 @@ localize(ObjectNames, {
 	[203966] = "备用零件",
 	[203967] = "备用零件",
 	[203968] = "备用零件",
+	[203969] = "仙人掌果",
 	[203972] = "新鲜的泥土",
 	[203982] = "秋葵",
 	[203989] = "污泥覆盖的补给箱",
@@ -28704,6 +28726,7 @@ localize(ObjectNames, {
 	[207105] = "铁木炸药",
 	[207124] = "抢来的战利品",
 	[207125] = "一箱剩余补给品",
+	[207126] = "死木武器",
 	[207158] = "完好的猫头鹰羽毛",
 	[207162] = "一箱优质布料",
 	[207179] = "寒水村大锅",
@@ -29840,16 +29863,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });

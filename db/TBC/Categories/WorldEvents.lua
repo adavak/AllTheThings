@@ -6,7 +6,7 @@ categories.WorldEvents=
 h(-734,{SortPriority=75,g={
 h(-103,{
 x(2,{
-h(-482,{lvl=55,maps={1419},rwp=20506,u=1701,g={
+h(-482,{lvl=55,maps={1419},rwp=20505,u=1701,g={
 q(10259,{coords={
 [1419]={{58.25,55.05}}},lvl=55,qgs={19942},u=1701,g={
 ach(2079,{providers={{"i",28788}},u=1701}),

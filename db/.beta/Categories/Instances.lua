@@ -2580,7 +2580,6 @@ s(8929,22702,{b=1,f=6,u=2}),
 s(8928,22701,{b=1,f=5,u=2})}})}}),
 h(-63,{u=2,g={
 i(22708,{u=2}),
-i(22682,{cost={{"i",23055,1}},lvl=25,spellID=29432,u=2}),
 i(22374,{u=2}),
 i(22376,{u=2}),
 i(22373,{u=2}),
@@ -2598,6 +2597,9 @@ s(9366,23663,{b=1,f=6,lvl=25,u=2}),
 s(9368,23665,{b=1,c={7},f=6,lvl=25,u=2}),
 s(9371,23668,{b=1,c={2},f=7,lvl=25,u=2}),
 i(23237,{b=1,f=52,lvl=25,u=2})}}),
+h(-56,{u=2,g={
+o(181287,{cost={{"i",23055,1}},description="Use a Word of Thawing on this to collect 3-6 Frozen Runes.",u=2,g={
+i(22682,{lvl=25,spellID=29432,u=2})}})}}),
 h(-19,{u=2,g={
 i(22354,{c={1,4},crs={15931,15932,16028},lvl=25,u=2}),
 i(22368,{c={5,8,9},crs={15931,15932,16028},lvl=25,u=2}),
@@ -3066,7 +3068,8 @@ q(28401,{awp=40003,c={7},coords={
 s(33096,65640,{b=1,f=6,r=2}),
 s(33078,65622,{b=1,f=6,r=2})}}),
 q(28465,{awp=40003,c={7},coords={
-[85]={{73.6,43.3}}},lvl=20,qgs={72939},r=1,sourceQuests={28301},g={
+[85]={{73.6,43.3}}},lvl=20,qgs={168628},r=1,sourceQuests={28301},g={
+i(64312,{spellID=90292}),
 s(33099,65643,{b=1,f=6,r=1}),
 s(33086,65630,{b=1,f=6,r=1})}}),
 q(28399,{awp=40003,c={9},coords={
@@ -8269,7 +8272,6 @@ r(39716,{awp=20100,b=1,itemID=32288,minReputation={990,3000},requireSkill=755,rw
 r(39716,{b=1,itemID=32287,minReputation={990,3000},requireSkill=755,skillID=2523}),
 r(39713,{awp=20100,b=1,itemID=32294,minReputation={990,3000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
 r(39713,{b=1,itemID=32284,minReputation={990,3000},requireSkill=755,skillID=2523}),
-r(39738,{b=1,itemID=32308,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(47053,{awp=20400,b=1,itemID=35765,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39736,{awp=20100,b=1,itemID=32300,minReputation={990,9000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
 r(39736,{b=1,itemID=32306,minReputation={990,9000},requireSkill=755,skillID=2523}),
@@ -8284,6 +8286,7 @@ r(39728,{awp=20100,b=1,itemID=32299,minReputation={990,9000},requireSkill=755,rw
 r(47054,{awp=20400,b=1,itemID=35764,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39731,{b=1,itemID=32301,minReputation={990,9000},requireSkill=755,skillID=2523}),
 r(39741,{awp=20100,b=1,itemID=32302,minReputation={990,21000},requireSkill=755,rwp=40003,skillID=2523,u=2}),
+r(39738,{b=1,itemID=32308,minReputation={990,21000},requireSkill=755,skillID=2523}),
 r(39739,{b=1,itemID=32309,minReputation={990,21000},requireSkill=755,skillID=2523}),
 r(39721,{b=1,itemID=32292,minReputation={990,21000},requireSkill=755,skillID=2523})}),
 n(23381,{
@@ -8672,7 +8675,7 @@ i(32370,{b=1,f=51,lvl=27}),
 s(14936,32365,{b=1,f=7,lvl=27}),
 s(14938,32367,{b=1,f=4,lvl=27}),
 s(14937,32366,{b=1,f=5,lvl=27})}}),
-e(1589,{npcID=23426,qgs={22949,22950,22951,22952},g={
+e(1589,{crs={22949,22950,22951,22952,23426},g={
 i(31098,{b=2,c={2,5,9},lvl=27,spellID=238164}),
 i(31100,{b=2,c={1,3,7},lvl=27,spellID=238164}),
 i(31099,{b=2,c={4,8,11},lvl=27,spellID=238164}),
@@ -42970,7 +42973,10 @@ i(142468,{b=1,f=52,lvl=45})}}),
 q(44735,{coords={
 [42]={{47.3,75}}},lvl=45,qgs={114310},sourceQuests={44733},g={
 i(142454,{b=1,f=55})}}),
-q(44803,{c={1,2,3,4,5,6,7,8,9,10,11,12},lvl=45,providers={{"i",142246}}}),
+q(44803,{c={1,2,3,4,5,6,7,8,9,10,11,12},lvl=45,providers={{"i",142246}},g={
+i(142248),
+i(142249),
+i(142275)}}),
 q(45293,{lvl=45,qgs={18255},sourceQuests={45292}}),
 q(45292,{coords={
 [42]={{47.3,75}}},lvl=45,qgs={18255},sourceQuests={45291},g={
@@ -54488,7 +54494,7 @@ i(203714,{b=1,f=53,lvl=70,modID=4,spellID=401238,u=2})}})}}),
 ah(2402,{type="d",u=2,g={
 e(2520,{crs={201754,203284},u=2,g={
 i(206046,{b=1,lvl=70,modID=4,sym={{"sub","instance_tier",1208,17}},u=2}),
-s(185606,204465,{b=1,f=3,lvl=70,modID=4,spellID=409434,u=2}),
+s(186700,204465,{b=1,f=3,lvl=70,modID=4,spellID=409434,u=2}),
 i(203963,{b=1,f=53,lvl=70,modID=4,spellID=402583,u=2}),
 s(186667,204390,{b=1,f=7,lvl=70,modID=4,u=2}),
 s(186504,202585,{b=1,f=4,lvl=70,modID=4,u=2}),
@@ -57522,6 +57528,7 @@ s(168083,189904,{b=1,f=4,lvl=60}),
 s(62170,113218,{b=1,f=4,lvl=35,modID=4}),
 s(8147,20655,{f=4,lvl=23}),
 s(78296,134786,{b=1,f=4}),
+s(17950,37687,{b=1,f=4,lvl=30}),
 s(77868,134723,{b=1,f=4})}),
 flt(5,{
 hqt(77632),
@@ -62967,7 +62974,34 @@ s(297853,250455,{f=29,lvl=90}),
 s(297850,250452,{f=25,lvl=90}),
 s(297847,250449,{f=20,lvl=90})}}),
 q(92034,{coords={
-[2413]={{38.8,66.6}}},crs={249776},isRaid=1,isWeekly=1,isWorldQuest=1,sym={{"select","encounterID",2829},{"pop"}}})}}),
+[2413]={{38.8,66.6}}},crs={249776},isRaid=1,isWeekly=1,isWorldQuest=1,sym={{"select","encounterID",2829},{"pop"}}}),
+n(260875,{coords={
+[2600]={{78.4,69.2}}},isRaid=1,isWeekly=1,g={
+d(14,{
+s(309213,275216,{f=35,modID=3}),
+s(309214,275217,{f=25,modID=3}),
+s(309215,275218,{f=27,modID=3}),
+s(309216,275219,{f=28,modID=3}),
+s(309217,275220,{f=25,modID=3}),
+s(309218,275221,{f=23,modID=3}),
+s(309219,275222,{f=26,modID=3}),
+s(309220,275223,{f=31,modID=3}),
+s(309221,275224,{f=4,modID=3}),
+s(309229,275225,{f=5,modID=3}),
+s(309237,275226,{f=6,modID=3}),
+s(309245,275227,{f=7,modID=3})}),
+d(15,{sym={{"select","itemID",275216,275217,275218,275219,275220,275221,275222,275223}},g={
+s(309223,275224,{f=4,modID=5}),
+s(309231,275225,{f=5,modID=5}),
+s(309239,275226,{f=6,modID=5}),
+s(309247,275227,{f=7,modID=5}),
+h(-57,{
+s(309224,275224,{f=4,modID=6}),
+s(309232,275225,{f=5,modID=6}),
+s(309240,275226,{f=6,modID=6}),
+s(309248,275227,{f=7,modID=6})})}})}}),
+n(260833,{coords={
+[2600]={{76.2,68.8}}},isRaid=1,isWeekly=1})}}),
 inst(1308,{awp=120001,coords={
 [2424]={{52.6,86}}},isRaid=1,maps={2533,2534},g={
 h(-12,{
@@ -64284,21 +64318,21 @@ cs(1254555)}),
 ach(61272,{
 cs(159898)}),
 ach(61591,{
-title(682)}),
+title(682,{collectible=false})}),
 ach(61587,{
-title(687)}),
+title(687,{collectible=false})}),
 ach(61588,{
-title(686)}),
+title(686,{collectible=false})}),
 ach(61589,{
-title(685)}),
+title(685,{collectible=false})}),
 ach(61592,{
-title(681)}),
+title(681,{collectible=false})}),
 ach(61593,{
-title(683)}),
+title(683,{collectible=false})}),
 ach(61594,{
-title(294)}),
+title(294,{collectible=false})}),
 ach(61590,{
-title(684)}),
+title(684,{collectible=false})}),
 ach(61233),
 ach(61235),
 ach(61236),
@@ -64317,13 +64351,7 @@ ach(61249),
 ach(61250),
 ach(61251,{collectible=false}),
 ach(61252,{collectible=false}),
-ach(61253,{collectible=false})}}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-flt(110,{(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(756)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(757)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(758)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(759)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-title(760))}))}}),
+ach(61253,{collectible=false})}})}}),
 h(-21,{
 r(1230473,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256714,requireSkill=755,skillID=2914}),
 r(1230470,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256704,requireSkill=755,skillID=2914}),
@@ -64727,9 +64755,16 @@ crit(110322,{achID=61568,id=8})}),
 gach(61621),
 mnt(1263635,{b=1,itemID=262914,lvl=10})}})})}}),
 h(-19,{awp=120001,g={
-i(258839,{b=1,description="Drops from the last boss of Mythic Dungeons. It contains various dungeon dropped profession recipes."})}}),
+i(258839,{b=1,description="Drops from the last boss of Mythic Dungeons. It contains various dungeon dropped profession recipes."})}})}),
+h(-68,{awp=120001,g={(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+flt(110,{(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(756)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(757)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(758)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(759)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
+title(760))})),
 h(-58,{
 n(197711,{coords={
 [2393]={{42.1,58.8}}},g={
-flt(100)}})})})}});
+flt(100)}})})}})}});
 end);

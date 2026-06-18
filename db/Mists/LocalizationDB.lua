@@ -444,6 +444,7 @@ L.LINKED_ACCOUNTS_TOOLTIP = "This shows all of the linked accounts you have defi
 L.LIST = "Mini List";
 L.LOADING_FORMAT = "%s " .. LFG_LIST_LOADING;
 L.LOCATIONS_SLIDER_TOOLTIP = "Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show \"X\" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5";
+L.LOCK_CRITERIA_DECOR_LABEL = "Known Decor";
 L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
@@ -1407,7 +1408,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "This section will only show your current character's professions outside of Account and Debug Mode.",
 	[-47] = "Contains Things which are rewarded or are available from other content within the containing section.\nThey are consolidated here in an effort to reduce duplication from many possible Sources.",
 	[-49] = "Contains Things which are rewarded that upon completing that scenario.",
-	[-50] = "Naughty secrets...",
+	[-50] = "The Mind-Seekers are an enigmatic cult of meta-puzzle architects who test Adventurers through obscure clues hidden in forgotten corners of the world.\nThey are neither benevolent nor malevolent; rather, they seem to derive sustenance from the collective effort, frustration, and eventual triumph of those who pursue their riddles. Solving their elaborate challenges proves one's mastery of Azeroth's deepest secrets.\n\nHere you will find records of currently available riddles they have scattered throughout Azeroth, challenging the denizens to solve them and, in time, join their ranks.",
 	[-213] = "This section will show you things that you could buy in the In-Game Shop in Retail.",
 	[-304] = "These items require the Legionnaire/Knight-Captain rank from Classic/Rated Battlegrounds or higher to purchase.",
 	[-341] = "The items in this list are shared appearances for the above item. In Unique Appearance Mode, this list can help you understand why or why not a specific item would be marked Collected.",
@@ -1759,10 +1760,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=24,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=31,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=31,["weekday"]=1,["year"]=2026}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=7,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=7,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
@@ -1811,7 +1808,11 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=9,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=16,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -3928,6 +3929,7 @@ local ObjectNames = {
 	[181280] = "Nightmare Vine",
 	[181281] = "Mana Thistle",
 	[181283] = "Emitter Spare Part",
+	[181287] = "Frozen Rune",
 	[181366] = "Four Horsemen Chest",
 	[181372] = "Hellfire Spineleaf",
 	[181385] = "Ravager Egg",
@@ -4886,6 +4888,7 @@ local ObjectNames = {
 	[203966] = "Spare Part",
 	[203967] = "Spare Part",
 	[203968] = "Spare Part",
+	[203969] = "Prickly Pear Fruit",
 	[203972] = "Fresh Dirt",
 	[203982] = "Okra",
 	[203989] = "Ooze-coated Supply Crate",
@@ -5130,6 +5133,7 @@ local ObjectNames = {
 	[207105] = "Irontree Explosive",
 	[207124] = "Pillaged Loot Sack",
 	[207125] = "Crate of Left Over Supplies",
+	[207126] = "Deadwood Weapon Pile",
 	[207127] = "Schnottz Powder Keg",
 	[207158] = "Pristine Owl Feather",
 	[207162] = "Crate of Fine Cloth",
@@ -7278,6 +7282,7 @@ local ObjectModels = {
 	[181280] = 219480,
 	[181281] = 219472,
 	[181283] = 192461,
+	[181287] = 191177,
 	[181366] = 200953,
 	[181372] = 219491,
 	[181385] = 201375,
@@ -8211,6 +8216,7 @@ local ObjectModels = {
 	[203966] = 203234,
 	[203967] = 197730,
 	[203968] = 197759,
+	[203969] = 201766,
 	[203972] = 189528,
 	[203982] = 219494,
 	[203989] = 199102,
@@ -8446,6 +8452,7 @@ local ObjectModels = {
 	[207105] = 254422,
 	[207124] = 428634,
 	[207125] = 198168,
+	[207126] = 192686,
 	[207127] = 197463,
 	[207158] = 199704,
 	[207162] = 307333,
@@ -9571,7 +9578,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Escalation of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Heroic Scenarios, Battlefield: Barrens Scenario, Deepwind Gorge, and the Tiger's Peak arena.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50504,
+		buildVersion = 50503,
 		state = 2,
 	},
 	[54] = {
@@ -9579,7 +9586,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Siege of Orgrimmar of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar and the Timeless Isle.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50505,
+		buildVersion = 50504,
 		state = 2,
 	},
 	[5401] = {
@@ -9587,7 +9594,7 @@ local phases = {
 		description = "|cFFAAFFAAThis was not available until Celestial Dungeons (SoO) of Mists of Pandaria Classic.|r",
 		lore = "|cFFFFAAAAIncluded Siege of Orgrimmar LFR gear for Celestial Dungeons.|r",
 		minimumBuildVersion = 50500,
-		buildVersion = 50505,
+		buildVersion = 50504,
 		release = 1776679200,
 		state = 2,
 	},
@@ -12581,6 +12588,7 @@ localize(ObjectNames, {
 	[203966] = "Ersatzteil",
 	[203967] = "Ersatzteil",
 	[203968] = "Ersatzteil",
+	[203969] = "Kaktusfeige",
 	[203972] = "Frischer Matsch",
 	[203989] = "Schlammbedeckte Vorratskiste",
 	[204000] = "Rationskiste von Grom'gol",
@@ -12815,6 +12823,7 @@ localize(ObjectNames, {
 	[207105] = "Eisenwaldsprengstoff",
 	[207124] = "Geplünderter Beutesack",
 	[207125] = "Kiste mit übriggebliebenen Vorräten",
+	[207126] = "Waffenstapel der Totenwaldfelle",
 	[207127] = "Schnottz' Pulverfass",
 	[207158] = "Makellose Eulenfeder",
 	[207162] = "Kiste mit feinen Stoffen",
@@ -13931,7 +13940,6 @@ localize(L.HEADER_NAMES, {
 localize(L.HEADER_DESCRIPTIONS, {
 	[-47] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
 	[-49] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
-	[-50] = "Vilains secrets...",
 	[-341] = "Les éléments de cette liste sont des apparences partagées pour l'élément ci-dessus. En mode Apparence unique, cette liste peut vous aider à comprendre pourquoi ou pourquoi un élément spécifique serait marqué Collecté.",
 	[-342] = "Cet article a une apparence unique. Vous devez collecter cet objet spécifiquement pour gagner l’apparence.",
 	[-343] = "Cette liste contient des éléments impossibles à obtenir que ATT Discord a signalés comme des bogues que Blizzard n'a pas encore corrigés.\n\nREMARQUE : Tous les filtres sont ignorés dans cette liste pour des raisons de visibilité. Seuls les éléments retirés du jeu en raison d'une négligence plutôt que d'un gigantesque dragon cracheur de feu sont présents sur cette liste.\n\nAux développeurs de Blizzard : veuillez corriger les éléments et les rencontres répertoriés ci-dessous.",
@@ -15669,6 +15677,7 @@ localize(ObjectNames, {
 	[203966] = "Pièce détachée",
 	[203967] = "Pièce détachée",
 	[203968] = "Pièce détachée",
+	[203969] = "Figue de Barbarie",
 	[203972] = "Gravillons du jour",
 	[203989] = "Caisse de ravitaillement couverte de vase",
 	[204000] = "Caisse de rations de Grom'gol",
@@ -15903,6 +15912,7 @@ localize(ObjectNames, {
 	[207105] = "Explosif d'Arbrefer",
 	[207124] = "Sac de butin pillé",
 	[207125] = "Caisse de fournitures abandonnées",
+	[207126] = "Pile d'armes des Mort-bois",
 	[207127] = "Baril de poudre de Schnottz",
 	[207158] = "Plume de hibou en parfait état",
 	[207162] = "Caisse de tissu raffiné",
@@ -17997,6 +18007,7 @@ localize(ObjectNames, {
 	[203966] = "Pezzo di Ricambio",
 	[203967] = "Pezzo di Ricambio",
 	[203968] = "Pezzo di Ricambio",
+	[203969] = "Fico Spinoso",
 	[203972] = "Fango Fresco",
 	[203989] = "Cassa di Provviste Ricoperta di Melma",
 	[204000] = "Cassa di Razioni di Grom'gol",
@@ -18229,6 +18240,7 @@ localize(ObjectNames, {
 	[207105] = "Esplosivo di Troncoferro",
 	[207124] = "Sacco del Bottino Rubato",
 	[207125] = "Cassa di Provviste Avanzate",
+	[207126] = "Mucchio d'Armi dei Legnomorto",
 	[207127] = "Barilotto di Polvere di Schnottz",
 	[207158] = "Piuma di Gufo Integra",
 	[207162] = "Cassa di Tessuto Pregiato",
@@ -20705,6 +20717,7 @@ localize(ObjectNames, {
 	[203966] = "Peça Sobressalente",
 	[203967] = "Peça Sobressalente",
 	[203968] = "Peça Sobressalente",
+	[203969] = "Pera Espinhosa",
 	[203972] = "Terra de Formigueiro",
 	[203982] = "Quiabo",
 	[203989] = "Caixa de Suprimentos Coberta de Gosma",
@@ -20940,6 +20953,7 @@ localize(ObjectNames, {
 	[207105] = "Explosivo Ferrárbol",
 	[207124] = "Saco de Tesouro Pilhado",
 	[207125] = "Caixote de Suprimentos Restantes",
+	[207126] = "Pilha de Armas de Lenha Morta",
 	[207127] = "Barril de Pólvora do Schnottz",
 	[207158] = "Pena Imaculada de Coruja",
 	[207162] = "Caixote de Tecidos Finos",
@@ -22424,7 +22438,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "Этот раздел будет отображать только профессии вашего текущего персонажа, если не включен Режим Аккаунта или Отладки.",
 	[-47] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
 	[-49] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
-	[-50] = "Секретики...",
 	[-341] = "Предметы из данного списка - общие облики для предмета выше. Для Режима Уникальных Обликов, этот список может помочь Вам разобраться, почему определённый предмт отмечен как Получен или нет.",
 	[-342] = "Этот предмет имеет Уникальный Облик. Вы должны получить именно этот предмет для открытия Облика.",
 	[-343] = "Этот список содержит Недоступные предметы, что Дискорд ATT сообщил как ошибки, которые Blizzard ещё не исправили.\n\nВНИМАНИЕ: Все фильтры игнорируются в данном списке для видимости. Только предметы, удалённые из игры из-за халатности, но не из-за гигантского огнедышащего дракона, перечислены в данном списке.\n\nК разработчикам Blizzard: Пожалуйста, почините предметы и события, перечисленные ниже.",
@@ -24173,6 +24186,7 @@ localize(ObjectNames, {
 	[203966] = "Запчасть",
 	[203967] = "Запчасть",
 	[203968] = "Запчасть",
+	[203969] = "Колючая груша",
 	[203972] = "Свежая грязь",
 	[203982] = "Окра",
 	[203989] = "Покрытый слизью ящик с припасами",
@@ -24408,6 +24422,7 @@ localize(ObjectNames, {
 	[207105] = "Взрывчатка Железнолесья",
 	[207124] = "Мешок с награбленным",
 	[207125] = "Ящик с остатками припасов",
+	[207126] = "Оружие племени Мертвого Леса",
 	[207127] = "Бочонок с порохом Шнотца",
 	[207158] = "Безупречные перья совы",
 	[207162] = "Ящик с тонкими тканями",
@@ -26875,6 +26890,7 @@ localize(ObjectNames, {
 	[203966] = "예비 부품",
 	[203967] = "예비 부품",
 	[203968] = "예비 부품",
+	[203969] = "가시투성이 배",
 	[203972] = "신선한 흙",
 	[203982] = "오크라",
 	[203989] = "수액으로 뒤덮인 보급품 상자",
@@ -27110,6 +27126,7 @@ localize(ObjectNames, {
 	[207105] = "강철나무 폭발물",
 	[207124] = "약탈한 물품 주머니",
 	[207125] = "남은 보급품 상자",
+	[207126] = "마른가지 무기 더미",
 	[207127] = "슈노츠 화약통",
 	[207158] = "온전한 올빼미 깃털",
 	[207162] = "고급 옷감 상자",
@@ -28778,7 +28795,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "Esta sección solo mostrará las profesiones de tu personaje actual fuera del modo Cuenta y Depuración.",
 	[-47] = "Contiene cosas que son recompensadas o están disponibles en otro contenido dentro de la sección contenedora.\nSe consolidan aquí en un esfuerzo por reducir la duplicación de muchas fuentes posibles.",
 	[-49] = "Contiene cosas que se obtienen como recompensa al completar ese escenario.",
-	[-50] = "Secretitos traviesos...",
 	[-213] = "Esta sección te mostrará cosas que puedes comprar en la Tienda del Juego en Retail.",
 	[-304] = "Estos artículos requieren el rango Legionario/Capitán-Caballero de Campos de Batalla Clásicos/Clasificados o superior para comprarse.",
 	[-341] = "Los elementos de esta lista son apariencias compartidas del elemento anterior. En el modo de apariencia única, esta lista puede ayudarlo a comprender por qué o no un elemento específico se marcaría como coleccionado.",
@@ -30530,6 +30546,7 @@ localize(ObjectNames, {
 	[203966] = "Pieza de repuesto",
 	[203967] = "Pieza de repuesto",
 	[203968] = "Pieza de repuesto",
+	[203969] = "Fruto pera espinosa",
 	[203972] = "Tierra fresca",
 	[203989] = "Cajón de suministros cubierto de moco",
 	[204000] = "Cajón de raciones Grom'gol",
@@ -30764,6 +30781,7 @@ localize(ObjectNames, {
 	[207105] = "Explosivo Troncoferro",
 	[207124] = "Saco de botín saqueado",
 	[207125] = "Cajón de suministros abandonados",
+	[207126] = "Montón de armas de Muertobosque",
 	[207127] = "Tonel de pólvora de Schnottz",
 	[207158] = "Pluma de búho prístina",
 	[207162] = "Cajón de paño refinado",
@@ -32932,7 +32950,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-44] = "此部分只会显示你当前角色的专业技能，除非处于账号模式或调试模式。",
 	[-47] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-49] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
-	[-50] = "淘气的解密……",
 	[-213] = "此部分显示能在正式服的游戏内商城购买的东西。",
 	[-304] = "这些物品需要经典/评级战场的军团士兵/骑士队长或更高的排名才能购买。",
 	[-341] = "此列表中的物品是以下物品的共享外观。在唯一外观模式下，此列表可帮助了解特定物品被标记为已收藏的原因。",
@@ -34457,6 +34474,7 @@ localize(ObjectNames, {
 	[203966] = "备用零件",
 	[203967] = "备用零件",
 	[203968] = "备用零件",
+	[203969] = "仙人掌果",
 	[203972] = "新鲜的泥土",
 	[203982] = "秋葵",
 	[203989] = "污泥覆盖的补给箱",
@@ -34651,6 +34669,7 @@ localize(ObjectNames, {
 	[207105] = "铁木炸药",
 	[207124] = "抢来的战利品",
 	[207125] = "一箱剩余补给品",
+	[207126] = "死木武器",
 	[207158] = "完好的猫头鹰羽毛",
 	[207162] = "一箱优质布料",
 	[207179] = "寒水村大锅",
@@ -36380,16 +36399,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });

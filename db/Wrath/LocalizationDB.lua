@@ -444,6 +444,7 @@ L.LINKED_ACCOUNTS_TOOLTIP = "This shows all of the linked accounts you have defi
 L.LIST = "Mini List";
 L.LOADING_FORMAT = "%s " .. LFG_LIST_LOADING;
 L.LOCATIONS_SLIDER_TOOLTIP = "Use this to customize the number of source locations to show in the tooltip.\n\nNOTE: This will also show \"X\" number of other sources based on how many, if that total is equivalent to the total number of displayed elements, then that will simply display the last source.\n\nDefault: 5";
+L.LOCK_CRITERIA_DECOR_LABEL = "Known Decor";
 L.LOCK_CRITERIA_FACTION_FORMAT = "%s with %s (Current: %s)";
 L.LOCK_CRITERIA_FACTION_LABEL = "Faction Reputation";
 L.LOCK_CRITERIA_LEVEL_LABEL = "Player Level";
@@ -2942,6 +2943,7 @@ local ObjectNames = {
 	[181280] = "Nightmare Vine",
 	[181281] = "Mana Thistle",
 	[181283] = "Emitter Spare Part",
+	[181287] = "Frozen Rune",
 	[181366] = "Four Horsemen Chest",
 	[181372] = "Hellfire Spineleaf",
 	[181385] = "Ravager Egg",
@@ -4913,6 +4915,7 @@ local ObjectModels = {
 	[181280] = 219480,
 	[181281] = 219472,
 	[181283] = 192461,
+	[181287] = 191177,
 	[181366] = 200953,
 	[181372] = 219491,
 	[181385] = 201375,
@@ -22387,16 +22390,16 @@ end
 end
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
-	__index = function(t, key)
-		_.print("MISSING FilterConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING FilterConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
 setmetatable(_.HeaderConstants, {
-	__index = function(t, key)
-		_.print("MISSING HeaderConstant:", key);
-		rawset(t, key, -9999999999);
-		return -9999999999;
-	end
+    __index = function(t, key)
+        _.print("MISSING HeaderConstant:", key);
+        rawset(t, key, -9999999999);
+        return -9999999999;
+    end
 });
