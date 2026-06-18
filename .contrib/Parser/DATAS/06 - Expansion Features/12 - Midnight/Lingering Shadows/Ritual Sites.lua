@@ -488,7 +488,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["coord"] = { 56.1, 61.4, NAIGTAL },
 								["questID"] = 97014,
 								["groups"] = {	-- Shoulders
-									i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)
+									i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)	-- TODO Not rare specific?
 									i(275149),	-- Fungal Draped Epaulets
 									i(275165),	-- Petrified Mushroom Shoulderplates
 									i(275141),	-- Spore-Speckled Shoulderpads
