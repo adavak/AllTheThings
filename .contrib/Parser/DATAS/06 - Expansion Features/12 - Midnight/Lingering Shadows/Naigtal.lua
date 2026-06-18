@@ -222,6 +222,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 48.5, 82.1, NAIGTAL },
 						}),
 						-- Repeatable
+						q(96720, {	-- Showdown on Naigta (Low Level?)
+							["sourceQuest"] = 96052,	-- Through the Mana Rift
+							["qgs"] = {
+								265303,	-- Decimus
+								263531,	-- Projected Image of Decimus
+							},
+							["coords"] = {
+								{ 47.7, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+								{ 48.2, 81.2, NAIGTAL },
+								{ 48.5, 81.9, NAIGTAL },
+							},
+							["isWeekly"] = true,
+						}),
 						q(96717, {	-- Showdown on Naigtal
 							["sourceQuest"] = 96052,	-- Through the Mana Rift
 							["qgs"] = {

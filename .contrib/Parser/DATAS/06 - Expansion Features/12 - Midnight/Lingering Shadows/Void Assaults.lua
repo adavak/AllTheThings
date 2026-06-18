@@ -439,7 +439,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 									96226,	-- Omnium Anomalies
 								},
 								["qg"] = 264066,	-- Grand Magister Rommath
-								["coord"] = { 63.6, 14.0, 2649 },	-- The Lycaneum, Magister's Terrace
+								["coords"] = {
+									{ 63.6, 14.0, 2649 },	-- The Lycaneum, Magister's Terrace
+									{ 63.6, 16.3, 2649 },	-- The Lycaneum, Magister's Terrace
+								},
 							}),
 							q(96231, {	-- Unravelling the Wards
 								["sourceQuest"] = 96230,	-- Unravelling the Wards
@@ -458,7 +461,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 									96229,	-- The Void Reveals
 									96231,	-- Unravelling the Wards
 								},
-								["qg"] = 264787,	-- Magister Umbric
+								["qgs"] = {
+									264787,	-- Magister Umbric
+									269814,	-- Magister Umbric
+								},
 								["coord"] = { 62.5, 62.6, MAP.MIDNIGHT.EVERSONG_WOODS },
 							}),
 							q(96238, {	-- Return to the Omnium
