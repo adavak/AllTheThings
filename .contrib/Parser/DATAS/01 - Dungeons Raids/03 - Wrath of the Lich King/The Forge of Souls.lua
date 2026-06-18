@@ -27,26 +27,26 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				ach(4516, {	-- The Forge of Souls
 					-- #if AFTER 7.3.5
 					crit(13315, {	-- Bronjahm
-						["_encounter"] = { 615, DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC },
+						["_encounter"] = { BRONJAHM, DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC },
 					}),
 					crit(13316, {	-- Devourer of Souls
-						["_encounter"] = { 616, DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC },
+						["_encounter"] = { DEVOURER, DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC },
 					}),
 					-- #else
 					crit(13315, {	-- Bronjahm
-						["_encounter"] = { 615, DIFFICULTY.DUNGEON.NORMAL },
+						["_encounter"] = { BRONJAHM, DIFFICULTY.DUNGEON.NORMAL },
 					}),
 					crit(13316, {	-- Devourer of Souls
-						["_encounter"] = { 616, DIFFICULTY.DUNGEON.NORMAL },
+						["_encounter"] = { DEVOURER, DIFFICULTY.DUNGEON.NORMAL },
 					}),
 					-- #endif
 				}),
 				ach(4519, {	-- Heroic: The Forge of Souls
 					crit(13167, {	-- Bronjahm
-						["_encounter"] = { 615, DIFFICULTY.DUNGEON.HEROIC },
+						["_encounter"] = { BRONJAHM, DIFFICULTY.DUNGEON.HEROIC },
 					}),
 					crit(13168, {	-- Devourer of Souls
-						["_encounter"] = { 616, DIFFICULTY.DUNGEON.HEROIC },
+						["_encounter"] = { DEVOURER, DIFFICULTY.DUNGEON.HEROIC },
 					}),
 				}),
 			}),
@@ -172,15 +172,11 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					i(50319),	-- Unsharpened Ice Razor
 				}),
 				BossOnly(BRONJAHM, {
-					i(50169, {	-- Papa's Brand New Knife
-						["timeline"] = { REMOVED_5_0_4 },
-					}),
+					i(50169, { ["timeline"] = { REMOVED_5_0_4 } }),	-- Papa's Brand New Knife
 					ach(4522),	-- Soul Power
 				}),
 				BossOnly(DEVOURER, {
-					ach(5112, {	-- Heroic: The Forge of Souls Guild Run
-						["timeline"] = { ADDED_4_0_3 },
-					}),
+					ach(5112, { ["timeline"] = { ADDED_4_0_3 } }),	-- Heroic: The Forge of Souls Guild Run
 					ach(4523),	-- Three Faced
 				}),
 			}),
@@ -229,17 +225,13 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					i(50197),	-- Eyes of Bewilderment
 					i(50196),	-- Love's Prisoner
 					i(50191),	-- Nighttime
-					i(50169, {	-- Papa's Brand New Knife
-						["timeline"] = { REMOVED_5_0_4 },
-					}),
+					i(50169, { ["timeline"] = { REMOVED_5_0_4 } }),	-- Papa's Brand New Knife
 					i(50316),	-- Papa's Brand New Bag
 					i(50193),	-- Very Fashionable Shoulders
 					i(50194),	-- Weeping Gauntlets
 				}),
 				BossOnly(DEVOURER, {
-					ach(5112, {	-- Heroic: The Forge of Souls Guild Run
-						["timeline"] = { ADDED_4_0_3 },
-					}),
+					ach(5112, { ["timeline"] = { ADDED_4_0_3 } }),	-- Heroic: The Forge of Souls Guild Run
 					ach(4523),	-- Three Faced
 					i(50211),	-- Arcane Loops of Anger
 					i(50207),	-- Black Spire Sabatons
