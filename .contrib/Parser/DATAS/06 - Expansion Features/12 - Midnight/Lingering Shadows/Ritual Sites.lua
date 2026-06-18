@@ -413,21 +413,33 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(264569, {	-- Auredar's Chassis <The Vacant Vigilant>
 								["coord"] = { 28.8, 62.9, NAIGTAL },
 								["questID"] = 96316,
-								["groups"] = { i(275167) },	-- Intact Construct Plates
+								["groups"] = {	-- Wrists
+									i(275151),	-- Bands of Draenic Mourning
+									i(275159),	-- Construct Manipulator Bracers
+									i(275143),	-- Draeni Ceremonial Cuffs
+									i(275167),	-- Intact Construct Plates
+								},
 							}),
 							n(263950, {	-- Broxion <Contagious Anomaly>
 								["coord"] = { 44.2, 51.0, NAIGTAL },
 								["questID"] = 96206,
-								["groups"] = {
+								["groups"] = {	-- Hands
 									i(275138),	-- Spore-Handler's Handwraps
 									i(275146),	-- Spore-Membrane Gloves
+									i(275162),	-- Spore-Shined Gloves
+									i(275154),	-- Swamp Trekker's Grips
 								},
 							}),
 							n(264571, {	-- Indomitable Mk XII <Blazing Reaver>
 								["description"] = "Patrols up and down the central road.",
 								["coord"] = { 53.8, 51.6, NAIGTAL },
 								["questID"] = 96317,
-								["groups"] = { i(275148) },	-- Reaver's Padded Trousers
+								["groups"] = {	-- Legs
+									i(275164),	-- Indomitable Mechanized Legplates
+									i(275156),	-- Gear-Linked Leggings
+									i(275140),	-- Leggings of Tainted Stuffing
+									i(275148),	-- Reaver's Padded Trousers
+								},
 							}),
 							n(263947, {	-- Interminable Uarn
 								["coord"] = { 37.6, 61.8, NAIGTAL },
@@ -443,23 +455,45 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["description"] = "Roams around the area.",
 								["coord"] = { 77.7, 38.0, NAIGTAL },
 								["questID"] = 96207,
-								["groups"] = { i(275161) },	-- Swamp-Resistant Stompers
+								["groups"] = {	-- Feet
+									i(275153),	-- Flickering Scale Sabatons
+									i(275137),	-- Flickering Soft-Steppers
+									i(275145),	-- Swalewing Skin Footpads
+									i(275161),	-- Swamp-Resistant Stompers
+								},
 							}),
 							n(264576, {	-- Slaipaan
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
 								["questID"] = 96320,
+								["groups"] = {	-- Chests
+									i(275152),	-- Burrower's Linked Hauberk
+									i(275136),	-- Leaf-Woven Blouse
+									i(275144),	-- Leafy-Hide Coat
+									i(275160),	-- Slaipaan's Carapace
+								},
 							}),
 							n(265698, {	-- Voidwarped Sporebat
 								["coord"] = { 48.8, 47.4, NAIGTAL },
 								["questID"] = 96566,
-								["groups"] = { i(275166) },	-- Voidwarped Greatbelt
+								["groups"] = {	-- Waists
+									i(275166),	-- Voidwarped Greatbelt
+									i(275142),	-- Voidwarped Sash
+									i(275158),	-- Voidwarped Scale Girdle
+									i(275150),	-- Sporebat Leather Belt
+								},
 							}),
 							n(267422, {	-- Warbringer Thal'kuur
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
 								["questID"] = 97014,
-								["groups"] = { i(276298) },	-- Forgotten Fel-Shard Talon	--TODO Not rare specific?
+								["groups"] = {	-- Shoulders
+									i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)
+									i(275149),	-- Fungal Draped Epaulets
+									i(275165),	-- Petrified Mushroom Shoulderplates
+									i(275141),	-- Spore-Speckled Shoulderpads
+									i(275157),	-- Swampwalker's Spaulders
+								},
 							}),
 							n(264574, {	-- Warp Agent Xi'grivr
 								["coord"] = { 70.3, 76.4, NAIGTAL },

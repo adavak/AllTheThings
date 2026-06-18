@@ -10,33 +10,11 @@ root(ROOTS.Unsorted, {
 				i(274780),	-- Fungal Spore Vapor [NYI]
 				i(276097),	-- Lost Armaments
 				i(276098),	-- Raided Items
-
-				-- Rares??
-				i(275136),	-- Leaf-Woven Blouse
-				i(275137),	-- Flickering Soft-Steppers
+				-- Rares
 				i(275139),	-- Crown of Fungal Spores
-				i(275140),	-- Leggings of Tainted Stuffing
-				i(275141),	-- Spore-Speckled Shoulderpads
-				i(275142),	-- Voidwarped Sash
-				i(275143),	-- Draeni Ceremonial Cuffs
-				i(275144),	-- Leafy-Hide Coat
-				i(275145),	-- Swalewing Skin Footpads
 				i(275147),	-- Bioluminescent Swamp Mask
-				i(275149),	-- Fungal Draped Epaulets
-				i(275150),	-- Sporebat Leather Belt
-				i(275151),	-- Bands of Draenic Mourning
-				i(275152),	-- Burrower's Linked Hauberk
-				i(275153),	-- Flickering Scale Sabatons
-				i(275154),	-- Swamp Trekker's Grips
 				i(275155),	-- Interminable Fungal Helmet
-				i(275157),	-- Swampwalker's Spaulders
-				i(275158),	-- Voidwarped Scale Girdle
-				i(275159),	-- Construct Manipulator Bracers
-				i(275160),	-- Slaipaan's Carapace
-				i(275162),	-- Spore-Shined Gloves
 				i(275163),	-- Uarn's Reinforced Headplate
-				i(275164),	-- Indomitable Mechanized Legplates
-				i(275165),	-- Petrified Mushroom Shoulderplates
 				-- Trinkets
 				i(274890),	-- Enchanted Spore
 				i(274891),	-- Mk XII Gear Drive
@@ -48,12 +26,6 @@ root(ROOTS.Unsorted, {
 				i(274884),	-- Arcanografter's Beacon
 				i(274886),	-- Eradicator's Censer
 				i(274887),	-- Mana-Overloaded Bulwark
-				i(275219),	-- Pertinax's Beast Prod
-				i(275220),	-- Imperator's Voidedged Cutlass
-				i(275221),	-- Beast Collector's Cudgel
-				i(275222),	-- Base Commander's Decapitator
-				i(275225),	-- Toxic Voidscythe Spaulders
-				i(275226),	-- Shredclaw Handler's Grips
 			}),
 			filter(BATTLE_PETS, {
 				i(275818),	-- Pinky
