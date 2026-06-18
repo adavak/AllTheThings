@@ -290,7 +290,7 @@ end
 
 -- Allows a user to use /att [cmd]
 -- This is the base Slash for all Commands!
-AddSlashCommands({"att"}, function(cmd)
+AddSlashCommands({"att","allthethings","attc"}, function(cmd)
 	-- app.PrintDebug("root command:",cmd)
 	if cmd == "" then
 		app:GetWindow("Prime"):Toggle();

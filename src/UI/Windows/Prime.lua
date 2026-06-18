@@ -19,7 +19,6 @@ app:CreateWindow("Prime", {
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
 	},
-	Commands = { "allthethings", "attc" },
 	RootCommands = { "main", "mainlist" },
 	OnInit = function(self)
 		app.ToggleMainList = function()
