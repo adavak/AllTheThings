@@ -26134,6 +26134,7 @@ L.QUEST_NAMES = {
 	[95137] = "MID Inscription Order: Tailoring",
 	[95138] = "MID Inscription Order: Engineering",
 	[97139] = "Stay awhile and listen: Grand Magister Rommath",
+	[97293] = "Stay awhile and listen: Riftblade Maella",
 }
 L.SOURCE_NAMES = {
 	[90628] = "Monel-Hardened Breastplate",
