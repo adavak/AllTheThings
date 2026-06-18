@@ -7,10 +7,6 @@ local DARK_PARTICLE = 267051;
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 	["groups"] = sharedData({
-		["maps"] = {
-			MAP.MIDNIGHT.EVERSONG_WOODS,
-			MAP.MIDNIGHT.ZULAMAN,
-		},
 		["timeline"] = { ADDED_12_0_5 },
 	}, {
 		header(HEADERS.Achievement, 41052, {	-- Lingering Shadows

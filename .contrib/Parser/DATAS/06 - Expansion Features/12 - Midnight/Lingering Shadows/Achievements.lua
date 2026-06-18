@@ -2,9 +2,6 @@
 --      E X P A N S I O N   F E A T U R E S    M O D U L E       --
 -------------------------------------------------------------------
 
-local FIELD_ACCOLADE = 3405;
-local DARK_PARTICLE = 267051;
-
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 	["groups"] = sharedData({
 		["timeline"] = { ADDED_12_0_5 },
