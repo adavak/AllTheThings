@@ -396,23 +396,31 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								{ 50.9, 73.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 							},
 						}),
-						q(96224, {	-- The Magister's Conundrum
+						q(96224, {	-- The Magisters' Conundrum
 							["sourceQuest"] = 96223,	-- The Magister's Call
 							["qg"] = 264063,	-- Magister Umbric
+							["races"] = ALLIANCE_ONLY,
 							["coord"] = { 38.9, 48.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(96225, {	-- The Magisters' Conundrum
 							["sourceQuest"] = 96223,	-- The Magister's Call
 							["qg"] = 264064,	-- Grand Magister Rommath
-							["coord"] = { 38.9, 48.5, MAP.MIDNIGHT.SILVERMOON_CITY },
+							["races"] = HORDE_ONLY,
+							["coord"] = { 38.9, 48.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(96227, {	-- Lycaneum Chaos
-							["sourceQuest"] = 96224,	-- The Magister's Conundrum
+							["sourceQuests"] = {
+								96224,	-- The Magisters' Conundrum [A]
+								96225,	-- The Magisters' Conundrum [H]
+							},
 							["qg"] = 264066,	-- Grand Magister Rommath
 							["coord"] = { 63.2, 16.5, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
 						q(96226, {	-- Omnium Anomalies
-							["sourceQuest"] = 96224,	-- The Magister's Conundrum
+							["sourceQuests"] = {
+								96224,	-- The Magisters' Conundrum [A]
+								96225,	-- The Magisters' Conundrum [H]
+							},
 							["qg"] = 264065,	-- Magister Umbric
 							["coord"] = { 61.8, 15.0, 2649 },	-- The Lycaneum, Magister's Terrace
 						}),
