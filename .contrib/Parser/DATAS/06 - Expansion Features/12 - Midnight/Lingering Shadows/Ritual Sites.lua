@@ -355,8 +355,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							-- Repeatable
 							q(96717, {	-- Showdown on Naigtal
 								["sourceQuest"] = 96052,	-- Through the Mana Rift
-								["qg"] = 265303,	-- Decimus
+								["qgs"] = {
+									265303,	-- Decimus
+									263531,	-- Projected Image of Decimus
+								},
 								["coords"] = {
+									{ 47.7, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 									{ 48.2, 81.2, NAIGTAL },
 									{ 48.5, 81.9, NAIGTAL },
 								},
@@ -406,6 +410,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(RARES, {
 							-- Rare at Vennorax Wreckage. It was gone by the time I got there. Coord 29.7, 19.2,	-- Exo
+							n(264569, {	-- Auredar's Chassis <The Vacant Vigilant>
+								["coord"] = { 28.8, 62.9, NAIGTAL },
+								["questID"] = 96316,
+								["groups"] = { i(275167) },	-- Intact Construct Plates
+							}),
+							n(263950, {	-- Broxion <Contagious Anomaly>
+								["coord"] = { 44.2, 51.0, NAIGTAL },
+								["questID"] = 96206,
+								["groups"] = {
+									i(275138),	-- Spore-Handler's Handwraps
+									i(275146),	-- Spore-Membrane Gloves
+								},
+							}),
+							n(264571, {	-- Indomitable Mk XII <Blazing Reaver>
+								["description"] = "Patrols up and down the central road.",
+								["coord"] = { 53.8, 51.6, NAIGTAL },
+								["questID"] = 96317,
+								["groups"] = { i(275148) },	-- Reaver's Padded Trousers
+							}),
 							n(263947, {	-- Interminable Uarn
 								["coord"] = { 37.6, 61.8, NAIGTAL },
 								["questID"] = 96205,
@@ -415,6 +438,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["description"] = "Roams around the area.",
 								["coord"] = { 67.7, 62.9, NAIGTAL },
 								--["questID"] = XXXXX,
+								["groups"] = { i(274819) },	-- Fungle Fold Frock
 							}),
 							n(263954, {	-- Swalewing Matriarch
 								["description"] = "Roams around the area.",
@@ -431,8 +455,8 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(267422, {	-- Warbringer Thal'kuur
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
-								--["questID"] = XXXXX,
-								["groups"] = { i(276298) },	-- Forgotten Fel-Shard Talon
+								["questID"] = 97014,
+								["groups"] = { i(276298) },	-- Forgotten Fel-Shard Talon	--TODO Not rare specific?
 							}),
 							n(264574, {	-- Warp Agent Xi'grivr
 								["coord"] = { 70.3, 76.4, NAIGTAL },
@@ -491,6 +515,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							q(96293, {	-- Mush-Vroom!
 								["coord"] = { 34.2, 45.9, NAIGTAL },
 							}),
+							q(96699, {	-- Mushroom Top Tendril Sling (Bonus Objective)
+								["coord"] = { 47.5, 60.6, NAIGTAL },
+							}),
 							q(96698, {	-- Naigtal Tendril Sling
 								["coord"] = { 58.9, 56.6, NAIGTAL },
 							}),
@@ -545,6 +572,42 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["coord"] = { 74.2, 73.5, NAIGTAL },
 							}),
 							i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
+						}),
+						n(ZONE_REWARDS, {	--TODO Not sure if available in Val too or if these are also rare drops
+							["description"] = "Available to characters below level 90 from world quests.",
+							["groups"] = {
+								i(274847),	-- Atomus' Headcover
+								i(274835),	-- Bands of Pincher Sinew
+								i(274857),	-- Chitonous Broodmother's Spaulders
+								i(274820),	-- Cloak of the Voracious Gorger
+								i(274839),	-- Cold-World Cover
+								i(274834),	-- Cord of Domineering Resolve
+								i(274829),	-- Creature Corruptor Slippers
+								i(274853),	-- Creature Crushers
+								i(274863),	-- Cudgel of the Twisted Reaper
+								i(274872),	-- Darkness' Horrific Barb
+								i(274858),	-- Domanaar Battle Belt
+								i(274828),	-- Domanaar Subjugator's Vestments
+								i(274821),	-- Drape of the Hal'hadar Assassin
+								i(274841),	-- Frigid Cavedweller's Shoulderpads
+								i(274849),	-- Frostscale Spider's Monnion
+								i(274819),	-- Fungle Fold Frock
+								i(274842),	-- Gatekeeper's Leather Waistguard
+								i(274871),	-- Giant Worm Piercer
+								i(274851),	-- Glittering Frostscale Wraps
+								i(274830),	-- Ice-Glazed Gloves
+								i(274833),	-- Icy Spidersilk Mantle
+								i(274848),	-- Leggaurds of Fel-Corruption
+								i(274850),	-- Mercilus' Chain Waistguard
+								i(274843),	-- Pincher-Proof Wristguards
+								i(274868),	-- Portal Master's Shortblade
+								i(274855),	-- Portal-Keeper's Helm
+								i(274876),	-- Reinforced Fungalhide Bulwark
+								i(274875),	-- Riftwalker's Lantern
+								i(274854),	-- Shadowguard Plate Gauntlets
+								i(274836),	-- Sleet-Resistant Jerkin
+								i(274844),	-- Sleetlink Hauberk
+							},
 						}),
 					},
 				}),

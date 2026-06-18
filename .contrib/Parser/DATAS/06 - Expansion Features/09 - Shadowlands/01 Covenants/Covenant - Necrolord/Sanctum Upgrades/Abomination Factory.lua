@@ -952,6 +952,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 										i(182506),	-- Stitched Conjurer's Wristwraps
 										i(182515),	-- Stitched Tactician's Bracers
 										o(357771, {	-- Burried Cache (Ardenweald version)
+											["coords"] = {
+												{ 49.6, 76.2, ARDENWEALD },
+												{ 50.7, 75.6, ARDENWEALD },
+												{ 50.8, 73.2, ARDENWEALD },
+												{ 50.8, 75.4, ARDENWEALD },
+												{ 51.8, 79.6, ARDENWEALD },
+												{ 52.1, 74.1, ARDENWEALD },
+												{ 52.1, 77.3, ARDENWEALD },
+												{ 52.7, 78.7, ARDENWEALD },
+												{ 53.0, 75.7, ARDENWEALD },
+											},
 											["groups"] = {
 												i(183755),	-- Ardenweald Wreath
 												i(183826),	-- Big Floppy Hat

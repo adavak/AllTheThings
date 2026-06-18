@@ -13,61 +13,33 @@ root(ROOTS.Unsorted, {
 
 				-- Rares??
 				i(274818),	-- Drape of Intense Darkness
-				i(274819),	-- Fungle Fold Frock
 				i(274822),	-- Band of the Beast Reaper
 				i(274823),	-- Spongy Gill Loop
 				i(274824),	-- Worldeater's Bone Ring
 				i(274825),	-- Hal'hadar Assassin's Signet
 				i(274826),	-- Coiling Smoke Chain
 				i(274827),	-- Draenic Drive Chain
-				i(274828),	-- Domanaar Subjugator's Vestments
-				i(274829),	-- Creature Corruptor Slippers
-				i(274830),	-- Ice-Glazed Gloves
 				i(274831),	-- Portal Shaper's Circlet
 				i(274832),	-- Fel-Tainted Trousers
-				i(274833),	-- Icy Spidersilk Mantle
-				i(274834),	-- Cord of Domineering Resolve
-				i(274835),	-- Bands of Pincher Sinew
-				i(274836),	-- Sleet-Resistant Jerkin
 				i(274837),	-- Corrupted Hide Boots
 				i(274838),	-- Gloves of the Descending Destroyer
-				i(274839),	-- Cold-World Cover
 				i(274840),	-- Pants of the Lost Legion
-				i(274841),	-- Frigid Cavedweller's Shoulderpads
-				i(274842),	-- Gatekeeper's Leather Waistguard
-				i(274843),	-- Pincher-Proof Wristguards
-				i(274844),	-- Sleetlink Hauberk
 				i(274845),	-- Greaves of Corrupted Scale
 				i(274846),	-- Glacier Basin Gauntlets
-				i(274847),	-- Atomus' Headcover
-				i(274848),	-- Leggaurds of Fel-Corruption
-				i(274849),	-- Frostscale Spider's Monnion
-				i(274850),	-- Mercilus' Chain Waistguard
-				i(274851),	-- Glittering Frostscale Wraps
 				i(274852),	-- Sleetstone Chestplate
-				i(274853),	-- Creature Crushers
-				i(274854),	-- Shadowguard Plate Gauntlets
-				i(274855),	-- Portal-Keeper's Helm
 				i(274856),	-- Felguard's Frozen Greaves
-				i(274857),	-- Chitonous Broodmother's Spaulders
-				i(274858),	-- Domanaar Battle Belt
 				i(274859),	-- Klaxid Plate Vambraces
 				i(274860),	-- Ancient Spore-Coated Axe
 				i(274861),	-- Frosty Broodmother's Fang
-				i(274863),	-- Cudgel of the Twisted Reaper
 				i(274864),	-- Sporebloom Gavel
 				i(274865),	-- Destroyer's Drop Hammer
 				i(274866),	-- Voidwarped Edge
 				i(274867),	-- Inscribed Domanaar's Sword
-				i(274868),	-- Portal Master's Shortblade
 				i(274869),	-- Void-Iced Warglaives
 				i(274873),	-- Funeral Attendant's Spire
 				i(274874),	-- Flickering Wing Seperator
-				i(274875),	-- Rift Walker's Lantern
-				i(274876),	-- Reinforced Fungalhide Bulwark
 				i(275136),	-- Leaf-Woven Blouse
 				i(275137),	-- Flickering Soft-Steppers
-				i(275138),	-- Spore-Handler's Handwraps
 				i(275139),	-- Crown of Fungal Spores
 				i(275140),	-- Leggings of Tainted Stuffing
 				i(275141),	-- Spore-Speckled Shoulderpads
@@ -75,9 +47,7 @@ root(ROOTS.Unsorted, {
 				i(275143),	-- Draeni Ceremonial Cuffs
 				i(275144),	-- Leafy-Hide Coat
 				i(275145),	-- Swalewing Skin Footpads
-				i(275146),	-- Spore-Membrane Gloves
 				i(275147),	-- Bioluminescent Swamp Mask
-				i(275148),	-- Reaver's Padded Trousers
 				i(275149),	-- Fungal Draped Epaulets
 				i(275150),	-- Sporebat Leather Belt
 				i(275151),	-- Bands of Draenic Mourning
@@ -94,7 +64,6 @@ root(ROOTS.Unsorted, {
 				i(275164),	-- Indomitable Mechanized Legplates
 				i(275165),	-- Petrified Mushroom Shoulderplates
 				i(275166),	-- Voidwarped Greatbelt
-				i(275167),	-- Intact Construct Plates
 				-- Trinkets
 				i(274890),	-- Enchanted Spore
 				i(274891),	-- Mk XII Gear Drive
