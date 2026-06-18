@@ -432,7 +432,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(263947, {	-- Interminable Uarn
 								["coord"] = { 37.6, 61.8, NAIGTAL },
 								["questID"] = 96205,
-								["groups"] = { i(274862) },	-- Corrupted Draenei Priest's Kris
 							}),
 							n(263955, {	-- Lomelith
 								["description"] = "Roams around the area.",
@@ -450,7 +449,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								["description"] = "Roams around the area.",
 								["coord"] = { 56.1, 61.4, NAIGTAL },
 								["questID"] = 96320,
-								["groups"] = { i(274871) },	-- Giant Worm Piercer
+							}),
+							n(265698, {	-- Voidwarped Sporebat
+								["coord"] = { 48.8, 47.4, NAIGTAL },
+								["questID"] = 96566,
+								["groups"] = { i(275166) },	-- Voidwarped Greatbelt
 							}),
 							n(267422, {	-- Warbringer Thal'kuur
 								["description"] = "Roams around the area.",
@@ -461,10 +464,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(264574, {	-- Warp Agent Xi'grivr
 								["coord"] = { 70.3, 76.4, NAIGTAL },
 								["questID"] = 96319,
-								["groups"] = {
-									i(274870),	-- Assassin's Void-String Bow
-									i(274821),	-- Drape of the Hal'hadar Assassin
-								},
 							}),
 						}),
 						n(REWARDS, {
@@ -574,40 +573,85 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
 						}),
 						n(ZONE_REWARDS, {	--TODO Not sure if available in Val too or if these are also rare drops
-							["description"] = "Available to characters below level 90 from world quests.",
-							["groups"] = {
-								i(274847),	-- Atomus' Headcover
-								i(274835),	-- Bands of Pincher Sinew
-								i(274857),	-- Chitonous Broodmother's Spaulders
-								i(274820),	-- Cloak of the Voracious Gorger
-								i(274839),	-- Cold-World Cover
-								i(274834),	-- Cord of Domineering Resolve
-								i(274829),	-- Creature Corruptor Slippers
-								i(274853),	-- Creature Crushers
-								i(274863),	-- Cudgel of the Twisted Reaper
-								i(274872),	-- Darkness' Horrific Barb
-								i(274858),	-- Domanaar Battle Belt
-								i(274828),	-- Domanaar Subjugator's Vestments
-								i(274821),	-- Drape of the Hal'hadar Assassin
-								i(274841),	-- Frigid Cavedweller's Shoulderpads
-								i(274849),	-- Frostscale Spider's Monnion
-								i(274819),	-- Fungle Fold Frock
-								i(274842),	-- Gatekeeper's Leather Waistguard
-								i(274871),	-- Giant Worm Piercer
-								i(274851),	-- Glittering Frostscale Wraps
-								i(274830),	-- Ice-Glazed Gloves
-								i(274833),	-- Icy Spidersilk Mantle
-								i(274848),	-- Leggaurds of Fel-Corruption
-								i(274850),	-- Mercilus' Chain Waistguard
-								i(274843),	-- Pincher-Proof Wristguards
-								i(274868),	-- Portal Master's Shortblade
-								i(274855),	-- Portal-Keeper's Helm
-								i(274876),	-- Reinforced Fungalhide Bulwark
-								i(274875),	-- Riftwalker's Lantern
-								i(274854),	-- Shadowguard Plate Gauntlets
-								i(274836),	-- Sleet-Resistant Jerkin
-								i(274844),	-- Sleetlink Hauberk
-							},
+							n(LEVELING_CHARACTERS, {
+								n(ARMOR, {
+									filter(BACK_F, {
+										i(274820),	-- Cloak of the Voracious Gorger
+										i(274818),	-- Drape of Intense Darkness
+										i(274821),	-- Drape of the Hal'hadar Assassin
+										i(274819),	-- Fungle Fold Frock
+									}),
+									filter(CLOTH, {
+										i(274835),	-- Bands of Pincher Sinew
+										i(274834),	-- Cord of Domineering Resolve
+										i(274829),	-- Creature Corruptor Slippers
+										i(274828),	-- Domanaar Subjugator's Vestments
+										i(274832),	-- Fel-Tainted Trousers
+										i(274830),	-- Ice-Glazed Gloves
+										i(274833),	-- Icy Spidersilk Mantle
+										i(274831),	-- Portal Shaper's Circlet
+									}),
+									filter(FINGER_F, {
+										i(274822),	-- Band of the Beast Reaper
+										i(274825),	-- Hal'hadar Assassin's Signet
+										i(274823),	-- Spongy Gill Loop
+										i(274824),	-- Worldeater's Bone Ring
+									}),
+									filter(LEATHER, {
+										i(274839),	-- Cold-World Cover
+										i(274837),	-- Corrupted Hide Boots
+										i(274841),	-- Frigid Cavedweller's Shoulderpads
+										i(274842),	-- Gatekeeper's Leather Waistguard
+										i(274838),	-- Gloves of the Descending Destroyer
+										i(274840),	-- Pants of the Lost Legion
+										i(274843),	-- Pincher-Proof Wristguards
+										i(274836),	-- Sleet-Resistant Jerkin
+									}),
+									filter(MAIL, {
+										i(274847),	-- Atomus' Headcover
+										i(274849),	-- Frostscale Spider's Monnion
+										i(274846),	-- Glacier Basin Gauntlets
+										i(274851),	-- Glittering Frostscale Wraps
+										i(274845),	-- Greaves of Corrupted Scale
+										i(274848),	-- Leggaurds of Fel-Corruption
+										i(274850),	-- Mercilus' Chain Waistguard
+										i(274844),	-- Sleetlink Hauberk
+									}),
+									filter(PLATE, {
+										i(274857),	-- Chitonous Broodmother's Spaulders
+										i(274853),	-- Creature Crushers
+										i(274858),	-- Domanaar Battle Belt
+										i(274856),	-- Felguard's Frozen Greaves
+										i(274859),	-- Klaxid Plate Vambraces
+										i(274855),	-- Portal-Keeper's Helm
+										i(274854),	-- Shadowguard Plate Gauntlets
+										i(274852),	-- Sleetstone Chestplate
+									}),
+									filter(TRINKET_F, {
+										i(274826),	-- Coiling Smoke Chain
+										i(274827),	-- Draenic Drive Chain
+									}),
+								}),
+								n(WEAPONS, {
+									i(274860),	-- Ancient Spore-Coated Axe
+									i(274870),	-- Assassin's Void-String Bow
+									i(274862),	-- Corrupted Draenei Priest's Kris
+									i(274863),	-- Cudgel of the Twisted Reaper
+									i(274872),	-- Darkness's Horrific Barb
+									i(274865),	-- Destroyer's Drop Hammer
+									i(274874),	-- Flickering Wing Seperator
+									i(274861),	-- Frosty Broodmother's Fang
+									i(274873),	-- Funeral Attendant's Spire
+									i(274871),	-- Giant Worm Piercer
+									i(274867),	-- Inscribed Domanaar's Sword
+									i(274868),	-- Portal Master's Shortblade
+									i(274876),	-- Reinforced Fungalhide Bulwark
+									i(274875),	-- Rift Walker's Lantern
+									i(274864),	-- Sporebloom Gavel
+									i(274866),	-- Voidwarped Edge
+									i(274869),	-- Void-Iced Warglaives
+								}),
+							}),
 						}),
 					},
 				}),
@@ -697,9 +741,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							n(264864, {	-- Xirah
 								["coord"] = { 29.0, 73.8, VAL },
 								--["questID"] = XXXXX,
-								["groups"] = {
-									i(274820),	-- Cloak of the Voracious Gorger
-								},
 							}),
 						}),
 						n(REWARDS, {

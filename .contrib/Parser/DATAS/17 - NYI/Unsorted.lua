@@ -12,32 +12,6 @@ root(ROOTS.Unsorted, {
 				i(276098),	-- Raided Items
 
 				-- Rares??
-				i(274818),	-- Drape of Intense Darkness
-				i(274822),	-- Band of the Beast Reaper
-				i(274823),	-- Spongy Gill Loop
-				i(274824),	-- Worldeater's Bone Ring
-				i(274825),	-- Hal'hadar Assassin's Signet
-				i(274826),	-- Coiling Smoke Chain
-				i(274827),	-- Draenic Drive Chain
-				i(274831),	-- Portal Shaper's Circlet
-				i(274832),	-- Fel-Tainted Trousers
-				i(274837),	-- Corrupted Hide Boots
-				i(274838),	-- Gloves of the Descending Destroyer
-				i(274840),	-- Pants of the Lost Legion
-				i(274845),	-- Greaves of Corrupted Scale
-				i(274846),	-- Glacier Basin Gauntlets
-				i(274852),	-- Sleetstone Chestplate
-				i(274856),	-- Felguard's Frozen Greaves
-				i(274859),	-- Klaxid Plate Vambraces
-				i(274860),	-- Ancient Spore-Coated Axe
-				i(274861),	-- Frosty Broodmother's Fang
-				i(274864),	-- Sporebloom Gavel
-				i(274865),	-- Destroyer's Drop Hammer
-				i(274866),	-- Voidwarped Edge
-				i(274867),	-- Inscribed Domanaar's Sword
-				i(274869),	-- Void-Iced Warglaives
-				i(274873),	-- Funeral Attendant's Spire
-				i(274874),	-- Flickering Wing Seperator
 				i(275136),	-- Leaf-Woven Blouse
 				i(275137),	-- Flickering Soft-Steppers
 				i(275139),	-- Crown of Fungal Spores
@@ -63,7 +37,6 @@ root(ROOTS.Unsorted, {
 				i(275163),	-- Uarn's Reinforced Headplate
 				i(275164),	-- Indomitable Mechanized Legplates
 				i(275165),	-- Petrified Mushroom Shoulderplates
-				i(275166),	-- Voidwarped Greatbelt
 				-- Trinkets
 				i(274890),	-- Enchanted Spore
 				i(274891),	-- Mk XII Gear Drive
