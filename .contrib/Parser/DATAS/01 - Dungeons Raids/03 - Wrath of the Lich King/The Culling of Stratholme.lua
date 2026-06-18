@@ -283,7 +283,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					i(37117),	-- King's Square Bracers
 					i(37698, { ["timeline"] = { CREATED_3_0_3, ADDED_7_3_5 } }),	-- Spaulders of Elder's Square
 					i(37697, { ["timeline"] = { CREATED_3_0_3, ADDED_7_3_5 } }),	-- Trade District Knife
-				},
+				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(80, 80, 30) }).AddGroups({
 				n(ACHIEVEMENTS, {
