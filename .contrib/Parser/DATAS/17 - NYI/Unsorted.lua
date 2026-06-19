@@ -2283,24 +2283,25 @@ root(ROOTS.Unsorted, {
 				i(275147),	-- Bioluminescent Swamp Mask
 				i(275155),	-- Interminable Fungal Helmet
 				i(275163),	-- Uarn's Reinforced Headplate
-				-- Trinkets
-				i(274890),	-- Enchanted Spore
-				i(274891),	-- Mk XII Gear Drive
-				i(274892),	-- Resilient Felblood Vial
-				i(274893),	-- Frosty Klaxid Stinger
 				-- Cosmetic
-				i(274879),	-- Mana-Amplified Crusher
-				i(274881),	-- Phase Igniter
-				i(274884),	-- Arcanografter's Beacon
-				i(274886),	-- Eradicator's Censer
 				i(274887),	-- Mana-Overloaded Bulwark
 			}),
 			filter(BATTLE_PETS, {
 				i(275818),	-- Pinky
 			}),
+			filter(CONSUMABLES, {
+				i(245902),	-- Fleeting Potion of Recklessness
+				i(245903),	-- Fleeting Potion of Recklessness
+				i(245904),	-- Fleeting Potion of Devoured Dreams
+				i(245905),	-- Fleeting Potion of Devoured Dreams
+				i(245910),	-- Fleeting Draught of Rampant Abandon
+				i(245911),	-- Fleeting Draught of Rampant Abandon
+				i(245916),	-- Fleeting Lightfused Mana Potion
+				i(245917),	-- Fleeting Lightfused Mana Potion
+				i(245918),	-- Fleeting Silvermoon Health Potion
+				i(245919),	-- Fleeting Silvermoon Health Potion
+			}),
 			filter(COSMETIC, {
-				i(260383),	-- Quel'Danil Shortbow
-				i(266081),	-- Quel'Danil Quiver
 				i(269751),	-- Artisan Sai
 				i(269752),	-- Nunchuck of the Artisan
 				i(269753),	-- Artisan Katana
@@ -2500,6 +2501,7 @@ root(ROOTS.Unsorted, {
 				i(275475),	-- Sun Festival's Painted Wrap
 				i(275476),	-- Sun Festival's Painted Hauberk
 				i(275999),	-- Flowering Mantle
+				i(276364),	-- Arsenal: Lightforged Armaments
 			}),
 			n(DECOR, {
 				i(248961),	-- Large Amani Tiki Mask
@@ -2509,34 +2511,58 @@ root(ROOTS.Unsorted, {
 				i(264724),	-- Auspicious Golden Carp Lantern
 				i(264725),	-- Auspicious Imperial Lion
 				i(266071),	-- Auspicious Wooden Chair
-				i(267075),	-- Ornate Elven Stove
 				i(267372),	-- Banner of Five Dawns
 				i(269316),	-- Bartender Bob's "No Weapons Allowed" Rack
 				i(269604),	-- Auspicious Picnic Basket
 				i(269605),	-- Auspicious Meal Case
 				i(272353),	-- Auspicious Verdant Basin
 				i(272354),	-- Auspicious Stone Lion
-				i(272359),	-- [DNT] [AUTOGEN] 12PH_Folk_Rug04.M2
+				i(272359),	-- Square Woolen Rug
 			}),
 			filter(MISC, {
-				i(275228),	-- Nebulous Voidcache: Rotmire
 				-- Delve
 				i(275910),	-- Beacon of Hope
-				-- Cache
+				--
+				i(270273),	-- Viny Lasso
+				i(276343),	-- Console Encryption Key
+				i(276344),	-- Overgrown Spore Extractor
+				i(276345),	-- Malfunctioning Holoprint
+				i(276346),	-- Fel-Singed Salvage
+				i(276347),	-- Cracked Legon Communicator
+				i(276348),	-- Marsh Wrangler's Vinewhip
+				i(276349),	-- Bulbous Leyshroom
+				i(276350),	-- Shimmering Algae
+				i(276351),	-- Muckfaded Crystalline Figure
+				i(276352),	-- Scuffed Prayer Bangle
+				i(276353),	-- Frozen Sliver of Darkness
+				i(276354),	-- Frozen Fel Core
+				i(276355),	-- Shattered Frostforged Hilt
+				i(276356),	-- Frost-Shredded Demon Cloak
+				i(276357),	-- Razor-Ice Flake
+				i(276358),	-- Shattered Shadowgraft
+				i(276359),	-- Twisted Domanaar Armament
+				i(276360),	-- Etched Ice Chip
+				i(276361),	-- Frost-Calloused Remains
+				i(276362),	-- Lost Glacier Climbing Hooks
+				i(276365),	-- Highland Redcap
+				i(276366),	-- Dusty Redcap
+				i(276367),	-- Marshy Redcap
+				i(276368),	-- Partially-Digested Redcap
+				i(276369),	-- Airy Redcap
 			}),
 			filter(MOUNTS, {
 				-- From raid??
 				i(269240),	-- Luminous Sporeglider
 				i(273317),	-- Blackwater X-TREME Firework Rocket
 				i(273650),	-- Green Rocket Mount [PH]
-				i(273651),	-- Bligewater X-TREME Firework Rocket
+				i(273651),	-- Bilgewater X-TREME Firework Rocket
 				i(273652),	-- Pink Rocket Mount [PH]
 				i(274681),	-- Badlands Buzzard
 			}),
 			filter(QUEST_ITEMS, {
-				i(274580),	-- Primessence of Disorder
+				i(274580),	-- Primessence of Fel
 				i(274913),	-- Brazier Pieces
-				i(274924),	-- Spore Infused Lungs
+				i(274924),	-- Spore-Infused Lungs
 				i(274581),	-- Primessence of Shadow
 				i(274582),	-- Primessence of Life
 				i(274583),	-- Primessence of Arcane
@@ -2546,26 +2572,13 @@ root(ROOTS.Unsorted, {
 				i(274640),	-- Arcfluxion Hydrospore
 				i(274783),	-- Fel Embers
 				i(274798),	-- Remote Detonator
-				i(275667),	-- Domanaar Disguise
+				i(275667),	-- Veilcaster
 				i(275699),	-- Veraan's Soul Lattice Report
+				i(276255),	-- Forgotten Memorial Tribute
+				i(276276),	-- Mana Spore
+				i(276373),	-- Lightveil Recall Beacon
 			}),
-			i(250251),	-- Tall Founder's Point Gravestone
-			i(260884),	-- Boon of Temperance
-			i(262768),	-- Sleepy Mandrake
-			i(267211),	-- Army of the Light Golden Fence
-			i(267241),	-- Boon of Temperance
-			i(268557),	-- Akiki
-			i(269934),	-- Mana Spore
-			i(270273),	-- Viny Lasso
-			i(272359),	-- Square Woolen Rug
-			i(273157),	-- Voidflame Candle
-			i(274819),	-- Fungal Fold Frock
-			i(274874),	-- Flickering Wing Separator
-			i(275667),	-- Veilcaster
-			i(276083),	-- Sunstrider Omnium Simulacrum
 			i(276216),	-- Mote of Omnial Inquiry
-			i(276255),	-- Forgotten Memorial Tribute
-			i(276276),	-- Mana Spore
 			i(276285),	-- Elonath's Defender's Sword
 			i(276288),	-- Forgotten Sword of Vilaldoun
 			i(276289),	-- Lightveil Argunite Blade
@@ -2587,36 +2600,7 @@ root(ROOTS.Unsorted, {
 			i(276330),	-- Taken Riftwalker's Starbarb
 			i(276331),	-- Light Vanguard's Gleamspear
 			i(276342),	-- Fragmented Soul Lattice
-			i(276343),	-- Console Encryption Key
-			i(276344),	-- Overgrown Spore Extractor
-			i(276345),	-- Malfunctioning Holoprint
-			i(276346),	-- Fel-Singed Salvage
-			i(276347),	-- Cracked Legon Communicator
-			i(276348),	-- Marsh Wrangler's Vinewhip
-			i(276349),	-- Bulbous Leyshroom
-			i(276350),	-- Shimmering Algae
-			i(276351),	-- Muckfaded Crystalline Figure
-			i(276352),	-- Scuffed Prayer Bangle
-			i(276353),	-- Frozen Sliver of Darkness
-			i(276354),	-- Frozen Fel Core
-			i(276355),	-- Shattered Frostforged Hilt
-			i(276356),	-- Frost-Shredded Demon Cloak
-			i(276357),	-- Razor-Ice Flake
-			i(276358),	-- Shattered Shadowgraft
-			i(276359),	-- Twisted Domanaar Armament
-			i(276360),	-- Etched Ice Chip
-			i(276361),	-- Frost-Calloused Remains
-			i(276362),	-- Lost Glacier Climbing Hooks
-			i(276364),	-- Arsenal: Lightforged Armaments
-			i(276365),	-- Airy Redcap
-			i(276366),	-- Dusty Redcap
-			i(276367),	-- Marshy Redcap
-			i(276368),	-- Partially Digested Redcap
-			i(276369),	-- Redcap Specimen
 			i(276370),	-- Lightveil Hearth Beacon
-			i(276371),	-- Lightveil Recall Beacon
-			i(276372),	-- Lightveil Recall Beacon
-			i(276373),	-- Lightveil Recall Beacon
 			i(276374),	-- Lightveil Rune Reader
 			i(276375),	-- Technomancer's Scrying Matrix
 			i(276376),	-- Fel Shadow Torch
@@ -2625,23 +2609,12 @@ root(ROOTS.Unsorted, {
 			i(276388),	-- Riftstalker's Overflowing Favor
 			i(276389),	-- Riftstalker's Prize
 			i(276390),	-- Riftstalker's Overflowing Prize
-			i(245902),	-- Fleeting Potion of Recklessness
-			i(245903),	-- Fleeting Potion of Recklessness
-			i(245904),	-- Fleeting Potion of Devoured Dreams
-			i(245905),	-- Fleeting Potion of Devoured Dreams
-			i(245910),	-- Fleeting Draught of Rampant Abandon
-			i(245911),	-- Fleeting Draught of Rampant Abandon
-			i(245916),	-- Fleeting Lightfused Mana Potion
-			i(245917),	-- Fleeting Lightfused Mana Potion
-			i(245918),	-- Fleeting Silvermoon Health Potion
-			i(245919),	-- Fleeting Silvermoon Health Potion
+
 			i(255157),	-- Abyss Angler's Fish Log
 			i(262359),	-- Djaradin Sparring Spear
 			i(262364),	-- Drakonid Stabber
-			i(267211),	-- Luminant Scout's Golden Fence
 			i(272975),	-- Hal'hadar Keeper Keycode
 			i(274407),	-- Hal'hadar Automaton Fuel Cell
-			i(274580),	-- Primessence of Fel
 			i(275689),	-- Glittering Crypt Holoprint
 			i(276292),	-- Ancient Anchorite's Beacon
 			i(276316),	-- Lightveil's Transport Pad
@@ -2655,16 +2628,6 @@ root(ROOTS.Unsorted, {
 			i(276546),	-- Illusion: Summer Sun Blossom
 			i(276637),	-- Currency Wallet
 			i(271971),	-- Tome of Kings
-			i(274650),	-- Netherforged Nullframe
-			i(276378),	-- Cache of Void-Touched Armaments: Boots
-			i(276379),	-- Cache of Void-Touched Armaments: Legs
-			i(276380),	-- Cache of Void-Touched Armaments: Belts
-			i(276381),	-- Cache of Void-Touched Armaments: Gloves
-			i(276382),	-- Cache of Void-Touched Armaments: Bracers
-			i(276383),	-- Cache of Void-Touched Armaments: Chest
-			i(276384),	-- Cache of Void-Touched Armaments: Cloak
-			i(276385),	-- Cache of Void-Touched Armaments: Shoulder
-			i(276386),	-- Cache of Void-Touched Armaments: Head
 			i(276787),	-- Reinforced Expedtition Bands
 			i(276788),	-- Kifaan's Spare Bindings
 			i(276789),	-- Lightveil Watcher's Vambraces
@@ -2683,47 +2646,12 @@ root(ROOTS.Unsorted, {
 			i(275256),	-- Canopy Specimen
 			i(275257),	-- Manaforge Essence
 			i(276787),	-- Reinforced Expedition Bands
-			i(278004),	-- Warbound Cache of Void-Touched Armaments: Boots
-			i(278005),	-- Warbound Cache of Void-Touched Armaments: Legs
-			i(278006),	-- Warbound Cache of Void-Touched Armaments: Belts
-			i(278007),	-- Warbound Cache of Void-Touched Armaments: Gloves
-			i(278008),	-- Warbound Cache of Void-Touched Armaments: Bracers
-			i(278009),	-- Warbound Cache of Void-Touched Armaments: Chest
-			i(278010),	-- Warbound Cache of Void-Touched Armaments: Cloak
-			i(278011),	-- Warbound Cache of Void-Touched Armaments: Shoulder
-			i(278012),	-- Warbound Cache of Void-Touched Armaments: Head
-			i(278013),	-- Warbound Cache of Void-Touched Armaments: Weapons
-			i(278014),	-- Warbound Cache of Void-Touched Armaments: Necklaces
-			i(278015),	-- Warbound Cache of Void-Touched Armaments: Rings
-			i(278021),	-- Bulging Elven Field Pouch
-			i(278022),	-- Bulging Amani Field Pouch
-			i(278024),	-- Bulging Naga Field Pouch
-			i(278025),	-- Bulging Twilight Field Pouch
-			i(278026),	-- Bulging Ethereal Pack
-			i(278027),	-- Bulging Winter Pack
 			i(278116),	-- Player Experience
-			i(235986),	-- Pointy Half-Shell
 			i(246731),	-- Dusk Grimlynx
-			i(273651),	-- Bilgewater X-TREME Firework Rocket
-			i(274782),	-- Tether-Severing Vapor
-			i(274847),	-- Atomus's Headcover
-			i(274848),	-- Legguards of Fel-Corruption
-			i(274850),	-- Mercilus's Chain Waistguard
-			i(274872),	-- Darkness' Horrific Barb
-			i(274875),	-- Riftwalker's Lantern
-			i(274924),	-- Spore-Infused Lungs
 			i(276347),	-- Cracked Legion Communicator
 			i(276368),	-- Partially-Digested Redcap
-			i(274450),	-- Alliance Tabard of Participation
-			i(274451),	-- Horde Tabard of Participation
-			i(274731),	-- Prized Orb of Azeroth
-			i(274734),	-- Framed Horde Pride
-			i(274736),	-- Framed Alliance Pride
-			i(276281),	-- Kickable Practice Ball
 			i(276294),	-- Temporary Alliance Tabard
 			i(276295),	-- Temporary Horde Tabard
-
-
 		})),
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
 			filter(COSMETIC, {

@@ -743,7 +743,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			n(ARMOR, {
 				i(239003),	-- Feathered Mantle of the Guardian
 				i(238949),	-- Inferno Helm
-				i(235986),	-- Pointy Half Shell
+				i(235986),	-- Pointy Half-Shell
 			}),
 			n(SETS, {
 				------ Lavaborn Citrine Set ------
@@ -1310,7 +1310,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(253048),	-- Crusader's Emerald Greatblade
 				i(253274),	-- Crusader's Emerald Greatmace
 				i(253278),	-- Crusader's Emerald Mace
-				i(260383),	-- Dark Blue Wooden Shortbow
+				i(260383),	-- Quel'Danil Shortbow
 				i(260384),	-- Dark Red Wooden Shortbow
 				i(260385),	-- Frost Wooden Shortbow
 				i(250315),	-- Hunter's Etched Glaive
@@ -1355,7 +1355,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(266077),	-- Basic Black Quiver
 				i(266078),	-- Basic Blue Quiver
 				i(266079),	-- Basic Bronze Quiver
-				i(266081),	-- Basic Dark Blue Quiver
+				i(266081),	-- Quel'Danil Quiver
 				i(266082),	-- Basic Dark Red Quiver
 				i(266083),	-- Basic Frost Quiver
 				i(266085),	-- Basic Ice Quiver

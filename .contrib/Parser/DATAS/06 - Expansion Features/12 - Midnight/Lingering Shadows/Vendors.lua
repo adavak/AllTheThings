@@ -395,7 +395,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(273159, {	-- Void Elf Scribe's Desk (DECOR!)
 							["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
 						}),
-						i(273157),	-- Void Flame Candle (DECOR!)
+						i(273157),	-- Voidflame Candle (DECOR!)
 						i(273147),	-- Void Inkwell (DECOR!)
 					}),
 				}),
@@ -795,12 +795,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(278026, {	-- Bulging Ethereal Pack
 							["cost"] = { { "c", FIELD_ACCOLADE, 250 } },
 							["groups"] = {
+								i(274884),	-- Arcanografter's Beacon (COSMETIC!)
+								i(274886),	-- Eradicator's Censer (COSMETIC!)
 								i(274880),	-- Hal'hadar Adjutant's Gavel (COSMETIC!)
 								i(274889),	-- Hal'hadar Darkblade's Edge (COSMETIC!)
 								i(274888),	-- Hal'hadar Legion Glaives (COSMETIC!)
 								i(274882),	-- Hal'hadar Pulse Rifle (COSMETIC!)
 								i(274878),	-- Hal'hadar Shadowripper's Blade (COSMETIC!)
 								i(274883),	-- Hal'hadar Warpguard's Poleaxe (COSMETIC!)
+								i(274879),	-- Mana-Amplified Crusher (COSMETIC!)
+								i(274881),	-- Phase Igniter (COSMETIC!)
 								i(274885),	-- Phase-Edged Falchion (COSMETIC!)
 								i(274877),	-- Phaseblade Headsplitter (COSMETIC!)
 							},
@@ -838,7 +842,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							},
 							["cost"] = { { "c", VOIDLIGHT_MARL, 1800 } },
 						}),
-						i(274650, {	-- Starmech Cosmic-Collapser (MOUNT!)
+						i(274650, {	-- Netherforged Nullframe (MOUNT!)
 							["sourceAchievement"] = 62874,	-- A Trip Through the Stars
 							["cost"] = { { "c", VOIDLIGHT_MARL, 4500 } },
 						}),
@@ -873,7 +877,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
 						}),
 						i(276375),	-- Technomancer's Scrying Matrix
-						i(274782, {	-- Tether Severing Vapor
+						i(274782, {	-- Tether-Severing Vapor
 							["cost"] = { { "c", FIELD_ACCOLADE, 2 } },
 						}),
 					},

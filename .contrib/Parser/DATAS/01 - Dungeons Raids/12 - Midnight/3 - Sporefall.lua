@@ -68,6 +68,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				BossOnly(ROTMIRE, {
 					ach(63237),	-- Rotmire
 					ach(63242),	-- Rotmire Guild Run
+					i(275228, {["timeline"] = { ADDED_12_0_7, REMOVED_12_1_0 }}),	-- Nebulous Voidcache: Rotmire
                     i(247235),	-- Luminous Rotshroom (DECOR!)
                     i(264313),	-- Madcap Redcap (TOY!)
                     i(264367),	-- Mycomancer's Hearthspore (TOY!)

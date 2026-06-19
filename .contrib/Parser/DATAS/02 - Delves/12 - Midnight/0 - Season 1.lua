@@ -196,8 +196,6 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 						--i(254675),	-- Ancient Curio (QS!)
 						--i(260910),	-- Boon of Vitality (Rare) // alpha
 						-- Boons (Renown 1)
-						i(260884),	-- Boon of Abstinence (Rare)
-						i(267241),	-- Boon of Abstinence (Epic)
 						i(260911),	-- Boon of Fortitude (Rare)
 						i(267240),	-- Boon of Fortitude (Epic)
 						i(260878),	-- Boon of Possibilities (Rare)
@@ -206,6 +204,8 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 						i(267238),	-- Boon of Potency (Epic)
 						i(260879),	-- Boon of Power (Rare)
 						i(267237),	-- Boon of Power (Epic)
+						i(260884),	-- Boon of Temperance (Rare)
+						i(267241),	-- Boon of Temperance (Epic)
 						i(267647),	-- Boon of Vigor (Uncommon)
 						i(267649),	-- Boon of Vigor (Rare)
 						i(267648),	-- Boon of Vigor (Epic)

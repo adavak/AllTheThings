@@ -522,13 +522,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(274836),	-- Sleet-Resistant Jerkin
 							}),
 							filter(MAIL, {
-								i(274847),	-- Atomus' Headcover
+								i(274847),	-- Atomus's Headcover
 								i(274849),	-- Frostscale Spider's Monnion
 								i(274846),	-- Glacier Basin Gauntlets
 								i(274851),	-- Glittering Frostscale Wraps
 								i(274845),	-- Greaves of Corrupted Scale
-								i(274848),	-- Leggaurds of Fel-Corruption
-								i(274850),	-- Mercilus' Chain Waistguard
+								i(274848),	-- Legguards of Fel-Corruption
+								i(274850),	-- Mercilus's Chain Waistguard
 								i(274844),	-- Sleetlink Hauberk
 							}),
 							filter(PLATE, {
@@ -544,6 +544,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							filter(TRINKET_F, {
 								i(274826),	-- Coiling Smoke Chain
 								i(274827),	-- Draenic Drive Chain
+								i(274890),	-- Enchanted Spore
+								i(274893),	-- Frosty Klaxid Stinger
+								i(274891),	-- Mk XII Gear Drive
+								i(274892),	-- Resilient Felblood Vial
 							}),
 						}),
 						n(WEAPONS, {
@@ -551,16 +555,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							i(274870),	-- Assassin's Void-String Bow
 							i(274862),	-- Corrupted Draenei Priest's Kris
 							i(274863),	-- Cudgel of the Twisted Reaper
-							i(274872),	-- Darkness's Horrific Barb
+							i(274872),	-- Darkness' Horrific Barb
 							i(274865),	-- Destroyer's Drop Hammer
-							i(274874),	-- Flickering Wing Seperator
+							i(274874),	-- Flickering Wing Separator
 							i(274861),	-- Frosty Broodmother's Fang
 							i(274873),	-- Funeral Attendant's Spire
 							i(274871),	-- Giant Worm Piercer
 							i(274867),	-- Inscribed Domanaar's Sword
 							i(274868),	-- Portal Master's Shortblade
 							i(274876),	-- Reinforced Fungalhide Bulwark
-							i(274875),	-- Rift Walker's Lantern
+							i(274875),	-- Riftwalker's Lantern
 							i(274864),	-- Sporebloom Gavel
 							i(274866),	-- Voidwarped Edge
 							i(274869),	-- Void-Iced Warglaives
