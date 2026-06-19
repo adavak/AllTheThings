@@ -189,9 +189,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
 			}),
-			Difficulty(DIFFICULTY.DUNGEON.HEROIC, {
-				["lvl"] = lvlsquish(70, 70, 30),
-			}).AddGroups({
+			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(70, 70, 30) }).AddGroups({
 				n(COMMON_BOSS_DROPS, {
 					["crs"] = {
 						18371,	-- Shirrak the Dead Watcher

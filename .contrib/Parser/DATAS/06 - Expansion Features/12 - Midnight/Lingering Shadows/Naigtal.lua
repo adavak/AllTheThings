@@ -97,15 +97,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["groups"] = sharedData({ ["modID"] = 6 }, {
 								i(277554),	-- Void Commander's Emblem (QI!)
 								--
-								i(276787),	-- Reinforced Expedition Bands
+								i(276794),	-- Archmage's Cord of Light
+								i(276792),	-- Belt of the Illidari Vanguard
 								i(276788),	-- Kifaan's Spare Bindings
 								i(276789),	-- Lightveil Watcher's Vambraces
+								i(276793),	-- Longshot's Fletched Girdle
+								i(276787),	-- Reinforced Expedition Bands
+								i(276799),	-- Riftstalker's Shade Cloak
 								i(276790),	-- Runed Illidari Wraps
 								i(276791),	-- Tala'saan's Training Belt
-								i(276792),	-- Belt of the Illidari Vanguard
-								i(276793),	-- Longshot's Fletched Girdle
-								i(276794),	-- Archmage's Cord of Light
-								i(276799),	-- Riftstalker's Shade Cloak
 							}),
 						}),
 						q(97072, {	-- A Swampy Welcome to Naigtal
@@ -117,6 +117,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								--
 								i(276371),	-- Lightveil Recall Beacon (TOY!)
 							},
+						}),
+						hqt(97293, {	-- Stay awhile and listen: Riftblade Maella
+							["sourceQuest"] = 96052,	-- Through the Mana Rift
+							["name"] = "Stay awhile and listen: Riftblade Maella",
+							["qg"] = 264024,	-- Riftblade Maella
+							["coord"] = { 48.5, 82.1, NAIGTAL },
 						}),
 						q(96744, {	-- Bouncy Mushrooms
 							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
@@ -220,12 +226,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							},
 							["provider"] = { "i", 275520 },	-- Technoseer's Communique (QS!)
 							["coord"] = { 74.2, 73.5, NAIGTAL },
-						}),
-						hqt(97293, {	-- Stay awhile and listen: Riftblade Maella
-							["sourceQuest"] = 96052,	-- Through the Mana Rift
-							["name"] = "Stay awhile and listen: Riftblade Maella",
-							["qg"] = 264024,	-- Riftblade Maella
-							["coord"] = { 48.5, 82.1, NAIGTAL },
 						}),
 						-- Repeatable
 						q(96720, {	-- Showdown on Naigta (Low Level?)
@@ -491,6 +491,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96688, {	-- Sporeforge Tendril Sling
 							["coord"] = { 85.9, 42.9, NAIGTAL },
 						}),
+						q(96689, {	-- Staging Grounds Tendril Sling
+							["coord"] = { 65.2, 73.7, NAIGTAL },
+						}),
 						q(96650, {	-- Subdue the Spore Storm (Bonus Objective)
 							["coord"] = { 51.6, 58.1, NAIGTAL },
 						}),
@@ -518,6 +521,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
 					}),
 					n(ZONE_REWARDS, {	--TODO Not sure if available in Val too
+						i(278116),	-- Player Experience
 						n(ARMOR, {
 							filter(BACK_F, {
 								i(274820),	-- Cloak of the Voracious Gorger

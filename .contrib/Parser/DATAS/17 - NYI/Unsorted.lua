@@ -2550,7 +2550,6 @@ root(ROOTS.Unsorted, {
 				i(276369),	-- Airy Redcap
 				i(276294),	-- Temporary Alliance Tabard
 				i(276295),	-- Temporary Horde Tabard
-				i(278116),	-- Player Experience
 				i(275257),	-- Manaforge Essence
 				i(276637),	-- Currency Wallet
 				i(276376),	-- Fel Shadow Torch
