@@ -2567,3 +2567,6 @@
 1294767@@@Badlands Buzzard
 1297427@@@Tortured Gorger
 1298439@@@Sun Festival's Painted Roc
+12.0.7.67360
+1294663@@@Netherforged Nullframe
+1297427@@@Void-Tortured Gorger

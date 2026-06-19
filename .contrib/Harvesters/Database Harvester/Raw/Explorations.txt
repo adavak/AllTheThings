@@ -10827,3 +10827,9 @@
 17195@@@Sleeper's Grotto
 17198@@@Manaforge: Arcvein
 17199@@@Shoals of Rememberance
+12.0.7.67360
+17104@@@Umbral Base Camp
+17217@@@Hidden Spire
+17218@@@The Devouring Ingress
+17219@@@The Beast Pens
+17220@@@Marshwalker Refuge

@@ -18094,3 +18094,12 @@
 63247@@@Mythic: Rotmire Guild Run
 63264@@@Heroic Showdowns
 63323@@@Heroic Tendencies
+12.0.7.67360
+62942@@@Broken Throne
+62943@@@Daggerspine Point
+62944@@@Showdown Unlock: Bouncy Mushrooms
+62945@@@Showdown Unlock: Grapple Skiffs
+62949@@@Showdown Unlock: Naigtal Spores
+63325@@@Omnium Folio Studies
+63348@@@Heroic Slugger
+63349@@@Ultradon Carnage

@@ -3473,3 +3473,12 @@
 21946@@@Auspicious Stone Lion
 21950@@@[DNT] [AUTOGEN] 12PH_Folk_Rug04.M2
 25307@@@Sunstrider Omnium
+12.0.7.67360
+7584@@@Tall Founder's Point Gravestone
+18802@@@Army of the Light Golden Fence
+21950@@@Square Woolen Rug
+22183@@@Voidflame Candle
+25307@@@Sunstrider Omnium Simulacrum
+25564@@@Army of the Light Golden Barricade
+25565@@@Army of the Light Standing Banner
+25566@@@Army of the Light Transport Pad
