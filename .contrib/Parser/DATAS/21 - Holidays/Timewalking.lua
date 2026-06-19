@@ -8215,10 +8215,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_DRAGONF
 						i(262368, {	-- Centaur Battleglaive
 							["cost"] = { { "c", TIMEWARPED_BADGE, 50 } },
 						}),
-						i(262359, {	-- Djardin Sparring Spear
+						i(262359, {	-- Djaradin Sparring Spear
 							["cost"] = { { "c", TIMEWARPED_BADGE, 100 } },
 						}),
-						i(262364, {	-- Drakkanid Stabber
+						i(262364, {	-- Drakonid Stabber
 							["cost"] = { { "c", TIMEWARPED_BADGE, 50 } },
 						}),
 						i(262363, {	-- Expeditioner's Mallet

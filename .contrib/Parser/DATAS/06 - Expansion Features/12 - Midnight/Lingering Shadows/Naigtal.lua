@@ -94,13 +94,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								--val coords too
 							},
 							["timeline"] = { ADDED_12_0_7 },
-							["groups"] = {
+							["groups"] = sharedData({ ["modID"] = 6 }, {
 								i(277554),	-- Void Commander's Emblem (QI!)
 								--
+								i(276787),	-- Reinforced Expedition Bands
+								i(276788),	-- Kifaan's Spare Bindings
 								i(276789),	-- Lightveil Watcher's Vambraces
-								i(276799),	-- Riftstalker's Shade Cloak
+								i(276790),	-- Runed Illidari Wraps
 								i(276791),	-- Tala'saan's Training Belt
-							},
+								i(276792),	-- Belt of the Illidari Vanguard
+								i(276793),	-- Longshot's Fletched Girdle
+								i(276794),	-- Archmage's Cord of Light
+								i(276799),	-- Riftstalker's Shade Cloak
+							}),
 						}),
 						q(97072, {	-- A Swampy Welcome to Naigtal
 							["sourceQuest"] = 96054,	-- Surveying the Mana-Bog
@@ -451,7 +457,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96432, {	-- Power Overload
 							["coord"] = { 70.7, 44.2, NAIGTAL },
-							["groups"] = { i(274407) },	-- Hal'Hadar Automaton Fuel Cell (QI!)
+							["groups"] = { i(274407) },	-- Hal'hadar Automaton Fuel Cell (QI!)
 						}),
 						q(96000, {	-- Skiff Joyride
 							["coord"] = { 62.1, 58.5, NAIGTAL },
