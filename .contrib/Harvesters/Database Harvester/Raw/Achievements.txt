@@ -2935,6 +2935,8 @@
 63229@@@Ahead of the Curve: Halion
 63230@@@Ahead of the Curve: Illidan Stormrage
 63231@@@Ahead of the Curve: Archimonde
+3.80.1.67342
+63267@@@Daily quests completed (Account)
 4.0.1.12911
 736@@@Explore Mulgore NYI
 750@@@Explore Northern Barrens
