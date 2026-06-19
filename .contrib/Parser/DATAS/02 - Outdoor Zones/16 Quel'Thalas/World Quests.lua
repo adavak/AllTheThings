@@ -13,6 +13,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				-- #if AFTER 12.2
 				-- ,
 				-- #elseif AFTER 12.1
+				3310,
 				-- ,
 				-- #else
 				3310,
