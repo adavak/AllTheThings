@@ -2440,3 +2440,9 @@ i(273652, 1292345);	-- Pink Rocket Mount [PH]
 i(275464, 1298439);	-- Sun Festival's Painted Roc
 i(268833, 1283837);	-- Zothwing Darkseeker
 i(268834, 1283838);	-- Zothwing Deepseeker
+
+------------------
+-- PATCH 12.1.0 --
+------------------
+i(275658, 1297405);	-- Primeval Skyfriend
+i(275652, 1297220);	-- Crimson Venomfang

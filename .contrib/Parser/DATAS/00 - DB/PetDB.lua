@@ -4637,3 +4637,8 @@ i(252195, 4898);	-- Fishstick Keith
 i(275662, 5073);	-- Frosticus Maximus
 i(260885, 4949);	-- Shadowflame Remnant
 i(275663, 5074);	-- Silento
+
+------------------
+-- PATCH 12.1.0 --
+------------------
+i(279387, 5130);	-- Ul'ava'took

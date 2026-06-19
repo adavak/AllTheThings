@@ -29,6 +29,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				2576,	-- The Den
 			},
 		}),
+		m(MAP.MIDNIGHT.THE_COILDED_ISLE, {
+			--["icon"] = ,
+			--["lore"] = "",
+			["timeline"] = { ADDED_12_1_0 },
+		}),
 		m(MAP.MIDNIGHT.ISLE_OF_QUELDANAS, {
 			["icon"] = 7454100,
 			["lore"] = "Seven thousand years ago, when Quel'Thalas was founded, Dath'Remar Sunstrider, ruler of the new elven kingdom, created a mystic fountain at a convergence of ley lines on this island off the northern coast of Eversong Woods, utilizing a vial of water stolen from the Well of Eternity sometime before the Great Sundering. As a result, the island - which became known as Quel'Danas - is also known as the Sunwell Isle.",
