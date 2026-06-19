@@ -374,6 +374,8 @@
 1267077@@@Scarlet Lady
 1284679@@@Sha-Warped Riding Wolf
 1285897@@@Sha-Warped Owl
+3.80.1.68181
+1291315@@@Spring Panda
 4.4.0.53627
 10790@@@Tiger
 13819@@@Summon Warhorse

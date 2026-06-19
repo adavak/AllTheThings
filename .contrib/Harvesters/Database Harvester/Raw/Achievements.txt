@@ -2937,6 +2937,8 @@
 63231@@@Ahead of the Curve: Archimonde
 3.80.1.67342
 63267@@@Daily quests completed (Account)
+3.80.1.68181
+63511@@@Mal'vorus, Shard of the Defiler
 4.0.1.12911
 736@@@Explore Mulgore NYI
 750@@@Explore Northern Barrens
