@@ -5,6 +5,11 @@
 local FIELD_ACCOLADE = 3405;
 local DARK_PARTICLE = 267051;
 
+local function sym_cachevoidtouched_invtype(...)
+	return { { "select", "itemID", 263928 },{"pop"},
+			{"extract","itemID"},{"invtype",...} }
+end
+
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 	["groups"] = sharedData({
 		["timeline"] = { ADDED_12_0_5 },
@@ -221,61 +226,90 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276380, {	-- Cache of Void-Touched Armaments: Belts (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WAIST"),
 						}),
 						i(276378, {	-- Cache of Void-Touched Armaments: Boots (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_FEET"),
 						}),
 						i(276382, {	-- Cache of Void-Touched Armaments: Bracers (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WRIST"),
 						}),
 						i(276383, {	-- Cache of Void-Touched Armaments: Chest (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_BODY","INVTYPE_CHEST","INVTYPE_ROBE"),
 						}),
 						i(276384, {	-- Cache of Void-Touched Armaments: Cloak (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_CLOAK"),
 						}),
 						i(276381, {	-- Cache of Void-Touched Armaments: Gloves (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_HAND"),
 						}),
 						i(276386, {	-- Cache of Void-Touched Armaments: Head (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_HEAD"),
 						}),
 						i(276379, {	-- Cache of Void-Touched Armaments: Legs (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_LEGS"),
 						}),
 						i(277126, {	-- Cache of Void-Touched Armaments: Necklaces (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_NECK"),
 						}),
 						i(277127, {	-- Cache of Void-Touched Armaments: Rings (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_FINGER"),
 						}),
 						i(276385, {	-- Cache of Void-Touched Armaments: Shoulder (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_SHOULDER"),
 						}),
 						i(277125, {	-- Cache of Void-Touched Armaments: Weapons (Heroic)
 							["cost"] = { { "c", FIELD_ACCOLADE, 750 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WEAPON","INVTYPE_SHIELD","INVTYPE_2HWEAPON","INVTYPE_WEAPONMAINHAND","INVTYPE_RANGED","INVTYPE_RANGEDRIGHT","INVTYPE_WEAPONOFFHAND","INVTYPE_HOLDABLE"),
 						}),
-						i(268996, {	-- Field Accolade (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
+						i(268996, {	-- Field Accolade Pouch (Automatically converts to 10x FIELD_ACCOLADE currency when bought)
 							["cost"] = { { "i", DARK_PARTICLE, 100 } },
 						-- Removing Display of Field Accolades. Creates insane 200+ Items bloat.
 						-- You can farm 300-400 Particles/hour, so 30-40 accolades. Or you can directly farm 1000+ Accolades/hour
-						--	["groups"] = { currency(FIELD_ACCOLADE), },
+							["skipFill"] = true,	-- don't fill in minilist, but it's still nice to see the available content in tooltip
+							["groups"] = { currency(FIELD_ACCOLADE), },
 						}),
 						i(277124, {	-- Warbound Cache of Void-Touched Armaments (Champion)
 							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
 							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = { { "select", "itemID", 263928 },{"pop"} },	-- Cache of Void-Touched Armaments (Champion)
 						}),
+						-- TODO: add all the Warbound Champion boxes
+						-- 278004 - 278015
 					},
 				}),
 				n(255495, {	-- Rae'ana <Historian and Research Supplier>
