@@ -4896,7 +4896,7 @@ exploration(16356),	-- Sunwell Ramparts
 exploration(16359),	-- The Blinding Vale \\ Lightbloom Dungeon
 exploration(16360),	-- Grasping Reach
 exploration(16364),	-- Underground Burrows
-exploration(16365),	-- Atal'Utek \\ Isle of Fangs
+exploration(16365),	-- The Coiled Isle \\ Atal'Utek \\ Isle of Fangs
 exploration(16368),	-- Den of Nalorakk
 exploration(16375),	-- Loaknit Den
 exploration(16380),	-- The Skybridge
@@ -5015,7 +5015,7 @@ exploration(16827),	-- The Riftlabs
 exploration(16828),	-- Crown of the Cosmos
 exploration(16829),	-- The Approach \\ [PH] Battlefield
 12.0.0.64228
-exploration(16838),	-- Atal'Utek (copy)
+exploration(16838),	-- The Coiled Isle (copy) \\ Atal'Utek (copy)
 exploration(16841),	-- Tomb of Mun'jin
 exploration(16844),	-- Dusk's Repose
 12.0.0.64339
@@ -5100,13 +5100,89 @@ exploration(17072),	-- The South Atrium
 exploration(17095),	-- Nexus Port
 exploration(17096),	-- Sporeforge
 exploration(17097),	-- Vennorax Wreckage
-exploration(17098),	-- Extraction Coast
+exploration(17098),	-- Extraction Shores \\ Extraction Coast
 exploration(17099),	-- The Holding Pens
 exploration(17100),	-- Soltian Marsh
 exploration(17101),	-- Staging Grounds
 exploration(17102),	-- Command Point: Primos
 exploration(17103),	-- Vilaldoun
-exploration(17104),	-- Naigtal Outpost
+exploration(17104),	-- Umbral Base Camp \\ Naigtal Outpost
 exploration(17195),	-- Sleeper's Grotto
 exploration(17198),	-- Manaforge: Arcvein
 exploration(17199),	-- Shoals of Rememberance
+12.0.7.67360
+exploration(17217),	-- Hidden Spire
+exploration(17218),	-- The Devouring Ingress
+exploration(17219),	-- The Beast Pens
+exploration(17220),	-- Marshwalker Refuge
+12.1.0.68209
+exploration(16535),	-- Vaults of Atal'Utek
+exploration(16671),	-- The Tidebound Grotto
+exploration(16755),	-- Crypt of the Denied
+exploration(16769),	-- Zail'Zar Span
+exploration(16771),	-- The Altar of Wrath
+exploration(16774),	-- Tokka's Landing
+exploration(16775),	-- Ofi's Hut
+exploration(16776),	-- Mlurkkr Mire
+exploration(16777),	-- Cloudlight Beacon
+exploration(16778),	-- Wreck of Paku's Talon
+exploration(16779),	-- Wreck of Torga's Beak
+exploration(16780),	-- The Whispering Marsh
+exploration(16781),	-- The Ring of Glory
+exploration(16782),	-- Defiant Ring
+exploration(16783),	-- Wreck of Gral's Belly
+exploration(16784),	-- Gnarldor Isle
+exploration(16785),	-- Gate of the Eastern Fang
+exploration(16786),	-- Gate of the Western Fang
+exploration(16787),	-- The Forum
+exploration(16788),	-- Wreck of Sethralis's Scale
+exploration(16789),	-- The Fangs
+exploration(16790),	-- Path of Whispers
+exploration(16791),	-- Gate of the Serpent's Eye
+exploration(16792),	-- Venom Rise
+exploration(16793),	-- Blistering Terrace
+exploration(16795),	-- The Serpent's Tail
+exploration(16822),	-- Labyrinth
+exploration(16824),	-- Tooth of Sargoth
+exploration(16830),	-- Tokka's Folly
+exploration(16843),	-- Null Space
+exploration(16865),	-- Altar of Fangs
+exploration(16897),	-- Diver's Arch
+exploration(16913),	-- 12.1 Ula'Tek Labyrinth
+exploration(16915),	-- The Venomous Abyss
+exploration(16977),	-- Ruuk'Jar's Clutch
+exploration(16978),	-- Vault of Restless Bones
+exploration(16979),	-- Profaned Mausoleum
+exploration(16980),	-- Gnarldor Isle
+exploration(16981),	-- The Ring of Glory
+exploration(16987),	-- Venomfall Deeps
+exploration(16989),	-- Cursed Keepsake
+exploration(16990),	-- The Underbelly
+exploration(16992),	-- Crypt of the Lost Mason
+exploration(16993),	-- Kin's Rest
+exploration(16994),	-- Blistering Vault
+exploration(16995),	-- Tomb of the Lost Priest
+exploration(16996),	-- Crypt of The Lost Warrior
+exploration(16997),	-- Crypt of the Disgraced
+exploration(17022),	-- Cursed Depths
+exploration(17023),	-- The Seal of Wrath
+exploration(17107),	-- Demolition Dome
+exploration(17316),	-- Vaults of Atal'Utek
+exploration(17650),	-- Amani Foothold
+exploration(17680),	-- The Soulcoil Well
+exploration(17681),	-- Pit of Fangs
+exploration(17682),	-- Mor'zahi's Tomb
+exploration(17683),	-- Crypt of the Soulcoilers
+exploration(17685),	-- The Serpent Warren
+exploration(17686),	-- Altar of the Six Winds
+exploration(17687),	-- The Vile Crypt
+exploration(17688),	-- The Venomducts
+exploration(17689),	-- Halls of the Malignant
+exploration(17701),	-- The Crucible of Venom
+exploration(17702),	-- The Tomb of Ula'tek
+exploration(17710),	-- The Carnage Pit
+exploration(17711),	-- The Altar of Fangs
+exploration(17712),	-- Sacrificial Approach
+exploration(17713),	-- Mutation Chambers
+exploration(17714),	-- Ancient Burrow
+exploration(17715),	-- The Chamber of Virulence

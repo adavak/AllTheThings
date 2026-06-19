@@ -1,4 +1,186 @@
-12.0.7.67227
-decor(21857),	-- Tome of Kings
-decor(21950),	-- [DNT] [AUTOGEN] 12PH_Folk_Rug04.M2
-decor(25307),	-- Sunstrider Omnium
+12.0.5.67823
+decor(22775),	-- Condensed Anima Orb
+12.1.0.68209
+decor(17799),	-- Soulcoiler Canopy
+decor(18900),	-- Ula'tek Ritual Monolith
+decor(18901),	-- Venom Scholar's Focus
+decor(21102),	-- Serpent-Caller Spike
+decor(21324),	-- Stitched Blisterfang Bag
+decor(21325),	-- Fanged Scaleskin Pouch
+decor(21616),	-- Feathered Ula'tek Talisman
+decor(21617),	-- Opened Serpentine Reliquary
+decor(21653),	-- Clutch of Ula'tek
+decor(21720),	-- Egg of Ula'tek
+decor(21725),	-- Destroyed Clutch of Ula'tek
+decor(21832),	-- Venomous Tendril
+decor(21833),	-- Oozing Vilescar Barricade
+decor(21949),	-- Seaside Firefly Jar
+decor(21951),	-- Ula'tek Ritual Stone
+decor(21952),	-- Venomous Pyre
+decor(21953),	-- Venombound Ropes
+decor(21956),	-- Hanging Coiled Isle Ropes
+decor(22144),	-- Seaside Tiki Frondtree
+decor(22145),	-- Preyhunter's Scaled Effigy
+decor(22146),	-- Preyhunter's Fanged Effigy
+decor(22147),	-- Preyhunter's Fanged Bust
+decor(22148),	-- Preyhunter's Terror Effigy
+decor(22397),	-- Seaside Tiki Market Stand
+decor(22398),	-- Seaside Charcoal Grill
+decor(22895),	-- Seaside Cushioned Chair
+decor(22916),	-- Amani Decorative Plinth
+decor(22917),	-- Amani Road Marker
+decor(22918),	-- Woven Forest Troll Rug
+decor(22919),	-- Steamy Romance Tablet
+decor(22920),	-- Amani Building Peg
+decor(22921),	-- Forest Troll Fence
+decor(22922),	-- Forest Troll Fencepost
+decor(22924),	-- Witch Doctor's Punch Bowl
+decor(22925),	-- Shrine of Nalorakk, Loa of War
+decor(22926),	-- Shrine of Jan'alai, Loa of Fire
+decor(22927),	-- Shrine of Akil'zon, Loa of Victory
+decor(23175),	-- Seaside Lounge Chair
+decor(23176),	-- Short Centaur Wall
+decor(23177),	-- Long Centaur Wall
+decor(23178),	-- Closed Centaur Basket
+decor(23179),	-- Open Centaur Basket
+decor(23180),	-- Centaur Table
+decor(23181),	-- Centaur Bench
+decor(23182),	-- Round Centaur Carpet
+decor(23183),	-- Wide Centaur Carpet
+decor(23184),	-- Narrow Centaur Carpet
+decor(23185),	-- Centaur Stove
+decor(23186),	-- Tapered Centaur Wall
+decor(23188),	-- Shrine of Halazzi, Loa of the Hunt
+decor(23548),	-- Ball
+decor(23549),	-- Pet Food and Water Tray
+decor(23550),	-- Cooked Leg of Meat
+decor(23551),	-- Cooked Rack of Meat
+decor(23553),	-- Small Wooden Floor Tile
+decor(23554),	-- Large Wooden Floor Tile
+decor(23555),	-- Small Triangular Tile
+decor(23556),	-- Large Triangular Tile
+decor(23557),	-- Tall Round Column
+decor(23558),	-- Short Round Column
+decor(23559),	-- Short Square Column
+decor(23560),	-- Tall Square Column
+decor(23707),	-- Small Wooden Wall Tile
+decor(23708),	-- Large Wooden Wall Tile
+decor(23709),	-- Wide Wooden Staircase
+decor(23710),	-- Spiraling Wooden Stairs
+decor(23868),	-- Seaside Hanging Lantern
+decor(23869),	-- Seaside Straw Umbrella
+decor(23870),	-- Seaside Painted Surfboard
+decor(23871),	-- Cauldron of Ula'tek
+decor(23873),	-- Sealed Serpentine Reliquary
+decor(23874),	-- Wrapped Scaleskin Urn
+decor(23875),	-- Cracked Vilescar Urn
+decor(23876),	-- Charmed Blisterfang Urn
+decor(23881),	-- Soulcoiler Sconce
+decor(23883),	-- Seaside Waterfall Basin
+decor(24196),	-- Seaside Depths Porthole
+decor(24512),	-- Soulcoiler Skull
+decor(24519),	-- Soulcoiler Jaw
+decor(24630),	-- Seaside Murloc Tiki Totem
+decor(24753),	-- Seaside Tiki Gazebo
+decor(24755),	-- Seaside Fire Pit
+decor(24765),	-- Zul'Aman Creeping Pangoroot
+decor(24888),	-- Tune-O-Tron 6000
+decor(24889),	-- Zul'Aman Swamp Palm Sprout
+decor(24890),	-- Preyhunter's Scaled Bust
+decor(24891),	-- Preyhunter's Terror Bust
+decor(25101),	-- Westfall Pet Cage
+decor(25102),	-- Crossroads Pet Cage
+decor(25103),	-- Crude Pet Cage
+decor(25104),	-- Breanni's Menagerie Aquarium
+decor(25105),	-- Silvermoon Dragonhawk Incubator
+decor(25106),	-- Cozy Lightbloom Lilypad
+decor(25121),	-- Cozy Bird Nest
+decor(25122),	-- Loyal Companion's Plinth
+decor(25128),	-- Griftah's Torch of Rotation
+decor(25131),	-- The Venomous Abyss Aureate Trophy
+decor(25132),	-- The Venomous Abyss Gleaming Trophy
+decor(25133),	-- The Venomous Abyss Argent Trophy
+decor(25274),	-- Gilded Silvermoon Compass
+decor(25279),	-- Hanging Blood Knights Shield
+decor(25284),	-- Sturdy Silvermoon Crate
+decor(25286),	-- Sturdy Silvermoon Crate Lid
+decor(25287),	-- Adorned Sin'dorei Satchel
+decor(25288),	-- Stonecarved Sin'dorei Jar
+decor(25289),	-- Mysterious Sin'dorei Candlestick
+decor(25292),	-- Altar of Corrosion
+decor(25293),	-- Pillar of the Fanged Altar
+decor(25294),	-- Amani Worship Candle
+decor(25295),	-- Amani Ritual Candles
+decor(25296),	-- Zul'Aman Burning Pinecone
+decor(25297),	-- Traditional Tortollan Tent
+decor(25299),	-- Aged Tortollan Scroll Case
+decor(25300),	-- Blue Tortollan Signpost
+decor(25336),	-- Yellowed Kelp Pile
+decor(25337),	-- Hooked Net Trap
+decor(25546),	-- Pepe
+decor(25812),	-- Pillar of the Coiled Isle
+decor(25813),	-- Venom-Fanged Font
+decor(26097),	-- Vilescar Weapon Rack
+decor(26196),	-- Rustic Fishing Rack
+decor(26197),	-- Hanging Yellowed Kelp
+decor(26198),	-- Hatchery of Hissing Eggs
+decor(26201),	-- Hanging Candles
+decor(26202),	-- Arathor Toy Sword
+decor(26203),	-- Twilight Brazier
+decor(26205),	-- Soulcoiler's Ritual Candle
+decor(26208),	-- Royal Attendant's Coffin
+decor(26363),	-- Mounted Moby
+decor(26364),	-- Tortollan Traveler's Tincture
+decor(26365),	-- Compact Cookfire
+decor(26366),	-- Tortollan Slingsack
+decor(26370),	-- Empty Tortollan Display Rack
+decor(26371),	-- Sea Glass Bauble
+decor(26372),	-- Aetherlume Field Lamp
+decor(26373),	-- Tortollan Traveler's Chest
+decor(26374),	-- Lost Explorers Mailbox
+decor(26377),	-- Zul'Aman Pine Tree
+decor(26378),	-- Stretched Snakeskin Rack
+decor(26379),	-- Keen Hex Mask
+decor(26381),	-- Amani Forgemaster's Glaive
+decor(26382),	-- Amani Forgemaster's Rack
+decor(26383),	-- Coiled Hookshot
+decor(26386),	-- Half-Shell Hot Pot
+decor(26387),	-- Sea Glass Lamp Post
+decor(26389),	-- Apothecary's Tortollan Display Rack
+decor(26391),	-- Concocted Poisonous Residue
+decor(26477),	-- Rock Goblet
+decor(26478),	-- Ancient Memories of the Sea
+decor(26481),	-- Tortollan Scholar Satchel
+decor(26482),	-- Sealeather Sack
+decor(26483),	-- Collector's Tortollan Display Rack
+decor(26484),	-- Lost Tortollan Scroll
+decor(26485),	-- Fine Captain's Bottle
+decor(26487),	-- Clumped Asteroidea
+decor(26488),	-- Opalescent Amani Peridot
+decor(26489),	-- Piercing Amani Lapis
+decor(26491),	-- K'areshi Tea Cup
+decor(26492),	-- Purified Dracthyr Stein
+decor(26494),	-- Purified Goblin Cup
+decor(26495),	-- [DNT] [AUTOGEN] 12TB_TwilightsBlade_Furniture_SleepingCot01.m2
+decor(26496),	-- Enchanted Eversong Trout
+decor(26564),	-- Mason's Tortollan Display Rack
+decor(26613),	-- Warrens Candlecooker
+decor(26614),	-- Kobold Dig-Thing
+decor(26617),	-- Highlighting High Light
+decor(26618),	-- Small Warrens Candle
+decor(26619),	-- Kobold Sit-Thing
+decor(26621),	-- Medium Warrens Candle
+decor(26651),	-- Stormstout Hanging Lantern
+decor(26785),	-- Large Warrens Candle
+decor(26786),	-- Large Threedium Warrens Candle
+decor(26787),	-- Candle Cage
+decor(26788),	-- Bold Kobold Kabin
+decor(26789),	-- Hot Kobold Treasure
+decor(26871),	-- Tortollan Tarp Tent
+decor(26936),	-- Droopy Longwick Rope
+decor(26937),	-- Longwick Rope
+decor(26938),	-- Cozy Kobold Crate
+decor(26939),	-- Hanging Longwick Rope
+decor(27041),	-- Forgotten Amani Mural
+decor(27042),	-- "The Hunger Awakens" Mural
+decor(27043),	-- "Rage of the Shackled" Mural

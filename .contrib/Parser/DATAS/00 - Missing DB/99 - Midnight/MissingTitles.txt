@@ -62,3 +62,25 @@ title(739),	-- %s, the Momentous Terror
 title(0),	-- Loa-speaker %s
 12.0.7.67227
 title(771),	-- Ritual Breaker %s
+12.1.0.68209
+title(767),	-- Venomous Gladiator %s
+title(768),	-- Venomous Legend %s
+title(769),	-- Venomous Marshal %s
+title(770),	-- Venomous Warlord %s
+title(774),	-- Snake Eater %s
+title(775),	-- %s the Poisonous
+title(776),	-- %s, Fabled Vanquisher of Azta'rec
+title(777),	-- %s the Cursebreaker
+title(778),	-- %s, Hash'ura of Zul'jarra
+title(779),	-- Briny %s
+title(781),	-- %s, Voice of the Fangs
+title(782),	-- %s, Nalorakk's Favored
+title(783),	-- Street Sovereign %s
+title(784),	-- %s, Eyes of the Vale
+title(785),	-- Voidscar Champion %s
+title(786),	-- %s, the Uncrowned Conqueror
+title(787),	-- %s, Flame of Life
+title(788),	-- %s, Wrath of Sethraliss
+title(789),	-- Bloodsworn Mariner %s
+title(790),	-- %s, Famed Slayer of Ula'tek
+title(791),	-- %s, Venom's End
