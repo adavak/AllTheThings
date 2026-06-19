@@ -3482,3 +3482,10 @@
 25564@@@Army of the Light Golden Barricade
 25565@@@Army of the Light Standing Banner
 25566@@@Army of the Light Transport Pad
+12.0.7.67525
+18802@@@Luminant Scout's Golden Fence
+25564@@@Luminant Defender's Golden Barricade
+25565@@@Luminant Soldier's War Banner
+25566@@@Lightveil's Transport Pad
+25664@@@De-Powered Lightforged Siegebreaker
+25665@@@Grand Artificer's Lightforged Console

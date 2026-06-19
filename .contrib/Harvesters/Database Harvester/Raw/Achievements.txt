@@ -18103,3 +18103,8 @@
 63325@@@Omnium Folio Studies
 63348@@@Heroic Slugger
 63349@@@Ultradon Carnage
+12.0.7.67525
+63383@@@Into the Stars
+63384@@@Prepared for a Showdown
+63385@@@A Hal'hadar Walks into a Swamp
+63386@@@Frosty Domanaar Politics

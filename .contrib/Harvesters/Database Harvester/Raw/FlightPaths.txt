@@ -2906,3 +2906,10 @@
 3278@@@Fungal Processing
 3279@@@Transit Hub
 3280@@@Fungal Forest
+12.0.7.67525
+3267@@@Umbral Base Camp
+3268@@@The Devouring Ingress
+3277@@@Umbral Base Camp
+3278@@@Sporeforge
+3279@@@Nexus Port
+3280@@@Extraction Coast
