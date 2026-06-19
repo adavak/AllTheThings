@@ -51,6 +51,27 @@ local EncounterToLoot = {
 		i(268235),	-- Vestment of the Awakening
 	};
 	[ENTOMBED] = {
+		i(270912, {	-- Venomcast Idol
+			i(271504),	-- Searing Caldera of Calamity
+			i(271493),	-- Skulking Viper's Hidepiercers
+			i(271484),	-- Hexing Grips of the Ophidian Oracle
+		}),
+		i(270911, {	-- Venomcured Idol
+			i(271538),	-- Abyssal Doomhound's Studded Gauntlets
+			i(271529),	-- Enigmatic Dreamwatcher's Gauntlets
+			i(271520),	-- Monkey King's Fighting Fists
+			i(271511),	-- Chosen Bloodslayer's Fanged Grips
+		}),
+		i(270913, {	-- Venomforged Idol
+			i(271475),	-- Baleful Grave-Knight's Deathgrips
+			i(271466),	-- Gauntlets of the Consecrated Flame
+			i(271457),	-- Jeweled Gauntlets of the Jade Warlord
+		}),
+		i(270910, {	-- Venomwoven Idol
+			i(271565),	-- Primal Leywarden's Manashapers
+			i(271556),	-- Cosmic Penitent's Celestial Grips
+			i(271547),	-- Damned Necrolyte's Charred Grasps
+		}),
 		i(268204),	-- Ancient Construct's Venomshiv
 		i(268198),	-- Caustic Keeper-Crusher
 		i(268230),	-- Crown of the Eternal Fang
@@ -62,6 +83,27 @@ local EncounterToLoot = {
 		i(268228),	-- Venom-Singed Cuffs
 	};
 	[VASHNIK] = {
+		i(270928, {	-- Venomcast Icon
+			i(271502),	-- Calamitous Echo's Ebon Greathorns
+			i(271495),	-- Skulking Viper's Scuteplate
+			i(271486),	-- Fanged Raiment of the Ophidian Oracle
+		}),
+		i(270927, {	-- Venomcured Icon
+			i(271540),	-- Abyssal Doomhound's Coreguard
+			i(271531),	-- Enigmatic Dreamwatcher's Lunar Raiment
+			i(271522),	-- Battle Gi of the Monkey King
+			i(271513),	-- Chosen Bloodslayer's Banded Poncho
+		}),
+		i(270929, {	-- Venomforged Icon
+			i(271477),	-- Baleful Grave-Knight's Breastplate
+			i(271468),	-- Bulwark of the Consecrated Flame
+			i(271459),	-- Cuirass of the Jade Warlord
+		}),
+		i(270926, {	-- Venomwoven Icon
+			i(271567),	-- Crest of the Primal Leywarden
+			i(271558),	-- Cosmic Penitent's Eclipsing Robes
+			i(271549),	-- Damned Necrolyte's Rattling Robes
+		}),
 		i(270161),	-- Fang of Umbral Malignance
 		i(268246),	-- Frothing Venom Spaulders
 		i(268214),	-- Malignant Toothed Edge
@@ -72,6 +114,27 @@ local EncounterToLoot = {
 		i(268249),	-- Vile Alchemist's Band
 	};
 	[EXPLORERS] = {
+		i(270924, {	-- Venomcast Remnant
+			i(271499),	-- Calamitous Echo's Sundered Peaks
+			i(271490),	-- Jaws of the Skulking Viper
+			i(271481),	-- Hissing Mantle of the Ophidian Oracle
+		}),
+		i(270923, {	-- Venomcured Remnant
+			i(271535),	-- Abyssal Doomhound's Jaws
+			i(271526),	-- Enigmatic Dreamwatcher's Plumage
+			i(271517),	-- Tassels of the Monkey King
+			i(271508),	-- Chosen Bloodslayer's Voodoo Guards
+		}),
+		i(270925, {	-- Venomforged Remnant
+			i(271472),	-- Baleful Grave-Knight's Gibbets
+			i(271463),	-- Pauldrons of the Consecrated Flame
+			i(271454),	-- Raging Pauldrons of the Jade Warlord
+		}),
+		i(270922, {	-- Venomwoven Remnant
+			i(271562),	-- Primal Leywarden's Manaflux
+			i(271553),	-- Cosmic Penitent's Echoing Screams
+			i(271544),	-- Spires of the Damned Necrolyte
+		}),
 		i(268258),	-- Boots of the Reckless Wayfarer
 		i(268242),	-- Errant Scrollsage's Hood
 		i(270160),	-- First Mate's Shellward
@@ -83,6 +146,27 @@ local EncounterToLoot = {
 		i(268196),	-- Venom-Slashed Scuteward
 	};
 	[SSZORAK] = {
+		i(270920, {	-- Venomcast Relic
+			i(271500),	-- Earthen Pillars of Calamity
+			i(271491),	-- Skulking Viper's Coiled Legwraps
+			i(271482),	-- Leggings of the Ophidian Oracle
+		}),
+		i(270919, {	-- Venomcured Relic
+			i(271536),	-- Abyssal Doomhound's Legwraps
+			i(271527),	-- Enigmatic Dreamwatcher's Leggings
+			i(271518),	-- Pantaloons of the Monkey King
+			i(271509),	-- Chosen Bloodslayer's Reinforced Pants
+		}),
+		i(270921, {	-- Venomforged Relic
+			i(271473),	-- Baleful Grave-Knight's Greaves
+			i(271464),	-- Greaves of the Consecrated Flame
+			i(271455),	-- Greaves of the Jade Warlord
+		}),
+		i(270918, {	-- Venomwoven Relic
+			i(271563),	-- Primal Leywarden's Tailored Legwraps
+			i(271554),	-- Enveloping Legwraps of the Cosmic Penitent
+			i(271545),	-- Damned Necrolyte's Leg Bindings
+		}),
 		i(268252),	-- Apex Brute's Claw Ring
 		i(268257),	-- Caustic Chain-Wrapped Sash
 		i(268233),	-- Ferocious Scaleboots
@@ -93,6 +177,27 @@ local EncounterToLoot = {
 		i(268201),	-- Venomous Boneglaive
 	};
 	[TWIN_FANGS] = {
+		i(270916, {	-- Venomcast Effigy
+			i(271501),	-- Calamitous Echo's Magmashapers
+			i(271492),	-- Skulking Viper's Weeping Fangs
+			i(271483),	-- Serpent Crown of the Ophidian Oracle
+		}),
+		i(270915, {	-- Venomcured Effigy
+			i(271537),	-- Abyssal Doomhound's Relentless Stare
+			i(271528),	-- Enigmatic Dreamwatcher's Somnolent Stare
+			i(271519),	-- Monkey King's Unyielding Visage
+			i(271510),	-- Chosen Bloodslayer's Spirit Shroud
+		}),
+		i(270917, {	-- Venomforged Effigy
+			i(271474),	-- Baleful Grave-Knight's Casque
+			i(271465),	-- Warhelm of the Consecrated Flame
+			i(271456),	-- Tempered Horns of the Jade Warlord
+		}),
+		i(270914, {	-- Venomwoven Effigy
+			i(271564),	-- Crown of the Primal Leywarden
+			i(271555),	-- Cosmic Penitent's Truesight
+			i(271546),	-- Skull of the Damned Necrolyte
+		}),
 		i(268251),	-- Amulet of the Twin Fangs
 		i(268261),	-- Bespittled Slitherslippers
 		i(268223),	-- Ophidian Fangmail
@@ -252,16 +357,16 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				["catalystID"] = 12,	-- ItemBonus.Value_0 MID:S1
 				["groups"] = {
 					Difficulty(DIFFICULTY.RAID.LFR, {["upgradeTrackID"]=UPGRADETRACKS.VETERAN}).AddGroups(
-						ALL_CLASS_TIERS_HELPER(THE_VOIDSPIRE_TIER, DIFFICULTY.RAID.LFR)
+						ALL_CLASS_TIERS_HELPER(THE_VENOMOUS_ABYSS_TIER, DIFFICULTY.RAID.LFR)
 					),
 					Difficulty(DIFFICULTY.RAID.NORMAL, {["upgradeTrackID"]=UPGRADETRACKS.CHAMPION}).AddGroups(
-						ALL_CLASS_TIERS_HELPER(THE_VOIDSPIRE_TIER, DIFFICULTY.RAID.NORMAL)
+						ALL_CLASS_TIERS_HELPER(THE_VENOMOUS_ABYSS_TIER, DIFFICULTY.RAID.NORMAL)
 					),
 					Difficulty(DIFFICULTY.RAID.HEROIC, {["upgradeTrackID"]=UPGRADETRACKS.HERO}).AddGroups(
-						ALL_CLASS_TIERS_HELPER(THE_VOIDSPIRE_TIER, DIFFICULTY.RAID.HEROIC)
+						ALL_CLASS_TIERS_HELPER(THE_VENOMOUS_ABYSS_TIER, DIFFICULTY.RAID.HEROIC)
 					),
 					Difficulty(DIFFICULTY.RAID.MYTHIC, {["upgradeTrackID"]=UPGRADETRACKS.MYTH}).AddGroups(
-						ALL_CLASS_TIERS_HELPER(THE_VOIDSPIRE_TIER, DIFFICULTY.RAID.MYTHIC)
+						ALL_CLASS_TIERS_HELPER(THE_VENOMOUS_ABYSS_TIER, DIFFICULTY.RAID.MYTHIC)
 					),
 				},
 			}),

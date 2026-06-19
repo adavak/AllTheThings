@@ -12,7 +12,7 @@ root(ROOTS.Unsorted, {
 			i(241151),	-- Coiled Stargorger Lure
 			i(243337),	-- Bound-Left Silvermoon Drapes
 			i(243338),	-- Bound-Right Silvermoon Drapes
-			i(244343),	-- Vessel of the Howling Ossuary
+			
 			i(244344),	-- Griftah's Mystical Polter-Urn
 			i(244790),	-- The Coiled Huntress
 			i(245539),	-- Elegant Enchanted Vanity
@@ -72,7 +72,7 @@ root(ROOTS.Unsorted, {
 			i(264697),	-- Yl'mul's Other Arm
 			i(264698),	-- Yl'mul's Ribcage
 			i(264704),	-- Sea Creature Meat
-			i(264716),	-- Hexed Tomb Brazier
+			
 			i(265033),	-- Zul'Aman Brazier Post
 			i(265386),	-- Zul'Aman Amani Awning
 			i(265399),	-- Ritually-Charred Bones
@@ -105,76 +105,75 @@ root(ROOTS.Unsorted, {
 			i(267378),	-- Venom Scholar's Focus
 			i(268095),	-- Fresh Poultice
 			i(268113),	-- Jan'alai's Breath
-			i(268196),	-- Venom-Slashed Scuteward
-			i(268197),	-- Spine of the Hissing Abyss
-			i(268198),	-- Caustic Keeper-Crusher
+			
+			
+			-- WB
 			i(268199),	-- Tidepiercer's Bubble Popper
-			i(268200),	-- Gebbo's Backup Blaster
-			i(268201),	-- Venomous Boneglaive
-			i(268202),	-- Jaw of the Shackled Goddess
-			i(268203),	-- Hexing Spiritrender
-			i(268204),	-- Ancient Construct's Venomshiv
-			i(268205),	-- Venomancer's Winged Channeler
-			i(268206),	-- Slithering Savage's Gavel
-			i(268207),	-- Caustic Repose Greatbow
-			i(268208),	-- Strongblood's Ceremonial Cleaver
-			i(268209),	-- Aman'muso, Warlord's Vengeance
-			i(268210),	-- Malevolent Spiritcudgel
-			i(268211),	-- Baleful Hexblade
-			i(268213),	-- Maze-roa, Warlord's Fury
-			i(268214),	-- Malignant Toothed Edge
-			i(268215),	-- Abyssal Broodfiend's Bardiche
-			i(268216),	-- Cursed Reliquary Cincture
-			i(268217),	-- Rising Tide Wristguards
-			i(268218),	-- Nek'zali's Spiritwalkers
-			i(268219),	-- Shadow Hunter's Warmask
-			i(268220),	-- Scaleplate Strangulators
-			i(268221),	-- Tidebound Sorcereress's Robes
-			i(268222),	-- Reckless Spirit Breastplate
-			i(268223),	-- Ophidian Fangmail
-			i(268224),	-- Venom Warden's Greaves
-			i(268225),	-- Spelunker's Drenched Legguards
-			i(268226),	-- Swelling Sea Spaulders
-			i(268227),	-- Unpossessed Skullsash
-			i(268228),	-- Venom-Singed Cuffs
-			i(268229),	-- Skullguard of the Risen Sacrifice
-			i(268230),	-- Crown of the Eternal Fang
-			i(268231),	-- Soulslither Spaulders
-			i(268232),	-- Cincture of the Abyssal Grotto
-			i(268233),	-- Ferocious Scaleboots
-			i(268234),	-- Ruthless Slaughtergrips
-			i(268235),	-- Vestment of the Awakening
-			i(268236),	-- Initiate's Sacrificial Tights
-			i(268237),	-- Cuisses of the Uncoiled Union
-			i(268238),	-- Grips of Swirling Fury
-			i(268239),	-- Shellbound Bracers
-			i(268240),	-- Restless Spirit Shackles
-			i(268241),	-- Ornaments of the Eternal Coil
-			i(268242),	-- Errant Scrollsage's Hood
-			i(268243),	-- Grasps of the Eternal Shadow
-			i(268244),	-- Forgotten Grotto Girdle
-			i(268245),	-- Entombed Cultist's Sabatons
-			i(268246),	-- Frothing Venom Spaulders
-			i(268247),	-- Breakwater Boots
-			i(268248),	-- Amani Summoning Shawl
-			i(268249),	-- Vile Alchemist's Band
-			i(268250),	-- Sentinel's Vitriolic Chain
-			i(268251),	-- Amulet of the Twin Fangs
-			i(268252),	-- Apex Brute's Claw Ring
-			i(268253),	-- Silken Voodoo Drape
-			i(268254),	-- Serpentine Mixing Belt
-			i(268255),	-- Cackling Soultreads
-			i(268256),	-- Sash of the Forlorn Vessel
-			i(268257),	-- Caustic Chain-Wrapped Sash
-			i(268258),	-- Boots of the Reckless Wayfarer
-			i(268259),	-- Girdle of Toxic Regret
-			i(268260),	-- Scaled Fiend's Warboots
-			i(268261),	-- Bespittled Slitherslippers
 			i(268262),	-- Bubblefin Splash Guard
 			i(268263),	-- Frostscale's Mystic Frond
-			i(268264),	-- Ravenous Feaster's Fang
-			i(268265),	-- Aqirbane Reliquary
+			i(268226),	-- Swelling Sea Spaulders
+			i(268221),	-- Tidebound Sorcereress's Robes
+			i(268217),	-- Rising Tide Wristguards
+			i(268238),	-- Grips of Swirling Fury
+			i(268232),	-- Cincture of the Abyssal Grotto
+			i(268244),	-- Forgotten Grotto Girdle
+			i(268225),	-- Spelunker's Drenched Legguards
+			i(268247),	-- Breakwater Boots
 			i(268266),	-- Alluring Bubbleband
+			i(270167),	-- Wavecaller's Seastone
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			i(268281),	-- Ula'guts
 			i(268504),	-- Malfunctioning Staff
 			i(268519),	-- Heirloom Blossom Nectar
@@ -213,21 +212,21 @@ root(ROOTS.Unsorted, {
 			i(269868),	-- Miniature Hand-Crafted Mask
 			i(269918),	-- Venom-Corroded Gallstone
 			i(269935),	-- Forgotten Trinket
-			i(270160),	-- First Mate's Shellward
-			i(270161),	-- Fang of Umbral Malignance
-			i(270162),	-- Soulcoiler Ritual Vessel
-			i(270163),	-- Sszorak's Ferocity
-			i(270164),	-- Gebbo's Bottomless Bag
-			i(270165),	-- Keeper's Seething Core
-			i(270166),	-- Vashnik's Sanguine Rancor
-			i(270167),	-- Wavecaller's Seastone
-			i(270168),	-- Font of Venomous Rage
-			i(270169),	-- Hex Lord's Dooming Idol
-			i(270170),	-- Vexhul's Everflowing Gland
-			i(270171),	-- Preternatural Antivenom
-			i(270173),	-- Zul'jin's Guillotine Technique
-			i(270174),	-- Idol of the Howling Nexus
-			i(270175),	-- Voracious Heart of Ula'tek
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			i(270191),	-- Lil'Kruul's Hilt
 			i(270210),	-- Bird Feathers
 			i(270211),	-- Furiostraza's Filter
@@ -704,31 +703,14 @@ root(ROOTS.Unsorted, {
 			i(270898),	-- Snakeskin Lining
 			i(270899),	-- Snakeskin Lining
 			i(270900),	-- Pattern: Snakeskin Lining
-			i(270909),	-- Slumbering Coil Curio
-			i(270910),	-- Venomwoven Idol
-			i(270911),	-- Venomcured Idol
-			i(270912),	-- Venomcast Idol
-			i(270913),	-- Venomforged Idol
-			i(270914),	-- Venomwoven Effigy
-			i(270915),	-- Venomcured Effigy
-			i(270916),	-- Venomcast Effigy
-			i(270917),	-- Venomforged Effigy
-			i(270918),	-- Venomwoven Relic
-			i(270919),	-- Venomcured Relic
-			i(270920),	-- Venomcast Relic
-			i(270921),	-- Venomforged Relic
-			i(270922),	-- Venomwoven Remnant
-			i(270923),	-- Venomcured Remnant
-			i(270924),	-- Venomcast Remnant
-			i(270925),	-- Venomforged Remnant
-			i(270926),	-- Venomwoven Icon
-			i(270927),	-- Venomcured Icon
-			i(270928),	-- Venomcast Icon
-			i(270929),	-- Venomforged Icon
-			i(270930),	-- Tomb-Creeper's Claw
+			
+			
+			
+			
+			
+			
 			i(271053),	-- Cleansing Water
-			i(271092),	-- Jan'thrazet, the Soul Fang
-			i(271093),	-- Zatha'tek, Breath of Corruption
+			
 			i(271130),	-- Venom Infusion
 			i(271131),	-- Test Weapon
 			i(271132),	-- Essence Trap
@@ -746,123 +728,16 @@ root(ROOTS.Unsorted, {
 			i(271441),	-- Crushing Coiler Coif
 			i(271444),	-- Pauldrons of the Forgotten Sacrifice
 			i(271445),	-- Fanged Brute's Greatbelt
-			i(271451),	-- Cloak of the Jade Warlord
-			i(271452),	-- Bracers of the Jade Warlord
-			i(271453),	-- Greatbelt of the Jade Warlord
-			i(271454),	-- Raging Pauldrons of the Jade Warlord
-			i(271455),	-- Greaves of the Jade Warlord
-			i(271456),	-- Tempered Horns of the Jade Warlord
-			i(271457),	-- Jeweled Gauntlets of the Jade Warlord
-			i(271458),	-- Vicious Kickers of the Jade Warlord
-			i(271459),	-- Cuirass of the Jade Warlord
-			i(271460),	-- Cloak of the Consecrated Flame
-			i(271461),	-- Bracers of the Consecrated Flame
-			i(271462),	-- Waistguard of the Consecrated Flame
-			i(271463),	-- Pauldrons of the Consecrated Flame
-			i(271464),	-- Greaves of the Consecrated Flame
-			i(271465),	-- Warhelm of the Consecrated Flame
-			i(271466),	-- Gauntlets of the Consecrated Flame
-			i(271467),	-- Greatboots of the Consecrated Flame
-			i(271468),	-- Bulwark of the Consecrated Flame
-			i(271469),	-- Baleful Grave-Knight's Greatcloak
-			i(271470),	-- Baleful Grave-Knight's Vambraces
-			i(271471),	-- Baleful Grave-Knight's Girdle
-			i(271472),	-- Baleful Grave-Knight's Gibbets
-			i(271473),	-- Baleful Grave-Knight's Greaves
-			i(271474),	-- Baleful Grave-Knight's Casque
-			i(271475),	-- Baleful Grave-Knight's Deathgrips
-			i(271476),	-- Baleful Grave-Knight's Sabatons
-			i(271477),	-- Baleful Grave-Knight's Breastplate
-			i(271478),	-- Ritual Drape of the Ophidian Oracle
-			i(271479),	-- Wristbands of the Ophidian Oracle
-			i(271480),	-- Venomous Belt of the Ophidian Oracle
-			i(271481),	-- Hissing Mantle of the Ophidian Oracle
-			i(271482),	-- Leggings of the Ophidian Oracle
-			i(271483),	-- Serpent Crown of the Ophidian Oracle
-			i(271484),	-- Hexing Grips of the Ophidian Oracle
-			i(271485),	-- Scaled Shoes of the Ophidian Oracle
-			i(271486),	-- Fanged Raiment of the Ophidian Oracle
-			i(271487),	-- Shroud of the Skulking Viper
-			i(271488),	-- Skulking Viper's Hardened Wristscales
-			i(271489),	-- Prized Fangs of the Skulking Viper
-			i(271490),	-- Jaws of the Skulking Viper
-			i(271491),	-- Skulking Viper's Coiled Legwraps
-			i(271492),	-- Skulking Viper's Weeping Fangs
-			i(271493),	-- Skulking Viper's Hidepiercers
-			i(271494),	-- Skulking Viper's Tracks
-			i(271495),	-- Skulking Viper's Scuteplate
-			i(271496),	-- Fearsome Greatcloak of Calamity
-			i(271497),	-- Calamitous Echo's Scalebands
-			i(271498),	-- Calamitous Echo's Scarred Girdle
-			i(271499),	-- Calamitous Echo's Sundered Peaks
-			i(271500),	-- Earthen Pillars of Calamity
-			i(271501),	-- Calamitous Echo's Magmashapers
-			i(271502),	-- Calamitous Echo's Ebon Greathorns
-			i(271503),	-- Calamitous Echo's Volcanic Stompers
-			i(271504),	-- Searing Caldera of Calamity
-			i(271505),	-- Chosen Bloodslayer's Cloak
-			i(271506),	-- Chosen Bloodslayer's Wristguards
-			i(271507),	-- Chosen Bloodslayer's Trophy Belt
-			i(271508),	-- Chosen Bloodslayer's Voodoo Guards
-			i(271509),	-- Chosen Bloodslayer's Reinforced Pants
-			i(271510),	-- Chosen Bloodslayer's Spirit Shroud
-			i(271511),	-- Chosen Bloodslayer's Fanged Grips
-			i(271512),	-- Chosen Bloodslayer's Boots
-			i(271513),	-- Chosen Bloodslayer's Banded Poncho
-			i(271514),	-- Cape of the Monkey King
-			i(271515),	-- Wristguards of the Monkey King
-			i(271516),	-- Agile Cord of the Monkey King
-			i(271517),	-- Tassels of the Monkey King
-			i(271518),	-- Pantaloons of the Monkey King
-			i(271519),	-- Monkey King's Unyielding Visage
-			i(271520),	-- Monkey King's Fighting Fists
-			i(271521),	-- Shinguards of the Monkey King
-			i(271522),	-- Battle Gi of the Monkey King
-			i(271523),	-- Enigmatic Dreamwatcher's Cloak
-			i(271524),	-- Enigmatic Dreamwatcher's Wraps
-			i(271525),	-- Enigmatic Dreamwatcher's Sigiled Cincture
-			i(271526),	-- Enigmatic Dreamwatcher's Plumage
-			i(271527),	-- Enigmatic Dreamwatcher's Leggings
-			i(271528),	-- Enigmatic Dreamwatcher's Somnolent Stare
-			i(271529),	-- Enigmatic Dreamwatcher's Gauntlets
-			i(271530),	-- Enigmatic Dreamwatcher's Sandals
-			i(271531),	-- Enigmatic Dreamwatcher's Lunar Raiment
-			i(271532),	-- Abyssal Doomhound's Ornate Drape
-			i(271533),	-- Abyssal Doomhound's Wristguards
-			i(271534),	-- Abyssal Doomhound's Jeweled Cinch
-			i(271535),	-- Abyssal Doomhound's Jaws
-			i(271536),	-- Abyssal Doomhound's Legwraps
-			i(271537),	-- Abyssal Doomhound's Relentless Stare
-			i(271538),	-- Abyssal Doomhound's Studded Gauntlets
-			i(271539),	-- Abyssal Doomhound's Footpads
-			i(271540),	-- Abyssal Doomhound's Coreguard
-			i(271541),	-- Chaincloak of the Damned Necrolyte
-			i(271542),	-- Damned Necrolyte's Shackles
-			i(271543),	-- Damned Necrolyte's Clanging Cinch
-			i(271544),	-- Spires of the Damned Necrolyte
-			i(271545),	-- Damned Necrolyte's Leg Bindings
-			i(271546),	-- Skull of the Damned Necrolyte
-			i(271547),	-- Damned Necrolyte's Charred Grasps
-			i(271548),	-- Soles of the Damned Necrolyte
-			i(271549),	-- Damned Necrolyte's Rattling Robes
-			i(271550),	-- Drape of the Cosmic Penitent
-			i(271551),	-- Bandings of the Cosmic Penitent
-			i(271552),	-- Cosmic Penitent's Orbiting Cinch
-			i(271553),	-- Cosmic Penitent's Echoing Screams
-			i(271554),	-- Enveloping Legwraps of the Cosmic Penitent
-			i(271555),	-- Cosmic Penitent's Truesight
-			i(271556),	-- Cosmic Penitent's Celestial Grips
-			i(271557),	-- Trail of the Cosmic Penitent
-			i(271558),	-- Cosmic Penitent's Eclipsing Robes
-			i(271559),	-- Spellcloak of the Primal Leywarden
-			i(271560),	-- Cuffs of the Primal Leywarden
-			i(271561),	-- Primal Leywarden's Bejeweled Buckle
-			i(271562),	-- Primal Leywarden's Manaflux
-			i(271563),	-- Primal Leywarden's Tailored Legwraps
-			i(271564),	-- Crown of the Primal Leywarden
-			i(271565),	-- Primal Leywarden's Manashapers
-			i(271566),	-- Battleboots of the Primal Leywarden
-			i(271567),	-- Crest of the Primal Leywarden
+
+			
+
+
+			
+			
+			
+			
+
+
 			i(271638),	-- Bound Serpent's Jade Eye
 			i(271679),	-- Set Keystone Level: 2
 			i(271680),	-- Sinseared Repeater
@@ -881,10 +756,10 @@ root(ROOTS.Unsorted, {
 			i(271866),	-- Well-Worn Hatchet
 			i(271867),	-- Venom-Etched Sword
 			i(271868),	-- Splintering Spear
-			i(271874),	-- Venomkeeper's Horrific Cowl
-			i(271875),	-- Gaze of the Coiled Watcher
-			i(271876),	-- Awoken Dreadfang Cuirass
-			i(271878),	-- Chausses of Unbound Rancor
+			
+			
+			
+			
 			i(271881),	-- Dropped Key
 			i(271883),	-- Concentrated Silvermoon Health Potion
 			i(271884),	-- Concentrated Silvermoon Health Potion
@@ -1320,13 +1195,13 @@ root(ROOTS.Unsorted, {
 			i(275631),	-- Corrosive Writhling
 			i(275632),	-- Volatile Venomfang
 			i(275634),	-- Artisan's Consortium Flyer
-			i(275652),	-- Crimson Venomfang
+			
 			i(275653),	-- Sea-Dwelling Isle Serpent
 			i(275654),	-- Caustic Venomfang
 			i(275655),	-- Venom Serpent - White
 			i(275656),	-- Venom Serpent - Yellow
 			i(275657),	-- Apophic Soul Crusher
-			i(275658),	-- Primeval Skyfriend
+			
 			i(275659),	-- Hexflame Reaver
 			i(275660),	-- Preyhunter's Courser
 			i(275676),	-- R0CKY-To-Go
@@ -1354,8 +1229,7 @@ root(ROOTS.Unsorted, {
 			i(275919),	-- Preyhunter's Adventurer Sack
 			i(275920),	-- Tarnished Amani Glaive
 			i(275936),	-- Delve-O-Bot 7001: Midnight Software Update Chip
-			i(275937),	-- Hex Lord's Visage
-			i(275938),	-- Hex Lord's Gaze
+			
 			i(275978),	-- Delver's Starter Kit
 			i(275986),	-- Delver's Cosmetic Surprise Bag
 			i(275988),	-- Corrosive Victory
@@ -1992,13 +1866,11 @@ root(ROOTS.Unsorted, {
 			i(279111),	-- [ph] SpiceWitch Legs - Pink
 			i(279112),	-- Clumped Asteroidea
 			i(279114),	-- [ph] SpiceWitch Head - Pink
-			i(279115),	-- Soulcoiler's Ritual Candle
-			i(279118),	-- Lost Explorers Mailbox
-			i(279122),	-- Venom-Fanged Font
-			i(279125),	-- The Venomous Abyss Aureate Trophy
-			i(279127),	-- The Venomous Abyss Argent Trophy
-			i(279129),	-- The Venomous Abyss Gleaming Trophy
-			i(279131),	-- Pillar of the Coiled Isle
+			
+			
+			
+		
+			
 			i(279133),	-- [ph] SpiceWitch Head - Pink (Hair Vis)
 			i(279134),	-- [ph] SpiceWitch Shoulders - Pink
 			i(279135),	-- [ph] Ensemble: SpiceWitch Pink Attire
@@ -2092,7 +1964,7 @@ root(ROOTS.Unsorted, {
 			i(279376),	-- Opalescent Amani Peridot
 			i(279382),	-- Venom-Cursed Fragment
 			i(279384),	-- Bonemail Gauntlet
-			i(279387),	-- Ul'ava'took
+			
 			i(279428),	-- Midnight Gloomcap
 			i(279429),	-- Azure Gloomcap
 			i(279430),	-- Sepia Gloomcap
@@ -2121,7 +1993,7 @@ root(ROOTS.Unsorted, {
 			i(279478),	-- Ori'kassi's Barbed Tail
 			i(279479),	-- Leviathan's Eye
 			i(279483),	-- Three-Eyed Fish
-			i(279500),	-- "Rage of the Shackled" Mural
+			
 			i(279508),	-- "The Hunger Awakens" Mural
 			i(279520),	-- Fabled Veteran's Cache
 			i(279522),	-- Surplus Bag of Party Favors
@@ -2248,6 +2120,157 @@ root(ROOTS.Unsorted, {
 			i(280275),	-- Hanging Longwick Rope
 			i(280277),	-- Weathered Med'jai Signet
 			i(280278),	-- Temple Guardian's Ring
+
+
+
+
+			--[[ If Darkal Needs
+			n(CLASS, {
+				-- Cloak, Wrist, Waist, Shoulder, Legs, Head, Hands, Feet, Chest
+
+				-- Warrior
+				i(271451),	-- Cloak of the Jade Warlord
+				i(271452),	-- Bracers of the Jade Warlord
+				i(271453),	-- Greatbelt of the Jade Warlord
+				i(271454),	-- Raging Pauldrons of the Jade Warlord
+				i(271455),	-- Greaves of the Jade Warlord
+				i(271456),	-- Tempered Horns of the Jade Warlord
+				i(271457),	-- Jeweled Gauntlets of the Jade Warlord
+				i(271458),	-- Vicious Kickers of the Jade Warlord
+				i(271459),	-- Cuirass of the Jade Warlord
+
+				-- Paladin
+				i(271460),	-- Cloak of the Consecrated Flame
+				i(271461),	-- Bracers of the Consecrated Flame
+				i(271462),	-- Waistguard of the Consecrated Flame
+				i(271463),	-- Pauldrons of the Consecrated Flame
+				i(271464),	-- Greaves of the Consecrated Flame
+				i(271465),	-- Warhelm of the Consecrated Flame
+				i(271466),	-- Gauntlets of the Consecrated Flame
+				i(271467),	-- Greatboots of the Consecrated Flame
+				i(271468),	-- Bulwark of the Consecrated Flame
+
+				-- DK
+				i(271469),	-- Baleful Grave-Knight's Greatcloak
+				i(271470),	-- Baleful Grave-Knight's Vambraces
+				i(271471),	-- Baleful Grave-Knight's Girdle
+				i(271472),	-- Baleful Grave-Knight's Gibbets
+				i(271473),	-- Baleful Grave-Knight's Greaves
+				i(271474),	-- Baleful Grave-Knight's Casque
+				i(271475),	-- Baleful Grave-Knight's Deathgrips
+				i(271476),	-- Baleful Grave-Knight's Sabatons
+				i(271477),	-- Baleful Grave-Knight's Breastplate
+
+				-- Rogue
+				i(271505),	-- Chosen Bloodslayer's Cloak
+				i(271506),	-- Chosen Bloodslayer's Wristguards
+				i(271507),	-- Chosen Bloodslayer's Trophy Belt
+				i(271508),	-- Chosen Bloodslayer's Voodoo Guards
+				i(271509),	-- Chosen Bloodslayer's Reinforced Pants
+				i(271510),	-- Chosen Bloodslayer's Spirit Shroud
+				i(271511),	-- Chosen Bloodslayer's Fanged Grips
+				i(271512),	-- Chosen Bloodslayer's Boots
+				i(271513),	-- Chosen Bloodslayer's Banded Poncho
+
+				-- Monk
+				i(271514),	-- Cape of the Monkey King
+				i(271515),	-- Wristguards of the Monkey King
+				i(271516),	-- Agile Cord of the Monkey King
+				i(271517),	-- Tassels of the Monkey King
+				i(271518),	-- Pantaloons of the Monkey King
+				i(271519),	-- Monkey King's Unyielding Visage
+				i(271520),	-- Monkey King's Fighting Fists
+				i(271521),	-- Shinguards of the Monkey King
+				i(271522),	-- Battle Gi of the Monkey King
+
+				-- Druid
+				i(271523),	-- Enigmatic Dreamwatcher's Cloak
+				i(271524),	-- Enigmatic Dreamwatcher's Wraps
+				i(271525),	-- Enigmatic Dreamwatcher's Sigiled Cincture
+				i(271526),	-- Enigmatic Dreamwatcher's Plumage
+				i(271527),	-- Enigmatic Dreamwatcher's Leggings
+				i(271528),	-- Enigmatic Dreamwatcher's Somnolent Stare
+				i(271529),	-- Enigmatic Dreamwatcher's Gauntlets
+				i(271530),	-- Enigmatic Dreamwatcher's Sandals
+				i(271531),	-- Enigmatic Dreamwatcher's Lunar Raiment
+
+				-- DH
+				i(271532),	-- Abyssal Doomhound's Ornate Drape
+				i(271533),	-- Abyssal Doomhound's Wristguards
+				i(271534),	-- Abyssal Doomhound's Jeweled Cinch
+				i(271535),	-- Abyssal Doomhound's Jaws
+				i(271536),	-- Abyssal Doomhound's Legwraps
+				i(271537),	-- Abyssal Doomhound's Relentless Stare
+				i(271538),	-- Abyssal Doomhound's Studded Gauntlets
+				i(271539),	-- Abyssal Doomhound's Footpads
+				i(271540),	-- Abyssal Doomhound's Coreguard
+
+				-- Warlock
+				i(271541),	-- Chaincloak of the Damned Necrolyte
+				i(271542),	-- Damned Necrolyte's Shackles
+				i(271543),	-- Damned Necrolyte's Clanging Cinch
+				i(271544),	-- Spires of the Damned Necrolyte
+				i(271545),	-- Damned Necrolyte's Leg Bindings
+				i(271546),	-- Skull of the Damned Necrolyte
+				i(271547),	-- Damned Necrolyte's Charred Grasps
+				i(271548),	-- Soles of the Damned Necrolyte
+				i(271549),	-- Damned Necrolyte's Rattling Robes
+
+				-- Priest
+				i(271550),	-- Drape of the Cosmic Penitent
+				i(271551),	-- Bandings of the Cosmic Penitent
+				i(271552),	-- Cosmic Penitent's Orbiting Cinch
+				i(271553),	-- Cosmic Penitent's Echoing Screams
+				i(271554),	-- Enveloping Legwraps of the Cosmic Penitent
+				i(271555),	-- Cosmic Penitent's Truesight
+				i(271556),	-- Cosmic Penitent's Celestial Grips
+				i(271557),	-- Trail of the Cosmic Penitent
+				i(271558),	-- Cosmic Penitent's Eclipsing Robes
+
+				-- Mage
+				i(271559),	-- Spellcloak of the Primal Leywarden
+				i(271560),	-- Cuffs of the Primal Leywarden
+				i(271561),	-- Primal Leywarden's Bejeweled Buckle
+				i(271562),	-- Primal Leywarden's Manaflux
+				i(271563),	-- Primal Leywarden's Tailored Legwraps
+				i(271564),	-- Crown of the Primal Leywarden
+				i(271565),	-- Primal Leywarden's Manashapers
+				i(271566),	-- Battleboots of the Primal Leywarden
+				i(271567),	-- Crest of the Primal Leywarden
+				-- Shaman
+				i(271478),	-- Ritual Drape of the Ophidian Oracle
+				i(271479),	-- Wristbands of the Ophidian Oracle
+				i(271480),	-- Venomous Belt of the Ophidian Oracle
+				i(271481),	-- Hissing Mantle of the Ophidian Oracle
+				i(271482),	-- Leggings of the Ophidian Oracle
+				i(271483),	-- Serpent Crown of the Ophidian Oracle
+				i(271484),	-- Hexing Grips of the Ophidian Oracle
+				i(271485),	-- Scaled Shoes of the Ophidian Oracle
+				i(271486),	-- Fanged Raiment of the Ophidian Oracle
+
+				-- Hunter 
+				i(271487),	-- Shroud of the Skulking Viper
+				i(271488),	-- Skulking Viper's Hardened Wristscales
+				i(271489),	-- Prized Fangs of the Skulking Viper
+				i(271490),	-- Jaws of the Skulking Viper
+				i(271491),	-- Skulking Viper's Coiled Legwraps
+				i(271492),	-- Skulking Viper's Weeping Fangs
+				i(271493),	-- Skulking Viper's Hidepiercers
+				i(271494),	-- Skulking Viper's Tracks
+				i(271495),	-- Skulking Viper's Scuteplate
+
+				-- Evoker
+				i(271496),	-- Fearsome Greatcloak of Calamity
+				i(271497),	-- Calamitous Echo's Scalebands
+				i(271498),	-- Calamitous Echo's Scarred Girdle
+				i(271499),	-- Calamitous Echo's Sundered Peaks
+				i(271500),	-- Earthen Pillars of Calamity
+				i(271501),	-- Calamitous Echo's Magmashapers
+				i(271502),	-- Calamitous Echo's Ebon Greathorns
+				i(271503),	-- Calamitous Echo's Volcanic Stompers
+				i(271504),	-- Searing Caldera of Calamity
+			}),
+			--]]
 		})),
 		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
 			n(ARMOR, {	-- New Void Assault Things (Probably)
