@@ -3446,6 +3446,10 @@
 17796@@@Spring Blossom Tranquility Garden
 18794@@@Lush Garden Stable
 19848@@@Lush Garden Rug
+12.0.5.67823
+21947@@@Orchestrion of Echoing Atonement
+21948@@@Throne of Subjugated Souls
+22775@@@Condensed Anima Orb
 12.0.7.67227
 1283@@@Left-Bound Silvermoon Drapes
 1284@@@Right-Bound Silvermoon Drapes
