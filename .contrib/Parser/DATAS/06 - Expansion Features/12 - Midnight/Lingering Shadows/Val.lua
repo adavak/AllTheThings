@@ -31,7 +31,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(QUESTS, {
 						q(96048, {	-- The Time to Strike
 							["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
-							["isBreadcrumb"] = true,	-- ?? You can't accept followup quests without it?
+							["isBreadcrumb"] = true,
+							["qg"] = 263929,	-- Riftblade Maella's Summons
+							["coord"] = { 48.3, 64.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						}),
 						q(96049, {	-- Stalkers of the Stars
 							["sourceQuest"] = 96048,	-- The Time to Strike
