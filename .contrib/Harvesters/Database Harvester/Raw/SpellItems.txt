@@ -13221,3 +13221,10 @@
 8679@@@12.0.7  FX Testing - Enchant Visual - Midsummer Fire
 12.0.7.67525
 8704@@@Summer Sun Blossom
+12.1.0.68209
+8646@@@JWA - Enchant - Test
+8688@@@Rite of the Hash'ey |A:Professions-ChatIcon-Quality-12-Tier1:20:20|a
+8689@@@Rite of the Hash'ey |A:Professions-ChatIcon-Quality-12-Tier2:20:20|a
+8697@@@Venomcoil
+8702@@@R0CKY
+8705@@@[DNT] 12.1 Delves - Corrosive - ZGS TEST

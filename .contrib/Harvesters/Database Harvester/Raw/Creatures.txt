@@ -24437,3 +24437,142 @@
 268498@@@Summer Blossom Cluster
 12.0.7.67808
 263480@@@Riftblade Maella
+12.1.0.68209
+253504@@@Aqir Destroyer
+253505@@@N'raqi Commander
+253507@@@Grasp of Kith'ix
+253512@@@Ula'tek
+253547@@@Nek'zali the Soulcoiler
+253557@@@Strongblood Jak'mo
+253837@@@Apothecary Dezi
+253874@@@Jan'alai
+253875@@@Akil'zon
+255716@@@Zul'jarra
+258028@@@Magister Umbric
+258029@@@Arator
+258034@@@Amani Soldier
+258036@@@Log
+258150@@@Arator
+258151@@@Magister Umbric
+258538@@@Magister Umbric
+259338@@@Flynn Fairwind
+259343@@@Chen Stormstout
+259416@@@Zul'jarra
+259417@@@Lady Liadrin
+259579@@@Lady Liadrin
+259664@@@Kith'ix
+259768@@@Coiling Serpent
+260232@@@Ring
+260233@@@Ring
+260385@@@Ring
+260508@@@Pickup Rocks Credit
+260689@@@Zapgut Gland
+260706@@@Clue 1
+260707@@@Clue 2
+260708@@@Clue 3
+260792@@@Zan
+262015@@@Dak'zor
+262085@@@Dak'zor
+262086@@@Winged Skyfang
+262210@@@Lil'Kruul
+262220@@@Furiostraza
+262222@@@Poisoned Parasite
+262226@@@Cursed Spawn
+262243@@@Steady Croakfrog
+262244@@@Sleek Snakebiter
+262245@@@Nightfur Kapara
+262246@@@Jaundiced Slitherer
+262247@@@Caustic Writhling
+262248@@@Autumn Snapling
+263465@@@Arator
+263506@@@Crumpled Scroll
+263544@@@Discarded Potion
+263545@@@Abused Relic
+263589@@@Hex Lord Malacrass
+263590@@@Zul'jarra
+263591@@@Witherbark Soldier
+263592@@@Fanged Abductor
+263593@@@Aerial Viper
+263642@@@Binding Hexspitter
+263841@@@[DNT] Candle Scenario Zone Bunny
+264280@@@Crabbers
+264369@@@Smothering Miasma
+264720@@@Arena Spectator
+264721@@@Bloodsport Enthusiast
+264894@@@Serrated Snaptrap
+264899@@@Weighted Bolas
+264910@@@Entangling Net
+264913@@@Tranquilizer Dart
+264965@@@Headball
+265031@@@Halazzi
+265032@@@Nalorakk
+265033@@@Jan'alai
+265034@@@Akil'zon
+265035@@@Zul'jarra
+265036@@@Hex Lord Malacrass
+265037@@@Binding Hexspitter
+265098@@@Fanged Abductor
+265128@@@Left Bottle
+265129@@@Middle Bottle
+265130@@@Right Bottle
+265619@@@Goal
+265786@@@Venom Elemental
+266442@@@Zul'jarra
+266446@@@Injured Soldier Widget Bunny [DNT
+266464@@@Corrosive Writhling
+266469@@@Volatile Venomfang
+266545@@@Hungry Soldier Widget Bunny [DNT
+266546@@@Underequipped Soldier Widget Bunny [DNT
+266567@@@Headball
+266833@@@Preyhunter's Prismguard
+266834@@@ArcaneGolem2 Pet - Red
+266835@@@Preyhunter's Riftbreaker
+267497@@@Sound Stalker - 12.1 Raid - Temple of Ula'Tek - Boss 8 - P2 - Left
+267689@@@Vibrant Venomfang
+267782@@@Path Helper
+267784@@@Path Helper
+267797@@@Zul'jan
+267798@@@Zul'jarra
+267805@@@Snek'zali
+268174@@@Supplier Filmore
+268180@@@Supplier Pezy
+268188@@@Supplier Wooshy
+268193@@@Supplier Toro
+268256@@@Sound Stalker - 12.1 Raid - Temple of Ula'Tek - Boss 8 - P2 - Right
+268378@@@Arena Mask
+268407@@@Arena Spectator
+268408@@@Bloodsport Enthusiast
+268550@@@Enchanted Ballblocker
+268553@@@Enchanted Ballblocker
+268609@@@Kirin Tor Kitty
+268636@@@Kirin Tor Cat
+268671@@@Catsramas
+268672@@@Cat'Thuzad
+268675@@@Mewkahen
+268676@@@Amewbis
+268695@@@Snacks!
+268805@@@Random Adventurer
+268807@@@Valeera Sanguinar
+268923@@@Azta'rec
+268978@@@Witherbark Soldier
+268993@@@Venomfall Font
+269085@@@Slithering Prescence
+269295@@@Three-Eyed Fish
+269489@@@Arcane Missile
+269501@@@Soulcoil Remnant
+269700@@@Water Moccasin
+269712@@@Pale Hexscale
+269843@@@Unstable Venom Sac
+270147@@@Slitherfang
+270249@@@Corroded Soul Crusher
+270250@@@Apophic Soul Crusher
+270425@@@Ul'ava'took
+270701@@@Gamon
+270703@@@Zekhan
+270712@@@Muradin Bronzebeard
+270857@@@Ki'clak
+271031@@@Amani, Mounted (Eagle)
+271033@@@Amani, Mounted (Eagle)
+271086@@@Zesty
+271106@@@Poison Dart Frog
+271163@@@Cauldron Concoction

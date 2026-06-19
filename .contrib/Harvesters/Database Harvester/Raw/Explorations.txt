@@ -10835,3 +10835,76 @@
 17220@@@Marshwalker Refuge
 12.0.7.67525
 17098@@@Extraction Shores
+12.1.0.68209
+16365@@@The Coiled Isle
+16535@@@Vaults of Atal'Utek
+16671@@@The Tidebound Grotto
+16755@@@Crypt of the Denied
+16769@@@Zail'Zar Span
+16771@@@The Altar of Wrath
+16774@@@Tokka's Landing
+16775@@@Ofi's Hut
+16776@@@Mlurkkr Mire
+16777@@@Cloudlight Beacon
+16778@@@Wreck of Paku's Talon
+16779@@@Wreck of Torga's Beak
+16780@@@The Whispering Marsh
+16781@@@The Ring of Glory
+16782@@@Defiant Ring
+16783@@@Wreck of Gral's Belly
+16784@@@Gnarldor Isle
+16785@@@Gate of the Eastern Fang
+16786@@@Gate of the Western Fang
+16787@@@The Forum
+16788@@@Wreck of Sethralis's Scale
+16789@@@The Fangs
+16790@@@Path of Whispers
+16791@@@Gate of the Serpent's Eye
+16792@@@Venom Rise
+16793@@@Blistering Terrace
+16795@@@The Serpent's Tail
+16822@@@Labyrinth
+16824@@@Tooth of Sargoth
+16830@@@Tokka's Folly
+16838@@@The Coiled Isle (copy)
+16843@@@Null Space
+16865@@@Altar of Fangs
+16897@@@Diver's Arch
+16913@@@12.1 Ula'Tek Labyrinth
+16915@@@The Venomous Abyss
+16977@@@Ruuk'Jar's Clutch
+16978@@@Vault of Restless Bones
+16979@@@Profaned Mausoleum
+16980@@@Gnarldor Isle
+16981@@@The Ring of Glory
+16987@@@Venomfall Deeps
+16989@@@Cursed Keepsake
+16990@@@The Underbelly
+16992@@@Crypt of the Lost Mason
+16993@@@Kin's Rest
+16994@@@Blistering Vault
+16995@@@Tomb of the Lost Priest
+16996@@@Crypt of The Lost Warrior
+16997@@@Crypt of the Disgraced
+17022@@@Cursed Depths
+17023@@@The Seal of Wrath
+17107@@@Demolition Dome
+17316@@@Vaults of Atal'Utek
+17650@@@Amani Foothold
+17680@@@The Soulcoil Well
+17681@@@Pit of Fangs
+17682@@@Mor'zahi's Tomb
+17683@@@Crypt of the Soulcoilers
+17685@@@The Serpent Warren
+17686@@@Altar of the Six Winds
+17687@@@The Vile Crypt
+17688@@@The Venomducts
+17689@@@Halls of the Malignant
+17701@@@The Crucible of Venom
+17702@@@The Tomb of Ula'tek
+17710@@@The Carnage Pit
+17711@@@The Altar of Fangs
+17712@@@Sacrificial Approach
+17713@@@Mutation Chambers
+17714@@@Ancient Burrow
+17715@@@The Chamber of Virulence

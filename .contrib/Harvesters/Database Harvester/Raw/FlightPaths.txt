@@ -2913,3 +2913,9 @@
 3278@@@Sporeforge
 3279@@@Nexus Port
 3280@@@Extraction Coast
+12.1.0.68209
+3168@@@Tokka's Landing, The Coiled Isle
+3284@@@12.1 Ulatek - Faction Feature - Temple - Traversal - Flight Master - Eastern Entrance (HCR)
+3285@@@Amani Foothold
+3286@@@Eastern Entrance
+3288@@@Amani Foothold, Vaults of Atal'Utek

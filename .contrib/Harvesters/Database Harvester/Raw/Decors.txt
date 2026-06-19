@@ -3493,3 +3493,252 @@
 23706@@@Prized Orb of Azeroth
 24193@@@Framed Horde Pride
 24194@@@Framed Alliance Pride
+12.1.0.68209
+1135@@@[DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Forge01.m2 - DUPLICATE do not use
+1136@@@Bound Silvermoon Drapes
+1138@@@[DNT] [AUTOGEN] 12BE_BloodElf_Navigation_FenceCapper01.m2 - DUPLICATE do not use
+1139@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Bench01.m2 - DUPLICATE do not use
+1140@@@Unearthed Sarcophagus Lid
+1150@@@Unearthed Sarcophagus Base
+1154@@@Masterful Sin'dorei Gravestone
+1204@@@Sunsmoke Censer DEPRECATED DONT USE
+1221@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_FancyChair01.m2 - DUPLICATE do not use
+1222@@@[DNT] [AUTOGEN] 12BE_BloodElf_Storage_Barrel01.m2 - DUPLICATE do not use
+1224@@@[DNT] [AUTOGEN] 12BE_BloodElf_Navigation_Fence01.m2 - DUPLICATE do not use
+1225@@@[DNT] [AUTOGEN] 12BE_BloodElf_Structure_Fountain01.m2 - DUPLICATE do not use
+1226@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_Chandelier01.m2 - DUPLICATE do not use
+1228@@@[DNT] [AUTOGEN] 12BE_BloodElf_Furniture_Bed01.m2 - DUPLICATE do not use
+1229@@@[DNT] [AUTOGEN] 12BE_BloodElf_Lighting_LanternHanging04.m2 - DUPLICATE do not use
+1283@@@Bound-Left Silvermoon Drapes
+1284@@@Bound-Right Silvermoon Drapes
+1426@@@Vessel of the Howling Ossuary
+1427@@@Griftah's Mystical Polter-Urn
+1430@@@Purified Troll Urn
+1730@@@Elegant Enchanted Vanity
+1907@@@Purified Sindorei Candle
+1909@@@Purified Floating Lantern
+2587@@@Mastercrafted Fungal Row Planter
+4426@@@Stack of Kafa Mugs
+5129@@@Furious Tiki Mask
+5131@@@Spirit-Touched Amani Mask
+5648@@@Amani Supply Sack
+5796@@@Sin'dorei Golden Welcome
+8990@@@Purified Troll Pitcher
+9289@@@Purified Crude Axe
+9290@@@Revered Deepstone Table
+9627@@@Purified Crude Hammer
+10368@@@Ogre Champion's Prized Skull
+10859@@@Amani Water Well
+10862@@@Purified Troll Loop
+10896@@@Purified Ancient Urn
+11140@@@Purified Troll Pendant
+11285@@@Purified Troll Amulet
+12145@@@Purified Troll Ring
+14353@@@[DNT] [AUTOGEN] 12PH_Leg_6HU_BLACKSMITH_FORGE03.m2 - DUPLICATE do not use
+14819@@@[DNT] [AUTOGEN] 12PH_Leg_12BE_BloodElf_Structure_Statue02.M2 - DUPLICATE do not use
+15156@@@Amani Storage Crate
+15157@@@Amani Wicker Crate
+15265@@@Amani Anvil
+15266@@@Amani Forgemaster's Workbench
+15283@@@Amani Forge
+15284@@@Emerald-Encrusted Amani Ritual Skull
+15285@@@Griftah's Resizing Hex-Skull
+15286@@@Purified Folk Mirror
+15290@@@Cherished Pet's Rug
+15506@@@Amani Ritual Totem
+15569@@@Amani Wayfarer's Torch
+16093@@@Hexed Tomb Brazier
+16316@@@Zul'Aman Brazier Post
+16808@@@Zul'Aman Amani Awning
+17786@@@[DNT] - Anim doesn't play - Self-Pouring 590 Quel'Lithien Red
+17799@@@Soulcoiler Canopy
+18615@@@Amani Blueflame Chandelier
+18796@@@Purified Folk Candle
+18798@@@Amani Territorial Totem
+18880@@@Purified Elven Mirror
+18900@@@Ula'tek Ritual Monolith
+18901@@@Venom Scholar's Focus
+18960@@@Purified Kaldorei Candle
+20332@@@Purified Elven Glowlamp
+21102@@@Serpent-Caller Spike
+21324@@@Stitched Blisterfang Bag
+21325@@@Fanged Scaleskin Pouch
+21616@@@Feathered Ula'tek Talisman
+21617@@@Opened Serpentine Reliquary
+21653@@@Clutch of Ula'tek
+21720@@@Egg of Ula'tek
+21725@@@Destroyed Clutch of Ula'tek
+21832@@@Venomous Tendril
+21833@@@Oozing Vilescar Barricade
+21873@@@Purified Tauren Pot
+21886@@@Purified Earthen Pot
+21949@@@Seaside Firefly Jar
+21951@@@Ula'tek Ritual Stone
+21952@@@Venomous Pyre
+21953@@@Venombound Ropes
+21956@@@Hanging Coiled Isle Ropes
+22144@@@Seaside Tiki Frondtree
+22145@@@Preyhunter's Scaled Effigy
+22146@@@Preyhunter's Fanged Effigy
+22147@@@Preyhunter's Fanged Bust
+22148@@@Preyhunter's Terror Effigy
+22397@@@Seaside Tiki Market Stand
+22398@@@Seaside Charcoal Grill
+22895@@@Seaside Cushioned Chair
+22916@@@Amani Decorative Plinth
+22917@@@Amani Road Marker
+22918@@@Woven Forest Troll Rug
+22919@@@Steamy Romance Tablet
+22920@@@Amani Building Peg
+22921@@@Forest Troll Fence
+22922@@@Forest Troll Fencepost
+22924@@@Witch Doctor's Punch Bowl
+22925@@@Shrine of Nalorakk, Loa of War
+22926@@@Shrine of Jan'alai, Loa of Fire
+22927@@@Shrine of Akil'zon, Loa of Victory
+23175@@@Seaside Lounge Chair
+23176@@@Short Centaur Wall
+23177@@@Long Centaur Wall
+23178@@@Closed Centaur Basket
+23179@@@Open Centaur Basket
+23180@@@Centaur Table
+23181@@@Centaur Bench
+23182@@@Round Centaur Carpet
+23183@@@Wide Centaur Carpet
+23184@@@Narrow Centaur Carpet
+23185@@@Centaur Stove
+23186@@@Tapered Centaur Wall
+23188@@@Shrine of Halazzi, Loa of the Hunt
+23548@@@Ball
+23549@@@Pet Food and Water Tray
+23550@@@Cooked Leg of Meat
+23551@@@Cooked Rack of Meat
+23553@@@Small Wooden Floor Tile
+23554@@@Large Wooden Floor Tile
+23555@@@Small Triangular Tile
+23556@@@Large Triangular Tile
+23557@@@Tall Round Column
+23558@@@Short Round Column
+23559@@@Short Square Column
+23560@@@Tall Square Column
+23707@@@Small Wooden Wall Tile
+23708@@@Large Wooden Wall Tile
+23709@@@Wide Wooden Staircase
+23710@@@Spiraling Wooden Stairs
+23868@@@Seaside Hanging Lantern
+23869@@@Seaside Straw Umbrella
+23870@@@Seaside Painted Surfboard
+23871@@@Cauldron of Ula'tek
+23873@@@Sealed Serpentine Reliquary
+23874@@@Wrapped Scaleskin Urn
+23875@@@Cracked Vilescar Urn
+23876@@@Charmed Blisterfang Urn
+23881@@@Soulcoiler Sconce
+23883@@@Seaside Waterfall Basin
+24196@@@Seaside Depths Porthole
+24512@@@Soulcoiler Skull
+24519@@@Soulcoiler Jaw
+24630@@@Seaside Murloc Tiki Totem
+24753@@@Seaside Tiki Gazebo
+24755@@@Seaside Fire Pit
+24765@@@Zul'Aman Creeping Pangoroot
+24888@@@Tune-O-Tron 6000
+24889@@@Zul'Aman Swamp Palm Sprout
+24890@@@Preyhunter's Scaled Bust
+24891@@@Preyhunter's Terror Bust
+25101@@@Westfall Pet Cage
+25102@@@Crossroads Pet Cage
+25103@@@Crude Pet Cage
+25104@@@Breanni's Menagerie Aquarium
+25105@@@Silvermoon Dragonhawk Incubator
+25106@@@Cozy Lightbloom Lilypad
+25121@@@Cozy Bird Nest
+25122@@@Loyal Companion's Plinth
+25128@@@Griftah's Torch of Rotation
+25131@@@The Venomous Abyss Aureate Trophy
+25132@@@The Venomous Abyss Gleaming Trophy
+25133@@@The Venomous Abyss Argent Trophy
+25274@@@Gilded Silvermoon Compass
+25279@@@Hanging Blood Knights Shield
+25284@@@Sturdy Silvermoon Crate
+25286@@@Sturdy Silvermoon Crate Lid
+25287@@@Adorned Sin'dorei Satchel
+25288@@@Stonecarved Sin'dorei Jar
+25289@@@Mysterious Sin'dorei Candlestick
+25292@@@Altar of Corrosion
+25293@@@Pillar of the Fanged Altar
+25294@@@Amani Worship Candle
+25295@@@Amani Ritual Candles
+25296@@@Zul'Aman Burning Pinecone
+25297@@@Traditional Tortollan Tent
+25299@@@Aged Tortollan Scroll Case
+25300@@@Blue Tortollan Signpost
+25336@@@Yellowed Kelp Pile
+25337@@@Hooked Net Trap
+25546@@@Pepe
+25812@@@Pillar of the Coiled Isle
+25813@@@Venom-Fanged Font
+26097@@@Vilescar Weapon Rack
+26196@@@Rustic Fishing Rack
+26197@@@Hanging Yellowed Kelp
+26198@@@Hatchery of Hissing Eggs
+26201@@@Hanging Candles
+26202@@@Arathor Toy Sword
+26203@@@Twilight Brazier
+26205@@@Soulcoiler's Ritual Candle
+26208@@@Royal Attendant's Coffin
+26363@@@Mounted Moby
+26364@@@Tortollan Traveler's Tincture
+26365@@@Compact Cookfire
+26366@@@Tortollan Slingsack
+26370@@@Empty Tortollan Display Rack
+26371@@@Sea Glass Bauble
+26372@@@Aetherlume Field Lamp
+26373@@@Tortollan Traveler's Chest
+26374@@@Lost Explorers Mailbox
+26377@@@Zul'Aman Pine Tree
+26378@@@Stretched Snakeskin Rack
+26379@@@Keen Hex Mask
+26381@@@Amani Forgemaster's Glaive
+26382@@@Amani Forgemaster's Rack
+26383@@@Coiled Hookshot
+26386@@@Half-Shell Hot Pot
+26387@@@Sea Glass Lamp Post
+26389@@@Apothecary's Tortollan Display Rack
+26391@@@Concocted Poisonous Residue
+26477@@@Rock Goblet
+26478@@@Ancient Memories of the Sea
+26481@@@Tortollan Scholar Satchel
+26482@@@Sealeather Sack
+26483@@@Collector's Tortollan Display Rack
+26484@@@Lost Tortollan Scroll
+26485@@@Fine Captain's Bottle
+26487@@@Clumped Asteroidea
+26488@@@Opalescent Amani Peridot
+26489@@@Piercing Amani Lapis
+26491@@@K'areshi Tea Cup
+26492@@@Purified Dracthyr Stein
+26494@@@Purified Goblin Cup
+26495@@@[DNT] [AUTOGEN] 12TB_TwilightsBlade_Furniture_SleepingCot01.m2
+26496@@@Enchanted Eversong Trout
+26564@@@Mason's Tortollan Display Rack
+26613@@@Warrens Candlecooker
+26614@@@Kobold Dig-Thing
+26617@@@Highlighting High Light
+26618@@@Small Warrens Candle
+26619@@@Kobold Sit-Thing
+26621@@@Medium Warrens Candle
+26651@@@Stormstout Hanging Lantern
+26785@@@Large Warrens Candle
+26786@@@Large Threedium Warrens Candle
+26787@@@Candle Cage
+26788@@@Bold Kobold Kabin
+26789@@@Hot Kobold Treasure
+26871@@@Tortollan Tarp Tent
+26936@@@Droopy Longwick Rope
+26937@@@Longwick Rope
+26938@@@Cozy Kobold Crate
+26939@@@Hanging Longwick Rope
+27041@@@Forgotten Amani Mural
+27042@@@"The Hunger Awakens" Mural
+27043@@@"Rage of the Shackled" Mural

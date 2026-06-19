@@ -1017,3 +1017,27 @@
 773@@@%s the Umbral Contender
 12.0.7.67227
 771@@@Ritual Breaker %s
+12.1.0.68209
+662@@@%s the Venomous Hero
+663@@@%s the Venomous
+767@@@Venomous Gladiator %s
+768@@@Venomous Legend %s
+769@@@Venomous Marshal %s
+770@@@Venomous Warlord %s
+774@@@Snake Eater %s
+775@@@%s the Poisonous
+776@@@%s, Fabled Vanquisher of Azta'rec
+777@@@%s the Cursebreaker
+778@@@%s, Hash'ura of Zul'jarra
+779@@@Briny %s
+781@@@%s, Voice of the Fangs
+782@@@%s, Nalorakk's Favored
+783@@@Street Sovereign %s
+784@@@%s, Eyes of the Vale
+785@@@Voidscar Champion %s
+786@@@%s, the Uncrowned Conqueror
+787@@@%s, Flame of Life
+788@@@%s, Wrath of Sethraliss
+789@@@Bloodsworn Mariner %s
+790@@@%s, Famed Slayer of Ula'tek
+791@@@%s, Venom's End

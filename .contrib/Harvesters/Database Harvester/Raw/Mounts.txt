@@ -2576,3 +2576,35 @@
 350220@@@Liquid Hot Magma Slug
 12.0.7.68182
 1292344@@@Bilgewater X-TREME Firework Rocket
+12.1.0.68209
+1266211@@@Venomous Gladiator's Goredrake
+1292668@@@Spirit of Tok'jara
+1295958@@@Swift Spectral Eagle
+1296670@@@Vicious Lightbloom Boar
+1296672@@@Vicious Lightbloom Boar
+1296724@@@[PH] Broomstick Spice - Orange
+1296985@@@[PH] Broomstick Spice - Green
+1296986@@@[PH] Broomstick Spice - Grey
+1296987@@@[PH] Broomstick Spice - Hallow
+1296988@@@[PH] Broomstick Spice - Pink
+1296989@@@[PH] Broomstick Spice - Red
+1297217@@@Caustic Venomfang
+1297220@@@Crimson Venomfang
+1297404@@@Apophic Soul Crusher
+1297405@@@Primeval Skyfriend
+1297407@@@Hexflame Reaver
+1297408@@@Preyhunter's Courser
+1298808@@@Corroded Soul Crusher
+1299963@@@Violet-Backed Skyfang
+1299965@@@Emerald Skyfang
+1300776@@@The Writhing Brood
+1300777@@@Venomous Coiler
+1300778@@@Indigo Coiled Horror
+1301070@@@Breath of Blight
+1301074@@@Breath of Ruin
+1301775@@@Umbral Ashes
+1301817@@@[PH] Pygmy Owl
+1305204@@@Crested Burnished Leafmimic
+1305206@@@Crested Aqua Leafmimic
+1305207@@@Crested Verdant Leafmimic
+1305209@@@Crested Violet Leafmimic
