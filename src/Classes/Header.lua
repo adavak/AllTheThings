@@ -2,8 +2,8 @@
 local _, app = ...
 
 -- Globals
-local rawget, select, pairs, tonumber, math_floor
-	= rawget, select, pairs, tonumber, math.floor
+local rawget, select, pairs, tonumber, math_floor,pcall
+	= rawget, select, pairs, tonumber, math.floor,pcall
 local GetCategoryInfo,GetAchievementInfo,GetAchievementCriteriaInfo,GetLFGDungeonInfo
 	= GetCategoryInfo,GetAchievementInfo,GetAchievementCriteriaInfo,GetLFGDungeonInfo
 
@@ -42,7 +42,9 @@ local AlternateDataTypes = {
 		local ach = math_floor(id);
 		local crit = math_floor(100 * (id - ach) + 0.005);
 		local icon = select(10, GetAchievementInfo(ach))
-		return { name = GetAchievementCriteriaInfo(ach, crit), icon = icon };
+		-- 12.1: Blizzard breaks this API call, fascinating
+		local success, name = pcall(GetAchievementCriteriaInfo, ach, crit)
+		return { name = success and name or UNKNOWN, icon = icon };
 	end,
 	d = function(id)
 		local name, _, _, _, _, _, _, _, _, _, textureFilename = GetLFGDungeonInfo(id);
