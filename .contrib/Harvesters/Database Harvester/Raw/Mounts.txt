@@ -2572,3 +2572,5 @@
 1297427@@@Void-Tortured Gorger
 12.0.7.67669
 1243582@@@Dusk Grimlynx
+12.0.7.67808
+350220@@@Liquid Hot Magma Slug
