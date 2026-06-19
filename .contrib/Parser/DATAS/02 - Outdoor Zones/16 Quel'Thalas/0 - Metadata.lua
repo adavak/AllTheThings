@@ -29,9 +29,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				2576,	-- The Den
 			},
 		}),
-		m(MAP.MIDNIGHT.THE_COILDED_ISLE, {
-			--["icon"] = ,
-			--["lore"] = "",
+		m(MAP.MIDNIGHT.THE_COILED_ISLE, {
+			["icon"] = 7578560,
+			["lore"] = "The Coiled Isle is an island located east of Zul'Aman, connected via the ruined Strait of Hexx'alor and surrounded by Zul'Aman Depths. It is shrouded in a mist.\n\nThe temple here, Atal'Utek, was built to commemorate the Amani tribes' victory over the faceless general Kith'ix. The strait dividing Atal'Utek from Zul'Aman is protected by the loa Pahk.",
 			["timeline"] = { ADDED_12_1_0 },
 		}),
 		m(MAP.MIDNIGHT.ISLE_OF_QUELDANAS, {

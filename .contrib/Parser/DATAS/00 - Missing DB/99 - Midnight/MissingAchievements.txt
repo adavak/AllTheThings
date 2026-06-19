@@ -14,7 +14,6 @@ ach(62284),	-- Mythic: Altar of Fangs
 ach(62285),	-- Zul'jan kills (Normal Altar of Fangs)
 ach(62286),	-- Zul'jan kills (Heroic Altar of Fangs)
 ach(62287),	-- Zul'jan kills (Mythic Altar of Fangs)
-ach(62297),	-- The Curse of Ula'tek
 ach(62410),	-- Adventurer of the Mist
 ach(62411),	-- Veteran of the Mist
 ach(62412),	-- Champion of the Mist

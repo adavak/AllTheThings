@@ -140,7 +140,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			ach(62122, {	-- Tallest Tree in the Forest
 				i(264335),	-- Colossal Amani Stone Visage (DECOR!)
 			}),
+			-- #if AFTER 12.1.0
+			ach(62297, { ["timeline"] = { ADDED_12_1_0 } }),	-- The Curse of Ula'tek
+			-- #else
 			ach(62413, { ["timeline"] = { ADDED_12_0_7 } }),	-- The Curse of Ula'tek
+			-- #endif
 			ach(62201, {	-- The Frog and the Princesses
 				crit(112041, {	-- Princess Fita
 					["provider"] = { "n", 258937 },	-- Princess Fita
