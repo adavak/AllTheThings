@@ -302,14 +302,78 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["skipFill"] = true,	-- don't fill in minilist, but it's still nice to see the available content in tooltip
 							["groups"] = { currency(FIELD_ACCOLADE), },
 						}),
-						i(277124, {	-- Warbound Cache of Void-Touched Armaments (Champion)
+						i(278006, {	-- Warbound Cache of Void-Touched Armaments: Belts (Champion)
 							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
 							["timeline"] = { ADDED_12_0_7 },
 							["skipFill"] = true,
-							["sym"] = { { "select", "itemID", 263928 },{"pop"} },	-- Cache of Void-Touched Armaments (Champion)
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WAIST"),
 						}),
-						-- TODO: add all the Warbound Champion boxes
-						-- 278004 - 278015
+						i(278004, {	-- Warbound Cache of Void-Touched Armaments: Boots (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_FEET"),
+						}),
+						i(278008, {	-- Warbound Cache of Void-Touched Armaments: Bracers (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WRIST"),
+						}),
+						i(278009, {	-- Warbound Cache of Void-Touched Armaments: Chest (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_BODY","INVTYPE_CHEST","INVTYPE_ROBE"),
+						}),
+						i(278010, {	-- Warbound Cache of Void-Touched Armaments: Cloak (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_CLOAK"),
+						}),
+						i(278007, {	-- Warbound Cache of Void-Touched Armaments: Gloves (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_HAND"),
+						}),
+						i(278012, {	-- Warbound Cache of Void-Touched Armaments: Head (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_HEAD"),
+						}),
+						i(278005, {	-- Warbound Cache of Void-Touched Armaments: Legs (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_LEGS"),
+						}),
+						i(278014, {	-- Warbound Cache of Void-Touched Armaments: Necklaces (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_NECK"),
+						}),
+						i(278015, {	-- Warbound Cache of Void-Touched Armaments: Rings (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_FINGER"),
+						}),
+						i(278011, {	-- Warbound Cache of Void-Touched Armaments: Shoulder (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_SHOULDER"),
+						}),
+						i(278013, {	-- Warbound Cache of Void-Touched Armaments: Weapons (Champion)
+							["cost"] = { { "c", FIELD_ACCOLADE, 100 } },
+							["timeline"] = { ADDED_12_0_7 },
+							["skipFill"] = true,
+							["sym"] = sym_cachevoidtouched_invtype("INVTYPE_WEAPON","INVTYPE_SHIELD","INVTYPE_2HWEAPON","INVTYPE_WEAPONMAINHAND","INVTYPE_RANGED","INVTYPE_RANGEDRIGHT","INVTYPE_WEAPONOFFHAND","INVTYPE_HOLDABLE"),
+						}),
 					},
 				}),
 				n(255495, {	-- Rae'ana <Historian and Research Supplier>

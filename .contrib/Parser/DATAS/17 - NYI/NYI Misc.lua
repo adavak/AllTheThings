@@ -2288,5 +2288,10 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(273155),	-- Delve Gearbox
 			i(273156),	-- Delve Gearbox
 		})),
+
+		-- 12.0.7
+		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_7 } }, {
+			i(277124),	-- Warbound Cache of Void-Touched Armaments (Champion)
+		})),
 	}),
 }));
