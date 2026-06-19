@@ -4486,7 +4486,6 @@ i(244914, 4833);	-- Xanthous Siphonmite
 i(246694, 4859);	-- Zo'ya
 --- NYI ---
 i(0, 4824);			-- Baby Karesh Fox - Orange
-i(246723, 4860);	-- Unfazed Diver
 i(0, 4837);			-- Worm, Cosmic - Critter (Red)
 
 ------------------
@@ -4637,6 +4636,7 @@ i(252195, 4898);	-- Fishstick Keith
 i(275662, 5073);	-- Frosticus Maximus
 i(260885, 4949);	-- Shadowflame Remnant
 i(275663, 5074);	-- Silento
+i(246723, 4860);	-- Unfazed Diver
 
 ------------------
 -- PATCH 12.1.0 --

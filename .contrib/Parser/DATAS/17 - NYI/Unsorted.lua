@@ -2278,11 +2278,6 @@ root(ROOTS.Unsorted, {
 				i(274780),	-- Fungal Spore Vapor [NYI]
 				i(276097),	-- Lost Armaments
 				i(276098),	-- Raided Items
-				-- Rares
-				i(275139),	-- Crown of Fungal Spores
-				i(275147),	-- Bioluminescent Swamp Mask
-				i(275155),	-- Interminable Fungal Helmet
-				i(275163),	-- Uarn's Reinforced Headplate
 				-- Cosmetic
 				i(274887),	-- Mana-Overloaded Bulwark
 			}),
@@ -2502,7 +2497,6 @@ root(ROOTS.Unsorted, {
 				i(275476),	-- Sun Festival's Painted Hauberk
 				i(275999),	-- Flowering Mantle
 				i(276364),	-- Arsenal: Lightforged Armaments
-				i(276330),	-- Taken Riftwalker's Starbarb
 				i(276303),	-- Blessed Blade of Taalvilor
 				i(276302),	-- Taalvilor Crystalsmith's Mace
 				i(276296),	-- Soltian Wrangler's Grip
@@ -2521,7 +2515,6 @@ root(ROOTS.Unsorted, {
 				i(264725),	-- Auspicious Imperial Lion
 				i(266071),	-- Auspicious Wooden Chair
 				i(267372),	-- Banner of Five Dawns
-				i(269316),	-- Bartender Bob's "No Weapons Allowed" Rack
 				i(269604),	-- Auspicious Picnic Basket
 				i(269605),	-- Auspicious Meal Case
 				i(272353),	-- Auspicious Verdant Basin
@@ -2566,7 +2559,6 @@ root(ROOTS.Unsorted, {
 				i(278116),	-- Player Experience
 				i(275257),	-- Manaforge Essence
 				i(276637),	-- Currency Wallet
-				i(276465),	-- Specimen Container Key
 				i(276376),	-- Fel Shadow Torch
 				i(276377),	-- Glimmering Shade Beacon
 				i(276370),	-- Lightveil Hearth Beacon

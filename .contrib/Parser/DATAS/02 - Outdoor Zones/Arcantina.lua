@@ -404,6 +404,7 @@ root(ROOTS.Zones, m(ARCANTINA, {
 					i(253598, {	-- Banner of the Ebon Blade (DECOR!)
 						["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
 					}),
+					i(269316, { ["timeline"] = { ADDED_12_0_7 } }),	-- Bartender Bob's "No Weapons Allowed" Rack (DECOR!)
 					i(253543, {	-- Clefthoof Hide Rug (DECOR!)
 						["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
 					}),

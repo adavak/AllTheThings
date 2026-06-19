@@ -2850,6 +2850,7 @@ local AccountWideQuestsDB = {
 	96215,	-- Tracking Quest
 	96744,	-- Bouncy Mushrooms
 	96745,	-- Aerospores
+	96790,	-- ??
 	96845,	-- The Grappler
 	96936,	-- Accolades for the Umbral Contender
 	97115,	-- First Preference Killing of the week

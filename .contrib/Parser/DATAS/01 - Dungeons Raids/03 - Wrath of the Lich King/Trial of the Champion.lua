@@ -369,7 +369,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 			-- #if AFTER 7.3.5
 			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
 				BossOnly(BLACK_KNIGHT, {
-					-- #if AFTER 8.0
+					-- #if AFTER 8.0.1
 					currency(241),	-- Champion's Seal
 					-- #endif
 				}),

@@ -329,9 +329,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(275148),	-- Reaver's Padded Trousers
 							},
 						}),
-						n(263947, {	-- Interminable Uarn
+						n(263947, {	-- Interminable Uarn <The Undying Stalk>
 							["coord"] = { 37.6, 61.8, NAIGTAL },
 							["questID"] = 96205,
+							["groups"] = {	-- Head
+								i(275147),	-- Bioluminescent Swamp Mask
+								i(275139),	-- Crown of Fungal Spores
+								i(275155),	-- Interminable Fungal Helmet
+								i(275163),	-- Uarn's Reinforced Headplate
+							},
 						}),
 						n(263955, {	-- Lomelith
 							["description"] = "Roams around the area.",
@@ -375,7 +381,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 56.1, 61.4, NAIGTAL },
 							["questID"] = 97014,
 							["groups"] = {	-- Shoulders
-								i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)	-- TODO Not rare specific?
 								i(275149),	-- Fungal Draped Epaulets
 								i(275165),	-- Petrified Mushroom Shoulderplates
 								i(275141),	-- Spore-Speckled Shoulderpads
@@ -486,14 +491,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 					})),
 					n(ZONE_DROPS, {
+						i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)
 						i(276288),	-- Forgotten Sword of Vilaldoun (COSMETIC!)
+						i(276330),	-- Taken Riftwalker's Starbarb (COSMETIC!)
 						i(275520, {	-- Technoseer's Communique (QS!)
 							["cr"] = 265537,	-- Hal'hadar Forge Grunt
 							["coord"] = { 74.2, 73.5, NAIGTAL },
 						}),
 						i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
 					}),
-					n(ZONE_REWARDS, {	--TODO Not sure if available in Val too or if these are also rare drops
+					n(ZONE_REWARDS, {	--TODO Not sure if available in Val too
 						n(ARMOR, {
 							filter(BACK_F, {
 								i(274820),	-- Cloak of the Voracious Gorger
