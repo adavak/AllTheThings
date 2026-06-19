@@ -2549,6 +2549,9 @@
 1296758@@@Profit-Green Shreddertank
 1296759@@@High-Yield Shreddertank
 1296760@@@Speculative Shreddertank
+12.0.5.67314
+1283837@@@Zothwing Darkseeker
+1283838@@@Zothwing Deepseeker
 12.0.7.67227
 404018@@@Black-Furred Bakar
 1261369@@@Amani Hex Bear
