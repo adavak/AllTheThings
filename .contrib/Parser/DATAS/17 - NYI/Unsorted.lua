@@ -2496,15 +2496,9 @@ root(ROOTS.Unsorted, {
 				i(275475),	-- Sun Festival's Painted Wrap
 				i(275476),	-- Sun Festival's Painted Hauberk
 				i(275999),	-- Flowering Mantle
-				i(276364),	-- Arsenal: Lightforged Armaments
-				i(276303),	-- Blessed Blade of Taalvilor
-				i(276302),	-- Taalvilor Crystalsmith's Mace
-				i(276296),	-- Soltian Wrangler's Grip
 				i(276299),	-- Umbralwarden's Soul Gavel
-				i(276292),	-- Ancient Anchorite's Beacon
 				i(276291),	-- Forgotten Saber of the Ice Temple
 				i(276290),	-- Ice Guardian's Sleetblade
-				i(276285),	-- Elonath's Defender's Sword
 			}),
 			n(DECOR, {
 				i(248961),	-- Large Amani Tiki Mask

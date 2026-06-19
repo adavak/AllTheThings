@@ -401,8 +401,25 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276094),	-- Nexus-Captain Leth'ir (Heroic)
 					}),
 					n(TREASURES, {
+						o(658802, {	-- Ancient Crypt Reliquary
+							["description"] = "Spawns randomly in Vilaldoun cave.",
+							["groups"] = {
+								i(276292),	-- Ancient Anchorite's Beacon (COSMETIC!)
+								i(276303),	-- Blessed Blade of Taalvilor (COSMETIC!)
+								i(276285),	-- Elonath's Defender's Sword (COSMETIC!)
+								i(276302),	-- Taalvilor Crystalsmith's Mace (COSMETIC!)
+							},
+						}),
 						o(655271, {	-- Hal'hadar Pocket-Storage
 							["description"] = "Spawns randomly throughout the zone.",
+						}),
+						o(659300, {	-- Squirming Mollusk
+							["coords"] = {
+								{ 26.3, 47.1, NAIGTAL },
+								{ 76.2, 50.7, NAIGTAL },
+								{ 78.4, 68.8, NAIGTAL },
+							},
+							["groups"] = { i(276296), },	-- Soltian Wrangler's Grip (COSMETIC!)
 						}),
 					}),
 					n(WORLD_QUESTS, bubbleDownFiltered({	-- Bonus Objectives in this case behave like (repeatable) World Quests
