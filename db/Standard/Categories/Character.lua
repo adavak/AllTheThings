@@ -955,7 +955,7 @@ ach(2142),
 ach(2141),
 ach(9713,{awp=60002,g={
 mnt(175700,{b=1,itemID=118676,lvl=10}),
-crit(26683,{achID=9713,id=2,providers={{"s",59569}}}),
+crit(26683,{achID=9713,id=2,providers={{"i",43951}}}),
 crit(26684,{achID=9713,id=5,providers={{"i",43953}}}),
 crit(26685,{achID=9713,id=8,providers={{"i",43955}}}),
 crit(26686,{achID=9713,id=3,providers={{"i",43986}}}),

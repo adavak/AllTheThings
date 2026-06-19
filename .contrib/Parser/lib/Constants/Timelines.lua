@@ -697,6 +697,16 @@ CREATED_12_1_7 = "created 12.1.7";						-- Midnight 12.1.7 launch in autumn 2026
 ADDED_12_1_7 = "added 12.1.7";							-- Midnight 12.1.7 launch in autumn 2026
 REMOVED_12_1_7 = "removed 12.1.7";						-- Midnight 12.1.7 launch in autumn 2026
 
+CREATED_12_2_0 = "created 12.2.0";						-- Midnight 12.2.0 launch in
+ADDED_12_2_0 = "added 12.2.0";							-- Midnight 12.2.0 launch in
+REMOVED_12_2_0 = "removed 12.2.0";						-- Midnight 12.2.0 launch in
+CREATED_12_2_5 = "created 12.2.5";						-- Midnight 12.2.5 launch in
+ADDED_12_2_5 = "added 12.2.5";							-- Midnight 12.2.5 launch in
+REMOVED_12_2_5 = "removed 12.2.5";						-- Midnight 12.2.5 launch in
+CREATED_12_2_7 = "created 12.2.7";						-- Midnight 12.2.7 launch in
+ADDED_12_2_7 = "added 12.2.7";							-- Midnight 12.2.7 launch in
+REMOVED_12_2_7 = "removed 12.2.7";						-- Midnight 12.2.7 launch in
+
 --------------------
 -- THE LAST TITAN --
 --------------------

@@ -510,7 +510,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 				Boss(SSZORAK),
 				Boss(TWIN_FANGS),
 				Boss(BARGAINED_CROWN),
-				Boss(ULATEK {
+				Boss(ULATEK, {
 					i(270909, {	-- Slumbering Coil Curio
 						["sym"] = {
 							{"sub", "instance_tier",1320,DIFFICULTY.RAID.HEROIC},
