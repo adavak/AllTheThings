@@ -24431,3 +24431,7 @@
 266548@@@[DNT] Invisible Bunny - Explosion
 12.0.7.67525
 262693@@@Ethereal Skiff Gun
+12.0.7.67669
+250584@@@Silvermoon Guard
+264956@@@Grand Magister Rommath
+268498@@@Summer Blossom Cluster
