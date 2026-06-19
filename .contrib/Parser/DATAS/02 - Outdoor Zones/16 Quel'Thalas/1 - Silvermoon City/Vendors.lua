@@ -378,23 +378,23 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 39.4, 59.4, MAP.MIDNIGHT.SILVERMOON_CITY },
 				["timeline"] = { ADDED_12_0_7 },
 				["groups"] = {
+					-- No Achievement file for Silvermoon, not sure if one is needed
+					ach(63343, {	-- Goal!
+						["description"] = "Kick three balls from the center of the field into either nearby goal.",
+						["cost"] = { { "i", 276281, 3 } },	-- 3x Kickable Practice Ball
+					}),
 					i(274450),	-- Alliance Tabard of Participation (COSMETIC!)
 					i(274451),	-- Horde Tabard of Participation (COSMETIC!)
-					i(274736),	-- Framed Alliance Pride (DECOR!)
-					i(274734),	-- Framed Horde Pride (DECOR!)
-					i(276281, {	-- Kickable Practice Ball
-						ach(63343, {	-- Goal!
-							["description"] = "Kick three balls from the center of the field into either nearby goal.",
-							["coord"] = { 39.4, 59.4, MAP.MIDNIGHT.SILVERMOON_CITY },
-							["groups"] = {
-								i(274736),	-- Framed Alliance Pride (DECOR!)
-								i(274734),	-- Framed Horde Pride (DECOR!)
-								i(274731),	-- Prized Orb of Azeroth (DECOR!)
-							},
-						}),
+					i(274736, {	-- Framed Alliance Pride (DECOR!)
+						["sourceAchievement"] = 63343,	-- Goal!
 					}),
-					-- No achievement file for silvermoon, not sure if one is needed
-					i(274731),	-- Prized Orb of Azeroth (DECOR!)
+					i(274734, {	-- Framed Horde Pride (DECOR!)
+						["sourceAchievement"] = 63343,	-- Goal!
+					}),
+					i(276281),	-- Kickable Practice Ball
+					i(274731, {	-- Prized Orb of Azeroth (DECOR!)
+						["sourceAchievement"] = 63343,	-- Goal!
+					}),
 				},
 			}),
 			n(239676, {	-- Vaskarn
