@@ -1,7 +1,3 @@
-3.1.0.9767
-ach(1817),	-- The Culling of Time
-4.0.1.12911
-ach(5106),	-- Heroic: The Culling of Stratholme Guild Run
 12.0.7.67227
 ach(63233),	-- Rotmire (Raid Finder Sporefall)
 ach(63234),	-- Rotmire (Normal Sporefall)
