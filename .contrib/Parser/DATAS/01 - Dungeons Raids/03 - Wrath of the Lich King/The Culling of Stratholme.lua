@@ -242,7 +242,13 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				BossOnly(MEATHOOK),
 				BossOnly(SALRAMM),
 				BossOnly(CHRONOLORD),
-				BossOnly(MALGANIS),
+				n(32273, {	-- Infinite Corruptor
+					ach(1817),	-- The Culling of Time
+					i(43951),	-- Bronze Drake (MOUNT!)
+				}),
+				BossOnly(MALGANIS, {
+					ach(5106, { ["timeline"] = { ADDED_4_0_3 } }),	-- Heroic: The Culling of Stratholme Guild Run
+				}),
 			}),
 			-- #else
 			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({

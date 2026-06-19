@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.THE_COILDED_ISLE, {
-		n(FLIGHT_PATHS, {
-		}),
+		--n(FLIGHT_PATHS, {
+		--}),
 	}),
 }));
