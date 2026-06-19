@@ -3489,3 +3489,7 @@
 25566@@@Lightveil's Transport Pad
 25664@@@De-Powered Lightforged Siegebreaker
 25665@@@Grand Artificer's Lightforged Console
+12.0.7.68232
+23706@@@Prized Orb of Azeroth
+24193@@@Framed Horde Pride
+24194@@@Framed Alliance Pride
