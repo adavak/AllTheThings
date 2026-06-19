@@ -2,6 +2,21 @@
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 
+------ Encounter Constants ------
+local SHIRRAK = 523;
+local EXARCH_MALADAAR = 524;
+
+------ EncounterToCRS ------
+local EncounterToCRS = {
+	[SHIRRAK] = { 18371 },	-- Shirrak the Dead Watcher
+	[EXARCH_MALADAAR] = { 18373 },	-- Exarch Maladaar
+};
+
+------ Boss Functions ------
+local InstanceHelper = CreateInstanceHelper(EncounterToCRS)
+local BossOnly, Difficulty =
+InstanceHelper.BossOnly, InstanceHelper.Difficulty
+
 root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, {
 	inst(247, bubbleDownSelf({ ["timeline"] = { ADDED_2_0_1 } }, {	-- Auchenai Crypts
 		["lore"] = "Auchenai Crypts is the main seat of power for the Auchenai - a renegade religious sect of draenei led by the Exarch Maladaar. The crypts are populated by these draenei and the unliving creatures they have summoned. The most important remains interred within the crypt are those of D'ore, one of the naaru. D'ore perished in the collision that brought Oshu'gun (and the draenei) to Draenor. In death, D'ore entered its void stage. The dark energies exuded by this phenomenon resulted, directly or indirectly, in the evils that have since befallen the crypts.",
@@ -115,81 +130,133 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 				}),
 			}),
-			n(COMMON_BOSS_DROPS, {
-				i(28558, {	-- Spirit Shard
-					["description"] = "Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses in the Mana-Tombs and Auchenai Crypts drop one shard each; bosses in the Sethekk Halls and Shadow Labyrinth drop two each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
-					["timeline"] = { REMOVED_8_0_1 },
+			-- #if AFTER 7.3.5
+			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
+				n(COMMON_BOSS_DROPS, {
+					i(28558, {	-- Spirit Shard
+						["description"] = "Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses in the Mana-Tombs and Auchenai Crypts drop one shard each; bosses in the Sethekk Halls and Shadow Labyrinth drop two each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
+						["timeline"] = { REMOVED_8_0_1 },
+					}),
+					currency(1704, {	-- Spirit Shard
+						["timeline"] = { ADDED_8_0_1 },
+						["description"] =	-- From 9.1.5 (specific patch uncomfirmed) this currency can be obtained regardless of whom controls the Spirit Towers in the Bone Wastes. This could have been true already from 8.0.1, but no reports seems to confirm it.
+							-- #if AFTER 9.1.5
+							"Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. Bosses drop one shard each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
+							-- #else
+							"Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses drop one shard each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
+							-- #endif
+					}),
 				}),
-				currency(1704, {	-- Spirit Shard
-					["timeline"] = { ADDED_8_0_1 },
-					["description"] =	-- From 9.1.5 (specific patch uncomfirmed) this currency can be obtained regardless of whom controls the Spirit Towers in the Bone Wastes. This could have been true already from 8.0.1, but no reports seems to confirm it.
-						-- #if AFTER 9.1.5
-						"Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. Bosses drop one shard each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
-						-- #else
-						"Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses drop one shard each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
-						-- #endif
+				n(ZONE_DROPS, {
+					i(22544, {	-- Formula: Enchant Boots - Dexterity (RECIPE!)
+						["cr"] = 18521,	-- Raging Skeleton
+					}),
+					i(23605, {	-- Plans: Felsteel Gloves
+						["cr"] = 18497,	-- Auchenai Monk
+					}),
+				}),
+				BossOnly(SHIRRAK, {
+					i(27865),	-- Bracers of Shirrak
+					i(27846),	-- Claw of the Watcher
+					i(27410),	-- Collar of Command
+					i(27847),	-- Fanblade Pauldrons
+					i(27493),	-- Gloves of the Deadwatcher
+					i(27408),	-- Hope Bearer Helm
+					i(27845),	-- Magma Plume Boots
+					i(26055),	-- Oculus of the Hidden Eye
+					i(27409),	-- Raven-Heart Headdress
+					i(27866),	-- Scintillating Headdress of Second Sight
+					i(25964),	-- Shaarde the Lesser
+				}),
+				BossOnly(EXARCH_MALADAAR, {
+					ach(666),	-- Auchenai Crypts
+					i(27867),	-- Boots of the Unjust
+					i(27415),	-- Darkguard Face Mask
+					i(27870),	-- Doomplate Legguards
+					i(27523),	-- Exarch's Diamond Band
+					i(27416),	-- Fetish of the Fallen
+					i(27412),	-- Ironstaff of Regeneration
+					i(29354),	-- Light-Touched Stole of Altruism
+					i(27871),	-- Maladaar's Blessed Chaplet
+					i(27414),	-- Mok'Nathal Beast-Mask
+					i(27413),	-- Ring of the Exarchs
+					i(29257),	-- Sash of Arcane Visions
+					i(27411),	-- Slippers of Serenity
+					i(27869),	-- Soulpriest's Ring of Resolve
+					i(27872),	-- The Harvester of Souls
+					i(29244),	-- Wave-Song Girdle
 				}),
 			}),
-			n(ZONE_DROPS, {
-				i(22544, {	-- Formula: Enchant Boots - Dexterity (RECIPE!)
-					["cr"] = 18521,	-- Raging Skeleton
-				}),
-				i(23605, {	-- Plans: Felsteel Gloves
-					["cr"] = 18497,	-- Auchenai Monk
-				}),
+			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
 			}),
-			d(DIFFICULTY.DUNGEON.NORMAL, {
-				e(523, {	-- Shirrak the Dead Watcher
-					["creatureID"] = 18371,
+			Difficulty(DIFFICULTY.DUNGEON.HEROIC, {
+				["lvl"] = lvlsquish(70, 70, 30),
+			}).AddGroups({
+				n(COMMON_BOSS_DROPS, {
+					["crs"] = {
+						18371,	-- Shirrak the Dead Watcher
+						18373,	-- Exarch Maladaar
+					},
 					["groups"] = {
-						-- #if AFTER 7.3.5
-						i(27846),	-- Claw of the Watcher
-						-- #endif
-						i(25964),	-- Shaarde the Lesser
-						i(27410),	-- Collar of Command
-						i(27408),	-- Hope Bearer Helm
-						i(27409),	-- Raven-Heart Headdress
-						-- #if AFTER 7.3.5
-						i(27866),	-- Scintillating Headdress of Second Sight
-						i(27847),	-- Fanblade Pauldrons
-						i(27865),	-- Bracers of Shirrak
-						i(27493),	-- Gloves of the Deadwatcher
-						i(27845),	-- Magma Plume Boots
-						-- #endif
-						i(26055),	-- Oculus of the Hidden Eye
+						i(30587),	-- Champion's Fire Opal
+						i(30588),	-- Potent Fire Opal
+						i(30586),	-- Purified Tanzanite
 					},
 				}),
-				e(524, {	-- Exarch Maladaar
-					["creatureID"] = 18373,
-					["groups"] = {
-						ach(666),	-- Auchenai Crypts
-						i(27412),	-- Ironstaff of Regeneration
-						-- #if AFTER 7.3.5
-						i(27872),	-- The Harvester of Souls
-						-- #endif
-						i(27415),	-- Darkguard Face Mask
-						i(27414),	-- Mok'Nathal Beast-Mask
-						-- #if AFTER 7.3.5
-						i(27871),	-- Maladaar's Blessed Chaplet
-						i(29354),	-- Light-Touched Stole of Altruism
-						i(29257),	-- Sash of Arcane Visions
-						i(29244),	-- Wave-Song Girdle
-						i(27870),	-- Doomplate Legguards
-						i(27867),	-- Boots of the Unjust
-						-- #endif
-						i(27411),	-- Slippers of Serenity
-						-- #if AFTER 7.3.5
-						i(27523),	-- Exarch's Diamond Band
-						-- #endif
-						i(27413),	-- Ring of the Exarchs
-						-- #if AFTER 7.3.5
-						i(27869),	-- Soulpriest's Ring of Resolve
-						-- #endif
-						i(27416),	-- Fetish of the Fallen
-					},
+				BossOnly(EXARCH_MALADAAR, {
+					ach(672),	-- Heroic: Auchenai Crypts
+					ach(5072, { ["timeline"] = { ADDED_4_0_3 } }),	-- Heroic: Auchenai Crypts Guild Run
+					applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
+					i(33836),	-- The Exarch's Soul Gem (QI!)
+					n(18478, {	-- Avatar of the Fallen
+						["description"] = "This mob will spawn once the Exarch reaches 25%. If you want the extra loot, the Exarch must stay alive until he spawns.",
+						["groups"] = {
+							i(27878),	-- Auchenai Death Shroud
+							i(27877),	-- Draenic Wildstaff
+							i(28268),	-- Natural Mender's Wraps
+							i(27937),	-- Sky Breakeer
+							i(27797),	-- Wastewalker Shoulderpads
+							i(27876),	-- Will of the Fallen Exarch
+						},
+					}),
 				}),
 			}),
-			d(DIFFICULTY.DUNGEON.HEROIC, {
+			-- #else
+			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
+				n(COMMON_BOSS_DROPS, {
+					i(28558, {	-- Spirit Shard
+						["description"] = "Spirit Shards are currency tokens dropped by bosses in the Auchindoun instances. For shards to drop the player's faction must control the five Spirit Towers in the Bone Wastes. Bosses in the Mana-Tombs and Auchenai Crypts drop one shard each; bosses in the Sethekk Halls and Shadow Labyrinth drop two each. These can be used to buy gear from Spirit Sage at Allerian Stronghold (Alliance) / Stonebreaker Hold (Horde).",
+						["timeline"] = { REMOVED_8_0_1 },
+					}),
+				}),
+				n(ZONE_DROPS, {
+					i(22544, {	-- Formula: Enchant Boots - Dexterity (RECIPE!)
+						["cr"] = 18521,	-- Raging Skeleton
+					}),
+					i(23605, {	-- Plans: Felsteel Gloves
+						["cr"] = 18497,	-- Auchenai Monk
+					}),
+				}),
+			}),
+			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
+				BossOnly(SHIRRAK, {
+					i(27410),	-- Collar of Command
+					i(27408),	-- Hope Bearer Helm
+					i(26055),	-- Oculus of the Hidden Eye
+					i(27409),	-- Raven-Heart Headdress
+					i(25964),	-- Shaarde the Lesser
+				}),
+				BossOnly(EXARCH_MALADAAR, {
+					ach(666),	-- Auchenai Crypts
+					i(27415),	-- Darkguard Face Mask
+					i(27416),	-- Fetish of the Fallen
+					i(27412),	-- Ironstaff of Regeneration
+					i(27414),	-- Mok'Nathal Beast-Mask
+					i(27413),	-- Ring of the Exarchs
+					i(27411),	-- Slippers of Serenity
+				}),
+			}),
+			Difficulty(DIFFICULTY.DUNGEON.HEROIC, {
 				-- #if BEFORE 4.2.0
 				["description"] = "You need to have a key to the instance in order to access this mode.",
 				["cost"] = {
@@ -200,90 +267,57 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				},
 				-- #endif
 				["lvl"] = lvlsquish(70, 70, 30),
-				["groups"] = {
-					n(COMMON_BOSS_DROPS, {
-						["crs"] = {
-							18371,	-- Shirrak the Dead Watcher
-							18373,	-- Exarch Maladaar
-						},
+			}).AddGroups({
+				n(COMMON_BOSS_DROPS, {
+					["crs"] = {
+						18371,	-- Shirrak the Dead Watcher
+						18373,	-- Exarch Maladaar
+					},
+					["groups"] = {
+						-- #if BEFORE CATA
+						BADGE_OF_JUSTICE(1),
+						-- #endif
+						i(30587),	-- Champion's Fire Opal
+						i(30588),	-- Potent Fire Opal
+						i(30586),	-- Purified Tanzanite
+					},
+				}),
+				BossOnly(SHIRRAK, {
+					i(27865),	-- Bracers of Shirrak
+					i(27846),	-- Claw of the Watcher
+					i(27847),	-- Fanblade Pauldrons
+					i(27493),	-- Gloves of the Deadwatcher
+					i(27845),	-- Magma Plume Boots
+					i(27866),	-- Scintillating Headdress of Second Sight
+				}),
+				BossOnly(EXARCH_MALADAAR, {
+					ach(672),	-- Heroic: Auchenai Crypts
+					ach(5072, { ["timeline"] = { ADDED_4_0_3 } }),	-- Heroic: Auchenai Crypts Guild Run
+					i(27867),	-- Boots of the Unjust
+					i(27870),	-- Doomplate Legguards
+					i(27523),	-- Exarch's Diamond Band
+					i(29354),	-- Light-Touched Stole of Altruism
+					i(27871),	-- Maladaar's Blessed Chaplet
+					i(29257),	-- Sash of Arcane Visions
+					i(27869),	-- Soulpriest's Ring of Resolve
+					i(27872),	-- The Harvester of Souls
+					i(29244),	-- Wave-Song Girdle
+					applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
+					i(33836),	-- The Exarch's Soul Gem (QI!)
+					n(18478, {	-- Avatar of the Fallen
+						["description"] = "This mob will spawn once the Exarch reaches 25%. If you want the extra loot, the Exarch must stay alive until he spawns.",
 						["groups"] = {
-							-- #if BEFORE CATA
-							BADGE_OF_JUSTICE(1),
-							-- #endif
-							i(30587),	-- Champion's Fire Opal
-							i(30588),	-- Potent Fire Opal
-							i(30586),	-- Purified Tanzanite
+							i(27878),	-- Auchenai Death Shroud
+							i(27877),	-- Draenic Wildstaff
+							i(28268),	-- Natural Mender's Wraps
+							i(27937),	-- Sky Breakeer
+							i(27797),	-- Wastewalker Shoulderpads
+							i(27876),	-- Will of the Fallen Exarch
 						},
 					}),
-					e(523, {	-- Shirrak the Dead Watcher
-						["creatureID"] = 18371,
-						["groups"] = {
-							i(27846),	-- Claw of the Watcher
-							-- #if AFTER 7.3.5
-							i(25964),	-- Shaarde the Lesser
-							i(27410),	-- Collar of Command
-							i(27408),	-- Hope Bearer Helm
-							i(27409),	-- Raven-Heart Headdress
-							-- #endif
-							i(27866),	-- Scintillating Headdress of Second Sight
-							i(27847),	-- Fanblade Pauldrons
-							i(27865),	-- Bracers of Shirrak
-							i(27493),	-- Gloves of the Deadwatcher
-							i(27845),	-- Magma Plume Boots
-							-- #if AFTER 7.3.5
-							i(26055),	-- Oculus of the Hidden Eye
-							-- #endif
-						},
-					}),
-					e(524, {	-- Exarch Maladaar
-						["creatureID"] = 18373,
-						["groups"] = {
-							ach(672),	-- Heroic: Auchenai Crypts
-							ach(5072, {	-- Heroic: Auchenai Crypts Guild Run
-								["timeline"] = { ADDED_4_0_3 },
-							}),
-							-- #if AFTER 7.3.5
-							i(27412),	-- Ironstaff of Regeneration
-							-- #endif
-							i(27872),	-- The Harvester of Souls
-							-- #if AFTER 7.3.5
-							i(27415),	-- Darkguard Face Mask
-							i(27414),	-- Mok'Nathal Beast-Mask
-							-- #endif
-							i(27871),	-- Maladaar's Blessed Chaplet
-							i(29354),	-- Light-Touched Stole of Altruism
-							i(29257),	-- Sash of Arcane Visions
-							i(29244),	-- Wave-Song Girdle
-							i(27870),	-- Doomplate Legguards
-							i(27867),	-- Boots of the Unjust
-							-- #if AFTER 7.3.5
-							i(27411),	-- Slippers of Serenity
-							-- #endif
-							i(27523),	-- Exarch's Diamond Band
-							-- #if AFTER 7.3.5
-							i(27413),	-- Ring of the Exarchs
-							-- #endif
-							i(27869),	-- Soulpriest's Ring of Resolve
-							-- #if AFTER 7.3.5
-							i(27416),	-- Fetish of the Fallen
-							-- #endif
-							applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
-							i(33836),	-- The Exarch's Soul Gem
-							n(18478, {	-- Avatar of the Fallen
-								["description"] = "This mob will spawn once the Exarch reaches 25%. If you want the extra loot, the Exarch must stay alive until he spawns.",
-								["groups"] = {
-									i(27876),	-- Will of the Fallen Exarch
-									i(27877),	-- Draenic Wildstaff
-									i(27878),	-- Auchenai Death Shroud
-									i(28268),	-- Natural Mender's Wraps
-									i(27937),	-- Sky Breakeer
-									i(27797),	-- Wastewalker Shoulderpads
-								},
-							}),
-						},
-					}),
-				},
+				}),
 			}),
+			-- #endif
 		},
 	})),
 })));
