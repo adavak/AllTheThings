@@ -570,6 +570,10 @@
 1298512@@@Stormcrow
 1298515@@@Spectral Gryphon
 1298516@@@Spectral Wind Rider
+5.5.4.67732
+1298510@@@Reins of the Fire Drake
+1302506@@@Frostwyrm
+1302947@@@Darkshade Drake
 6.0.1.18179
 0@@@TEST - Traveler's Tundra Mammoth (Alliance)
 0@@@TEST - Running Wild
