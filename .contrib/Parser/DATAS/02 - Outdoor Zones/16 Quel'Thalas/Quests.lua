@@ -915,8 +915,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 				--
 			}),
 		}),
+		-- #if AFTER 12.1.0
+		header(HEADERS.Achievement, 62297, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {	-- The Curse of Ula'tek
+		-- #else
 		header(HEADERS.Achievement, 62413, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Curse of Ula'tek
+		-- #endif
+			-- #if AFTER 12.1.0
+			header(HEADERS.AchCriteria, 62297.01, {	-- Legacy of the Amani
+			-- #else
 			header(HEADERS.AchCriteria, 62413.01, {	-- Legacy of the Amani
+			-- #endif
 				q(92897, {	-- The Preparations Are Complete
 					["description"] = "You can get this Breadcrumb Quest from your Adventure Journal.",
 					["sourceQuest"] = 90867,	-- From Darkness, Light (Exo Note: This should be correct as the story picks up after the main campaign)
@@ -925,12 +933,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 				q(92895, {	-- Hagar's Invitation
 					["sourceQuest"] = 92897,	-- The Preparations Are Complete
 					["qg"] = 253640,	-- Orweyna
-					["coord"] = { 45.3, 70.5, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["coord"] = { 45.4, 70.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
 				q(92899, {	-- History Lesson
 					["sourceQuest"] = 92895,	-- Hagar's Invitation
 					["qg"] = 253654,	-- Orweyna
 					["coord"] = { 43.9, 53.2, 2576 },	-- The Den
+					["groups"] = { i(246731) },	-- Dusk Grimlynx (MOUNT!)
 				}),
 				q(92900, {	-- A Favor for Kinduru
 					["sourceQuest"] = 92899,	-- History Lesson
@@ -1086,16 +1095,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 					["coord"] = { 43.8, 68.4, MAP.MIDNIGHT.ZULAMAN },
 				}),
 				--
+			-- These preprocessors are here so that VSC does not complain about uneven braces
+			-- #if AFTER 12.1.0
 			}),
-			--header(HEADERS.AchCriteria, 62413.02, {	-- An Island of Fangs
-			--}),
-			--header(HEADERS.AchCriteria, 62413.03, {	-- Ghosts of the Past
-			--}),
-			--header(HEADERS.AchCriteria, 62413.04, {	-- Original Sin
-			--}),
-			--header(HEADERS.AchCriteria, 62413.05, {	-- The Battle for Atal'Utek
-			--}),
+			-- #else
+			}),
+			-- #endif
+		-- These preprocessors are here so that VSC does not complain about uneven braces
+		-- #if AFTER 12.1.0
 		})),
+		-- #else
+		})),
+		-- #endif
 	}),
 })));
 
@@ -1111,6 +1122,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 			--q(94623),	-- Building the Voidforge	-- completed with q:92630
 			q(95247, { ["timeline"] = { ADDED_12_0_0 } }),	-- when picking up q:92630 in Dornogal
 			q(95044, { ["timeline"] = { ADDED_12_0_1 } }),	-- Triggered after turning in 'The Silversun Compact' (90871), probably related to the 'Silversun Compact Regalia' spell
+			q(92896, { ["timeline"] = { ADDED_12_1_0 } }),	-- Triggered after turning in 'Dead End' (93012)
 		}),
 	}),
 }));

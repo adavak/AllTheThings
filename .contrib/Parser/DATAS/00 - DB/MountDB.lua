@@ -2423,6 +2423,7 @@ i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 -- PATCH 12.0.7 --
 ------------------
 i(210140, 404018);	-- Black-Furred Bakar
+i(246731, 1243582);	-- Dusk Grimlynx
 i(274650, 1294663);	-- Netherforged Nullframe
 i(192778, 350220);	-- Liquid Hot Magma Slug
 i(258884, 1264184);	-- Spawn of Vyranoth

@@ -2567,7 +2567,6 @@ root(ROOTS.Unsorted, {
 				i(273651),	-- Bilgewater X-TREME Firework Rocket
 				i(273652),	-- Pink Rocket Mount [PH]
 				i(274681),	-- Badlands Buzzard
-				i(246731),	-- Dusk Grimlynx
 			}),
 			filter(QUEST_ITEMS, {
 				i(274580),	-- Primessence of Fel
