@@ -181,13 +181,18 @@ app:CreateWindow("WorldQuests", {
 			local mapID = mapObject.mapID;
 			if not mapID then return; end
 			local pois = C_TaskQuest_GetQuestsForPlayerByMapID(mapID);
-			-- app.PrintDebug(#pois,"WQ in",mapID);
+			-- if mapObject.__debug then
+			-- 	app.PrintDebug(#pois,"WQ in",mapID);
+			-- end
 			if pois then
 				for i,poi in ipairs(pois) do
 					-- only include Tasks on this actual mapID since each Zone mapID is checked individually
 					if poi.mapID == mapID and not AddedQuestIDs[poi.questID] then
 						-- app.PrintTable(poi)
 						AddedQuestIDs[poi.questID] = true
+						-- if mapObject.__debug then
+						-- 	app.PrintTable(poi)
+						-- end
 						local questObject = GetPopulatedQuestObject(poi.questID);
 						if questObject then
 							if self.includeAll or
@@ -198,8 +203,8 @@ app:CreateWindow("WorldQuests", {
 								-- or if it has time remaining
 								(questObject.timeRemaining or 0 > 0)
 							then
-								-- if poi.questID == 78663 then
-								-- 	app.print("WQ",questObject.questID,questObject.g and #questObject.g);
+								-- if mapObject.__debug then
+								-- 	app.print("WQ.task.add",questObject.questID,questObject.g and #questObject.g);
 								-- end
 								-- add the map POI coords to our new quest object
 								if poi.x and poi.y then
@@ -208,9 +213,17 @@ app:CreateWindow("WorldQuests", {
 								NestObject(mapObject, questObject);
 								-- see if need to retry based on missing data
 								-- if not self.retry and questObject.missingData then self.retry = true; end
+							-- else
+							-- 	if mapObject.__debug then
+							-- 		app.PrintDebug("WQ.task.ignored",mapID,poi.mapID,poi.questID,questObject.repeatable and "REPEAT" or "NON-REPEAT",questObject.timeRemaining)
+							-- 		app.PrintTable(questObject)
+							-- 	end
 							end
 						end
-					-- else app.PrintDebug("Skipped WQ",mapID,poi.mapID,poi.questID)
+					-- else
+					-- 	if mapObject.__debug then
+					-- 		app.PrintDebug("WQ.task.skip",mapID,poi.mapID,poi.questID)
+					-- 	end
 					end
 				end
 			end
@@ -263,6 +276,9 @@ app:CreateWindow("WorldQuests", {
 							o.coords = { [mapID] = { { 100 * x, 100 * y } }}
 						end
 						if not poiMapID or poiMapID == mapID or poi.isPrimaryMapForPOI then
+							-- if mapObject.__debug then
+							-- 	app.print("WQ.poi",o.questID,o.g and #o.g);
+							-- end
 							NestObject(mapObject, o)
 						else
 							local mapPOIs = MapPOIs[poiMapID]
@@ -305,6 +321,9 @@ app:CreateWindow("WorldQuests", {
 								-- or if it has time remaining
 								(questObject.timeRemaining or 0 > 0)
 							then
+								-- if mapObject.__debug then
+								-- 	app.print("WQ.story",questObject.questID,questObject.g and #questObject.g);
+								-- end
 								NestObject(mapObject, questObject);
 								-- see if need to retry based on missing data
 								-- if not self.retry and questObject.missingData then self.retry = true; end
@@ -332,6 +351,9 @@ app:CreateWindow("WorldQuests", {
 						-- Account/Debug or not saved
 						(app.MODE_DEBUG_OR_ACCOUNT or not questObject.saved)
 					then
+						-- if mapObject.__debug then
+						-- 	app.print("WQ.static",questObject.questID,questObject.g and #questObject.g);
+						-- end
 						NestObject(mapObject, questObject);
 						-- see if need to retry based on missing data
 						-- if not self.retry and questObject.missingData then self.retry = true; end
@@ -344,6 +366,7 @@ app:CreateWindow("WorldQuests", {
 			if not mapObject.mapID then return; end
 
 			-- print("Build Map",mapObject.mapID,mapObject.text);
+			-- mapObject.__debug = mapObject.mapID == 1462
 
 			-- Merge Tasks for Zone
 			self:MergeTasks(mapObject)
