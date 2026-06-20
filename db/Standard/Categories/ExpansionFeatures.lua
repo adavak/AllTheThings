@@ -41284,10 +41284,12 @@ crit(115254,{achID=63348,id=6})}})}),
 h(-47,{
 i(276089,{spellID=1298536}),
 i(276090,{spellID=1298537}),
+i(276097,{spellID=1298542}),
 i(276091,{spellID=1298538}),
 i(276092,{spellID=1298540}),
 i(276093,{spellID=1298539}),
-i(276094,{spellID=1298541})}),
+i(276094,{spellID=1298541}),
+i(276098,{spellID=1298543})}),
 h(-56,{
 o(658802,{description="Spawns randomly in Vilaldoun cave.",g={
 s(309644,276292,{f=1}),

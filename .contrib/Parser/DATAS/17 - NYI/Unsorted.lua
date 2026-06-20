@@ -2150,13 +2150,9 @@ root(ROOTS.Unsorted, {
 			--]]
 		})),
 		expansion(EXPANSION.MID, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
-			n(ARMOR, {	-- New Void Assault Things (Probably)
+			n(ARMOR, {
 				-- Misc
 				i(274780),	-- Fungal Spore Vapor [NYI]
-				i(276097),	-- Lost Armaments
-				i(276098),	-- Raided Items
-				-- Cosmetic
-				i(274887),	-- Mana-Overloaded Bulwark
 			}),
 			filter(BATTLE_PETS, {
 				i(275818),	-- Pinky
@@ -2376,6 +2372,7 @@ root(ROOTS.Unsorted, {
 				i(276299),	-- Umbralwarden's Soul Gavel
 				i(276291),	-- Forgotten Saber of the Ice Temple
 				i(276290),	-- Ice Guardian's Sleetblade
+				i(274887),	-- Mana-Overloaded Bulwark
 			}),
 			n(DECOR, {
 				i(248961),	-- Large Amani Tiki Mask

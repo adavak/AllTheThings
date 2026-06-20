@@ -395,10 +395,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(REWARDS, {
 						i(276089),	-- Field Accolades (Normal)
 						i(276090),	-- Field Accolades (Heroic)
+						i(276097),	-- Lost Armaments (Low Level)
 						i(276091),	-- Lost Armaments (Normal)
 						i(276092),	-- Lost Armaments (Heroic)
 						i(276093),	-- Nexus-Captain Leth'ir (Normal)
 						i(276094),	-- Nexus-Captain Leth'ir (Heroic)
+						i(276098),	-- Raided Items (Low Level)
 					}),
 					n(TREASURES, {
 						o(658802, {	-- Ancient Crypt Reliquary
@@ -607,5 +609,19 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				},
 			}),
 		}),
+	}),
+}));
+
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	m(NAIGTAL, {
+		["timeline"] = { ADDED_12_0_7 },
+		["groups"] = {
+			n(QUESTS, {
+				q(96679),	-- Completes with 'Bouncy Mushrooms' (questID 96744)
+				q(96680),	-- Completes with 'Aerospores' (questID 96745)
+				q(96681),	-- Completes with 'The Grappler' (questID 96845)
+				q(97473),	-- Looting 'Void Commander's Emblem' (itemID 277554) for 'Knocking Off the Top' (questID 97256)
+			}),
+		},
 	}),
 }));
