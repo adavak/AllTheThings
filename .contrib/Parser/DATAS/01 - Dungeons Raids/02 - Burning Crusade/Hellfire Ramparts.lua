@@ -132,9 +132,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						objective(3, {	-- 0/1 Nazan's Head
 							["provider"] = { "i", 23901 },	-- Nazan's Head
 						}),
+						i(25716),	-- Handguards of Precision
 						i(25715),	-- Jade Warrior Pauldrons
 						i(25718),	-- Mantle of Magical Might
-						i(25716),	-- Handguards of Precision
 						i(25717),	-- Sure-Step Boots
 					},
 				},
