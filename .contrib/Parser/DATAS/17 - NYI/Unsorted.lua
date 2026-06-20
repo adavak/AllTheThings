@@ -2406,7 +2406,6 @@ root(ROOTS.Unsorted, {
 				i(276346),	-- Fel-Singed Salvage
 				i(276347),	-- Cracked Legion Communicator
 				i(276348),	-- Marsh Wrangler's Vinewhip
-				i(276349),	-- Bulbous Leyshroom
 				i(276350),	-- Shimmering Algae
 				i(276351),	-- Muckfaded Crystalline Figure
 				i(276352),	-- Scuffed Prayer Bangle
@@ -2420,11 +2419,6 @@ root(ROOTS.Unsorted, {
 				i(276360),	-- Etched Ice Chip
 				i(276361),	-- Frost-Calloused Remains
 				i(276362),	-- Lost Glacier Climbing Hooks
-				i(276365),	-- Highland Redcap
-				i(276366),	-- Dusty Redcap
-				i(276367),	-- Marshy Redcap
-				i(276368),	-- Partially-Digested Redcap
-				i(276369),	-- Airy Redcap
 				i(276294),	-- Temporary Alliance Tabard
 				i(276295),	-- Temporary Horde Tabard
 				i(275257),	-- Manaforge Essence

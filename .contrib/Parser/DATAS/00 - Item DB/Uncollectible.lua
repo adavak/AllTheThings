@@ -2892,6 +2892,11 @@ i(272115);	-- Smashed Shield Emitter
 i(272116);	-- Water-Logged Transaction Scroll
 
 ------------------
+-- PATCH 12.0.7 --
+------------------
+i(276349);	-- Bulbous Leyshroom
+
+------------------
 -- PATCH 12.1.0 --
 ------------------
 i(280182);	-- Coiled Curry

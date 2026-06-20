@@ -1655,9 +1655,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 			i(258739, {	-- Chillcrawler (PET!)
 				["displayID"] = 111522,
 			}),
-			i(262768, {	-- Sleepy Mandrake (PET!)
-				["displayID"] = 139713,
-			}),
 			i(262763, {	-- Plump Mandrake (PET!)
 				["displayID"] = 139711,
 			}),

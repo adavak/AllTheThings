@@ -172,7 +172,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					i(24096),	-- Heartblood Prayer Beads
 					i(27539),	-- Justice Bearer's Pauldrons
 					i(27465),	-- Mana-Etched Gloves
-					i(23886),	-- Omor's Hoof
 					i(27464),	-- Omor's Unyielding Will
 					i(27467),	-- Silent-Strider Kneeboots
 					i(24091),	-- Tenacious Defender

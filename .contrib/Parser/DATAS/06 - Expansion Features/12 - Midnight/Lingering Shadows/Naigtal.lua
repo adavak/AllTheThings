@@ -402,7 +402,51 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276094),	-- Nexus-Captain Leth'ir (Heroic)
 						i(276098),	-- Raided Items (Low Level)
 					}),
+					n(SPECIAL, {
+						n(267910, {	-- Sleepy Mandrake
+							["sourceQuests"] = {
+								97091,	-- Feed the Sleepy Mandrake a Highland Redcap
+								97092,	-- Feed the Sleepy Mandrake a Dusty Redcap
+								97093,	-- Feed the Sleepy Mandrake a Marshy Redcap
+								97094,	-- Feed the Sleepy Mandrake a Partially-Digested Redcap
+								97095,	-- Feed the Sleepy Mandrake an Airy Redcap
+							},
+							["description"] = "Feed the Sleepy Mandrake 5 different Redcap Mushrooms from Naigtal to wake it up and become your pet.",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["groups"] = { i(262768) }, 	-- Sleepy Mandrake (PET!)
+						}),
+						--TODO confirm if HQTs are for specific shrooms or # of shrooms fed
+						hqt(97091, {	-- Feed the Sleepy Mandrake a Highland Redcap
+							["name"] = "Feed the Sleepy Mandrake a Highland Redcap",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["cost"] = { { "i", 276365, 1 } },	-- Highland Redcap
+						}),
+						hqt(97092, {	-- Feed the Sleepy Mandrake a Dusty Redcap
+							["name"] = "Feed the Sleepy Mandrake a Dusty Redcap",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["cost"] = { { "i", 276366, 1 } },	-- Dusty Redcap
+						}),
+						hqt(97093, {	-- Feed the Sleepy Mandrake a Marshy Redcap
+							["name"] = "Feed the Sleepy Mandrake a Marshy Redcap",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["cost"] = { { "i", 276367, 1 } },	-- Marshy Redcap
+						}),
+						hqt(97094, {	-- Feed the Sleepy Mandrake a Partially-Digested Redcap
+							["name"] = "Feed the Sleepy Mandrake a Partially-Digested Redcap",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["cost"] = { { "i", 276368, 1 } },	-- Partially-Digested Redcap
+						}),
+						hqt(97095, {	-- Feed the Sleepy Mandrake an Airy Redcap
+							["name"] = "Feed the Sleepy Mandrake an Airy Redcap",
+							["coord"] = { 68.2, 51.6, NAIGTAL },
+							["cost"] = { { "i", 276369, 1 } },	-- Airy Redcap
+						}),
+					}),
 					n(TREASURES, {
+						o(659304, {	-- Airy Redcap
+							["coord"] = { 94.9, 26.7, NAIGTAL },
+							["groups"] = { i(276369) },	-- Airy Redcap
+						}),
 						o(658802, {	-- Ancient Crypt Reliquary
 							["description"] = "Spawns randomly in Vilaldoun cave.",
 							["groups"] = {
@@ -412,8 +456,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(276302),	-- Taalvilor Crystalsmith's Mace (COSMETIC!)
 							},
 						}),
+						o(659303, {	-- Dusty Redcap
+							["coord"] = { 22.9, 61.3, 2646 },	-- Vilaldoun
+							["groups"] = { i(276366) },	-- Dusty Redcap
+						}),
 						o(655271, {	-- Hal'hadar Pocket-Storage
 							["description"] = "Spawns randomly throughout the zone.",
+						}),
+						o(659301, {	-- Highland Redcap
+							["coord"] = { 29.0, 61.8, NAIGTAL },
+							["groups"] = { i(276365) },	-- Highland Redcap
+						}),
+						o(659302, {	-- Marshy Redcap
+							["coords"] = {
+								{ 74.9, 38.2, NAIGTAL },
+								{ 71.5, 37.3, NAIGTAL }
+							},
+							["groups"] = { i(276367) },	-- Marshy Redcap
 						}),
 						o(659300, {	-- Squirming Mollusk
 							["coords"] = {
@@ -521,6 +580,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					n(ZONE_DROPS, {
 						i(276298),	-- Forgotten Fel-Shard Talon (COSMETIC!)
 						i(276288),	-- Forgotten Sword of Vilaldoun (COSMETIC!)
+						i(276368),	-- Partially-Digested Redcap
 						i(276330),	-- Taken Riftwalker's Starbarb (COSMETIC!)
 						i(275520, {	-- Technoseer's Communique (QS!)
 							["cr"] = 265537,	-- Hal'hadar Forge Grunt
