@@ -165,8 +165,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				}),
 			}),
 			-- #if AFTER 7.3.5
-			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
-			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
 				n(ZONE_DROPS, {
 					i(37115),	-- Crusader's Square Pauldrons
@@ -231,6 +229,8 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					i(43085),	-- Royal Crest of Lordaeron
 					i(37111),	-- Soul Preserver
 				}),
+			}),
+			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(80, 80, 30) }).AddGroups({
 				n(ACHIEVEMENTS, {

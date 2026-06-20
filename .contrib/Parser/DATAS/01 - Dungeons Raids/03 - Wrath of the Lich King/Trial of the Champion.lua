@@ -367,13 +367,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 			}),
 			-- #endif
 			-- #if AFTER 7.3.5
-			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
-				BossOnly(BLACK_KNIGHT, {
-					-- #if AFTER 8.0.1
-					currency(241),	-- Champion's Seal
-					-- #endif
-				}),
-			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
 				BossOnly(GRAND_CHAMPIONS, {
 					i(47213),	-- Abyssal Rune
@@ -473,6 +466,13 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_T
 					i(47568),	-- True-Aim Long Rifle
 					i(47222),	-- Uruka's Band of Zeal
 					i(47565),	-- Vambraces of Unholy Command
+				}),
+			}),
+			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
+				BossOnly(BLACK_KNIGHT, {
+					-- #if AFTER 8.0.1
+					currency(241),	-- Champion's Seal
+					-- #endif
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(80, 80, 30) }).AddGroups({

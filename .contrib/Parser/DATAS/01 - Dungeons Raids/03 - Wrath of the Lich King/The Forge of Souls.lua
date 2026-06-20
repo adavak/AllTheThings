@@ -112,14 +112,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 				}),
 			}),
 			-- #if AFTER 7.3.5
-			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
-				n(ZONE_DROPS, {
-					i(49852),	-- Coffin Nail
-					i(49854),	-- Mantle of Tattered Feathers
-					i(49855),	-- Plated Grips of Korth'azz
-					i(49853),	-- Titanium Links of Lore
-				}),
-			}),
 			Difficulty(DIFFICULTY.DUNGEON.MULTI.NORMAL_HEROIC).AddGroups({
 				BossOnly(BRONJAHM, {
 					i(49785),	-- Bewildering Shoulderpads
@@ -161,6 +153,14 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 					i(49798),	-- Soul Screaming Boots
 					i(49800),	-- Spiteful Signet
 					i(49793),	-- Tower of the Mouldering Corpse
+				}),
+			}),
+			Difficulty(DIFFICULTY.DUNGEON.NORMAL).AddGroups({
+				n(ZONE_DROPS, {
+					i(49852),	-- Coffin Nail
+					i(49854),	-- Mantle of Tattered Feathers
+					i(49855),	-- Plated Grips of Korth'azz
+					i(49853),	-- Titanium Links of Lore
 				}),
 			}),
 			Difficulty(DIFFICULTY.DUNGEON.HEROIC, { ["lvl"] = lvlsquish(80, 80, 30) }).AddGroups({
