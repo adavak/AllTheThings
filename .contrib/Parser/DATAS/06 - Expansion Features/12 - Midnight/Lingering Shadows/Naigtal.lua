@@ -296,7 +296,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["groups"] = { i(276390) },	-- Riftstalker's Overflowing Prize
 						}),
 					}),
-					n(RARES, {
+					n(RARES, sharedData({ ["isRepeatable"] = true }, {
 						-- Rare at Vennorax Wreckage. It was gone by the time I got there. Coord 29.7, 19.2,	-- Exo
 						n(264569, {	-- Auredar's Chassis <The Vacant Vigilant>
 							["coord"] = { 28.8, 62.9, NAIGTAL },
@@ -391,7 +391,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 70.3, 76.4, NAIGTAL },
 							["questID"] = 96319,
 						}),
-					}),
+					})),
 					n(REWARDS, {
 						i(276089),	-- Field Accolades (Normal)
 						i(276090),	-- Field Accolades (Heroic)
