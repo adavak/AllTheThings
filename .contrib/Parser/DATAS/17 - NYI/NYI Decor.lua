@@ -437,7 +437,6 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 			rawdecor(4430),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue02.m2
 			rawdecor(5130),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask02.m2
 			rawdecor(5131),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask03.m2
-			rawdecor(5648),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Bag01.m2
 			rawdecor(5649),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Crafting_Tool03.m2
 			rawdecor(5650),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Storage_Barrel01.m2
 			rawdecor(5794),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Lantern01.m2
@@ -571,7 +570,6 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 			rawdecor(15067),	-- [DNT] [AUTOGEN] 12PM_Primitive_Structure_LargeTent01.m2
 			rawdecor(15068),	-- [DNT] [AUTOGEN] 12PM_Primitive_Storage_Gourd03.m2
 			rawdecor(15154),	-- [DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack11.M2
-			rawdecor(15156),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Crate01.m2
 			rawdecor(15157),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Crate02.m2
 			rawdecor(15159),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Basket02.m2
 			rawdecor(15161),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Basket05.m2
@@ -584,7 +582,6 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 			rawdecor(15259),	-- [DNT] [AUTOGEN] 12PM_Primitive_Structure_LargeTent02.m2
 			rawdecor(15265),	-- [DNT] [AUTOGEN] 12TR_Amani_Crafting_Anvil01.m2
 			rawdecor(15266),	-- [DNT] [AUTOGEN] 12TR_Amani_Crafting_WorkBench01.m2
-			rawdecor(15283),	-- [DNT] [AUTOGEN] 12TR_Amani_Crafting_Forge01.m2
 			rawdecor(15284),	-- [DNT] [AUTOGEN] 12TR_Amani_Ritual_Skull01.m2
 			rawdecor(15285),	-- [DNT] [AUTOGEN] 12TR_Amani_Ritual_Skull02.m2
 			rawdecor(15371),	-- [DNT] [AUTOGEN] 12PM_Primitive_Decor_Rug03.m2
@@ -613,8 +610,6 @@ root(ROOTS.NeverImplemented, n(DECOR, {
 			rawdecor(15495),	-- [DNT] [AUTOGEN] 11WE_WildElves_Defense_Bow01.m2
 			rawdecor(15496),	-- [DNT] [AUTOGEN] 11WE_WildElves_Defense_Quiver01.m2
 			rawdecor(15498),	-- [DNT] [AUTOGEN] 12ESW_main_tree_cypressRed_a02.m2
-			rawdecor(15506),	-- [DNT] [AUTOGEN] 12TR_Amani_Defense_TerritoryMarker_WithCandle01.m2
-			rawdecor(15569),	-- [DNT] [AUTOGEN] 12TR_Amani_Lighting_Torch01.m2
 			rawdecor(15586),	-- [DNT] [AUTOGEN] 12PM_Primitive_Decor_KnickKnack12.M2
 			rawdecor(15587),	-- [DNT] [AUTOGEN] 11WE_WildElves_Decor_Plate01.m2
 			rawdecor(15748),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_WallTapestry04.m2

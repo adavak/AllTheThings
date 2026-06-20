@@ -51,8 +51,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(255114, {	-- Maku <Decor Specialist>
 				["coord"] = { 62.7, 34.4, 2576 },	-- The Den, Harandar
 				["groups"] = {
-					-- Exo Note - TODO: Fill sourceQuests once all questIDs are sourced. Quest names in the comments are taken in-game from the items themselves. Items are left in 'Unsorted' file so that they can be quickly copy/pasted onto the quest itself.
-					-- Exo Note: Something is fishy here... Some decor here and sourceQuests have no sense. Quest A, rewards Decor 1 but unlocks Decor 2 at the vendor. Quest B, rewards Decor 2 but unlocks Decor 1 at the vendor... Maybe a bug?
 					i(266259, {	-- Altar of the Shul'ka (DECOR!)
 						["cost"] = { { "c", VOIDLIGHT_MARL, 250 } },
 					}),

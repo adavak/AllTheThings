@@ -3280,6 +3280,7 @@ MobileDB.GameObject = {
 	[627049] = true,	-- Hearthlight Armillary
 	[627599] = true,	-- Silver Hand Squire's Libram
 	[628381] = true,	-- Weapon Rack (Arcantina)
+	[628446] = true,	-- Jan'alai's Cinder (q:93019)
 	[628949] = true,	-- Shadowmoon Lumber (Frostfire Ridge)
 	[628950] = true,	-- Shadowmoon Lumber (Gorgrond)
 	[628951] = true,	-- Shadowmoon Lumber (Tanaan Jungle)

@@ -819,8 +819,8 @@ h(-58,{
 n(206864,{coords={
 [2112]={{47.3,48.2}}},g={
 i(229375,{awp=110005,b=1,f=55,spellID=464886})}})})}})}),
-x(12,{awp=120000,g={
-ah(62189,{coords={
+x(12,{
+ah(62189,{awp=120000,coords={
 [204]={{15,90}}},description="Swim out to the coordinates then further out south just until fatigue kicks in, then retreat.\nSwim down until fatigue kicks in again then mad dash towards the glowing orb by the skeleton.\n\nYou will want the Vash'jir seahorse and water breathing to make it in time.",type="a",g={
 n(256536,{description="Around the room are displays tracking various 'secret' activities you may or may not have completed. If you've completed enough (17+), speak to Anakron to become a Mind Seeker.",g={
 hqt(94828),
@@ -832,7 +832,18 @@ i(232005,{f=55,spellID=433}),
 i(232006,{f=55,spellID=104235}),
 i(232009,{f=55,spellID=433}),
 i(232007,{f=55,spellID=431}),
-i(262880,{f=55,spellID=11629})})}})}}),
+i(262880,{f=55,spellID=11629})})}}),
+ah(246723,{awp=120007,type="i",g={
+o(656056,{coords={
+[2472]={{46.9,58.6}}},description="In Untethered Space on the floor to the left of the counter.",providers={{"i",235499}},questID=97098,g={
+i(275670),
+i(275665)}}),
+o(656049,{coords={
+[2405]={{48.2,70.3}}},questID=97099}),
+i(276465,{crs={265891}}),
+o(658801,{coords={
+[2600]={{71.5,45.3}}},cost={{"i",276465,1}},description="Currently only visible in Normal World Tier.",g={
+p(4860,{b=1,itemID=246723,npcID=247465,spellID=1243343})}})}})}),
 h(-503,{awp=50004,description="Multi-expansion secret to obtaining Dog as a companion pet.",displayID=1100,g={
 q(30526,{coords={
 [376]={{42.4,50.2}}},lvl=15,minReputation={1272,21600},qgs={59533},g={

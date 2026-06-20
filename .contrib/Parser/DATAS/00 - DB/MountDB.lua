@@ -2445,5 +2445,7 @@ i(268834, 1283838);	-- Zothwing Deepseeker
 ------------------
 -- PATCH 12.1.0 --
 ------------------
-i(275658, 1297405);	-- Primeval Skyfriend
 i(275652, 1297220);	-- Crimson Venomfang
+i(276802, 1300778);	-- Indigo Coiled Horror
+i(275658, 1297405);	-- Primeval Skyfriend
+i(276551, 1299963);	-- Violet-Backed Skyfang

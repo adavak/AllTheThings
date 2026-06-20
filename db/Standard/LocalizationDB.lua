@@ -1727,7 +1727,7 @@ localize(L.HEADER_NAMES, {
 	[-741] = "Void Assaults",
 	[-742] = "Ritual Sites",
 	[-743] = COVENANT_SANCTUM_TAB_RENOWN.." 9",
-	[-745] = "Mail Delivery Races",
+	[-745] = "Neighborhood postal route",
 	[-746] = "Profession Nodes",
 	[-748] = "Fanta",
 	[-749] = "Decor Duel",
@@ -13226,8 +13226,11 @@ local ObjectNames = {
 	[655270] = "Domanaar Storage Vessel",
 	[655271] = "Hal'hadar Pocket-Storage",
 	[655738] = "Nullframe Holoprint",
+	[656056] = "Bill of Lading",
 	[656141] = "Soul Lattice Holoprint",
 	[656142] = "Glittering Crypt Holoprint",
+	[658802] = "Ancient Crypt Reliquary",
+	[659300] = "Squirming Mollusk",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -22286,8 +22289,11 @@ local ObjectModels = {
 	[655270] = 6391990,
 	[655271] = 6320659,
 	[655738] = 6321897,
+	[656056] = 936413,
 	[656141] = 6321897,
 	[656142] = 6321897,
+	[658802] = 1062118,
+	[659300] = 145889,
 }; _.ObjectModels = ObjectModels;
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946,194032,194035,194036,194038,194040,194044,194045,194049,207982,207984,207985,207987,207988,207993,208089,208093,217851,259871,259927,316788,316791,316793 };
@@ -26802,6 +26808,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Legenden der Haranir",
 	[-741] = "Angriffe der Leere",
 	[-742] = "Ritualstätten",
+	[-745] = "Postroute in der Nachbarschaft",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -34628,6 +34635,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Légendes des Haranir",
 	[-741] = "Assauts du Vide",
 	[-742] = "Sites rituels",
+	[-745] = "Tournée postale dans le quartier",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -42059,6 +42067,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Leggende degli Haranir",
 	[-741] = "Assalti del Vuoto",
 	[-742] = "Siti Rituali",
+	[-745] = "Percorso postale nel Vicinato",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -48803,6 +48812,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Lendas dos Haranir",
 	[-741] = "Investidas do Caos",
 	[-742] = "Sítios Ritualísticos",
+	[-745] = "Rota postal na vizinhança",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -56736,6 +56746,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Легенды хараниров",
 	[-741] = "Натиски Бездны",
 	[-742] = "Места проведения ритуалов",
+	[-745] = "Pайонный почтовый маршрут",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -64233,6 +64244,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "하라니르의 전설",
 	[-741] = "공허 공세",
 	[-742] = "의식 지점",
+	[-745] = "거주구 우편 경로를",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -71739,6 +71751,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "Leyendas de los haranir",
 	[-741] = "Asaltos del Vacío",
 	[-742] = "Lugares de ritual",
+	[-745] = "Ruta postal del vecindario",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -79198,6 +79211,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 	[-723] = "Invasiones elementales",
 	[-742] = "Sitios de ritual",
+	[-745] = "Ruta postal de vecindario",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -80913,6 +80927,13 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 	[-712] = "升级中角色",
 	[-713] = "最高等级角色",
+	[-714] = "文化节",
+	[-715] = "卡雷什文化",
+	[-716] = "土地精文化",
+	[-717] = "鼹鼠人文化",
+	[-718] = "辛多雷文化",
+	[-719] = "巨龙文化",
+	[-720] = "机械侏儒文化",
 	[-722] = "暗黑破坏神II重制版 - 术士君临",
 	[-723] = "元素入侵",
 	[-729] = "丰饶",
@@ -80920,6 +80941,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "哈籁尼尔的传说",
 	[-741] = "虚空侵袭",
 	[-742] = "仪式场地",
+	[-745] = "住宅区邮路",
 	[-746] = "专业节点",
 	[-749] = "装饰决斗",
 	[-750] = "相位导管",
@@ -88228,6 +88250,7 @@ localize(L.HEADER_NAMES, {
 	[-738] = "哈拉尼爾的傳說",
 	[-741] = "虛無襲擊",
 	[-742] = "儀式地點第",
+	[-745] = "社區郵政路線",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成探究時獎勵的東西。",

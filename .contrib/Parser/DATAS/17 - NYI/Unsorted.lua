@@ -24,7 +24,6 @@ root(ROOTS.Unsorted, {
 			i(249223),	-- Corrosive Bilespear
 			i(249227),	-- Dundun's Favor
 			i(249228),	-- Soul-Cracking Dreamcatcher
-			i(249765),	-- Amani Supply Sack
 			i(249923),	-- Sin'dorei Golden Welcome
 			i(251630),	-- Recipe: Amani Cornucopia
 			i(253397),	-- Revered Deepstone Table
@@ -56,18 +55,14 @@ root(ROOTS.Unsorted, {
 			i(262904),	-- Ectoplasm
 			i(263185),	-- Rotted Plank
 			i(263192),	-- Unattainable Artifact of Desire
-			i(263316),	-- Amani Storage Crate
 			i(263317),	-- Amani Wicker Crate
 			i(263341),	-- Spectral Brew
 			i(263520),	-- Ensemble: Sprawling Garb
 			i(263708),	-- Amani Anvil
-			i(263873),	-- Amani Forge
 			i(263874),	-- Emerald-Encrusted Amani Ritual Skull
 			i(263875),	-- Griftah's Resizing Hex-Skull
 			i(263880),	-- Cherished Pet's Rug
 			i(264162),	-- Enchanted Snowflake
-			i(264271),	-- Amani Ritual Totem
-			i(264331),	-- Amani Wayfarer's Torch
 			i(264696),	-- Yl'mul's Skull
 			i(264697),	-- Yl'mul's Other Arm
 			i(264698),	-- Yl'mul's Ribcage
@@ -101,7 +96,6 @@ root(ROOTS.Unsorted, {
 			i(267207),	-- Amani Territorial Totem
 			i(267233),	-- Dehydrated Troll Eye Necklace
 			i(267269),	-- Fire-Blessed Poultice
-			i(267377),	-- Ula'tek Ritual Monolith
 			i(267378),	-- Venom Scholar's Focus
 			i(268095),	-- Fresh Poultice
 			i(268113),	-- Jan'alai's Breath
@@ -197,8 +191,6 @@ root(ROOTS.Unsorted, {
 			i(269578),	-- Poison Dart Frog Gland
 			i(269637),	-- Serpent-Caller Spike
 			i(269720),	-- Corrosive Hekte
-			i(269778),	-- Stitched Blisterfang Bag
-			i(269779),	-- Fanged Scaleskin Pouch
 			i(269856),	-- Bundle of Adventurer Mistcrests
 			i(269857),	-- Satchel of Champion Mistcrests
 			i(269858),	-- Pack of Hero Mistcrests
@@ -240,7 +232,6 @@ root(ROOTS.Unsorted, {
 			i(270254),	-- Caustic Writhling
 			i(270266),	-- Fragmented Void
 			i(270267),	-- Twilight Missive
-			i(270268),	-- Crumpled Note
 			i(270274),	-- Home-Grown Wax
 			i(270335),	-- Mostly Smooth Seastone
 			i(270346),	-- Big Meaty Claw
@@ -717,7 +708,6 @@ root(ROOTS.Unsorted, {
 			i(271133),	-- Marked Serpent Rune PH
 			i(271135),	-- Amorphous Totem PH
 			i(271155),	-- Test Weapon 2
-			i(271177),	-- Opened Serpentine Reliquary
 			i(271423),	-- Diver's Key
 			i(271424),	-- Diver's Key Fragment
 			i(271434),	-- Venom Rite Mantle
@@ -744,12 +734,8 @@ root(ROOTS.Unsorted, {
 			i(271681),	-- Perennial Frostbound Charm
 			i(271693),	-- Congealed Venom
 			i(271717),	-- Cup of Kafa
-			i(271788),	-- Snuffling Boar Stew
-			i(271791),	-- Potion of Headache Relief
-			i(271792),	-- Soldier's Smuggled Treasure Key
 			i(271815),	-- Luminescent Pearl
 			i(271850),	-- Venomous Tendril
-			i(271851),	-- Oozing Vilescar Barricade
 			i(271863),	-- Ophidian Bile
 			i(271864),	-- Rotten Pneuma
 			i(271865),	-- Scavenged Weapon
@@ -763,7 +749,6 @@ root(ROOTS.Unsorted, {
 			i(271881),	-- Dropped Key
 			i(271883),	-- Concentrated Silvermoon Health Potion
 			i(271884),	-- Concentrated Silvermoon Health Potion
-			i(271885),	-- Recipe: Concentrated Silvermoon Health Potion
 			i(271886),	-- Liquid Luster
 			i(271887),	-- Liquid Luster
 			i(271888),	-- Recipe: Liquid Luster
@@ -792,7 +777,6 @@ root(ROOTS.Unsorted, {
 			i(272192),	-- [PH] 12.1 Darkmoon Sigil
 			i(272194),	-- Vantus Rune: Tides
 			i(272195),	-- Vantus Rune: Tides
-			i(272196),	-- Technique: Vantus Rune: Tides
 			i(272225),	-- Galerider's Mantle
 			i(272226),	-- Miststalker's Shroud
 			i(272227),	-- Pyrewalker's Veil
@@ -867,7 +851,6 @@ root(ROOTS.Unsorted, {
 			i(273070),	-- Pattern: Adorned Fang
 			i(273071),	-- Enchant Weapon - Rite of the Hash'ey
 			i(273072),	-- Enchant Weapon - Rite of the Hash'ey
-			i(273073),	-- Formula: Rite of the Hash'ey
 			i(273288),	-- Sou'jin Soup
 			i(273303),	-- Ritual Gem
 			i(273311),	-- Kobold Candle Collection
@@ -958,18 +941,7 @@ root(ROOTS.Unsorted, {
 			i(274497),	-- Spirit-Rending Poison
 			i(274498),	-- Spirit Ward
 			i(274499),	-- Toxiferous Transfusion
-			i(274500),	-- Demystifyin': Alchemy
 			i(274505),	-- Shrine of Akil'zon, Loa of Victory
-			i(274507),	-- Demystifyin': Leatherworking
-			i(274508),	-- Demystifyin': Skinning
-			i(274509),	-- Demystifyin': Mining
-			i(274510),	-- Demystifyin': Jewelcrafting
-			i(274511),	-- Demystifyin': Enchanting
-			i(274512),	-- Demystifyin': Tailoring
-			i(274513),	-- Demystifyin': Herbalism
-			i(274514),	-- Demystifyin': Inscription
-			i(274515),	-- Demystifyin': Blacksmithing
-			i(274516),	-- Demystifyin': Engineering
 			i(274518),	-- Amani Decorative Plinth
 			i(274521),	-- Amani Road Marker
 			i(274523),	-- Woven Forest Troll Rug
@@ -1097,25 +1069,20 @@ root(ROOTS.Unsorted, {
 			i(275287),	-- Cellular Slab
 			i(275288),	-- Photosynthesized Scrap
 			i(275289),	-- Winged Stalk
-			i(275300),	-- Recipe: Loa's Gathering
 			i(275301),	-- Recipe: Feast of Knowledge
 			i(275302),	-- Venomous Gladiator's Goredrake
 			i(275303),	-- Amani Forgemaster's Workbench
-			i(275304),	-- Plans: Amani Forgemaster's Workbench
 			i(275305),	-- Amani Forgemaster's Glaive
 			i(275306),	-- Plans: Amani Forgemaster's Glaive
 			i(275308),	-- Plans: Amani Forgemaster's Rack
-			i(275310),	-- Formula: Keen Hex Mask
 			i(275312),	-- Formula: Furious Tiki Mask
 			i(275314),	-- Formula: Enchanted Eversong Trout
-			i(275316),	-- Schematic: Coiled Hookshot
 			i(275318),	-- Schematic: Fine Captain's Bottle
 			i(275320),	-- Schematic: Aetherlume Field Lamp
 			i(275322),	-- Technique: Ferocious Feline Trinket
 			i(275324),	-- Technique: Inscribed Amani Mural
 			i(275326),	-- Technique: Chiseled Amani Tablet
 			i(275328),	-- Technique: Turquoise Amani Tapestry
-			i(275332),	-- Pattern: Flat Snakeskin Canopy
 			i(275334),	-- Pattern: Stretched Snakeskin Rack
 			i(275336),	-- Pattern: Mounted Moby
 			i(275338),	-- Pattern: Rolled Bed Linens
@@ -1328,10 +1295,6 @@ root(ROOTS.Unsorted, {
 			i(276230),	-- Pepe
 			i(276234),	-- Vibrant Venomfang
 			i(276246),	-- Mechanically Indistinguishable Pepe
-			i(276248),	-- Snek'zali
-			i(276249),	-- Cloak of the Hash'ura
-			i(276250),	-- Tabard of the Hash'ura
-			i(276251),	-- Shoulderguards of the Hash'ura
 			i(276258),	-- Companion Command Crystal
 			i(276286),	-- Gnarled Heart
 			i(276297),	-- Rustbolt Jetpack
@@ -1352,8 +1315,6 @@ root(ROOTS.Unsorted, {
 			i(276418),	-- [PH] Rainbow Mace- 2h - Green
 			i(276420),	-- [PH] Rainbow Mace- 2h - Purple
 			i(276421),	-- [PH] Rainbow Mace- 2h - Red
-			i(276457),	-- Amani Worship Candle
-			i(276459),	-- Amani Ritual Candles
 			i(276531),	-- Cursebreaker's Vambraces
 			i(276532),	-- Cursebreaker's Bracers
 			i(276533),	-- Cursebreaker's Wristwraps
@@ -1363,49 +1324,8 @@ root(ROOTS.Unsorted, {
 			i(276548),	-- Tormented Soul
 			i(276549),	-- Wind Serpent - Yellow
 			i(276550),	-- Wind Serpent - White
-			i(276551),	-- Violet-Backed Skyfang
 			i(276552),	-- Wind Serpent - Pink
 			i(276553),	-- Emerald Skyfang
-			i(276571),	-- Greathelm of Nalorakk's Chosen
-			i(276572),	-- Helm of Jan'alai's Chosen
-			i(276573),	-- Cowl of Halazzi's Chosen
-			i(276574),	-- Headdress of Akil'zon's Chosen
-			i(276575),	-- Shoulderplates of Nalorakk's Chosen
-			i(276576),	-- Breastplate of Nalorakk's Chosen
-			i(276577),	-- Greatcloak of Nalorakk's Chosen
-			i(276578),	-- Wristplates of Nalorakk's Chosen
-			i(276579),	-- Handguards of Nalorakk's Chosen
-			i(276580),	-- Greatbelt of Nalorakk's Chosen
-			i(276581),	-- Wargreaves of Nalorakk's Chosen
-			i(276582),	-- Warboots of Nalorakk's Chosen
-			i(276583),	-- Pauldrons of Jan'alai's Chosen
-			i(276584),	-- Chainmail of Jan'alai's Chosen
-			i(276585),	-- Cape of Jan'alai's Chosen
-			i(276586),	-- Armbands of Jan'alai's Chosen
-			i(276587),	-- Gauntlets of Jan'alai's Chosen
-			i(276588),	-- Girdle of Jan'alai's Chosen
-			i(276589),	-- Leggings of Jan'alai's Chosen
-			i(276590),	-- Sabatons of Jan'alai's Chosen
-			i(276591),	-- Mantle of Halazzi's Chosen
-			i(276592),	-- Tunic of Halazzi's Chosen
-			i(276593),	-- Pelt of Halazzi's Chosen
-			i(276594),	-- Wristwraps of Halazzi's Chosen
-			i(276595),	-- Gloves of Halazzi's Chosen
-			i(276596),	-- Belt of Halazzi's Chosen
-			i(276597),	-- Breeches of Halazzi's Chosen
-			i(276598),	-- Anklewraps of Halazzi's Chosen
-			i(276599),	-- Epaulets of Akil'zon's Chosen
-			i(276600),	-- Vestments of Akil'zon's Chosen
-			i(276601),	-- Cloak of Akil'zon's Chosen
-			i(276602),	-- Bracelets of Akil'zon's Chosen
-			i(276603),	-- Handwraps of Akil'zon's Chosen
-			i(276604),	-- Sash of Akil'zon's Chosen
-			i(276605),	-- Pantaloons of Akil'zon's Chosen
-			i(276606),	-- Footwraps of Akil'zon's Chosen
-			i(276607),	-- Ensemble: Vestments of Akil'zon's Chosen
-			i(276608),	-- Ensemble: Battlegear of Halazzi's Chosen
-			i(276609),	-- Ensemble: Chainmail of Jan'alai's Chosen
-			i(276610),	-- Ensemble: Warplate of Nalorakk's Chosen
 			i(276611),	-- Clam Stuffed Crab
 			i(276612),	-- The Shell-Shocker
 			i(276613),	-- Sparkling LaKoi
@@ -1445,26 +1365,10 @@ root(ROOTS.Unsorted, {
 			i(276749),	-- Scroll of the Salty Souvenir: South
 			i(276800),	-- [PH]Writhes Mount - Yellow
 			i(276801),	-- Venomous Coiler
-			i(276802),	-- Indigo Coiled Horror
 			i(276803),	-- [PH]Writhes Mount - Pink
 			i(276804),	-- The Writhing Brood
-			i(276825),	-- Bulwark of Nalorakk's Chosen
-			i(276826),	-- Focus of Akil'zon's Chosen
-			i(276827),	-- Warstaff of Akil'zon's Chosen
-			i(276828),	-- Sword of Halazzi's Chosen
-			i(276829),	-- Mace of Jan'alai's Chosen
-			i(276830),	-- Dagger of Halazzi's Chosen
-			i(276831),	-- Warblade of Nalorakk's Chosen
-			i(276832),	-- Warspear of Jan'alai's Chosen
-			i(276833),	-- Warbow of Jan'alai's Chosen
-			i(276834),	-- Warglaive of Halazzi's Chosen
-			i(276835),	-- Axe of Jan'alai's Chosen
-			i(276836),	-- Wand of Akil'zon's Chosen
-			i(276837),	-- Waraxe of Nalorakk's Chosen
-			i(276841),	-- Arsenal: Armaments of the Loa
 			i(276881),	-- Breath of Blight
 			i(276882),	-- Breath of Ruin
-			i(276925),	-- Idol of Ula'tek
 			i(277121),	-- Cozy Bird Nest
 			i(277137),	-- Wriggling Venom-Soaked Satchel
 			i(277138),	-- Silvermoon Dragonhawk Incubator
@@ -1478,10 +1382,6 @@ root(ROOTS.Unsorted, {
 			i(277261),	-- [PH] Pygmy Owl
 			i(277266),	-- The First Troll Legend
 			i(277270),	-- Kirin Tor Kitty
-			i(277271),	-- Wrapped Scaleskin Urn
-			i(277273),	-- Cracked Vilescar Urn
-			i(277275),	-- Charmed Blisterfang Urn
-			i(277280),	-- Vilescar Weapon Rack
 			i(277282),	-- Kirin Tor Cat
 			i(277292),	-- Venomous Gladiator's Rib
 			i(277293),	-- Venomous Gladiator's Warglaive
@@ -1504,9 +1404,6 @@ root(ROOTS.Unsorted, {
 			i(277319),	-- Cat'Thuzad
 			i(277321),	-- Mewkahen
 			i(277322),	-- Amewbis
-			i(277323),	-- Sealed Serpentine Reliquary
-			i(277326),	-- Axe of Akil'zon
-			i(277327),	-- Mantle of Nalorakk
 			i(277471),	-- Insidious Venom
 			i(277472),	-- Virulent Mucus
 			i(277473),	-- Accursed Poison
@@ -1524,7 +1421,6 @@ root(ROOTS.Unsorted, {
 			i(277530),	-- Balm of Flies
 			i(277803),	-- Venom-Cursed Spellcarver
 			i(277809),	-- Venom-Cursed Claymore
-			i(277820),	-- Recipe: Ula'tek Snakehead Lure
 			i(277821),	-- Ula'tek Snakehead Lure
 			i(277847),	-- Unbroken Trap Hinge
 			i(277848),	-- Untouched Crab Lure
@@ -1551,7 +1447,6 @@ root(ROOTS.Unsorted, {
 			i(277954),	-- Jaktu's Cursed Blade
 			i(277955),	-- Ethereal Bead Strand
 			i(277961),	-- Jaktu's Cursed Blade
-			i(277967),	-- Technique: Contract: Zul'jarra's Forces
 			i(277968),	-- Contract: Zul'jarra's Forces
 			i(277969),	-- Contract: Zul'jarra's Forces
 			i(277970),	-- Venomous Warmonger's Warblade
@@ -1759,10 +1654,6 @@ root(ROOTS.Unsorted, {
 			i(278878),	-- Crypt Cleanser Chestguard
 			i(278879),	-- Crypt Cleanser Harness
 			i(278880),	-- Crypt Cleanser Raiment
-			i(278881),	-- Ophidian General's Crown
-			i(278882),	-- Ophidian General's Barbute
-			i(278883),	-- Ophidian General's Headgear
-			i(278884),	-- Ophidian General's Warbonnet
 			i(278885),	-- Spaulders of the Sacrificer
 			i(278886),	-- Pauldrons of the Sacrificer
 			i(278887),	-- Mantle of the Sacrificer
@@ -1771,14 +1662,6 @@ root(ROOTS.Unsorted, {
 			i(278890),	-- Armbands of Brothers
 			i(278891),	-- Wristbands of Brothers
 			i(278892),	-- Bands of Brothers
-			i(278893),	-- Faithleaper's Greaves
-			i(278894),	-- Faithleaper's Sabatons
-			i(278895),	-- Faithleaper's Treads
-			i(278896),	-- Faithleaper's Slippers
-			i(278897),	-- Fangsmasher Crushers
-			i(278898),	-- Fangsmasher Gauntlets
-			i(278899),	-- Fangsmasher Handwraps
-			i(278900),	-- Fangsmasher Grips
 			i(278901),	-- Swampdredger Greaves
 			i(278902),	-- Swampdredger Legguards
 			i(278903),	-- Swampdredger Leggings
@@ -1904,9 +1787,6 @@ root(ROOTS.Unsorted, {
 			i(279164),	-- [ph] SpiceWitch Head 02 - Pink
 			i(279165),	-- [ph] SpiceWitch Head 02 - Pink (Hair Vis)
 			i(279166),	-- Pumice Hand Chalk
-			i(279194),	-- Collar of Jealousy
-			i(279195),	-- Choker of Anger
-			i(279196),	-- Chain of Vengeance
 			i(279197),	-- Slitherfang
 			i(279207),	-- Blackened Sludgefish
 			i(279209),	-- Plainsrunner's Sun Tunic
@@ -2085,9 +1965,6 @@ root(ROOTS.Unsorted, {
 			i(280162),	-- Wide Wooden Staircase
 			i(280164),	-- Spiraling Wooden Stairs
 			i(280178),	-- Poison Dart Frog
-			i(280182),	-- Coiled Curry
-			i(280183),	-- Harrier Hotcakes
-			i(280184),	-- Sweetsaw Surprise
 			i(280189),	-- Cauldron Concoction
 			i(280215),	-- Tortollan Tarp Tent
 			i(280218),	-- Tortollan Scholar Satchel

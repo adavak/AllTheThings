@@ -125,7 +125,6 @@ ach(63326),	-- My Venomous Nemesis
 ach(63332),	-- Purging the Poison
 ach(63333),	-- Let Me Solo Him: Azta'rec
 ach(63334),	-- Fabled Let Me Solo Him: Azta'rec
-ach(63358),	-- Coiled to Strike
 ach(63359),	-- Treasures of the Coiled Isle
 ach(63381),	-- Cursebreaker
 ach(63382),	-- It's Definitely Something
@@ -242,7 +241,6 @@ ach(63629),	-- Angler of The Coiled Isle
 ach(63630),	-- Assault the Vault
 ach(63631),	-- Captain Tokka's Crew
 ach(63632),	-- Toxic Trophies
-ach(63633),	-- A Stack of Snacks
 ach(63634),	-- Where Did You Get That?
 ach(63635),	-- Tokka's Terrible Trials
 ach(63636),	-- Fully Corroded

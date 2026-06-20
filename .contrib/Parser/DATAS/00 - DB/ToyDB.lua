@@ -1602,3 +1602,8 @@ i(259335);	-- Photo Finisher
 --- Unsorted ---
 i(276370);	-- Lightveil Hearth Beacon
 i(264368);	-- ??
+
+------------------
+-- PATCH 12.1.0 --
+------------------
+i(276925);	-- Idol of Ula'tek (TOY!)
