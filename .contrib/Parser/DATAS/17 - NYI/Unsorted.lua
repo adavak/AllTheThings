@@ -2372,7 +2372,6 @@ root(ROOTS.Unsorted, {
 				i(276299),	-- Umbralwarden's Soul Gavel
 				i(276291),	-- Forgotten Saber of the Ice Temple
 				i(276290),	-- Ice Guardian's Sleetblade
-				i(274887),	-- Mana-Overloaded Bulwark
 			}),
 			n(DECOR, {
 				i(248961),	-- Large Amani Tiki Mask
@@ -2431,13 +2430,12 @@ root(ROOTS.Unsorted, {
 				i(276216),	-- Mote of Omnial Inquiry
 			}),
 			filter(MOUNTS, {
-				-- From raid??
-				i(269240),	-- Luminous Sporeglider
-				i(273317),	-- Blackwater X-TREME Firework Rocket
-				i(273650),	-- Green Rocket Mount [PH]
-				i(273651),	-- Bilgewater X-TREME Firework Rocket
-				i(273652),	-- Pink Rocket Mount [PH]
+				-- Trading Post
 				i(274681),	-- Badlands Buzzard
+				i(273317),	-- Blackwater X-TREME Firework Rocket
+				i(273651),	-- Bilgewater X-TREME Firework Rocket
+				i(273650),	-- Green Rocket Mount [PH]
+				i(273652),	-- Pink Rocket Mount [PH]
 			}),
 			filter(QUEST_ITEMS, {
 				i(274580),	-- Primessence of Fel

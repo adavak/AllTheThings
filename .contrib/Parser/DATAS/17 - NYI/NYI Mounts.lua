@@ -1136,6 +1136,12 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(260421, {	-- Void-Corrupted Amani Warbear Kit (MOUNT!)
 				-- ["displayID"] = ,
 			}),
+			i(268833, {	-- Zothwing Darkseeker (MOUNT!)
+				-- ["displayID"] = ,
+			}),
+			i(268834, {	-- Zothwing Deepseeker (MOUNT!)
+				-- ["displayID"] = ,
+			}),
 		})),
 	}),
 }));

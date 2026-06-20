@@ -35372,9 +35372,6 @@ s(219604)/i(222813),	-- Adaptive Delver's Shawl
 s(219648)/i(222493),	-- Artisan Leatherworker's Toolset
 11.0.0.54361
 s(220382)/i(224467),	-- Forgotten Axe
-11.0.5.56487
-s(227826)/i(230059),	-- Prowler's Deep Cowl
-s(227846)/i(230079),	-- Prowler's Deep Mask
 12.0.0.63534
 s(287077)/i(237828),	-- Spellbreaker's March
 s(287078)/i(237829),	-- Spellbreaker's Shelter

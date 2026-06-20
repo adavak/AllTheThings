@@ -23511,9 +23511,6 @@ i(167549),	-- Unwaning Bones
 8.2.5.31337
 i(172224),	-- Winter Veil Gift
 i(172225),	-- Gently Shaken Gift
-11.0.5.56487
-i(230059),	-- Prowler's Deep Cowl
-i(230079),	-- Prowler's Deep Mask
 12.0.0.64339
 i(265943),	-- Firm Haranir Pillow \\ Lush Haranir Pillow
 i(265945),	-- Warm Haranir Blanket \\ Plush Haranir Blanket

@@ -53,6 +53,11 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		["groups"] = {
 			n(ACHIEVEMENTS, {
 			}),
+			filter(MOUNTS, {
+				i(269240, {	-- Luminous Sporeglider (MOUNT!)
+					["cost"] = { { "i", 269245, 4 } },	-- 4x Delicious Sporesnack
+				}),
+			}),
             n(QUESTS, {
                 q(96746, {  -- Sporefall: Rotmire
                     ["qg"] = 266165,    -- Sporomir
@@ -73,7 +78,6 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
                     i(264313),	-- Madcap Redcap (TOY!)
                     i(264367),	-- Mycomancer's Hearthspore (TOY!)
 					i(268280),	-- Sporelord's Shroom Cap (COSMETIC!)
-					-- mount thingy drops once per week, needs 4 in total
 					i(269245),	-- Delicious Sporesnack
 				}),
 			}),

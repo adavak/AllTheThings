@@ -804,6 +804,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(274878),	-- Hal'hadar Shadowripper's Blade (COSMETIC!)
 								i(274883),	-- Hal'hadar Warpguard's Poleaxe (COSMETIC!)
 								i(274879),	-- Mana-Amplified Crusher (COSMETIC!)
+								i(274887),	-- Mana-Overloaded Bulwark (COSMETIC!)
 								i(274881),	-- Phase Igniter (COSMETIC!)
 								i(274885),	-- Phase-Edged Falchion (COSMETIC!)
 								i(274877),	-- Phaseblade Headsplitter (COSMETIC!)
