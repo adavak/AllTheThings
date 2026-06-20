@@ -24,18 +24,29 @@ root(ROOTS.Zones, {
 					ach(6301),	-- Rally the Valley
 				}),
 				battlepets({
-					pet(706),	-- Bandicoon (PET!)
-					pet(707),	-- Bandicoon Kit (PET!)
-					pet(708),	-- Malayan Quillrat (PET!)
-					pet(709),	-- Malayan Quillrat Pup (PET!)
+					pet(706, {	-- Bandicoon (PET!)
+						["description"] = "Can be found all over the zone.",
+					}),
+					pet(707, {	-- Bandicoon Kit (PET!)
+						["description"] = "Respawns after some minutes as long as their Bandicoon parent is still alive. Can be found all over the zone, and common as secondary pets.",
+					}),
+					pet(708, {	-- Malayan Quillrat (PET!)
+						["description"] = "Can be found almost everywhere in Valley of the Four Winds.",
+					}),
+					pet(709, {	-- Malayan Quillrat Pup (PET!)
+						["description"] = "Respawns after some minutes as long as their Malayan Quillrat parent is still alive. Can be found all over the zone, and common as secondary pets.",
+					}),
 					pet(710, {	-- Marsh Fiddler (PET!)
-						["coord"] = { 41.6, 45.2, VALLEY_OF_THE_FOUR_WINDS },
+						["description"] = "Can be found all over The Heartland.",
+						["coord"] = { 41.6, 45.2, VALLEY_OF_THE_FOUR_WINDS }, -- The Heartland
 					}),
 					pet(677, {	-- Shy Bandicoon (PET!)
-						["coord"] = { 17.8, 42.8, VALLEY_OF_THE_FOUR_WINDS },
+						["description"] = "Can be found through Paoquan Hollow and the foothills south of Singing Marshes, but will never appear as secondary pets!",
+						["coord"] = { 17.8, 42.8, VALLEY_OF_THE_FOUR_WINDS }, -- Paoquan Hollow
 					}),
-					pet(711),	-- Sifang Otter (PET!)
-					pet(713),	-- Softshell Snapling (PET!)
+					pet(713, {	-- Softshell Snapling (PET!)
+						["description"] = "Can be found by bodies of water.",
+					}),
 				}),
 				explorationHeader({
 					visit_exploration(6096,{coord={45.4,26.8,VALLEY_OF_THE_FOUR_WINDS}}),	-- Cattail Lake

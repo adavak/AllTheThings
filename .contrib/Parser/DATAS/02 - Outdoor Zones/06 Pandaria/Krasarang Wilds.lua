@@ -26,24 +26,28 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					pet(716),	-- Amethyst Spiderling (PET!)
-					pet(714, {	-- Feverbite Hatchling (PET!)
-						["coord"] = { 18.0, 43.8, KRASARANG_WILDS },
+					pet(716, {	-- Amethyst Spiderling (PET!)
+						["description"] = "Can be found in the forests as well as secondary pets.",
 					}),
-					pet(678),	-- Jungle Grub (PET!)
-					pet(718),	-- Luyu Moth (PET!)
+					pet(714, {	-- Feverbite Hatchling (PET!)
+						["coord"] = { 18.4, 46.2, KRASARANG_WILDS },	-- The Forbidden Jungle, south
+					}),
+					pet(678, {	-- Jungle Grub (PET!)
+						["description"] = "Very common through the zone.",
+					}),
+					pet(718, {	-- Luyu Moth (PET!)
+						["description"] = "Can be found in the forests as well as secondary pets.",
+					}),
 					pet(708),	-- Malayan Quillrat (PET!)
 					pet(722, {	-- Mei Li Sparkler (PET!)
-						["coord"] = { 37.6, 44.0, KRASARANG_WILDS },
+						["description"] = "Can spawn around Temple of the Red Crane, and uncommonly through the forests. Otherwise common as secondary pet.",
 					}),
-					pet(717),	-- Savory Beetle (PET!)
-					pet(711, {	-- Sifang Otter (PET!)
-						["coord"] = { 86.4, 10.4, KRASARANG_WILDS },
+					pet(717, {	-- Savory Beetle (PET!)
+						["description"] = "Can be found in the forests as well as secondary pets.",
 					}),
-					pet(712, {	-- Sifang Otter Pup (PET!)
-						["coord"] = { 85.8, 16.6, KRASARANG_WILDS },
+					pet(723, {	-- Spiny Terrapin (PET!)
+							["description"] = "Can be found by bodies of water.",
 					}),
-					pet(723),	-- Spiny Terrapin (PET!)
 				}),
 				explorationHeader({
 					visit_exploration(6160,{coord={31.9,70.6,KRASARANG_WILDS}}),	-- Angkhal Pavilion

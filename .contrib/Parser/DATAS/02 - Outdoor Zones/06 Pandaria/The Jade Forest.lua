@@ -24,57 +24,94 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				battlepets({
-					pet(380, {	-- Bucktooth Flapper (PET!)
-						["coord"] = { 34.4, 47.6, THE_JADE_FOREST },
-					}),
-					pet(562, {	-- Coral Adder (PET!)
-						["coord"] = { 66.2, 86.4, THE_JADE_FOREST },
-					}),
-					pet(564),	-- Emerald Turtle (PET!)
-					pet(569, {	-- Garden Frog (PET!)
-						["coord"] = { 56.6, 45.2, THE_JADE_FOREST },
-					}),
-					pet(753, {	-- Garden Moth (PET!)
-						["coord"] = { 53.6, 45.2, THE_JADE_FOREST },
-					}),
-					pet(571),	-- Grove Viper (PET!)
-					pet(699),	-- Jumping Spider (PET!)
-					pet(565, {	-- Jungle Darter (PET!)
-						["coord"] = { 54.2, 71.0, THE_JADE_FOREST },
-					}),
-					pet(702),	-- Leopard Tree Frog (PET!)
-					pet(570),	-- Masked Tanuki (PET!)
-					pet(703),	-- Masked Tanuki Pup (PET!)
-					pet(566, {	-- Mirror Strider (PET!)
-						["coords"] = {
-							{ 32.6, 45.4, THE_JADE_FOREST },
-							{ 40.6, 53.4, THE_JADE_FOREST },
-						},
-					}),
-					pet(573, {	-- Sandy Petrel (PET!)
-						["coord"] = { 66.8, 28.0, THE_JADE_FOREST },
-					}),
-					pet(754, {	-- Shrine Fly (PET!)
-						["coords"] = {
-							{ 33.4, 50.6, THE_JADE_FOREST },
-							{ 36.6, 58.6, THE_JADE_FOREST },
-						},
-					}),
-					pet(711, {	-- Sifang Otter (PET!)
-						["coord"] = { 40.6, 93.8, THE_JADE_FOREST },
-					}),
-					pet(712, {	-- Sifang Otter Pup (PET!)
-						["coord"] = { 38.2, 92.6, THE_JADE_FOREST },
-					}),
-					pet(568, {	-- Silkbead Snail (PET!)
-						["coord"] = { 48.8, 94.2, THE_JADE_FOREST },
-					}),
-					pet(572, {	-- Spirebound Crab (PET!)
-						["coord"] = { 69.2, 30.0, THE_JADE_FOREST },
-					}),
-					pet(567, {	-- Temple Snake (PET!)
-						["coord"] = { 55.0, 56.6, THE_JADE_FOREST },
-					}),
+					["description"] = "Protip: Begin with the Wild Hatchlings found under the header for 'Order of the Cloud Serpent' as they only appears as primary pets. Battling them requires being Exalted with said faction.",
+					["groups"] = {
+						pet(380, {	-- Bucktooth Flapper (PET!)
+							["description"] = "Can be found on the riverside.",
+							["coords"] = {
+								{ 34.4, 47.6, THE_JADE_FOREST },
+								{ 56.8, 84.6, THE_JADE_FOREST },
+							},
+						}),
+						pet(562, {	-- Coral Adder (PET!)
+							["description"] = "Can only be found as primary pets at the given location. Otherwise found as secondary pet on Timeless Isle.",
+							["coord"] = { 66.2, 86.4, THE_JADE_FOREST },	-- Moonwater Retreat
+						}),
+						pet(564, {	-- Emerald Turtle (PET!)
+							["description"] = "Can be found on the riverside.",
+							["coord"] = { 45.7, 64.8, THE_JADE_FOREST },
+						}),
+						pet(569, {	-- Garden Frog (PET!)
+							["coord"] = { 56.6, 45.2, THE_JADE_FOREST },
+						}),
+						pet(753, {	-- Garden Moth (PET!)
+							["coord"] = { 53.6, 45.2, THE_JADE_FOREST },
+						}),
+						pet(571, {	-- Grove Viper (PET!)
+							["description"] = "Commonly found throughout the zone.",
+						}),
+						pet(699, {	-- Jumping Spider (PET!)
+							["description"] = "Commonly found throughout the zone.",
+						}),
+						pet(565, {	-- Jungle Darter (PET!)
+							["description"] = "Can be found on multiple locations in southern half of Jade Forest, but only a few spawns at each. Use a macro to find them. Otherwise found as secondary pet.",
+							["coords"] = {
+								{ 44.8, 93.9, THE_JADE_FOREST },	-- Garrosh'ar Point
+								{ 50.9, 84.3, THE_JADE_FOREST },	-- Paw'don Village, east of
+								{ 55.7, 83.7, THE_JADE_FOREST },	-- Pearl Lake, west of
+								{ 47.0, 76.9, THE_JADE_FOREST },	-- Nectarbreeze Orchard, southeast of
+								{ 47.4, 69.9, THE_JADE_FOREST },	-- Serpent's Overlook, east of
+								{ 52.9, 68.4, THE_JADE_FOREST },	-- Orchid Hollow
+								{ 55.8, 71.4, THE_JADE_FOREST },	-- Shang's Valley
+							},
+						}),
+						pet(702, {	-- Leopard Tree Frog (PET!)
+							["description"] = "Commonly found throughout the zone.",
+						}),
+						pet(570, {	-- Masked Tanuki (PET!)
+							["description"] = "Can be found throughout the zone, but they are few and far between. Otherwise found as secondary pet.",
+						}),
+						pet(703, {	-- Masked Tanuki Pup (PET!)
+							["description"] = "Can be found throughout the zone, but they are few and far between. Otherwise found as secondary pet.",
+						}),
+						pet(566, {	-- Mirror Strider (PET!)
+							["description"] = "Can be found on the riverside.",
+							["coords"] = {
+								{ 32.6, 45.4, THE_JADE_FOREST },
+								{ 40.6, 53.4, THE_JADE_FOREST },
+								{ 36.4, 80.8, THE_JADE_FOREST },	-- Slingtail Pits
+							},
+						}),
+						pet(573, {	-- Sandy Petrel (PET!)
+							["description"] = "Can only be found as primary pet at the given location. Otherwise found as secondary pet.",
+							["coord"] = { 66.8, 28.0, THE_JADE_FOREST },	-- Windward Isle
+						}),
+						pet(754, {	-- Shrine Fly (PET!)
+							["description"] = "Can only be found as primary pet at the given locations. Otherwise found as secondary pet.",
+							["coords"] = {
+								{ 33.4, 50.6, THE_JADE_FOREST },
+								{ 36.6, 58.6, THE_JADE_FOREST },
+							},
+						}),
+						pet(711, {	-- Sifang Otter (PET!)
+							["description"] = "Can be found around the body of water between Paw'don Village and Krasarang Wilds.",
+							["coord"] = { 38.8, 90.0, THE_JADE_FOREST },
+						}),
+						pet(712, {	-- Sifang Otter Pup (PET!)
+							["description"] = "Can be found around the body of water between Paw'don Village and Krasarang Wilds. Respawns after some minutes as long as their Silfang Otter parent is still alive. Only a few spawns as primary pets, but common as secondary pets.",
+							["coord"] = { 38.8, 90.0, THE_JADE_FOREST },
+						}),
+						pet(568, {	-- Silkbead Snail (PET!)
+							["coord"] = { 48.8, 94.2, THE_JADE_FOREST },
+						}),
+						pet(572, {	-- Spirebound Crab (PET!)
+							["coord"] = { 69.2, 30.0, THE_JADE_FOREST },	-- Windward Isle
+						}),
+						pet(567, {	-- Temple Snake (PET!)
+							["description"] = "Can be found around the Temple of the Jade Serpent.",
+							["coord"] = { 55.0, 56.6, THE_JADE_FOREST },	-- Temple of the Jade Serpent
+						}),
+					},
 				}),
 				explorationHeader({
 					exploration(5943),	-- Amberfly Bog
