@@ -3969,7 +3969,7 @@ root(ROOTS.NeverImplemented, {
 					i(189558),	-- 10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Dark
 					i(189559),	-- 10.0 Monster - Gnoll - Weapon - 2H Mace STR - Mace_2H_Gnoll_C_01 - Light
 				}),
-			})
+			}),
 		}),
 	}),
 });

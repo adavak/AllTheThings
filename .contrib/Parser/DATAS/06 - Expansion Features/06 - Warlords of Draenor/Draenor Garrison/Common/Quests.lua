@@ -18,7 +18,7 @@ local GARRISON_CAMPAIGN = createHeader({
 		cn = "要塞战役",
 		tw = "要塞戰役",
 	},
-})
+});
 
 local WOD_CHROMIE_TIME_DESCRIPTION
 -- #IF AFTER 9.0.1

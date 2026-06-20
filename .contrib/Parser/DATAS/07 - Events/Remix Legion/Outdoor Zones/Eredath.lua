@@ -15,7 +15,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_LEGION, n(REMIX_LEGION, {
 								i(253520),	-- Enclave Aspirant's Hatchet
 							},
 						}),
-					})
+					}),
 				},
 			}),
 		}),

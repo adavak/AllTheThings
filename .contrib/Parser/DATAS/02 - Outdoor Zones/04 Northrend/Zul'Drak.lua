@@ -335,7 +335,7 @@ root(ROOTS.Zones, {
 									o(190542),	-- Dead Thornwood
 									o(190543),	-- Dead Thornwood
 								},
-							})
+							}),
 						},
 					}),
 					q(12894, {	-- Crusader Forward Camp

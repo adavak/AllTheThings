@@ -307,7 +307,7 @@ root(ROOTS.PVP, pvp(expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { A
 						honor(875, i(218443)),	-- Forged Aspirant's Warglaive
 					}),
 				}),
-			})
+			}),
 		})),
 		n(PVP_GLADIATOR, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0_SEASONSTART, ADDED_12_0_1_LAUNCH } }, {
 			n(219222, {	-- Lalandi <Conquest Quartermaster>

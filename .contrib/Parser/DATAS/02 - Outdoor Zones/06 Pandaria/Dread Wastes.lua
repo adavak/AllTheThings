@@ -215,7 +215,7 @@ root(ROOTS.Zones, {
 										["groups"] = {
 											i(90173),	-- Pandaren Water Spirit (PET!)
 										},
-									})
+									}),
 								},
 							}),
 						},

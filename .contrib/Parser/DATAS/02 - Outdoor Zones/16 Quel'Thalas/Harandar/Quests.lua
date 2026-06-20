@@ -468,7 +468,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							o(620498, {	-- Ruia's Musings
 								["coord"] = { 30.5, 67.5, MAP.MIDNIGHT.HARANDAR },
 								["groups"] = { i(265820) },	-- Ruia's Musings, Part 3 (QI!)
-							})
+							}),
 						},
 					}),
 					q(86882, {	-- Alndust in Right Hands

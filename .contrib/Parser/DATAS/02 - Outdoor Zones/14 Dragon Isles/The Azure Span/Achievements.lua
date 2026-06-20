@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 				["sym"] = {{ "achievement_criteria" }},
 			}),
 		}),
-	})
+	}),
 })));
 -- root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
 -- 	m(DRAGON_ISLES, {

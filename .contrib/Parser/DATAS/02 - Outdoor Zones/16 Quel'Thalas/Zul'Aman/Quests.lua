@@ -759,7 +759,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["groups"] = {
 							i(264182, {	-- Kelum'ko's Generous Aromatic Gift
 								i(264183),	-- Kelum'ko's Generous Aromatic Gift
-							})
+							}),
 						},
 					}),
 				}),

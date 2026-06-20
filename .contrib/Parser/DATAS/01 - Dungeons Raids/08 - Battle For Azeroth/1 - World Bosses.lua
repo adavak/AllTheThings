@@ -321,7 +321,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			n(WORLD_BOSSES, {
 				q(52998),	-- Ji'arak Kill ID
 				q(52264),	-- Ji'arak Bonus Roll
-			})
+			}),
 		}),
 	}),
 	}),

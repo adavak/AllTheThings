@@ -24,7 +24,7 @@ local IRON_INVASION = createHeader({
 	lore = {
 		en = "The Iron Horde have activated their Dark Portal and have begun streaming through it in the Blasted Lands. They've made it all the way to Blackrock Spire and have designs on the rest of Azeroth. In the Blasted Lands, Nethergarde Keep has fallen, Okril'lon Hold (previously Dreadmaul Hold) has been taken over, and the Dreadmaul tribe have taken up with the Iron Horde as endless numbers of orcs stream from the Dark Portal.",
 	},
-})
+});
 
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 	n(IRON_INVASION, {

@@ -66,7 +66,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							["groups"] = {
 								i(33926, {	-- Sealed Scroll Case
 									["description"] = "Can contain profession recipes.",	-- Only applies for the TBC version of Zul'Aman.
-								})
+								}),
 							},
 						}),
 						-- #endif

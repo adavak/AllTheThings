@@ -171,7 +171,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 						["provider"] = { "i", 168047 },	-- Rustbolt Kegerator
 						["coord"] = { 71.4, 32.6, MECHAGON },
 					}),
-				})
+				}),
 			},
 		})),
 	}),

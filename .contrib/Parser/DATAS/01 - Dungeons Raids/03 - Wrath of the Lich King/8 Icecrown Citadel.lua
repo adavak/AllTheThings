@@ -236,7 +236,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_F
 										["ignoreSource"] = true,
 										["collectible"] = false
 										-- #endif
-									})
+									}),
 								},
 							}),
 						},

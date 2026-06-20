@@ -233,7 +233,7 @@ root(ROOTS.HiddenQuestTriggers, {
 				q(95166,{isDaily=true}),	-- Pet the Dog (245551)
 			},
 		}),
-	})
+	}),
 });
 
 root(ROOTS.HiddenQuestTriggers, {
@@ -245,5 +245,5 @@ root(ROOTS.HiddenQuestTriggers, {
 				q(95406),	-- Lost Animals, Triggered after completing 'Lost Animals' (95438)
 			},
 		}),
-	})
+	}),
 });

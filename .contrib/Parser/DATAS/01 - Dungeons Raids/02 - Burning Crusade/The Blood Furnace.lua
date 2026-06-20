@@ -250,7 +250,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(28121),	-- Icon of Unyielding Courage
 						-- #endif
 					},
-				})
+				}),
 			}),
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				-- #if BEFORE 4.2.0

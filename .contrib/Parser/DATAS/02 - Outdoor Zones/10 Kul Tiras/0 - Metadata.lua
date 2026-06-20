@@ -9,4 +9,4 @@ root(ROOTS.Zones, {
 		["zone-text-continent"] = true,
 		["timeline"] = { ADDED_8_0_1 },
 	}),
-})
+});

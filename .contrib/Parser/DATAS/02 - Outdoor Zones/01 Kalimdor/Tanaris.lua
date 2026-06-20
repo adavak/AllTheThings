@@ -3664,7 +3664,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 								-- #else
 								"This item have three sources: Pirate's Footlocker, Captain's Chest, and Cuergo's Hidden Treasure.\nPirate's Footlocker is a common drop from mobs on Lost Rigger's Cove.\nCaptain's Chest is found in the captain's quarters in one of the two ships harboured at Lost Rigger's Cove. It only be opened by a Captain's Key, an uncommon item contained in Pirate's Footlockers.\nCuergo's Hidden Treasure is rewarded from the quest Cuergo's Gold.",
 								-- #endif
-						})
+						}),
 					},
 				}),
 			}),

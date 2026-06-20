@@ -873,7 +873,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							["provider"] = { "n", 112299 },	-- Bath'rah the Windwatcher
 							["coord"] = { 31.1, 35.1, THE_HEART_OF_AZEROTH },
 						}),
-					})
+					}),
 				}),
 				n(VENDORS, {
 					n(112318, {	-- Flamesmith Lanying <Earthen Ring Quartermaster>

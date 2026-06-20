@@ -4123,7 +4123,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, timelineSelf({ ["timeline"] = { ADDE
 					["coord"] = { 36.3, 16.7, THE_DREAD_PIT },
 					["questID"] = 83659,
 				}),
-			})
+			}),
 		},
 	}),
 	m(THE_SINKHOLE, {

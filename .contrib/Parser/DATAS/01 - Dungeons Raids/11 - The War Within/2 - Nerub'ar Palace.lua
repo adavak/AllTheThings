@@ -447,7 +447,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					["groups"] = {
 						i(226810),	-- Infiltrator's Shroud (TOY!)
 					},
-				})
+				}),
 			}),
 			o(456208, {	-- The Catalyst
 				["description"] = "This allows converting certain pieces of gear into Tier items for your Class.\n\nMake sure to equip your item first before converting it.",
@@ -753,5 +753,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				currency(3094),	-- Tracking Currency for Severed Threads stacks
 			},
 		}),
-	})
+	}),
 })));

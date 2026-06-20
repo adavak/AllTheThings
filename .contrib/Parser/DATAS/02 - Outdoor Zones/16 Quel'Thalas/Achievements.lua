@@ -75,6 +75,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 46.6, 35.6, VALSHARAH },
 				["timeline"] = { ADDED_12_0_1_LAUNCH },
 			}),
-		})
+		}),
 	},
 }));

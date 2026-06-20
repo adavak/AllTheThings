@@ -1309,7 +1309,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CLASSIC, {
 				{
 					i(1179, {	-- Ice Cold Milk
 						["description"] = "Can be bought from bartenders, innkeepers and general goods vendors.",
-					})
+					}),
 				}
 			),
 		}),

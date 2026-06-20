@@ -124,5 +124,5 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADD
 				}),
 			}),
 		},
-	})
+	}),
 })));

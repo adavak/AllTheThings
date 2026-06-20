@@ -1324,7 +1324,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 											i(184039),	-- Clean White Hat
 											i(183790),	-- Platter Master Stue
 										},
-									})
+									}),
 								}),
 								o(360054, {	-- Sticky Cat
 									["coord"] = { 67.9, 79.3, MALDRAXXUS },

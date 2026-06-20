@@ -480,7 +480,7 @@ root(ROOTS.NeverImplemented, {
 					i(139293),	-- Finely-Tailored Red Holiday Shirt
 					i(139297),	-- Finely-Tailored Red Holiday Shorts
 					i(146976),	-- Gladiator's Tattered Cloak
-				})
+				}),
 			}),
 			n(WEAPONS, {
 				filter(ONE_HANDED_AXES, {

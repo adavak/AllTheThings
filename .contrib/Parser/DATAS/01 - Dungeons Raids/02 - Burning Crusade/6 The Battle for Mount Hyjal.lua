@@ -926,7 +926,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 							["cost"] = { { "i", 31099, 1 } },	-- Leggings of the Forgotten Vanquisher
 						}),
 					}),
-				})
+				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
 				["crs"] = {
@@ -1094,7 +1094,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_THREE
 					i(30912),	-- Leggings of Eternity
 					i(30903),	-- Legguards of Endless Rage
 				},
-			})
+			}),
 		},
 	}),
 }))));

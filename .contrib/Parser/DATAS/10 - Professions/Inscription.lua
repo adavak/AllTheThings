@@ -138,11 +138,11 @@ GLYPH_OF_ARMORS = r(95710, {	-- Glyph of Armors / Glyph of Rapid Teleportation [
 GLYPH_OF_THE_BATTLE_HEALER = r(119481, {	-- Glyph of the Battle Healer
 	["name"] = "Glyph of the Battle Healer",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
-})
+});
 GLYPH_OF_ASPECT_OF_THE_BEAST = r(124442, {	-- Glyph of Aspect of the Beast
 	["name"] = "Glyph of Aspect of the Beast",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
-})
+});
 GLYPH_OF_ASPECT_OF_THE_VIPER_AND_CONCUSSIVE_SHOT_AND_DISTRACTING_SHOT = r(56998, {	-- Glyph of Aspect of the Viper / Glyph of Concussive Shot [CATA] / Glyph of Distracting Shot [MOP+]
 	-- #if AFTER MOP
 	["name"] = "Glyph of Distracting Shot",
@@ -938,7 +938,7 @@ GLYPH_OF_FERAL_SPIRIT = r(64288, {	-- Glyph of Feral Spirit
 GLYPH_OF_FETCH = r(126801, {	-- Glyph of Fetch
 	["name"] = "Glyph of Fetch",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
-})
+});
 GLYPH_OF_FIGHTING_POSE = r(112469, {	-- Glyph of Fighting Pose
 	["name"] = "Glyph of Fighting Pose",
 	["timeline"] = { ADDED_5_0_4 },	-- This was moved to Research with 6.0.1
@@ -1126,7 +1126,7 @@ GLYPH_OF_GARROTE = r(57123, {	-- Glyph of Garrote
 GLYPH_OF_GATEWAY_ATTUNEMENT = r(135561, {	-- Glyph of Gateway Attunement
 	["name"] = "Glyph of Gateway Attunement",
 	["timeline"] = { ADDED_5_0_4, DELETED_7_0_3 },
-})
+});
 GLYPH_OF_GHOST_WOLF = r(59326, {	-- Glyph of Ghost Wolf
 	["name"] = "Glyph of Ghost Wolf",
 	["timeline"] = { ADDED_3_0_2, DELETED_7_0_3 },

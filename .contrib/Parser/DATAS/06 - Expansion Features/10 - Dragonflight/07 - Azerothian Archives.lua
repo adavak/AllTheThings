@@ -357,7 +357,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 							["groups"] = {
 								i(208228),	-- Ancient Trade-bonded Tablet (QI!)
 							},
-						})
+						}),
 					},
 				}),
 				q(77486, {	-- Excavation: Gaze of Neltharion

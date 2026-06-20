@@ -3030,7 +3030,7 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 				i(170903),	-- Felsoul Sandals
 				i(170908),	-- Felsoul Shoulderpads
 				i(170910),	-- Felsoul Wristwraps
-			})
+			}),
 		}),
 		filter(LEATHER, {
 			expansion(EXPANSION.BFA, patch(0,1), {

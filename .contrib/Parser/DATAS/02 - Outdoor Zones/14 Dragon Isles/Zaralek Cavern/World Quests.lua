@@ -136,7 +136,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_1_0 } }
 									o(398131),	-- Drakeforged Sword
 									o(398137),	-- Drakeforged Vambrace
 								},
-							})
+							}),
 						},
 					}),
 					q(75663, {	-- Restless Torment

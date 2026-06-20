@@ -3722,7 +3722,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 								n(229103, {	-- Scrollsage Nola
 									["description"] = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding west of Atal'Dazar.",
 									["coord"] = { 24.4, 44.4, ZULDAZAR },
-								})
+								}),
 							},
 						}),
 						-- The Case of Great Aspirations

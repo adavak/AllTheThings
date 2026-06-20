@@ -253,7 +253,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 					ig(127772, {	-- Gemcutter Module: Haste
 						["requireSkill"] = JEWELCRAFTING,
 						["description"] = "Take this recipe to the \"Apexis Gemcutter\" in Tanaan Jungle to learn. If you have this recipe already you will need to revisit the vendor to cache the recipe.",
-					})
+					}),
 				}),
 			}),
 			n(MYTHIC_PLUS, sharedDataSelf({ ["timeline"] = { ADDED_12_0_1_SEASONSTART, REMOVED_12_1_0 } }, {

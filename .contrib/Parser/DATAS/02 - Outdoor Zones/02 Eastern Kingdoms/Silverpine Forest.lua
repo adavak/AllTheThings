@@ -1985,7 +1985,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						i(257412, {	-- Stoppered Gilnean Barrel (DECOR!)
 							["timeline"] = { ADDED_11_2_7 },
-						})
+						}),
 					},
 				}),
 				n(5748, {	-- Killian Sanatha <Fisherman>

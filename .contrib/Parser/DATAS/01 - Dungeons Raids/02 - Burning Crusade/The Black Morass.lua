@@ -162,7 +162,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						-- #endif
 						i(28190),	-- Scarab of the Infinite Cycle
 					},
-				})
+				}),
 			}),
 			d(DIFFICULTY.DUNGEON.HEROIC, {
 				-- #if BEFORE 4.2.0
@@ -255,7 +255,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
 							i(33858),	-- Aeonus' Hourglass
 						},
-					})
+					}),
 				},
 			}),
 		},

@@ -1316,7 +1316,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 						}),
 					},
 				}),
-			})
+			}),
 		})),
 		n(MARCH, bubbleDownSelf({ ["timeline"] = { "added 11.1.0.59466", "removed 11.1.0.60037" } }, {
 			n(FILLED_TRAVELERS_LOG, {

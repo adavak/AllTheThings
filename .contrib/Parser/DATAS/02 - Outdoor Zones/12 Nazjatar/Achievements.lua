@@ -453,7 +453,7 @@ root(ROOTS.Zones, m(NAZJATAR, bubbleDownSelf({ ["timeline"] = { ADDED_8_2_0 } },
 			}),
 			crit(46122, {	-- 7 Glowing Arcane Trunks
 				["provider"] = { "o", 332220 },
-			})
+			}),
 		}),
 		ach(13638, {	-- Undersea Usurper
 			["sym"] = {{"meta_achievement",

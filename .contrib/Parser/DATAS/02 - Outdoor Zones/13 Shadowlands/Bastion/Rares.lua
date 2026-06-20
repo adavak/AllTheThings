@@ -66,7 +66,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 							{ 33.2, 23.2, BASTION },
 						},
 						["groups"] = { i(180613) },	-- Fragile Humility Scroll (not dropped by the boss, but putting here so that the source text associates it w/ the rare)
-					})
+					}),
 				},
 			}),
 			n(160629, {	-- Baedos

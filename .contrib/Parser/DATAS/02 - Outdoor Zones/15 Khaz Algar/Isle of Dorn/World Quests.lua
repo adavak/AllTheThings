@@ -54,7 +54,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 					["groups"] = {
 						o(449528, {	-- Opal-Mining Tools
 							i(224074),	-- Opal-Mining Tools (QI!)
-						})
+						}),
 					}
 				}),
 				q(80395, {	-- Elemental Excavation

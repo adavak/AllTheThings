@@ -72,5 +72,5 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, {
 				}),
 			}),
 		},
-	})
+	}),
 }));

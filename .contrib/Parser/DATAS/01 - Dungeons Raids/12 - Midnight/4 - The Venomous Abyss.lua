@@ -420,12 +420,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = {
 					Boss(BARGAINED_CROWN),
 					Boss(ULATEK, {
 						i(270909, {	-- Slumbering Coil Curio
-						["sym"] = {
-							{"sub", "instance_tier",1320,DIFFICULTY.RAID.LFR},
-						},
-						["up"] = IGNORED_VALUE,
+							["sym"] = {
+								{"sub", "instance_tier",1320,DIFFICULTY.RAID.LFR},
+								},
+							["up"] = IGNORED_VALUE,
+						}),
 					}),
-					})
 				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.MULTI.NORMAL_PLUS).AddGroups({

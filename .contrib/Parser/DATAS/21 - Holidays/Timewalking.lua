@@ -4865,7 +4865,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 							i(144070, {	-- Shado-Pan Dragon Gun
 								["cost"] = { { "c", TIMEWARPED_BADGE, 50 } },
 							}),
-						})
+						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 						i(234775, {	-- Amber Pandaren Fan
@@ -5029,7 +5029,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 						}),
 						i(143948, {	-- Chilled Satchel of Vegetables
 							["cost"] = { { "c", TIMEWARPED_BADGE, 25 } },
-						})
+						}),
 					}),
 					filter(MOUNTS, {
 						i(234740, {	-- Copper-Maned Quilen Reins (MOUNT!)

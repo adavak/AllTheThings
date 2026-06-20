@@ -278,7 +278,7 @@ root(ROOTS.Zones, {
 										["groups"] = {
 											i(92799),	-- Pandaren Air Spirit (PET!)
 										},
-									})
+									}),
 								},
 							}),
 						},

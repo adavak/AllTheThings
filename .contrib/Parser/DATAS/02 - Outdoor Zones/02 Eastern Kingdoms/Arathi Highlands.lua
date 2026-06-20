@@ -2769,5 +2769,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 		m(ARATHI_HIGHLANDS, {
 			q(52781),	-- Triggers when speaking with Zidormi in Arathi Highlands to travel back in time
 		}),
-	})
+	}),
 })));

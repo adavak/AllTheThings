@@ -391,7 +391,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, {
 						},
 					}),
 				},
-			})
+			}),
 		},
 	}),
 }));

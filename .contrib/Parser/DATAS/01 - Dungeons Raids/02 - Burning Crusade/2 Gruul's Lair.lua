@@ -74,7 +74,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					i(28823),	-- Eye of Grull
 					i(31750),	-- Earthen Signet
 				},
-			})
+			}),
 		},
 	}),
 }))));

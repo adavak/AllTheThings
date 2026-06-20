@@ -558,6 +558,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.LEGION, bubbleDownSelf({ ["t
 				q(40422),	-- Tracking Quest: VotW Started - triggers when you take the portal to the Black Temple to start the Vault of the Wardens scenario
 				q(42181),	-- Triggered after turning in "The Lone Mountain" (questID 39733)
 			}),
-		})
+		}),
 	}),
 })));

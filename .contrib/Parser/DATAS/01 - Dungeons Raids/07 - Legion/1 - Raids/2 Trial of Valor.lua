@@ -221,7 +221,7 @@ root(ROOTS.Instances, expansion(EXPANSION.LEGION, bubbleDown({ ["timeline"] = { 
 					ach(11581, {	-- Ahead of the Curve: Helya
 						["timeline"] = { REMOVED_7_2_0 },
 					}),
-				})
+				}),
 			}),
 			Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
 				ZoneDrops({}),

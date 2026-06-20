@@ -446,7 +446,7 @@ root(ROOTS.Zones, {
 									92680,	-- Flawless Mechanical Battle-Stone
 									92681,	-- Flawless Undead Battle-Stone
 								}},
-							})
+							}),
 						},
 					})),
 				}),

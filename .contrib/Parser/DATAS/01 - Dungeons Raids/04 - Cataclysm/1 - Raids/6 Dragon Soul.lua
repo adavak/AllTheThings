@@ -927,7 +927,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 					n(55891),	-- Ka'anu Reevs
 					n(55870),	-- Sky Captain Swayze
 				},
-			})
+			}),
 		},
 	}))),
 }));

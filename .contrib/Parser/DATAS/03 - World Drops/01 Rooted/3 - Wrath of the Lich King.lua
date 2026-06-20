@@ -1663,5 +1663,5 @@ root(ROOTS.WorldDrops, applyclassicphase(WRATH_PHASE_ONE, expansion(EXPANSION.WR
 				}),
 			}
 		),
-	})
+	}),
 })));

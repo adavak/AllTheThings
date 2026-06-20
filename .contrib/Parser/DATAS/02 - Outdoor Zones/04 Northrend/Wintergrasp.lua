@@ -29,7 +29,7 @@ local ARCANUM_ITEMS = pvp({
 	})),
 	moh(1, sks(30, i(44067))),	-- Inscription of Triumph
 	moh(1, sks(30, i(44068))),	-- Inscription of Dominance
-})
+});
 local JEWELCRAFTING_RECIPES = pvp({
 	-- #if BEFORE CATA
 	moh(1, sks(12, i(41730))),	-- Design: Durable Monarch Topaz (RECIPE!)

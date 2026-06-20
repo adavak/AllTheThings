@@ -582,7 +582,7 @@ root(ROOTS.NeverImplemented, {
 				expansion(EXPANSION.CATA, patch(0,3), {
 					-- Wouter NOTE: this is made available with the addition of Crate of Salvage in WoD
 					i(55370),	-- Sorrowmurk Scepter
-				})
+				}),
 			}),
 			-- #endif
 			expansion(EXPANSION.MOP, {
@@ -2023,7 +2023,7 @@ root(ROOTS.NeverImplemented, {
 			i(249614),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Crossbow AGI
 			i(249615),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Staff AGI
 			i(249616),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Staff INT
-			i(249617),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Sword 
+			i(249617),	-- [PH] 12.0 Delves - Level-Up - Weapon - 2H Sword
 			i(248060),	-- [TEMPLATE] 1h Dagger Int
 			i(248079),	-- [TEMPLATE] Summer Soother's Wand
 			i(235802),	-- Blazing Demonhilt Sword
@@ -2050,7 +2050,7 @@ root(ROOTS.NeverImplemented, {
 			i(253388),	-- Tyrannus's Runeblade
 			i(235806),	-- Tytalor's Staff
 			i(248280),	-- Void Analysis Baton
-			i(257534),	-- Voidbreaker's 
+			i(257534),	-- Voidbreaker's
 			i(257235),	-- Voidbreaker's Cleaver
 			i(257239),	-- Voidbreaker's Knife
 			i(257236),	-- Voidbreaker's Runeaxe

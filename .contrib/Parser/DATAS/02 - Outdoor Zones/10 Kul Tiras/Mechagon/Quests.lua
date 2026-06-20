@@ -1067,7 +1067,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_2_0 } }, {
 							o(325976),	-- Golden Cogpaste
 							o(325980),	-- Golden Cogpaste
 						},
-					})
+					}),
 				},
 			}),
 			q(54922, {	-- The Nuts and Bolts of It

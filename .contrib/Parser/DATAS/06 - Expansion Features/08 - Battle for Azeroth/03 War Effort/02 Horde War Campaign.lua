@@ -1243,7 +1243,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, bubbleDownSelf({ ["timeli
 							["groups"] = {
 								o(311174, {	-- Volatile Azerite Weapons
 									i(165690),	-- Volatile Azerite (QI!)
-								})
+								}),
 							},
 						}),
 						q(54178, {	-- Catching a Ride

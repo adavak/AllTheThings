@@ -3432,5 +3432,5 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.BFA, bubbleDownSelf({ ["time
 			q(54411),	-- triggers when speaking with Zidormi in Darkshore to travel back in time (spellID 395734)
 			q(52759),	-- Talked to Zom in Darkshore, which normally has 1 option. But this time had 2 "see past" options.
 		}),
-	})
+	}),
 })));

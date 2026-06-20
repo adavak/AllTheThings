@@ -107,7 +107,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, {
 						}),
 						i(122195, {	-- Music Roll: Legends of Azeroth
 							["timeline"] = { ADDED_6_1_0 },
-						})
+						}),
 					},
 				}),
 			}),

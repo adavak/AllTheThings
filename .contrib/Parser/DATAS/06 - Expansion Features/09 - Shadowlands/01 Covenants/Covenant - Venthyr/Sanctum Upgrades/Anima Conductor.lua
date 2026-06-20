@@ -169,7 +169,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 						n(TIER_THREE, {
 							n(RARES, {
 								FORGEMASTER_MADALAV,
-							})
+							}),
 						}),
 					}),
 				}),

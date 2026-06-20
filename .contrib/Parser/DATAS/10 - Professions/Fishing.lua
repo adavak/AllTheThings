@@ -556,7 +556,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 					n(102359, {	-- Landlocked Shark
 						i(133741),	-- Seabottom Squid
 						i(139668),	-- Seabottom Squid [AP]
-					})
+					}),
 				},
 			}),
 			i(133711, {	-- Swollen Murloc Egg

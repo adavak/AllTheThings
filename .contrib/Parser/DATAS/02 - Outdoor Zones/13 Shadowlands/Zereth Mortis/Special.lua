@@ -50,6 +50,6 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 				["description"] = "Can be fished from around Hirukon spawn point, or purchased from auction house.",
 				["coord"] = { 52.2, 75.2, ZERETH_MORTIS },
 			}),
-		})
+		}),
 	}),
 })));

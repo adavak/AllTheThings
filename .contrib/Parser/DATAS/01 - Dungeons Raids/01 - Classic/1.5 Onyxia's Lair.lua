@@ -659,7 +659,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							i(49464),	-- Shiny Shard of the Flame
 							i(49488),	-- Shiny Shard of the Scale
 						},
-					})
+					}),
 				},
 			})),
 			d(DIFFICULTY.LEGACY_RAID.PLAYER40, {

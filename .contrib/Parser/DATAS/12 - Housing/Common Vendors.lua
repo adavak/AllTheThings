@@ -547,5 +547,5 @@ root(ROOTS.Housing, {
 			},
 		}),
 	}),
-})
+});
 -- #endif

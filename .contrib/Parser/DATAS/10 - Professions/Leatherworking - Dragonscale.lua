@@ -257,6 +257,6 @@ profession(LEATHERWORKING, {
 				-- #endif
 			},
 		}),
-	})
+	}),
 });
 -- #endif

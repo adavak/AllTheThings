@@ -101,5 +101,5 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 				}),
 			}),
 		},
-	})
+	}),
 })));

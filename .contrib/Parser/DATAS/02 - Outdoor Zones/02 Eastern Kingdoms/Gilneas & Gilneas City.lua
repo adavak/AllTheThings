@@ -1315,7 +1315,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.CATA, bubbleDownSelf({ ["tim
 		m(GILNEAS, {
 			n(QUESTS, {
 				q(25331),	-- Grandma's Cat (when completing 14401)
-			})
+			}),
 		}),
 	}),
 })));

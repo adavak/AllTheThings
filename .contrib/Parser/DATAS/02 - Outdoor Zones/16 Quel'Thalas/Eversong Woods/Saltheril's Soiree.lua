@@ -220,7 +220,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							o(568213),	-- Mana-Fortified Vintage
 							o(568214),	-- Mana-Fortified Vintage
 						},
-					})
+					}),
 				}),
 			})),
 			-- Shades of the Row weekly

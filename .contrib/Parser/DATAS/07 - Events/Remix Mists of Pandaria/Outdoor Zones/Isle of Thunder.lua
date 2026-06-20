@@ -297,7 +297,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 					i(216576),	-- Wasteland Deflector (wowhead)
 					i(215869),	-- Waterweaver's Staff (wowhead)
 					i(215776),	-- Zeeg's Ancient Kegbreaker (wowhead)
-				})
+				}),
 			}),
 		},
 	}),

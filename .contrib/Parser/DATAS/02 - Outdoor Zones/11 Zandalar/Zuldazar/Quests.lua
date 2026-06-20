@@ -9,7 +9,7 @@ local ASPIRANTS_EQUIPMENT_CACHE = i(167744, {	-- Aspirant's Equipment Cache
 		{ "pop" },	-- discard item type headers
 		{ "modID", 47 },	-- blue. still the wrong iLvl because i can't also apply 2, but it looks better
 	},
-})
+});
 
 root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 	m(ZULDAZAR, {

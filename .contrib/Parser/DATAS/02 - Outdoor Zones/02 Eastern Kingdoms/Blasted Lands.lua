@@ -1369,7 +1369,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["groups"] = {
 						objective(1, {	-- 0/15 Satyr Blood
 							["provider"] = { "i", 18603 },	-- Satyr Blood
-						})
+						}),
 					},
 				}),
 				q(7582, {	-- The Prison's Casing
@@ -1387,7 +1387,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 								7463,	-- Hederine Slayer
 								7462,	-- Hederine Manastalker
 							},
-						})
+						}),
 					},
 				}),
 				q(25696, {	-- The Sunveil Excursion

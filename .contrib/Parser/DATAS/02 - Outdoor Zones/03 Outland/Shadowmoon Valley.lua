@@ -2713,7 +2713,7 @@ root(ROOTS.Zones, {
 							i(122228),	-- Music Roll: The Black Temple
 						},
 					})),
-				})
+				}),
 			},
 		})),
 	})),
