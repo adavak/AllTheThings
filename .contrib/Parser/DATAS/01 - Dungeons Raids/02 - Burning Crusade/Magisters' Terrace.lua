@@ -261,7 +261,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_FIVE,
 				}),
 				BossOnly(VEXALLUS, {
 					i(73084),	-- Volatile Essence (QI!)
-				})
+				}),
 				BossOnly(DELRISSA, {
 					i(35756),	-- Formula: Enchant Cloak - Greater Dodge / TBC: Formula: Enchant Cloak - Steelweave (RECIPE!)
 				}),
