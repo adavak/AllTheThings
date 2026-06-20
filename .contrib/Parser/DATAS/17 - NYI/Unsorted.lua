@@ -2382,12 +2382,10 @@ root(ROOTS.Unsorted, {
 				i(264724),	-- Auspicious Golden Carp Lantern
 				i(264725),	-- Auspicious Imperial Lion
 				i(266071),	-- Auspicious Wooden Chair
-				i(267372),	-- Banner of Five Dawns
 				i(269604),	-- Auspicious Picnic Basket
 				i(269605),	-- Auspicious Meal Case
 				i(272353),	-- Auspicious Verdant Basin
 				i(272354),	-- Auspicious Stone Lion
-				i(272359),	-- Square Woolen Rug
 			}),
 			filter(ILLUSIONS, {
 				i(276546),	-- Illusion: Summer Sun Blossom
@@ -2569,7 +2567,6 @@ root(ROOTS.Unsorted, {
 				}),
 			}),
 			n(DECOR, {
-				i(245298),	-- Wild Violet Bellflowers (DECOR!)
 				i(263883),	-- Small Sturdy Wooden Trellis (DECOR!)
 			}),
 			filter(MISC, {

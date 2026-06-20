@@ -880,6 +880,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 								["timeline"] = { ADDED_11_2_7 },
 								["cost"] = { { "c", ORDER_RESOURCES, 500 } },
 							}),
+							i(267372, {	-- Banner of Five Dawns (DECOR!)
+								["timeline"] = { ADDED_12_0_7 },
+								["cost"] = { { "c", ORDER_RESOURCES, 1000 } },
+							}),
 							i(140543),	-- Fist of the Broken Temple
 							i(140940, {	-- Grandmaster's Armor Kit
 								["cost"] = { { "c", ORDER_RESOURCES, 2000 } },
