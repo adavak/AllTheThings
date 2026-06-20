@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local de,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local de,flt,fp,h,i,mnt,p,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Unsorted={
 x(12,{
 x(12.0007,{awp=120007,g={
@@ -222,8 +222,7 @@ s(309328,275476,{f=2}),
 i(275999),
 s(309648,276299,{f=23}),
 s(309643,276291,{f=1}),
-s(309642,276290,{f=25}),
-s(309065,274887,{f=8})}),
+s(309642,276290,{f=25})}),
 h(-679,{
 de(5129,{itemID=248961,spellID=1248176}),
 de(16098,{itemID=264721,spellID=1272517}),
@@ -236,6 +235,11 @@ de(21060,{itemID=269604,spellID=1285734}),
 de(21061,{itemID=269605,spellID=1285735}),
 de(21945,{itemID=272353,spellID=1291006}),
 de(21946,{itemID=272354,spellID=1291007})}),
+h(-32,{
+fp(3270),
+fp(3268),
+fp(3267),
+fp(3269)}),
 flt(103,{
 i(276546,{f=55,spellID=1299923})}),
 flt(50,{
@@ -276,12 +280,13 @@ toy(276370),
 i(276374,{f=55,spellID=1299518}),
 i(276216,{spellID=1294322})}),
 flt(100,{
-mnt(1284973,{itemID=269240}),
+mnt(1294767,{itemID=274681}),
 mnt(1292102,{itemID=273317}),
-mnt(1292342,{itemID=273650}),
 mnt(1292344,{itemID=273651}),
+mnt(1292342,{itemID=273650}),
 mnt(1292345,{itemID=273652}),
-mnt(1294767,{itemID=274681})}),
+mnt(1261369),
+mnt(1294677)}),
 flt(104,{
 i(274580),
 i(274913),
@@ -301,7 +306,9 @@ i(276255),
 i(276276),
 i(276373,{spellID=1299516}),
 i(277116),
-i(276342)})}}),
+i(276342)}),
+flt(102,{
+toy(264368)})}}),
 x(12.0005,{awp=120005,g={
 flt(2,{
 h(-88,{
@@ -391,7 +398,10 @@ s(304591,268493,{f=23}),
 s(304595,268497,{f=34}),
 s(307698,271814,{f=29})})}),
 h(-679,{
-de(15293,{itemID=263883,spellID=1270758})}),
+de(22775,{itemID=273640,spellID=1292255}),
+de(21947,{itemID=272355,spellID=1291008}),
+de(15293,{itemID=263883,spellID=1270758}),
+de(21948,{itemID=272356,spellID=1291009})}),
 flt(50,{
 i(267278,{f=55}),
 i(271353),
@@ -413,6 +423,8 @@ mnt(1283906,{itemID=268878}),
 mnt(1283911,{itemID=268875}),
 mnt(1282274,{itemID=268362}),
 mnt(1282268,{itemID=268360})}),
+flt(101,{
+p(5060,{itemID=273021,npcID=264163,spellID=1291667})}),
 flt(104,{
 i(259473),
 i(259474),

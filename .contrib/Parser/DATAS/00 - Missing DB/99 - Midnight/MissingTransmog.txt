@@ -35953,7 +35953,7 @@ s(309874)/i(276798),	--
 s(309875)/i(276798),	--
 s(309876)/i(276798),	--
 s(309877)/i(276798),	--
-s(309879)/i(276799),	-- Riftstalker's Shade Cloak
+s(309878)/i(276799),	-- Riftstalker's Shade Cloak
 s(309880)/i(276799),	-- Riftstalker's Shade Cloak
 s(309881)/i(276799),	-- Riftstalker's Shade Cloak
 12.1.0.68209

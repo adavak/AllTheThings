@@ -436,6 +436,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96691, {	-- Command Point Tendril Sling (Bonus Objective)
 							["coord"] = { 72.5, 80.6, NAIGTAL },
 						}),
+						q(96600, {	-- Crypt Culling
+							["coord"] = { 28.1, 50.6, NAIGTAL },
+						}),
 						q(96697, {	-- Extraction Coast Tendril Sling (Bonus Objective)
 							["coord"] = { 29.0, 60.6, NAIGTAL },
 						}),
@@ -482,6 +485,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96432, {	-- Power Overload
 							["coord"] = { 70.7, 44.2, NAIGTAL },
 							["groups"] = { i(274407) },	-- Hal'hadar Automaton Fuel Cell (QI!)
+						}),
+						q(96210, {	-- Scrubbing Troubles
+							["coord"] = { 41.8, 61.0, NAIGTAL },
 						}),
 						q(96000, {	-- Skiff Joyride
 							["coord"] = { 62.1, 58.5, NAIGTAL },
@@ -621,6 +627,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(96680),	-- Completes with 'Aerospores' (questID 96745)
 				q(96681),	-- Completes with 'The Grappler' (questID 96845)
 				q(97473),	-- Looting 'Void Commander's Emblem' (itemID 277554) for 'Knocking Off the Top' (questID 97256)
+				q(95888),	-- Completes with 'Marsh Mana Spores' (questID 95888)
 			}),
 		},
 	}),
