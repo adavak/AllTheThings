@@ -172,6 +172,7 @@ app:CreateWindow("WorldQuests", {
 			end
 			wipe(g);
 			tinsert(g, UpdateButton);
+			self.missingData = nil
 			self:AssignChildren();
 			self:Update(true);
 		end
