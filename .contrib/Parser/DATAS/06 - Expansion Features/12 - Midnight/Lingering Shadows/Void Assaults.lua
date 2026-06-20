@@ -538,7 +538,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 			n(QUESTS, {
 				q(92589, {["isRepeatable"] = true,}),	-- <DNT> Last Scenario Step Quest, Triggers after completing any Void Strike
 				q(94456, {["isRepeatable"] = true,}),	-- <DNT> Last Scenario Step Quest, Triggers after completing a Void Incursion
-				q(96100, {["timeline"] = { ADDED_12_0_7 }, ["isRepeatable"] = true}),	-- Triggered when accepting "Seeking Knowledge: The Omnium Folio' (96410)
+				q(96100, {["timeline"] = { ADDED_12_0_7 }}),	-- Triggered when accepting "Seeking Knowledge: The Omnium Folio' (96410)
 				q(97491, {["timeline"] = { ADDED_12_0_7 }, ["isRepeatable"] = true}),	-- <DNT> Early Scenario Steps Quest, Triggers after completing phase 1 of any Void Strike
 			}),
 		},

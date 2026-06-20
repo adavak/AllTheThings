@@ -8,11 +8,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			n(251259, {	-- Mothkeeper Wew'tam
 				["coord"] = { 49.3, 54.3, MAP.MIDNIGHT.HARANDAR },
 				["groups"] = sharedData({
-					-- #if AFTER 12.0.7
-					["cost"] = { { "c", VOIDLIGHT_MARL, 150 } },
-					-- #else
-					["cost"] = { { "c", 3385, 10 } },	-- Luminous Dust
-					-- #endif
+					["cost"] = {
+						-- #if AFTER 12.0.7
+						{ "c", VOIDLIGHT_MARL, 150 },
+						-- #else
+						{ "c", 3385, 10 },	-- Luminous Dust
+						-- #endif
+					},
 				}, {
 					-- #if AFTER 12.0.7
 					i(264243),	-- Firm Haranir Pillow (DECOR!)
@@ -20,6 +22,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["cost"] = { { "c", VOIDLIGHT_MARL, 500 } },
 					}),
 					i(264245),	-- Warm Haranir Blanket (DECOR!)
+					-- Removed with 12.0.7, since the new quests reward the buyable version instead
+					i(265943, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Firm Haranir Pillow
+					i(265945, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Warm Haranir Blanket
+					i(265946, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Haranir Reclined Bed
 					-- #else
 					i(222988),	-- Elder Glowmite (MOUNT!)
 					i(265943, {	-- Firm Haranir Pillow (DECOR!)
