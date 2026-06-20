@@ -1130,6 +1130,13 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			}),
 		})),
 
+		-- 12.0.1
+		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_1 } }, {
+			mount(1289395, {	-- Swift Spectral Dragonhawk (MOUNT!)
+				-- ["displayID"] = ,
+			}),
+		})),
+
 		-- 12.0.5
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
 			-- With MountID attached

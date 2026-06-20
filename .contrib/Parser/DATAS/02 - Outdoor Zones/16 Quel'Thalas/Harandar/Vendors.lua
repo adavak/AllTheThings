@@ -24,8 +24,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(264245),	-- Warm Haranir Blanket (DECOR!)
 					-- Removed with 12.0.7, since the new quests reward the buyable version instead
 					i(265943, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Firm Haranir Pillow
-					i(265945, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Warm Haranir Blanket
 					i(265946, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Haranir Reclined Bed
+					i(265945, {["timeline"] = { ADDED_12_0_1_LAUNCH, REMOVED_12_0_7 }}),	-- Warm Haranir Blanket
 					-- #else
 					i(222988),	-- Elder Glowmite (MOUNT!)
 					i(265943, {	-- Firm Haranir Pillow (DECOR!)

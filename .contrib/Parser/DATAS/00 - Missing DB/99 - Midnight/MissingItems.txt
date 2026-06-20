@@ -23540,21 +23540,6 @@ i(269808),	-- Azshara's Deepscale Boots
 i(269809),	-- Ensemble: Azshara's Deepscale Raiment
 i(272146),	-- Lush Garden Treehouse
 i(272992),	-- Spring Blossom Treehouse
-12.0.5.67823
-i(270212),	-- Sire's Ornate Collar
-i(270213),	-- Sire's Ornate Treads
-i(270215),	-- Sire's Ornate Vestments
-i(270216),	-- Sire's Ornate Gloves
-i(270217),	-- Sire's Ornate Leggings
-i(270218),	-- Sire's Ornate Mantle
-i(270219),	-- Sire's Ornate Cloak
-i(270220),	-- Sire's Ornate Bracers
-i(270221),	-- Sire's Ornate Belt
-i(270222),	-- Ensemble: Sire's Ornate Attire
-i(272355),	-- Orchestrion of Echoing Atonement
-i(272356),	-- Throne of Subjugated Souls
-i(273021),	-- Sha-Warped Hippogryph Hatchling
-i(273640),	-- Condensed Anima Orb
 12.1.0.68209
 i(243337),	-- Bound-Left Silvermoon Drapes
 i(243338),	-- Bound-Right Silvermoon Drapes

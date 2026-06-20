@@ -1,8 +1,3 @@
-12.0.7.67227
-fp(3267),	-- Umbral Base Camp \\ Val Outpost
-fp(3268),	-- The Devouring Ingress \\ Glacial Reservoir
-fp(3269),	-- Void Acropolis
-fp(3270),	-- Steam Ravine
 12.1.0.68209
 fp(3168),	-- Tokka's Landing, The Coiled Isle
 fp(3284),	-- 12.1 Ulatek - Faction Feature - Temple - Traversal - Flight Master - Eastern Entrance (HCR)

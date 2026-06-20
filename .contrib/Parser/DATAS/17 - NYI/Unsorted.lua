@@ -2386,6 +2386,12 @@ root(ROOTS.Unsorted, {
 				i(272353),	-- Auspicious Verdant Basin
 				i(272354),	-- Auspicious Stone Lion
 			}),
+			n(FLIGHT_PATHS, {
+				fp(3270),	-- Steam Ravine
+				fp(3268),	-- The Devouring Ingress
+				fp(3267),	-- Umbral Base Camp
+				fp(3269),	-- Void Acropolis
+			}),
 			filter(ILLUSIONS, {
 				i(276546),	-- Illusion: Summer Sun Blossom
 			}),
@@ -2436,6 +2442,9 @@ root(ROOTS.Unsorted, {
 				i(273651),	-- Bilgewater X-TREME Firework Rocket
 				i(273650),	-- Green Rocket Mount [PH]
 				i(273652),	-- Pink Rocket Mount [PH]
+				-- NYI?
+				mount(1261369),	-- Amani Hex Bear
+				mount(1294677),	-- [PH] Horse with Hat
 			}),
 			filter(QUEST_ITEMS, {
 				i(274580),	-- Primessence of Fel
@@ -2457,6 +2466,9 @@ root(ROOTS.Unsorted, {
 				i(276373),	-- Lightveil Recall Beacon
 				i(277116),	-- Warmonger's Voidplate
 				i(276342),	-- Fragmented Soul Lattice
+			}),
+			filter(TOYS, {
+				i(264368),	-- ??
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
@@ -2565,7 +2577,10 @@ root(ROOTS.Unsorted, {
 				}),
 			}),
 			n(DECOR, {
+				i(273640),	-- Condensed Anima Orb (DECOR!)
+				i(272355),	-- Orchestrion of Echoing Atonement (DECOR!)
 				i(263883),	-- Small Sturdy Wooden Trellis (DECOR!)
+				i(272356),	-- Throne of Subjugated Souls (DECOR!)
 			}),
 			filter(MISC, {
 				i(267278),	-- Angler Pearls
@@ -2589,6 +2604,9 @@ root(ROOTS.Unsorted, {
 				i(268875),	-- [PH] Giant Eagle Sunwalker Mount White (MOUNT!)
 				i(268362),	-- Gilnean Copper Charger (MOUNT!)
 				i(268360),	-- Gilnean Iron Charger (MOUNT!)
+			}),
+			filter(BATTLE_PETS, {
+				i(273021),	-- Sha-Warped Hippogryph Hatchling
 			}),
 			filter(QUEST_ITEMS, {
 				i(259473),	-- Charred Amani Trinket

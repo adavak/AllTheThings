@@ -2384,6 +2384,8 @@ i(263579, 1270673);	-- Vivacious Chlorocoers
 i(263580, 1270675);	-- Vivid Chloroceros
 i(260696, 1266702);	-- Voidbound Stormray
 i(257200, 1261351);	-- Witherbark Pango
+--- NYI ---
+i(0, 1289395);		-- Swift Spectral Dragonhawk
 
 ------------------
 -- PATCH 12.0.5 --

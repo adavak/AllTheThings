@@ -4204,6 +4204,10 @@ root(ROOTS.HiddenAchievementTriggers, {
 			ach(62608),	-- Leyline Assaults (3rd Omnium Point)
 			ach(62609),	-- Magical Primeessence (4th Omnium Point)
 			ach(62610),	-- Off-World Magic (5th Omnium Point)
+			ach(63233),	-- Rotmire (Raid Finder Sporefall)
+			ach(63234),	-- Rotmire (Normal Sporefall)
+			ach(63235),	-- Rotmire (Heroic Sporefall)
+			ach(63236),	-- Rotmire (Mythic Sporefall)
 			ach(62944),	-- Showdown Unlock: Bouncy Mushrooms
 			ach(62945),	-- Showdown Unlock: Grapple Skiffs
 			ach(62949),	-- Showdown Unlock: Naigtal Spores

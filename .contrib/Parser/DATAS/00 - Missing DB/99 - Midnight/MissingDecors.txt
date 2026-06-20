@@ -1,5 +1,3 @@
-12.0.5.67823
-decor(22775),	-- Condensed Anima Orb
 12.1.0.68209
 decor(17799),	-- Soulcoiler Canopy
 decor(18900),	-- Ula'tek Ritual Monolith

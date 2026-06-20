@@ -1,8 +1,3 @@
-12.0.7.67227
-ach(63233),	-- Rotmire (Raid Finder Sporefall)
-ach(63234),	-- Rotmire (Normal Sporefall)
-ach(63235),	-- Rotmire (Heroic Sporefall)
-ach(63236),	-- Rotmire (Mythic Sporefall)
 12.1.0.68209
 ach(62282),	-- Altar of Fangs
 ach(62283),	-- Heroic: Altar of Fangs
