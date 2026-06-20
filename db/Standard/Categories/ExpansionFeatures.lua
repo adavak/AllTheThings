@@ -41213,7 +41213,7 @@ q(97086,{isWeekly=1,g={
 i(276390,{f=55})}})}),
 h(-46,{
 n(264569,{coords={
-[2600]={{28.8,62.9}}},questID=96316,g={
+[2600]={{28.8,62.9}}},questID=96316,repeatable=1,g={
 s(309149,275151,{f=5}),
 s(309157,275159,{f=6}),
 s(309141,275143,{f=4}),
@@ -41221,7 +41221,7 @@ s(309165,275167,{f=7}),
 crit(114009,{achID=62883,id=5}),
 crit(115253,{achID=63348,id=5})}}),
 n(263950,{coords={
-[2600]={{44.2,51}}},questID=96206,g={
+[2600]={{44.2,51}}},questID=96206,repeatable=1,g={
 s(309136,275138,{f=4}),
 s(309144,275146,{f=5}),
 s(309160,275162,{f=7}),
@@ -41229,7 +41229,7 @@ s(309152,275154,{f=6}),
 crit(114006,{achID=62883,id=2}),
 crit(115250,{achID=63348,id=2})}}),
 n(264571,{coords={
-[2600]={{53.8,51.6}}},description="Patrols up and down the central road.",questID=96317,g={
+[2600]={{53.8,51.6}}},description="Patrols up and down the central road.",questID=96317,repeatable=1,g={
 s(309162,275164,{f=7}),
 s(309154,275156,{f=6}),
 s(309138,275140,{f=4}),
@@ -41237,7 +41237,7 @@ s(309146,275148,{f=5}),
 crit(114011,{achID=62883,id=7}),
 crit(115255,{achID=63348,id=7})}}),
 n(263947,{coords={
-[2600]={{37.6,61.8}}},questID=96205,g={
+[2600]={{37.6,61.8}}},questID=96205,repeatable=1,g={
 s(309145,275147,{f=5}),
 s(309137,275139,{f=4}),
 s(309153,275155,{f=6}),
@@ -41245,11 +41245,11 @@ s(309161,275163,{f=7}),
 crit(114005,{achID=62883,id=1}),
 crit(115248,{achID=63348,id=1})}}),
 n(263955,{coords={
-[2600]={{67.7,62.9}}},description="Roams around the area.",questID=96208,g={
+[2600]={{67.7,62.9}}},description="Roams around the area.",questID=96208,repeatable=1,g={
 crit(114008,{achID=62883,id=4}),
 crit(115252,{achID=63348,id=4})}}),
 n(263954,{coords={
-[2600]={{77.7,38}}},description="Roams around the area.",questID=96207,g={
+[2600]={{77.7,38}}},description="Roams around the area.",questID=96207,repeatable=1,g={
 s(309151,275153,{f=6}),
 s(309135,275137,{f=4}),
 s(309143,275145,{f=5}),
@@ -41257,7 +41257,7 @@ s(309159,275161,{f=7}),
 crit(114007,{achID=62883,id=3}),
 crit(115251,{achID=63348,id=3})}}),
 n(264576,{coords={
-[2600]={{56.1,61.4}}},description="Roams around the area.",questID=96320,g={
+[2600]={{56.1,61.4}}},description="Roams around the area.",questID=96320,repeatable=1,g={
 s(309150,275152,{f=6}),
 s(309134,275136,{f=4}),
 s(309142,275144,{f=5}),
@@ -41265,20 +41265,20 @@ s(309158,275160,{f=7}),
 crit(114012,{achID=62883,id=8}),
 crit(115256,{achID=63348,id=8})}}),
 n(265698,{coords={
-[2600]={{48.8,47.4}}},questID=96566,g={
+[2600]={{48.8,47.4}}},questID=96566,repeatable=1,g={
 s(309164,275166,{f=7}),
 s(309140,275142,{f=4}),
 s(309156,275158,{f=6}),
 s(309148,275150,{f=5})}}),
 n(267422,{coords={
-[2600]={{56.1,61.4}}},description="Roams around the area.",questID=97014,g={
+[2600]={{56.1,61.4}}},description="Roams around the area.",questID=97014,repeatable=1,g={
 s(309147,275149,{f=5}),
 s(309163,275165,{f=7}),
 s(309139,275141,{f=4}),
 s(309155,275157,{f=6}),
 crit(115343,{achID=63348,id=19})}}),
 n(264574,{coords={
-[2600]={{70.3,76.4}}},questID=96319,g={
+[2600]={{70.3,76.4}}},questID=96319,repeatable=1,g={
 crit(114010,{achID=62883,id=6}),
 crit(115254,{achID=63348,id=6})}})}),
 h(-47,{
