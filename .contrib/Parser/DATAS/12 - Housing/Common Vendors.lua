@@ -77,22 +77,22 @@ root(ROOTS.Housing, {
 			i(245394),	-- Plain Interior Doorway (DECOR!)
 			i(245395),	-- Plain Interior Narrow Wall (DECOR!)
 			i(245393),	-- Plain Interior Wall (DECOR!)
-			i(250692, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Banner Pelt (DECOR!)s
+			i(250692, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Banner Pelt (DECOR!)
 			i(246614),	-- Razorwind Bar Table (DECOR!)
-			i(265925, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Bowl Chandelier (DECOR!)s
-			i(254398, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Crafter's Chisel (DECOR!)s
-			i(255706, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Iron Chandelier (DECOR!)s
-			i(254678, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Logger's Axe (DECOR!)s
-			i(254396, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Miner's Pickaxe (DECOR!)s
-			i(254399, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Peon's Shovel (DECOR!)s
+			i(265925, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Bowl Chandelier (DECOR!)
+			i(254398, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Crafter's Chisel (DECOR!)
+			i(255706, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Iron Chandelier (DECOR!)
+			i(254678, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Logger's Axe (DECOR!)
+			i(254396, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Miner's Pickaxe (DECOR!)
+			i(254399, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Peon's Shovel (DECOR!)
 			i(256050),	-- Razorwind Shores Front Door (DECOR!)
-			i(254395, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Smith's Hammer (DECOR!)s
+			i(254395, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Smith's Hammer (DECOR!)
 			i(246610),	-- Razorwind Standing Mirror (DECOR!)
-			i(256329, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Standing Tusk (DECOR!)s
+			i(256329, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Standing Tusk (DECOR!)
 			i(248246),	-- Razorwind Storage Table (DECOR!)
 			i(246869),	-- Razorwind Wall Mirror (DECOR!)
-			i(254397, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Woodworker's Hand Saw (DECOR!)s
-			i(259464, {["timeline"] = { ADDED_12_0_7 }}),	-- Rolled Razorwind Leathers (DECOR!)s
+			i(254397, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Woodworker's Hand Saw (DECOR!)
+			i(259464, {["timeline"] = { ADDED_12_0_7 }}),	-- Rolled Razorwind Leathers (DECOR!)
 			i(245264),	-- Round Stitched Cushion (DECOR!)
 			i(246587),	-- Short Orgrimmar Bookcase (DECOR!)
 			i(246225),	-- Small Leather Rug (DECOR!)
@@ -100,19 +100,19 @@ root(ROOTS.Housing, {
 			i(254316),	-- Small Orgrimmar Tusked Bed (DECOR!)
 			i(250913),	-- Small Razorwind Bar Table (DECOR!)
 			i(254560),	-- Small Razorwind Square Table (DECOR!)
-			i(258665, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Stitched Rug (DECOR!)s
+			i(258665, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Stitched Rug (DECOR!)
 			i(246038),	-- Stitched Leather Rug (DECOR!)
 			i(245265),	-- Stitched Pillow Roll (DECOR!)
 			i(244661),	-- Tied-Left Leather Curtains (DECOR!)
 			i(252657),	-- Tied-Right Leather Curtains (DECOR!)
-			i(258664, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusk-Adorned Stitched Rug (DECOR!)s
+			i(258664, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusk-Adorned Stitched Rug (DECOR!)
 			i(246687),	-- Tusked Candleholder (DECOR!)
 			i(251974),	-- Tusked Chandelier (DECOR!)
 			i(245398),	-- Tusked Fireplace (DECOR!)
-			i(259467, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusked Hanging Razorwind Ropes (DECOR!)s
+			i(259467, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusked Hanging Razorwind Ropes (DECOR!)
 			i(246879),	-- Tusked Hanging Sconce (DECOR!)
 			i(251975),	-- Tusked Sconce (DECOR!)
-			i(250691, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusked Leather Tapestry (DECOR!)s
+			i(250691, {["timeline"] = { ADDED_12_0_7 }}),	-- Tusked Leather Tapestry (DECOR!)
 			i(250093),	-- Tusked Weapon Rack (DECOR!)
 			i(251976),	-- Wolf Pelt Rug (DECOR!)
 		},
@@ -128,49 +128,49 @@ root(ROOTS.Housing, {
 			i(246880),	-- Horned Banded Barrel (DECOR!)
 			i(246218),	-- Iron-Reinforced Crate (DECOR!)
 			i(251638),	-- Jagged Orgrimmar Trellis (DECOR!)
-			i(260486, {["timeline"] = { ADDED_12_0_7 }}),	-- Large Razorwind Farmer's Hay Pile (DECOR!)s
+			i(260486, {["timeline"] = { ADDED_12_0_7 }}),	-- Large Razorwind Farmer's Hay Pile (DECOR!)
 			i(254893),	-- Large Razorwind Gazebo (DECOR!)
 			i(246220),	-- Leather-Banded Wooden Bench (DECOR!)
 			i(246612),	-- Logger's Picnic Table (DECOR!)
 			i(246882),	-- Long Orgrimmar Bench (DECOR!)
-			i(267616, {["timeline"] = { ADDED_12_0_7 }}),	-- Loose Wisps of Hay (DECOR!)s
+			i(267616, {["timeline"] = { ADDED_12_0_7 }}),	-- Loose Wisps of Hay (DECOR!)
 			i(246884),	-- Open Crude Banded Crate (DECOR!)
 			i(246881),	-- Open Horned Banded Barrel (DECOR!)
 			i(246616),	-- Open Iron-Reinforced Crate (DECOR!)
 			i(246615),	-- Open Spiky Banded Barrel (DECOR!)
-			i(251012, {["timeline"] = { ADDED_12_0_7 }}),	-- Painted Wood Scrap Pile (DECOR!)s
-			i(251011, {["timeline"] = { ADDED_12_0_7 }}),	-- Painted Wood Scraps (DECOR!)s
-			i(253019, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Banded Planter (DECOR!)s
+			i(251012, {["timeline"] = { ADDED_12_0_7 }}),	-- Painted Wood Scrap Pile (DECOR!)
+			i(251011, {["timeline"] = { ADDED_12_0_7 }}),	-- Painted Wood Scraps (DECOR!)
+			i(253019, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Banded Planter (DECOR!)
 			i(245533),	-- Razorwind Brazier (DECOR!)
-			i(267083, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Campfire Grill (DECOR!)s
-			i(263584, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Construction Crane (DECOR!)s
+			i(267083, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Campfire Grill (DECOR!)
+			i(263584, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Construction Crane (DECOR!)
 			i(251545),	-- Razorwind Cooking Grill (DECOR!)
 			i(257099),	-- Razorwind Covered Well (DECOR!)
-			i(260487, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Farmer's Hay Pile (DECOR!)s
-			i(258307, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Fisher's Rack (DECOR!)s
-			i(263032, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Fishing Net (DECOR!)s
+			i(260487, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Farmer's Hay Pile (DECOR!)
+			i(258307, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Fisher's Rack (DECOR!)
+			i(263032, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Fishing Net (DECOR!)
 			i(246611),	-- Razorwind Fountain (DECOR!)
 			i(256357),	-- Razorwind Porch Chair (DECOR!)
-			i(258663, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind River Paddle (DECOR!)s
-			i(263581, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Roofer's Shingle (DECOR!)s
-			i(263582, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Roofer's Shingle Pile (DECOR!)s
-			i(255709, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Shores Canoe (DECOR!)s
-			i(252008, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Wheelbarrow (DECOR!)s
+			i(258663, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind River Paddle (DECOR!)
+			i(263581, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Roofer's Shingle (DECOR!)
+			i(263582, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Roofer's Shingle Pile (DECOR!)
+			i(255709, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Shores Canoe (DECOR!)
+			i(252008, {["timeline"] = { ADDED_12_0_7 }}),	-- Razorwind Wheelbarrow (DECOR!)
 			i(244532),	-- Rugged Stool (DECOR!)
-			i(268026, {["timeline"] = { ADDED_12_0_7 }}),	-- Scattered Wisps of Hay (DECOR!)s
+			i(268026, {["timeline"] = { ADDED_12_0_7 }}),	-- Scattered Wisps of Hay (DECOR!)
 			i(246217),	-- Short Orgrimmar Bench (DECOR!)
 			i(255708),	-- Small Jagged Orgrimmar Trellis (DECOR!)
-			i(260488, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Razorwind Farmer's Hay Pile (DECOR!)s
-			i(258300, {["timeline"] = { ADDED_12_0_7 }}),	-- Sparse Razorwind Fisher's Rack (DECOR!)s
+			i(260488, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Razorwind Farmer's Hay Pile (DECOR!)
+			i(258300, {["timeline"] = { ADDED_12_0_7 }}),	-- Sparse Razorwind Fisher's Rack (DECOR!)
 			i(246241),	-- Spiky Banded Barrel (DECOR!)
-			i(263583, {["timeline"] = { ADDED_12_0_7 }}),	-- Tiny Clump of Hay (DECOR!)s
-			i(268028, {["timeline"] = { ADDED_12_0_7 }}),	-- Trampled Wisps of Hay (DECOR!)s
+			i(263583, {["timeline"] = { ADDED_12_0_7 }}),	-- Tiny Clump of Hay (DECOR!)
+			i(268028, {["timeline"] = { ADDED_12_0_7 }}),	-- Trampled Wisps of Hay (DECOR!)
 			i(244535),	-- Tusked Gazebo (DECOR!)
 			i(251637),	-- Tusked Weapon Stand (DECOR!)
-			i(263031, {["timeline"] = { ADDED_12_0_7 }}),	-- Twisted Rope Coil (DECOR!)s
+			i(263031, {["timeline"] = { ADDED_12_0_7 }}),	-- Twisted Rope Coil (DECOR!)
 			i(246868),	-- Wide Hide-Covered Bench (DECOR!)
 			i(249550),	-- Wind Rider Roost (DECOR!)
-			i(268027, {["timeline"] = { ADDED_12_0_7 }}),	-- Windblown Wisps of Hay (DECOR!)s
+			i(268027, {["timeline"] = { ADDED_12_0_7 }}),	-- Windblown Wisps of Hay (DECOR!)
 		},
 	}),
 	n_CommonVendorItems({
@@ -249,8 +249,8 @@ root(ROOTS.Housing, {
 			i(253493),	-- Carved Elven Bookcase (DECOR!)
 			i(243242),	-- Circular Elven Floor Rug (DECOR!)
 			i(247501),	-- Elegant Carved Door (DECOR!)
-			i(264352, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Elven Bathtub (DECOR!)s
-			i(265654, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Elven Washbasin (DECOR!)s
+			i(264352, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Elven Bathtub (DECOR!)
+			i(265654, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Elven Washbasin (DECOR!)
 			i(253180),	-- Elegant Elven Canopy Bed (DECOR!)
 			i(251981),	-- Elegant Elven Chandelier (DECOR!)
 			i(253490),	-- Elegant Elven Desk (DECOR!)
@@ -260,20 +260,20 @@ root(ROOTS.Housing, {
 			i(241618),	-- Elegant Padded Footstool (DECOR!)
 			i(246711),	-- Elegant Pillow Roll (DECOR!)
 			i(246961),	-- Elegant Seat Cushion (DECOR!)
-			i(265653, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Storage Table (DECOR!)s
+			i(265653, {["timeline"] = { ADDED_12_0_7 }}),	-- Elegant Storage Table (DECOR!)
 			i(255650),	-- Elegant Table Lamp (DECOR!)
 			i(246431),	-- Elegant Tied Curtain (DECOR!)
 			i(244781),	-- Elegant Wall Drape (DECOR!)
 			i(241620),	-- Elegant Wooden Dresser (DECOR!)
 			i(249558),	-- Elven Standing Mirror (DECOR!)
-			i(264353, {["timeline"] = { ADDED_12_0_7 }}),	-- Empty Elegant Elven Bathtub (DECOR!)s
+			i(264353, {["timeline"] = { ADDED_12_0_7 }}),	-- Empty Elegant Elven Bathtub (DECOR!)
 			i(253181),	-- Gemmed Elven Chest (DECOR!)
 			i(251982, {["timeline"] = { ADDED_12_0_0 }}),	-- Gilded Silvermoon Candelabra (DECOR!)
 			i(253441),	-- Grand Elven Bookcase (DECOR!)
 			i(246691),	-- Grand Elven Wall Curtain (DECOR!)
 			i(264169),	-- Homestone Doormat (DECOR!)
 			i(248760),	-- Lovely Elven Shelf (DECOR!)
-			i(267075, {["timeline"] = { ADDED_12_0_7 }}),	-- Ornate Elven Stove (DECOR!)s
+			i(267075, {["timeline"] = { ADDED_12_0_7 }}),	-- Ornate Elven Stove (DECOR!)
 			i(235994),	-- Ornate Stonework Fireplace (DECOR!)
 			i(241622),	-- Ornate Weapon Rack (DECOR!)
 			i(243243),	-- Rectangular Elven Floor Rug (DECOR!)
@@ -323,7 +323,7 @@ root(ROOTS.Housing, {
 			255319,	-- "Yen" Malone <Decor Vendor> [Razorwind Shores]
 		},
 		["groups"] = {
-			i(245300, {["timeline"] = { ADDED_12_0_7 }}),	-- Arched Violet Bellflowers (DECOR!)s
+			i(245300, {["timeline"] = { ADDED_12_0_7 }}),	-- Arched Violet Bellflowers (DECOR!)
 			i(248648),	-- Autumn Leaf Pile (DECOR!)
 			i(266241, {["timeline"] = { ADDED_12_0_0 }}),	-- Brumewood Hollow Large Garden Cluster (DECOR!)
 			i(245371),	-- Charming Laurel Tree (DECOR!)
@@ -351,13 +351,13 @@ root(ROOTS.Housing, {
 			i(248639),	-- Gloomrose (DECOR!)
 			i(266239, {["timeline"] = { ADDED_12_0_0 }}),	-- Outer Banks Large Garden Cluster (DECOR!)
 			i(248645),	-- Pink Gilnean Rose (DECOR!)
-			i(245299, {["timeline"] = { ADDED_12_0_7 }}),	-- Reaching Violet Bellflowers (DECOR!)s
+			i(245299, {["timeline"] = { ADDED_12_0_7 }}),	-- Reaching Violet Bellflowers (DECOR!)
 			i(248646),	-- Silvermoon Sunrise Bush (DECOR!)
 			i(245328),	-- Small Boxwood Bush (DECOR!)
 			i(245329),	-- Small Poppy Cluster (DECOR!)
 			i(248644),	-- Spiritbloom Flower (DECOR!)
 			i(266243, {["timeline"] = { ADDED_12_0_0 }}),	-- Stoneveil Ridge Large Garden Cluster (DECOR!)
-			i(245298, {["timeline"] = { ADDED_12_0_7 }}),	-- Wild Violet Bellflowers (DECOR!)s
+			i(245298, {["timeline"] = { ADDED_12_0_7 }}),	-- Wild Violet Bellflowers (DECOR!)
 			i(248649),	-- Young Chestnut Tree (DECOR!)
 		},
 	}),
@@ -368,40 +368,40 @@ root(ROOTS.Housing, {
 		},
 		["groups"] = {
 			i(245383),	-- "Sunrise Canyon" Painting (DECOR!)
-			i(262962, {["timeline"] = { ADDED_12_0_7 }}),	-- Carved Wooden Chair (DECOR!)s
+			i(262962, {["timeline"] = { ADDED_12_0_7 }}),	-- Carved Wooden Chair (DECOR!)
 			i(246502),	-- Charming Couch (DECOR!)
 			i(245267),	-- Charming Seat Cushion (DECOR!)
 			i(245268),	-- Checkered Charming Seat Cushion (DECOR!)
 			i(235633),	-- Circular Woolen Rug (DECOR!)
 			i(244665),	-- Closed Folk Curtains (DECOR!)
-			i(252037, {["timeline"] = { ADDED_12_0_7 }}),	-- Covered Wooden Desk (DECOR!)s
+			i(252037, {["timeline"] = { ADDED_12_0_7 }}),	-- Covered Wooden Desk (DECOR!)
 			i(244666),	-- Durable Folk Valance (DECOR!)
 			i(245335),	-- Empty Wicker Basket (DECOR!)
 			i(258670),	-- Empty Wooden Bathtub (DECOR!)
 			i(252659),	-- Founder's Point Front Door (DECOR!)
 			i(245356),	-- Goldshire Window (DECOR!)
-			i(266249, {["timeline"] = { ADDED_12_0_7 }}),	-- Hanging Tavern Lantern (DECOR!)s
+			i(266249, {["timeline"] = { ADDED_12_0_7 }}),	-- Hanging Tavern Lantern (DECOR!)
 			i(245548),	-- Iron-Reinforced Cupboard (DECOR!)
 			i(245556),	-- Iron-Reinforced Standing Mirror (DECOR!)
-			i(266250, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Hanging Tavern Lantern (DECOR!)s
-			i(268029, {["timeline"] = { ADDED_12_0_7 }}),	-- Mounted Founder's Point Lantern (DECOR!)s
-			i(268030, {["timeline"] = { ADDED_12_0_7 }}),	-- Mounted Tavern Lantern (DECOR!)s
+			i(266250, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Hanging Tavern Lantern (DECOR!)
+			i(268029, {["timeline"] = { ADDED_12_0_7 }}),	-- Mounted Founder's Point Lantern (DECOR!)
+			i(268030, {["timeline"] = { ADDED_12_0_7 }}),	-- Mounted Tavern Lantern (DECOR!)
 			i(245353),	-- Open Wooden Coffin (DECOR!)
 			i(245394),	-- Plain Interior Doorway (DECOR!)
 			i(245395),	-- Plain Interior Narrow Wall (DECOR!)
 			i(245393),	-- Plain Interior Wall (DECOR!)
 			i(252417),	-- Plush Cushioned Chair (DECOR!)
-			i(258570, {["timeline"] = { ADDED_12_0_7 }}),	-- Refined Wooden Bed (DECOR!)s
+			i(258570, {["timeline"] = { ADDED_12_0_7 }}),	-- Refined Wooden Bed (DECOR!)
 			i(245370),	-- Secretive Bookcase Wall (DECOR!)
-			i(266233, {["timeline"] = { ADDED_12_0_7 }}),	-- Short Hanging Tavern Lantern (DECOR!)s
+			i(266233, {["timeline"] = { ADDED_12_0_7 }}),	-- Short Hanging Tavern Lantern (DECOR!)
 			i(253589),	-- Short Wooden Cabinet (DECOR!)
-			i(246934, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Covered Wooden Table (DECOR!)s
+			i(246934, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Covered Wooden Table (DECOR!)
 			i(245358),	-- Small Fruit Platter (DECOR!)
-			i(246935, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Sturdy Wooden Table (DECOR!)s
-			i(250092, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Wooden Footstool (DECOR!)s
+			i(246935, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Sturdy Wooden Table (DECOR!)
+			i(250092, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Wooden Footstool (DECOR!)
 			i(246103),	-- Small Wooden Nightstand (DECOR!)
 			i(246101),	-- Small Wooden Stool (DECOR!)
-			i(272359, {["timeline"] = { ADDED_12_0_7 }}),	-- Square Woolen Rug (DECOR!)s
+			i(272359, {["timeline"] = { ADDED_12_0_7 }}),	-- Square Woolen Rug (DECOR!)
 			i(246248),	-- Stormwind Angled Platform (DECOR!)
 			i(246243),	-- Stormwind Beam Platform (DECOR!)
 			i(242255),	-- Stormwind Hall Rug (DECOR!)
@@ -418,7 +418,7 @@ root(ROOTS.Housing, {
 			i(245336),	-- Sturdy Wooden Bed (DECOR!)
 			i(245375),	-- Sturdy Wooden Bookcase (DECOR!)
 			i(245352),	-- Sturdy Wooden Coffin (DECOR!)
-			i(252038, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Wooden Desk (DECOR!)s
+			i(252038, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Wooden Desk (DECOR!)
 			i(245355),	-- Sturdy Wooden Interior Door (DECOR!)
 			i(245392),	-- Sturdy Wooden Interior Pillar (DECOR!)
 			i(245384),	-- Sturdy Wooden Shelf (DECOR!)
@@ -440,55 +440,55 @@ root(ROOTS.Housing, {
 			255326,	-- "Len" Splinthoof <Decor Vendor> [Razorwind Shores]
 		},
 		["groups"] = {
-			i(246803, {["timeline"] = { ADDED_12_0_7 }}),	-- Arched Wooden Bench (DECOR!)s
-			i(252414, {["timeline"] = { ADDED_12_0_7 }}),	-- Broken Founder's Point Fence (DECOR!)s
-			i(246872, {["timeline"] = { ADDED_12_0_7 }}),	-- Carved Stone Bench (DECOR!)s
+			i(246803, {["timeline"] = { ADDED_12_0_7 }}),	-- Arched Wooden Bench (DECOR!)
+			i(252414, {["timeline"] = { ADDED_12_0_7 }}),	-- Broken Founder's Point Fence (DECOR!)
+			i(246872, {["timeline"] = { ADDED_12_0_7 }}),	-- Carved Stone Bench (DECOR!)
 			i(245662),	-- Carved Wooden Bar Table (DECOR!)
 			i(246104),	-- Carved Wooden Crate (DECOR!)
 			i(253590),	-- Coal-Fired Stovetop (DECOR!)
 			i(245372),	-- Covered Wooden Table (DECOR!)
-			i(258566, {["timeline"] = { ADDED_12_0_7 }}),	-- Empty Reinforced Wooden Barrel (DECOR!)s
+			i(258566, {["timeline"] = { ADDED_12_0_7 }}),	-- Empty Reinforced Wooden Barrel (DECOR!)
 			i(245365),	-- Empty Stormwind Market Stand (DECOR!)
-			i(246870, {["timeline"] = { ADDED_12_0_7 }}),	-- Farmer's Water Trough (DECOR!)s
-			i(252006, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Fence (DECOR!)s
-			i(252410, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Fencepost (DECOR!)s
-			i(252407, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Framed Torch (DECOR!)s
-			i(250249, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Gravestone (DECOR!)s
-			i(267084, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Hay Bale (DECOR!)s
-			i(246876, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Lamppost (DECOR!)s
-			i(249823, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Navigation Sign (DECOR!)s
-			i(248400, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Signpost (DECOR!)s
-			i(253018, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Standing Torch (DECOR!)s
-			i(246875, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Street Light (DECOR!)s
-			i(249822, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Street Sign (DECOR!)s
+			i(246870, {["timeline"] = { ADDED_12_0_7 }}),	-- Farmer's Water Trough (DECOR!)
+			i(252006, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Fence (DECOR!)
+			i(252410, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Fencepost (DECOR!)
+			i(252407, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Framed Torch (DECOR!)
+			i(250249, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Gravestone (DECOR!)
+			i(267084, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Hay Bale (DECOR!)
+			i(246876, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Lamppost (DECOR!)
+			i(249823, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Navigation Sign (DECOR!)
+			i(248400, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Signpost (DECOR!)
+			i(253018, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Standing Torch (DECOR!)
+			i(246875, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Street Light (DECOR!)
+			i(249822, {["timeline"] = { ADDED_12_0_7 }}),	-- Founder's Point Street Sign (DECOR!)
 			i(245357),	-- Gryphon Roost (DECOR!)
-			i(246871, {["timeline"] = { ADDED_12_0_7 }}),	-- Hay-Filled Sturdy Feeding Trough (DECOR!)s
+			i(246871, {["timeline"] = { ADDED_12_0_7 }}),	-- Hay-Filled Sturdy Feeding Trough (DECOR!)
 			i(246102),	-- Large Covered Wooden Table (DECOR!)
-			i(250252, {["timeline"] = { ADDED_12_0_7 }}),	-- Large Founder's Point Gravestone (DECOR!)s
+			i(250252, {["timeline"] = { ADDED_12_0_7 }}),	-- Large Founder's Point Gravestone (DECOR!)
 			i(245359),	-- Large Stonework Fountain (DECOR!)
 			i(246107),	-- Large Sturdy Wooden Table (DECOR!)
-			i(252007, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Founder's Point Fence (DECOR!)s
-			i(252408, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Old Founder's Point Fence (DECOR!)s
-			i(252416, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Broken Founder's Point Fence (DECOR!)s
-			i(252409, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Founder's Point Fence (DECOR!)s
-			i(252412, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Founder's Point Fencepost (DECOR!)s
+			i(252007, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Founder's Point Fence (DECOR!)
+			i(252408, {["timeline"] = { ADDED_12_0_7 }}),	-- Long Old Founder's Point Fence (DECOR!)
+			i(252416, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Broken Founder's Point Fence (DECOR!)
+			i(252409, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Founder's Point Fence (DECOR!)
+			i(252412, {["timeline"] = { ADDED_12_0_7 }}),	-- Old Founder's Point Fencepost (DECOR!)
 			i(245377),	-- Open-Air Sturdy Tent (DECOR!)
 			i(246109),	-- Open Carved Wooden Crate (DECOR!)
-			i(253707, {["timeline"] = { ADDED_12_0_7 }}),	-- Open Sturdy Wooden Crate (DECOR!)s
-			i(258818, {["timeline"] = { ADDED_12_0_7 }}),	-- Padded Wooden Bench (DECOR!)s
-			i(258565, {["timeline"] = { ADDED_12_0_7 }}),	-- Reinforced Wooden Barrel (DECOR!)s
+			i(253707, {["timeline"] = { ADDED_12_0_7 }}),	-- Open Sturdy Wooden Crate (DECOR!)
+			i(258818, {["timeline"] = { ADDED_12_0_7 }}),	-- Padded Wooden Bench (DECOR!)
+			i(258565, {["timeline"] = { ADDED_12_0_7 }}),	-- Reinforced Wooden Barrel (DECOR!)
 			i(243334),	-- Reinforced Wooden Chest (DECOR!)
 			i(244667),	-- Restful Wooden Bench (DECOR!)
-			i(250095, {["timeline"] = { ADDED_12_0_7 }}),	-- Runed Stone Placard (DECOR!)s
-			i(250250, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Founder's Point Gravestone (DECOR!)s
+			i(250095, {["timeline"] = { ADDED_12_0_7 }}),	-- Runed Stone Placard (DECOR!)
+			i(250250, {["timeline"] = { ADDED_12_0_7 }}),	-- Small Founder's Point Gravestone (DECOR!)
 			i(245360),	-- Small Stonework Fountain (DECOR!)
 			i(245657),	-- Stonework Fountain (DECOR!)
 			i(245366),	-- Stormwind Bean Seller's Stand (DECOR!)
 			i(245367),	-- Stormwind Produce Seller's Stand (DECOR!)
 			i(245368),	-- Stormwind Spice Merchant's Stand (DECOR!)
-			i(246874, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Brazier (DECOR!)s
+			i(246874, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Brazier (DECOR!)
 			i(245382),	-- Sturdy Covered Wagon (DECOR!)
-			i(246877, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Feeding Trough (DECOR!)s
+			i(246877, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Feeding Trough (DECOR!)
 			i(245380),	-- Sturdy Open Wagon (DECOR!)
 			i(245379),	-- Sturdy Roofed Wagon (DECOR!)
 			i(245378),	-- Sturdy Sheltering Tent (DECOR!)
@@ -496,18 +496,18 @@ root(ROOTS.Housing, {
 			i(263025),	-- Sturdy Wine Press (DECOR!)
 			i(242951),	-- Sturdy Wooden Bench (DECOR!)
 			i(235523),	-- Sturdy Wooden Chair (DECOR!)
-			i(258819, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Wooden Crate (DECOR!)s
+			i(258819, {["timeline"] = { ADDED_12_0_7 }}),	-- Sturdy Wooden Crate (DECOR!)
 			i(245374),	-- Sturdy Wooden Table (DECOR!)
 			i(246588),	-- Sturdy Wooden Trellis (DECOR!)
 			i(245386),	-- Sturdy Wooden Wheelbarrow (DECOR!)
-			i(250251, {["timeline"] = { ADDED_12_0_7 }}),	-- Tall Founder's Point Gravestone (DECOR!)s
+			i(250251, {["timeline"] = { ADDED_12_0_7 }}),	-- Tall Founder's Point Gravestone (DECOR!)
 			i(246742),	-- Tall Sturdy Wooden Chair (DECOR!)
 			i(246219),	-- Weather-Treated Wooden Table (DECOR!)
 			i(245385),	-- Well-Built Well (DECOR!)
 			i(246106),	-- Wooden Chamberstick (DECOR!)
 			i(245656),	-- Wooden Gazebo (DECOR!)
-			i(252004, {["timeline"] = { ADDED_12_0_7 }}),	-- Wooden Planter Pot (DECOR!)s
-			i(252005, {["timeline"] = { ADDED_12_0_7 }}),	-- Wooden Planter Row (DECOR!)s
+			i(252004, {["timeline"] = { ADDED_12_0_7 }}),	-- Wooden Planter Pot (DECOR!)
+			i(252005, {["timeline"] = { ADDED_12_0_7 }}),	-- Wooden Planter Row (DECOR!)
 			i(245551),	-- Worker's Wooden Desk (DECOR!)
 		},
 	}),
