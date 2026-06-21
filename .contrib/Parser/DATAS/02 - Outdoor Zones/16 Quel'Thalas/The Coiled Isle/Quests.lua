@@ -187,8 +187,115 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 45.3, 45.2, 2639 },	-- Crypt of the Denied, Coordinate depend on where you turned in your previous quests
 					}),
 				}),
-				--header(HEADERS.AchCriteria, 62297.04, {	-- Original Sin
-				--}),
+				header(HEADERS.AchCriteria, 62297.04, {	-- Original Sin
+					q(92931, {	-- Delay the Venom
+						["sourceQuest"] = 92930,	-- Written by the Victors
+						["qg"] = 253827,	-- Lady Liadrin
+						["coord"] = { 57.5, 49.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = { i(267269) },	-- Fire-Blessed Poultice (QI!)
+					}),
+					------ Stay awhile and listen ------
+					--hqt(??, {	-- Stay awhile and listen: Liadrin and Zul'Jarra
+					--	["name"] = "Stay awhile and listen: Liadrin and Zul'Jarra",
+					--	["description"] = "Dialogue becomes available during 'Delay the Venom' (92931), after attempting to cure Zul'Jarra.",
+					--	["sourceQuest"] = 92930,	-- Written by the Victors
+					--	["qg"] = 253827,	-- Lady Liadrin
+					--	["coord"] = { 57.5, 49.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+					--}),
+					--
+					q(92932, {	-- Clear the Swamp
+						["sourceQuest"] = 92931,	-- Delay the Venom
+						["qg"] = 253514,	-- Orweyna
+						["coord"] = { 64.0, 56.6, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(278901),	-- Swampdredger Greaves
+							i(278903),	-- Swampdredger Leggings
+							i(278902),	-- Swampdredger Legguards
+							i(278904),	-- Swampdredger Trousers
+						},
+					}),
+					q(92933, {	-- Haunted Shore
+						["sourceQuest"] = 92931,	-- Delay the Venom
+						["qg"] = 253829,	-- Dak'zor
+						["coord"] = { 64.0, 56.6, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = { i(279285) },	-- Lost Tortollan Scroll (DECOR!)
+					}),
+					q(92938, {	-- Site of Terror
+						["sourceQuests"] = {
+							92932,	-- Clear the Swamp
+							92933,	-- Haunted Shore
+						},
+						["qg"] = 253514,	-- Orweyna
+						["coord"] = { 67.5, 62.3, MAP.MIDNIGHT.THE_COILED_ISLE },
+					}),
+					q(93063, {	-- Broken Spears
+						["sourceQuests"] = {
+							92932,	-- Clear the Swamp
+							92933,	-- Haunted Shore
+						},
+						["qg"] = 253829,	-- Dak'zor
+						["coord"] = { 67.5, 62.3, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(260314),	-- Ancient Amani Weapon (QI!)
+							--
+							i(279236),	-- Ancient Amani Athame
+							i(279238),	-- Ancient Amani Battleaxe
+							i(279234),	-- Ancient Amani Dagger
+							i(279237),	-- Ancient Amani Greataxe
+							i(279235),	-- Ancient Amani Handaxe
+							i(279232),	-- Ancient Amani Longbow
+							i(279231),	-- Ancient Amani Spear
+							i(279233),	-- Ancient Amani Spellblade
+						},
+					}),
+					q(93064, {	-- Awe of She
+						["sourceQuests"] = {
+							92938,	-- Site of Terror
+							93063,	-- Broken Spears
+						},
+						["qg"] = 253514,	-- Orweyna
+						["coord"] = { 70.3, 65.8, MAP.MIDNIGHT.THE_COILED_ISLE },
+					}),
+					q(92935, {	-- Pushed to the Brink
+						["sourceQuest"] = 93064,	-- Awe of She
+						["qg"] = 253557,	-- Strongblood Jak'mo
+						["coord"] = { 69.2, 64.2, MAP.MIDNIGHT.THE_COILED_ISLE },
+					}),
+					q(92934, {	-- Fuel the Calling
+						["sourceQuest"] = 93064,	-- Awe of She
+						["qg"] = 254020,	-- Summoner Jawae
+						["coord"] = { 69.3, 64.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = { i(260587) },	-- Ritual Dagger (PQI!)
+					}),
+					q(92936, {	-- The Summoning of Ula'tek
+						["sourceQuests"] = {
+							92935,	-- Pushed to the Brink
+							92934,	-- Fuel the Calling
+						},
+						["qg"] = 253557,	-- Strongblood Jak'mo
+						["coord"] = { 69.2, 64.2, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(278888),	-- Amice of the Sacrificer
+							i(278887),	-- Mantle of the Sacrificer
+							i(278886),	-- Pauldrons of the Sacrificer
+							i(278885),	-- Spaulders of the Sacrificer
+						},
+					}),
+					q(92937, {	-- Awakened Evil
+						["sourceQuest"] = 92936,	-- The Summoning of Ula'tek
+						["qg"] = 253829,	-- Dak'zor
+						["coord"] = { 70.3, 65.7, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(279283),	-- Exorcised Battleaxe
+							i(279245),	-- Exorcised Dagger
+							i(279244),	-- Exorcised Focus
+							i(279280),	-- Exorcised Greataxe
+							i(279281),	-- Exorcised Handaxe
+							i(279243),	-- Exorcised Shield
+							i(279282),	-- Exorcised Spellblade
+						},
+					}),
+				}),
 				--header(HEADERS.AchCriteria, 62297.05, {	-- The Battle for Atal'Utek
 				--}),
 				--header(HEADERS.AchCriteria, 62297.06, {	-- The Call of the Void

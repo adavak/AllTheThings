@@ -43,14 +43,12 @@ root(ROOTS.Unsorted, {
 			i(260238),	-- Pus-filled Murloc Eye
 			i(260242),	-- Femur of Ba'tik
 			i(260243),	-- Vileroot
-			i(260314),	-- Ancient Amani Weapon
 			i(260417),	-- Gnarldin Supplies
 			i(260419),	-- Cursed Zandalari Coin
 			i(260420),	-- Swamp Apple
 			i(260424),	-- Lumpy Gallstone
 			i(260425),	-- Morsel of Crab Meat
 			i(260426),	-- Bloodied Whetstone
-			i(260587),	-- Ritual Dagger
 			i(262886),	-- Sweetsaw Bloom
 			i(262904),	-- Ectoplasm
 			i(263185),	-- Rotted Plank
@@ -74,10 +72,6 @@ root(ROOTS.Unsorted, {
 			i(265400),	-- Calcified Turtle Heart
 			i(265402),	-- Fistful of Gnat Wings
 			i(265403),	-- Speckled Seabird Egg
-			i(265525),	-- Grisly Morsel
-			i(265602),	-- Amani Privateer's Key
-			i(265603),	-- Privateer's Teeth Half of Key
-			i(265610),	-- Privateer's Loop Half of Key
 			i(265620),	-- Rehydrated Zandalari Peppers
 			i(265622),	-- Knotted Swamp Stick
 			i(265626),	-- Shattered Teapot
@@ -95,7 +89,6 @@ root(ROOTS.Unsorted, {
 			i(267085),	-- Swirling Ectoplasm
 			i(267207),	-- Amani Territorial Totem
 			i(267233),	-- Dehydrated Troll Eye Necklace
-			i(267269),	-- Fire-Blessed Poultice
 			i(267378),	-- Venom Scholar's Focus
 			i(268095),	-- Fresh Poultice
 			i(268113),	-- Jan'alai's Breath
@@ -169,7 +162,6 @@ root(ROOTS.Unsorted, {
 
 
 			i(268281),	-- Ula'guts
-			i(268504),	-- Malfunctioning Staff
 			i(268519),	-- Heirloom Blossom Nectar
 			i(268584),	-- Undamaged Serpent Scale
 			i(268585),	-- Pup Treat
@@ -1639,18 +1631,10 @@ root(ROOTS.Unsorted, {
 			i(278874),	-- Lil' Dark Armageddon
 			i(278875),	-- Lil' Green Armageddon
 			i(278876),	-- Lil' Red Armageddon
-			i(278885),	-- Spaulders of the Sacrificer
-			i(278886),	-- Pauldrons of the Sacrificer
-			i(278887),	-- Mantle of the Sacrificer
-			i(278888),	-- Amice of the Sacrificer
 			i(278889),	-- Warbands of Brothers
 			i(278890),	-- Armbands of Brothers
 			i(278891),	-- Wristbands of Brothers
 			i(278892),	-- Bands of Brothers
-			i(278901),	-- Swampdredger Greaves
-			i(278902),	-- Swampdredger Legguards
-			i(278903),	-- Swampdredger Leggings
-			i(278904),	-- Swampdredger Trousers
 			i(278909),	-- Cloak of Chumming
 			i(278910),	-- Yl'mul's Waterlogged Wrap
 			i(278911),	-- Shipwrecked Shroud
@@ -1677,7 +1661,6 @@ root(ROOTS.Unsorted, {
 			i(279051),	-- Possessed Vase
 			i(279052),	-- Ancient Amani Mask
 			i(279053),	-- Ancient Amani Mask
-			i(279054),	-- Privateer's Dolphin Idol
 			i(279055),	-- Privateer's Dolphin Idol
 			i(279056),	-- [ph] SpiceWitch Chest - Green
 			i(279057),	-- [ph] SpiceWitch Feet - Green
@@ -1781,23 +1764,7 @@ root(ROOTS.Unsorted, {
 			i(279227),	-- Ensemble: Venom-Cursed Lynx's Garb
 			i(279228),	-- Ensemble: Venom-Cursed Dragonhawk's Scales
 			i(279230),	-- Ensemble: Venom-Cursed Bear's Guard
-			i(279231),	-- Ancient Amani Spear
-			i(279232),	-- Ancient Amani Longbow
-			i(279233),	-- Ancient Amani Spellblade
-			i(279234),	-- Ancient Amani Dagger
-			i(279235),	-- Ancient Amani Handaxe
-			i(279236),	-- Ancient Amani Athame
-			i(279237),	-- Ancient Amani Greataxe
-			i(279238),	-- Ancient Amani Battleaxe
-			i(279243),	-- Exorcised Shield
-			i(279244),	-- Exorcised Focus
-			i(279245),	-- Exorcised Dagger
-			i(279280),	-- Exorcised Greataxe
-			i(279281),	-- Exorcised Handaxe
-			i(279282),	-- Exorcised Spellblade
-			i(279283),	-- Exorcised Battleaxe
 			i(279284),	-- Nebulous Voidcache: Delver's Trove
-			i(279285),	-- Lost Tortollan Scroll
 			i(279287),	-- Corroded Pouch
 			i(279288),	-- Corroded Satchel
 			i(279289),	-- Well Urned Rest

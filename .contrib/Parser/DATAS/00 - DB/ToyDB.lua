@@ -1606,4 +1606,6 @@ i(264368);	-- ??
 ------------------
 -- PATCH 12.1.0 --
 ------------------
-i(276925);	-- Idol of Ula'tek (TOY!)
+i(276925);	-- Idol of Ula'tek
+i(268504);	-- Malfunctioning Staff
+i(279054);	-- Privateer's Dolphin Idol
