@@ -23511,35 +23511,6 @@ i(167549),	-- Unwaning Bones
 8.2.5.31337
 i(172224),	-- Winter Veil Gift
 i(172225),	-- Gently Shaken Gift
-12.0.5.67314
-i(268833),	-- Zothwing Darkseeker
-i(268834),	-- Zothwing Deepseeker
-i(269786),	-- Azshara's Darkscale Helm
-i(269787),	-- Azshara's Darkscale Cloak
-i(269788),	-- Azshara's Darkscale Epaulets
-i(269789),	-- Azshara's Darkscale Vest
-i(269790),	-- Azshara's Darkscale Breastplate
-i(269791),	-- Azshara's Darkscale Talons
-i(269792),	-- Azshara's Darkscale Gloves
-i(269793),	-- Azshara's Darkscale Belt
-i(269794),	-- Azshara's Darkscale Breeches
-i(269795),	-- Azshara's Darkscale Leggings
-i(269796),	-- Azshara's Darkscale Boots
-i(269797),	-- Ensemble: Azshara's Darkscale Raiment
-i(269798),	-- Azshara's Deepscale Helm
-i(269799),	-- Azshara's Deepscale Cloak
-i(269800),	-- Azshara's Deepscale Epaulets
-i(269801),	-- Azshara's Deepscale Vest
-i(269802),	-- Azshara's Deepscale Breastplate
-i(269803),	-- Azshara's Deepscale Talons
-i(269804),	-- Azshara's Deepscale Gloves
-i(269805),	-- Azshara's Deepscale Belt
-i(269806),	-- Azshara's Deepscale Breeches
-i(269807),	-- Azshara's Deepscale Leggings
-i(269808),	-- Azshara's Deepscale Boots
-i(269809),	-- Ensemble: Azshara's Deepscale Raiment
-i(272146),	-- Lush Garden Treehouse
-i(272992),	-- Spring Blossom Treehouse
 12.1.0.68209
 i(243337),	-- Bound-Left Silvermoon Drapes
 i(243338),	-- Bound-Right Silvermoon Drapes

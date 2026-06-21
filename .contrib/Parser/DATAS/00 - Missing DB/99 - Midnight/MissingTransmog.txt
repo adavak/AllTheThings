@@ -35732,39 +35732,6 @@ s(303381)/i(264514),	--
 s(304240)/i(267043),	--
 s(307937)/i(272334),	--
 s(308376)/i(272959),	--
-12.0.5.67314
-s(304805)/i(269786),	-- Azshara's Darkscale Helm
-s(304806)/i(269787),	-- Azshara's Darkscale Cloak
-s(304807)/i(269788),	-- Azshara's Darkscale Epaulets
-s(304808)/i(269789),	-- Azshara's Darkscale Vest
-s(304809)/i(269790),	-- Azshara's Darkscale Breastplate
-s(304810)/i(269791),	-- Azshara's Darkscale Talons
-s(304811)/i(269792),	-- Azshara's Darkscale Gloves
-s(304812)/i(269793),	-- Azshara's Darkscale Belt
-s(304813)/i(269794),	-- Azshara's Darkscale Breeches
-s(304814)/i(269795),	-- Azshara's Darkscale Leggings
-s(304815)/i(269796),	-- Azshara's Darkscale Boots
-s(304816)/i(269798),	-- Azshara's Deepscale Helm
-s(304817)/i(269799),	-- Azshara's Deepscale Cloak
-s(304818)/i(269800),	-- Azshara's Deepscale Epaulets
-s(304819)/i(269801),	-- Azshara's Deepscale Vest
-s(304820)/i(269802),	-- Azshara's Deepscale Breastplate
-s(304821)/i(269803),	-- Azshara's Deepscale Talons
-s(304822)/i(269804),	-- Azshara's Deepscale Gloves
-s(304823)/i(269805),	-- Azshara's Deepscale Belt
-s(304824)/i(269806),	-- Azshara's Deepscale Breeches
-s(304825)/i(269807),	-- Azshara's Deepscale Leggings
-s(304826)/i(269808),	-- Azshara's Deepscale Boots
-12.0.5.67823
-s(304991)/i(270212),	-- Sire's Ornate Collar
-s(304992)/i(270213),	-- Sire's Ornate Treads
-s(304993)/i(270215),	-- Sire's Ornate Vestments
-s(304994)/i(270216),	-- Sire's Ornate Gloves
-s(304995)/i(270217),	-- Sire's Ornate Leggings
-s(304996)/i(270218),	-- Sire's Ornate Mantle
-s(304997)/i(270219),	-- Sire's Ornate Cloak
-s(304998)/i(270220),	-- Sire's Ornate Bracers
-s(304999)/i(270221),	-- Sire's Ornate Belt
 12.0.7.67227
 s(267032)/i(235606),	--
 s(284950)/i(236851),	--

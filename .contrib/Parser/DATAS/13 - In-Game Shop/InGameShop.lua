@@ -851,6 +851,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(263291, {["timeline"] = { ADDED_12_0_5 }}),	-- Spring Blossom Tree Pond (DECOR!)
 		i(258568),	-- Spring Blossom Window (DECOR!)
 		i(253547),	-- Spring Blossom Wreath (DECOR!)
+
+		-- Houses
+		i(272146, {["timeline"] = { ADDED_12_0_5 }}),	-- Lush Garden Treehouse
+		i(272992, {["timeline"] = { ADDED_12_0_5 }}),	-- Spring Blossom Treehouse
 	})),
 	filter(MOUNTS, {	-- AVAILABLE --
 		i(258479, {	-- Algarian Stormrider (MOUNT!)
