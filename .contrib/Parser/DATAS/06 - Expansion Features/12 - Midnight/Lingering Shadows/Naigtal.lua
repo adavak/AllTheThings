@@ -696,6 +696,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(96681),	-- Completes with 'The Grappler' (questID 96845)
 				q(97473),	-- Looting 'Void Commander's Emblem' (itemID 277554) for 'Knocking Off the Top' (questID 97256)
 				q(95888),	-- Completes with 'Marsh Mana Spores' (questID 95888)
+				q(95889),	-- Completes with 'Forest Mana Spores' (questID 95575)
 			}),
 		},
 	}),
