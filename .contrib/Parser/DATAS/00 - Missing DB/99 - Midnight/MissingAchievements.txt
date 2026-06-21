@@ -69,10 +69,6 @@ ach(62492),	-- The Coiled Isle Safari
 ach(62497),	-- Venomous Weapons of Conquest
 ach(62566),	-- Vicious Saddle (44)
 ach(62567),	-- Vicious Saddle (44)
-ach(62600),	-- Ritual Behavior
-ach(62601),	-- Soft Underbelly
-ach(62604),	-- Dance While Everyone Watches
-ach(62649),	-- A Lone Wanderer
 ach(62871),	-- Midnight Season 2: Catalyst Unbound
 ach(62872),	-- Midnight Season 2: Serpent Scion
 ach(62889),	-- Midnight Delves: Tier 4 (Season 2)
@@ -120,10 +116,6 @@ ach(63326),	-- My Venomous Nemesis
 ach(63332),	-- Purging the Poison
 ach(63333),	-- Let Me Solo Him: Azta'rec
 ach(63334),	-- Fabled Let Me Solo Him: Azta'rec
-ach(63359),	-- Treasures of the Coiled Isle
-ach(63381),	-- Cursebreaker
-ach(63382),	-- It's Definitely Something
-ach(63390),	-- Turn the Surge
 ach(63391),	-- Jumping Through Hoops
 ach(63394),	-- Skyriding Glyphs: The Fangs
 ach(63395),	-- The Coiled Isles Glyph Hunter
@@ -142,7 +134,6 @@ ach(63426),	-- Skyriding Glyphs: The Wreck of Paku's Talon
 ach(63427),	-- Skyriding Glyphs: The Serpent's Tail
 ach(63428),	-- Skyriding Glyphs: Blistering Terrace
 ach(63430),	-- Skyriding Glyphs: Gate of the Serpent's Eye
-ach(63432),	-- Mysterious Mix Master
 ach(63433),	-- Midnight: Journey's End (Season 2)
 ach(63434),	-- Buddy System VII: Valeera
 ach(63435),	-- Buddy System VIII: Valeera
@@ -207,16 +198,10 @@ ach(63566),	-- The Bargained Crown (Mythic The Venomous Abyss)
 ach(63567),	-- Ula'tek (Normal The Venomous Abyss)
 ach(63568),	-- Ula'tek (Heroic The Venomous Abyss)
 ach(63569),	-- Ula'tek (Mythic The Venomous Abyss)
-ach(63596),	-- Snake Stompin'
-ach(63598),	-- Roll the Patrol
-ach(63599),	-- Submerge the Incursion
-ach(63600),	-- Spike the Strike
-ach(63601),	-- Oppose the Foes
 ach(63605),	-- Souvenir Seeker, Founder's Point
 ach(63606),	-- Superlative Souvenir Seeker
 ach(63608),	-- Venomous Vestments
 ach(63609),	-- No Egg Scramble
-ach(63610),	-- The Honored Dead
 ach(63611),	-- Big Prey Hunter (Season 2)
 ach(63613),	-- Nymrissa Wavecaller (World The Tidebound Grotto)
 ach(63614),	-- Nymrissa Wavecaller (Normal The Tidebound Grotto)
@@ -233,15 +218,9 @@ ach(63626),	-- Keystone Victor: Kings' Rest
 ach(63627),	-- Keystone Victor: Ruby Life Pools
 ach(63628),	-- Keystone Victor: Temple of Sethraliss
 ach(63629),	-- Angler of The Coiled Isle
-ach(63630),	-- Assault the Vault
-ach(63631),	-- Captain Tokka's Crew
 ach(63632),	-- Toxic Trophies
 ach(63634),	-- Where Did You Get That?
 ach(63635),	-- Tokka's Terrible Trials
-ach(63636),	-- Fully Corroded
-ach(63639),	-- Ula'tek Uncoiled
-ach(63640),	-- Explore the Coiled Isle
-ach(63641),	-- Snake Charmed, I'm Sure
 ach(63642),	-- Sashay Away
 ach(63643),	-- You Guys, Again?
 ach(63644),	-- Kill Me Now
@@ -252,5 +231,4 @@ ach(63648),	-- Mythic: Ula'tek Guild Run
 ach(63650),	-- Ahead of the Curve: Ula'tek
 ach(63651),	-- Cutting Edge: Ula'tek
 ach(63652),	-- Hall of Fame: Ula'tek
-ach(63653),	-- Pro Poison Patroller
 ach(63656),	-- Four-Course Meal

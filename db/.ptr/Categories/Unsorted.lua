@@ -1,7 +1,7 @@
 ﻿---@diagnostic disable: deprecated
 local appName, _ = ...;
 _.AddEventHandler("OnBuildHiddenDataCache", function(categories)
-local de,flt,h,i,mnt,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
+local de,flt,fp,h,i,mnt,p,q,s,title,toy,x=_.CreateDecor,_.CreateFilter,_.CreateFlightPath,_.CreateCustomHeader,_.CreateItem,_.CreateMount,_.CreateSpecies,_.CreateQuest,_.CreateItemSource,_.CreateTitle,_.CreateToy,_.CreateExpansion;
 categories.Unsorted={
 x(12,{
 x(12.01,{awp=120100,g={
@@ -1267,7 +1267,6 @@ i(276747,{f=55,spellID=1300536}),
 i(276748,{f=55,spellID=1300538}),
 i(276749,{f=55,spellID=1300540}),
 i(276800,{f=100,spellID=1300780}),
-i(276801,{f=100,spellID=1300777}),
 i(276803,{f=100,spellID=1300779}),
 i(276804,{f=100,spellID=1300776}),
 i(276881,{f=100,spellID=1301070}),
@@ -1895,10 +1894,7 @@ i(280277,{f=52}),
 i(280278,{f=52})}}),
 x(12.0007,{awp=120007,g={
 h(-88,{
-i(274780,{f=55,spellID=1295335}),
-i(276097,{spellID=1298542}),
-i(276098,{spellID=1298543}),
-s(309065,274887,{f=8})}),
+i(274780,{f=55,spellID=1295335})}),
 flt(101,{
 i(275818)}),
 flt(55,{
@@ -2123,12 +2119,15 @@ de(16100,{itemID=264723,spellID=1272519}),
 de(16101,{itemID=264724,spellID=1272520}),
 de(16102,{itemID=264725,spellID=1272521}),
 de(17750,{itemID=266071,spellID=1277672}),
-de(18897,{itemID=267372,spellID=1280311}),
 de(21060,{itemID=269604,spellID=1285734}),
 de(21061,{itemID=269605,spellID=1285735}),
 de(21945,{itemID=272353,spellID=1291006}),
-de(21946,{itemID=272354,spellID=1291007}),
-de(21950,{itemID=272359,spellID=1291011})}),
+de(21946,{itemID=272354,spellID=1291007})}),
+h(-32,{
+fp(3270),
+fp(3268),
+fp(3267),
+fp(3269)}),
 flt(103,{
 i(276546,{f=55,spellID=1299923})}),
 flt(50,{
@@ -2140,7 +2139,6 @@ i(276345),
 i(276346),
 i(276347),
 i(276348),
-i(276349),
 i(276350),
 i(276351),
 i(276352),
@@ -2154,11 +2152,6 @@ i(276359),
 i(276360),
 i(276361),
 i(276362),
-i(276365),
-i(276366),
-i(276367),
-i(276368),
-i(276369),
 i(276294,{f=55,spellID=1299384}),
 i(276295,{f=55,spellID=1299385}),
 i(275257,{spellID=1296397}),
@@ -2169,12 +2162,13 @@ toy(276370),
 i(276374,{f=55,spellID=1299518}),
 i(276216,{spellID=1294322})}),
 flt(100,{
-mnt(1284973,{itemID=269240}),
+mnt(1294767,{itemID=274681}),
 mnt(1292102,{itemID=273317}),
-mnt(1292342,{itemID=273650}),
 mnt(1292344,{itemID=273651}),
+mnt(1292342,{itemID=273650}),
 mnt(1292345,{itemID=273652}),
-mnt(1294767,{itemID=274681})}),
+mnt(1261369),
+mnt(1294677)}),
 flt(104,{
 i(274580),
 i(274913),
@@ -2194,7 +2188,9 @@ i(276255),
 i(276276),
 i(276373,{spellID=1299516}),
 i(277116),
-i(276342)})}}),
+i(276342)}),
+flt(102,{
+toy(264368)})}}),
 x(12.0005,{awp=120005,g={
 flt(2,{
 h(-88,{
@@ -2284,8 +2280,10 @@ s(304591,268493,{f=23}),
 s(304595,268497,{f=34}),
 s(307698,271814,{f=29})})}),
 h(-679,{
-de(582,{itemID=245298,spellID=1238397}),
-de(15293,{itemID=263883,spellID=1270758})}),
+de(22775,{itemID=273640,spellID=1292255}),
+de(21947,{itemID=272355,spellID=1291008}),
+de(15293,{itemID=263883,spellID=1270758}),
+de(21948,{itemID=272356,spellID=1291009})}),
 flt(50,{
 i(267278,{f=55}),
 i(271353),
@@ -2307,6 +2305,8 @@ mnt(1283906,{itemID=268878}),
 mnt(1283911,{itemID=268875}),
 mnt(1282274,{itemID=268362}),
 mnt(1282268,{itemID=268360})}),
+flt(101,{
+p(5060,{itemID=273021,npcID=264163,spellID=1291667})}),
 flt(104,{
 i(259473),
 i(259474),

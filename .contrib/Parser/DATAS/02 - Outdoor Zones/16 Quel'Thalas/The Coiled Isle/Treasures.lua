@@ -4,6 +4,7 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.THE_COILED_ISLE, {
 		n(TREASURES, {
+			-- ach(63359),	-- Treasures of the Coiled Isle, Header
 			o(642786, {	-- Cracked Skull
 				["coord"] = { 58.1, 43.5, MAP.MIDNIGHT.THE_COILED_ISLE },
 				["questID"] = 95594,

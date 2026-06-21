@@ -141,6 +141,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				i(264335),	-- Colossal Amani Stone Visage (DECOR!)
 			}),
 			-- #if AFTER 12.1.0
+			-- Exo Note: Blizzard created a new achievement rather than updating the existing one for 12.1.0
 			ach(62297, { ["timeline"] = { ADDED_12_1_0 } }),	-- The Curse of Ula'tek
 			-- #else
 			ach(62413, { ["timeline"] = { ADDED_12_0_7 } }),	-- The Curse of Ula'tek

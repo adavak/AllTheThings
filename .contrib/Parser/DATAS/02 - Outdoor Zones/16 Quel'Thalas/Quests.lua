@@ -916,10 +916,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 			}),
 		}),
 		-- #if AFTER 12.1.0
+		-- Exo Note: Blizzard created a new achievement rather than updating the existing one for 12.1.0
 		header(HEADERS.Achievement, 62297, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {	-- The Curse of Ula'tek
 		-- #else
 		header(HEADERS.Achievement, 62413, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Curse of Ula'tek
 		-- #endif
+			-- Exo Note: AchCriteria, 62297.01, 'Legacy of the Amani' (First Chapter of 'The Coiled Isle' campaign) happens in Zul'Aman in its entirety and was made available (timegated) 3 weeks after the launch of 12.0.7
+			-- Everything else related to 'The Coiled Isle' is 12.1.0. A personal decision has been made to separate the first chapter from everything else and leave it in the Main (root) Quests.lua file.
 			-- #if AFTER 12.1.0
 			header(HEADERS.AchCriteria, 62297.01, {	-- Legacy of the Amani
 			-- #else

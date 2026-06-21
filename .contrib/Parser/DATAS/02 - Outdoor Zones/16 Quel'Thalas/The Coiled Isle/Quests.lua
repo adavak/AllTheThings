@@ -4,8 +4,9 @@
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.THE_COILED_ISLE, {
 		n(QUESTS, {
-			header(HEADERS.Achievement, 62297, {	-- The Curse of Ula'tek
-				-- AchCriteria, 62297.01, 'Legacy of the Amani' happens in Zul'Aman in its entirety
+			header(HEADERS.Achievement, 62297, {	-- The Curse of Ula'tek (Main Campaign)
+				-- Exo Note: AchCriteria, 62297.01, 'Legacy of the Amani' (First Chapter of 'The Coiled Isle' campaign) happens in Zul'Aman in its entirety and was made available (timegated) 3 weeks after the launch of 12.0.7
+				-- Everything else related to 'The Coiled Isle' is 12.1.0. A personal decision has been made to separate the first chapter from everything else and leave it in the Main (root) Quests.lua file.
 				header(HEADERS.AchCriteria, 62297.02, {	-- An Island of Fangs
 					q(92916, {	-- A Call for Aid
 						["sourceQuest"] = 93012,	-- Dead End
@@ -142,6 +143,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				--header(HEADERS.AchCriteria, 62297.06, {	-- The Call of the Void
 				--}),
 			}),
+			--header(HEADERS.Achievement, 63641, {	-- Snake Charmed, I'm Sure (Sojourner)
+			--}),
 		}),
 	}),
 }));

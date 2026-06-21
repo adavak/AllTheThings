@@ -1364,7 +1364,6 @@ root(ROOTS.Unsorted, {
 			i(276748),	-- Scroll of the Salty Souvenir: West
 			i(276749),	-- Scroll of the Salty Souvenir: South
 			i(276800),	-- [PH]Writhes Mount - Yellow
-			i(276801),	-- Venomous Coiler
 			i(276803),	-- [PH]Writhes Mount - Pink
 			i(276804),	-- The Writhing Brood
 			i(276881),	-- Breath of Blight

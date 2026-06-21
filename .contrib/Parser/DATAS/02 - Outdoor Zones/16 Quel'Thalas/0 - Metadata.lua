@@ -29,11 +29,6 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				2576,	-- The Den
 			},
 		}),
-		m(MAP.MIDNIGHT.THE_COILED_ISLE, {
-			["icon"] = 7578560,
-			["lore"] = "The Coiled Isle is an island located east of Zul'Aman, connected via the ruined Strait of Hexx'alor and surrounded by Zul'Aman Depths. It is shrouded in a mist.\n\nThe temple here, Atal'Utek, was built to commemorate the Amani tribes' victory over the faceless general Kith'ix. The strait dividing Atal'Utek from Zul'Aman is protected by the loa Pahk.",
-			["timeline"] = { ADDED_12_1_0 },
-		}),
 		m(MAP.MIDNIGHT.ISLE_OF_QUELDANAS, {
 			["icon"] = 7454100,
 			["lore"] = "Seven thousand years ago, when Quel'Thalas was founded, Dath'Remar Sunstrider, ruler of the new elven kingdom, created a mystic fountain at a convergence of ley lines on this island off the northern coast of Eversong Woods, utilizing a vial of water stolen from the Well of Eternity sometime before the Great Sundering. As a result, the island - which became known as Quel'Danas - is also known as the Sunwell Isle.",
@@ -46,6 +41,16 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				2565,	-- Parhelion Plaza, Isle of Quel'Danas (Intro)
 				2566,	-- The Sunwell, Isle of Quel'Danas (Intro)
 			},
+		}),
+		m(MAP.MIDNIGHT.THE_COILED_ISLE, {
+			["icon"] = 7578560,
+			["lore"] = "The Coiled Isle is an island located east of Zul'Aman, connected via the ruined Strait of Hexx'alor and surrounded by Zul'Aman Depths. It is shrouded in a mist.\n\nThe temple here, Atal'Utek, was built to commemorate the Amani tribes' victory over the faceless general Kith'ix. The strait dividing Atal'Utek from Zul'Aman is protected by the loa Pahk.",
+			["timeline"] = { ADDED_12_1_0 },
+		}),
+		m(MAP.MIDNIGHT.VAULTS_OF_ATALUTEK, {
+			["icon"] = 136070,
+			--["lore"] = "",
+			["timeline"] = { ADDED_12_1_0 },
 		}),
 		m(MAP.MIDNIGHT.VOIDSTORM, {
 			["icon"] = 5927657,

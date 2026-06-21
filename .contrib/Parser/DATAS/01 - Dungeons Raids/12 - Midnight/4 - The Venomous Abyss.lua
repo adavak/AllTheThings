@@ -254,7 +254,7 @@ InstanceHelper.UpgradeMapping = {
 
 root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_1_0 } }, {
 	inst(1320, {	-- The Venomous Abyss
-		--["coord"] = { X, Y, MAP.MIDNIGHT.VAULTS_OF_ATALUTEK },
+		["coord"] = { 47.2, 22.7, MAP.MIDNIGHT.VAULTS_OF_ATALUTEK },
 		--["maps"] = {
 		--},
 		["isRaid"] = true,

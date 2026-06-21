@@ -2450,4 +2450,5 @@ i(275464, 1298439);	-- Sun Festival's Painted Roc
 i(275652, 1297220);	-- Crimson Venomfang
 i(276802, 1300778);	-- Indigo Coiled Horror
 i(275658, 1297405);	-- Primeval Skyfriend
+i(276801, 1300777);	-- Venomous Coiler
 i(276551, 1299963);	-- Violet-Backed Skyfang
