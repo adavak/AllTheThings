@@ -281,7 +281,7 @@ local MERCHANT_GROUPS = {
 		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
 		["timeline"] = { ADDED_4_3_0 },
 	}),
-	i(74278, {	-- Illusion: Summer Sun Blossom (ILLUSION!)
+	i(276546, {	-- Illusion: Summer Sun Blossom (ILLUSION!)
 		["cost"] = { { "i", 23247, 250 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
