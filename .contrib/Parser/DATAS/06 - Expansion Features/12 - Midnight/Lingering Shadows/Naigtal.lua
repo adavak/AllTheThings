@@ -252,7 +252,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								{ 48.2, 81.2, NAIGTAL },
 								{ 48.5, 81.9, NAIGTAL },
 							},
-							["groups"] = { i(275690) },	-- Riftstalker's Cache
+							["groups"] = {
+								-- Box given to Leveling Characters
+								i(272125),	-- Recruit's Cache
+								-- Box given to Max Level Characters
+								i(275690),	-- Riftstalker's Cache
+							},
 							["isWeekly"] = true,
 						}),
 						q(96718, {	-- Showdown on Naigtal (Heroic)
@@ -507,6 +512,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(95575, {	-- Forest Mana Spores
 							--TODO["coord"] = { 54.9, 33.6, NAIGTAL },
 							["groups"] = { i(269934) },	-- Mana Spore (QI!)
+						}),
+						q(96695, {	-- Holding Pens Tendril Sling (Bonus Objective)
+							["coord"] = { 34.0, 60.3, NAIGTAL },
 						}),
 						q(96548, {	-- High Spore (Bonus Objective)
 							["coord"] = { 53.1, 67.0, NAIGTAL },

@@ -75,7 +75,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								{ 59.3, 19.5, VAL },
 								{ 59.5, 22.1, VAL },
 							},
-							["groups"] = { i(275690) },	-- Riftstalker's Cache
+							["groups"] = {
+								-- Box given to Leveling Characters
+								i(272125),	-- Recruit's Cache
+								-- Box given to Max Level Characters
+								i(275690),	-- Riftstalker's Cache
+							},
 							["isWeekly"] = true,
 						}),
 					}),
