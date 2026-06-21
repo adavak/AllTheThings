@@ -535,6 +535,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96698, {	-- Naigtal Tendril Sling
 							["coord"] = { 58.9, 56.6, NAIGTAL },
 						}),
+						q(96693, {	-- Nexus Port Tendril Sling
+							["coord"] = { 54.3, 69.8, NAIGTAL },
+						}),
 						q(96522, {	-- Oh Captain, Die Captain!
 							["coord"] = { 77.0, 75.7, NAIGTAL },
 							["crs"] = {

@@ -2374,8 +2374,6 @@ root(ROOTS.Unsorted, {
 				--
 				i(270273),	-- Viny Lasso
 				i(276343),	-- Console Encryption Key
-				i(276344),	-- Overgrown Spore Extractor
-				i(276345),	-- Malfunctioning Holoprint
 				i(276346),	-- Fel-Singed Salvage
 				i(276347),	-- Cracked Legion Communicator
 				i(276348),	-- Marsh Wrangler's Vinewhip

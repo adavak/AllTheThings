@@ -515,7 +515,24 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						r(253334),	-- Monelite Deposit [Rank 2]
-						i(160902),	-- Ashvane Coal (QI!)
+						o(291242, {	-- Barrel of Coal
+							["coords"] = {
+								{ 78.2, 49.0, TIRAGARDE_SOUND },
+								{ 79.0, 48.2, TIRAGARDE_SOUND },
+								{ 79.2, 47.3, TIRAGARDE_SOUND },
+								{ 79.4, 49.7, TIRAGARDE_SOUND },
+								{ 79.7, 47.4, TIRAGARDE_SOUND },
+								{ 79.7, 50.5, TIRAGARDE_SOUND },
+								{ 79.8, 46.0, TIRAGARDE_SOUND },
+								{ 79.8, 47.5, TIRAGARDE_SOUND },
+								{ 80.0, 49.6, TIRAGARDE_SOUND },
+								{ 80.1, 48.8, TIRAGARDE_SOUND },
+								{ 80.5, 49.6, TIRAGARDE_SOUND },
+								{ 80.6, 46.7, TIRAGARDE_SOUND },
+								{ 80.8, 49.0, TIRAGARDE_SOUND },
+							},
+							["groups"] = { i(160902) },	-- Ashvane Coal (QI!)
+						}),
 					},
 				}),
 				q(51962, {	-- Lumbering Away

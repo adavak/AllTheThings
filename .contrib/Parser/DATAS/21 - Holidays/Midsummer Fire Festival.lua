@@ -501,9 +501,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 								["timeline"] = { ADDED_12_0_7 },
 							}),
 						},
-						["sym"] = {
-							-- TODO: Vendor items probably
-						},
+						--["sym"] = {
+						--	-- TODO: Vendor items probably
+						--},
 					}),
 				},
 			}),
@@ -1193,6 +1193,24 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 			-- #endif
 		}),
+		h(q(92106, {	-- Ignite the Skies: Northern Kalimdor
+			["qg"] = 250811,	-- Elder Sunhorn
+			["coords"] = { 47.6, 37.9, ORGRIMMAR },
+			["timeline"] = { ADDED_12_0_7 },
+			-- TODO["isDaily"] = true,
+		})),
+		h(q(92435, {	-- Ignite the Skies: Orgrimmar
+			["qg"] = 250811,	-- Elder Sunhorn
+			["coords"] = { 47.6, 37.9, ORGRIMMAR },
+			["timeline"] = { ADDED_12_0_7 },
+			-- TODO["isDaily"] = true,
+		})),
+		q(92821, {	-- Ignite the Skies: Silvermoon
+			["qg"] = 266846,	-- Elder Sunhorn
+			["coords"] = { 48.4, 80.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["timeline"] = { ADDED_12_0_7 },
+			-- TODO["isDaily"] = true,
+		}),
 		q(11964, {	-- Incense for the Summer Scorchlings (A)
 			["qg"] = FESTIVAL_LOREMASTER_ID,
 			["coords"] = FESTIVAL_LOREMASTER_COORDS,
@@ -1761,6 +1779,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["groups"] = {
 				i(23247),	-- Burning Blossom
 			},
+		}),
+		q(92185, {	-- The Tale of the Frost Lord
+			["timeline"] = { ADDED_12_0_7 },
 		}),
 		q(11657, {	-- Torch Catching (A)
 			["sourceQuest"] = 11731,	-- Torch Tossing (A)
@@ -3394,6 +3415,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					["qg"] = 238340,	-- The Ringing Deeps Guardian
 					["coord"] = { 43.65, 32.59, THE_RINGING_DEEPS },
 					["timeline"] = { ADDED_11_1_7 },
+				}),
+				honortheflame(92556, {	-- Honor the Flame - Silvermoon City
+					["qg"] = 248989,	-- Silvermoon Flame Guardian
+					["coord"] = { 48.6, 80.8, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["timeline"] = { ADDED_12_0_7 },
 				}),
 			},
 		}),
