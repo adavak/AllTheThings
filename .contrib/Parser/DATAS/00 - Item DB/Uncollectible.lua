@@ -2897,6 +2897,7 @@ i(272116);	-- Water-Logged Transaction Scroll
 i(276349);	-- Bulbous Leyshroom
 i(276345);	-- Malfunctioning Holoprint
 i(276344);	-- Overgrown Spore Extractor
+i(276350);	-- Shimmering Algae
 
 ------------------
 -- PATCH 12.1.0 --

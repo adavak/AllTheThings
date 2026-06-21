@@ -349,7 +349,7 @@ local MERCHANT_GROUPS = {
 		["cost"] = { { "i", 23247, 75 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
-	i(275460, {	-- Sun Festival's Painted Tunic
+	i(275465, {	-- Sun Festival's Painted Tunic
 		["cost"] = { { "i", 23247, 100 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
@@ -505,6 +505,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 						--	-- TODO: Vendor items probably
 						--},
 					}),
+					hqt(97111),	-- ?? Triggered the same time 83134 did, when an item was learned/used from the bag, 97116 triggered from just looting from the bag
 				},
 			}),
 			i(54536, {	-- Satchel of Chilled Goods
@@ -1808,6 +1809,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 		}),
 		q(92185, {	-- The Tale of the Frost Lord
+			["qgs"] = {
+				FESTIVAL_LOREMASTER_ID,
+				FESTIVAL_TALESPINNER_ID,
+			},
+			["coords"] = {
+				FESTIVAL_LOREMASTER_COORDS,
+				FESTIVAL_TALESPINNER_COORDS,
+			},
 			["timeline"] = { ADDED_12_0_7 },
 		}),
 		q(11657, {	-- Torch Catching (A)
@@ -3443,9 +3452,29 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					["coord"] = { 43.65, 32.59, THE_RINGING_DEEPS },
 					["timeline"] = { ADDED_11_1_7 },
 				}),
+				honortheflame(92555, {	-- Honor the Flame - Eversong Woods
+					["qg"] = 252192,	-- Tranquillien Flame Guardian
+					["coord"] = { 48.9, 63.9, MAP.MIDNIGHT.EVERSONG_WOODS },
+					["timeline"] = { ADDED_12_0_7 },
+				}),
 				honortheflame(92556, {	-- Honor the Flame - Silvermoon City
 					["qg"] = 248989,	-- Silvermoon Flame Guardian
 					["coord"] = { 48.6, 80.8, MAP.MIDNIGHT.SILVERMOON_CITY },
+					["timeline"] = { ADDED_12_0_7 },
+				}),
+				honortheflame(92557, {	-- Honor the Flame - Zul'Aman
+					["qg"] = 248975,	-- Zul'Aman Flame Guardian
+					["coord"] = { 54.4, 16.8, MAP.MIDNIGHT.ZULAMAN },
+					["timeline"] = { ADDED_12_0_7 },
+				}),
+				honortheflame(92558, {	-- Honor the Flame - Voidstorm
+					["qg"] = 252194,	-- Voidstorm Void Flame Guardian
+					["coord"] = { 55.7, 70.2, MAP.MIDNIGHT.VOIDSTORM },
+					["timeline"] = { ADDED_12_0_7 },
+				}),
+				honortheflame(92559, {	-- Honor the Flame - Harandar
+					["qg"] = 252196,	-- Harandar Luminescent Guardian
+					["coord"] = { 54.2, 51.6, MAP.MIDNIGHT.HARANDAR },
 					["timeline"] = { ADDED_12_0_7 },
 				}),
 			},
@@ -3486,6 +3515,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = HORDE_ONLY,
+			["groups"] = MERCHANT_GROUPS,
+		}),
+		n(267838, {	-- Midsummer Merchant
+			["coord"] = { 48.9, 80.9, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["timeline"] = { ADDED_12_0_7 },
 			["groups"] = MERCHANT_GROUPS,
 		}),
 	}),

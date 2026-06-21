@@ -2329,7 +2329,6 @@ root(ROOTS.Unsorted, {
 				i(274715),	-- Duskwatch Outlaw's Hand Cannon
 				i(274716),	-- Righteous Lawbringer's Hand Cannon
 				i(274717),	-- Badlands Lawbringer's Hand Cannon
-				i(275476),	-- Sun Festival's Painted Hauberk
 				i(275999),	-- Flowering Mantle
 				i(276299),	-- Umbralwarden's Soul Gavel
 				i(276291),	-- Forgotten Saber of the Ice Temple
@@ -2363,7 +2362,6 @@ root(ROOTS.Unsorted, {
 				i(276346),	-- Fel-Singed Salvage
 				i(276347),	-- Cracked Legion Communicator
 				i(276348),	-- Marsh Wrangler's Vinewhip
-				i(276350),	-- Shimmering Algae
 				i(276351),	-- Muckfaded Crystalline Figure
 				i(276352),	-- Scuffed Prayer Bangle
 				i(276353),	-- Frozen Sliver of Darkness

@@ -747,7 +747,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			n(ARMOR, {
 				i(239003),	-- Feathered Mantle of the Guardian
 				i(238949),	-- Inferno Helm
-				i(235986),	-- Pointy Half-Shell
 			}),
 			n(SETS, {
 				------ Lavaborn Citrine Set ------

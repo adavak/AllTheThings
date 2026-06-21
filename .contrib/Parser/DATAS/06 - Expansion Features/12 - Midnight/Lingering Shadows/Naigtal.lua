@@ -420,7 +420,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 68.2, 51.6, NAIGTAL },
 							["groups"] = { i(262768) }, 	-- Sleepy Mandrake (PET!)
 						}),
-						--TODO confirm if HQTs are for specific shrooms or # of shrooms fed
 						hqt(97091, {	-- Feed the Sleepy Mandrake a Highland Redcap
 							["name"] = "Feed the Sleepy Mandrake a Highland Redcap",
 							["coord"] = { 68.2, 51.6, NAIGTAL },
@@ -478,6 +477,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								{ 71.5, 37.3, NAIGTAL }
 							},
 							["groups"] = { i(276367) },	-- Marshy Redcap
+						}),
+						o(658803, {	-- Spiked Shell
+							["coord"] = { 29.8, 29.1, NAIGTAL },
+							["groups"] = { i(235986) },	-- Pointy Half-Shell (COSMETIC!)
 						}),
 						o(659300, {	-- Squirming Mollusk
 							["coords"] = {

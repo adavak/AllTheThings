@@ -3304,6 +3304,7 @@ MobileDB.GameObject = {
 	[655270] = true,	-- Dominaar Storage Vessel [Ritual Site: Val]
 	[655271] = true,	-- Hal'hadar Pocket-Storage [Ritual Site: Naigtal]
 	[656135] = true,	-- Slumbering Starfish [The Coiled Isle]
+	[658802] = true,	-- Ancient Crypt Reliquary
 	[659301] = true,	-- Highland Redcap [Ritual Site: Naigtal]
 	[659898] = true,	-- Spongy Sporebat Nest [Ritual Site: Naigtal]
 }
