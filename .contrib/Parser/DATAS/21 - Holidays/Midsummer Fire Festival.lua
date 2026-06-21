@@ -465,10 +465,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					i(138838, {	-- Illusion: Deathfrost (ILLUSION!)
 						["timeline"] = { ADDED_7_0_3 },
 					}),
-					i(275464, {	-- Sun Festival's Painted Roc (MOUNT!)
-						["timeline"] = { ADDED_12_0_7 },
-					}),
-					-- TODO: questID changed to 97116 in 12.0.7?
 					hqt(83134, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
 						["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
 						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
@@ -495,12 +491,21 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 							}),
 						},
 					}),
+					hqt(97116, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
+						["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
+						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+						["timeline"] = { ADDED_12_0_7 },
+						["isDaily"] = true,
+						["groups"] = {
+							i(275464, {	-- Sun Festival's Painted Roc (MOUNT!)
+								["timeline"] = { ADDED_12_0_7 },
+							}),
+						},
+						["sym"] = {
+							-- TODO: Vendor items probably
+						},
+					}),
 				},
-				-- #if AFTER 12.0.7
-				["sym"] = {
-					-- TODO: Add 12.0.7 vendor items probably
-				},
-				-- #endif
 			}),
 			i(54536, {	-- Satchel of Chilled Goods
 				["timeline"] = { ADDED_3_3_3, REMOVED_6_0_2 },
