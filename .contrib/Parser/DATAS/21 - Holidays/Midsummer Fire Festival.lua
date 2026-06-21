@@ -1193,24 +1193,45 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 			-- #endif
 		}),
-		h(q(92106, {	-- Ignite the Skies: Northern Kalimdor
-			["qg"] = 250811,	-- Elder Sunhorn
-			["coords"] = { 47.6, 37.9, ORGRIMMAR },
+		a(q(92503, {	-- Ignite the Skies: Northern Eastern Kingdoms
+			["sourceQuest"] = 92504,	-- Ignite the Skies: Southern Eastern Kingdoms
+			["qg"] = 252528,	-- Aedh Firebeard
+			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
 			["timeline"] = { ADDED_12_0_7 },
-			-- TODO["isDaily"] = true,
+			["isYearly"] = true,
+		})),
+		h(q(92106, {	-- Ignite the Skies: Northern Kalimdor
+			["sourceQuest"] = 92435,	-- Ignite the Skies: Orgrimmar
+			["qg"] = 250811,	-- Elder Sunhorn
+			["coord"] = { 47.6, 37.9, ORGRIMMAR },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
 		})),
 		h(q(92435, {	-- Ignite the Skies: Orgrimmar
 			["qg"] = 250811,	-- Elder Sunhorn
-			["coords"] = { 47.6, 37.9, ORGRIMMAR },
+			["coord"] = { 47.6, 37.9, ORGRIMMAR },
 			["timeline"] = { ADDED_12_0_7 },
-			-- TODO["isDaily"] = true,
+			["isYearly"] = true,
 		})),
 		q(92821, {	-- Ignite the Skies: Silvermoon
 			["qg"] = 266846,	-- Elder Sunhorn
-			["coords"] = { 48.4, 80.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["coord"] = { 48.4, 80.0, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["timeline"] = { ADDED_12_0_7 },
-			-- TODO["isDaily"] = true,
+			["isYearly"] = true,
 		}),
+		a(q(92504, {	-- Ignite the Skies: Southern Eastern Kingdoms
+			["sourceQuest"] = 92711,	-- Ignite the Skies: Stormwind
+			["qg"] = 252528,	-- Aedh Firebeard
+			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
+		})),
+		a(q(92711, {	-- Ignite the Skies: Stormwind
+			["qg"] = 252528,	-- Aedh Firebeard
+			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
+		})),
 		q(11964, {	-- Incense for the Summer Scorchlings (A)
 			["qg"] = FESTIVAL_LOREMASTER_ID,
 			["coords"] = FESTIVAL_LOREMASTER_COORDS,
@@ -1356,6 +1377,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = HORDE_ONLY,
 		}),
+		a(q(92836, {	-- Reignite the Skies: Stormwind
+			["qg"] = 252528,	-- Aedh Firebeard
+			["coords"] = { 48.0, 72.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["timeline"] = { ADDED_12_0_7 },
+			["isDaily"] = true,
+		})),
 		q(11972, {	-- Shards of Ahune
 			["altQuests"] = { 11976 },	-- Ice Shards (Never Implemented?)
 			["provider"] = { "i", 35723 },	-- Shards of Ahune
