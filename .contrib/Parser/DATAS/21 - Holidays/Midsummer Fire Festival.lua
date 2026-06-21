@@ -489,9 +489,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 							i(246570, {	-- Rethfuras, Scorched Stave of Cinders (COSMETIC!)
 								["timeline"] = { ADDED_11_1_7 },
 							}),
-							i(275464, {	-- Sun Festival's Painted Roc(MOUNT!)
+						},
+					}),
+					hqt(97116, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
+						["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
+						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+						["timeline"] = { ADDED_12_0_7 },
+						["isDaily"] = true,
+						["groups"] = {
+							i(275464, {	-- Sun Festival's Painted Roc (MOUNT!)
 								["timeline"] = { ADDED_12_0_7 },
 							}),
+						},
+						["sym"] = {
+							-- TODO: Vendor items probably
 						},
 					}),
 				},
