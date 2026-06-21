@@ -1194,20 +1194,30 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			},
 			-- #endif
 		}),
-		a(q(92503, {	-- Ignite the Skies: Northern Eastern Kingdoms
+		q(92503, {	-- Ignite the Skies: Northern Eastern Kingdoms
 			["sourceQuest"] = 92504,	-- Ignite the Skies: Southern Eastern Kingdoms
-			["qg"] = 252528,	-- Aedh Firebeard
-			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
+			["qg"] = 252784, -- Fiery Image of Aedh Firebeard
+			["coord"] = { 53.9, 69.3, LOCH_MODAN },
 			["timeline"] = { ADDED_12_0_7 },
 			["isYearly"] = true,
-		})),
-		h(q(92106, {	-- Ignite the Skies: Northern Kalimdor
-			["sourceQuest"] = 92435,	-- Ignite the Skies: Orgrimmar
-			["qg"] = 250811,	-- Elder Sunhorn
-			["coord"] = { 47.6, 37.9, ORGRIMMAR },
+		}),
+		q(92106, {	-- Ignite the Skies: Northern Kalimdor
+			["sourceQuests"] = {
+				92435,	-- Ignite the Skies: Orgrimmar
+				92635,	-- Midsummer's Journey to the Barrens
+			},
+			["sourceQuestNumRequired"] = 1,
+			["qgs"] = {
+				250811,	-- Elder Sunhorn
+				265658, -- Fiery Image of Elder Sunhorn
+			},
+			["coords"] = {
+				{ 47.6, 37.9, ORGRIMMAR },
+				{ 62.6, 11.6, NORTHERN_BARRENS },
+			},
 			["timeline"] = { ADDED_12_0_7 },
 			["isYearly"] = true,
-		})),
+		}),
 		h(q(92435, {	-- Ignite the Skies: Orgrimmar
 			["qg"] = 250811,	-- Elder Sunhorn
 			["coord"] = { 47.6, 37.9, ORGRIMMAR },
@@ -1220,13 +1230,27 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["timeline"] = { ADDED_12_0_7 },
 			["isYearly"] = true,
 		}),
-		a(q(92504, {	-- Ignite the Skies: Southern Eastern Kingdoms
-			["sourceQuest"] = 92711,	-- Ignite the Skies: Stormwind
-			["qg"] = 252528,	-- Aedh Firebeard
-			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
+		q(92504, {	-- Ignite the Skies: Southern Eastern Kingdoms
+			["sourceQuests"] = {
+				92711,	-- Ignite the Skies: Stormwind
+			},
+			["sourceQuestNumRequired"] = 1,
+			["qgs"] = {
+				252528,	-- Aedh Firebeard
+			},
+			["coords"] = {
+				{ 48.0, 72.0, STORMWIND_CITY },
+			},
 			["timeline"] = { ADDED_12_0_7 },
 			["isYearly"] = true,
-		})),
+		}),
+		q(92420, {	-- Ignite the Skies: Southern Kalimdor
+			["sourceQuest"] = 92106,	-- Ignite the Skies: Northern Kalimdor
+			["qg"] = 251986,	-- Fiery Image of Elder Sunhorn
+			["coord"] = { 22.3, 19.2, NORTHERN_BARRENS },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
+		}),
 		a(q(92711, {	-- Ignite the Skies: Stormwind
 			["qg"] = 252528,	-- Aedh Firebeard
 			["coord"] = { 48.0, 72.0, STORMWIND_CITY },
@@ -1276,6 +1300,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			-- #endif
 			["lvl"] = lvlsquish(16, 1, 1),
 		}),
+		a(q(92635, {	-- Midsummer's Journey to the Barrens
+			["sourceQuest"] = 92503,	-- Ignite the Skies: Northern Eastern Kingdoms
+			["qg"] = 252784, -- Fiery Image of Aedh Firebeard
+			["coord"] = { 19.2, 48.1, THE_HINTERLANDS },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
+			["isBreadcrumb"] = true,
+		})),
 		q(11924, {	-- More Torch Catching (A)
 			["sourceQuest"] = 11657,	-- Torch Catching (A)
 			["qg"] = FESTIVAL_MASTER_FIRE_EATER_ID,

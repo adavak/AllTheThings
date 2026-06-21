@@ -199,3 +199,8 @@ i(0, 8553);					-- Galaxy
 ------------------
 --- NYI ---
 i(0, 8674);					-- Internal Testing Visual Enchant
+
+------------------
+-- PATCH 12.0.7 --
+------------------
+i(276546, 8704);	-- Summer Sun Blossom
