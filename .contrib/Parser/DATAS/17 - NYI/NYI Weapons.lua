@@ -2056,6 +2056,15 @@ root(ROOTS.NeverImplemented, {
 			i(257236),	-- Voidbreaker's Runeaxe
 			i(260192),	-- Wildthorn Razorfang
 		})),
+
+		-- 12.0.5
+		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
+			-- Blizzard decided to make another copy of random WoD NYI sourceIDs again in 12.0.5
+			i(116391, {["sourceID"] = 65277 }),	-- Blackhand Forgehammer
+			i(116364, {["sourceID"] = 65223 }),	-- Dagger of Enfeeblement
+			i(116393, {["sourceID"] = 65280 }),	-- Dagger of the Shattered Crucible
+			i(113979, {["sourceID"] = 62894 }),	-- The Black Hand
+		})),
 	}),
 	n(WEAPONS, {
 		expansion(EXPANSION.TBC, {
