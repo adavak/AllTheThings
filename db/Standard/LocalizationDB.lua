@@ -2678,7 +2678,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
@@ -2730,7 +2729,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=20,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=20,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -6172,6 +6172,7 @@ local ObjectNames = {
 	[185861] = "Fel Cannonball Stack",
 	[185877] = "Nethercite Deposit",
 	[185881] = "Netherdust Bush",
+	[185890] = "Apexis Relic",
 	[185913] = "Skull Pile",
 	[185915] = "Netherwing Egg",
 	[185928] = "Ancient Skull Pile",
@@ -13235,6 +13236,10 @@ local ObjectNames = {
 	[656142] = "Glittering Crypt Holoprint",
 	[658802] = "Ancient Crypt Reliquary",
 	[659300] = "Squirming Mollusk",
+	[659301] = "Highland Redcap",
+	[659302] = "Marshy Redcap",
+	[659303] = "Dusty Redcap",
+	[659304] = "Airy Redcap",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -15598,6 +15603,7 @@ local ObjectModels = {
 	[185861] = 192333,
 	[185877] = 219544,
 	[185881] = 219493,
+	[185890] = 191535,
 	[185913] = 190688,
 	[185915] = 200966,
 	[185928] = 190688,
@@ -22298,6 +22304,10 @@ local ObjectModels = {
 	[656142] = 6321897,
 	[658802] = 1062118,
 	[659300] = 145889,
+	[659301] = 4884010,
+	[659302] = 4884010,
+	[659303] = 4884010,
+	[659304] = 4884010,
 }; _.ObjectModels = ObjectModels;
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946,194032,194035,194036,194038,194040,194044,194045,194049,207982,207984,207985,207987,207988,207993,208089,208093,217851,259871,259927,316788,316791,316793 };
@@ -26143,6 +26153,11 @@ L.QUEST_NAMES = {
 	[95136] = "MID Inscription Order: Skinning",
 	[95137] = "MID Inscription Order: Tailoring",
 	[95138] = "MID Inscription Order: Engineering",
+	[97091] = "Feed the Sleepy Mandrake a Highland Redcap",
+	[97092] = "Feed the Sleepy Mandrake a Dusty Redcap",
+	[97093] = "Feed the Sleepy Mandrake a Marshy Redcap",
+	[97094] = "Feed the Sleepy Mandrake a Partially-Digested Redcap",
+	[97095] = "Feed the Sleepy Mandrake an Airy Redcap",
 	[97139] = "Stay awhile and listen: Grand Magister Rommath",
 	[97293] = "Stay awhile and listen: Riftblade Maella",
 }
@@ -27875,6 +27890,7 @@ localize(ObjectNames, {
 	[185861] = "Stapel mit Teufelskanonenkugeln",
 	[185877] = "Netheritvorkommen",
 	[185881] = "Netherstaubbusch",
+	[185890] = "Apexisrelikt",
 	[185913] = "Schädelhaufen",
 	[185915] = "Ei der Netherschwingen",
 	[185928] = "Uralter Schädelhaufen",
@@ -35714,6 +35730,7 @@ localize(ObjectNames, {
 	[185861] = "Pile de boulets de gangrecanon",
 	[185877] = "Gisement de néanticite",
 	[185881] = "Buisson de pruinéante",
+	[185890] = "Relique apogide",
 	[185913] = "Pile de crânes",
 	[185915] = "Œuf de l'Aile-du-Néant",
 	[185928] = "Pile de crânes anciens",
@@ -42743,6 +42760,7 @@ localize(ObjectNames, {
 	[185861] = "Pila di Palle del Vilcannone",
 	[185877] = "Deposito di Faturcite",
 	[185881] = "Cespuglio di Nubefatua",
+	[185890] = "Reliquia Apexis",
 	[185913] = "Pila di Teschi",
 	[185915] = "Uovo di Alafatua",
 	[185928] = "Cumulo di Antichi Teschi",
@@ -49785,6 +49803,7 @@ localize(ObjectNames, {
 	[185861] = "Pilha de Balas de Canhão Vil",
 	[185877] = "Depósito de Etercita",
 	[185881] = "Arbusto de Poeira Etérea",
+	[185890] = "Relíquia Apexis",
 	[185913] = "Pilha de Crânios",
 	[185915] = "Ovo da Asa Etérea",
 	[185928] = "Pilha de Crânios Antiga",
@@ -57835,6 +57854,7 @@ localize(ObjectNames, {
 	[185861] = "Груда пушечных ядер Скверны",
 	[185877] = "Залежи хаотита",
 	[185881] = "Куст пустопраха",
+	[185890] = "Апекситовая реликвия",
 	[185913] = "Груда черепов",
 	[185915] = "Яйцо дракона из стаи Крыльев Пустоты",
 	[185928] = "Груда древних черепов",
@@ -65237,6 +65257,7 @@ localize(ObjectNames, {
 	[185861] = "지옥 포탄 더미",
 	[185877] = "황천연 광맥",
 	[185881] = "황천티끌 덤불",
+	[185890] = "에펙시스 유물",
 	[185913] = "해골 더미",
 	[185915] = "황천날개 알",
 	[185928] = "고대 해골 더미",
@@ -72878,6 +72899,7 @@ localize(ObjectNames, {
 	[185861] = "Montón de balas de cañón vil",
 	[185877] = "Depósito de abisalita",
 	[185881] = "Arbusto de polvo abisal",
+	[185890] = "Reliquia apexis",
 	[185913] = "Montón de cráneos",
 	[185915] = "Huevo de Ala Abisal",
 	[185928] = "Montón de cráneos antiguos",
@@ -81951,6 +81973,7 @@ localize(ObjectNames, {
 	[185861] = "邪能炮弹堆",
 	[185877] = "虚空矿脉",
 	[185881] = "灵尘灌木丛",
+	[185890] = "埃匹希斯圣物",
 	[185913] = "颅骨堆",
 	[185915] = "灵翼龙卵",
 	[185928] = "上古颅骨堆",

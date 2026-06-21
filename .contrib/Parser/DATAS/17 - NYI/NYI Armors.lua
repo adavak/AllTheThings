@@ -6541,122 +6541,122 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			}),
 			-- Blizzard decided to make another copy of random WoD NYI sourceIDs again in 12.0.5
 			expansion(EXPANSION.WOD, bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
-				i(115429, {["sourceID"] = 64383 }),	-- Belt of Singing Hooves
-				i(116026, {["sourceID"] = 64882 }),	-- Bonebreaker Boots
-				i(115431, {["sourceID"] = 64389 }),	-- Chain of Natural Fury
-				i(115427, {["sourceID"] = 64377 }),	-- Chainhoof Grips
-				i(120089, {["sourceID"] = 67803 }),	-- Chestguard of Rejuvenation
-				i(115430, {["sourceID"] = 64386 }),	-- Cord of Ruination
-				i(116001, {["sourceID"] = 64815 }),	-- Cord of Skulls
-				i(115405, {["sourceID"] = 64330 }),	-- Cowl of Grim Shadows
-				i(115379, {["sourceID"] = 64277 }),	-- Crystalhide Belt
-				i(116966, {["sourceID"] = 65714 }),	-- Crystalhide Bracers
-				i(116954, {["sourceID"] = 65678 }),	-- Crystalhide Cowl
-				i(116944, {["sourceID"] = 65652 }),	-- Crystalhide Grips
-				i(115375, {["sourceID"] = 64262 }),	-- Crystalhide Legguards
-				i(116967, {["sourceID"] = 65717 }),	-- Crystal-Leaf Bracers
-				i(115380, {["sourceID"] = 64280 }),	-- Crystal-Leaf Chain
-				i(116945, {["sourceID"] = 65655 }),	-- Crystal-Leaf Gloves
-				i(116955, {["sourceID"] = 65681 }),	-- Crystal-Leaf Helm
-				i(115376, {["sourceID"] = 64265 }),	-- Crystal-Leaf Legguards
-				i(116968, {["sourceID"] = 65720 }),	-- Crystal-Plated Bracers
-				i(116946, {["sourceID"] = 65658 }),	-- Crystal-Plated Gauntlets
-				i(115381, {["sourceID"] = 64283 }),	-- Crystal-Plated Greatbelt
-				i(116956, {["sourceID"] = 65684 }),	-- Crystal-Plated Greathelm
-				i(115377, {["sourceID"] = 64268 }),	-- Crystal-Plated Legplates
-				i(115434, {["sourceID"] = 64398 }),	-- Down-Lined Leggings
-				i(122321, {["sourceID"] = 69155 }),	-- Ethereal Crystalhide Belt
-				i(122313, {["sourceID"] = 69131 }),	-- Ethereal Crystalhide Bracers
-				i(122309, {["sourceID"] = 69119 }),	-- Ethereal Crystalhide Cowl
-				i(122325, {["sourceID"] = 69167 }),	-- Ethereal Crystalhide Grips
-				i(122317, {["sourceID"] = 69143 }),	-- Ethereal Crystalhide Legguards
-				i(122314, {["sourceID"] = 69134 }),	-- Ethereal Crystal-Leaf Bracers
-				i(122322, {["sourceID"] = 69158 }),	-- Ethereal Crystal-Leaf Chain
-				i(122326, {["sourceID"] = 69170 }),	-- Ethereal Crystal-Leaf Gloves
-				i(122310, {["sourceID"] = 69122 }),	-- Ethereal Crystal-Leaf Helm
-				i(122318, {["sourceID"] = 69146 }),	-- Ethereal Crystal-Leaf Legguards
-				i(122315, {["sourceID"] = 69137 }),	-- Ethereal Crystal-Plated Bracers
-				i(122327, {["sourceID"] = 69173 }),	-- Ethereal Crystal-Plated Gauntlets
-				i(122323, {["sourceID"] = 69161 }),	-- Ethereal Crystal-Plated Greatbelt
-				i(122311, {["sourceID"] = 69125 }),	-- Ethereal Crystal-Plated Greathelm
-				i(122319, {["sourceID"] = 69149 }),	-- Ethereal Crystal-Plated Legplates
-				i(122308, {["sourceID"] = 69116 }),	-- Ethereal Windcrystal Hood
-				i(122312, {["sourceID"] = 69128 }),	-- Ethereal Windcrystal Bracers
-				i(122316, {["sourceID"] = 69140 }),	-- Ethereal Windcrystal Leggings
-				i(122320, {["sourceID"] = 69152 }),	-- Ethereal Windcrystal Cord
-				i(122324, {["sourceID"] = 69164 }),	-- Ethereal Windcrystal Wraps
-				i(116936, {["sourceID"] = 65628 }),	-- Exceptional Crystalhide Belt
-				i(116962, {["sourceID"] = 65702 }),	-- Exceptional Crystalhide Bracers
-				i(116958, {["sourceID"] = 65690 }),	-- Exceptional Crystalhide Cowl
-				i(115388, {["sourceID"] = 64289 }),	-- Exceptional Crystalhide Grips
-				i(116928, {["sourceID"] = 65604 }),	-- Exceptional Crystalhide Legguards
-				i(116963, {["sourceID"] = 65705 }),	-- Exceptional Crystal-Leaf Bracers
-				i(116937, {["sourceID"] = 65631 }),	-- Exceptional Crystal-Leaf Chain
-				i(115389, {["sourceID"] = 64292 }),	-- Exceptional Crystal-Leaf Gloves
-				i(116959, {["sourceID"] = 65693 }),	-- Exceptional Crystal-Leaf Helm
-				i(116929, {["sourceID"] = 65607 }),	-- Exceptional Crystal-Leaf Legguards
-				i(116964, {["sourceID"] = 65708 }),	-- Exceptional Crystal-Plated Bracers
-				i(115390, {["sourceID"] = 64295 }),	-- Exceptional Crystal-Plated Gauntlets
-				i(116938, {["sourceID"] = 65634 }),	-- Exceptional Crystal-Plated Greatbelt
-				i(116960, {["sourceID"] = 65696 }),	-- Exceptional Crystal-Plated Greathelm
-				i(116930, {["sourceID"] = 65610 }),	-- Exceptional Crystal-Plated Legplates
-				i(115387, {["sourceID"] = 64286 }),	-- Exceptional Windcrystal Wraps
-				i(116927, {["sourceID"] = 65601 }),	-- Exceptional Windcrystal Leggings
-				i(116935, {["sourceID"] = 65625 }),	-- Exceptional Windcrystal Cord
-				i(116957, {["sourceID"] = 65687 }),	-- Exceptional Windcrystal Hood
-				i(116961, {["sourceID"] = 65699 }),	-- Exceptional Windcrystal Bracers
-				i(120090, {["sourceID"] = 67806 }),	-- Falling Leaf Breastplate
-				i(120111, {["sourceID"] = 67816 }),	-- Featherflame Sandals
-				i(113945, {["sourceID"] = 66788 }),	-- Flame Infusion Drape
-				i(116940, {["sourceID"] = 65640 }),	-- Flawless Crystalhide Belt
-				i(115401, {["sourceID"] = 64318 }),	-- Flawless Crystalhide Bracers
-				i(115397, {["sourceID"] = 64306 }),	-- Flawless Crystalhide Cowl
-				i(116948, {["sourceID"] = 65664 }),	-- Flawless Crystalhide Grips
-				i(116932, {["sourceID"] = 65616 }),	-- Flawless Crystalhide Legguards
-				i(115402, {["sourceID"] = 64321 }),	-- Flawless Crystal-Leaf Bracers
-				i(116941, {["sourceID"] = 65643 }),	-- Flawless Crystal-Leaf Chain
-				i(116949, {["sourceID"] = 65667 }),	-- Flawless Crystal-Leaf Gloves
-				i(115398, {["sourceID"] = 64309 }),	-- Flawless Crystal-Leaf Helm
-				i(116933, {["sourceID"] = 65619 }),	-- Flawless Crystal-Leaf Legguards
-				i(115403, {["sourceID"] = 64324 }),	-- Flawless Crystal-Plated Bracers
-				i(116950, {["sourceID"] = 65670 }),	-- Flawless Crystal-Plated Gauntlets
-				i(116942, {["sourceID"] = 65646 }),	-- Flawless Crystal-Plated Greatbelt
-				i(115399, {["sourceID"] = 64312 }),	-- Flawless Crystal-Plated Greathelm
-				i(116934, {["sourceID"] = 65622 }),	-- Flawless Crystal-Plated Legplates
-				i(115400, {["sourceID"] = 64315 }),	-- Flawless Windcrystal Bracers
-				i(116939, {["sourceID"] = 65637 }),	-- Flawless Windcrystal Cord
-				i(115396, {["sourceID"] = 64303 }),	-- Flawless Windcrystal Hood
-				i(116931, {["sourceID"] = 65613 }),	-- Flawless Windcrystal Leggings
-				i(116947, {["sourceID"] = 65661 }),	-- Flawless Windcrystal Wraps
-				i(116297, {["sourceID"] = 66835 }),	-- Fleshhook Cloak
-				i(115410, {["sourceID"] = 64345 }),	-- Gatecrasher's Chain Boots
-				i(115428, {["sourceID"] = 64380 }),	-- Gauntlets of Impenetrability
-				i(115426, {["sourceID"] = 64374 }),	-- Grips of Natural Fury
-				i(115414, {["sourceID"] = 64357 }),	-- Gruntslayer Shoulderguards
-				i(115435, {["sourceID"] = 64401 }),	-- Leggings of Flowing Feathers
-				i(115404, {["sourceID"] = 64327 }),	-- Oana's Observant Gaze
-				i(115406, {["sourceID"] = 64333 }),	-- One-Eyed Chain Helm
-				i(115411, {["sourceID"] = 64348 }),	-- Ozymandias' Burdensome Treads
-				i(115436, {["sourceID"] = 64404 }),	-- Phoenixfire Legplates
-				i(120112, {["sourceID"] = 67819 }),	-- Phoenix-Rider Boots
-				i(115425, {["sourceID"] = 64371 }),	-- Quadripedal Grips
-				i(120091, {["sourceID"] = 67809 }),	-- Robes of the Ageless
-				i(115408, {["sourceID"] = 64339 }),	-- Sandals of Marauding
-				i(115413, {["sourceID"] = 64354 }),	-- Scaling Hook Spaulders
-				i(115433, {["sourceID"] = 64395 }),	-- Solarflame Legwraps
-				i(115415, {["sourceID"] = 64360 }),	-- Spaulders of Primal Ferocity
-				i(120113, {["sourceID"] = 67822 }),	-- Talongrip Spurs
-				i(115407, {["sourceID"] = 64336 }),	-- Tehax's Penetrating Visage
-				i(115432, {["sourceID"] = 64392 }),	-- Waistplate of Bladed Force
-				i(115412, {["sourceID"] = 64351 }),	-- Wall-Breaker's Shoulderpads
-				i(115409, {["sourceID"] = 64342 }),	-- Wall-Climber's Treads
-				i(116965, {["sourceID"] = 65711 }),	-- Windcrystal Bracers
-				i(115378, {["sourceID"] = 64274 }),	-- Windcrystal Cord
-				i(115374, {["sourceID"] = 64259 }),	-- Windcrystal Leggings
-				i(116953, {["sourceID"] = 65675 }),	-- Windcrystal Hood
-				i(116943, {["sourceID"] = 65649 }),	-- Windcrystal Wraps
-				i(120114, {["sourceID"] = 67825 }),	-- Wing-Forged Greatboots
-				i(120088, {["sourceID"] = 67800 }),	-- Witherleaf Chestguard
+				itemsource(64383),	-- Belt of Singing Hooves
+				itemsource(64882),	-- Bonebreaker Boots
+				itemsource(64389),	-- Chain of Natural Fury
+				itemsource(64377),	-- Chainhoof Grips
+				itemsource(67803),	-- Chestguard of Rejuvenation
+				itemsource(64386),	-- Cord of Ruination
+				itemsource(64815),	-- Cord of Skulls
+				itemsource(64330),	-- Cowl of Grim Shadows
+				itemsource(64277),	-- Crystalhide Belt
+				itemsource(65714),	-- Crystalhide Bracers
+				itemsource(65678),	-- Crystalhide Cowl
+				itemsource(65652),	-- Crystalhide Grips
+				itemsource(64262),	-- Crystalhide Legguards
+				itemsource(65717),	-- Crystal-Leaf Bracers
+				itemsource(64280),	-- Crystal-Leaf Chain
+				itemsource(65655),	-- Crystal-Leaf Gloves
+				itemsource(65681),	-- Crystal-Leaf Helm
+				itemsource(64265),	-- Crystal-Leaf Legguards
+				itemsource(65720),	-- Crystal-Plated Bracers
+				itemsource(65658),	-- Crystal-Plated Gauntlets
+				itemsource(64283),	-- Crystal-Plated Greatbelt
+				itemsource(65684),	-- Crystal-Plated Greathelm
+				itemsource(64268),	-- Crystal-Plated Legplates
+				itemsource(64398),	-- Down-Lined Leggings
+				itemsource(69155),	-- Ethereal Crystalhide Belt
+				itemsource(69131),	-- Ethereal Crystalhide Bracers
+				itemsource(69119),	-- Ethereal Crystalhide Cowl
+				itemsource(69167),	-- Ethereal Crystalhide Grips
+				itemsource(69143),	-- Ethereal Crystalhide Legguards
+				itemsource(69134),	-- Ethereal Crystal-Leaf Bracers
+				itemsource(69158),	-- Ethereal Crystal-Leaf Chain
+				itemsource(69170),	-- Ethereal Crystal-Leaf Gloves
+				itemsource(69122),	-- Ethereal Crystal-Leaf Helm
+				itemsource(69146),	-- Ethereal Crystal-Leaf Legguards
+				itemsource(69137),	-- Ethereal Crystal-Plated Bracers
+				itemsource(69173),	-- Ethereal Crystal-Plated Gauntlets
+				itemsource(69161),	-- Ethereal Crystal-Plated Greatbelt
+				itemsource(69125),	-- Ethereal Crystal-Plated Greathelm
+				itemsource(69149),	-- Ethereal Crystal-Plated Legplates
+				itemsource(69116),	-- Ethereal Windcrystal Hood
+				itemsource(69128),	-- Ethereal Windcrystal Bracers
+				itemsource(69140),	-- Ethereal Windcrystal Leggings
+				itemsource(69152),	-- Ethereal Windcrystal Cord
+				itemsource(69164),	-- Ethereal Windcrystal Wraps
+				itemsource(65628),	-- Exceptional Crystalhide Belt
+				itemsource(65702),	-- Exceptional Crystalhide Bracers
+				itemsource(65690),	-- Exceptional Crystalhide Cowl
+				itemsource(64289),	-- Exceptional Crystalhide Grips
+				itemsource(65604),	-- Exceptional Crystalhide Legguards
+				itemsource(65705),	-- Exceptional Crystal-Leaf Bracers
+				itemsource(65631),	-- Exceptional Crystal-Leaf Chain
+				itemsource(64292),	-- Exceptional Crystal-Leaf Gloves
+				itemsource(65693),	-- Exceptional Crystal-Leaf Helm
+				itemsource(65607),	-- Exceptional Crystal-Leaf Legguards
+				itemsource(65708),	-- Exceptional Crystal-Plated Bracers
+				itemsource(64295),	-- Exceptional Crystal-Plated Gauntlets
+				itemsource(65634),	-- Exceptional Crystal-Plated Greatbelt
+				itemsource(65696),	-- Exceptional Crystal-Plated Greathelm
+				itemsource(65610),	-- Exceptional Crystal-Plated Legplates
+				itemsource(64286),	-- Exceptional Windcrystal Wraps
+				itemsource(65601),	-- Exceptional Windcrystal Leggings
+				itemsource(65625),	-- Exceptional Windcrystal Cord
+				itemsource(65687),	-- Exceptional Windcrystal Hood
+				itemsource(65699),	-- Exceptional Windcrystal Bracers
+				itemsource(67806),	-- Falling Leaf Breastplate
+				itemsource(67816),	-- Featherflame Sandals
+				itemsource(66788),	-- Flame Infusion Drape
+				itemsource(65640),	-- Flawless Crystalhide Belt
+				itemsource(64318),	-- Flawless Crystalhide Bracers
+				itemsource(64306),	-- Flawless Crystalhide Cowl
+				itemsource(65664),	-- Flawless Crystalhide Grips
+				itemsource(65616),	-- Flawless Crystalhide Legguards
+				itemsource(64321),	-- Flawless Crystal-Leaf Bracers
+				itemsource(65643),	-- Flawless Crystal-Leaf Chain
+				itemsource(65667),	-- Flawless Crystal-Leaf Gloves
+				itemsource(64309),	-- Flawless Crystal-Leaf Helm
+				itemsource(65619),	-- Flawless Crystal-Leaf Legguards
+				itemsource(64324),	-- Flawless Crystal-Plated Bracers
+				itemsource(65670),	-- Flawless Crystal-Plated Gauntlets
+				itemsource(65646),	-- Flawless Crystal-Plated Greatbelt
+				itemsource(64312),	-- Flawless Crystal-Plated Greathelm
+				itemsource(65622),	-- Flawless Crystal-Plated Legplates
+				itemsource(64315),	-- Flawless Windcrystal Bracers
+				itemsource(65637),	-- Flawless Windcrystal Cord
+				itemsource(64303),	-- Flawless Windcrystal Hood
+				itemsource(65613),	-- Flawless Windcrystal Leggings
+				itemsource(65661),	-- Flawless Windcrystal Wraps
+				itemsource(66835),	-- Fleshhook Cloak
+				itemsource(64345),	-- Gatecrasher's Chain Boots
+				itemsource(64380),	-- Gauntlets of Impenetrability
+				itemsource(64374),	-- Grips of Natural Fury
+				itemsource(64357),	-- Gruntslayer Shoulderguards
+				itemsource(64401),	-- Leggings of Flowing Feathers
+				itemsource(64327),	-- Oana's Observant Gaze
+				itemsource(64333),	-- One-Eyed Chain Helm
+				itemsource(64348),	-- Ozymandias' Burdensome Treads
+				itemsource(64404),	-- Phoenixfire Legplates
+				itemsource(67819),	-- Phoenix-Rider Boots
+				itemsource(64371),	-- Quadripedal Grips
+				itemsource(67809),	-- Robes of the Ageless
+				itemsource(64339),	-- Sandals of Marauding
+				itemsource(64354),	-- Scaling Hook Spaulders
+				itemsource(64395),	-- Solarflame Legwraps
+				itemsource(64360),	-- Spaulders of Primal Ferocity
+				itemsource(67822),	-- Talongrip Spurs
+				itemsource(64336),	-- Tehax's Penetrating Visage
+				itemsource(64392),	-- Waistplate of Bladed Force
+				itemsource(64351),	-- Wall-Breaker's Shoulderpads
+				itemsource(64342),	-- Wall-Climber's Treads
+				itemsource(65711),	-- Windcrystal Bracers
+				itemsource(64274),	-- Windcrystal Cord
+				itemsource(64259),	-- Windcrystal Leggings
+				itemsource(65675),	-- Windcrystal Hood
+				itemsource(65649),	-- Windcrystal Wraps
+				itemsource(67825),	-- Wing-Forged Greatboots
+				itemsource(67800),	-- Witherleaf Chestguard
 			})),
 			filter(CLOAKS, {
 				i(276799, {["modID"] = 4 }),	-- Riftstalker's Shade Cloak
