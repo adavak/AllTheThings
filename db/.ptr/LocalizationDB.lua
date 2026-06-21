@@ -26159,6 +26159,7 @@ L.QUEST_NAMES = {
 	[97093] = "Feed the Sleepy Mandrake a Marshy Redcap",
 	[97094] = "Feed the Sleepy Mandrake a Partially-Digested Redcap",
 	[97095] = "Feed the Sleepy Mandrake an Airy Redcap",
+	[97116] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
 	[97139] = "Stay awhile and listen: Grand Magister Rommath",
 	[97293] = "Stay awhile and listen: Riftblade Maella",
 }

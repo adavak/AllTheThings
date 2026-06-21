@@ -131,6 +131,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(264475),	-- Umbral Tin Lockbox
 	}),
 	filter(REAGENTS, {
+		i(275283, { ["timeline"] = { ADDED_12_1_0 } }),	-- Amphibious Scrap
 		i(236963),	-- Bright Linen+
 		i(236965),	-- Bright Linen++
 		i(237015),	-- Sunfire Silk+

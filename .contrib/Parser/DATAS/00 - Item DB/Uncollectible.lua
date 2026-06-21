@@ -2900,5 +2900,6 @@ i(276349);	-- Bulbous Leyshroom
 -- PATCH 12.1.0 --
 ------------------
 i(280182);	-- Coiled Curry
+i(274951);	-- Corroded Scale
 i(280183);	-- Harrier Hotcakes
 i(280184);	-- Sweetsaw Surprise

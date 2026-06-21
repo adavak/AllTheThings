@@ -1009,7 +1009,6 @@ root(ROOTS.Unsorted, {
 			i(274907),	-- Seaside Painted Surfboard
 			i(274909),	-- Seaside Murloc Tiki Totem
 			i(274921),	-- Pearl of Jubilation
-			i(274951),	-- Corroded Scale
 			i(274953),	-- Serpentine Iris
 			i(274954),	-- Pristine Fang
 			i(274965),	-- Ancient Curio
@@ -1062,7 +1061,6 @@ root(ROOTS.Unsorted, {
 			i(275280),	-- Gamey Flank
 			i(275281),	-- Folded Wing
 			i(275282),	-- Smooth Loin
-			i(275283),	-- Amphibious Scrap
 			i(275284),	-- Slobbery Tongue
 			i(275285),	-- Malleable Root
 			i(275286),	-- Leafy Appendage
@@ -1464,8 +1462,6 @@ root(ROOTS.Unsorted, {
 			i(278001),	-- Forgotten Amani Fishing Rod
 			i(278003),	-- Forgotten Mask
 			i(278031),	-- Cracked Amani Skull
-			i(278032),	-- Damaged Loa Trinket
-			i(278035),	-- Ornate Healing Potion
 			i(278038),	-- Arathor Toy Sword
 			i(278044),	-- Hanging Candles
 			i(278048),	-- Corrosive Relic

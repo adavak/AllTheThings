@@ -117,23 +117,11 @@ ach(63332),	-- Purging the Poison
 ach(63333),	-- Let Me Solo Him: Azta'rec
 ach(63334),	-- Fabled Let Me Solo Him: Azta'rec
 ach(63391),	-- Jumping Through Hoops
-ach(63394),	-- Skyriding Glyphs: The Fangs
-ach(63395),	-- The Coiled Isles Glyph Hunter
 ach(63397),	-- Kept You Waiting Huh?
 ach(63400),	-- Tricks and Treats of Midnight
 ach(63415),	-- Prey: Coiled Nightmares
 ach(63416),	-- That's a Wrap
 ach(63418),	-- Well, Well, Little Sky
-ach(63420),	-- Skyriding Glyphs: The Forum
-ach(63421),	-- Skyriding Glyphs: The Wreck of Sethralis's Scales
-ach(63422),	-- Skyriding Glyphs: Southern Island
-ach(63423),	-- Skyriding Glyphs: Gate of the Eastern Fang
-ach(63424),	-- Skyriding Glyphs: Tokka's Landing
-ach(63425),	-- Skyriding Glyphs: The Whispering Marsh
-ach(63426),	-- Skyriding Glyphs: The Wreck of Paku's Talon
-ach(63427),	-- Skyriding Glyphs: The Serpent's Tail
-ach(63428),	-- Skyriding Glyphs: Blistering Terrace
-ach(63430),	-- Skyriding Glyphs: Gate of the Serpent's Eye
 ach(63433),	-- Midnight: Journey's End (Season 2)
 ach(63434),	-- Buddy System VII: Valeera
 ach(63435),	-- Buddy System VIII: Valeera
