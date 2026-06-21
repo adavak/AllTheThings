@@ -629,7 +629,9 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 				e(729, {	-- Lei Shi
 					["crs"] = { 62983 },	-- Lei Shi
 					["groups"] = {
-						ach(6824),	-- Face Clutchers
+						ach(6824, {	-- Face Clutchers
+							["description"] = "You get afflicted by a creature found in the water around the circular platform. Be aware that the affliction only lasts a short time, so be prepared to kill Lei Shi.",
+						}),
 					},
 				}),
 				e(709, {	-- Sha of Fear
