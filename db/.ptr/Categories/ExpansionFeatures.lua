@@ -41367,6 +41367,8 @@ q(96699,{coords={
 [2600]={{47.5,60.6}}},isWorldQuest=1}),
 q(96698,{coords={
 [2600]={{58.9,56.6}}},isWorldQuest=1}),
+q(96693,{coords={
+[2600]={{54.3,69.8}}},isWorldQuest=1}),
 q(96522,{coords={
 [2600]={{77,75.7}}},crs={260833,260875},isWorldQuest=1}),
 q(96942,{coords={

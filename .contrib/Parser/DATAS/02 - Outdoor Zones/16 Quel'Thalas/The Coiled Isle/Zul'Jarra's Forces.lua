@@ -11,12 +11,18 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				title(778, {	-- <Name>, Hash'ura of Zul'jarra
 					["minReputation"] = { FACTION_ZULJARRAS_FORCES, 20 },	-- Zul'Jarra's Forces, Renown 20
 				}),
-				--[[n(QUESTS, sharedData({
+				n(QUESTS, sharedData({
 					["provider"] = { "n", 268228 },	-- Jan'sari the Watchful <Renown Quartermaster>
 					["coord"] = { 58.8, 45.9, MAP.MIDNIGHT.THE_COILED_ISLE },
 				}, bubbleDownRep(FACTION_ZULJARRAS_FORCES, {
 					{		-- RENOWN 1 --
 					}, {	-- RENOWN 2 --
+						q(97382, {
+							i(276642),	-- Corroded Cursebreaker's Bracers
+							i(276644),	-- Corroded Cursebreaker's Cuffs
+							i(276641),	-- Corroded Cursebreaker's Vambraces
+							i(276643),	-- Corroded Cursebreaker's Wristwraps
+						}),
 					}, {	-- RENOWN 3 --
 					}, {	-- RENOWN 4 --
 					}, {	-- RENOWN 5 --
@@ -37,7 +43,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}, {	-- RENOWN 20 --
 						------ Paragon ------
 					},
-				}))),]]--
+				}))),
 				n(VENDORS, {
 					n(268228, {	-- Jan'sari the Watchful <Renown Quartermaster>
 						["coord"] = { 58.8, 45.9, MAP.MIDNIGHT.THE_COILED_ISLE },

@@ -46,6 +46,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["icon"] = 7578560,
 			["lore"] = "The Coiled Isle is an island located east of Zul'Aman, connected via the ruined Strait of Hexx'alor and surrounded by Zul'Aman Depths. It is shrouded in a mist.\n\nThe temple here, Atal'Utek, was built to commemorate the Amani tribes' victory over the faceless general Kith'ix. The strait dividing Atal'Utek from Zul'Aman is protected by the loa Pahk.",
 			["timeline"] = { ADDED_12_1_0 },
+			["maps"] = {
+				2639,	-- Crypt of the Denied
+			},
 		}),
 		m(MAP.MIDNIGHT.VAULTS_OF_ATALUTEK, {
 			["icon"] = 136070,

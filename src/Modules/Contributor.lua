@@ -263,6 +263,7 @@ local MapPrecisionOverrides = {
 	[2579] = 2,	-- Wartha'nan Crypts
 	[2583] = 2,	-- Wit'Kalar Crypt
 	[2584] = 5,	-- Revantusk Sedge
+	[2639] = 5,	-- Crypt of the Denied, The Coiled Isle
 }
 
 local function Check_coords(objRef, maxCoordDistance)
@@ -723,6 +724,7 @@ MobileDB.Creature = {
 	[250295] = true,	-- Valeera Sanguinar
 	[251891] = true,	-- Lingering Shade
 	[252807] = true,	-- Vanguard Paladin
+	[255270] = true,	-- Orweyna
 	[256867] = true,	-- Grieving Amani
 	[259125] = true,	-- Enchanted Amani Mask
 }
@@ -3301,6 +3303,7 @@ MobileDB.GameObject = {
 	[654422] = true,	-- Energized Crystal Conductor (q:96569)
 	[655270] = true,	-- Dominaar Storage Vessel [Ritual Site: Val]
 	[655271] = true,	-- Hal'hadar Pocket-Storage [Ritual Site: Naigtal]
+	[656135] = true,	-- Slumbering Starfish [The Coiled Isle]
 	[659301] = true,	-- Highland Redcap [Ritual Site: Naigtal]
 	[659898] = true,	-- Spongy Sporebat Nest [Ritual Site: Naigtal]
 }

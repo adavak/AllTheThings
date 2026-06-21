@@ -965,8 +965,6 @@ root(ROOTS.Unsorted, {
 			i(274593),	-- Blightswarmer
 			i(274594),	-- Polluted Puffer
 			i(274595),	-- Pristine Polygon
-			i(274596),	-- Beached Asteroid
-			i(274597),	-- Bulbous Benthos
 			i(274680),	-- Loa-Blessed Orb
 			i(274682),	-- Tetla'ketl's Conjuring Crest
 			i(274685),	-- Tsssaani's Scales of Summoning
@@ -1339,10 +1337,6 @@ root(ROOTS.Unsorted, {
 			i(276626),	-- Long Centaur Wall
 			i(276628),	-- Scroll of Deep Breath
 			i(276629),	-- Scroll of the Sailfish
-			i(276641),	-- Corroded Cursebreaker's Vambraces
-			i(276642),	-- Corroded Cursebreaker's Bracers
-			i(276643),	-- Corroded Cursebreaker's Wristwraps
-			i(276644),	-- Corroded Cursebreaker's Cuffs
 			i(276645),	-- Soggy Shipping Manifest
 			i(276650),	-- Short Centaur Wall
 			i(276652),	-- Tapered Centaur Wall
@@ -1645,10 +1639,6 @@ root(ROOTS.Unsorted, {
 			i(278874),	-- Lil' Dark Armageddon
 			i(278875),	-- Lil' Green Armageddon
 			i(278876),	-- Lil' Red Armageddon
-			i(278877),	-- Crypt Cleanser Cuirass
-			i(278878),	-- Crypt Cleanser Chestguard
-			i(278879),	-- Crypt Cleanser Harness
-			i(278880),	-- Crypt Cleanser Raiment
 			i(278885),	-- Spaulders of the Sacrificer
 			i(278886),	-- Pauldrons of the Sacrificer
 			i(278887),	-- Mantle of the Sacrificer
@@ -1661,10 +1651,6 @@ root(ROOTS.Unsorted, {
 			i(278902),	-- Swampdredger Legguards
 			i(278903),	-- Swampdredger Leggings
 			i(278904),	-- Swampdredger Trousers
-			i(278905),	-- Tomb-Sealed Clasp
-			i(278906),	-- Tomb-Sealed Girdle
-			i(278907),	-- Tomb-Sealed Cinch
-			i(278908),	-- Tomb-Sealed Sash
 			i(278909),	-- Cloak of Chumming
 			i(278910),	-- Yl'mul's Waterlogged Wrap
 			i(278911),	-- Shipwrecked Shroud

@@ -134,8 +134,59 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["coord"] = { 44.8, 27.9, MAP.MIDNIGHT.THE_COILED_ISLE },
 					}),
 				}),
-				--header(HEADERS.AchCriteria, 62297.03, {	-- Ghosts of the Past
-				--}),
+				header(HEADERS.AchCriteria, 62297.03, {	-- Ghosts of the Past
+					q(93454, {	-- Words to Hear
+						["sourceQuest"] = 93024,	-- Come With Me
+						["qg"] = 258859,	-- Zul'jarra
+						["coord"] = { 58.4, 46.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+					}),
+					q(92925, {	-- The Glint of History
+						["sourceQuest"] = 93454,	-- Words to Hear
+						["qg"] = 253514,	-- Orweyna
+						["coord"] = { 58.4, 45.6, MAP.MIDNIGHT.THE_COILED_ISLE },
+					}),
+					q(92927, {	-- Echoed Steps
+						["sourceQuest"] = 92925,	-- The Glint of History
+						["qg"] = 253514,	-- Orweyna
+						["coord"] = { 47.5, 73.5, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(278907),	-- Tomb-Sealed Cinch
+							i(278905),	-- Tomb-Sealed Clasp
+							i(278906),	-- Tomb-Sealed Girdle
+							i(278908),	-- Tomb-Sealed Sash
+						},
+					}),
+					q(92928, {	-- What Was Buried
+						["sourceQuest"] = 92927,	-- Echoed Steps
+						["qgs"] = {
+							253514,	-- Orweyna
+							255270,	-- Orweyna (mobileNPC)
+						},
+						["coord"] = { 69.9, 13.6, 2639 },	-- Crypt of the Denied
+					}),
+					q(92929, {	-- Lurking in the Dark
+						["sourceQuest"] = 92927,	-- Echoed Steps
+						["qgs"] = {
+							253514,	-- Orweyna
+							255270,	-- Orweyna (mobileNPC)
+						},
+						["coord"] = { 69.9, 13.6, 2639 },	-- Crypt of the Denied
+						["groups"] = {
+							i(278878),	-- Crypt Cleanser Chestguard
+							i(278877),	-- Crypt Cleanser Cuirass
+							i(278879),	-- Crypt Cleanser Harness
+							i(278880),	-- Crypt Cleanser Raiment
+						},
+					}),
+					q(92930, {	-- Written by the Victors
+						["sourceQuests"] = {
+							92928,	-- What Was Buried
+							92929,	-- Lurking in the Dark
+						},
+						["qg"] = 255270,	-- Orweyna (mobileNPC)
+						["coord"] = { 45.3, 45.2, 2639 },	-- Crypt of the Denied, Coordinate depend on where you turned in your previous quests
+					}),
+				}),
 				--header(HEADERS.AchCriteria, 62297.04, {	-- Original Sin
 				--}),
 				--header(HEADERS.AchCriteria, 62297.05, {	-- The Battle for Atal'Utek
