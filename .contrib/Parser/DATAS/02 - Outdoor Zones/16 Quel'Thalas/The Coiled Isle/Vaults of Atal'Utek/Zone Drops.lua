@@ -3,15 +3,8 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.THE_COILED_ISLE, {
-		n(RARES, {
-		}),
-	}),
-}));
-
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
-	m(MAP.MIDNIGHT.QUELTHALAS, {
-		m(MAP.MIDNIGHT.THE_COILED_ISLE, {
-			n(RARES, {
+		m(MAP.MIDNIGHT.VAULTS_OF_ATALUTEK, {
+			n(ZONE_DROPS, {
 			}),
 		}),
 	}),
