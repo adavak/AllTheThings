@@ -1818,6 +1818,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				FESTIVAL_TALESPINNER_COORDS,
 			},
 			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
 		}),
 		q(11657, {	-- Torch Catching (A)
 			["sourceQuest"] = 11731,	-- Torch Tossing (A)
@@ -3520,7 +3521,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 		n(267838, {	-- Midsummer Merchant
 			["coord"] = { 48.9, 80.9, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["timeline"] = { ADDED_12_0_7 },
-			["groups"] = MERCHANT_GROUPS,
+			["sym"] = { { "sub", "common_vendor", 26123 } },	-- Midsummer Supplier (Alliance Vendor)
 		}),
 	}),
 })));
