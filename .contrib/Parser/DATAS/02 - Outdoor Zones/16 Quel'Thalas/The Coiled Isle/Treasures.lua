@@ -99,7 +99,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					},
 				}),
 				-- Smoldering Incense
-				-- Stinking Vessel
+				o(644681, {	-- Stinking Vessel (Intact Vase)
+					["coord"] = { 53.1, 43.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+					["questID"] = 95841,
+				}),
 				o(645208, {	-- Sunken Diver's Chest
 					["coord"] = { 65.4, 5.6, MAP.MIDNIGHT.THE_COILED_ISLE },
 					-- ["cost"] = 1x Diver's Key
@@ -150,6 +153,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					--["questID"] = XXXXX,
 				}),
 			--}),
+			--Repeatables
+			o(656039, {	-- Venom-Clotted Bauble
+				["description"] = "Spawns randomly around the poisoned areas.",
+			}),
+			o(654991, {	-- Cracked Canopic Jar
+				["description"] = "Spawns randomly around the temples.",
+			}),
 		}),
 	}),
 }));

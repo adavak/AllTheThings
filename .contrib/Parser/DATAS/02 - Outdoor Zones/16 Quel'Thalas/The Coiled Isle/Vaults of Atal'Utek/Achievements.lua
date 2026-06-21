@@ -10,7 +10,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					i(276801),	-- Venomous Coiler (MOUNT!)
 				}),
 				ach(62604),	-- Dance While Everyone Watches
-				ach(63636),	-- Fully Corroded
+				ach(63636, {	-- Fully Corroded
+					["cr"] = 269485,	-- Altar of Corrosion
+				}),
 				ach(63601),	-- Oppose the Foes
 				ach(63653),	-- Pro Poison Patroller
 				ach(62600),	-- Ritual Behavior

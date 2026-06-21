@@ -5,8 +5,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 	m(MAP.MIDNIGHT.THE_COILED_ISLE, {
 		n(QUESTS, {
 			header(HEADERS.Achievement, 62297, {	-- The Curse of Ula'tek (Main Campaign)
-				-- Exo Note: AchCriteria, 62297.01, 'Legacy of the Amani' (First Chapter of 'The Coiled Isle' campaign) happens in Zul'Aman in its entirety and was made available (timegated) 3 weeks after the launch of 12.0.7
-				-- Everything else related to 'The Coiled Isle' is 12.1.0. A personal decision has been made to separate the first chapter from everything else and leave it in the Main (root) Quests.lua file.
+				-- Exo Note: AchCriteria, 62297.01, 'Legacy of the Amani' (First Chapter of 'The Coiled Isle' campaign) happens in Zul'Aman (almost) in its entirety and was made available (timegated) 3 weeks after the launch of 12.0.7
+				-- Everything else related to 'The Coiled Isle' is 12.1.0. A personal decision has been made to separate the first chapter from everything else and place it in Zul'Aman.
 				header(HEADERS.AchCriteria, 62297.02, {	-- An Island of Fangs
 					q(92916, {	-- A Call for Aid
 						["sourceQuest"] = 93012,	-- Dead End
@@ -185,6 +185,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["qg"] = 255270,	-- Orweyna (mobileNPC)
 						["coord"] = { 45.3, 45.2, 2639 },	-- Crypt of the Denied, Coordinate depend on where you turned in your previous quests
+						["groups"] = { i(279452) },	-- Forgotten Amani Mural (DECOR!)
 					}),
 				}),
 				header(HEADERS.AchCriteria, 62297.04, {	-- Original Sin
@@ -296,12 +297,77 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				--header(HEADERS.AchCriteria, 62297.05, {	-- The Battle for Atal'Utek
-				--}),
+				header(HEADERS.AchCriteria, 62297.05, {	-- The Battle for Atal'Utek
+					q(93417, {	-- The Vaults of Atal'Utek: Altar of Fangs
+						["sourceQuest"] = 92937,	-- Awakened Evil
+						["qg"] = 253827,	-- Lady Liadrin
+						["coord"] = { 57.5, 49.1, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {	-- Rewards items that drop inside the dungeon (Still left in unsorted until they are sourced inside the dungeon)
+							i(273787),	-- Aged Interwoven Scaleplate
+							i(273789),	-- Chestguard of Corroded Scales
+							i(273785),	-- Primordial Robe of Rites
+							i(273791),	-- Spare Speaker's Hood
+							i(273781),	-- Strand of Warding Fangs
+						},
+					}),
+					q(93419, {	-- Nature of Her Wounds
+						["sourceQuest"] = 93417,	-- The Vaults of Atal'Utek: Altar of Fangs
+						["qg"] = 259226,	-- Lady Liadrin
+						["coord"] = { 57.3, 48.6, MAP.MIDNIGHT.THE_COILED_ISLE },
+						-- Unlocks World Quests
+					}),
+					q(93418, {	-- The Venomous Abyss
+						["sourceQuest"] = 93419,	-- Nature of Her Wounds
+						["qg"] = 259319,	-- Zul'jarra
+						["coord"] = { 57.3, 48.7, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = {
+							i(279508),	-- "The Hunger Awakens" Mural (DECOR!)
+							i(279009),	-- Gore Rattler Coil
+							i(279010),	-- Ula'tek's Bind
+						},
+					}),
+					q(93420, {	-- Lor'themar's Judgement
+						["sourceQuest"] = 93418,	-- The Venomous Abyss
+						["qg"] = 259417,	-- Lady Liadrin
+						["coord"] = { 21.7, 64.9, MAP.MIDNIGHT.THE_COILED_ISLE },
+						["groups"] = { i(279292) },	-- Zul'Aman Pine Tree (DECOR!)
+					}),
+					------ Stay awhile and listen ------
+					--hqt(??, {	-- Stay awhile and listen: Zul'Jarra and Lady Liadrin
+					--	["name"] = "Stay awhile and listen: Zul'Jarra and Lady Liadrin",
+					--	["description"] = "Dialogue becomes available after accepting 'Lor'themar's Judgement' (93420).",
+					--	["sourceQuest"] = 93418,	-- The Venomous Abyss
+					--	["qg"] = 259416,	-- Zul'Jarra
+					--	["coord"] = { 21.7, 64.9, MAP.MIDNIGHT.THE_COILED_ISLE },
+					--}),
+					--
+				}),
 				--header(HEADERS.AchCriteria, 62297.06, {	-- The Call of the Void
 				--}),
 			}),
 			--header(HEADERS.Achievement, 63641, {	-- Snake Charmed, I'm Sure (Sojourner)
+				--header(HEADERS.AchCriteria, 63641.01, {	-- Strange Friends in Odd Places
+				--}),
+				--header(HEADERS.AchCriteria, 63641.02, {	-- Tokka's Crew
+				--}),
+				--header(HEADERS.AchCriteria, 63641.03, {	-- Ancient Anthropology
+				--}),
+				--header(HEADERS.AchCriteria, 63641.04, {	-- Bone Deep
+				--}),
+				--header(HEADERS.AchCriteria, 63641.05, {	-- The Honored Mad'jai
+				--}),
+				--header(HEADERS.AchCriteria, 63641.06, {	-- Don't be Afrayed
+				--}),
+				--header(HEADERS.AchCriteria, 63641.07, {	-- A Band of Brothers
+				--}),
+				--header(HEADERS.AchCriteria, 63641.08, {	-- The Troubles of Mlurkrr Mire
+				--}),
+				--header(HEADERS.AchCriteria, 63641.09, {	-- Somethin' Bad Inside
+				--}),
+				--header(HEADERS.AchCriteria, 63641.10, {	-- Living Legend
+				--}),
+				--header(HEADERS.AchCriteria, 63641.11, {	-- The Monster's Mother
+				--}),
 			--}),
 		}),
 	}),

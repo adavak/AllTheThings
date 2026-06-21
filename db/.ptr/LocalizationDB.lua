@@ -4364,6 +4364,8 @@ _.FlightPathNames = {
 	[3278] = "Sporeforge",
 	[3279] = "Nexus Port",
 	[3280] = "Extraction Coast",
+	[3285] = "Amani Foothold",
+	[3286] = "Eastern Entrance",
 }
 -- Glyphs Database Module
 _.GlyphDB = {

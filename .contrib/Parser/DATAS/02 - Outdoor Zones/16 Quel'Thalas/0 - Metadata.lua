@@ -48,6 +48,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			["timeline"] = { ADDED_12_1_0 },
 			["maps"] = {
 				2639,	-- Crypt of the Denied
+				2638,	-- Profaned Mausoleum
+				2613,	-- The Underbelly
+				2636,	-- Vault of Restless Bones
 			},
 		}),
 		m(MAP.MIDNIGHT.VAULTS_OF_ATALUTEK, {

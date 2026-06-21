@@ -1644,8 +1644,6 @@ root(ROOTS.Unsorted, {
 			i(278994),	-- Big Green Armageddon
 			i(279001),	-- Big Dark Armageddon
 			i(279002),	-- Big Red Armageddon
-			i(279009),	-- Gore Rattler Coil
-			i(279010),	-- Ula'tek's Bind
 			i(279011),	-- Venomjade Necklace
 			i(279012),	-- Cracked Keystone
 			i(279013),	-- [ph] SpiceWitch Chest - Blue
@@ -1769,7 +1767,6 @@ root(ROOTS.Unsorted, {
 			i(279288),	-- Corroded Satchel
 			i(279289),	-- Well Urned Rest
 			i(279290),	-- Fang Lover's
-			i(279292),	-- Zul'Aman Pine Tree
 			i(279345),	-- Corroded Satchel
 			i(279358),	-- Arsenal: Venom-Cursed Arms
 			i(279359),	-- Concocted Poisonous Residue
@@ -1812,7 +1809,6 @@ root(ROOTS.Unsorted, {
 			i(279444),	-- Snowy Gloomcap
 			i(279445),	-- Sunny Gloomcap
 			i(279449),	-- Hex Troll Mask Fragment
-			i(279452),	-- Forgotten Amani Mural
 			i(279455),	-- K'areshi Tea Cup
 			i(279458),	-- Rock Goblet
 			i(279475),	-- Mutagenitor's Feather
@@ -1822,7 +1818,6 @@ root(ROOTS.Unsorted, {
 			i(279479),	-- Leviathan's Eye
 			i(279483),	-- Three-Eyed Fish
 
-			i(279508),	-- "The Hunger Awakens" Mural
 			i(279520),	-- Fabled Veteran's Cache
 			i(279522),	-- Surplus Bag of Party Favors
 			i(279523),	-- Overflowing Abundant Satchel
