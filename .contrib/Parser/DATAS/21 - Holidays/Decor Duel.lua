@@ -54,6 +54,21 @@ root(ROOTS.Holidays,
 				ach(61886),	-- The Whole Kit and Caboodle
 				ach(61879),	-- You're It
 			}),
+			n(ARMOR, sharedData({["collectible"] = false},{	-- Used only when you play as a seeker
+				i(260467),	-- Arcane Ranger - Chest
+				i(260465),	-- Arcane Ranger - Feet
+				i(260464),	-- Arcane Ranger - Legs
+				i(260463),	-- Arcane Ranger - Waist
+				i(260457),	-- Mage-Hunter- Chest
+				i(260456),	-- Mage-Hunter- Feet
+				i(260455),	-- Mage-Hunter- Legs
+				i(260462),	-- Mage-Hunter- Tabard
+				i(260454),	-- Mage-Hunter- Waist
+				i(260442),	-- Spellbreaker - Chest
+				i(260449),	-- Spellbreaker - Feet
+				i(260448),	-- Spellbreaker - Legs
+				i(260445),	-- Spellbreaker - Waist
+			})),
 			n(QUESTS, {
 				q(93774, {	-- When is a Chair not for Sitting?
 					["qg"] = 256307,	-- Silvermoon Cizizen / Completely Ordinary *Decor* (Depends on the NPC)
