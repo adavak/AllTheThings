@@ -1677,6 +1677,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["coord"] = { 52.0, 30.2, WINTERSPRING },
 					["timeline"] = { REMOVED_4_0_3 },
+					["maps"] = { DARNASSUS },
 					["races"] = ALLIANCE_ONLY,
 					["lvl"] = 53,
 					["groups"] = {
