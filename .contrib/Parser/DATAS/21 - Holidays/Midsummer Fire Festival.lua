@@ -505,7 +505,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 						--	-- TODO: Vendor items probably
 						--},
 					}),
-					hqt(97111),	-- ?? Triggered the same time 83134 did, when an item was learned/used from the bag, 97116 triggered from just looting from the bag
 				},
 			}),
 			i(54536, {	-- Satchel of Chilled Goods
@@ -3576,20 +3575,27 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 })));
 
 root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.TBC, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {
+	expansion(EXPANSION.TBC, {
 		applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
-			n(QUESTS, {
+			n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_2_4_0 } }, {
 				q(11976),	-- Cross completes on completion of Shards of Ahune
-			}),
+			})),
 		})),
-	})),
-	expansion(EXPANSION.CATA, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
+	}),
+	expansion(EXPANSION.CATA, {
 		applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
-			n(QUESTS, {
+			n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_4_0_3 } }, {
 				q(28761),	-- obsolete "Honor the Flame" quest according to Wowhead, triggered together with "Honor the Flame" 11834 in Winterspring
-			}),
+			})),
 		})),
-	})),
+	}),
+	expansion(EXPANSION.MID, {
+		applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE_FESTIVAL_HEADER, {
+			n(QUESTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
+				q(97111),	-- Looted 12.0.7 cosmetic/mount from the bag
+			})),
+		})),
+	}),
 });
 
 -- Remove the holiday flag.

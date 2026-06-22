@@ -3645,30 +3645,37 @@ for i,o in ipairs({
 end
 
 -- #if AFTER 3.3.0
-root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, {
-	applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_HEADER, {
-		-- #if BEFORE LEGION
-		n(QUESTS, {
-			q(24661, {	-- Crush the Crown Daily Tracker / Theryn Fed Tracker [LEGION]
-				["timeline"] = { ADDED_3_3_0 },
-			}),
-		}),
-		-- #endif
-		n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }, {
-			q(79143),	-- Completed alongside Love is in the Air (A)
-			q(79144),	-- Completed alongside Love is in the Air (H)
-			q(78734),	-- After choosing "a challenge" for The Gift of Self-Care
-			q(78735),	-- After choosing "something tasty" for The Gift of Self-Care
-			q(78736),	-- After choosing "a nap" for The Gift of Self-Care
-			q(78475),	-- Interacting with a bottle of perfume during I Smell Trouble (A)
-			q(78476),	-- Interacting with a box during I Smell Trouble (A)
+root(ROOTS.HiddenQuestTriggers, {
+	expansion(EXPANSION.WRATH, {
+		applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_HEADER, {
+			-- #if BEFORE LEGION
+			n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_3_3_0 } }, {
+				q(24661),	-- Crush the Crown Daily Tracker / Theryn Fed Tracker [LEGION]
+			})),
+			-- #endif
 		})),
-		n(QUESTS, {
-			q(95067, {	-- Daily on Dungeon Completion
-				["isDaily"] = true,
-				["timeline"] = { ADDED_12_0_0 },
-			}),
-		}),
-	})),
-}));
+	}),
+	expansion(EXPANSION.DF, {
+		applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_HEADER, {
+			n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_10_2_5 } }, {
+				q(79143),	-- Completed alongside Love is in the Air (A)
+				q(79144),	-- Completed alongside Love is in the Air (H)
+				q(78734),	-- After choosing "a challenge" for The Gift of Self-Care
+				q(78735),	-- After choosing "something tasty" for The Gift of Self-Care
+				q(78736),	-- After choosing "a nap" for The Gift of Self-Care
+				q(78475),	-- Interacting with a bottle of perfume during I Smell Trouble (A)
+				q(78476),	-- Interacting with a box during I Smell Trouble (A)
+			})),
+		})),
+	}),
+	expansion(EXPANSION.MID, {
+		applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_HEADER, {
+			n(QUESTS, bubbleDown({ ["timeline"] = { ADDED_12_0_0 } }, {
+				q(95067, {	-- Daily on Dungeon Completion
+					["isDaily"] = true,
+				}),
+			})),
+		})),
+	}),
+});
 -- #endif
