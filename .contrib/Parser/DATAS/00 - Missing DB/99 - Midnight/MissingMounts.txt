@@ -40,10 +40,6 @@ mount(1305209),	-- Crested Violet Leafmimic
 
 Missing in MountDB.lua
 
-12.0.1.66013
-mount(1289395),	-- Swift Spectral Dragonhawk
-12.0.7.67669
-mount(1243582),	-- Dusk Grimlynx
 12.1.0.68209
 mount(1266211),	-- Venomous Gladiator's Goredrake
 mount(1292668),	-- Spirit of Tok'jara

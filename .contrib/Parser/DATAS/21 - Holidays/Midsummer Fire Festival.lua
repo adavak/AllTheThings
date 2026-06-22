@@ -834,6 +834,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_11_1_7 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
+			ach(61336, {	-- Flame Warden of Midnight (A)
+				["timeline"] = { ADDED_12_0_7 },
+			}),
 		})),
 		n(FACTION_HEADER_HORDE, bubbleDown({ ["races"] = HORDE_ONLY }, {
 			ach(1039, {	-- The Flame Keeper (Horde)
@@ -956,17 +959,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				["timeline"] = { ADDED_8_1_5 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
-			ach(41632, {	-- Flame Keeper of Khaz Algar (A)
+			ach(41632, {	-- Flame Keeper of Khaz Algar (H)
 				["timeline"] = { ADDED_11_1_7 },
 				["sym"] = {{ "achievement_criteria" }},
 			}),
+			ach(61335, {	-- Flame Keeper of Midnight (H)
+				["timeline"] = { ADDED_12_0_7 },
+			}),
 		})),
-		ach(61335, {	-- Flame Keeper of Midnight
-			["timeline"] = { ADDED_12_0_7 },
-		}),
-		ach(61336, {	-- Flame Warden of Midnight
-			["timeline"] = { ADDED_12_0_7 },
-		}),
 		ach(271, {	-- Burning Hot Pole Dance
 			["description"] = "You need the Mantle of the Fire Festival, Vestment of Summer, and the Sandals of Summer to complete the Midsummer set.",
 			["timeline"] = { ADDED_3_0_2 },
