@@ -1233,13 +1233,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 		q(92504, {	-- Ignite the Skies: Southern Eastern Kingdoms
 			["sourceQuests"] = {
 				92711,	-- Ignite the Skies: Stormwind
+				92634,	-- Midsummer's Journey to Loch Modan
 			},
 			["sourceQuestNumRequired"] = 1,
 			["qgs"] = {
 				252528,	-- Aedh Firebeard
+				266045,	-- Fiery Image of Aedh Firebeard
 			},
 			["coords"] = {
 				{ 48.0, 72.0, STORMWIND_CITY },
+				{ 74.8, 1.4, NORTHSHIRE_VALLEY },
 			},
 			["timeline"] = { ADDED_12_0_7 },
 			["isYearly"] = true,
@@ -1300,6 +1303,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			-- #endif
 			["lvl"] = lvlsquish(16, 1, 1),
 		}),
+		h(q(92634, {	-- Midsummer's Journey to Loch Modan
+			["sourceQuest"] = 92420,	-- Ignite the Skies: Southern Kalimdor
+			["qg"] = 251986, -- Fiery Image of Elder Sunhorn
+			["coord"] = { 31.7, 63.6, TANARIS },
+			["timeline"] = { ADDED_12_0_7 },
+			["isYearly"] = true,
+			["isBreadcrumb"] = true,
+		})),
 		a(q(92635, {	-- Midsummer's Journey to the Barrens
 			["sourceQuest"] = 92503,	-- Ignite the Skies: Northern Eastern Kingdoms
 			["qg"] = 252784, -- Fiery Image of Aedh Firebeard
@@ -1410,9 +1421,15 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			["timeline"] = { ADDED_2_4_0 },
 			["races"] = HORDE_ONLY,
 		}),
+		h(q(92839, {	-- Reignite the Skies: Orgrimmar
+			["qg"] = 250811,	-- Elder Sunhorn
+			["coord"] = { 47.6, 37.9, ORGRIMMAR },
+			["timeline"] = { ADDED_12_0_7 },
+			["isDaily"] = true,
+		})),
 		a(q(92836, {	-- Reignite the Skies: Stormwind
 			["qg"] = 252528,	-- Aedh Firebeard
-			["coords"] = { 48.0, 72.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["coords"] = { 48.0, 72.0, STORMWIND_CITY },
 			["timeline"] = { ADDED_12_0_7 },
 			["isDaily"] = true,
 		})),
