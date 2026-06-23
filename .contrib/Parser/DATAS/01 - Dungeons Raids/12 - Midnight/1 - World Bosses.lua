@@ -160,9 +160,7 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 			}),
 			n(260833, {	-- Adjutant Mertei
 				["coord"] = { 76.2, 68.8, NAIGTAL },
-				-- ["sym"] = {{"select", "itemID",
-				-- TODO
-				-- }},
+				["sym"] = {{"select", "npcID", 260875},{"pop"}},	-- Nexus-Captain Leth'ir
 			}),
 		}),
 	}),
