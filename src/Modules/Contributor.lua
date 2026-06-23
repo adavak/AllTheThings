@@ -727,6 +727,7 @@ MobileDB.Creature = {
 	[255270] = true,	-- Orweyna
 	[256867] = true,	-- Grieving Amani
 	[259125] = true,	-- Enchanted Amani Mask
+	[265166] = true,	-- Baraat the Longshot
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates

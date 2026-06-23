@@ -84,8 +84,18 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["qg"] = 263482, -- Riftblade Maella
 							["coord"] = { 59.5, 22.0, VAL },
 						}),
+						q(96338, {	-- Port of Entry
+							["sourceQuest"] = 96310,	-- Disrupting the Order
+							["qg"] = 265166,	-- Baraat the Longshot
+						}),
 						q(96496, {	-- The Road Not Taken Twice
 							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+							["qg"] = 263482, -- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+						}),
+						hqt(97294, {	-- Stay awhile and listen: Riftblade Maella
+							["sourceQuest"] = 96473,	-- Imperator Pertinax
+							["name"] = "Stay awhile and listen: Riftblade Maella",
 							["qg"] = 263482, -- Riftblade Maella
 							["coord"] = { 59.5, 22.0, VAL },
 						}),
@@ -107,10 +117,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96714, {	-- Showdown on Val (Heroic)
 							["sourceQuest"] = 96051,	-- Through the Cold Rift
-							["qgs"] = {
-								263482,	-- Riftblade Maella
-								263479,	-- Riftblade Maella
-							},
+							["qg"] = 263482,	-- Riftblade Maella
 							["coords"] = {
 								{ 47.7, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 								{ 59.3, 19.5, VAL },
@@ -121,26 +128,42 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(97080, {	-- More Disruption: Val
 							["sourceQuest"] = 96713,	-- Showdown on Val
-							--["qg"] = 265303,	-- Decimus
-							--["coords"] = {
-							--	{ 48.2, 81.2, NAIGTAL },
-							--	{ 48.5, 81.9, NAIGTAL },
-							--},
-							--["isWeekly"] = true,
-							--["groups"] = { i(276387) },	-- Riftstalker's Favor
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+							["isWeekly"] = true,
+							["groups"] = { i(276387) },	-- Riftstalker's Favor
 						}),
 						q(97081, {	-- More Disruption: Val  (Heroic)
 							["sourceQuest"] = 96714,	-- Showdown on Val (Heroic)
-							--["qg"] = 265303,	-- Decimus
-							--["coords"] = {
-							--	{ 48.2, 81.2, NAIGTAL },
-							--	{ 48.5, 81.9, NAIGTAL },
-							--},
-							--["isWeekly"] = true,
-							--["groups"] = { i(276388) },	-- Riftstalker's Overflowing Favor
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+							["isWeekly"] = true,
+							["groups"] = { i(276388) },	-- Riftstalker's Overflowing Favor
+						}),
+						q(97082, {	-- Dangerous Enemies: Val
+							["sourceQuest"] = 96713,	-- Showdown on Val
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+							["isWeekly"] = true,
+							["groups"] = { i(276389) },	-- Riftstalker's Prize
+						}),
+						q(97083, {	-- Dangerous Enemies: Val (Heroic)
+							["sourceQuest"] = 96714,	-- Showdown on Val (Heroic)
+							["qg"] = 263482,	-- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+							["isWeekly"] = true,
+							["groups"] = { i(276390) },	-- Riftstalker's Overflowing Prize
 						}),
 					}),
 					n(RARES, {
+						n(262421, {	-- Atomus <Portal Master>
+							["coord"] = { 38.2, 79.4, VAL },
+							["questID"] = 95940,
+						}),
+						n(261716, {	-- Glacial Broodmother <Frost-Hive Alpha>
+							["coord"] = { 67.2, 42.4, VAL },
+							["questID"] = 95559,
+						}),
 						n(264866, {	-- Krilkan
 							["coord"] = { 44.6, 52.8, VAL },
 							--["questID"] = XXXXX,
@@ -153,13 +176,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 46.0, 64.6, VAL },
 							["questID"] = 96465,
 						}),
+						n(261965, {	-- Sleet-Rune <The Void Infused Watcher>
+							["coord"] = { 55.2, 65.6, VAL },
+							["questID"] = 95939,
+						}),
 						n(264870, {	-- The Horror Below <The Living Whisper>
 							["coord"] = { 35.5, 57.6, VAL },
 							["questID"] = 96375,
-						}),
-						n(261965, {	-- Void Infused Sleet-Rune
-							["coord"] = { 55.2, 65.6, VAL },
-							--["questID"] = XXXXX,
 						}),
 						n(264864, {	-- Xirah
 							["coord"] = { 29.0, 73.8, VAL },

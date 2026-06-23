@@ -291,12 +291,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["groups"] = { i(276388) },	-- Riftstalker's Overflowing Favor
 						}),
 						q(97085, {	-- Dangerous Enemies: Naigtal
-							--["sourceQuest"] = ??
+							["sourceQuest"] = 96717,	-- Showdown on Naigtal
+							["qg"] = 265303,	-- Decimus
+							["coords"] = {
+								{ 48.2, 81.2, NAIGTAL },
+								{ 48.5, 81.9, NAIGTAL },
+							},
 							["isWeekly"] = true,
 							["groups"] = { i(276389) },	-- Riftstalker's Prize
 						}),
 						q(97086, {	-- Dangerous Enemies: Naigtal (Heroic)
-							--["sourceQuest"] = ??
+							["sourceQuest"] = 96718,	-- Showdown on Naigtal (Heroic)
+							["qg"] = 265303,	-- Decimus
+							["coords"] = {
+								{ 48.2, 81.2, NAIGTAL },
+								{ 48.5, 81.9, NAIGTAL },
+							},
 							["isWeekly"] = true,
 							["groups"] = { i(276390) },	-- Riftstalker's Overflowing Prize
 						}),
