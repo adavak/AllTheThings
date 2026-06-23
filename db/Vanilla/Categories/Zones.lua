@@ -8125,7 +8125,7 @@ q(5305,{altQuests={5306,5307},coords={
 qo(1,{crs={11120},providers={{"i",13351}}}),
 r(16973,{itemID=12824,learnedAt=280,q=2,requireSkill=17040})}}),
 q(5253,{coords={
-[1452]={{52,30.2}}},lvl=53,providers={{"i",13347}},qgs={11079},r=2,rwp=40003,sourceQuests={5252},g={
+[1452]={{52,30.2}}},lvl=53,maps={1457},providers={{"i",13347}},qgs={11079},r=2,rwp=40003,sourceQuests={5252},g={
 s(162592,15791,{b=1,f=4,q=2}),
 s(162593,15792,{b=1,f=5,q=2}),
 s(162595,15795,{b=1,f=7,q=2})}}),

@@ -2363,7 +2363,7 @@ p(65,{e=1,itemID=11026,npcID=7549,spellID=10704}),
 p(64,{e=1,isLimited=1,itemID=11027,npcID=7550,spellID=10703})}}),
 n(55103,{awp=50402,coords={
 [407]={{52.5,88.7}}},e=1,g={
-p(1666,{awp=60200,cost={{"i",124669,50}},e=1,itemID=126925,npcID=93814,spellID=185601}),
+p(1666,{awp=60200,cost={{"i",124669,50}},e=1,itemID=126925,npcID=269295,spellID=185601}),
 i(124671,{awp=60200,cost={{"i",124669,25}},e=1,f=55,spellID=185562}),
 mnt(228919,{awp=70100,b=1,cost={{"i",124669,500}},e=1,itemID=142398,lvl=10}),
 i(124674,{awp=60200,cost={{"i",124669,25}},e=1,f=55,requireSkill=356,spellID=185587}),

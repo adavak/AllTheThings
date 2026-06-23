@@ -1724,7 +1724,7 @@ localize(L.HEADER_NAMES, {
 	[-739] = COVENANT_SANCTUM_TAB_RENOWN.." 2",
 	[-740] = COVENANT_SANCTUM_TAB_RENOWN.." 4",
 	[-743] = COVENANT_SANCTUM_TAB_RENOWN.." 9",
-	[-745] = "Mail Delivery Races",
+	[-745] = "Neighborhood postal route",
 	[-746] = "Profession Nodes",
 	[-748] = "Fanta",
 	[-750] = "Phase Conduits",
@@ -2663,7 +2663,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=6,["monthDay"]=28,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026}),
@@ -2715,7 +2714,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=23,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=30,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=6,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=13,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=6,["monthDay"]=20,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=6,["monthDay"]=20,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -6147,6 +6147,7 @@ local ObjectNames = {
 	[185861] = "Fel Cannonball Stack",
 	[185877] = "Nethercite Deposit",
 	[185881] = "Netherdust Bush",
+	[185890] = "Apexis Relic",
 	[185913] = "Skull Pile",
 	[185915] = "Netherwing Egg",
 	[185928] = "Ancient Skull Pile",
@@ -9436,6 +9437,7 @@ local ObjectNames = {
 	[291236] = "Steaming Fresh Carrion",
 	[291238] = "Bwonsamdi's Tears",
 	[291241] = "Gnarl Root",
+	[291242] = "Barrel of Coal",
 	[291244] = "Small Treasure Chest",
 	[291246] = "Small Treasure Chest",
 	[291254] = "Small Treasure Chest",
@@ -15548,6 +15550,7 @@ local ObjectModels = {
 	[185861] = 192333,
 	[185877] = 219544,
 	[185881] = 219493,
+	[185890] = 191535,
 	[185913] = 190688,
 	[185915] = 200966,
 	[185928] = 190688,
@@ -18790,6 +18793,7 @@ local ObjectModels = {
 	[291236] = 1726093,
 	[291238] = 894512,
 	[291241] = 848980,
+	[291242] = 1602488,
 	[291244] = 2120294,
 	[291246] = 2120294,
 	[291254] = 2120294,
@@ -26712,6 +26716,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFSchritt 1:|r Auffällige Notiz",
 	[-729] = "Überfluss",
 	[-738] = "Legenden der Haranir",
+	[-745] = "Postroute in der Nachbarschaft",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -27774,6 +27779,7 @@ localize(ObjectNames, {
 	[185861] = "Stapel mit Teufelskanonenkugeln",
 	[185877] = "Netheritvorkommen",
 	[185881] = "Netherstaubbusch",
+	[185890] = "Apexisrelikt",
 	[185913] = "Schädelhaufen",
 	[185915] = "Ei der Netherschwingen",
 	[185928] = "Uralter Schädelhaufen",
@@ -30971,6 +30977,7 @@ localize(ObjectNames, {
 	[291236] = "Dampfendes frisches Aas",
 	[291238] = "Bwonsamdis Tränen",
 	[291241] = "Runzelwurzel",
+	[291242] = "Fass mit Kohle",
 	[291244] = "Kleine Schatztruhe",
 	[291246] = "Kleine Schatztruhe",
 	[291254] = "Kleine Schatztruhe",
@@ -34508,6 +34515,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFÉtape 1:|r Note mise en évidence",
 	[-729] = "Abondance",
 	[-738] = "Légendes des Haranir",
+	[-745] = "Tournée postale dans le quartier",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -35582,6 +35590,7 @@ localize(ObjectNames, {
 	[185861] = "Pile de boulets de gangrecanon",
 	[185877] = "Gisement de néanticite",
 	[185881] = "Buisson de pruinéante",
+	[185890] = "Relique apogide",
 	[185913] = "Pile de crânes",
 	[185915] = "Œuf de l'Aile-du-Néant",
 	[185928] = "Pile de crânes anciens",
@@ -38784,6 +38793,7 @@ localize(ObjectNames, {
 	[291236] = "Charogne fumante",
 	[291238] = "Larmes de Bwonsamdi",
 	[291241] = "Racine noueuse",
+	[291242] = "Tonneau de charbon",
 	[291244] = "Petit coffre au trésor",
 	[291246] = "Petit coffre au trésor",
 	[291254] = "Petit coffre au trésor",
@@ -41910,6 +41920,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFStep 1:|r Nota Vistosa",
 	[-729] = "Abbondanza",
 	[-738] = "Leggende degli Haranir",
+	[-745] = "Percorso postale nel Vicinato",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ottieni esperienza e reputazione bonus nel corso delle tue avventure ad Azeroth, e trova tesori misteriosi sulle Isole dei Draghi e a Khaz Algar!",
@@ -42581,6 +42592,7 @@ localize(ObjectNames, {
 	[185861] = "Pila di Palle del Vilcannone",
 	[185877] = "Deposito di Faturcite",
 	[185881] = "Cespuglio di Nubefatua",
+	[185890] = "Reliquia Apexis",
 	[185913] = "Pila di Teschi",
 	[185915] = "Uovo di Alafatua",
 	[185928] = "Cumulo di Antichi Teschi",
@@ -45755,6 +45767,7 @@ localize(ObjectNames, {
 	[291236] = "Carogna Fresca Fumante",
 	[291238] = "Lacrime di Bwonsamdi",
 	[291241] = "Radice di Gnarl",
+	[291242] = "Barile di Carbone",
 	[291244] = "Cassa del Tesoro Piccola",
 	[291246] = "Cassa del Tesoro Piccola",
 	[291254] = "Cassa del Tesoro Piccola",
@@ -48628,6 +48641,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFStep 1:|r Bilhete Suspeito",
 	[-729] = "Abundância",
 	[-738] = "Lendas dos Haranir",
+	[-745] = "Rota postal na vizinhança",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "Ganhe bônus de experiência e reputação em suas aventuras em Azeroth e ache fortuitos mistérios nas Ilhas do Dragão e em Khaz Algar!",
@@ -49596,6 +49610,7 @@ localize(ObjectNames, {
 	[185861] = "Pilha de Balas de Canhão Vil",
 	[185877] = "Depósito de Etercita",
 	[185881] = "Arbusto de Poeira Etérea",
+	[185890] = "Relíquia Apexis",
 	[185913] = "Pilha de Crânios",
 	[185915] = "Ovo da Asa Etérea",
 	[185928] = "Pilha de Crânios Antiga",
@@ -52784,6 +52799,7 @@ localize(ObjectNames, {
 	[291236] = "Carniça Fresca Fumegante",
 	[291238] = "Lágrimas do Bwonsamdi",
 	[291241] = "Roer Raiz",
+	[291242] = "Barril de Carvão",
 	[291244] = "Baú do Tesouro Pequeno",
 	[291246] = "Baú do Tesouro Pequeno",
 	[291254] = "Baú do Tesouro Pequeno",
@@ -56545,6 +56561,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFШаг 1:|r Примечательная записка",
 	[-729] = "Изобилие",
 	[-738] = "Легенды хараниров",
+	[-745] = "Pайонный почтовый маршрут",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
@@ -57629,6 +57646,7 @@ localize(ObjectNames, {
 	[185861] = "Груда пушечных ядер Скверны",
 	[185877] = "Залежи хаотита",
 	[185881] = "Куст пустопраха",
+	[185890] = "Апекситовая реликвия",
 	[185913] = "Груда черепов",
 	[185915] = "Яйцо дракона из стаи Крыльев Пустоты",
 	[185928] = "Груда древних черепов",
@@ -60852,6 +60870,7 @@ localize(ObjectNames, {
 	[291236] = "Свежая падаль",
 	[291238] = "Слезы Бвонсамди",
 	[291241] = "Корявый корень",
+	[291242] = "Угольный бочонок",
 	[291244] = "Маленький сундук с сокровищами",
 	[291246] = "Маленький сундук с сокровищами",
 	[291254] = "Маленький сундук с сокровищами",
@@ -64011,6 +64030,7 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFFStep 1:|r 눈에 띄는 쪽지",
 	[-729] = "풍요",
 	[-738] = "하라니르의 전설",
+	[-745] = "거주구 우편 경로를",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-106] = "아제로스를 모험하며 추가 경험치와 평판을 획득하고, 용의 섬과 카즈 알가르에서 수수께끼의 보물을 발견해 보십시오!",
@@ -64999,6 +65019,7 @@ localize(ObjectNames, {
 	[185861] = "지옥 포탄 더미",
 	[185877] = "황천연 광맥",
 	[185881] = "황천티끌 덤불",
+	[185890] = "에펙시스 유물",
 	[185913] = "해골 더미",
 	[185915] = "황천날개 알",
 	[185928] = "고대 해골 더미",
@@ -71504,6 +71525,7 @@ localize(L.HEADER_NAMES, {
 	[-723] = "Incursiones elementales",
 	[-729] = "Abundancia",
 	[-738] = "Leyendas de los haranir",
+	[-745] = "Ruta postal del vecindario",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "Contiene recompensas que dan al completar el evento.",
@@ -72626,6 +72648,7 @@ localize(ObjectNames, {
 	[185861] = "Montón de balas de cañón vil",
 	[185877] = "Depósito de abisalita",
 	[185881] = "Arbusto de polvo abisal",
+	[185890] = "Reliquia apexis",
 	[185913] = "Montón de cráneos",
 	[185915] = "Huevo de Ala Abisal",
 	[185928] = "Montón de cráneos antiguos",
@@ -75819,6 +75842,7 @@ localize(ObjectNames, {
 	[291236] = "Carroña fresca humeante",
 	[291238] = "Lágrimas de Bwonsamdi",
 	[291241] = "Raíz de Gnarl",
+	[291242] = "Barrica de carbón",
 	[291244] = "Arqueta pequeña",
 	[291246] = "Arqueta pequeña",
 	[291254] = "Arqueta pequeña",
@@ -78951,6 +78975,7 @@ localize(L.HEADER_NAMES, {
 	[-694] = "Mejoras de Burning Crusade Classic™ Edición Aniversario",
 	[-710] = "|cFFFFFFFFStep 1:|rNota sospechosa",
 	[-723] = "Invasiones elementales",
+	[-745] = "Ruta postal de vecindario",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-29] = "Contiene cosas que se otorgan como recompensa al completar este evento.",
@@ -80656,10 +80681,18 @@ localize(L.HEADER_NAMES, {
 	[-710] = "|cFFFFFFFF步骤1:|r 不起眼的纸条",
 	[-712] = "升级中角色",
 	[-713] = "最高等级角色",
+	[-714] = "文化节",
+	[-715] = "卡雷什文化",
+	[-716] = "土地精文化",
+	[-717] = "鼹鼠人文化",
+	[-718] = "辛多雷文化",
+	[-719] = "巨龙文化",
+	[-720] = "机械侏儒文化",
 	[-722] = "暗黑破坏神II重制版 - 术士君临",
 	[-723] = "元素入侵",
 	[-729] = "丰饶",
 	[-738] = "哈籁尼尔的传说",
+	[-745] = "住宅区邮路",
 	[-746] = "专业节点",
 	[-750] = "相位导管",
 });
@@ -81663,6 +81696,7 @@ localize(ObjectNames, {
 	[185861] = "邪能炮弹堆",
 	[185877] = "虚空矿脉",
 	[185881] = "灵尘灌木丛",
+	[185890] = "埃匹希斯圣物",
 	[185913] = "颅骨堆",
 	[185915] = "灵翼龙卵",
 	[185928] = "上古颅骨堆",
@@ -87950,6 +87984,7 @@ localize(L.HEADER_NAMES, {
 	[-722] = "暗黑破壞神II：獄火重生 ─ 術士軍臨",
 	[-729] = "豐足",
 	[-738] = "哈拉尼爾的傳說",
+	[-745] = "社區郵政路線",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-24] = "包含完成探究時獎勵的東西。",

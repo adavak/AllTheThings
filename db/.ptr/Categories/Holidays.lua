@@ -9403,8 +9403,7 @@ s(293075,246571,{awp=110107,e=11,f=28}),
 s(292193,244423,{awp=110107,e=11,f=29}),
 s(293074,246570,{awp=110107,e=11,f=28})}}),
 hqt(97116,{awp=120007,description="Items under this group only have a chance to drop on your first kill per day for your warband.",e=11,isDaily=1,g={
-mnt(1298439,{e=11,itemID=275464})}}),
-hqt(97111,{e=11})}}),
+mnt(1298439,{e=11,itemID=275464})}})}}),
 i(54536,{awp=30303,b=1,e=11,rwp=60002,u=2,g={
 s(50092,95426,{awp=50004,b=1,e=11,f=28,lvl=35,spellID=46643,u=2}),
 s(35563,69771,{awp=40001,b=1,e=11,f=28,lvl=32,rwp=50004,spellID=46643,u=2}),
@@ -9484,7 +9483,8 @@ ach(1024,{awp=30002,e=11,r=2,g={
 crit(3195,{achID=1034,e=11,id=6,r=2})}}),
 ach(8045,{awp=50200,e=11,r=2}),
 ach(11280,{awp=70200,e=11,r=2}),
-ach(17737,{awp=100100,e=11,r=2})}}),
+ach(17737,{awp=100100,e=11,r=2}),
+ach(61336,{awp=120007,e=11,r=2})}}),
 h(-211,{e=11,g={
 ach(1039,{awp=30002,e=11,r=1,g={
 title(45,{e=11,r=1}),
@@ -9524,9 +9524,8 @@ crit(3201,{achID=1036,e=11,id=6,r=1})}}),
 ach(8044,{awp=50200,e=11,r=1}),
 ach(11282,{awp=70200,e=11,r=1}),
 ach(17738,{awp=100100,e=11,r=1}),
-ach(13340,{awp=80105,e=11,r=1})}}),
-ach(61335,{awp=120007,e=11}),
-ach(61336,{awp=120007,e=11}),
+ach(13340,{awp=80105,e=11,r=1}),
+ach(61335,{awp=120007,e=11,r=1})}}),
 ach(271,{awp=30002,description="You need the Mantle of the Fire Festival, Vestment of Summer, and the Sandals of Summer to complete the Midsummer set.",e=11,providers={{"s",58934}},g={
 crit(7338,{achID=1038,e=11,id=4,r=2}),
 crit(7338,{achID=1039,e=11,id=3,r=1})}}),
@@ -9597,7 +9596,8 @@ q(92435,{awp=120007,coords={
 q(92821,{awp=120007,coords={
 [2393]={{48.4,80}}},e=11,isYearly=1,qgs={266846}}),
 q(92504,{awp=120007,coords={
-[84]={{48,72}}},e=11,isYearly=1,qgs={252528},sourceQuests={92711},sqreq=1}),
+[84]={{48,72}},
+[425]={{74.8,1.4}}},e=11,isYearly=1,qgs={252528,266045},sourceQuests={92634,92711},sqreq=1}),
 q(92420,{awp=120007,coords={
 [10]={{22.3,19.2}}},e=11,isYearly=1,qgs={251986},sourceQuests={92106}}),
 q(92711,{awp=120007,coords={
@@ -9622,6 +9622,8 @@ q(29092,{awp=40001,coords={
 [63]={{16,20.8}}},cost={{"i",35828,1}},description="Use your Totemic Beacon to summon the quest giver.",e=11,qgs={25324},r=2,sourceQuests={11891}}),
 q(12012,{awp=20400,coords={
 [63]={{16,20.8}}},cost={{"i",35828,1}},description="Use your Totemic Beacon to summon the quest giver.",e=11,qgs={25324},r=1,sourceQuests={11891}}),
+q(92634,{awp=120007,coords={
+[71]={{31.7,63.6}}},e=11,isBreadcrumb=1,isYearly=1,nextQuests={92504},qgs={251986},r=1,sourceQuests={92420}}),
 q(92635,{awp=120007,coords={
 [26]={{19.2,48.1}}},e=11,isBreadcrumb=1,isYearly=1,nextQuests={92106},qgs={252784},r=2,sourceQuests={92503}}),
 q(11924,{awp=20400,coords={
@@ -9664,8 +9666,10 @@ q(11882,{awp=20400,coords={
 [2339]={{47.2,53.6}}},e=11,qgs={25962,240483},r=2}),
 q(11915,{awp=20400,coords={
 [2339]={{47.2,53.6}}},e=11,qgs={25994,240483},r=1}),
+q(92839,{awp=120007,coords={
+[85]={{47.6,37.9}}},e=11,isDaily=1,qgs={250811},r=1}),
 q(92836,{awp=120007,coords={
-[2393]={{48,72}}},e=11,isDaily=1,qgs={252528},r=2}),
+[84]={{48,72}}},e=11,isDaily=1,qgs={252528},r=2}),
 q(11972,{altQuests={11976},awp=20400,e=11,providers={{"i",35723}},g={
 s(16406,35279,{b=1,e=11,f=9}),
 s(16407,35280,{b=1,e=11,f=9}),
@@ -10874,24 +10878,24 @@ crit(103340,{achID=41631,awp=110105,e=11,id=4,r=2}),
 crit(103340,{achID=41632,awp=110105,e=11,id=4,r=1})}}),
 q(92555,{awp=120007,coords={
 [2395]={{48.9,63.9}}},e=11,isYearly=1,qgs={252192},g={
-crit(109164,{achID=61335,e=11,id=1}),
-crit(109164,{achID=61336,e=11,id=1})}}),
+crit(109164,{achID=61335,e=11,id=1,r=1}),
+crit(109164,{achID=61336,e=11,id=1,r=2})}}),
 q(92556,{awp=120007,coords={
 [2393]={{48.6,80.8}}},e=11,isYearly=1,qgs={248989},g={
-crit(109163,{achID=61335,e=11,id=3}),
-crit(109163,{achID=61336,e=11,id=3})}}),
+crit(109163,{achID=61335,e=11,id=3,r=1}),
+crit(109163,{achID=61336,e=11,id=3,r=2})}}),
 q(92557,{awp=120007,coords={
 [2437]={{54.4,16.8}}},e=11,isYearly=1,qgs={248975},g={
-crit(109165,{achID=61335,e=11,id=5}),
-crit(109165,{achID=61336,e=11,id=5})}}),
+crit(109165,{achID=61335,e=11,id=5,r=1}),
+crit(109165,{achID=61336,e=11,id=5,r=2})}}),
 q(92558,{awp=120007,coords={
 [2405]={{55.7,70.2}}},e=11,isYearly=1,qgs={252194},g={
-crit(109166,{achID=61335,e=11,id=4}),
-crit(109166,{achID=61336,e=11,id=4})}}),
+crit(109166,{achID=61335,e=11,id=4,r=1}),
+crit(109166,{achID=61336,e=11,id=4,r=2})}}),
 q(92559,{awp=120007,coords={
 [2413]={{54.2,51.6}}},e=11,isYearly=1,qgs={252196},g={
-crit(109167,{achID=61335,e=11,id=2}),
-crit(109167,{achID=61336,e=11,id=2})}})}})}}),
+crit(109167,{achID=61335,e=11,id=2,r=1}),
+crit(109167,{achID=61336,e=11,id=2,r=2})}})}})}}),
 h(-58,{e=11,g={
 n(26123,{awp=20400,coords={
 [84]={{49.2,71.8}},

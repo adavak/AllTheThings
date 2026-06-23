@@ -74,7 +74,7 @@ p(333,{b=1,itemID=72134,npcID=54730,q=3,spellID=102317,u=3})),(function(t)if Get
 toy(72159,{b=1,q=3,u=3})),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 toy(79769,{b=1,q=3,u=3}))}}),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 i(235378,{awp=50502,u=3,g={(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
-i(267279,{u=3}))}}))}}),
+i(267279,{f=55,u=3}))}}))}}),
 h(-521,{u=3,g={
 x(1,{description="These rewards were made available to anyone who purchased an original Collector's Edition of World of Warcraft.\n\nThere may still be copies online, but expect to lose a sizable chunk of real world currency for it.",u=3,g={
 h(-45,{rwp=20001,u=2,g={
@@ -181,7 +181,7 @@ p(124,{b=1,itemID=22781,npcID=16456,q=1,spellID=28505,u=2}),
 p(758,{b=1,itemID=19054,npcID=14756,q=1,spellID=23530,u=2}),
 p(1073,{b=1,itemID=22780,npcID=16445,q=3,spellID=28487,u=2})}}),
 h(-547,{
-s(129974,19160,{awp=11101,b=1,description="This tabard was given to the people on each servers with the most honorable kills before the introduction of the original honor system.",f=9,q=1,u=2}),
+s(129974,19160,{awp=11101,b=1,description="This tabard was given to the people on each servers with the most honorable kills before the introduction of the original honor system.",f=9,q=2,u=2}),
 p(244,{b=1,description="Granted to players that attach an authenticator to their account.",itemID=49646,npcID=36871,q=3,spellID=69452,u=1}),
 p(240,{awp=40003,b=1,description="Reward from a Korean-exclusive World Event that mailed you this pet.",itemID=48527,npcID=35468,q=3,spellID=67527,u=2,g={
 ach(3896,{u=2})}}),
