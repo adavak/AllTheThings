@@ -88,6 +88,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["sourceQuest"] = 96310,	-- Disrupting the Order
 							["qg"] = 265166,	-- Baraat the Longshot
 						}),
+						q(96440, {	-- Victory Within Hindsight
+							["sourceQuest"] = 96338,	-- Port of Entry
+							["qg"] = 265166,	-- Baraat the Longshot
+						}),
 						q(96496, {	-- The Road Not Taken Twice
 							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
 							["qg"] = 263482, -- Riftblade Maella
@@ -172,6 +176,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 49.7, 79.2, VAL },
 							--["questID"] = XXXXX,
 						}),
+						n(264869, {	-- Nelgothar <The Forgotten>
+							["coord"] = { 23.2, 41.9, VAL },
+							["questID"] = 96374,
+						}),
 						n(265269, {	-- Shadowguard Destroyer
 							["coord"] = { 46.0, 64.6, VAL },
 							["questID"] = 96465,
@@ -218,6 +226,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(95393, {	-- Caver Saviour
 							["coord"] = { 61.6, 78.8, VAL },
+						}),
+						q(95398, {	-- Dissent and Divide
+							["coord"] = { 20.3, 41.7, VAL },
 						}),
 						q(95815, {	-- Downhill Jam (Bonus Objective)
 							["coord"] = { 34.5, 74.5, VAL },
