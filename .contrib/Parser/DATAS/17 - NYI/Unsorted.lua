@@ -2342,7 +2342,6 @@ root(ROOTS.Unsorted, {
 				i(276376),	-- Fel Shadow Torch
 				i(276377),	-- Glimmering Shade Beacon
 				i(276370),	-- Lightveil Hearth Beacon
-				i(276374),	-- Lightveil Rune Reader
 				i(276216),	-- Mote of Omnial Inquiry
 			}),
 			filter(MOUNTS, {
