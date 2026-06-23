@@ -294,9 +294,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["timeline"] = { ADDED_12_0_7 },
 						["coord"] = { 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
-					q(96728, {	-- Ritual Site Studies: Week 2 of 3
+					q(96729, {	-- Ritual Site Studies: Week 2 of 3
 						["sourceQuest"] = 96728,	-- Ritual Site Studies: Week 1 of 3
 						["qg"] = 257416, -- Lady Darkglen
+						["timeline"] = { ADDED_12_0_7 },
 						["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 					}),
 				}),
