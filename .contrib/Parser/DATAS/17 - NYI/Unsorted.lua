@@ -2372,7 +2372,6 @@ root(ROOTS.Unsorted, {
 				i(275699),	-- Veraan's Soul Lattice Report
 				i(276255),	-- Forgotten Memorial Tribute
 				i(276276),	-- Mana Spore
-				i(276373),	-- Lightveil Recall Beacon
 				i(277116),	-- Warmonger's Voidplate
 				i(276342),	-- Fragmented Soul Lattice
 			}),

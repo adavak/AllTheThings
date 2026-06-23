@@ -228,7 +228,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 74.2, 73.5, NAIGTAL },
 						}),
 						-- Repeatable
-						q(96720, {	-- Showdown on Naigta (Low Level?)
+						q(96720, {	-- Showdown on Naigtal (Low Level?)
 							["sourceQuest"] = 96052,	-- Through the Mana Rift
 							["qgs"] = {
 								265303,	-- Decimus
@@ -602,7 +602,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						i(276300),	-- Vilaldoun Anchorite's Scepter (COSMETIC!)
 					}),
-					n(ZONE_REWARDS, {	--TODO Not sure if available in Val too
+					n(ZONE_REWARDS, {
 						i(278116),	-- Player Experience
 						n(ARMOR, {
 							filter(BACK_F, {

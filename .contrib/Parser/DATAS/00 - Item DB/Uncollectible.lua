@@ -2895,7 +2895,6 @@ i(272116);	-- Water-Logged Transaction Scroll
 -- PATCH 12.0.7 --
 ------------------
 i(276349);	-- Bulbous Leyshroom
-i(276374);	-- Lightveil Rune Reader
 i(276345);	-- Malfunctioning Holoprint
 i(276344);	-- Overgrown Spore Extractor
 i(276350);	-- Shimmering Algae

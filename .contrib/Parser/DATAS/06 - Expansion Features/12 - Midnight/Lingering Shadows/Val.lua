@@ -16,6 +16,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					2621,	-- The Forgotten Depths
 					2617,	-- Void Acropolis (Upper)
 					2618,	-- Void Acropolis (Lower)
+					2619,	-- Void Acropolis
 					-- There should be more maps here. There are a lot of sub-zones
 				},
 				["groups"] = {
@@ -29,6 +30,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						ach(63349),	-- Ultradon Carnage
 					}),
 					n(QUESTS, {
+						q(97215, {	-- A Secondary Strike
+							["qg"] = 263479,	-- Riftblade Maella
+							["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+						}),
 						q(96048, {	-- The Time to Strike
 							["description"] = "Can be accepted from the Adventure Journal.",	-- Or will it pop-up on first log-in when eligible?
 							["isBreadcrumb"] = true,
@@ -68,6 +73,23 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["qg"] = 263987,	-- Belath Dawnblade
 							["coord"] = { 41.7, 84.6, VAL },
 						}),
+						q(97071, {	-- A Frigid Welcome to Val
+							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+							["qg"] = 263987,	-- Belath Dawnblade
+							["coord"] = { 41.7, 84.6, VAL },
+							["groups"] = { i(276373) },	-- Lightveil Recall Beacon (QI!)
+						}),
+						q(96310, {	-- Disrupting the Order
+							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+							["qg"] = 263482, -- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+						}),
+						q(96496, {	-- The Road Not Taken Twice
+							["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+							["qg"] = 263482, -- Riftblade Maella
+							["coord"] = { 59.5, 22.0, VAL },
+						}),
+						-- Repeatable
 						q(96713, {	-- Showdown on Val
 							["sourceQuest"] = 96051,	-- Through the Cold Rift
 							["qg"] = 263482,	-- Riftblade Maella
@@ -83,6 +105,40 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							},
 							["isWeekly"] = true,
 						}),
+						q(96714, {	-- Showdown on Val (Heroic)
+							["sourceQuest"] = 96051,	-- Through the Cold Rift
+							["qgs"] = {
+								263482,	-- Riftblade Maella
+								263479,	-- Riftblade Maella
+							},
+							["coords"] = {
+								{ 47.7, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
+								{ 59.3, 19.5, VAL },
+								{ 59.5, 22.1, VAL },
+							},
+							["groups"] = { i(275691) },	-- Riftstalker's Overflowing Cache
+							["isWeekly"] = true,
+						}),
+						q(97080, {	-- More Disruption: Val
+							["sourceQuest"] = 96713,	-- Showdown on Val
+							--["qg"] = 265303,	-- Decimus
+							--["coords"] = {
+							--	{ 48.2, 81.2, NAIGTAL },
+							--	{ 48.5, 81.9, NAIGTAL },
+							--},
+							--["isWeekly"] = true,
+							--["groups"] = { i(276387) },	-- Riftstalker's Favor
+						}),
+						q(97081, {	-- More Disruption: Val  (Heroic)
+							["sourceQuest"] = 96714,	-- Showdown on Val (Heroic)
+							--["qg"] = 265303,	-- Decimus
+							--["coords"] = {
+							--	{ 48.2, 81.2, NAIGTAL },
+							--	{ 48.5, 81.9, NAIGTAL },
+							--},
+							--["isWeekly"] = true,
+							--["groups"] = { i(276388) },	-- Riftstalker's Overflowing Favor
+						}),
 					}),
 					n(RARES, {
 						n(264866, {	-- Krilkan
@@ -92,6 +148,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(264865, {	-- Mercilus
 							["coord"] = { 49.7, 79.2, VAL },
 							--["questID"] = XXXXX,
+						}),
+						n(265269, {	-- Shadowguard Destroyer
+							["coord"] = { 46.0, 64.6, VAL },
+							["questID"] = 96465,
+						}),
+						n(264870, {	-- The Horror Below <The Living Whisper>
+							["coord"] = { 35.5, 57.6, VAL },
+							["questID"] = 96375,
 						}),
 						n(261965, {	-- Void Infused Sleet-Rune
 							["coord"] = { 55.2, 65.6, VAL },
@@ -123,9 +187,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96295, {	-- A Pertinent Punishment
 							["coord"] = { 40.2, 77.5, 2618 },	-- Void Acropolis (Lower)
+							["cr"] = { 261072 },	-- Imperator Pertinax
+						}),
+						q(96941, {	-- A Pertinent Punishment (Heroic)
+							["coord"] = { 40.2, 77.5, 2618 },	-- Void Acropolis (Lower)
+							["cr"] = { 261072 },	-- Imperator Pertinax
 						}),
 						q(95393, {	-- Caver Saviour
 							["coord"] = { 61.6, 78.8, VAL },
+						}),
+						q(95815, {	-- Downhill Jam (Bonus Objective)
+							["coord"] = { 34.5, 74.5, VAL },
 						}),
 						q(95404, {	-- Freeze Range Eggs
 							["coord"] = { 56.0, 49.6, VAL },
@@ -148,10 +220,97 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(96618, {	-- Storm Mitigation (Bonus Objective)
 							["coord"] = { 50.9, 56.2, VAL },
 						}),
+						q(95572, {	-- Thunder Pains
+							["coord"] = { 46.2, 49.5, VAL },
+						}),
 						q(95395, {	-- Until it is Done
 							["coord"] = { 32.3, 50.1, VAL },
 						}),
 					})),
+					n(ZONE_REWARDS, {
+						i(278116),	-- Player Experience
+						n(ARMOR, {
+							filter(BACK_F, {
+								i(274820),	-- Cloak of the Voracious Gorger
+								i(274818),	-- Drape of Intense Darkness
+								i(274821),	-- Drape of the Hal'hadar Assassin
+								i(274819),	-- Fungle Fold Frock
+							}),
+							filter(CLOTH, {
+								i(274835),	-- Bands of Pincher Sinew
+								i(274834),	-- Cord of Domineering Resolve
+								i(274829),	-- Creature Corruptor Slippers
+								i(274828),	-- Domanaar Subjugator's Vestments
+								i(274832),	-- Fel-Tainted Trousers
+								i(274830),	-- Ice-Glazed Gloves
+								i(274833),	-- Icy Spidersilk Mantle
+								i(274831),	-- Portal Shaper's Circlet
+							}),
+							filter(FINGER_F, {
+								i(274822),	-- Band of the Beast Reaper
+								i(274825),	-- Hal'hadar Assassin's Signet
+								i(274823),	-- Spongy Gill Loop
+								i(274824),	-- Worldeater's Bone Ring
+							}),
+							filter(LEATHER, {
+								i(274839),	-- Cold-World Cover
+								i(274837),	-- Corrupted Hide Boots
+								i(274841),	-- Frigid Cavedweller's Shoulderpads
+								i(274842),	-- Gatekeeper's Leather Waistguard
+								i(274838),	-- Gloves of the Descending Destroyer
+								i(274840),	-- Pants of the Lost Legion
+								i(274843),	-- Pincher-Proof Wristguards
+								i(274836),	-- Sleet-Resistant Jerkin
+							}),
+							filter(MAIL, {
+								i(274847),	-- Atomus's Headcover
+								i(274849),	-- Frostscale Spider's Monnion
+								i(274846),	-- Glacier Basin Gauntlets
+								i(274851),	-- Glittering Frostscale Wraps
+								i(274845),	-- Greaves of Corrupted Scale
+								i(274848),	-- Legguards of Fel-Corruption
+								i(274850),	-- Mercilus's Chain Waistguard
+								i(274844),	-- Sleetlink Hauberk
+							}),
+							filter(PLATE, {
+								i(274857),	-- Chitonous Broodmother's Spaulders
+								i(274853),	-- Creature Crushers
+								i(274858),	-- Domanaar Battle Belt
+								i(274856),	-- Felguard's Frozen Greaves
+								i(274859),	-- Klaxid Plate Vambraces
+								i(274855),	-- Portal-Keeper's Helm
+								i(274854),	-- Shadowguard Plate Gauntlets
+								i(274852),	-- Sleetstone Chestplate
+							}),
+							filter(TRINKET_F, {
+								i(274826),	-- Coiling Smoke Chain
+								i(274827),	-- Draenic Drive Chain
+								i(274890),	-- Enchanted Spore
+								i(274893),	-- Frosty Klaxid Stinger
+								i(274891),	-- Mk XII Gear Drive
+								i(274892),	-- Resilient Felblood Vial
+							}),
+						}),
+						n(WEAPONS, {
+							i(274860),	-- Ancient Spore-Coated Axe
+							i(274870),	-- Assassin's Void-String Bow
+							i(274862),	-- Corrupted Draenei Priest's Kris
+							i(274863),	-- Cudgel of the Twisted Reaper
+							i(274872),	-- Darkness' Horrific Barb
+							i(274865),	-- Destroyer's Drop Hammer
+							i(274874),	-- Flickering Wing Separator
+							i(274861),	-- Frosty Broodmother's Fang
+							i(274873),	-- Funeral Attendant's Spire
+							i(274871),	-- Giant Worm Piercer
+							i(274867),	-- Inscribed Domanaar's Sword
+							i(274868),	-- Portal Master's Shortblade
+							i(274876),	-- Reinforced Fungalhide Bulwark
+							i(274875),	-- Riftwalker's Lantern
+							i(274864),	-- Sporebloom Gavel
+							i(274866),	-- Voidwarped Edge
+							i(274869),	-- Void-Iced Warglaives
+						}),
+					}),
 				},
 			}),
 		}),

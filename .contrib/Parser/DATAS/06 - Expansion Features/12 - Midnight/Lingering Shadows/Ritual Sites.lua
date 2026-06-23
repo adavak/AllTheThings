@@ -294,6 +294,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["timeline"] = { ADDED_12_0_7 },
 						["coord"] = { 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
 					}),
+					q(96728, {	-- Ritual Site Studies: Week 2 of 3
+						["sourceQuest"] = 96728,	-- Ritual Site Studies: Week 1 of 3
+						["qg"] = 257416, -- Lady Darkglen
+						["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
 				}),
 				n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.
 					o(645182, {	-- Crystalline Treasure
