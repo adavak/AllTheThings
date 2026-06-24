@@ -3518,7 +3518,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 				}),
 				honortheflame(92558, {	-- Honor the Flame - Voidstorm
 					["qg"] = 252194,	-- Voidstorm Void Flame Guardian
-					["coord"] = { 55.7, 70.2, MAP.MIDNIGHT.VOIDSTORM },
+					["coord"] = { 53.7, 70.2, MAP.MIDNIGHT.VOIDSTORM },
 					["timeline"] = { ADDED_12_0_7 },
 				}),
 				honortheflame(92559, {	-- Honor the Flame - Harandar
