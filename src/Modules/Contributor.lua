@@ -156,7 +156,23 @@ local function AddReportData(reporttype, id, data, chatlink)
 	-- app.PrintDebug("Contributor.AddReportData",reporttype,id)
 	-- app.PrintTable(data)
 	local reportData = Reports[reporttype][id]
-	if not reportData.ALLOWREPEAT and reportData.REPORTED then app.PrintDebug("Duplicate Report Ignored",reporttype,id) return end
+	if not data.ALLOWREPEAT and reportData.REPORTED then app.PrintDebug("Duplicate Report Ignored",reporttype,id) return end
+
+	-- If this report has already been reported, then the existing useful lines need to be moved to the new report data
+	if reportData.REPORTED then
+		reportData.REPORTED = nil
+		if type(data) ~= "table" then
+			data = {data}
+		end
+		local line = 3
+		local i = 1
+		repeat
+			tinsert(data,i,reportData[line])
+			line = line + 1
+			i = i + 1
+		until reportData[line] == "---- User Info ----" or line > #reportData
+		app.wipearray(reportData)
+	end
 
 	if type(data) == "table" then
 		-- if the incoming data has an OBJREF then capture that information into a generic table
