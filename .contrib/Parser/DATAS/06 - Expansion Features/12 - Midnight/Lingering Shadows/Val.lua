@@ -13,11 +13,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				["cr"] = 264308,	-- Greater Void Portal
 				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
 				["maps"] = {
+					2620,	-- The Forgotten Depths
 					2621,	-- The Forgotten Depths
 					2617,	-- Void Acropolis (Upper)
 					2618,	-- Void Acropolis (Lower)
 					2619,	-- Void Acropolis
-					2620,	-- he Forgotten Depths
 					-- There should be more maps here. There are a lot of sub-zones
 				},
 				["groups"] = {
