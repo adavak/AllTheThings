@@ -22,9 +22,9 @@ end
 
 -- Clickable ATT Chat Link Handling
 local reports = {};
-function app:SetupReportDialog(id, reportMessage, text)
+function app:SetupReportDialog(id, reportMessage, text, replace)
 	-- Store some information for use by a report popup by id
-	if not reports[id] then
+	if not reports[id] or replace then
 		-- print("Setup Report", id, reportMessage)
 		reports[id] = {
 			msg = reportMessage,
