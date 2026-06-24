@@ -63,6 +63,8 @@ local function DoReport(reporttype, id)
 	-- report-based fields
 	local chatlink = reportData.CHATLINK
 	reportData.CHATLINK = nil
+	local allowRepeat = reportData.ALLOWREPEAT
+	reportData.ALLOWREPEAT = nil
 	-- ordered report data
 	local orderedReportData = {}
 	-- id/type are ordered first always if existing
@@ -132,7 +134,7 @@ local function DoReport(reporttype, id)
 	reportData[#reportData + 1] = "ATT: "..app.Version.." GameBuild: "..app.GameBuildVersion.." UTC: "..date("!%Y-%m-%dT%H:%M:%SZ", time())
 	reportData[#reportData + 1] = "```";	-- discord fancy box end
 
-	if app:SetupReportDialog(dialogID, "Contributor Report: " .. dialogID, reportData) then
+	if app:SetupReportDialog(dialogID, "Contributor Report: " .. dialogID, reportData, allowRepeat) then
 		app.print(app:Linkify(chatlink or "Contributor Report: "..dialogID, app.Colors.ChatLinkError, "dialog:" .. dialogID));
 		app.Audio:PlayReportSound();
 	end
@@ -154,7 +156,7 @@ local function AddReportData(reporttype, id, data, chatlink)
 	-- app.PrintDebug("Contributor.AddReportData",reporttype,id)
 	-- app.PrintTable(data)
 	local reportData = Reports[reporttype][id]
-	if reportData.REPORTED then app.PrintDebug("Duplicate Report Ignored",reporttype,id) return end
+	if not reportData.ALLOWREPEAT and reportData.REPORTED then app.PrintDebug("Duplicate Report Ignored",reporttype,id) return end
 
 	if type(data) == "table" then
 		-- if the incoming data has an OBJREF then capture that information into a generic table
