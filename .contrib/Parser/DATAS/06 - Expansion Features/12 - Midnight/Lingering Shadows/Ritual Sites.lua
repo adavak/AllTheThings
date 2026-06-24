@@ -296,9 +296,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					}),
 					q(96729, {	-- Ritual Site Studies: Week 2 of 3
 						["sourceQuest"] = 96728,	-- Ritual Site Studies: Week 1 of 3
-						["qg"] = 257416, -- Lady Darkglen
+						["qgs"] = {
+							257416, -- Lady Darkglen
+							267813, -- Image of Lady Darkglen
+						},
 						["timeline"] = { ADDED_12_0_7 },
-						["coord"] = { 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						["coords"] = {
+							{ 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+							{ 29.5, 77.9, MAP.MIDNIGHT.ZULAMAN },
+						},
 					}),
 				}),
 				n(TREASURES, {	-- Most of these have the chance to spawn randomly throughout both Daggerspine Point and Broken Throne Ritual Sites, unless noted. Listed coords are only a fraction of possible locations.

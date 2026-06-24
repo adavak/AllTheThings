@@ -194,7 +194,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(264864, {	-- Xirah
 							["coord"] = { 29.0, 73.8, VAL },
-							--["questID"] = XXXXX,
+							["questID"] = 96370,
 						}),
 					}),
 					n(REWARDS, {
@@ -238,6 +238,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(95401, {	-- Junction Dysfunction
 							["coord"] = { 35.8, 74.3, VAL },
+						}),
+						q(96433, {	-- Not the Mama (Bonus Objective)
+							["coord"] = { 41.8, 27.0, VAL },
 						}),
 						q(95392, {	-- One Friend is Plenty
 							["coord"] = { 45.4, 52.3, VAL },
