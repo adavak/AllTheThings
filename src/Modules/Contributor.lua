@@ -53,8 +53,8 @@ local function GetReportPlayerLocation()
 end
 
 local function DoReport(reporttype, id)
-	-- ignore contrib reports if the player is in Lorewalking
-	if GetPlayerAura(463943) then return end
+	-- ignore contrib Quest reports if the player is in Lorewalking
+	if reporttype == "Quest" and GetPlayerAura(463943) then return end
 
 	local dialogID = reporttype.."-"..id
 	-- app.PrintDebug("Contributor.DoReport",reporttype,id)
