@@ -178,7 +178,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(264865, {	-- Mercilus
 							["coord"] = { 49.7, 79.2, VAL },
-							--["questID"] = XXXXX,
+							["questID"] = 96371,
+							["groups"] = {	-- Hands
+								i(275138),	-- Spore-Handler's Handwraps
+								i(275146),	-- Spore-Membrane Gloves
+								i(275162),	-- Spore-Shined Gloves
+								i(275154),	-- Swamp Trekker's Grips
+							},
 						}),
 						n(264869, {	-- Nelgothar <The Forgotten>
 							["coord"] = { 23.2, 41.9, VAL },
