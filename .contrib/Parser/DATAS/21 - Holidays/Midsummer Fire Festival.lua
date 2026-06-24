@@ -501,9 +501,19 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 								["timeline"] = { ADDED_12_0_7 },
 							}),
 						},
-						--["sym"] = {
-						--	-- TODO: Vendor items probably
-						--},
+						["sym"] = {{"select","itemID",
+							275469,	-- Sun Festival's Painted Girdle
+							275472,	-- Sun Festival's Painted Greaves
+							275474,	-- Sun Festival's Painted Gauntlets
+							275476,	-- Sun Festival's Painted Hauberk
+							275468,	-- Sun Festival's Painted Mantle
+							275466,	-- Sun Festival's Painted Mask
+							275470,	-- Sun Festival's Painted Sash
+							275473,	-- Sun Festival's Painted Striders
+							275465,	-- Sun Festival's Painted Tunic
+							275475,	-- Sun Festival's Painted Wrap
+							275467,	-- Sun Festival's Painted Wings
+						}},
 					}),
 				},
 			}),
