@@ -71,9 +71,12 @@ hooksecurefunc("SetItemRef", function(link, text)
 end);
 
 -- Chat Links
+do
+local LeftClickAtlas = CreateAtlasMarkup('NPE_LeftClick', 18, 18)
 function app:Linkify(text, color, operation)
 	-- Turns a bit of text into a colored link which ATT will attempt to understand
-	return "|Haddon:ATT:"..operation.."|h|c"..color.."["..text.."]|r|h";
+	return LeftClickAtlas.."|Haddon:ATT:"..operation.."|h|c"..color.."["..text.."]|r|h";
+end
 end
 function app:SearchLink(group)
 	if not group then return end
