@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 							["coord"] = { 71.9, 66.7, MAP.MIDNIGHT.THE_COILED_ISLE },
 							["cost"] = { { "i", 265602, 1 } },	-- 1x Amani Privateer's Key
 							["questID"] = 94569,
-							["groups"] = { i(279054) },	-- Privateer's Dolphin Idol (TOY!)
+							["groups"] = { i(279054) },	-- Idol of Blue Water and Blue Sky (TOY!)
 						}),
 					},
 				}),

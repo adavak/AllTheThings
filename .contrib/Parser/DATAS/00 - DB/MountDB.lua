@@ -2254,7 +2254,7 @@ i(246920, 1244260);	-- Void-Razed Elekk
 i(239687, 1229288);	-- Wretched Fel Bat
 --- NYI ---
 i(0, 1254363);	-- (PH LEGION REMIX MOUNT)
-i(250191, 1250481);	-- Bilebound Ur'zul-horn
+i(250191, 1250481);	-- Bilebound Ur'zul
 i(239647, 1229264);	-- Bloodguard Fel Ba
 i(250762, 0);		-- Felfueled Memento of the Abyss
 i(250106, 1250287);	-- Floestrider Crest-Horn
@@ -2452,3 +2452,30 @@ i(276802, 1300778);	-- Indigo Coiled Horror
 i(275658, 1297405);	-- Primeval Skyfriend
 i(276801, 1300777);	-- Venomous Coiler
 i(276551, 1299963);	-- Violet-Backed Skyfang
+--- UNSORTED ---
+i(275570, 1296985);	-- [PH] Broomstick Spice - Green
+i(275571, 1296986);	-- [PH] Broomstick Spice - Grey
+i(275572, 1296987);	-- [PH] Broomstick Spice - Hallow
+i(275551, 1296724);	-- [PH] Broomstick Spice - Orange
+i(275573, 1296988);	-- [PH] Broomstick Spice - Pink
+i(275574, 1296989);	-- [PH] Broomstick Spice - Red
+i(277261, 1301817);	-- [PH] Pygmy Owl
+i(275657, 1297404);	-- Apophic Soul Crusher
+i(276881, 1301070);	-- Breath of Blight
+i(276882, 1301074);	-- Breath of Ruin
+i(275654, 1297217);	-- Caustic Venomfang
+i(276162, 1298808);	-- Corroded Soul Crusher
+i(278574, 1305206);	-- Crested Aqua Leafmimic
+i(278573, 1305204);	-- Crested Burnished Leafmimic
+i(278575, 1305207);	-- Crested Verdant Leafmimic
+i(278576, 1305209);	-- Crested Violet Leafmimic
+i(276553, 1299965);	-- Emerald Skyfang
+i(275659, 1297407);	-- Hexflame Reaver
+i(275660, 1297408);	-- Preyhunter's Courser
+i(273838, 1292668);	-- Spirit of Tok'jara
+i(0, 1295958);	-- Swift Spectral Eagle
+i(276804, 1300776);	-- The Writhing Brood
+i(277192, 1301775);	-- Umbral Ashes
+i(275302, 1266211);	-- Venomous Gladiator's Goredrake
+i(275433, 1296670);	-- Vicious Lightbloom Boar [A]
+i(275432, 1296672);	-- Vicious Lightbloom Boar [H]
