@@ -199,7 +199,9 @@ app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, acco
 						t[nodeData.nodeID] = nodeData.name
 					end
 				else
-					app.report("No taxi nodes found for map", mapID);
+					-- this sometimes fires for valid taxi maps when the player tries to load the names of other FPs but is in a location
+					-- where Blizzard decides not to return valid data, OR the player/character has not "unlocked" FPs for that map yet
+					app.PrintDebug("No taxi nodes found for map", mapID);
 				end
 			end
 
