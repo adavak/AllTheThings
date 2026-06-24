@@ -210,6 +210,71 @@ InstanceHelper.UpgradeMapping = {
 	[DIFFICULTY.RAID.HEROIC] = 6,
 };
 
+local TokenModID = {
+	[DIFFICULTY.RAID.LFR] = 149,
+	[DIFFICULTY.RAID.NORMAL] = 149,
+	[DIFFICULTY.RAID.HEROIC] = 151,
+	[DIFFICULTY.RAID.MYTHIC] = 152,
+}
+local TokenSymModID = {
+	[DIFFICULTY.RAID.LFR] = 4,
+	[DIFFICULTY.RAID.NORMAL] = 4,
+	[DIFFICULTY.RAID.HEROIC] = 3,
+	[DIFFICULTY.RAID.MYTHIC] = 5,
+}
+
+InstanceHelper.ExtraLoots = {
+	-- Warbound Tier Tokens (has different modIDs because of course)
+	{
+		Add = function(encounter, id, difficulty, data)
+			local g = data[id]
+			if g then
+				g = clone(g)
+				-- use alternate versions of the Tokens with different ModID, but non-filling symlink to the base tokens
+				-- to prevent dupes in Main & Mini
+				local dropModID = TokenModID[difficulty]
+				local symModID = TokenSymModID[difficulty]
+				-- copied from old Castle Nathria implementation
+				for _,item in ipairs(g) do
+					item.modID = dropModID
+					item.skipFill = true
+					item.up = IGNORED_VALUE
+					item.sym = {{"select","itemID",modItemId(item.itemID,symModID)},{"groupfill",true},{"pop"}}	-- Base Version & Fill
+					item.nomerge = true
+				end
+				encounter.groups = appendAllGroups(encounter.groups, g)
+				return encounter
+			end
+		end,
+		Data = {
+			[SALHADAAR] = {	-- Shoulders
+				i(249365),	-- Voidcast Unraveled Nullcore
+				i(249364),	-- Voidcured Unraveled Nullcore
+				i(249366),	-- Voidforged Unraveled Nullcore
+				i(249363),	-- Voidwoven Unraveled Nullcore
+			},
+			[VANGUARD] = {	-- Head
+				i(249357),	-- Voidcast Fanatical Nullcore
+				i(249356),	-- Voidcured Fanatical Nullcore
+				i(249358),	-- Voidforged Fanatical Nullcore
+				i(249355),	-- Voidwoven Fanatical Nullcore
+			},
+			[VORASIUS] = {	-- Hands
+				i(249353),	-- Voidcast Hungering Nullcore
+				i(249352),	-- Voidcured Hungering Nullcore
+				i(249354),	-- Voidforged Hungering Nullcore
+				i(249351),	-- Voidwoven Hungering Nullcore
+			},
+			[EZZORAK_VAELGOR] = {	-- Legs
+				i(249361),	-- Voidcast Corrupted Nullcore
+				i(249360),	-- Voidcured Corrupted Nullcore
+				i(249362),	-- Voidforged Corrupted Nullcore
+				i(249359),	-- Voidwoven Corrupted Nullcore
+			},
+		}
+	},
+}
+
 root(ROOTS.Instances, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1_SEASONSTART } }, {
 	inst(1307, {	-- The Voidspire
 		["coord"] = { 45.4, 64.0, MAP.MIDNIGHT.VOIDSTORM },
