@@ -163,7 +163,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["groups"] = { i(276390) },	-- Riftstalker's Overflowing Prize
 						}),
 					}),
-					n(RARES, {
+					n(RARES, sharedData({ ["isRepeatable"] = true }, {
 						n(262421, {	-- Atomus <Portal Master>
 							["coord"] = { 38.2, 79.4, VAL },
 							["questID"] = 95940,
@@ -174,7 +174,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(264866, {	-- Krilkan
 							["coord"] = { 44.6, 52.8, VAL },
-							--["questID"] = XXXXX,
+							["questID"] = 96372,
 						}),
 						n(264865, {	-- Mercilus
 							["coord"] = { 49.7, 79.2, VAL },
@@ -186,7 +186,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(265269, {	-- Shadowguard Destroyer
 							["coord"] = { 46.0, 64.6, VAL },
-							["questID"] = 96465,
+							["questID"] = 96465, -- I got 96373 - Darkal
 						}),
 						n(261965, {	-- Sleet-Rune <The Void Infused Watcher>
 							["coord"] = { 55.2, 65.6, VAL },
@@ -200,14 +200,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 29.0, 73.8, VAL },
 							["questID"] = 96370,
 						}),
-					}),
+					})),
 					n(REWARDS, {
 						i(276089),	-- Field Accolades (Normal)
 						i(276090),	-- Field Accolades (Heroic)
+						i(276097),	-- Lost Armaments (Low Level)
 						i(276091),	-- Lost Armaments (Normal)
 						i(276092),	-- Lost Armaments (Heroic)
 						i(276095),	-- Imperator Pertinax (Normal)
 						i(276096),	-- Imperator Pertinax (Heroic)
+						i(276098),	-- Raided Items (Low Level)
 					}),
 					n(TREASURES, {
 						o(655270, {	-- Dominaar Storage Vessel
@@ -230,6 +232,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(95393, {	-- Caver Saviour
 							["coord"] = { 61.6, 78.8, VAL },
+						}),
+						q(95397, {	-- Cold Reception
+							["coord"] = { 47.0, 28.8, VAL },
 						}),
 						q(95398, {	-- Dissent and Divide
 							["coord"] = { 20.3, 41.7, VAL },
@@ -260,6 +265,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96618, {	-- Storm Mitigation (Bonus Objective)
 							["coord"] = { 50.9, 56.2, VAL },
+						}),
+						q(95396, {	-- Tainted Ritual
+							["coord"] = { 30.8, 38.9, VAL },
 						}),
 						q(95572, {	-- Thunder Pains
 							["coord"] = { 46.2, 49.5, VAL },
