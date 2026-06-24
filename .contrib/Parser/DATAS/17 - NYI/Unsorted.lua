@@ -2328,7 +2328,6 @@ root(ROOTS.Unsorted, {
 				i(276354),	-- Frozen Fel Core
 				i(276355),	-- Shattered Frostforged Hilt
 				i(276356),	-- Frost-Shredded Demon Cloak
-				i(276357),	-- Razor-Ice Flake
 				i(276360),	-- Etched Ice Chip
 				i(276361),	-- Frost-Calloused Remains
 				i(276362),	-- Lost Glacier Climbing Hooks

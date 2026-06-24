@@ -2907,6 +2907,7 @@ i(276343);	-- Console Encryption Key
 i(274951);	-- Corroded Scale
 i(276353);	-- Frozen Sliver of Darkness
 i(280183);	-- Harrier Hotcakes
+i(276357);	-- Razor-Ice Flake
 i(276358);	-- Shattered Shadowgraft
 i(280184);	-- Sweetsaw Surprise
 i(276359);	-- Twisted Domanaar Armament

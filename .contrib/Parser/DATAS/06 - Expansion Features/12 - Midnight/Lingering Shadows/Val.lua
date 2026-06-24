@@ -17,6 +17,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					2617,	-- Void Acropolis (Upper)
 					2618,	-- Void Acropolis (Lower)
 					2619,	-- Void Acropolis
+					2620,	-- he Forgotten Depths
 					-- There should be more maps here. There are a lot of sub-zones
 				},
 				["groups"] = {
@@ -121,7 +122,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96714, {	-- Showdown on Val (Heroic)
 							["sourceQuest"] = 96051,	-- Through the Cold Rift
-							["qg"] = 263482,	-- Riftblade Maella
+							["qgs"] = {
+								263479, -- Riftblade Maella
+								263482,	-- Riftblade Maella
+							},
 							["coords"] = {
 								{ 47.7, 51.1, MAP.MIDNIGHT.SILVERMOON_CITY },
 								{ 59.3, 19.5, VAL },
