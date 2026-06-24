@@ -7368,6 +7368,7 @@ hqt(95541)}}),
 inst(1307,{awp=120001,isRaid=1,g={
 hqt(93980,{an="n:252066",isWeekly=1}),
 hqt(95342,{an="n:240831",isWeekly=1}),
+hqt(93988,{an="n:252067",isWeekly=1}),
 hqt(93984,{an="n:252070",isWeekly=1}),
 hqt(93981,{an="n:252066",isWeekly=1}),
 hqt(93993,{an="n:240864",isWeekly=1}),

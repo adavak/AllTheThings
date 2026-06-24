@@ -9402,7 +9402,7 @@ s(292192,244422,{awp=110107,e=11,f=29}),
 s(293075,246571,{awp=110107,e=11,f=28}),
 s(292193,244423,{awp=110107,e=11,f=29}),
 s(293074,246570,{awp=110107,e=11,f=28})}}),
-hqt(97116,{awp=120007,description="Items under this group only have a chance to drop on your first kill per day for your warband.",e=11,isDaily=1,g={
+hqt(97116,{awp=120007,description="Items under this group only have a chance to drop on your first kill per day for your warband.",e=11,isDaily=1,sym={{"select","itemID",275469,275472,275474,275476,275468,275466,275470,275473,275465,275475,275467}},g={
 mnt(1298439,{e=11,itemID=275464})}})}}),
 i(54536,{awp=30303,b=1,e=11,rwp=60002,u=2,g={
 s(50092,95426,{awp=50004,b=1,e=11,f=28,lvl=35,spellID=46643,u=2}),
@@ -10889,7 +10889,7 @@ q(92557,{awp=120007,coords={
 crit(109165,{achID=61335,e=11,id=5,r=1}),
 crit(109165,{achID=61336,e=11,id=5,r=2})}}),
 q(92558,{awp=120007,coords={
-[2405]={{55.7,70.2}}},e=11,isYearly=1,qgs={252194},g={
+[2405]={{53.7,70.2}}},e=11,isYearly=1,qgs={252194},g={
 crit(109166,{achID=61335,e=11,id=4,r=1}),
 crit(109166,{achID=61336,e=11,id=4,r=2})}}),
 q(92559,{awp=120007,coords={
