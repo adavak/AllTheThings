@@ -106,12 +106,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		}),
 	}),
 	n(WORLD_BOSSES, {
-		["timeline"] = { ADDED_12_0_7 },
 		["groups"] = sharedData({
 			["isRaid"] = true,
 			["isWeekly"] = true,
 		}, {
 			n(260875, {	-- Nexus-Captain Leth'ir
+				["timeline"] = { ADDED_12_0_7 },
 				["coord"] = { 78.4, 69.2, NAIGTAL },
 				["groups"] = {
 					d(DIFFICULTY.RAID.MULTI.NORMAL_HEROIC, {
@@ -151,10 +151,12 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 				},
 			}),
 			n(260833, {	-- Adjutant Mertei
+				["timeline"] = { ADDED_12_0_7 },
 				["coord"] = { 76.2, 68.8, NAIGTAL },
 				["sym"] = {{"select", "npcID", 260875},{"pop"}},	-- Nexus-Captain Leth'ir
 			}),
 			n(261072, {	-- Imperator Pertinax
+				["timeline"] = { ADDED_12_0_7 },
 				["coord"] = { 40.2, 77.5, 2618 },	-- Void Acropolis (Lower)
 				["groups"] = {
 					d(DIFFICULTY.RAID.MULTI.NORMAL_HEROIC, {
