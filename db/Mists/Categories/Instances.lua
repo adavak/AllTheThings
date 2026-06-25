@@ -5435,7 +5435,7 @@ sp(131231),
 crit(19897,{achID=6378,id=6,u=50})}),
 ach(61972,{
 toy(265416),
-crit(112600,{achID=61990,awp=50503,id=6,rwp=50504,u=50})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112600,{achID=61990,awp=50503,id=6,rwp=50504,u=2})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(656,{npcID=59150,u=5002,g={
 ach(60897,{u=5002,g={
@@ -5779,7 +5779,7 @@ sp(131229),
 crit(19898,{achID=6378,id=7,u=50})}),
 ach(61973,{
 toy(265573),
-crit(112601,{achID=61990,awp=50503,id=7,rwp=50504,u=50})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112601,{achID=61990,awp=50503,id=7,rwp=50504,u=2})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(674,{npcID=3977,u=5002,g={
 ach(60898,{u=5002,g={
@@ -6261,7 +6261,7 @@ sp(131232),
 crit(19899,{achID=6378,id=8,u=50})}),
 ach(61974,{
 toy(265415),
-crit(112602,{achID=61990,awp=50503,id=8,rwp=50504,u=50})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112602,{achID=61990,awp=50503,id=8,rwp=50504,u=2})})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(684,{npcID=59080,u=5002,g={
 ach(60899,{u=5002,g={
@@ -22074,15 +22074,21 @@ s(274065,90128,{b=1,c={7},f=6,lvl=90,q=4,u=50}),
 s(274068,90131,{b=1,c={7},f=6,lvl=90,q=4,u=50}),
 s(274071,90134,{b=1,c={7},f=6,lvl=90,q=4,u=50})}})}}),
 ach(61987,{awp=50502,rwp=50503,u=2}),
-ach(61990,{awp=50503,rwp=50504,u=50}),
+ach(61990,{awp=50503,rwp=50504,u=2}),
+ach(61991,{awp=50504,rwp=50505,u=50}),
 ach(62055,{awp=50502,description="Players must complete |cFFE50D12EACH:|r dungeon listed below within the time limit during Season 1 to be a Mistwalker.\n\nTemple of the Jade Serpent: 8m 30s\n\nStormstout Brewery: 6m 30s\n\nGate of the Setting Sun: 5m 30s\n\nShado-Pan Monastery: 10m 30s\n\nSiege of Niuzao Temple: 10m 15s\n\nMogu’shan Palace: 6m 45s\n\nScholomance: 7m 15s\n\nScarlet Halls: 4m 15s\n\nScarlet Monastery: 5m 30s",rwp=50503,u=2,g={
 title(255,{u=2}),
 mnt(1247598,{b=1,itemID=248742,lvl=90,q=4,u=2})}}),
-ach(62059,{awp=50503,rwp=50504,u=50,g={
-title(736,{u=50})}}),
+ach(62059,{awp=50503,rwp=50504,u=2,g={
+title(736,{u=2})}}),
+ach(62060,{awp=50504,rwp=50505,u=50,g={
+title(737,{u=50}),
+mnt(1247597,{b=1,itemID=248744,lvl=90,q=4,u=50})}}),
 ach(6433,{rwp=50200,u=2}),
-ach(61962,{awp=50503,rwp=50504,u=50,g={
-title(738,{u=50})}}),
+ach(61962,{awp=50503,rwp=50504,u=2,g={
+title(738,{u=2})}}),
+ach(61963,{awp=50504,rwp=50505,u=50,g={
+title(739,{u=50})}}),
 ach(6927,{u=50,g={
 mnt(127156,{b=1,itemID=87769,lvl=90,q=4,u=50})}}),
 ach(6932,{u=50,g={
@@ -27853,7 +27859,7 @@ sp(131225,{u=50}),
 crit(19896,{achID=6378,id=5,u=50})}}),
 ach(61971,{u=50,g={
 toy(265418,{u=50}),
-crit(112599,{achID=61990,awp=50503,id=5,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112599,{achID=61990,awp=50503,id=5,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(649,{awp=50004,npcID=56877,u=5002,g={
 ach(60896,{u=5002,g={
@@ -27999,7 +28005,7 @@ sp(131222,{u=50}),
 crit(19894,{achID=6378,id=3,u=50})}}),
 ach(61969,{u=50,g={
 toy(265417,{u=50}),
-crit(112597,{achID=61990,awp=50503,id=3,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112597,{achID=61990,awp=50503,id=3,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(698,{awp=50004,npcID=61398,u=5002,g={
 ach(60894,{u=5002,g={
@@ -28140,7 +28146,7 @@ crit(19895,{achID=6378,id=4,u=50}),
 crit(19895,{achID=7479,id=2})}}),
 ach(61970,{u=50,g={
 toy(265419,{u=50}),
-crit(112598,{achID=61990,awp=50503,id=4,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112598,{achID=61990,awp=50503,id=4,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(686,{awp=50004,npcID=56884,u=5002,g={
 ach(60895,{u=5002,g={
@@ -28267,7 +28273,7 @@ sp(131228,{u=50}),
 crit(19900,{achID=6378,id=9,u=50})}}),
 ach(61975,{u=50,g={
 toy(265414,{u=50}),
-crit(112603,{achID=61990,awp=50503,id=9,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112603,{achID=61990,awp=50503,id=9,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(727,{awp=50004,npcID=62205,u=5002,g={
 ach(60900,{u=5002,g={
@@ -28401,7 +28407,7 @@ sp(131205,{u=50}),
 crit(19893,{achID=6378,id=2,u=50})}}),
 ach(61968,{u=50,g={
 toy(265780,{u=50}),
-crit(112596,{achID=61990,awp=50503,id=2,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112596,{achID=61990,awp=50503,id=2,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(670,{awp=50004,npcID=59479,u=5002,g={
 ach(60893,{u=5002,g={
@@ -28540,7 +28546,7 @@ sp(131204,{u=50}),
 crit(19892,{achID=6378,id=1,u=50})}}),
 ach(61967,{u=50,g={
 toy(265774,{q=3,u=50}),
-crit(112595,{achID=61990,awp=50503,id=1,rwp=50504,u=50})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
+crit(112595,{achID=61990,awp=50503,id=1,rwp=50504,u=2})}})}}),(_.OnInitDB.ShouldExcludeFromTooltipForBuffs_1272162)(
 h(-655,{awp=50500,u=5002,g={
 e(335,{awp=50004,npcID=56439,u=5002,g={
 ach(60892,{u=5002,g={

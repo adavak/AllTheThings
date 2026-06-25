@@ -441,210 +441,185 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 		["timeline"] = { ADDED_2_4_0 },
 		["provider"] = { "o", 188192 },	-- Ice Chest
 		["isDaily"] = true,
-		["groups"] = {
-			ach(263, {	-- Ice the Frost Lord
-				["timeline"] = { ADDED_3_0_2 },
-			}),
-			i(149753, {	-- Knapsack of Chilled Goods [Uncommon Quality]
-				["timeline"] = { ADDED_7_2_5 },
-				["groups"] = {
-					i(117373, {	-- Frostscythe of Lord Ahune
-						["timeline"] = { ADDED_6_0_2 },
-					}),
-				},
-			}),
-			i(117394, {	-- Satchel of Chilled Goods [Epic Quality]
-				["timeline"] = { ADDED_6_0_2 },
-				["groups"] = {
-					i(117373, {	-- Frostscythe of Lord Ahune
-						["timeline"] = { ADDED_6_0_2 },
-					}),
-					i(53641, {	-- Frigid Frostling (PET!)
-						["timeline"] = { ADDED_3_3_3 },
-					}),
-					i(138838, {	-- Illusion: Deathfrost (ILLUSION!)
-						["timeline"] = { ADDED_7_0_3 },
-					}),
-					hqt(83134, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
-						["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
-						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
-						["timeline"] = { ADDED_10_2_7 },
-						["isDaily"] = true,
-						["groups"] = {
-							i(224163, {	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor (MM!)
-								["timeline"] = { ADDED_10_2_7 },
-							}),
-							i(244356, {	-- Crown of the Frost Lord (COSMETIC!)
-								["timeline"] = { ADDED_11_1_7 },
-							}),
-							i(244422, {	-- Glazfuris, Scythe of the Deep Chill (COSMETIC!)
-								["timeline"] = { ADDED_11_1_7 },
-							}),
-							i(246571, {	-- Glazfuris, Spire of the Deep Chill (COSMETIC!)
-								["timeline"] = { ADDED_11_1_7 },
-							}),
-							i(244423, {	-- Rethfuras, Scorched Scythe of Cinders (COSMETIC!)
-								["timeline"] = { ADDED_11_1_7 },
-							}),
-							i(246570, {	-- Rethfuras, Scorched Stave of Cinders (COSMETIC!)
-								["timeline"] = { ADDED_11_1_7 },
-							}),
-						},
-					}),
-					hqt(97116, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
-						["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
-						["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
-						["timeline"] = { ADDED_12_0_7 },
-						["isDaily"] = true,
-						["groups"] = {
-							i(275464, {	-- Sun Festival's Painted Roc (MOUNT!)
-								["timeline"] = { ADDED_12_0_7 },
-							}),
-						},
-						["sym"] = {{"select","itemID",
-							275469,	-- Sun Festival's Painted Girdle
-							275472,	-- Sun Festival's Painted Greaves
-							275474,	-- Sun Festival's Painted Gauntlets
-							275476,	-- Sun Festival's Painted Hauberk
-							275468,	-- Sun Festival's Painted Mantle
-							275466,	-- Sun Festival's Painted Mask
-							275470,	-- Sun Festival's Painted Sash
-							275473,	-- Sun Festival's Painted Striders
-							275465,	-- Sun Festival's Painted Tunic
-							275475,	-- Sun Festival's Painted Wrap
-							275467,	-- Sun Festival's Painted Wings
-						}},
-					}),
-				},
-			}),
-			i(54536, {	-- Satchel of Chilled Goods
-				["timeline"] = { ADDED_3_3_3, REMOVED_6_0_2 },
-				["groups"] = {
-					-- NOTE: Blizzard added 528 ilvl items specific to MOP_PHASE_ONE Classic
-					-- #if ANYCLASSIC
-					i(280389, {	-- Frostscythe of Lord Ahune [Level 90]
-						["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-					}),
-					-- #else
-					i(95426, {	-- Frostscythe of Lord Ahune [Level 90]
-						["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-					}),
-					-- #endif
+		["groups"] = appendGroups(
+			{	-- Drops that are timelined manually.
+				ach(263, {	-- Ice the Frost Lord
+					["timeline"] = { ADDED_3_0_2 },
+				}),
+				i(149753, {	-- Knapsack of Chilled Goods [Uncommon Quality]
+					["timeline"] = { ADDED_7_2_5 },
+					["groups"] = {
+						i(117373, {	-- Frostscythe of Lord Ahune
+							["timeline"] = { ADDED_6_0_2 },
+						}),
+					},
+				}),
+				i(117394, {	-- Satchel of Chilled Goods [Epic Quality]
+					["timeline"] = { ADDED_6_0_2 },
+					["groups"] = {
+						i(117373, {	-- Frostscythe of Lord Ahune
+							["timeline"] = { ADDED_6_0_2 },
+						}),
+						i(53641, {	-- Frigid Frostling (PET!)
+							["timeline"] = { ADDED_3_3_3 },
+						}),
+						i(138838, {	-- Illusion: Deathfrost (ILLUSION!)
+							["timeline"] = { ADDED_7_0_3 },
+						}),
+						hqt(83134, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
+							["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
+							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+							["timeline"] = { ADDED_10_2_7 },
+							["isDaily"] = true,
+							["groups"] = {
+								i(224163, {	-- Cliffside Wylderdrake: Midsummer Fire Festival Armor (MM!)
+									["timeline"] = { ADDED_10_2_7 },
+								}),
+								i(244356, {	-- Crown of the Frost Lord (COSMETIC!)
+									["timeline"] = { ADDED_11_1_7 },
+								}),
+								i(244422, {	-- Glazfuris, Scythe of the Deep Chill (COSMETIC!)
+									["timeline"] = { ADDED_11_1_7 },
+								}),
+								i(246571, {	-- Glazfuris, Spire of the Deep Chill (COSMETIC!)
+									["timeline"] = { ADDED_11_1_7 },
+								}),
+								i(244423, {	-- Rethfuras, Scorched Scythe of Cinders (COSMETIC!)
+									["timeline"] = { ADDED_11_1_7 },
+								}),
+								i(246570, {	-- Rethfuras, Scorched Stave of Cinders (COSMETIC!)
+									["timeline"] = { ADDED_11_1_7 },
+								}),
+							},
+						}),
+						hqt(97116, {	-- Has rolled for Ahune Special Loot (Daily Accountwide)
+							["name"] = "Has rolled for Ahune Special Loot (Daily Accountwide)",
+							["description"] = "Items under this group only have a chance to drop on your first kill per day for your warband.",
+							["timeline"] = { ADDED_12_0_7 },
+							["isDaily"] = true,
+							["groups"] = {
+								i(275464, {	-- Sun Festival's Painted Roc (MOUNT!)
+									["timeline"] = { ADDED_12_0_7 },
+								}),
+							},
+							["sym"] = {{"select","itemID",
+								275469,	-- Sun Festival's Painted Girdle
+								275472,	-- Sun Festival's Painted Greaves
+								275474,	-- Sun Festival's Painted Gauntlets
+								275476,	-- Sun Festival's Painted Hauberk
+								275468,	-- Sun Festival's Painted Mantle
+								275466,	-- Sun Festival's Painted Mask
+								275470,	-- Sun Festival's Painted Sash
+								275473,	-- Sun Festival's Painted Striders
+								275465,	-- Sun Festival's Painted Tunic
+								275475,	-- Sun Festival's Painted Wrap
+								275467,	-- Sun Festival's Painted Wings
+							}},
+						}),
+					},
+				}),
+				i(54536, {	-- Satchel of Chilled Goods
+					["timeline"] = { ADDED_3_3_3, REMOVED_6_0_2 },
+					["groups"] = {
+						-- NOTE: Blizzard added 528 ilvl items specific to MOP_PHASE_ONE Classic
+						-- #if ANYCLASSIC
+						i(280389, {	-- Frostscythe of Lord Ahune [Level 90]
+							["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
+						}),
+						-- #else
+						i(95426, {	-- Frostscythe of Lord Ahune [Level 90]
+							["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
+						}),
+						-- #endif
 
-					-- WOUTER NOTE: Blizzard added 403 ilvl items specific to Cata Classic, probably because Midsummer happened a 2nd time in late Dragon Soul
-					-- #if ANYCLASSIC
-					i(248747, {	-- Frostscythe of Lord Ahune [Level 85 - ilvl 403]
-						["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-					}),
-					-- #endif
+						-- WOUTER NOTE: Blizzard added 403 ilvl items specific to Cata Classic, probably because Midsummer happened a 2nd time in late Dragon Soul
+						-- #if ANYCLASSIC
+						i(248747, {	-- Frostscythe of Lord Ahune [Level 85 - ilvl 403]
+							["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
+						}),
+						-- #endif
 
-					i(69771, {	-- Frostscythe of Lord Ahune [Level 85]
-						["timeline"] = {
-							ADDED_4_0_1,
-							-- #if ANYCLASSIC
-							REMOVED_4_4_2,
-							-- #else
-							REMOVED_5_0_4,
-							-- #endif
-						},
-					}),
-					i(54806, {	-- Frostscythe of Lord Ahune [Level 80]
-						["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-					}),
-					i(53641),	-- Frigid Frostling (PET!)
-				},
-			}),
-			i(35723, {	-- Shards of Ahune
-				["description"] = "This item can be looted and completed once per character.",
-				["timeline"] = { ADDED_2_4_0 },
-			}),
-			i(138838, {	-- Illusion: Deathfrost (ILLUSION!)
-				["timeline"] = { ADDED_7_0_3 },
-			}),
-			applyclassicphase(TBC_PHASE_THREE, i(35498, {["timeline"]={ADDED_2_4_2}})),	-- Formula: Enchant Weapon - Deathfrost (RECIPE!)
+						i(69771, {	-- Frostscythe of Lord Ahune [Level 85]
+							["timeline"] = {
+								ADDED_4_0_1,
+								-- #if ANYCLASSIC
+								REMOVED_4_4_2,
+								-- #else
+								REMOVED_5_0_4,
+								-- #endif
+							},
+						}),
+						i(54806, {	-- Frostscythe of Lord Ahune [Level 80]
+							["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
+						}),
+						i(53641),	-- Frigid Frostling (PET!)
+					},
+				}),
+				i(35723, {	-- Shards of Ahune
+					["description"] = "This item can be looted and completed once per character.",
+					["timeline"] = { ADDED_2_4_0 },
+				}),
+				i(138838, {	-- Illusion: Deathfrost (ILLUSION!)
+					["timeline"] = { ADDED_7_0_3 },
+				}),
+				applyclassicphase(TBC_PHASE_THREE, i(35498, {["timeline"]={ADDED_2_4_2}})),	-- Formula: Enchant Weapon - Deathfrost (RECIPE!)
 
-			-- #if BEFORE 4.2.0
-			-- This item was apparently a drop from Ahune originally, but was removed and added to the Molten Front with 4.2.0.
-			-- Between Patch 3.3.3 and 4.2.0 it had no available source.
-			i(34955, {	-- Searing Scorchling (PET!)
-				["timeline"] = { REMOVED_3_3_3, ADDED_4_2_0 },
-			}),
-			-- #endif
-
-			-- WoD+ Rewards (Scalable)
-			i(117372, {	-- Cloak of the Frigid Winds
-				["timeline"] = { ADDED_6_0_2 },
-			}),
-			i(117374, {	-- Icebound Cloak
-				["timeline"] = { ADDED_6_0_2 },
-			}),
-			i(117375, {	-- Shroud of Winter's Chill
-				["timeline"] = { ADDED_6_0_2 },
-			}),
-			i(117376, {	-- The Frost Lord's Battle Shroud
-				["timeline"] = { ADDED_6_0_2 },
-			}),
-			i(117377, {	-- The Frost Lord's War Cloak
-				["timeline"] = { ADDED_6_0_2 },
-			}),
-
+				-- #if BEFORE 4.2.0
+				-- This item was apparently a drop from Ahune originally, but was removed and added to the Molten Front with 4.2.0.
+				-- Between Patch 3.3.3 and 4.2.0 it had no available source.
+				i(34955, {	-- Searing Scorchling (PET!)
+					["timeline"] = { REMOVED_3_3_3, ADDED_4_2_0 },
+				}),
+				-- #endif
+			},
+			applyclassicphase(WOD_PHASE_ONE, bubbleDown({ ["timeline"] = { ADDED_6_0_2 } }, {	-- WoD+ Rewards (Scalable)
+				i(117372),	-- Cloak of the Frigid Winds
+				i(117374),	-- Icebound Cloak
+				i(117375),	-- Shroud of Winter's Chill
+				i(117376),	-- The Frost Lord's Battle Shroud
+				i(117377),	-- The Frost Lord's War Cloak
+			})),
+			-- #if ANYCLASSIC
 			-- NOTE: Blizzard added 528 ilvl items specific to MOP Classic
-			-- #if ANYCLASSIC
-			i(280386, {	-- Cloak of the Frigid Winds [528]
-				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-			}),
-			i(280383, {	-- Icebound Cloak [Level 90]
-				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-			}),
-			i(280385, {	-- Shroud of Winter's Chill [Level 90]
-				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-			}),
-			i(280384, {	-- The Frost Lord's Battle Shroud [Level 90]
-				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-			}),
-			i(280387, {	-- The Frost Lord's War Cloak [Level 90]
-				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 },
-			}),
-			-- #else
-			-- Pandaria Rewards
-			i(95425, {	-- Cloak of the Frigid Winds [Level 90]
-				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-			}),
-			i(95427, {	-- Icebound Cloak [Level 90]
-				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-			}),
-			i(95428, {	-- Shroud of Winter's Chill [Level 90]
-				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-			}),
-			i(95429, {	-- The Frost Lord's Battle Shroud [Level 90]
-				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-			}),
-			i(95430, {	-- The Frost Lord's War Cloak [Level 90]
-				["timeline"] = { ADDED_5_0_4, REMOVED_6_0_2 },
-			}),
+			applyclassicphase(MOP_PHASE_SIEGE_OF_ORGRIMMAR, bubbleDown({	-- MoP Rewards (MOP Classic)
+				["timeline"] = { ADDED_5_5_4, REMOVED_6_0_2 }
+			}, {
+				i(280386),	-- Cloak of the Frigid Winds [528]
+				i(280383),	-- Icebound Cloak [Level 90]
+				i(280385),	-- Shroud of Winter's Chill [Level 90]
+				i(280384),	-- The Frost Lord's Battle Shroud [Level 90]
+				i(280387),	-- The Frost Lord's War Cloak [Level 90]
+			})),
 			-- #endif
-
+			applyclassicphase(MOP_PHASE_ONE, bubbleDown({	-- MoP Rewards (Original Timeline)
+				["timeline"] = {
+					ADDED_5_0_4, 
+					-- #if ANYCLASSIC
+					REMOVED_5_5_4
+					-- #else
+					REMOVED_6_0_2
+					-- #endif
+				},
+			}, {
+				i(95425),	-- Cloak of the Frigid Winds [Level 90]
+				i(95427),	-- Icebound Cloak [Level 90]
+				i(95428),	-- Shroud of Winter's Chill [Level 90]
+				i(95429),	-- The Frost Lord's Battle Shroud [Level 90]
+				i(95430),	-- The Frost Lord's War Cloak [Level 90]
+			})),
+			-- #if ANYCLASSIC
 			-- WOUTER NOTE: Blizzard added 403 ilvl items specific to Cata Classic, probably because Midsummer happened a 2nd time in late Dragon Soul
-			-- #if ANYCLASSIC
-			i(248751, {	-- Cloak of the Frigid Winds [Level 85]
-				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-			}),
-			i(248752, {	-- Icebound Cloak [Level 85]
-				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-			}),
-			i(248750, {	-- Shroud of Winter's Chill [Level 85]
-				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-			}),
-			i(248749, {	-- The Frost Lord's Battle Shroud [Level 85]
-				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-			}),
-			i(248748, {	-- The Frost Lord's War Cloak [Level 85]
-				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 },
-			}),
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, bubbleDown({	-- Cataclysm Rewards (Cata Classic)
+				["timeline"] = { ADDED_4_4_2, REMOVED_5_0_4 }
+			}, {
+				i(248751),	-- Cloak of the Frigid Winds [Level 85]
+				i(248752),	-- Icebound Cloak [Level 85]
+				i(248750),	-- Shroud of Winter's Chill [Level 85]
+				i(248749),	-- The Frost Lord's Battle Shroud [Level 85]
+				i(248748),	-- The Frost Lord's War Cloak [Level 85]
+			})),
 			-- #endif
-
-			-- Cataclysm Rewards
-			i(69769, {	-- Cloak of the Frigid Winds [Level 85]
+			applyclassicphase(CATA_PHASE_ONE, bubbleDown({	-- Cataclysm Rewards (Original Timeline)
 				["timeline"] = {
 					ADDED_4_0_1,
 					-- #if ANYCLASSIC
@@ -653,124 +628,61 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 					REMOVED_5_0_4,
 					-- #endif
 				},
-			}),
-			i(69770, {	-- Icebound Cloak [Level 85]
+			}, {
+				i(69769),	-- Cloak of the Frigid Winds [Level 85]
+				i(69770),	-- Icebound Cloak [Level 85]
+				i(69768),	-- Shroud of Winter's Chill [Level 85]
+				i(69767),	-- The Frost Lord's Battle Shroud [Level 85]
+				i(69766),	-- The Frost Lord's War Cloak [Level 85]
+			})),
+			applyclassicphase(WRATH_PHASE_ONE, bubbleDown({	-- Wrath Rewards (Original Timeline)
 				["timeline"] = {
-					ADDED_4_0_1,
-					-- #if ANYCLASSIC
-					REMOVED_4_4_2,
-					-- #else
-					REMOVED_5_0_4,
-					-- #endif
+					ADDED_3_3_3,
+					REMOVED_4_0_1,
 				},
-			}),
-			i(69768, {	-- Shroud of Winter's Chill [Level 85]
-				["timeline"] = {
-					ADDED_4_0_1,
-					-- #if ANYCLASSIC
-					REMOVED_4_4_2,
-					-- #else
-					REMOVED_5_0_4,
-					-- #endif
-				},
-			}),
-			i(69767, {	-- The Frost Lord's Battle Shroud [Level 85]
-				["timeline"] = {
-					ADDED_4_0_1,
-					-- #if ANYCLASSIC
-					REMOVED_4_4_2,
-					-- #else
-					REMOVED_5_0_4,
-					-- #endif
-				},
-			}),
-			i(69766, {	-- The Frost Lord's War Cloak [Level 85]
-				["timeline"] = {
-					ADDED_4_0_1,
-					-- #if ANYCLASSIC
-					REMOVED_4_4_2,
-					-- #else
-					REMOVED_5_0_4,
-					-- #endif
-				},
-			}),
-
-			i(54805, {	-- Cloak of the Frigid Winds [Level 80]
-				["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-			}),
-			i(54801, {	-- Icebound Cloak [Level 80]
-				["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-			}),
-			i(54804, {	-- Shroud of Winter's Chill [Level 80]
-				["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-			}),
-			i(54803, {	-- The Frost Lord's Battle Shroud [Level 80]
-				["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-			}),
-			i(54802, {	-- The Frost Lord's War Cloak [Level 80]
-				["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
-			}),
-
-			-- Original Rewards
+			}, {
+				i(54805),	-- Cloak of the Frigid Winds [Level 80]
+				i(54801),	-- Icebound Cloak [Level 80]
+				i(54804),	-- Shroud of Winter's Chill [Level 80]
+				i(54803),	-- The Frost Lord's Battle Shroud [Level 80]
+				i(54802),	-- The Frost Lord's War Cloak [Level 80]
+			})),
 			-- #if CLASSIC_ANNIVERSARY
-			i(278827, {	-- Amulet of Bitter Hatred [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278838, {	-- Amulet of Glacial Tranquility [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278833, {	-- Choker of the Arctic Flow [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278774, {	-- Cloak of the Frigid Winds [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278953, {	-- Frostscythe of Lord Ahune [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278847, {	-- Hailstone Pendant [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278823, {	-- Icebound Cloak [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(279240, {	-- Shroud of Winter's Chill [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			i(278819, {	-- The Frost Lord's War Cloak [Level 70]
-				["timeline"] = { ADDED_2_5_5_PHASE_2 },
-			}),
-			-- #else
-			i(35514, {	-- Frostscythe of Lord Ahune [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35507, {	-- Amulet of Bitter Hatred [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35509, {	-- Amulet of Glacial Tranquility [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35508, {	-- Choker of the Arctic Flow [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35511, {	-- Hailstone Pendant [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35497, {	-- Cloak of the Frigid Winds [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35496, {	-- Icebound Cloak [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35494, {	-- Shroud of Winter's Chill [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
-			i(35495, {	-- The Frost Lord's War Cloak [Level 70]
-				["timeline"] = { REMOVED_3_3_3 },
-			}),
+			applyclassicphase(TBC_PHASE_ONE, bubbleDown({	-- TBC Rewards (TBC Classic Anniversary)
+				["timeline"] = { ADDED_2_5_5_PHASE_2, REMOVED_3_3_3 },
+			}, {
+				i(278827),	-- Amulet of Bitter Hatred [Level 70]
+				i(278838),	-- Amulet of Glacial Tranquility [Level 70]
+				i(278833),	-- Choker of the Arctic Flow [Level 70]
+				i(278774),	-- Cloak of the Frigid Winds [Level 70]
+				i(278953),	-- Frostscythe of Lord Ahune [Level 70]
+				i(278847),	-- Hailstone Pendant [Level 70]
+				i(278823),	-- Icebound Cloak [Level 70]
+				i(279240),	-- Shroud of Winter's Chill [Level 70]
+				i(278819),	-- The Frost Lord's War Cloak [Level 70]
+			})),
 			-- #endif
-			HUGE_SNOWBALL,
-		},
+			applyclassicphase(TBC_PHASE_ONE, bubbleDown({	-- TBC Rewards (Original Timeline)
+				["timeline"] = {
+					ADDED_2_0_1,
+					-- #if CLASSIC_ANNIVERSARY
+					REMOVED_2_5_5,
+					-- #else
+					REMOVED_3_3_3,
+					-- #endif
+				},
+			}, {
+				i(35514),	-- Frostscythe of Lord Ahune [Level 70]
+				i(35507),	-- Amulet of Bitter Hatred [Level 70]
+				i(35509),	-- Amulet of Glacial Tranquility [Level 70]
+				i(35508),	-- Choker of the Arctic Flow [Level 70]
+				i(35511),	-- Hailstone Pendant [Level 70]
+				i(35497),	-- Cloak of the Frigid Winds [Level 70]
+				i(35496),	-- Icebound Cloak [Level 70]
+				i(35494),	-- Shroud of Winter's Chill [Level 70]
+				i(35495),	-- The Frost Lord's War Cloak [Level 70]
+			})),
+			{ HUGE_SNOWBALL }, {}),
 	}),
 	-- #if AFTER WRATH
 	n(ACHIEVEMENTS, {

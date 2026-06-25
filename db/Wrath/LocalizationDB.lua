@@ -1260,6 +1260,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Twilight Assist",
 	[-660] = "Twilight Duo",
 	[-661] = "Twilight Zone",
+	[-694] = "TBC Classic Anniversary Edition - Outland Upgrade",
 	[-698] = TRANSMOG_SOURCE_4,
 	[-721] = TRACKER_FILTER_REMOTE_ZONES,
 	[-723] = "Elemental Invasions",
@@ -1482,6 +1483,7 @@ localize(L.HEADER_ICONS, {
 	[-659] = 236469,
 	[-660] = 236473,
 	[-661] = 236471,
+	[-694] = _.asset("expansion_tbc"),
 	[-698] = _.asset("category_worlddrops"),
 	[-721] = 237382,
 	[-723] = 135793,
@@ -17297,6 +17299,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "Ayuda Crepuscular",
 	[-660] = "Dúo Crepuscular",
 	[-661] = "Dimensión Desconocida",
+	[-694] = "Mejora de la edición del aniversario de Burning Crusade Classic™",
 	[-723] = "Incursiones elementales",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -19136,6 +19139,7 @@ localize(L.HEADER_NAMES, {
 	[-367] = "Defensores de Atal'ai",
 	[-525] = "Paquete heroico Rasganorte WotLK Classic",
 	[-526] = "Paquete heroico abrasador de Cataclysm Classic",
+	[-694] = "Mejoras de Burning Crusade Classic™ Edición Aniversario",
 	[-723] = "Invasiones elementales",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -20130,6 +20134,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "暮光帮凶",
 	[-660] = "暮光二重奏",
 	[-661] = "暮光领域",
+	[-694] = "'燃烧的远征'周年纪念版 - 外域升级",
 	[-723] = "元素入侵",
 });
 localize(L.HEADER_DESCRIPTIONS, {
@@ -22271,6 +22276,7 @@ localize(L.HEADER_NAMES, {
 	[-659] = "暮光協助",
 	[-660] = "暮光雙人組",
 	[-661] = "暮光地帶",
+	[-694] = "燃燒的遠征：經典週年紀念版 - 外域升級",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-36] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
