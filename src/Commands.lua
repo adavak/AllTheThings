@@ -72,7 +72,7 @@ end);
 
 -- Chat Links
 do
-local LeftClickAtlas = CreateAtlasMarkup('NPE_LeftClick', 18, 18)
+local LeftClickAtlas = CreateAtlasMarkup('NPE_LeftClick', 14, 13)
 function app:Linkify(text, color, operation)
 	-- Turns a bit of text into a colored link which ATT will attempt to understand
 	return LeftClickAtlas.."|Haddon:ATT:"..operation.."|h|c"..color.."["..text.."]|r|h";
