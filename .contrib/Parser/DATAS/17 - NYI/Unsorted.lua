@@ -2294,7 +2294,6 @@ root(ROOTS.Unsorted, {
 				i(275999),	-- Flowering Mantle
 				i(276299),	-- Umbralwarden's Soul Gavel
 				i(276291),	-- Forgotten Saber of the Ice Temple
-				i(276290),	-- Ice Guardian's Sleetblade
 			}),
 			n(DECOR, {
 				i(248961),	-- Large Amani Tiki Mask

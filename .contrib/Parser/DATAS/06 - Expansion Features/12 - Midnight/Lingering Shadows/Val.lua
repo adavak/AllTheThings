@@ -217,6 +217,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						i(276096),	-- Imperator Pertinax (Heroic)
 						i(276098),	-- Raided Items (Low Level)
 					}),
+					n(SPECIAL, {	-- Move to Treasures if objectid is found
+						header(HEADERS.Spell, 1300397, {	-- Testament
+							["description"] = "Interact with the Enchanted Hilt at the back of the cave then slay two rares within 30 minutes to prove your worth. Return to the hilt again to claim your rwward.",
+							["coords"] = {
+								{ 61.4, 78.8, VAL },	-- Cave
+								{ 70.5, 84.3, VAL },	-- Enchanted Hilt
+							},
+							["groups"] = { i(276290) },	-- Ice Guardian's Sleetblade (COSMETIC!)
+						}),
+					}),
 					n(TREASURES, {
 						o(655270, {	-- Dominaar Storage Vessel
 							["description"] = "Spawns randomly throughout the zone.",
@@ -285,6 +295,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["coord"] = { 32.3, 50.1, VAL },
 						}),
 					})),
+					n(ZONE_DROPS, {
+						i(276330),	-- Taken Riftwalker's Starbarb (COSMETIC!)
+					}),
 					n(ZONE_REWARDS, {
 						i(278116),	-- Player Experience
 						n(ARMOR, {
