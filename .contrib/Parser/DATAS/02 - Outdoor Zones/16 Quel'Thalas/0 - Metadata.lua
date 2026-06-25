@@ -82,8 +82,3 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 		}),
 	},
 }));
-
-SYM.MIDNIGHT.QUELTHALAS_ZONE_REWARDS = {
-	{"select","mapID",MAP.MIDNIGHT.QUELTHALAS},{"pop"},
-	{"where","headerID",ZONE_REWARDS},{"pop"},
-	{"whereany","headerID",ARMOR,WEAPONS}}
