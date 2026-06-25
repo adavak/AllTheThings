@@ -593,7 +593,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 			-- #endif
 			applyclassicphase(MOP_PHASE_ONE, bubbleDown({	-- MoP Rewards (Original Timeline)
 				["timeline"] = {
-					ADDED_5_0_4, 
+					ADDED_5_0_4,
 					-- #if ANYCLASSIC
 					REMOVED_5_5_4
 					-- #else

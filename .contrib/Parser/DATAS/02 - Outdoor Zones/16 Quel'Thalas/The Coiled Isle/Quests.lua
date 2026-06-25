@@ -342,8 +342,135 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					--}),
 					--
 				}),
-				--header(HEADERS.AchCriteria, 62297.06, {	-- The Call of the Void
-				--}),
+				header(HEADERS.AchCriteria, 62297.06, {	-- The Call of the Void
+					q(95973, {	-- Echoes of the Darkwell
+						["sourceQuest"] = 93420,	-- Lor'themar's Judgement	-- Exo Note: Available from the get-go on PTR, this may change when Patch goes live. 93420 should be a proper sourceQuest as the story continuation fits nicely.
+						["qg"] = 235787,	-- Lor'themar Theron
+						["coord"] = { 45.4, 70.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(94519, {	-- What Hope in the Light?
+						["sourceQuest"] = 95973,	-- Echoes of the Darkwell
+						["qg"] = 258019,	-- Magister Umbric
+						["coord"] = { 46.2, 47.2, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(94520, {	-- Resurgence in Deatholme
+						["sourceQuest"] = 94519,	-- What Hope in the Light?
+						["qg"] = 262269,	-- Magister Umbric
+						["coord"] = { 52.3, 48.7, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
+					}),
+					q(94521, {	-- The Direct Method
+						["sourceQuest"] = 94520,	-- Resurgence in Deatholme
+						["qg"] = 258022,	-- Arator
+						["coord"] = { 43.8, 82.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(266893, {	-- Twilight Clues (QI!)
+								-- Following items count as "Clues" when looted
+								i(270266),	-- Fragmented Void (QI!)
+								i(266894),	-- Twilight Journal (QI!)
+								i(266896),	-- Twilight Letter (QI!)
+							}),
+						},
+					}),
+					q(94522, {	-- They Always Write It Down
+						["sourceQuest"] = 94520,	-- Resurgence in Deatholme
+						["qg"] = 258021,	-- Magister Umbric
+						["coord"] = { 43.7, 82.4, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(94523, {	-- My Poor Beautiful Self
+						["sourceQuest"] = 94520,	-- Resurgence in Deatholme
+						["qg"] = 258024,	-- Pathetic Voidling
+						["coord"] = { 43.0, 85.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(94524, {	-- Under New Management
+						["sourceQuests"] = {
+							94521,	-- The Direct Method
+							94522,	-- They Always Write It Down
+							94523,	-- My Poor Beautiful Self
+						},
+						["qg"] = 258029,	-- Arator
+						["coord"] = { 42.9, 85.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					------ Stay awhile and listen ------
+					hqt(95960, {	-- Stay awhile and listen: Arator
+						["name"] = "Stay awhile and listen: Arator",
+						["description"] = "Dialogue becomes available after accepting 'Under New Management' (94524).",
+						["sourceQuests"] = {
+							94521,	-- The Direct Method
+							94522,	-- They Always Write It Down
+							94523,	-- My Poor Beautiful Self
+						},
+						["qg"] = 258029,	-- Arator
+						["coord"] = { 42.9, 85.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					--
+					q(94525, {	-- A Comeback Story
+						["sourceQuests"] = {
+							94521,	-- The Direct Method
+							94522,	-- They Always Write It Down
+							94523,	-- My Poor Beautiful Self
+						},
+						["qg"] = 258024, -- Pathetic Voidling
+						["coord"] = { 43.0, 85.0, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(94526, {	-- Verifiably Untrustworthy
+						["sourceQuests"] = {
+							94524,	-- Under New Management
+							94525,	-- A Comeback Story
+						},
+						["qg"] = 258095,	-- Magister Umbric
+						["coord"] = { 42.7, 88.5, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(94527, {	-- Null Space
+						["sourceQuest"] = 94526,	-- Verifiably Untrustworthy
+						["qg"] = 259707,	-- Magister Umbric
+						["coord"] = { 42.5, 89.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(94528, {	-- Carving Out Room
+						["sourceQuest"] = 94527,	-- Null Space
+						["qg"] = 263465,	-- Arator
+						["coord"] = { 38.8, 74.1, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					q(94529, {	-- A Dark Shadow Looms
+						["sourceQuest"] = 94527,	-- Null Space
+						["qg"] = 258151,	-- Magister Umbric
+						["coord"] = { 38.9, 74.0, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					------ Stay awhile and listen ------
+					hqt(95959, {	-- Stay awhile and listen: Arator
+						["name"] = "Stay awhile and listen: Arator",
+						["description"] = "Dialogue becomes available after accepting 'A Dark Shadow Looms' (94529).",
+						["sourceQuest"] = 94527,	-- Null Space
+						["qg"] = 263465,	-- Arator
+						["coord"] = { 38.8, 74.1, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					--
+					q(94530, {	-- The Call of the Void
+						["sourceQuests"] = {
+							94528,	-- Carving Out Room
+							94529,	-- A Dark Shadow Looms
+						},
+						["qg"] = 258151,	-- Magister Umbric
+						["coord"] = { 38.9, 74.0, MAP.MIDNIGHT.ZULAMAN },
+					}),
+					q(94531, {	-- Like Mother, Like Son
+						["sourceQuest"] = 94530,	-- The Call of the Void
+						["qg"] = 258150,	-- Arator
+						["coord"] = { 38.8, 74.1, MAP.MIDNIGHT.ZULAMAN },
+						["groups"] = {
+							i(271970),	-- Dawn's Radiance (COSMETIC!)
+							i(278691),	-- Twilight Brazier (DECOR!)
+						},
+					}),
+					------ Stay awhile and listen ------
+					hqt(95958, {	-- Stay awhile and listen: Magister Umbric
+						["name"] = "Stay awhile and listen: Magister Umbric",
+						["description"] = "Dialogue becomes available after completing 'Like Mother, Like Son' (94531).",
+						["sourceQuest"] = 94531,	-- Like Mother, Like Son
+						["qg"] = 258538,	-- Magister Umbric
+						["coord"] = { 45.3, 70.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					--
+				}),
 			}),
 			--header(HEADERS.Achievement, 63641, {	-- Snake Charmed, I'm Sure (Sojourner)
 				--header(HEADERS.AchCriteria, 63641.01, {	-- Strange Friends in Odd Places

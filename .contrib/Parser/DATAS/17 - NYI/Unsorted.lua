@@ -81,9 +81,6 @@ root(ROOTS.Unsorted, {
 			i(266169),	-- Soulcoiler Canopy
 			i(266327),	-- Pristine Spinal Barb
 			i(266435),	-- Ki'clak Snack
-			i(266893),	-- Twilight Clues
-			i(266894),	-- Twilight Journal
-			i(266896),	-- Twilight Letter
 			i(267045),	-- Quivering Egg
 			i(267080),	-- Amani Blueflame Chandelier
 			i(267085),	-- Swirling Ectoplasm
@@ -222,7 +219,6 @@ root(ROOTS.Unsorted, {
 			i(270252),	-- Nightfur Kapara
 			i(270253),	-- Jaundiced Slitherer
 			i(270254),	-- Caustic Writhling
-			i(270266),	-- Fragmented Void
 			i(270267),	-- Twilight Missive
 			i(270274),	-- Home-Grown Wax
 			i(270335),	-- Mostly Smooth Seastone
@@ -752,7 +748,6 @@ root(ROOTS.Unsorted, {
 			i(271952),	-- Set Keystone Map: Voidscar Arena
 			i(271958),	-- Set Keystone Map: Den of Nalorakk
 			i(271960),	-- Set Keystone Map: The Blinding Vale
-			i(271970),	-- Dawn's Radiance
 			i(271991),	-- Venomous Equipment Chest
 			i(271996),	-- Crumpled Scroll
 			i(271997),	-- Abused Relic
@@ -1585,7 +1580,6 @@ root(ROOTS.Unsorted, {
 			i(278652),	-- Ensemble: Elite Venomous Gladiator's Warlock Armor
 			i(278653),	-- Ensemble: Elite Venomous Gladiator's Warrior Armor
 			i(278654),	-- Arsenal: Elite Venomous Gladiator's Weapons
-			i(278691),	-- Twilight Brazier
 			i(278694),	-- Stormstout Hanging Lantern
 			i(278776),	-- Brown Mogu Mask
 			i(278777),	-- Blue Mogu Mask
