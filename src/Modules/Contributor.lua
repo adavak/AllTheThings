@@ -52,9 +52,13 @@ local function GetReportPlayerLocation()
 	return tostring(px or UNKNOWN)..", "..tostring(py or UNKNOWN)..", "..tostring(mapID or UNKNOWN).." \""..(app.GetMapName(mapID) or "??").."\" "..diffVal
 end
 
+local LorewalkingIgnoredReportTypes = {
+	Quest = true,
+	["Inaccurate Unflagged Quests"] = true,
+}
 local function DoReport(reporttype, id)
-	-- ignore contrib Quest reports if the player is in Lorewalking
-	if reporttype == "Quest" and GetPlayerAura(463943) then return end
+	-- ignore certain contrib reports if the player is in Lorewalking
+	if LorewalkingIgnoredReportTypes[reporttype] and GetPlayerAura(463943) then return end
 
 	local dialogID = reporttype.."-"..id
 	-- app.PrintDebug("Contributor.DoReport",reporttype,id)
@@ -3498,7 +3502,7 @@ local function OnQUEST_DETAIL(...)
 					AddReportData(objRef.__type,questID,questData)
 				elseif checkCoords == 1 then
 					-- Check_coords did a report, so add more info for the quest parent
-					AddReportData(questParent,questData)
+					AddReportData(questParent.__type,questParent.keyval,questData)
 				end
 			else
 				questData.MissingCoords = "No Coordinates for this quest!"
