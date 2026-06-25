@@ -203,7 +203,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["questID"] = 96375,
 						}),
 						n(264864, {	-- Xirah
-							["coord"] = { 29.0, 73.8, VAL },
+							["coord"] = { 28.6, 74.6, VAL },
 							["questID"] = 96370,
 						}),
 					})),

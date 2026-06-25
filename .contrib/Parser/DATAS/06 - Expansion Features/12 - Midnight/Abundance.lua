@@ -279,6 +279,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 			q(94426),	-- Popped after Loaknit Den
 			q(91432),	-- Popped after entering Wath'nan Crypts
 			q(94952),	-- Accepted 'Abudant Offerings' (questID 89507)
+			q(90092),	-- Entered Abundance first time of the week in Zul'Aman
 
 			--q(91496),	-- Tiggered during Abundant Voidburrow
 		}),
