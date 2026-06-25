@@ -2416,6 +2416,7 @@ MobileDB.GameObject = {
 	[378437] = true,	-- Alexstrasza's Welcome
 	[378802] = true,	-- Corrupted Dragon Egg
 	[378819] = true,	-- Rock Wall
+	[379148] = true,	-- Mysterious Glyph (q:70134)
 	[379159] = true,	-- Shovel
 	[379195] = true,	-- Anvil
 	[379248] = true,	-- Draconium Deposit

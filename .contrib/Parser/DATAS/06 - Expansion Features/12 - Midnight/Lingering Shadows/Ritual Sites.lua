@@ -290,9 +290,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["provider"] = { "i", 270562 },	-- Tainted Sample (QS!/QI!)
 					}),
 					q(96728, {	-- Ritual Site Studies: Week 1 of 3
-						["qg"] = 267813,	-- Image of Lady Darkglen
+						["qgs"] = {
+							257416, -- Lady Darkglen
+							267813, -- Image of Lady Darkglen
+						},
 						["timeline"] = { ADDED_12_0_7 },
-						["coord"] = { 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["coords"] = {
+							{ 29.5, 77.9, MAP.MIDNIGHT.ZULAMAN },
+							{ 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+						},
 					}),
 					q(96729, {	-- Ritual Site Studies: Week 2 of 3
 						["sourceQuest"] = 96728,	-- Ritual Site Studies: Week 1 of 3
@@ -302,8 +309,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						},
 						["timeline"] = { ADDED_12_0_7 },
 						["coords"] = {
-							{ 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 							{ 29.5, 77.9, MAP.MIDNIGHT.ZULAMAN },
+							{ 37.5, 65.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 47.7, 49.6, MAP.MIDNIGHT.SILVERMOON_CITY },
 						},
 					}),
 				}),

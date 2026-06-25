@@ -192,7 +192,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						n(265269, {	-- Shadowguard Destroyer
 							["coord"] = { 46.0, 64.6, VAL },
-							["questID"] = 96465, -- I got 96373 - Darkal
+							--["questID"] = 96465, -- I got 96373 - Darkal
 						}),
 						n(261965, {	-- Sleet-Rune <The Void Infused Watcher>
 							["coord"] = { 55.2, 65.6, VAL },
@@ -265,6 +265,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(95400, {	-- Solid Cold
 							["coord"] = { 46.8, 47.5, VAL },
+						}),
+						q(96611, {	-- Storm Mitigation (Bonus Objective)
+							["coord"] = { 38.8, 65.2, VAL },
 						}),
 						q(96617, {	-- Storm Mitigation (Bonus Objective)
 							["coord"] = { 47.8, 80.4, VAL },
