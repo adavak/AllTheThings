@@ -395,7 +395,7 @@ local MERCHANT_GROUPS = {
 		["cost"] = { { "i", 23247, 100 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
-	i(275471, {	-- Sun Festival's Leggings
+	i(275471, {	-- Sun Festival's Painted Leggings
 		["cost"] = { { "i", 23247, 75 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
@@ -597,6 +597,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.MIDSUMMER_FIRE_FESTIVAL, n(MIDSUMMER_FIRE
 								275472,	-- Sun Festival's Painted Greaves
 								275474,	-- Sun Festival's Painted Gauntlets
 								275476,	-- Sun Festival's Painted Hauberk
+								275471,	-- Sun Festival's Painted Leggings
 								275468,	-- Sun Festival's Painted Mantle
 								275466,	-- Sun Festival's Painted Mask
 								275470,	-- Sun Festival's Painted Sash
