@@ -258,7 +258,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						n(264868, {	-- Opprimius <Reaper of Beasts>
 							["coord"] = { 33.0, 43.0, VAL },
 							["questID"] = 96373,
-							["groups"] = {	-- Feet
+							["groups"] = {
 								i(274829),	-- Creature Corruptor Slippers
 								i(274837),	-- Corrupted Hide Boots
 								i(274845),	-- Greaves of Corrupted Scale
