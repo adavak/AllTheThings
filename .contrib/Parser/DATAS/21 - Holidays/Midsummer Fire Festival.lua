@@ -238,15 +238,33 @@ local MERCHANT_GROUPS = {
 		["timeline"] = { ADDED_6_0_2 },
 	}),
 	i(34686, {	-- Brazier of Dancing Flames (TOY!)
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 300 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_2_4_0 },
 	}),
 	i(116440, {	-- Burning Defender's Medallion (TOY!)
-		["cost"] = { { "i", 23247, 500 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 300 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 500 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_6_0_2 },
 	}),
 	i(116435, {	-- Cozy Bonfire (TOY!)
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 300 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_6_0_2 },
 	}),
 	iensemble(275461, {	-- Ensemble: Sun Festival's Flame Totems
@@ -262,23 +280,53 @@ local MERCHANT_GROUPS = {
 		["timeline"] = { ADDED_9_2_0 },
 	}),
 	i(206038, {	-- Flamin' Ring of Flashiness (TOY!)
-		["cost"] = { { "i", 23247, 500 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 300 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 500 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_10_1_0 },
 	}),
 	i(242742, {	-- Grand Belt of the Fire Festival (COSMETIC!)
-		["cost"] = { { "i", 23247, 150 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247,  75 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 150 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_11_1_7 },
 	}),
 	i(242740, {	-- Grand Helm of the Fire Festival (COSMETIC!)
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 100 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_11_1_7 },
 	}),
 	i(242741, {	-- Grand Mantle of the Fire Festival (COSMETIC!)
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 150 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_11_1_7 },
 	}),
 	i(74278, {	-- Helm of the Fire Festival
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247,  50 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_4_3_0 },
 	}),
 	i(276546, {	-- Illusion: Summer Sun Blossom (ILLUSION!)
@@ -294,15 +342,33 @@ local MERCHANT_GROUPS = {
 		["timeline"] = { ADDED_7_1_0 },
 	}),
 	i(220787, {	-- Mantle of Midsummer
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 150 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_10_2_7 },
 	}),
 	i(220785, {	-- Midsummer Safeguard
-		["cost"] = { { "i", 23247, 350 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 150 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 350 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_10_2_7 },
 	}),
 	i(141649, {	-- Set of Matches (TOY!)
-		["cost"] = { { "i", 23247, 500 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 300 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 500 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_7_1_0 },
 	}),
 	i(188695, {	-- Summer Cranial Skillet (TOY!)
@@ -350,7 +416,7 @@ local MERCHANT_GROUPS = {
 		["timeline"] = { ADDED_12_0_7 },
 	}),
 	i(275465, {	-- Sun Festival's Painted Tunic
-		["cost"] = { { "i", 23247, 100 } },	-- Burning Blossom
+		["cost"] = { { "i", 23247, 50 } },	-- Burning Blossom
 		["timeline"] = { ADDED_12_0_7 },
 	}),
 	i(275475, {	-- Sun Festival's Painted Wrap
@@ -382,15 +448,33 @@ local MERCHANT_GROUPS = {
 	-- #if AFTER 2.4.0.7994
 	-- This item was originally exclusively available as a quest reward.
 	i(23324, {	-- Mantle of the Fire Festival
-		["cost"] = { { "i", 23247, 100 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247,  50 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 100 },	-- Burning Blossom
+			-- #endif
+		},
 	}),
 	-- #endif
 	i(34685, {	-- Vestment of Summer
-		["cost"] = { { "i", 23247, 100 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247,  50 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 100 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_2_4_0 },
 	}),
 	i(34683, {	-- Sandals of Summer
-		["cost"] = { { "i", 23247, 200 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247,  50 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 200 },	-- Burning Blossom
+			-- #endif
+		},
 		["timeline"] = { ADDED_2_4_0 },
 	}),
 	i(34599, {	-- Juggling Torch
@@ -418,7 +502,13 @@ local MERCHANT_GROUPS = {
 		["cost"] = { { "i", 23247, 5 } },	-- Burning Blossom
 	}),
 	i(23246, {	-- Fiery Festival Brew
-		["cost"] = { { "i", 23247, 5 } },	-- Burning Blossom
+		["cost"] = {
+			-- #if AFTER MID
+			{ "i", 23247, 2 },	-- Burning Blossom
+			-- #else
+			{ "i", 23247, 5 },	-- Burning Blossom
+			-- #endif
+		},
 	}),
 	-- #endif
 	i(34684, {	-- Handful of Summer Petals
