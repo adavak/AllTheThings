@@ -12,7 +12,6 @@ root(ROOTS.Unsorted, {
 			i(241151),	-- Coiled Stargorger Lure
 			i(243337),	-- Bound-Left Silvermoon Drapes
 			i(243338),	-- Bound-Right Silvermoon Drapes
-
 			i(244344),	-- Griftah's Mystical Polter-Urn
 			i(244790),	-- The Coiled Huntress
 			i(245539),	-- Elegant Enchanted Vanity
@@ -65,7 +64,6 @@ root(ROOTS.Unsorted, {
 			i(264697),	-- Yl'mul's Other Arm
 			i(264698),	-- Yl'mul's Ribcage
 			i(264704),	-- Sea Creature Meat
-
 			i(265033),	-- Zul'Aman Brazier Post
 			i(265386),	-- Zul'Aman Amani Awning
 			i(265399),	-- Ritually-Charred Bones
@@ -89,8 +87,6 @@ root(ROOTS.Unsorted, {
 			i(267378),	-- Venom Scholar's Focus
 			i(268095),	-- Fresh Poultice
 			i(268113),	-- Jan'alai's Breath
-
-
 			-- WB
 			i(268199),	-- Tidepiercer's Bubble Popper
 			i(268262),	-- Bubblefin Splash Guard
@@ -105,59 +101,6 @@ root(ROOTS.Unsorted, {
 			i(268247),	-- Breakwater Boots
 			i(268266),	-- Alluring Bubbleband
 			i(270167),	-- Wavecaller's Seastone
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			i(268281),	-- Ula'guts
 			i(268519),	-- Heirloom Blossom Nectar
 			i(268584),	-- Undamaged Serpent Scale
@@ -180,34 +123,10 @@ root(ROOTS.Unsorted, {
 			i(269578),	-- Poison Dart Frog Gland
 			i(269637),	-- Serpent-Caller Spike
 			i(269720),	-- Corrosive Hekte
-			i(269856),	-- Bundle of Adventurer Mistcrests
-			i(269857),	-- Satchel of Champion Mistcrests
-			i(269858),	-- Pack of Hero Mistcrests
-			i(269859),	-- Pouch of Veteran Mistcrests
 			i(269861),	-- A Tattered Amani Scroll
-			i(269862),	-- Thalassian Token of Merit
-			i(269864),	-- Triumphant Satchel of Champion Mistcrests
-			i(269865),	-- Celebratory Pack of Hero Mistcrests
-			i(269866),	-- Glorious Cluster of Myth Mistcrests
-			i(269867),	-- Venerable Satchel of Veteran Mistcrests
 			i(269868),	-- Miniature Hand-Crafted Mask
 			i(269918),	-- Venom-Corroded Gallstone
 			i(269935),	-- Forgotten Trinket
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			i(270191),	-- Lil'Kruul's Hilt
 			i(270210),	-- Bird Feathers
 			i(270211),	-- Furiostraza's Filter
@@ -682,14 +601,7 @@ root(ROOTS.Unsorted, {
 			i(270898),	-- Snakeskin Lining
 			i(270899),	-- Snakeskin Lining
 			i(270900),	-- Pattern: Snakeskin Lining
-
-
-
-
-
-
 			i(271053),	-- Cleansing Water
-
 			i(271130),	-- Venom Infusion
 			i(271131),	-- Test Weapon
 			i(271132),	-- Essence Trap
@@ -706,16 +618,6 @@ root(ROOTS.Unsorted, {
 			i(271441),	-- Crushing Coiler Coif
 			i(271444),	-- Pauldrons of the Forgotten Sacrifice
 			i(271445),	-- Fanged Brute's Greatbelt
-
-
-
-
-
-
-
-
-
-
 			i(271638),	-- Bound Serpent's Jade Eye
 			i(271679),	-- Set Keystone Level: 2
 			i(271680),	-- Sinseared Repeater
@@ -730,10 +632,6 @@ root(ROOTS.Unsorted, {
 			i(271866),	-- Well-Worn Hatchet
 			i(271867),	-- Venom-Etched Sword
 			i(271868),	-- Splintering Spear
-
-
-
-
 			i(271881),	-- Dropped Key
 			i(271883),	-- Concentrated Silvermoon Health Potion
 			i(271884),	-- Concentrated Silvermoon Health Potion
@@ -959,7 +857,6 @@ root(ROOTS.Unsorted, {
 			i(274707),	-- Crystallized Venomblight Manaflux
 			i(274708),	-- Nebulous Voidcache: Nymrissa Wavecaller
 			i(274713),	-- Cache of Amani Treasures
-			i(274714),	-- Cache of Amani Treasures
 			i(274763),	-- Fleeting Liquid Luster
 			i(274764),	-- Fleeting Liquid Luster
 			i(274767),	-- Seaside Lounge Chair
@@ -994,7 +891,6 @@ root(ROOTS.Unsorted, {
 			i(274907),	-- Seaside Painted Surfboard
 			i(274909),	-- Seaside Murloc Tiki Totem
 			i(274921),	-- Pearl of Jubilation
-			i(274953),	-- Serpentine Iris
 			i(274954),	-- Pristine Fang
 			i(274965),	-- Ancient Curio
 			i(274970),	-- Ancient Curio
@@ -1145,13 +1041,11 @@ root(ROOTS.Unsorted, {
 			i(275631),	-- Corrosive Writhling
 			i(275632),	-- Volatile Venomfang
 			i(275634),	-- Artisan's Consortium Flyer
-
 			i(275653),	-- Sea-Dwelling Isle Serpent
 			i(275654),	-- Caustic Venomfang
 			i(275655),	-- Venom Serpent - White
 			i(275656),	-- Venom Serpent - Yellow
 			i(275657),	-- Apophic Soul Crusher
-
 			i(275659),	-- Hexflame Reaver
 			i(275660),	-- Preyhunter's Courser
 			i(275676),	-- R0CKY-To-Go
@@ -1163,7 +1057,6 @@ root(ROOTS.Unsorted, {
 			i(275702),	-- Preyhunter's Prismguard
 			i(275703),	-- ArcaneGolem2 Pet - Red
 			i(275704),	-- Preyhunter's Riftbreaker
-			i(275707),	-- Miasmic Jewelbinder
 			i(275726),	-- Preyhunter's Champion Chest
 			i(275728),	-- Preyhunter's Champion Sack
 			i(275822),	-- Preyhunter's Veteran Chest
@@ -1179,7 +1072,6 @@ root(ROOTS.Unsorted, {
 			i(275919),	-- Preyhunter's Adventurer Sack
 			i(275920),	-- Tarnished Amani Glaive
 			i(275936),	-- Delve-O-Bot 7001: Midnight Software Update Chip
-
 			i(275978),	-- Delver's Starter Kit
 			i(275986),	-- Delver's Cosmetic Surprise Bag
 			i(275988),	-- Corrosive Victory
@@ -1705,11 +1597,6 @@ root(ROOTS.Unsorted, {
 			i(279111),	-- [ph] SpiceWitch Legs - Pink
 			i(279112),	-- Clumped Asteroidea
 			i(279114),	-- [ph] SpiceWitch Head - Pink
-
-
-
-
-
 			i(279133),	-- [ph] SpiceWitch Head - Pink (Hair Vis)
 			i(279134),	-- [ph] SpiceWitch Shoulders - Pink
 			i(279135),	-- [ph] Ensemble: SpiceWitch Pink Attire
@@ -1783,7 +1670,6 @@ root(ROOTS.Unsorted, {
 			i(279376),	-- Opalescent Amani Peridot
 			i(279382),	-- Venom-Cursed Fragment
 			i(279384),	-- Bonemail Gauntlet
-
 			i(279428),	-- Midnight Gloomcap
 			i(279429),	-- Azure Gloomcap
 			i(279430),	-- Sepia Gloomcap
@@ -1811,14 +1697,12 @@ root(ROOTS.Unsorted, {
 			i(279478),	-- Ori'kassi's Barbed Tail
 			i(279479),	-- Leviathan's Eye
 			i(279483),	-- Three-Eyed Fish
-
 			i(279520),	-- Fabled Veteran's Cache
 			i(279522),	-- Surplus Bag of Party Favors
 			i(279523),	-- Overflowing Abundant Satchel
 			i(279524),	-- Brewer's Purple Kilt
 			i(279525),	-- Avid Learner's Supply Pack
 			i(279526),	-- Victorious Stormarion Pinnacle Cache
-			i(279527),	-- Apex Cache
 			i(279528),	-- Mag'har Laborer's Tunic
 			i(279529),	-- Brewer's Purple Shoulder Cape
 			i(279530),	-- Brewer's Purple Belt
@@ -1842,10 +1726,7 @@ root(ROOTS.Unsorted, {
 			i(279549),	-- Witch-Hunter's Undercoat
 			i(279550),	-- Potion of Venomous Return
 			i(279551),	-- Radical's Gilded Vestment
-			i(279573),	-- Fading Voidwhisper
 			i(279574),	-- Preyhunter's Hero Chest
-			i(279575),	-- Silvermoon Citizen's Emblem
-			i(279576),	-- Void Vestige
 			i(279579),	-- Cruel Warrior's Blade
 			i(279590),	-- Venomous Champion's Illustrious Banner
 			i(279610),	-- Bundle of Adventurer Dawncrests
@@ -1934,9 +1815,6 @@ root(ROOTS.Unsorted, {
 			i(280275),	-- Hanging Longwick Rope
 			i(280277),	-- Weathered Med'jai Signet
 			i(280278),	-- Temple Guardian's Ring
-
-
-
 
 			--[[ If Darkal Needs
 			n(CLASS, {
