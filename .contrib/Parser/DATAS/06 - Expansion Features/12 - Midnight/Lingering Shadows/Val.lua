@@ -255,6 +255,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 								i(274875),	-- Riftwalker's Lantern
 							},
 						}),
+						n(264868, {	-- Opprimius <Reaper of Beasts>
+							["coord"] = { 33.0, 43.0, VAL },
+							["questID"] = 96373,
+							["groups"] = {	-- Feet
+								i(274829),	-- Creature Corruptor Slippers
+								i(274837),	-- Corrupted Hide Boots
+								i(274845),	-- Greaves of Corrupted Scale
+								i(274853),	-- Creature Crushers
+								i(274863),	-- Cudgel of the Twisted Reaper
+							},
+						}),
 					})),
 					n(REWARDS, {
 						i(276089),	-- Field Accolades (Normal)
