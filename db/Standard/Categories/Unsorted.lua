@@ -8,7 +8,7 @@ x(12.0007,{awp=120007,g={
 h(-88,{
 i(274780,{f=55,spellID=1295335})}),
 flt(101,{
-i(275818)}),
+i(275818,{f=101,spellID=1297823})}),
 flt(2,{
 s(304800,269751,{f=20}),
 s(304801,269752,{f=23}),
@@ -178,7 +178,7 @@ s(308939,274637,{f=2}),
 s(308956,274715,{f=31}),
 s(308957,274716,{f=31}),
 s(308958,274717,{f=31}),
-i(275999),
+s(309522,275999,{f=2}),
 s(309643,276291,{f=1})}),
 h(-679,{
 de(5129,{itemID=248961,spellID=1248176}),
@@ -193,7 +193,6 @@ de(21061,{itemID=269605,spellID=1285735}),
 de(21945,{itemID=272353,spellID=1291006}),
 de(21946,{itemID=272354,spellID=1291007})}),
 flt(50,{
-i(275910,{f=55,spellID=1271402}),
 i(270273,{f=55,spellID=1287466}),
 i(276347),
 i(276351),
@@ -228,8 +227,7 @@ i(274620),
 i(274640),
 i(274783),
 i(274798),
-i(276276),
-i(277116)}),
+i(276276)}),
 flt(102,{
 toy(264368)})}}),
 x(12.0005,{awp=120005,g={
@@ -2589,7 +2587,6 @@ q(92922,{description="Area: |cFFf09f26Amani'Zar Village|r"}),
 q(92923,{description="Area: |cFFf09f26Amani'Zar Village|r"}),
 q(92924,{description="Area: |cFFf09f26Amani'Zar Village|r"}),
 q(93586,{description="Area: |cFFf09f26Zul'Aman|r"}),
-q(93607,{description="Category: |cFFf09f26Weekly Event|r"}),
 q(93608,{description="Category: |cFFf09f26Weekly Event|r"}),
 q(93610,{description="Category: |cFFf09f26Weekly Event|r"}),
 q(93640,{description="Area: |cFFf09f26Zul'Aman|r"}),

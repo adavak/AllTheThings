@@ -216,25 +216,25 @@ root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
 		["u"] = REAL_MONEY,
 	}),
 
-	-- Blizzcon 2026 Collection
+	-- Blizzcon 2026 Collection	-- TODO: removed September 28, 2026
 	iensemble(276872, {	-- Ensemble: Garb of the Dawnfire Phoenix (COSMETIC!)
 		["description"] = "Received after buying the Blizzcon 2026 World of Warcraft Bundle.",
-		["timeline"] = { ADDED_12_0_7, "removed 12.1.7.99999" },
+		["timeline"] = { ADDED_12_0_7, "removed 12.1.0.99999" },
 		["u"] = REAL_MONEY,
 	}),
 	i(274150, {	-- Murk'atath (PET!)
 		["description"] = "Received after buying the Blizzcon 2026 Ultimate Bundle.",
-		["timeline"] = { ADDED_12_0_7, "removed 12.1.7.99999" },
+		["timeline"] = { ADDED_12_0_7, "removed 12.1.0.99999" },
 		["u"] = REAL_MONEY,
 	}),
 	i(276873, {	-- Perch of the Dawnfire Phoenix (DECOR!)
 		["description"] = "Received after buying the Blizzcon 2026 World of Warcraft Bundle.",
-		["timeline"] = { ADDED_12_0_7, "removed 12.1.7.99999" },
+		["timeline"] = { ADDED_12_0_7, "removed 12.1.0.99999" },
 		["u"] = REAL_MONEY,
 	}),
 	i(274260, {	-- Rabbit'ath (MOUNT!)
 		["description"] = "Received after buying the Blizzcon 2026 World of Warcraft Bundle.",
-		["timeline"] = { ADDED_12_0_7, "removed 12.1.7.99999" },
+		["timeline"] = { ADDED_12_0_7, "removed 12.1.0.99999" },
 		["u"] = REAL_MONEY,
 	}),
 })));

@@ -51,7 +51,7 @@ q(82809,{qgs={209681},u=3,g={
 p(4590,{b=1,itemID=224259,npcID=224716,spellID=452222,u=3}),
 p(4589,{b=1,itemID=224261,npcID=224717,spellID=452221,u=3}),
 p(4591,{b=1,itemID=224260,npcID=224718,spellID=452223,u=3})}})}}),
-p(5052,{awp=120007,itemID=272956,u=3}),
+p(5052,{awp=120007,itemID=272956,npcID=263995,spellID=1291367,u=3}),
 p(4684,{awp=110007,itemID=231310,npcID=232533,spellID=468228,u=3}),
 p(2051,{awp=70300,b=1,itemID=147900,npcID=122033,spellID=243499,u=3}),
 p(2184,{awp=80001,b=1,itemID=160587,npcID=138742,spellID=272771,u=3}),

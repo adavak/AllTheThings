@@ -7596,7 +7596,7 @@ r(184497,{requireSkill=186})}}),
 q(38804,{coords={
 [680]={{28,26.4}}},lvl=10,qgs={93776},requireSkill=186,sourceQuests={38801},g={
 r(184498,{requireSkill=186})}})}}),
-ah(191970,{awp=70003,crs={93237},maps={630,634,641,646,650,680},requireSkill=186,type="s",g={
+ah(191970,{awp=70003,crs={93237},maps={630,634,641,646,650,680},requireSkill=186,symselector=2,type="s",g={
 q(38806,{lvl=45,providers={{"i",124502}},requireSkill=186,g={
 r(184504,{requireSkill=186})}}),
 q(38807,{coords={

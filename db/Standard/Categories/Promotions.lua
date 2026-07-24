@@ -207,7 +207,7 @@ de(15551,{itemID=264279,spellID=1271560}),
 de(15552,{itemID=264280,spellID=1271561})}}),
 p(4968,{awp=120001,b=1,description="Offer valid from April 13, 2026 (12pm ET) to May 15, 2026 (12pm ET). During the offer period, complete a purchase of eligible World of Warcraft items through the Blizzard Gear Store and receive a digital code.",itemID=262881,npcID=256663,rwp=120005,spellID=1269535,u=2}),
 de(16818,{awp=120005,description="Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between April 23rd, 3:00 p.m. & May 21st, 3:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",itemID=265394,rwp=120005,spellID=1275771,u=2}),
-toy(272339,{awp=120007,description="Break the Meta: Midnight Season 1\n\nBreak the Meta is focused on teams pushing keys as high as they can with off-meta specs and classes.\n\nComplete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +10|r or higher will receive an exclusive Toy to use in-game!.\n\nThe Event starts on July 14th at 8:00 AM PDT and lasts for 1 week.\nFor more details & requirements check out: raider.io/events/break-the-meta-midnight-season-1/event-info-rules",rwp=120007}),
+toy(272339,{awp=120007,description="Break the Meta: Midnight Season 1\n\nBreak the Meta is focused on teams pushing keys as high as they can with off-meta specs and classes.\n\nComplete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +10|r or higher will receive an exclusive Toy to use in-game!.\n\nThe Event starts on July 14th at 8:00 AM PDT and lasts for 1 week.\nFor more details & requirements check out: raider.io/events/break-the-meta-midnight-season-1/event-info-rules",rwp=120007,u=2}),
 de(16813,{awp=120007,description="Obtained through watching Twitch Streamers with Drops enabled for at least 4 hours between June 16th, 10:00 a.m. & July 14th, 10:00 p.m. PDT.\n\nYour Twitch account has to be connected with your Battle.net Account & you have to redeem the drop on Twitch before receiving it in your in-game collection as gift.",itemID=265389,rwp=120007,spellID=1275765,u=2}),
 mnt(1292356,{awp=120007,description="Obtained if you set up a 6-Month WoW Subscription since Patch 12.0.7.",itemID=273655,u=3})}}),
 h(-519,{awp=100007,rwp=100206,u=2,g={
@@ -280,7 +280,16 @@ ach(14904,{awp=90002,rwp=90200,u=2}),
 mnt(358072,{awp=100107,b=1,description="Received after buying the Blizzcon 2023 Collection: Legendary Pack.",itemID=258427,lvl=10,rwp=100205,u=2}),
 toy(210042,{awp=100107,b=1,description="Received after buying the Blizzcon 2023 Collection: Epic Pack.",rwp=100205,u=2}),
 p(3579,{awp=100107,description="Received after buying the Blizzcon 2023 Collection: Epic Pack.",itemID=258482,npcID=205467,rwp=100205,spellID=411448,u=2}),
-ach(18250,{awp=100107,providers={{"n",205467}},rwp=100205,u=2})}),
+ach(18250,{awp=100107,providers={{"n",205467}},rwp=100205,u=2}),
+en(276872,{awp=120007,description="Received after buying the Blizzcon 2026 World of Warcraft Bundle.",questID=97195,rwp=120100,spellID=1300978,tmogSetID=5715,u=3,g={
+s(309897,276864,{f=2}),
+s(309896,276861,{f=2}),
+s(309899,276868,{f=3}),
+s(309898,276866,{f=3}),
+s(309900,276870,{f=3})}}),
+p(5064,{awp=120007,description="Received after buying the Blizzcon 2026 Ultimate Bundle.",itemID=274150,npcID=264863,rwp=120100,spellID=1293301,u=3}),
+de(25936,{awp=120007,description="Received after buying the Blizzcon 2026 World of Warcraft Bundle.",itemID=276873,rwp=120100,spellID=1300983,u=3}),
+mnt(1293456,{awp=120007,description="Received after buying the Blizzcon 2026 World of Warcraft Bundle.",itemID=274260,rwp=120100,u=3})}),
 h(-521,{u=3,g={
 x(1,{description="These rewards were made available to anyone who purchased an original Collector's Edition of World of Warcraft.\n\nThere may still be copies online, but expect to lose a sizable chunk of real world currency for it.",u=3,g={
 h(-45,{rwp=20001,u=2,g={
