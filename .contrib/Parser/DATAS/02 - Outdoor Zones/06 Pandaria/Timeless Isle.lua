@@ -1529,6 +1529,17 @@ root(ROOTS.Zones, {
 					n(72769, {	-- Spirit of Jadefire
 						["questID"] = 33293,
 						["isDaily"] = true,
+						["coords"] = {
+							{ 56.2, 30.4, 555 },
+							{ 62.6, 36.0, 555 },
+							{ 73.8, 31.0, 555 },
+							{ 70.6, 62.6, 555 },
+							{ 64.0, 47.8, 555 },
+							{ 65.2, 64.8, 555 },
+							{ 54.8, 68.0, 555 },
+							{ 48.2, 62.2, 555 },
+							{ 43.1, 41.2, TIMELESS_ISLE },	-- cave entrance
+						},
 						["groups"] = {
 							i(104258),	-- Glowing Green Ash
 							i(104307),	-- Jadefire Spirit (PET!)

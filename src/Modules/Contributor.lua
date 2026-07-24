@@ -256,6 +256,7 @@ api.AddReportData = AddReportData
 local MapPrecisionOverrides = {
 	  [24] = 2,	-- Light's Hope Chapel
 	  [46] = 3,	-- Karazhan Catacombs
+	 [555] = 2,	-- Cavern of Lost Spirits
 	 [590] = 2.5,	-- Frostwall
 	 [626] = 4,	-- The Hall of Shadows
 	 [629] = 3,	-- Aegwynn's Gallery
