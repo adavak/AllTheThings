@@ -273,7 +273,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 								["timeline"] = { ADDED_11_2_0_SEASONSTART },
 							}),
 							i(185840, {	-- Seal of the Panoply
-								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
+								["timeline"] = { ADDED_9_1_0 },
 							}),
 							i(185809),	-- Venza's Powderbelt
 						},
@@ -405,7 +405,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, {
 							i(185796),	-- Dragonbane Diadem
 							i(185823),	-- Fatebreaker, Destroyer of Futures
 							i(185776, {	-- Hooktail's Commanding Gaze
-								["timeline"] = { ADDED_9_1_0, REMOVED_11_2_0_SEASONSTART },
+								["timeline"] = { ADDED_9_1_0 },
 							}),
 							i(185797),	-- Rakishly Tipped Tricorne
 							i(185841),	-- Timetwister Tulwar

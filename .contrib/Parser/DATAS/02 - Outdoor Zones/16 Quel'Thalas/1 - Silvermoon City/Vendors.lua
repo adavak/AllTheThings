@@ -377,7 +377,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}),
 			n(267859, {	-- Richmond <Sporting Goods>
 				["coord"] = { 39.4, 59.4, MAP.MIDNIGHT.SILVERMOON_CITY },
-				["timeline"] = { ADDED_12_0_7 },
+				["timeline"] = { ADDED_12_0_7, REMOVED_12_1_0 },
 				["groups"] = {
 					i(274450),	-- Alliance Tabard of Participation (COSMETIC!)
 					i(274451),	-- Horde Tabard of Participation (COSMETIC!)

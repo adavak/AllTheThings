@@ -465,7 +465,7 @@ root(ROOTS.Zones, {
 							i(113169),	-- Rangari Initiate Longbow
 							i(113175),	-- Rangari Skinning Knife
 							--
-							h(i(118186)),	-- Frostwolf Wisdom Stick
+							--h(i(118186)),	-- Frostwolf Wisdom Stick
 						},
 					}),
 					q(34352, {	-- Darktide Defender

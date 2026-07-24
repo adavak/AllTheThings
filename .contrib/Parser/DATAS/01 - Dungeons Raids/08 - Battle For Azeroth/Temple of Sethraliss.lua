@@ -164,7 +164,9 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 				["difficulties"] = { DIFFICULTY.DUNGEON.KEYSTONE, DIFFICULTY.DUNGEON.MYTHIC },
 				["lvl"] = 120,
 				["groups"] = {
-					ach(12503),	-- Snake Eyes
+					ach(12503, {	-- Snake Eyes
+						["timeline"] = { REMOVED_12_1_0 },
+					}),
 					e(2142, {	-- Adderis and Aspix
 						["crs"] = {
 							133379,	-- Adderis
@@ -188,7 +190,9 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 							133384,	-- Merektha
 						},
 						["groups"] = {
-							ach(12507),	-- Snake Eater
+							ach(12507, {	-- Snake Eater
+								["timeline"] = { REMOVED_12_1_0 },
+							}),
 							i(160832, {	-- Viable Cobra Egg
 								i(160831, {	-- Cracking Cobra Egg
 									i(160702),	-- Spawn of Merektha (PET!)
@@ -221,7 +225,9 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					e(2145, {	-- Avatar of Sethraliss
 						["crs"] = { 133392 },	-- Avatar of Sethraliss
 						["groups"] = {
-							ach(12508),	-- Good Night, Sweet Prince
+							ach(12508, {	-- Good Night, Sweet Prince
+								["timeline"] = { REMOVED_12_1_0 },
+							}),
 							ach(12506),	-- Mythic: The Temple of Sethraliss
 							ach(13004),	-- Mythic: The Temple of Sethraliss Guild Run
 							i(158373),	-- Resonating Crystal Scimitar
