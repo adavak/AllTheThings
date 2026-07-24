@@ -1273,6 +1273,10 @@ root(ROOTS.Zones, {
 						["questID"] = 32967,
 						["isDaily"] = true,
 						["coord"] = { 44.0, 70.0, TIMELESS_ISLE },
+						["providers"] = {
+							{ "n", 73297 },	-- Fishgorged Crane (Dead)
+							{ "n", 72095 },	-- Fishgorged Crane
+						},
 						["groups"] = {
 							i(104268),	-- Pristine Stalker Hide
 						},
@@ -1385,6 +1389,7 @@ root(ROOTS.Zones, {
 						["description"] = "Travel around the zone and kill Death Adders — whenever one respawns, there's a chance it will respawn as an Imperial Python instead of the normal mob.",
 						["questID"] = 33303,
 						["isDaily"] = true,
+						["provider"] = { "n", 72841 },	-- Death Adder
 						["coords"] = {	-- listing basically all the coordinates, just because they're so spread out!
 							{ 30.8, 36.2, TIMELESS_ISLE },
 							{ 29.0, 43.6, TIMELESS_ISLE },
@@ -1409,6 +1414,7 @@ root(ROOTS.Zones, {
 						["description"] = "Travel around the area where the Celestial bosses spawn and kill Ironfur Great Bulls — whenever one respawns, there's a chance it will respawn as an Ironfur Steelhorn instead of the normal mob.",
 						["questID"] = 33296,
 						["isDaily"] = true,
+						["provider"] = { "n", 72844 },	-- Ironfur Great Bull
 						["coords"] = {
 							{ 43.8, 43.8, TIMELESS_ISLE },
 							{ 41.1, 37.6, TIMELESS_ISLE },
@@ -1457,9 +1463,37 @@ root(ROOTS.Zones, {
 						["questID"] = 33302,
 						["isDaily"] = true,
 						["coords"] = {
-							{ 23.6, 28.6, TIMELESS_ISLE },
-							{ 68.8, 74.8, TIMELESS_ISLE },
+							{ 23.5, 27.9, TIMELESS_ISLE },
+							{ 30.7, 31.3, TIMELESS_ISLE },
+							{ 21.8, 31.4, TIMELESS_ISLE }, -- (x2)
+							{ 22.4, 35.4, TIMELESS_ISLE }, -- (x4)
+							{ 20.6, 47.6, TIMELESS_ISLE },
+							{ 18.0, 54.3, TIMELESS_ISLE }, -- (x2)
+							{ 16.2, 60.6, TIMELESS_ISLE },
+							{ 18.4, 57.9, TIMELESS_ISLE },
+							{ 18.4, 62.5, TIMELESS_ISLE },
+							{ 21.1, 63.5, TIMELESS_ISLE },
+							{ 20.8, 71.3, TIMELESS_ISLE },
+							{ 17.8, 73.7, TIMELESS_ISLE },
+							{ 20.2, 77.7, TIMELESS_ISLE },
+							{ 25.1, 74.9, TIMELESS_ISLE },
+							{ 27.5, 74.7, TIMELESS_ISLE },
+							{ 27.1, 80.2, TIMELESS_ISLE },
+							{ 29.8, 84.3, TIMELESS_ISLE },
+							{ 32.7, 85.4, TIMELESS_ISLE },
+							{ 36.0, 87.9, TIMELESS_ISLE },
+							{ 38.6, 86.7, TIMELESS_ISLE },
+							{ 40.9, 90.5, TIMELESS_ISLE },
+							{ 45.2, 89.5, TIMELESS_ISLE },
+							{ 52.4, 86.4, TIMELESS_ISLE },
+							{ 62.1, 83.0, TIMELESS_ISLE },
+							{ 62.5, 79.8, TIMELESS_ISLE },
+							{ 65.8, 78.4, TIMELESS_ISLE },
+							{ 69.1, 74.9, TIMELESS_ISLE },
+							{ 69.9, 71.1, TIMELESS_ISLE },
+							{ 70.6, 65.0, TIMELESS_ISLE }, -- (x2)
 						},
+						["provider"] = { "n", 72766 },	-- Ancient Spineclaw
 						["groups"] = {
 							i(104293),	-- Scuttler's Shell
 							i(104168),	-- Spineclaw Crab (PET!)
