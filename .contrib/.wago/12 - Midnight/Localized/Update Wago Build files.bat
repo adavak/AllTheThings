@@ -22,6 +22,9 @@ exit /b
 :downloadbaselocale
 echo Downloading %1...
 if not exist "%1.%BUILD%.csv" (
+	if exist "%1*.csv" (
+		del /Q "%1*.csv"
+	)
 	if "%1" == "AchievementCategory" (
 		curl -o "%1.%BUILD%.csv" "https://wago.tools/db2/Achievement_Category/csv?build=%BUILD%"
 	) else (
@@ -33,6 +36,9 @@ exit /b
 :downloadlocale
 echo Downloading %1 for locale %2...
 if not exist "%1.%2.%BUILD%.csv" (
+	if exist "%1.%2*.csv" (
+		del /Q "%1.%2*.csv"
+	)
 	if "%1" == "AchievementCategory" (
 		curl -o "%1.%2.%BUILD%.csv" "https://wago.tools/db2/Achievement_Category/csv?build=%BUILD%&locale=%2"
 	) else (
